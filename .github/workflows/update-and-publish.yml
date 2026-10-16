@@ -19,14 +19,16 @@ jobs:
     steps:
       - name: ソースを取得
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
       - name: 監査済みの更新ソースがある場合に展開
         run: |
           python3 - <<'PY'
           from pathlib import Path
           import hashlib, zipfile
-          archive=Path('update-source-1.2.1.zip')
+          archive=Path('update-source-1.3.0.zip')
           if archive.is_file():
-              assert hashlib.sha256(archive.read_bytes()).hexdigest() == 'ff8986d1b721ba0e99a448dd40f2205a719df17d333d6c063f43ff53e6b4aad5'
+              assert hashlib.sha256(archive.read_bytes()).hexdigest() == '0bf80fe5e4e7ee6a2a7b5bffdb63d36064362e07676ec01c7d9f86682531f68c'
               root=Path.cwd().resolve()
               with zipfile.ZipFile(archive) as z:
                   for entry in z.infolist():
@@ -39,6 +41,8 @@ jobs:
         run: python3 --version
       - name: HTML解析ライブラリを用意
         run: python3 -m pip install --disable-pip-version-check -r requirements.txt
+      - name: 取りこぼし再発防止の検査
+        run: python3 -m unittest discover -s scripts -p test_discovery.py -v
       - name: 公開情報の取得と変更確認
         run: python3 scripts/update_sources.py
       - name: 公開対象と機密情報の形式を確認
