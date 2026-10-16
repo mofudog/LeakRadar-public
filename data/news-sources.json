@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "maxArticlesPerRun": 35,
-  "maxOfficialFetchesPerRun": 45,
-  "articleMaxAgeDays": 45,
+  "maxArticlesPerRun": 70,
+  "maxOfficialFetchesPerRun": 100,
+  "articleMaxAgeDays": 1098,
   "feeds": [
     {
       "name": "Security NEXT",
@@ -43,6 +43,42 @@
         "www.itmedia.co.jp"
       ],
       "bodySelector": ".p-article-body, #cmsBody, .inner"
+    },
+    {
+      "name": "ITmedia 総合",
+      "url": "https://rss.itmedia.co.jp/rss/2.0/itmedia_all.xml",
+      "articleHosts": [
+        "www.itmedia.co.jp"
+      ],
+      "bodySelector": ".p-article-body, #cmsBody, main, article, .inner"
+    },
+    {
+      "name": "ITmedia Mobile",
+      "url": "https://rss.itmedia.co.jp/rss/2.0/mobile.xml",
+      "articleHosts": [
+        "www.itmedia.co.jp"
+      ],
+      "bodySelector": ".p-article-body, #cmsBody, main, article, .inner"
+    },
+    {
+      "name": "ITmedia NEWS 全新着",
+      "url": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+      "articleHosts": [
+        "www.itmedia.co.jp"
+      ],
+      "bodySelector": ".p-article-body, #cmsBody, main, article, .inner"
+    }
+  ],
+  "archives": [
+    {
+      "name": "Security NEXT 月別記事",
+      "urlTemplate": "https://www.security-next.com/date/{year}/{month:02d}",
+      "months": 37,
+      "articleHosts": [
+        "www.security-next.com"
+      ],
+      "bodySelector": ".content",
+      "maxPagesPerRun": 4
     }
   ]
 }

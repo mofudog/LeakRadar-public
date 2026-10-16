@@ -6,7 +6,7 @@ from __future__ import annotations
 import concurrent.futures, datetime as dt, hashlib, html, json, os, re, sys, urllib.error, urllib.parse, urllib.request
 from html.parser import HTMLParser
 from bs4 import BeautifulSoup
-from news_discovery import run as discover_news, public_url
+from news_discovery import run as discover_news, public_url, decode_html
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 UTC=dt.timezone.utc
@@ -98,7 +98,7 @@ def fetch(url,allowed):
   if 'json' in ctype:return {'url':response.url,'json':json.loads(data.decode('utf-8-sig')),'http':response.status}
   if not charset:
    m=re.search(br'charset\s*=\s*["\']?([a-zA-Z0-9_-]+)',data[:4096]);charset=m.group(1).decode('ascii') if m else 'utf-8'
-  decoded=data.decode(charset,errors='replace')
+  decoded=decode_html(data,charset)
   page=Page();page.feed(decoded)
   soup=BeautifulSoup(decoded,'html.parser')
   # Restrict publication dates to metadata or the exact article's own news card.
@@ -211,7 +211,7 @@ def main():
    x=foreign_changes[r['id'].removeprefix('hibp-')]
    r.update(status='needsReview',audience='HIBPの原データが更新されました。旧要約の表示を一時停止しています。出典の最新原文を確認してください。',items=[],scale='元データ更新のため再確認が必要です。',note='自動取得で日本の対象者を判定していません。',excluded='',originalDescription=clean(re.sub('<[^>]+>',' ',x['Description'])),sourceChanged=True)
   records.append(r)
- existing={normalize_url(r['source']) for r in records}
+ existing={normalize_url(u) for r in records for u in [r['source']]+r.get('additionalSources',[])}
  records.extend(a for u,a in announcements.items() if normalize_url(a['source']) not in existing)
  # Retain only the last three calendar years; HIBP import dates do not make old incidents recent.
  jst_today=NOW.astimezone(dt.timezone(dt.timedelta(hours=9))).date()
@@ -222,8 +222,20 @@ def main():
  old_status=read(ROOT/'dist/update-status.json',{})
  update={'status':status,'lastAttemptAt':STAMP,'lastSuccessAt':STAMP if status=='complete' else old_status.get('lastSuccessAt'),'lastPartialSuccessAt':STAMP if status=='partial' else old_status.get('lastPartialSuccessAt'),'successfulFetches':success,'failedFetches':len(errors),'changedReviewedSources':changes,'automaticAnnouncements':sum(r.get('automaticallyCollected',False) for r in records),'watchedDocumentCount':len(sources),'watchedIndexCount':len(indexes),'schedule':'毎時（GitHub Actionsの遅延・停止があり得ます）','errors':errors,'fullyComprehensive':False,'summaryReviewedAt':reviewed.get('checkedAt'),'cloudRun':os.environ.get('GITHUB_ACTIONS')=='true','retentionStart':retention_start.isoformat(),'newsDiscovery':{k:v for k,v in news_result.items() if k not in ('queue','confirmed','errors')}}
  write(ROOT/'data/source-state.json',{'documents':documents,'announcements':announcements,'hibp':{x['Name']:digest(json.dumps(x,sort_keys=True)) for x in foreign},'lastAttemptAt':STAMP})
+ followups=[{'newsSource':u,'title':q.get('title',''),'reportedDate':q['published'],'publisher':q['publisher'],'firstSeenAt':q.get('firstSeenAt'),'lastCheckedAt':q.get('lastCheckedAt'),'attempts':q.get('attempts',0),'reasons':q['pending']} for u,q in news_result.get('queue',{}).items() if q.get('pending')]
+ report={'checkedAt':STAMP,'fullyComprehensive':False,'completeHistoricalBackfill':False,'retentionStart':retention_start.isoformat(),'discovery':{k:v for k,v in news_result.items() if k not in ('queue','confirmed','errors')},'sourceErrors':errors,'followupNewsCandidates':followups,'note':'候補記事は未確認・重複・事故以外の記事を含みます。候補数を未掲載事故数とは扱いません。RSS外になった候補と処理上限による保留も再確認します。3年分の全事案を収集済みとするものではありません。'}
+ write(ROOT/'data/coverage-report.json',report)
+ update['coverageReport']='data/coverage-report.json'
+ update['unresolvedNewsCandidates']=len(followups)
+ update['deferredNewsCandidates']=sum(not q.get('lastCheckedAt') for q in news_result.get('queue',{}).values())
+ if os.environ.get('GITHUB_ACTIONS')=='true' and (errors or followups):
+  print(f"::warning title=収集確認が必要です::取得エラー {len(errors)} 件、未着手の記事 {update['deferredNewsCandidates']} 件、追跡が必要な記事 {len(followups)} 件。data/coverage-report.json を確認してください。候補記事数は事故数ではありません。")
+ summary=os.environ.get('GITHUB_STEP_SUMMARY')
+ if summary:
+  with open(summary,'a',encoding='utf-8') as f:
+   f.write(f"## 収集状況（網羅性の保証ではありません）\n\nRSS: {news_result.get('successfulFeeds',0)}/{news_result.get('feedCount',0)}、月別記事ページ: {news_result.get('successfulArchivePages',0)}\n\n記事候補: {news_result.get('newsCandidates',0)}、今回確認: {news_result.get('newsArticlesChecked',0)}、未着手: {update['deferredNewsCandidates']}、追跡が必要な記事: {len(followups)}\n\n公式資料の取得失敗等: {len(errors)}。追跡理由は data/coverage-report.json を参照してください。候補記事数は事故数ではありません。\n")
  # Retain the editorial HIBP baseline. Raw updates must not silently approve a Japanese summary.
- write(ROOT/'dist/incidents.json',{**reviewed,'version':'1.2.1','incidents':records,'automaticUpdateStatus':status,'automaticLastAttemptAt':STAMP})
+ write(ROOT/'dist/incidents.json',{**reviewed,'version':'1.3.0','incidents':records,'automaticUpdateStatus':status,'automaticLastAttemptAt':STAMP})
  write(ROOT/'dist/update-status.json',update)
  print(json.dumps({k:v for k,v in update.items() if k!='errors'},ensure_ascii=False))
  if not success:raise SystemExit(1)

@@ -1,18 +1,26 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-16T22:44:59+00:00",
+  "lastAttemptAt": "2026-10-16T23:25:17+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-16T22:44:59+00:00",
-  "successfulFetches": 72,
-  "failedFetches": 6,
+  "lastPartialSuccessAt": "2026-10-16T23:25:17+00:00",
+  "successfulFetches": 99,
+  "failedFetches": 11,
   "changedReviewedSources": 1,
-  "automaticAnnouncements": 7,
-  "watchedDocumentCount": 43,
-  "watchedIndexCount": 33,
+  "automaticAnnouncements": 19,
+  "watchedDocumentCount": 65,
+  "watchedIndexCount": 42,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
     {
       "url": "https://support.rakuten-drive.com/hc/ja/articles/62934949147929",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www2.sagawa-exp.co.jp/information/detail/426/",
+      "error": "Source body could not be read"
+    },
+    {
+      "url": "https://support-qa.eplus.jp/hc/ja/articles/62711500727961-%E5%BC%8A%E7%A4%BE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AE%E7%99%BA-%E3%81%8A%E3%82%88%E3%81%B3%E5%80%8B-%E6%83%85%E5%A0%B1-%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -32,8 +40,20 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "url": "https://www.burgerking.co.jp/",
+      "error": "Source body could not be read"
+    },
+    {
+      "url": "https://www2.sagawa-exp.co.jp/information/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
       "url": "https://www.dkkaraoke.co.jp/stockinfo/irnews/index.html",
       "error": "Only public HTTPS sources are allowed"
+    },
+    {
+      "url": "https://www.monogatari.co.jp/ir/ir_news/",
+      "error": "Source body could not be read"
     }
   ],
   "fullyComprehensive": false,
@@ -41,13 +61,25 @@
   "cloudRun": true,
   "retentionStart": "2023-10-17",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-16T22:44:59+00:00",
-    "feedCount": 5,
-    "successfulFeeds": 5,
-    "newsCandidates": 51,
-    "newsArticlesChecked": 35,
-    "officialFetches": 18,
-    "confirmedOfficialAnnouncements": 4,
-    "pendingNewsArticles": 44
-  }
+    "lastAttemptAt": "2026-10-16T23:25:17+00:00",
+    "feedCount": 8,
+    "successfulFeeds": 8,
+    "successfulArchivePages": 4,
+    "newsCandidates": 84,
+    "newsArticlesChecked": 70,
+    "deferredNewsArticles": 0,
+    "officialFetches": 75,
+    "confirmedOfficialAnnouncements": 23,
+    "pendingNewsArticles": 59,
+    "archiveCursors": {
+      "Security NEXT 月別記事": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    }
+  },
+  "coverageReport": "data/coverage-report.json",
+  "unresolvedNewsCandidates": 59,
+  "deferredNewsCandidates": 0
 }
