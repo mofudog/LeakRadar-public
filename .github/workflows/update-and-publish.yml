@@ -1,0 +1,78 @@
+name: 情報漏洩チェック 自動更新・公開
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+concurrency:
+  group: information-leak-check-publish
+  cancel-in-progress: false
+jobs:
+  update-and-build:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: ソースを取得
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: 初回の監査済みソースを展開
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib, zipfile
+          archive=Path('bootstrap-source.zip')
+          if archive.is_file():
+              assert hashlib.sha256(archive.read_bytes()).hexdigest() == '5cbdb59a0b41521dfd18aab2e4a78c28185de2c29c1959d11ca768bcf68528d2'
+              root=Path.cwd().resolve()
+              with zipfile.ZipFile(archive) as z:
+                  for entry in z.infolist():
+                      target=(root/entry.filename).resolve()
+                      assert target.is_relative_to(root) and '.git' not in Path(entry.filename).parts and '.github' not in Path(entry.filename).parts
+                  z.extractall(root)
+              archive.unlink()
+          PY
+      - name: Pythonを確認
+        run: python3 --version
+      - name: HTML解析ライブラリを用意
+        run: python3 -m pip install --disable-pip-version-check -r requirements.txt
+      - name: 公開情報の取得と変更確認
+        run: python3 scripts/update_sources.py
+      - name: 公開対象と機密情報の形式を確認
+        run: python3 scripts/audit_public_files.py
+      - name: 公開ファイルの整合性を確認
+        run: python3 scripts/validate_site.py
+      - name: 更新データを保存
+        run: |
+          git config user.name "information-leak-check updater"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data dist scripts README.md SECURITY.md requirements.txt .gitignore
+          git add -u
+          if ! git diff --cached --quiet; then
+            git commit -m "Update public source checks and announcements"
+            git push
+          fi
+      - name: 静的ファイルを公開用にまとめる
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: dist
+          retention-days: 1
+  deploy:
+    permissions:
+      pages: write
+      id-token: write
+    needs: update-and-build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: GitHub Pagesを構成
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+      - name: GitHub Pagesへ公開
+        id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
