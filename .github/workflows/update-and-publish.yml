@@ -26,9 +26,9 @@ jobs:
           python3 - <<'PY'
           from pathlib import Path
           import hashlib, zipfile
-          archive=Path('update-source-1.3.0.zip')
+          archive=Path('update-source-1.3.1.zip')
           if archive.is_file():
-              assert hashlib.sha256(archive.read_bytes()).hexdigest() == '0bf80fe5e4e7ee6a2a7b5bffdb63d36064362e07676ec01c7d9f86682531f68c'
+              assert hashlib.sha256(archive.read_bytes()).hexdigest() == '8e6455f08b218d946d1d4b7c38b01f38a094bb65dfcafdbe06853d9a7f093717'
               root=Path.cwd().resolve()
               with zipfile.ZipFile(archive) as z:
                   for entry in z.infolist():
