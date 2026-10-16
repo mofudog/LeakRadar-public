@@ -1,4 +1,4 @@
-# 情報漏洩チェック Ver 1.2.0
+# 情報漏洩チェック Ver 1.2.1
 制作 mofu / Copyright 2026 mofu
 
 企業の公表資料を探し、対象の登録・利用条件を確認する無料・広告なしの静的サイトです。個人の漏洩有無を判定するものではありません。ヘルプ・免責事項は dist/help.html と dist/about.html にあります。
@@ -23,3 +23,4 @@ python scripts/validate_site.py
 Security NEXT・ScanNetSecurity・INTERNET Watch・ITmediaの5本のRSSを取得し、記事本文の参照リンクから公式発表を確認します。data/news-sources.jsonで収集先と1回の件数上限を管理します。ニュース本文は保存・転載しません。確認不能な候補はdata/news-discovery-state.jsonのqueueに保留し、公開一覧には混ぜません。発表元の表示・日付・本文による照合は保守的な規則によるもので、全件の発見・正確な意味理解を保証しません。条件要約は人による確認が必要です。AI APIは使用しません。
 
 直近3暦年の掲載条件は実行時の日本時間で更新します。RSSの現在分から発見する仕組みのため、3年分すべての過去事案を収集したものではありません。
+
