@@ -19,14 +19,14 @@ jobs:
     steps:
       - name: ソースを取得
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      - name: 初回の監査済みソースを展開
+      - name: 監査済みの更新ソースがある場合に展開
         run: |
           python3 - <<'PY'
           from pathlib import Path
           import hashlib, zipfile
-          archive=Path('bootstrap-source.zip')
+          archive=Path('update-source-1.2.0.zip')
           if archive.is_file():
-              assert hashlib.sha256(archive.read_bytes()).hexdigest() == '5cbdb59a0b41521dfd18aab2e4a78c28185de2c29c1959d11ca768bcf68528d2'
+              assert hashlib.sha256(archive.read_bytes()).hexdigest() == '03310ef41816e2d09197e9af8fb811a9dd5f82538684e235bbbf1a420a383a1b'
               root=Path.cwd().resolve()
               with zipfile.ZipFile(archive) as z:
                   for entry in z.infolist():
