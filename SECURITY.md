@@ -1,6 +1,6 @@
 # 情報漏洩チェック：公開時の安全対策
 
-制作 mofu / Copyright 2026 mofu / Ver 1.3.0
+制作 mofu / Copyright 2026 mofu / Ver 1.3.1
 
 ## 保持する情報
 

@@ -21,7 +21,7 @@ from bs4 import BeautifulSoup
 from pypdf import PdfReader
 
 ROOT = Path(__file__).resolve().parents[1]
-KEY = re.compile(r'漏えい|漏洩|情報流出|個人情報.{0,12}流出|不正アクセス|第三者.{0,12}閲覧|誤送信|誤交付|誤表示|不正持ち出し')
+KEY = re.compile(r'漏えい|漏洩|情報流出|個人情報.{0,12}流出|不正アクセス|第三者.{0,12}閲覧|誤送信|誤交付|誤表示|不正持ち出し|(?:個人情報|顧客情報|お客さま情報|患者情報).{0,30}(?:紛失|所在不明)|(?:紛失|所在不明).{0,30}(?:個人情報|顧客情報|お客さま情報|患者情報)')
 SELF = re.compile(r'当社|弊社|当法人|当院|本学|当行|当組合|当財団|当協会|当機構|弊会|当町|当市|当県')
 BLOCK = re.compile(r'(^|\.)(?:google|youtube|facebook|twitter|instagram|linkedin|amazon|doubleclick)\.|(^|\.)(?:t\.co|x\.com|prtimes\.jp|value-press\.com|b\.hatena\.ne\.jp|news\.yahoo\.co\.jp)$')
 EXCLUDE = re.compile(r'/login|/signin|/contact|/privacy|/policy|/terms|/recruit|/search|/tag/')
@@ -108,7 +108,7 @@ def pdf_announcement(raw, news_text, known=None):
     company = known
     if not company:
         for line in lines[:20]:
-            if re.fullmatch(r'(?:株式会社|有限会社|合同会社)[\wァ-ヶー一-龥＆&]{2,45}', compact(line)):
+            if re.fullmatch(r'(?:(?:株式会社|有限会社|合同会社)[\wァ-ヶー一-龥＆&]{2,45}|[\wァ-ヶー一-龥＆&]{2,45}(?:株式会社|有限会社|合同会社))', compact(line)):
                 short = re.sub(r'株式会社|有限会社|合同会社', '', compact(line))
                 if len(short) >= 3 and short in compact(news_text):
                     company = re.sub(r'\s+', '', line)
@@ -217,8 +217,8 @@ def run():
         retention_start = today.replace(year=today.year-3)
     except ValueError:
         retention_start = today.replace(year=today.year-3, day=28)
-    queue = {u:q for u,q in previous.get('queue', {}).items() if not urlparse.urlsplit(u).query}
-    for q in queue.values():q['pending']=[p for p in q.get('pending',[]) if not urlparse.urlsplit(p['url']).query and not BLOCK.search(urlparse.urlsplit(p['url']).hostname or '')]
+    queue = dict(previous.get('queue', {}))
+    for q in queue.values():q['pending']=[p for p in q.get('pending',[]) if not BLOCK.search(urlparse.urlsplit(p['url']).hostname or '')]
     confirmed = previous.get('confirmed', {})
     errors, articles = [], {}
     feed_ok = 0
@@ -245,48 +245,76 @@ def run():
             feed_ok += 1
         except Exception as error:
             errors.append({'url': feed['url'], 'error': type(error).__name__ + ': ' + str(error)[:100]})
-    # Monthly archives recover articles that have already fallen out of short RSS feeds.
+    # Persist every monthly pagination URL; a first page is never a completed month.
     archive_ok = 0
+    archive_progress = previous.get('archiveProgress', {})
     for archive in config.get('archives', []):
+        progress = archive_progress.setdefault(archive['name'], {})
         months = archive.get('months', 1)
-        per_run = min(months, archive.get('maxPagesPerRun', months))
-        completed = set(archive_cursors.get(archive['name'], []))
-        historic = []
-        for offset in range(1, months):
-            month = today.year * 12 + today.month - 1 - offset
-            key = f'{month // 12:04d}-{month % 12 + 1:02d}'
-            if key not in completed:
-                historic.append(offset)
-        offsets = [0] + historic[:max(0, per_run-1)]
-        for offset in offsets:
-            month = today.year * 12 + today.month - 1 - offset
-            url = archive['urlTemplate'].format(year=month // 12, month=month % 12 + 1)
+        month_keys = []
+        for offset in range(months):
+            number = today.year * 12 + today.month - 1 - offset
+            key = f'{number // 12:04d}-{number % 12 + 1:02d}'
+            base = archive['urlTemplate'].format(year=number // 12, month=number % 12 + 1)
+            month_keys.append(key)
+            progress.setdefault(key, {'base': base, 'pending': [base], 'visited': []})
+        progress = {k: progress[k] for k in month_keys}
+        archive_progress[archive['name']] = progress
+        current = progress[month_keys[0]]
+        # Re-read current-month first page for new posts, then resume saved pages.
+        work = [(month_keys[0], current['base'])]
+        work.extend((k, u) for k in month_keys for u in progress[k]['pending'] if (k, u) not in work)
+        done_this_run = set()
+        limit = archive.get('maxPagesPerRun', 4)
+        while work and len(done_this_run) < limit and time.monotonic() < deadline:
+            key, url = work.pop(0)
+            if url in done_this_run:
+                continue
+            done_this_run.add(url)
+            month_state = progress[key]
             try:
-                _, raw, charset = fetch(url)
+                _, raw, charset = fetch(url, archive['articleHosts'])
                 soup = BeautifulSoup(decode_html(raw, charset), 'html.parser')
-                found = 0
+                dated = 0
                 for dl in soup.select('dl'):
                     date = None
                     for node in dl.find_all(['dt', 'dd'], recursive=False):
                         if node.name == 'dt':
                             date = date_value(node.get_text(' ', strip=True))
                             continue
-                        if not date or not today - dt.timedelta(days=config['articleMaxAgeDays']) <= date <= today:
+                        if not date:
                             continue
                         for anchor in node.select('a[href]'):
                             title = anchor.get_text(' ', strip=True)
                             link = urlparse.urljoin(url, anchor['href'])
-                            if KEY.search(title) and urlparse.urlsplit(link).hostname in archive['articleHosts']:
+                            if urlparse.urlsplit(link).hostname not in archive['articleHosts']:
+                                continue
+                            dated += 1
+                            if KEY.search(title) and retention_start <= date <= today:
                                 articles.setdefault(link, dict(url=link, date=date.isoformat(), title=title[:200], feed=archive))
-                                found += 1
-                if not found:
-                    raise ValueError('Archive has no dated incident candidates')
+                if not dated:
+                    raise ValueError('Archive has no dated articles; page remains pending')
+                base_parts = urlparse.urlsplit(month_state['base'])
+                for anchor in soup.select('a[href]'):
+                    link = urlparse.urljoin(url, anchor['href']).split('#')[0]
+                    parts = urlparse.urlsplit(link)
+                    suffix = parts.path.removeprefix(base_parts.path.rstrip('/'))
+                    if parts.scheme == 'https' and parts.hostname == base_parts.hostname and not parts.query and re.fullmatch(r'/page/[1-9][0-9]{0,2}/?', suffix):
+                        if link not in month_state['visited'] and link not in month_state['pending']:
+                            month_state['pending'].append(link)
+                            work.append((key, link))
+                month_state['visited'] = list(dict.fromkeys(month_state['visited'] + [url]))
+                month_state['pending'] = [u for u in month_state['pending'] if u != url]
+                month_state['lastSuccessAt'] = stamp
+                month_state.pop('error', None)
                 archive_ok += 1
-                if offset:
-                    completed.add(f'{month // 12:04d}-{month % 12 + 1:02d}')
             except Exception as error:
-                errors.append({'url': url, 'error': type(error).__name__ + ': ' + str(error)[:100]})
-        archive_cursors[archive['name']] = sorted(completed)
+                message = type(error).__name__ + ': ' + str(error)[:100]
+                month_state['error'] = message
+                if url not in month_state['pending']:
+                    month_state['pending'].append(url)
+                errors.append({'url': url, 'error': message})
+        archive_cursors[archive['name']] = [k for k in month_keys[1:] if progress[k]['visited'] and not progress[k]['pending']]
     # Save every candidate before applying work/time limits. Retry even after it leaves RSS.
     sources_by_name = {f['name']: f for f in config['feeds'] + config.get('archives', [])}
     for article in articles.values():
@@ -315,7 +343,7 @@ def run():
             for anchor in body.select('a[href]'):
                 u = urlparse.urljoin(media, anchor['href'])
                 p = urlparse.urlsplit(u)
-                if p.scheme == 'https' and p.hostname not in all_media_hosts and not any((p.hostname or '').endswith('.'+h.removeprefix('www.')) or p.hostname==h for h in all_media_hosts) and not p.query and not BLOCK.search(p.hostname or '') and not EXCLUDE.search(p.path):
+                if p.scheme == 'https' and p.hostname not in all_media_hosts and not any((p.hostname or '').endswith('.'+h.removeprefix('www.')) or p.hostname==h for h in all_media_hosts) and not BLOCK.search(p.hostname or '') and not EXCLUDE.search(p.path):
                     links.append(u)
             links = list(dict.fromkeys(links))
             # Rotate bounded checks so later reference links cannot starve forever.
@@ -350,7 +378,7 @@ def run():
                             for a in section.select('a[href]'):
                                 target = urlparse.urljoin(final, a['href'])
                                 if KEY.search(a.get_text(' ', strip=True)) and urlparse.urlsplit(target).hostname == urlparse.urlsplit(final).hostname:
-                                    if target not in links and norm(target) not in visited and not urlparse.urlsplit(target).query:
+                                    if target not in links and norm(target) not in visited:
                                         links.insert(0,target)
                             continue
                         company = identity(official, section, news_text, known.get(urlparse.urlsplit(final).hostname))
@@ -383,8 +411,9 @@ def run():
     queue = {u: q for u, q in queue.items() if q['published'] >= retention_start.isoformat()}
     result = {'lastAttemptAt': stamp, 'feedCount': len(config['feeds']), 'successfulFeeds': feed_ok, 'successfulArchivePages': archive_ok, 'newsCandidates': len(articles), 'newsArticlesChecked': scanned, 'deferredNewsArticles': sum(not q.get('lastCheckedAt') for q in queue.values()), 'officialFetches': official_fetches, 'confirmedOfficialAnnouncements': len(confirmed), 'pendingNewsArticles': sum(bool(q['pending']) for q in queue.values()), 'errors': errors, 'queue': queue, 'confirmed': confirmed}
     result['archiveCursors'] = archive_cursors
+    result['archiveProgress'] = archive_progress
     state_path.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    print(json.dumps({k: v for k, v in result.items() if k not in ('queue', 'confirmed', 'errors')}, ensure_ascii=False))
+    print(json.dumps({k: v for k, v in result.items() if k not in ('queue', 'confirmed', 'errors', 'archiveProgress')}, ensure_ascii=False))
     return result
 
 

@@ -1,14 +1,14 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-16T23:25:17+00:00",
+  "lastAttemptAt": "2026-10-16T23:40:35+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-16T23:25:17+00:00",
-  "successfulFetches": 99,
-  "failedFetches": 11,
+  "lastPartialSuccessAt": "2026-10-16T23:40:35+00:00",
+  "successfulFetches": 115,
+  "failedFetches": 12,
   "changedReviewedSources": 1,
-  "automaticAnnouncements": 19,
-  "watchedDocumentCount": 65,
-  "watchedIndexCount": 42,
+  "automaticAnnouncements": 26,
+  "watchedDocumentCount": 79,
+  "watchedIndexCount": 46,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
     {
@@ -48,6 +48,10 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "url": "https://www.kenes.jp/press/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
       "url": "https://www.dkkaraoke.co.jp/stockinfo/irnews/index.html",
       "error": "Only public HTTPS sources are allowed"
     },
@@ -61,25 +65,21 @@
   "cloudRun": true,
   "retentionStart": "2023-10-17",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-16T23:25:17+00:00",
-    "feedCount": 8,
-    "successfulFeeds": 8,
+    "lastAttemptAt": "2026-10-16T23:40:35+00:00",
+    "feedCount": 9,
+    "successfulFeeds": 9,
     "successfulArchivePages": 4,
-    "newsCandidates": 84,
+    "newsCandidates": 96,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 75,
-    "confirmedOfficialAnnouncements": 23,
-    "pendingNewsArticles": 59,
+    "officialFetches": 100,
+    "confirmedOfficialAnnouncements": 32,
+    "pendingNewsArticles": 72,
     "archiveCursors": {
-      "Security NEXT 月別記事": [
-        "2026-07",
-        "2026-08",
-        "2026-09"
-      ]
+      "Security NEXT 月別記事": []
     }
   },
   "coverageReport": "data/coverage-report.json",
-  "unresolvedNewsCandidates": 59,
+  "unresolvedNewsCandidates": 72,
   "deferredNewsCandidates": 0
 }

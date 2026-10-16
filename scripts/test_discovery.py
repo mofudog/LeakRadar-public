@@ -34,7 +34,7 @@ class DiscoveryRegression(unittest.TestCase):
 
             def fetch(url, hosts=None):
                 if url.endswith('/feed'):
-                    entries = '' if expired else ''.join(f'<item><title>個人情報漏えい {i}</title><link>https://media.example/{i}</link><pubDate>{today}</pubDate></item>' for i in (1, 2))
+                    entries = '' if expired else ''.join(f'<item><title>個人情報漏えい {i}</title><link>https://media.example/article?id={i}</link><pubDate>{today}</pubDate></item>' for i in (1, 2))
                     return url, f'<rss><channel>{entries}<item><title>一般ニュース</title></item></channel></rss>'.encode(), 'utf-8'
                 attempted.append(url)
                 raise OSError('temporary network failure')
@@ -51,6 +51,43 @@ class DiscoveryRegression(unittest.TestCase):
                 self.assertEqual(len(set(attempted)), 2)
                 self.assertEqual(second['pendingNewsArticles'], 2)
                 self.assertEqual(second['confirmed'], {})
+
+    def test_lost_customer_media_headlines_are_discovery_candidates(self):
+        for title in ['お客さま情報を保存した外部記憶媒体の所在不明について', '顧客情報入りSSDを紛失', '患者情報を含むUSBメモリの紛失']:
+            self.assertIsNotNone(discovery.KEY.search(title), title)
+        self.assertIsNone(discovery.KEY.search('工事用工具の紛失について'))
+
+    def test_archive_pagination_is_not_prematurely_completed(self):
+        today = dt.datetime.now(dt.timezone(dt.timedelta(hours=9))).date().isoformat()
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / 'data').mkdir()
+            archive = {'name': 'archive', 'urlTemplate': 'https://media.example/{year}/{month:02d}', 'months': 2, 'maxPagesPerRun': 2, 'articleHosts': ['media.example'], 'bodySelector': 'main'}
+            config = {'feeds': [], 'archives': [archive], 'articleMaxAgeDays': 1098, 'maxArticlesPerRun': 0, 'maxOfficialFetchesPerRun': 0}
+            (root / 'data/news-sources.json').write_text(json.dumps(config), encoding='utf-8')
+            (root / 'data/monitor-sources.json').write_text('{"documents":[],"indexes":[]}', encoding='utf-8')
+            seen = []
+            def fetch(url, hosts=None):
+                seen.append(url)
+                if '/page/2' in url:
+                    title, pagination = '顧客情報入りSSDを紛失', ''
+                else:
+                    title, pagination = '一般ニュース', f'<a href="{url}/page/2">次へ</a>'
+                return url, f'<dl><dt>{today}</dt><dd><a href="https://media.example/incident">{title}</a></dd></dl>{pagination}'.encode(), 'utf-8'
+            with patch.object(discovery, 'ROOT', root), patch.object(discovery, 'fetch', fetch), contextlib.redirect_stdout(io.StringIO()):
+                first = discovery.run()
+                self.assertEqual(first['archiveCursors']['archive'], [])
+                self.assertTrue(any(m['pending'] for m in first['archiveProgress']['archive'].values()))
+                second = discovery.run()
+                self.assertIn('https://media.example/incident', second['queue'])
+                third = discovery.run()
+                self.assertEqual(len(third['archiveCursors']['archive']), 1)
+                old_key = third['archiveCursors']['archive'][0]
+                old_base = third['archiveProgress']['archive'][old_key]['base']
+                fourth = discovery.run()
+                self.assertEqual(seen.count(old_base), 1)
+                self.assertEqual(seen.count(old_base + '/page/2'), 1)
+                self.assertEqual(fourth['successfulArchivePages'], 1)
 
     def test_new_suffix_company_identity(self):
         soup = BeautifulSoup('<main><h2>不正アクセスに関するお知らせ</h2><p>当社のサービスを運営する試験運輸株式会社は調査を行いました。</p></main>', 'html.parser')
