@@ -7,6 +7,7 @@ import concurrent.futures, datetime as dt, hashlib, html, json, os, re, sys, url
 from html.parser import HTMLParser
 from bs4 import BeautifulSoup
 from news_discovery import run as discover_news, public_url, decode_html, KEY
+from tdnet_discovery import run as discover_disclosures
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 UTC=dt.timezone.utc
@@ -119,6 +120,11 @@ def fetch(url,allowed):
 
 def main():
  news_result=discover_news()
+ tdnet_result=discover_disclosures()
+ news_result['confirmed'].update(tdnet_result['confirmed'])
+ news_result['confirmedOfficialAnnouncements']=len(news_result['confirmed'])
+ news_result['tdnet']={k:v for k,v in tdnet_result.items() if k not in ('pages','candidates','confirmed','errors')}
+ news_result['errors'].extend(tdnet_result['errors'])
  config=read(ROOT/'data/monitor-sources.json',{})
  reviewed=read(ROOT/'data/reviewed-incidents.json',{})
  if not reviewed.get('incidents'):raise ValueError('Reviewed seed data is required')
@@ -195,7 +201,13 @@ def main():
  except Exception as error:errors.append({'url':'https://haveibeenpwned.com/api/v3/breaches','error':str(error)[:160]})
  for x in news_result.get('confirmed',{}).values():
   if normalize_url(x['source']) in reviewed_urls:continue
-  announcements[x['source']]={'id':'news-'+digest(normalize_url(x['source']))[:14],'company':x['company'],'service':x['title'],'category':'公式発表・未整理','published':x['published'],'updated':x['published'],'status':'announcement','audience':'ニュースを手がかりに公式発表を確認しました。対象となる登録・利用条件の要約は未整理です。公式発表の本文をご確認ください。','items':[],'scale':'自動取得では確認していません。','note':'発表元の表示、本文、日付をニュースの参照先と照合しました。漏洩の有無・対象範囲・件数を自動で判定するものではありません。','excluded':'対象外の情報は推測していません。','source':x['source'],'sourceType':'official','region':'国内向け報道から発見','aliases':x['company'],'verifiedAt':None,'fetchedAt':x['lastCheckedAt'],'automaticallyCollected':True,'dateSource':'scoped-publication-date-v2','discoveredViaNews':True,'newsSources':x['newsSources']}
+  announcements[x['source']]={'id':'news-'+digest(normalize_url(x['source']))[:14],'company':x['company'],'service':x['title'],'category':'公式発表・未整理','published':x['published'],'updated':x['published'],'status':'announcement','audience':'ニュースを手がかりに公式発表を確認しました。対象となる登録・利用条件の要約は未整理です。公式発表の本文をご確認ください。','items':[],'scale':'自動取得では確認していません。','note':'発表元の表示、本文、日付をニュースの参照先と照合しました。漏洩の有無・対象範囲・件数を自動で判定するものではありません。','excluded':'対象外の情報は推測していません。','source':x['source'],'sourceType':'official','region':'国内向け報道から発見','aliases':x['company'],'verifiedAt':None,'fetchedAt':x['lastCheckedAt'],'automaticallyCollected':True,'dateSource':'scoped-publication-date-v2','discoveredViaNews':x.get('discoverySource')!='TDnet','discoverySource':x.get('discoverySource','news'),'newsSources':x['newsSources']}
+
+ for a in announcements.values():
+  if a.get('discoverySource')=='TDnet':
+   a['audience']='公式の適時開示で関連発表を確認しました。対象となる登録・利用条件の要約は未整理です。公式資料の本文をご確認ください。'
+   a['note']='適時開示一覧の発表企業・見出し・日付とPDFを照合しました。漏洩の有無・対象範囲・件数の自動判定はしていません。'
+   a['region']='国内の適時開示から発見'
  records=[]
  for source_record in reviewed['incidents']:
   r=dict(source_record)
@@ -223,6 +235,8 @@ def main():
  update={'status':status,'lastAttemptAt':STAMP,'lastSuccessAt':STAMP if status=='complete' else old_status.get('lastSuccessAt'),'lastPartialSuccessAt':STAMP if status=='partial' else old_status.get('lastPartialSuccessAt'),'successfulFetches':success,'failedFetches':len(errors),'changedReviewedSources':changes,'automaticAnnouncements':sum(r.get('automaticallyCollected',False) for r in records),'watchedDocumentCount':len(sources),'watchedIndexCount':len(indexes),'schedule':'毎時（GitHub Actionsの遅延・停止があり得ます）','errors':errors,'fullyComprehensive':False,'summaryReviewedAt':reviewed.get('checkedAt'),'cloudRun':os.environ.get('GITHUB_ACTIONS')=='true','retentionStart':retention_start.isoformat(),'newsDiscovery':{k:v for k,v in news_result.items() if k not in ('queue','confirmed','errors','archiveProgress')}}
  write(ROOT/'data/source-state.json',{'documents':documents,'announcements':announcements,'hibp':{x['Name']:digest(json.dumps(x,sort_keys=True)) for x in foreign},'lastAttemptAt':STAMP})
  followups=[{'newsSource':u,'title':q.get('title',''),'reportedDate':q['published'],'publisher':q['publisher'],'firstSeenAt':q.get('firstSeenAt'),'lastCheckedAt':q.get('lastCheckedAt'),'attempts':q.get('attempts',0),'reasons':q['pending']} for u,q in news_result.get('queue',{}).items() if q.get('pending')]
+
+ followups.extend({'newsSource':u,'title':q['title'],'reportedDate':q['published'],'publisher':'TDnet','firstSeenAt':q['firstSeenAt'],'lastCheckedAt':q.get('lastCheckedAt'),'reasons':[{'url':u,'reason':q.get('error','Deferred: disclosure PDF has not been checked yet')}]} for u,q in tdnet_result['candidates'].items() if q.get('error') or not q.get('lastCheckedAt'))
  report={'checkedAt':STAMP,'fullyComprehensive':False,'completeHistoricalBackfill':False,'retentionStart':retention_start.isoformat(),'discovery':{k:v for k,v in news_result.items() if k not in ('queue','confirmed','errors','archiveProgress')},'sourceErrors':errors,'followupNewsCandidates':followups,'note':'候補記事は未確認・重複・事故以外の記事を含みます。候補数を未掲載事故数とは扱いません。RSS外になった候補と処理上限による保留も再確認します。3年分の全事案を収集済みとするものではありません。'}
  write(ROOT/'data/coverage-report.json',report)
  update['coverageReport']='data/coverage-report.json'
@@ -230,12 +244,14 @@ def main():
  update['deferredNewsCandidates']=sum(not q.get('lastCheckedAt') for q in news_result.get('queue',{}).values())
  if os.environ.get('GITHUB_ACTIONS')=='true' and (errors or followups):
   print(f"::warning title=収集確認が必要です::取得エラー {len(errors)} 件、未着手の記事 {update['deferredNewsCandidates']} 件、追跡が必要な記事 {len(followups)} 件。data/coverage-report.json を確認してください。候補記事数は事故数ではありません。")
+
+ tdnet_summary=f"TDnet: 一覧 {tdnet_result['listPagesChecked']} ページ確認、未取得一覧 {tdnet_result['pendingListPages']} ページ、確認待ち資料 {tdnet_result['pendingDocuments']} 件。"
  summary=os.environ.get('GITHUB_STEP_SUMMARY')
  if summary:
   with open(summary,'a',encoding='utf-8') as f:
-   f.write(f"## 収集状況（網羅性の保証ではありません）\n\nRSS: {news_result.get('successfulFeeds',0)}/{news_result.get('feedCount',0)}、月別記事ページ: {news_result.get('successfulArchivePages',0)}\n\n記事候補: {news_result.get('newsCandidates',0)}、今回確認: {news_result.get('newsArticlesChecked',0)}、未着手: {update['deferredNewsCandidates']}、追跡が必要な記事: {len(followups)}\n\n公式資料の取得失敗等: {len(errors)}。追跡理由は data/coverage-report.json を参照してください。候補記事数は事故数ではありません。\n")
+   f.write(f"## 収集状況（網羅性の保証ではありません）\n\n{tdnet_summary}\n\nRSS: {news_result.get('successfulFeeds',0)}/{news_result.get('feedCount',0)}、月別記事ページ: {news_result.get('successfulArchivePages',0)}\n\n記事候補: {news_result.get('newsCandidates',0)}、今回確認: {news_result.get('newsArticlesChecked',0)}、未着手: {update['deferredNewsCandidates']}、追跡が必要な記事: {len(followups)}\n\n公式資料の取得失敗等: {len(errors)}。追跡理由は data/coverage-report.json を参照してください。候補記事数は事故数ではありません。\n")
  # Retain the editorial HIBP baseline. Raw updates must not silently approve a Japanese summary.
- write(ROOT/'dist/incidents.json',{**reviewed,'version':'1.3.1','incidents':records,'automaticUpdateStatus':status,'automaticLastAttemptAt':STAMP})
+ write(ROOT/'dist/incidents.json',{**reviewed,'version':'1.3.2','incidents':records,'automaticUpdateStatus':status,'automaticLastAttemptAt':STAMP})
  write(ROOT/'dist/update-status.json',update)
  print(json.dumps({k:v for k,v in update.items() if k!='errors'},ensure_ascii=False))
  if not success:raise SystemExit(1)

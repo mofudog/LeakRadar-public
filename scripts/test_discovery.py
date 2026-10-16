@@ -89,6 +89,23 @@ class DiscoveryRegression(unittest.TestCase):
                 self.assertEqual(seen.count(old_base + '/page/2'), 1)
                 self.assertEqual(fourth['successfulArchivePages'], 1)
 
+    def test_tdnet_pagination_and_issuer_rows(self):
+        from tdnet_discovery import parse_list
+        raw = ('<table id="main-list-table"><tr><td class="kjName">試験会社</td><td class="kjTitle"><a href="notice.pdf">不正アクセスに関するお知らせ</a></td></tr></table><div onclick="pagerLink(\'I_list_002_20261015.html\')">2</div>').encode()
+        rows, pages = parse_list(raw, 'https://www.release.tdnet.info/inbs/I_list_001_20261015.html')
+        self.assertEqual(rows[0]['company'], '試験会社')
+        self.assertEqual(rows[0]['published'], '2026-10-15')
+        self.assertEqual(rows[0]['source'], 'https://www.release.tdnet.info/inbs/notice.pdf')
+        self.assertIn('https://www.release.tdnet.info/inbs/I_list_002_20261015.html', pages)
+        self.assertNotIn('items', rows[0])
+
+    def test_tdnet_no_disclosure_day_and_invalid_page(self):
+        from tdnet_discovery import parse_list
+        url = 'https://www.release.tdnet.info/inbs/I_list_001_20261017.html'
+        self.assertEqual(parse_list('2026年10月17日に開示された情報はありません。'.encode(), url)[0], [])
+        with self.assertRaises(ValueError):
+            parse_list(b'<h1>Service unavailable</h1>', url)
+
     def test_new_suffix_company_identity(self):
         soup = BeautifulSoup('<main><h2>不正アクセスに関するお知らせ</h2><p>当社のサービスを運営する試験運輸株式会社は調査を行いました。</p></main>', 'html.parser')
         self.assertEqual(discovery.identity(soup, soup.main, '試験運輸の情報漏えい', None), '試験運輸株式会社')
