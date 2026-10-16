@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "maxArticlesPerRun": 35,
+  "maxOfficialFetchesPerRun": 45,
+  "articleMaxAgeDays": 45,
+  "feeds": [
+    {
+      "name": "Security NEXT",
+      "url": "https://www.security-next.com/feed",
+      "articleHosts": [
+        "www.security-next.com"
+      ],
+      "bodySelector": ".content"
+    },
+    {
+      "name": "ScanNetSecurity",
+      "url": "https://scan.netsecurity.ne.jp/rss20/index.rdf",
+      "articleHosts": [
+        "scan.netsecurity.ne.jp"
+      ],
+      "bodySelector": "article.arti-body"
+    },
+    {
+      "name": "INTERNET Watch",
+      "url": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
+      "articleHosts": [
+        "internet.watch.impress.co.jp"
+      ],
+      "bodySelector": "article"
+    },
+    {
+      "name": "ITmedia NEWS セキュリティ",
+      "url": "https://rss.itmedia.co.jp/rss/2.0/news_security.xml",
+      "articleHosts": [
+        "www.itmedia.co.jp"
+      ],
+      "bodySelector": ".p-article-body, #cmsBody, .inner"
+    },
+    {
+      "name": "ITmedia エンタープライズ",
+      "url": "https://rss.itmedia.co.jp/rss/2.0/enterprise.xml",
+      "articleHosts": [
+        "www.itmedia.co.jp"
+      ],
+      "bodySelector": ".p-article-body, #cmsBody, .inner"
+    }
+  ]
+}

@@ -6,6 +6,7 @@ from __future__ import annotations
 import concurrent.futures, datetime as dt, hashlib, html, json, os, re, sys, urllib.error, urllib.parse, urllib.request
 from html.parser import HTMLParser
 from bs4 import BeautifulSoup
+from news_discovery import run as discover_news, public_url
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 UTC=dt.timezone.utc
@@ -39,6 +40,7 @@ def safe_url(url,allowed):
 class RedirectGuard(urllib.request.HTTPRedirectHandler):
  def __init__(self,allowed):super().__init__();self.allowed=allowed
  def redirect_request(self,req,fp,code,msg,headers,newurl):
+  public_url(newurl)
   if not safe_url(newurl,self.allowed):raise ValueError('Redirect to an unregistered host')
   return super().redirect_request(req,fp,code,msg,headers,newurl)
 
@@ -83,6 +85,7 @@ class Page(HTMLParser):
 
 
 def fetch(url,allowed):
+ public_url(url)
  if not safe_url(url,allowed):raise ValueError('Unregistered URL')
  req=urllib.request.Request(url,headers={'User-Agent':'Mofu-Information-LeakCheck/1.0','Accept':'text/html,application/pdf,application/json;q=0.9'})
  with urllib.request.build_opener(RedirectGuard(allowed)).open(req,timeout=18) as response:
@@ -115,16 +118,19 @@ def fetch(url,allowed):
 
 
 def main():
+ news_result=discover_news()
  config=read(ROOT/'data/monitor-sources.json',{})
  reviewed=read(ROOT/'data/reviewed-incidents.json',{})
  if not reviewed.get('incidents'):raise ValueError('Reviewed seed data is required')
- sources=config['documents'];indexes=config['indexes']
+ sources=list(config['documents']);indexes=config['indexes']
+ for x in news_result.get('confirmed',{}).values():
+  if x['source'] not in {r['url'] for r in sources}:sources.append({'company':x['company'],'url':x['source'],'kind':'document'})
  allowed={host(x['url']) for x in sources+indexes}|{'haveibeenpwned.com'}
  allowed|={('www.'+h if not h.startswith('www.') else h[4:]) for h in list(allowed) if h!='haveibeenpwned.com'}
  previous=read(ROOT/'data/source-state.json',{'documents':{},'announcements':{},'hibp':{}})
  approvals=read(ROOT/'data/reviewed-source-hashes.json',{})
  previous_docs=previous.get('documents',{})
- documents=dict(previous_docs);announcements={u:a for u,a in previous.get('announcements',{}).items() if a.get('dateSource')=='scoped-publication-date-v2'};errors=[];success=0;changes=0;cache={}
+ documents=dict(previous_docs);announcements={u:a for u,a in previous.get('announcements',{}).items() if a.get('dateSource')=='scoped-publication-date-v2'};errors=list(news_result.get('errors',[]));success=0;changes=0;cache={}
  def get(source):
   try:return source,fetch(source['url'],allowed),None
   except Exception as error:return source,None,str(error)[:160]
@@ -187,6 +193,9 @@ def main():
    if name not in selected_names:foreign_changes[name]=dict(old,Description='The source no longer passes the selected verification criteria. Review the current source before relying on the old summary.')
   foreign=selected;success+=1
  except Exception as error:errors.append({'url':'https://haveibeenpwned.com/api/v3/breaches','error':str(error)[:160]})
+ for x in news_result.get('confirmed',{}).values():
+  if normalize_url(x['source']) in reviewed_urls:continue
+  announcements[x['source']]={'id':'news-'+digest(normalize_url(x['source']))[:14],'company':x['company'],'service':x['title'],'category':'公式発表・未整理','published':x['published'],'updated':x['published'],'status':'announcement','audience':'ニュースを手がかりに公式発表を確認しました。対象となる登録・利用条件の要約は未整理です。公式発表の本文をご確認ください。','items':[],'scale':'自動取得では確認していません。','note':'発表元の表示、本文、日付をニュースの参照先と照合しました。漏洩の有無・対象範囲・件数を自動で判定するものではありません。','excluded':'対象外の情報は推測していません。','source':x['source'],'sourceType':'official','region':'国内向け報道から発見','aliases':x['company'],'verifiedAt':None,'fetchedAt':x['lastCheckedAt'],'automaticallyCollected':True,'dateSource':'scoped-publication-date-v2','discoveredViaNews':True,'newsSources':x['newsSources']}
  records=[]
  for source_record in reviewed['incidents']:
   r=dict(source_record)
@@ -204,12 +213,17 @@ def main():
   records.append(r)
  existing={normalize_url(r['source']) for r in records}
  records.extend(a for u,a in announcements.items() if normalize_url(a['source']) not in existing)
+ # Retain only the last three calendar years; HIBP import dates do not make old incidents recent.
+ jst_today=NOW.astimezone(dt.timezone(dt.timedelta(hours=9))).date()
+ try:retention_start=jst_today.replace(year=jst_today.year-3)
+ except ValueError:retention_start=jst_today.replace(year=jst_today.year-3,day=28)
+ records=[r for r in records if (r.get('eventDate','') if r['sourceType']=='hibp' else r.get('updated',r['published']))>=retention_start.isoformat()]
  status='complete' if not errors else ('partial' if success else 'failed')
  old_status=read(ROOT/'dist/update-status.json',{})
- update={'status':status,'lastAttemptAt':STAMP,'lastSuccessAt':STAMP if status=='complete' else old_status.get('lastSuccessAt'),'lastPartialSuccessAt':STAMP if status=='partial' else old_status.get('lastPartialSuccessAt'),'successfulFetches':success,'failedFetches':len(errors),'changedReviewedSources':changes,'automaticAnnouncements':sum(r.get('automaticallyCollected',False) for r in records),'watchedDocumentCount':len(sources),'watchedIndexCount':len(indexes),'schedule':'毎時（GitHub Actionsの遅延・停止があり得ます）','errors':errors,'fullyComprehensive':False,'summaryReviewedAt':reviewed.get('checkedAt'),'cloudRun':os.environ.get('GITHUB_ACTIONS')=='true'}
+ update={'status':status,'lastAttemptAt':STAMP,'lastSuccessAt':STAMP if status=='complete' else old_status.get('lastSuccessAt'),'lastPartialSuccessAt':STAMP if status=='partial' else old_status.get('lastPartialSuccessAt'),'successfulFetches':success,'failedFetches':len(errors),'changedReviewedSources':changes,'automaticAnnouncements':sum(r.get('automaticallyCollected',False) for r in records),'watchedDocumentCount':len(sources),'watchedIndexCount':len(indexes),'schedule':'毎時（GitHub Actionsの遅延・停止があり得ます）','errors':errors,'fullyComprehensive':False,'summaryReviewedAt':reviewed.get('checkedAt'),'cloudRun':os.environ.get('GITHUB_ACTIONS')=='true','retentionStart':retention_start.isoformat(),'newsDiscovery':{k:v for k,v in news_result.items() if k not in ('queue','confirmed','errors')}}
  write(ROOT/'data/source-state.json',{'documents':documents,'announcements':announcements,'hibp':{x['Name']:digest(json.dumps(x,sort_keys=True)) for x in foreign},'lastAttemptAt':STAMP})
  # Retain the editorial HIBP baseline. Raw updates must not silently approve a Japanese summary.
- write(ROOT/'dist/incidents.json',{**reviewed,'version':'1.1.1','incidents':records,'automaticUpdateStatus':status,'automaticLastAttemptAt':STAMP})
+ write(ROOT/'dist/incidents.json',{**reviewed,'version':'1.2.0','incidents':records,'automaticUpdateStatus':status,'automaticLastAttemptAt':STAMP})
  write(ROOT/'dist/update-status.json',update)
  print(json.dumps({k:v for k,v in update.items() if k!='errors'},ensure_ascii=False))
  if not success:raise SystemExit(1)
