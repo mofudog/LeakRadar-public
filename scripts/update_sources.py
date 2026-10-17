@@ -8,6 +8,7 @@ from html.parser import HTMLParser
 from bs4 import BeautifulSoup
 from news_discovery import run as discover_news, public_url, decode_html, KEY
 from tdnet_discovery import run as discover_disclosures
+from candidate_triage import classify, markdown as triage_markdown
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 UTC=dt.timezone.utc
@@ -177,7 +178,7 @@ def main():
  cutoff=NOW.date()-dt.timedelta(days=config.get('discoveryMaxAgeDays',90))
  reviewed_urls={normalize_url(u) for r in reviewed['incidents'] for u in [r['source']]+r.get('additionalSources',[])}
  for src in list(candidates.values())[:35]:
-  if normalize_url(src['url']) in reviewed_urls:continue
+  if src.get('kind')=='reference' or normalize_url(src['url']) in reviewed_urls:continue
   try:
    result=cache.get(src['url']) or fetch(src['url'],allowed);page=result.get('page')
    if not page or not KEYWORDS.search(page.heading) or normalize_url(result['url']) in reviewed_urls:continue
@@ -237,11 +238,23 @@ def main():
  followups=[{'newsSource':u,'title':q.get('title',''),'reportedDate':q['published'],'publisher':q['publisher'],'firstSeenAt':q.get('firstSeenAt'),'lastCheckedAt':q.get('lastCheckedAt'),'attempts':q.get('attempts',0),'reasons':q['pending']} for u,q in news_result.get('queue',{}).items() if q.get('pending')]
 
  followups.extend({'newsSource':u,'title':q['title'],'reportedDate':q['published'],'publisher':'TDnet','firstSeenAt':q['firstSeenAt'],'lastCheckedAt':q.get('lastCheckedAt'),'reasons':[{'url':u,'reason':q.get('error','Deferred: disclosure PDF has not been checked yet')}]} for u,q in tdnet_result['candidates'].items() if q.get('error') or not q.get('lastCheckedAt'))
- report={'checkedAt':STAMP,'fullyComprehensive':False,'completeHistoricalBackfill':False,'retentionStart':retention_start.isoformat(),'discovery':{k:v for k,v in news_result.items() if k not in ('queue','confirmed','errors','archiveProgress')},'sourceErrors':errors,'followupNewsCandidates':followups,'note':'候補記事は未確認・重複・事故以外の記事を含みます。候補数を未掲載事故数とは扱いません。RSS外になった候補と処理上限による保留も再確認します。3年分の全事案を収集済みとするものではありません。'}
+
+ decisions=read(ROOT/'data/candidate-review-decisions.json',{}).get('reviews',{})
+ all_candidates={x['newsSource']:x for x in followups}
+ for u,q in news_result.get('queue',{}).items():
+  if u in decisions and u not in all_candidates:
+   all_candidates[u]={'newsSource':u,'title':q.get('title',''),'reportedDate':q['published'],'publisher':q['publisher'],'firstSeenAt':q.get('firstSeenAt'),'lastCheckedAt':q.get('lastCheckedAt'),'reasons':q.get('pending',[])}
+ triaged,triage_counts,followups=classify(list(all_candidates.values()),decisions,records,documents)
+ baseline=read(ROOT/'data/candidate-review-baseline.json',{}).get('candidates',[])
+ baseline_rows,baseline_counts,baseline_active=classify(baseline,decisions,records,documents)
+ (ROOT/'data/coverage-review.md').write_text(triage_markdown(triaged,triage_counts,STAMP),encoding='utf-8')
+ report={'checkedAt':STAMP,'fullyComprehensive':False,'completeHistoricalBackfill':False,'retentionStart':retention_start.isoformat(),'discovery':{k:v for k,v in news_result.items() if k not in ('queue','confirmed','errors','archiveProgress')},'sourceErrors':errors,'candidateTriageCounts':triage_counts,'baselineReview':{'candidateCount':len(baseline),'counts':baseline_counts,'unresolved':len(baseline_active)},'candidateTriage':triaged,'followupNewsCandidates':followups,'note':'候補記事は未確認・重複・事故以外の記事を含みます。候補数を未掲載事故数とは扱いません。RSS外になった候補と処理上限による保留も再確認します。3年分の全事案を収集済みとするものではありません。'}
  write(ROOT/'data/coverage-report.json',report)
  update['coverageReport']='data/coverage-report.json'
+ update['candidateTriageCounts']=triage_counts
+ update['reviewBoard']='data/coverage-review.md'
  update['unresolvedNewsCandidates']=len(followups)
- update['deferredNewsCandidates']=sum(not q.get('lastCheckedAt') for q in news_result.get('queue',{}).values())
+ update['deferredNewsCandidates']=sum(x['classification']=='deferred' for x in followups)
  if os.environ.get('GITHUB_ACTIONS')=='true' and (errors or followups):
   print(f"::warning title=収集確認が必要です::取得エラー {len(errors)} 件、未着手の記事 {update['deferredNewsCandidates']} 件、追跡が必要な記事 {len(followups)} 件。data/coverage-report.json を確認してください。候補記事数は事故数ではありません。")
 
@@ -251,7 +264,7 @@ def main():
   with open(summary,'a',encoding='utf-8') as f:
    f.write(f"## 収集状況（網羅性の保証ではありません）\n\n{tdnet_summary}\n\nRSS: {news_result.get('successfulFeeds',0)}/{news_result.get('feedCount',0)}、月別記事ページ: {news_result.get('successfulArchivePages',0)}\n\n記事候補: {news_result.get('newsCandidates',0)}、今回確認: {news_result.get('newsArticlesChecked',0)}、未着手: {update['deferredNewsCandidates']}、追跡が必要な記事: {len(followups)}\n\n公式資料の取得失敗等: {len(errors)}。追跡理由は data/coverage-report.json を参照してください。候補記事数は事故数ではありません。\n")
  # Retain the editorial HIBP baseline. Raw updates must not silently approve a Japanese summary.
- write(ROOT/'dist/incidents.json',{**reviewed,'version':'1.3.2','incidents':records,'automaticUpdateStatus':status,'automaticLastAttemptAt':STAMP})
+ write(ROOT/'dist/incidents.json',{**reviewed,'version':'1.3.3','incidents':records,'automaticUpdateStatus':status,'automaticLastAttemptAt':STAMP})
  write(ROOT/'dist/update-status.json',update)
  print(json.dumps({k:v for k,v in update.items() if k!='errors'},ensure_ascii=False))
  if not success:raise SystemExit(1)

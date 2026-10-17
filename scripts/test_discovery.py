@@ -106,6 +106,32 @@ class DiscoveryRegression(unittest.TestCase):
         with self.assertRaises(ValueError):
             parse_list(b'<h1>Service unavailable</h1>', url)
 
+    def test_editorial_decision_reopens_after_source_or_article_changes(self):
+        from candidate_triage import decision_for
+        c = {'newsSource':'https://media.example/a','title':'漏えいの発表','reportedDate':'2026-10-15'}
+        r = {'id':'issuer','verifiedAt':'2026-10-17','status':'possible'}
+        rules = {c['newsSource']:{'classification':'covered','titleAtReview':c['title'],'reportedDateAtReview':c['reportedDate'],'recordIds':['issuer'],'evidenceUrls':['https://issuer.example/a'],'reviewedAt':'2026-10-17','reason':'確認済み'}}
+        self.assertEqual(decision_for(c,rules,[r],{})['classification'],'covered')
+        self.assertEqual(decision_for(c,rules,[r],{'https://issuer.example/a':{'changed':True}})['classification'],'reopened')
+        self.assertEqual(decision_for(dict(c,title='続報で対象拡大'),rules,[r],{})['classification'],'reopened')
+        self.assertEqual(decision_for(c,rules,[dict(r,status='announcement')],{})['classification'],'reopened')
+
+    def test_triage_keeps_unresolved_records(self):
+        from candidate_triage import classify
+        candidates = [{'newsSource':'https://media.example/a','title':'a','reportedDate':'2026-10-15','lastCheckedAt':'2026-10-17','reasons':[{'reason':'HTTPError: HTTP Error 403: Forbidden'}]}, {'newsSource':'https://media.example/b','title':'b','reportedDate':'2026-10-15','lastCheckedAt':'2026-10-17','reasons':[{'reason':'No direct official announcement link found'}]}]
+        rows, counts, active = classify(candidates,{},[],{})
+        self.assertEqual(len(active),2)
+        self.assertEqual(counts,{'fetch_failed':1,'needs_source_lookup':1})
+        self.assertEqual(rows[0]['reasons'],candidates[0]['reasons'])
+
+    def test_new_articles_have_reserved_capacity_ahead_of_backfill(self):
+        today = dt.date(2026,10,17)
+        recent = [{'url':f'https://media.example/new{i}','date':'2026-10-16'} for i in range(100)]
+        historic = [{'url':f'https://media.example/old{i}','date':'2025-01-01'} for i in range(100)]
+        chosen = discovery.prioritize_articles(historic+recent,{},today,10)
+        self.assertEqual(sum('/new' in a['url'] for a in chosen),8)
+        self.assertEqual(sum('/old' in a['url'] for a in chosen),2)
+
     def test_new_suffix_company_identity(self):
         soup = BeautifulSoup('<main><h2>不正アクセスに関するお知らせ</h2><p>当社のサービスを運営する試験運輸株式会社は調査を行いました。</p></main>', 'html.parser')
         self.assertEqual(discovery.identity(soup, soup.main, '試験運輸の情報漏えい', None), '試験運輸株式会社')

@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-17",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "scope": "国内企業の公式公表を中心に、日本でも利用される海外の有名サービスを選定して掲載。全件網羅は保証しません。",
   "incidents": [
     {
@@ -1965,6 +1965,209 @@
       "excluded": "10月2日の発表では、お客さま情報への不正アクセスと退職者に関する二次被害は未確認。",
       "source": "https://www.dai-ichi-life.co.jp/information/pdf/index_192.pdf",
       "aliases": "第一生命 第一生命保険株式会社 第一生命ホールディングス 第一ライフグループ Daiichi Life だいいちせいめい",
+      "verifiedAt": "2026-10-17",
+      "sourceType": "official",
+      "region": "国内企業"
+    },
+    {
+      "id": "mouse-newsletter-20261014",
+      "company": "マウスコンピューター",
+      "service": "メールマガジン配信データ",
+      "category": "趣味・生活",
+      "published": "2026-10-14",
+      "updated": "2026-10-14",
+      "status": "possible",
+      "audience": "メールマガジンの配信委託先が利用する対象クラウド基盤にメールアドレス・配信記録が保存されていた方。パソコン購入者全員が対象という発表ではありません。",
+      "items": [
+        "メールアドレス",
+        "2026年9月5日～10月6日のメール配信記録"
+      ],
+      "scale": "メールアドレス約42万件（漏えいの可能性。実人数・確定流出件数ではありません）。",
+      "note": "委託先からIDCFクラウドへの不正アクセスの報告を受け公表。10月14日時点で情報漏えいの事実は未確認。",
+      "excluded": "オンラインショップの注文・決済等の情報は対象クラウドに保存されておらず、本件の影響は未確認。",
+      "source": "https://www2.mouse-jp.co.jp/ssl/user_support2/info.asp?N_ID=535",
+      "additionalSources": [],
+      "aliases": "マウスコンピューター mouse G-Tune iiyama",
+      "verifiedAt": "2026-10-17",
+      "sourceType": "official",
+      "region": "国内企業"
+    },
+    {
+      "id": "sompo-smiling-road-20261007",
+      "company": "損保ジャパン",
+      "service": "SMILING ROAD：質問・問い合わせ情報",
+      "category": "趣味・生活",
+      "published": "2026-10-07",
+      "updated": "2026-10-07",
+      "status": "possible",
+      "audience": "事業者向けドライブレコーダー「SMILING ROAD」の質問・問い合わせ機能で、スカラコミュニケーションズの対象サーバーに情報が保存されていた方。一般の保険契約者全員が対象ではありません。",
+      "items": [
+        "氏名・電話番号・住所・メールアドレス",
+        "勤務先・代理店に関する情報",
+        "ドライバーID",
+        "運転アラートの種別・発生日時",
+        "機器情報・申込番号",
+        "問い合わせ件名・本文"
+      ],
+      "scale": "問い合わせ単位の延べ約6万件。同一人物の複数回の問い合わせを含み、6万人という意味ではありません。",
+      "note": "委託先サーバーへの不正アクセスに伴う漏えいの可能性。10月7日発表では不正利用・公開拡散を確認していないと説明。",
+      "excluded": "金融機関口座、クレジットカード、マイナンバーカード情報は含まれません。損保ジャパン自身のシステムへの不正アクセスは未確認。",
+      "source": "https://www.sompo-japan.co.jp/-/media/SJNK/files/news/2026/20261007_1.pdf?la=ja-JP",
+      "additionalSources": [],
+      "aliases": "損保ジャパン 損害保険ジャパン スマイリングロード",
+      "verifiedAt": "2026-10-17",
+      "sourceType": "official",
+      "region": "国内企業"
+    },
+    {
+      "id": "gmo-infoq-20261014",
+      "company": "GMOリサーチ＆AI",
+      "service": "アンケートサイト「infoQ」会員情報",
+      "category": "趣味・生活",
+      "published": "2026-10-05",
+      "updated": "2026-10-14",
+      "status": "confirmed",
+      "audience": "infoQの対象会員データ。初報で全会員に連絡していますが、連絡を受けた方すべての流出を確認したという意味ではありません。",
+      "items": [
+        "氏名・フリガナ・性別・生年月日",
+        "メールアドレス・住所・電話番号",
+        "暗号化されたパスワード",
+        "会員ID",
+        "その他の会員登録情報・ポイント・利用状況"
+      ],
+      "scale": "外部持ち出しを確認した個人情報894,082件。初報の最大948,498件から精査された件数です。",
+      "note": "一部会員のポイントの不正交換も確認。個人情報を含まない9,068件と、持ち出されていなかった45,348件を流出件数に加算していません。",
+      "excluded": "カード情報・マイナンバーは保有していないと説明。取引先情報は今回の対象外。",
+      "source": "https://gmo-research.ai/pressroom/notice/notice-20261014",
+      "additionalSources": [
+        "https://gmo-research.ai/pressroom/notice/notice-20261005"
+      ],
+      "aliases": "GMOリサーチ＆AI GMO infoQ インフォキュー",
+      "verifiedAt": "2026-10-17",
+      "sourceType": "official",
+      "region": "国内企業"
+    },
+    {
+      "id": "legoland-hotel-amadeus-20260925",
+      "company": "レゴランド・ジャパン",
+      "service": "ホテル公式予約サイト：予約者の連絡先",
+      "category": "趣味・生活",
+      "published": "2026-09-25",
+      "updated": "2026-09-25",
+      "status": "possible",
+      "audience": "レゴランド・ジャパン・ホテルの公式予約サイトで利用するAmadeusの予約プラットフォームに保存された、一部の予約情報。パークの来場者全員を対象とした発表ではありません。",
+      "items": [
+        "氏名",
+        "メールアドレス",
+        "電話番号"
+      ],
+      "scale": "影響を受けた可能性のある予約1,557件。人数ではありません。",
+      "note": "外部の予約プラットフォームで連絡先情報への不正アクセスが判明したとの報告を受け公表。個別予約の対象有無は公式窓口へ。",
+      "excluded": "提供会社の説明では、決済情報・パスワード・金融情報・パスポート情報へのアクセスは未確認。",
+      "source": "https://www.legoland.jp/operation/news/news-release/news20260925/",
+      "additionalSources": [],
+      "aliases": "レゴランド・ジャパン LEGOLAND Japan レゴランド ホテル Amadeus",
+      "verifiedAt": "2026-10-17",
+      "sourceType": "official",
+      "region": "国内企業"
+    },
+    {
+      "id": "mitsui-fudosan-contact-20260928",
+      "company": "三井不動産",
+      "service": "グループ役職員等・社外関係者の連絡先",
+      "category": "趣味・生活",
+      "published": "2026-09-01",
+      "updated": "2026-09-28",
+      "status": "possible",
+      "audience": "対象システム内の同社・グループ会社の役職員等および一部の社外関係者。物件の購入者・入居者・施設利用者全員を対象とする発表ではありません。",
+      "items": [
+        "氏名・部署・役職（役職員等）",
+        "メールアドレス",
+        "メールの表示名（社外関係者）"
+      ],
+      "scale": "役職員等 最大19,000件、社外関係者 最大36,000件。閲覧・取得を確認した件数や実人数ではありません。",
+      "note": "資格情報の不正利用に伴い、一部情報を第三者に閲覧された可能性を公表。9月28日時点で外部流出の事実・二次被害は未確認。",
+      "excluded": "業務情報（メール・チャット・ファイル等）やパスワードの漏えいは未確認。要配慮個人情報は含まれません。",
+      "source": "https://www.mitsuifudosan.co.jp/letter/260928/download/260928.pdf",
+      "additionalSources": [
+        "https://www.mitsuifudosan.co.jp/letter/260901/download/260901.pdf"
+      ],
+      "aliases": "三井不動産 ",
+      "verifiedAt": "2026-10-17",
+      "sourceType": "official",
+      "region": "国内企業"
+    },
+    {
+      "id": "epark-peakmanager-20260924",
+      "company": "EPARKリラク＆エステ",
+      "service": "PeakManager：店舗が登録した顧客台帳",
+      "category": "趣味・生活",
+      "published": "2026-07-31",
+      "updated": "2026-09-24",
+      "status": "confirmed",
+      "audience": "加盟店舗が予約・顧客管理基盤PeakManagerに入力・管理していた対象顧客情報。EPARKの全サービスの利用者全員を対象とした発表ではありません。",
+      "items": [
+        "氏名・フリガナ・生年月日・性別",
+        "住所・電話番号・メールアドレス（登録がある場合）",
+        "店舗の備考欄（健康状態等を一部含む）",
+        "カード情報に該当する可能性のある記載（備考欄5件）"
+      ],
+      "scale": "精査後 約2,218万レコード。名寄せ後も実人数への正確な置き換えは困難と説明。",
+      "note": "顧客データベース内の情報の外部転送を確認。備考欄には一部、要配慮個人情報を含みます。すべてのレコードに全項目が含まれるわけではありません。",
+      "excluded": "初報のカード情報なしという説明は第2報で訂正。備考欄5件は実在・正確性を確認したものではなく、有効期限はいずれも経過していたと説明。",
+      "source": "https://www.epark-relax.co.jp/news/231",
+      "additionalSources": [
+        "https://www.epark-relax.co.jp/news/225",
+        "https://epark.co.jp/information/2875"
+      ],
+      "aliases": "EPARKリラク＆エステ EPARK イーパーク PeakManager ピークマネージャー",
+      "verifiedAt": "2026-10-17",
+      "sourceType": "official",
+      "region": "国内企業"
+    },
+    {
+      "id": "medley-atlink-20261016",
+      "company": "メドレー",
+      "service": "アットリンク・患者向けアプリ等",
+      "category": "IT・アプリ",
+      "published": "2026-10-15",
+      "updated": "2026-10-16",
+      "status": "possible",
+      "audience": "アットリンク等に登録されていた患者等の情報。対象となる情報項目と医療機関の範囲は調査中で、利用者全員の流出を確認したという発表ではありません。",
+      "items": [],
+      "scale": "10月15日の開示では最大787医療機関が対象となる可能性。患者787人・787件という意味ではなく、患者数は公表されていません。",
+      "note": "10月16日19時更新のサービス案内でも、情報項目・医療機関の範囲を確認・精査中と説明。10月14日深夜から対象サービスを一時停止。",
+      "excluded": "個々の情報項目が漏えいしたか、対象外かを推測していません。医療機関で使う機能一覧をそのまま流出項目に置き換えていません。",
+      "source": "https://www.release.tdnet.info/inbs/140120261014550839.pdf",
+      "additionalSources": [
+        "https://www.medley.jp/notice/20161015.html",
+        "https://at-link.net/information/%E3%82%A2%E3%83%83%E3%83%88%E3%83%AA%E3%83%B3%E3%82%AF%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%8A%E3%82%88%E3%81%B3%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE/"
+      ],
+      "aliases": "MEDLEY @link アットリンク 産婦人科 患者",
+      "verifiedAt": "2026-10-17",
+      "sourceType": "official",
+      "region": "国内企業"
+    },
+    {
+      "id": "fines-reservation-20260925",
+      "company": "ファインズ",
+      "service": "同社提供の予約システム",
+      "category": "IT・アプリ",
+      "published": "2026-09-25",
+      "updated": "2026-09-25",
+      "status": "possible",
+      "audience": "同社の対象予約システムに登録された予約者情報。利用店舗・予約の対象期間や対象システムの固有名は、速報では特定されていません。",
+      "items": [
+        "氏名",
+        "電話番号",
+        "メールアドレス",
+        "予約店舗・メニュー・日時等"
+      ],
+      "scale": "対象件数1,536,322件。公式速報では件数とされており、人数や全件の確定流出数に置き換えていません。",
+      "note": "9月22日に異常を検知し、不正アクセスを確認。9月25日の速報で対象データと影響範囲を公表し、詳細調査中と説明。",
+      "excluded": "速報に記載のない流出項目や、同社の別サービスへの影響を推測していません。",
+      "source": "https://e-tenki.co.jp/news/%E5%BC%8A%E7%A4%BE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84/",
+      "aliases": "Fines ファインズ 予約",
       "verifiedAt": "2026-10-17",
       "sourceType": "official",
       "region": "国内企業"

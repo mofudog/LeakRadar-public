@@ -19,6 +19,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 from bs4 import BeautifulSoup
 from pypdf import PdfReader
+from candidate_triage import decision_for, CLOSED
 
 ROOT = Path(__file__).resolve().parents[1]
 KEY = re.compile(r'漏えい|漏洩|情報流出|個人情報.{0,12}流出|不正アクセス|第三者.{0,12}閲覧|誤送信|誤交付|誤表示|不正持ち出し|(?:個人情報|顧客情報|お客さま情報|患者情報).{0,30}(?:紛失|所在不明)|(?:紛失|所在不明).{0,30}(?:個人情報|顧客情報|お客さま情報|患者情報)')
@@ -99,7 +100,9 @@ def compact(value):
 def pdf_announcement(raw, news_text, known=None):
     """Only metadata is admitted automatically; affected fields remain unreviewed."""
     reader = PdfReader(io.BytesIO(raw))
-    if reader.is_encrypted or not 1 <= len(reader.pages) <= 8:
+    if reader.is_encrypted and not reader.decrypt(''):
+        raise ValueError('Password-protected PDF requires editorial review')
+    if not 1 <= len(reader.pages) <= 8:
         raise ValueError('Encrypted/large PDF requires editorial review')
     text = '\n'.join(page.extract_text() or '' for page in reader.pages)
     if not 100 <= len(text) <= 200000:
@@ -201,6 +204,20 @@ def identity(soup, body, news_text, known):
                 if 3 <= len(short) <= 35 and short in news_text:
                     return legal
     return None
+
+
+def prioritize_articles(articles, queue, today, limit):
+    def key(article):
+        q = queue.get(article['url'], {})
+        last = q.get('lastOfficialAttemptAt') or (q.get('lastCheckedAt', '') if not q.get('hasDirectLinks') else '')
+        return (bool(last), last, -dt.date.fromisoformat(article['date']).toordinal())
+    recent = sorted((a for a in articles if dt.date.fromisoformat(a['date']) >= today-dt.timedelta(days=30)), key=key)
+    history = sorted((a for a in articles if dt.date.fromisoformat(a['date']) < today-dt.timedelta(days=30)), key=key)
+    recent_quota = max(1, (limit*4)//5) if limit else 0
+    selected = recent[:recent_quota] + history[:max(0, limit-recent_quota)]
+    used = {a['url'] for a in selected}
+    selected += [a for a in recent+history if a['url'] not in used][:max(0,limit-len(selected))]
+    return selected
 
 
 def run():
@@ -326,7 +343,15 @@ def run():
             articles.setdefault(url, dict(url=url, date=item['published'], title=item.get('title', ''), feed=feed))
     official_fetches, scanned = 0, 0
     all_media_hosts = {h for f in config['feeds'] for h in f['articleHosts']}
-    for article in sorted(articles.values(), key=lambda x: (bool(queue.get(x['url'],{}).get('lastCheckedAt')), queue.get(x['url'],{}).get('lastCheckedAt',''), -dt.date.fromisoformat(x['date']).toordinal()))[:config['maxArticlesPerRun']]:
+    decisions_path = ROOT/'data/candidate-review-decisions.json'
+    seed_path = ROOT/'data/reviewed-incidents.json'
+    sources_path = ROOT/'data/source-state.json'
+    decisions = json.loads(decisions_path.read_text(encoding='utf-8')).get('reviews', {}) if decisions_path.exists() else {}
+    records = json.loads(seed_path.read_text(encoding='utf-8')).get('incidents', []) if seed_path.exists() else []
+    documents = json.loads(sources_path.read_text(encoding='utf-8')).get('documents', {}) if sources_path.exists() else {}
+    closed = {u for u,q in queue.items() if decision_for({'newsSource':u,'title':q.get('title',''),'reportedDate':q['published']}, decisions, records, documents)['classification'] in CLOSED}
+    work = prioritize_articles([a for a in articles.values() if a['url'] not in closed], queue, today, config['maxArticlesPerRun'])
+    for article in work:
         if time.monotonic()>=deadline:break
         media = article['url']
         try:
@@ -350,6 +375,7 @@ def run():
             if links:
                 start = (queue[media].get('attempts', 0) * 5) % len(links)
                 links = links[start:] + links[:start]
+            had_links = bool(links)
             pending = []
             visited=set()
             per_article=0
@@ -402,14 +428,15 @@ def run():
                 except Exception as error:
                     pending.append({'url': u, 'reason': type(error).__name__ + ': ' + str(error)[:100]})
             if links:pending.append({'url':media,'reason':'Remaining official links deferred by the per-run/per-article limit'})
-            if not visited:pending.append({'url':media,'reason':'No direct official announcement link found'})
-            queue[media] = {**queue[media], 'lastCheckedAt': stamp, 'pending': pending, 'hasDirectLinks': bool(visited), 'attempts': queue[media].get('attempts', 0)+1}
+            if not had_links:pending.append({'url':media,'reason':'No direct official announcement link found'})
+            queue[media] = {**queue[media], 'lastCheckedAt': stamp, 'pending': pending, 'hasDirectLinks': had_links, 'lastOfficialAttemptAt': stamp if visited else queue[media].get('lastOfficialAttemptAt'), 'attempts': queue[media].get('attempts', 0)+bool(visited)}
         except Exception as error:
             errors.append({'url': media, 'error': type(error).__name__ + ': ' + str(error)[:100]})
             queue[media] = {**queue[media], 'lastCheckedAt': stamp, 'pending': [{'url':media,'reason': type(error).__name__+': '+str(error)[:100]}], 'attempts':queue[media].get('attempts',0)+1}
     # News text and unverified claims never enter the public incident catalogue.
     queue = {u: q for u, q in queue.items() if q['published'] >= retention_start.isoformat()}
     result = {'lastAttemptAt': stamp, 'feedCount': len(config['feeds']), 'successfulFeeds': feed_ok, 'successfulArchivePages': archive_ok, 'newsCandidates': len(articles), 'newsArticlesChecked': scanned, 'deferredNewsArticles': sum(not q.get('lastCheckedAt') for q in queue.values()), 'officialFetches': official_fetches, 'confirmedOfficialAnnouncements': len(confirmed), 'pendingNewsArticles': sum(bool(q['pending']) for q in queue.values()), 'errors': errors, 'queue': queue, 'confirmed': confirmed}
+    result['skippedReviewedArticles'] = len(closed)
     result['archiveCursors'] = archive_cursors
     result['archiveProgress'] = archive_progress
     state_path.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
