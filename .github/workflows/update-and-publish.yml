@@ -26,9 +26,9 @@ jobs:
           python3 - <<'PY'
           from pathlib import Path
           import hashlib, zipfile
-          archive=Path('update-source-1.3.3.zip')
+          archive=Path('update-source-1.3.4.zip')
           if archive.is_file():
-              assert hashlib.sha256(archive.read_bytes()).hexdigest() == 'ee836d068e0ac63eee3cee4dbb9077b29c12576be2841f95e2e4fc91d4d917a5'
+              assert hashlib.sha256(archive.read_bytes()).hexdigest() == '7e91bfb398e2ae726422f7174a8355bad8d264d6f4c7ec17e2523dda2e0e7713'
               root=Path.cwd().resolve()
               with zipfile.ZipFile(archive) as z:
                   for entry in z.infolist():
@@ -80,4 +80,3 @@ jobs:
       - name: GitHub Pagesへ公開
         id: deployment
         uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
-
