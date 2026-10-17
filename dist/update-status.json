@@ -1,13 +1,13 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-17T04:45:01+00:00",
+  "lastAttemptAt": "2026-10-17T05:11:43+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-17T04:45:01+00:00",
-  "successfulFetches": 196,
-  "failedFetches": 19,
+  "lastPartialSuccessAt": "2026-10-17T05:11:43+00:00",
+  "successfulFetches": 197,
+  "failedFetches": 20,
   "changedReviewedSources": 4,
-  "automaticAnnouncements": 68,
-  "watchedDocumentCount": 161,
+  "automaticAnnouncements": 69,
+  "watchedDocumentCount": 163,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
@@ -34,6 +34,10 @@
     {
       "url": "https://support-qa.eplus.jp/hc/ja/articles/62711500727961-%E5%BC%8A%E7%A4%BE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AE%E7%99%BA-%E3%81%8A%E3%82%88%E3%81%B3%E5%80%8B-%E6%83%85%E5%A0%B1-%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
       "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.idcf.jp/news/topics/20261009001",
+      "error": "HTTP Error 421: Misdirected Request"
     },
     {
       "url": "https://www.nikkei.co.jp/",
@@ -93,16 +97,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-17",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-17T04:45:01+00:00",
+    "lastAttemptAt": "2026-10-17T05:11:43+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 4,
-    "newsCandidates": 191,
+    "newsCandidates": 196,
     "newsArticlesChecked": 70,
-    "deferredNewsArticles": 4,
+    "deferredNewsArticles": 9,
     "officialFetches": 100,
-    "confirmedOfficialAnnouncements": 88,
-    "pendingNewsArticles": 136,
+    "confirmedOfficialAnnouncements": 90,
+    "pendingNewsArticles": 124,
     "skippedReviewedArticles": 33,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -111,7 +115,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-17T04:47:45+00:00",
+      "lastAttemptAt": "2026-10-17T05:14:45+00:00",
       "listPagesChecked": 4,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -121,15 +125,15 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "needs_review": 72,
     "needs_source_lookup": 16,
     "covered": 20,
-    "fetch_failed": 11,
+    "fetch_failed": 10,
+    "needs_review": 56,
     "duplicate": 4,
     "reopened": 2,
-    "deferred": 4
+    "deferred": 9
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 105,
-  "deferredNewsCandidates": 4
+  "unresolvedNewsCandidates": 93,
+  "deferredNewsCandidates": 9
 }
