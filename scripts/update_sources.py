@@ -264,7 +264,7 @@ def main():
   with open(summary,'a',encoding='utf-8') as f:
    f.write(f"## 収集状況（網羅性の保証ではありません）\n\n{tdnet_summary}\n\nRSS: {news_result.get('successfulFeeds',0)}/{news_result.get('feedCount',0)}、月別記事ページ: {news_result.get('successfulArchivePages',0)}\n\n記事候補: {news_result.get('newsCandidates',0)}、今回確認: {news_result.get('newsArticlesChecked',0)}、未着手: {update['deferredNewsCandidates']}、追跡が必要な記事: {len(followups)}\n\n公式資料の取得失敗等: {len(errors)}。追跡理由は data/coverage-report.json を参照してください。候補記事数は事故数ではありません。\n")
  # Retain the editorial HIBP baseline. Raw updates must not silently approve a Japanese summary.
- write(ROOT/'dist/incidents.json',{**reviewed,'version':'1.3.3','incidents':records,'automaticUpdateStatus':status,'automaticLastAttemptAt':STAMP})
+ write(ROOT/'dist/incidents.json',{**reviewed,'version':reviewed.get('version','1.3.4'),'incidents':records,'automaticUpdateStatus':status,'automaticLastAttemptAt':STAMP})
  write(ROOT/'dist/update-status.json',update)
  print(json.dumps({k:v for k,v in update.items() if k!='errors'},ensure_ascii=False))
  if not success:raise SystemExit(1)

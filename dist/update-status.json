@@ -1,14 +1,14 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-17T03:45:07+00:00",
+  "lastAttemptAt": "2026-10-17T04:33:36+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-17T03:45:07+00:00",
-  "successfulFetches": 179,
-  "failedFetches": 12,
+  "lastPartialSuccessAt": "2026-10-17T04:33:36+00:00",
+  "successfulFetches": 196,
+  "failedFetches": 19,
   "changedReviewedSources": 4,
-  "automaticAnnouncements": 64,
-  "watchedDocumentCount": 143,
-  "watchedIndexCount": 46,
+  "automaticAnnouncements": 68,
+  "watchedDocumentCount": 161,
+  "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
     {
@@ -17,6 +17,18 @@
     },
     {
       "url": "https://www2.sagawa-exp.co.jp/information/detail/426/",
+      "error": "Source body could not be read"
+    },
+    {
+      "url": "https://sanga-fc.jp/news/detail/21401",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+    },
+    {
+      "url": "https://revisio.co.jp/news/qlqXjTs7",
+      "error": "Source body could not be read"
+    },
+    {
+      "url": "https://lean-body.co.jp/news/JlBWMCs7",
       "error": "Source body could not be read"
     },
     {
@@ -52,6 +64,22 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "url": "https://sanga-fc.jp/news",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+    },
+    {
+      "url": "https://revisio.co.jp/news",
+      "error": "Source body could not be read"
+    },
+    {
+      "url": "https://lean-body.co.jp/news/",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.charm.co.jp/honten/info/notice/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
       "url": "https://www.dkkaraoke.co.jp/stockinfo/irnews/index.html",
       "error": "Only public HTTPS sources are allowed"
     },
@@ -65,24 +93,24 @@
   "cloudRun": true,
   "retentionStart": "2023-10-17",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-17T03:45:07+00:00",
+    "lastAttemptAt": "2026-10-17T04:33:36+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 4,
-    "newsCandidates": 172,
+    "newsCandidates": 179,
     "newsArticlesChecked": 70,
-    "deferredNewsArticles": 0,
+    "deferredNewsArticles": 3,
     "officialFetches": 100,
-    "confirmedOfficialAnnouncements": 83,
-    "pendingNewsArticles": 119,
-    "skippedReviewedArticles": 33,
+    "confirmedOfficialAnnouncements": 88,
+    "pendingNewsArticles": 117,
+    "skippedReviewedArticles": 35,
     "archiveCursors": {
       "Security NEXT 月別記事": [
         "2026-09"
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-17T03:48:28+00:00",
+      "lastAttemptAt": "2026-10-17T04:36:35+00:00",
       "listPagesChecked": 4,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -92,14 +120,15 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "needs_source_lookup": 15,
+    "needs_source_lookup": 16,
     "covered": 20,
-    "fetch_failed": 8,
-    "needs_review": 63,
+    "fetch_failed": 9,
+    "needs_review": 56,
     "duplicate": 4,
-    "reopened": 2
+    "reopened": 2,
+    "deferred": 3
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 88,
-  "deferredNewsCandidates": 0
+  "unresolvedNewsCandidates": 86,
+  "deferredNewsCandidates": 3
 }
