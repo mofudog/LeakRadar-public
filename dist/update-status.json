@@ -1,20 +1,16 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-17T07:43:05+00:00",
+  "lastAttemptAt": "2026-10-17T08:44:56+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-17T07:43:05+00:00",
-  "successfulFetches": 199,
-  "failedFetches": 23,
-  "changedReviewedSources": 4,
+  "lastPartialSuccessAt": "2026-10-17T08:44:56+00:00",
+  "successfulFetches": 203,
+  "failedFetches": 19,
+  "changedReviewedSources": 5,
   "automaticAnnouncements": 74,
   "watchedDocumentCount": 168,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
-    {
-      "url": "https://www.daiki-suisan.co.jp/files/optionallink/00000164_file.pdf",
-      "error": "<urlopen error timed out>"
-    },
     {
       "url": "https://support.rakuten-drive.com/hc/ja/articles/62934949147929",
       "error": "HTTP Error 403: Forbidden"
@@ -36,14 +32,6 @@
       "error": "Source body could not be read"
     },
     {
-      "url": "https://www.saga-hirakawaya.jp/documents/pdf/202606-public-notice.pdf",
-      "error": "<urlopen error timed out>"
-    },
-    {
-      "url": "https://idare.jp/news/1926/",
-      "error": "<urlopen error timed out>"
-    },
-    {
       "url": "https://support-qa.eplus.jp/hc/ja/articles/62711500727961-%E5%BC%8A%E7%A4%BE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AE%E7%99%BA-%E3%81%8A%E3%82%88%E3%81%B3%E5%80%8B-%E6%83%85%E5%A0%B1-%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
       "error": "HTTP Error 403: Forbidden"
     },
@@ -58,10 +46,6 @@
     {
       "url": "https://jp.adventurekk.com/",
       "error": "Source body could not be read"
-    },
-    {
-      "url": "https://www.daiki-suisan.co.jp/",
-      "error": "<urlopen error timed out>"
     },
     {
       "url": "https://support.rakuten-drive.com/",
@@ -109,16 +93,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-17",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-17T07:43:05+00:00",
+    "lastAttemptAt": "2026-10-17T08:44:56+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 4,
-    "newsCandidates": 238,
+    "newsCandidates": 246,
     "newsArticlesChecked": 70,
-    "deferredNewsArticles": 29,
+    "deferredNewsArticles": 24,
     "officialFetches": 100,
     "confirmedOfficialAnnouncements": 95,
-    "pendingNewsArticles": 152,
+    "pendingNewsArticles": 166,
     "skippedReviewedArticles": 33,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -128,7 +112,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-17T07:46:01+00:00",
+      "lastAttemptAt": "2026-10-17T08:47:43+00:00",
       "listPagesChecked": 4,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -138,15 +122,15 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
+    "needs_review": 82,
     "needs_source_lookup": 17,
     "covered": 20,
-    "fetch_failed": 11,
-    "needs_review": 62,
+    "fetch_failed": 10,
     "duplicate": 4,
     "reopened": 2,
-    "deferred": 29
+    "deferred": 24
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 121,
-  "deferredNewsCandidates": 29
+  "unresolvedNewsCandidates": 135,
+  "deferredNewsCandidates": 24
 }
