@@ -10,3 +10,20 @@
 .public-scale{margin:14px 0;padding:12px 16px;background:#f4f7fa;border-left:3px solid #647d95;border-radius:4px}.public-scale p{margin:5px 0 0;line-height:1.7;color:#263c50;font-weight:600}
 
 .company-summary{padding:20px 22px}.company-summary>.tags{margin-top:8px}.scope-list{margin-top:18px}.scope-row{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:24px;padding:18px 0;border-top:1px solid #d7e0e7}.scope-main h3{font-size:16px;margin:0 0 8px}.scope-main p,.scope-count p{margin:6px 0;line-height:1.75}.scope-note{font-size:12px;color:#617080}.scope-count{border-left:3px solid #d3dee8;padding-left:16px}.scope-count p{font-weight:600}.scope-count button{margin:8px 14px 0 0}.company-archive{border-top:1px solid #d7e0e7;padding-top:14px;margin-top:16px}.company-archive summary{cursor:pointer;color:#4e6479;font-size:13px}.archive-row{display:flex;align-items:baseline;gap:12px;padding:10px 0;font-size:13px}.archive-row span{white-space:nowrap}@media(max-width:650px){.scope-row{grid-template-columns:1fr;gap:12px}.company-summary{padding:16px}.archive-row{display:block}}
+
+.accuracy-note{display:grid;grid-template-columns:34px 1fr;gap:13px;align-items:start;margin:-12px 0 35px;padding:17px 19px;border:1px solid #d9e2cf;border-left:4px solid #718f5d;border-radius:9px;background:#fff}
+    .accuracy-icon{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:#edf3e7;color:#57764a;font-size:16px;font-weight:800}
+    .accuracy-note h2{margin:1px 0 4px;font-size:14px;letter-spacing:0}
+    .accuracy-note p{margin:0;color:#59685b;font-size:12px;line-height:1.85}
+    .page-controls{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:14px 0 14px;padding:12px 14px;border:1px solid #e1e7db;border-radius:8px;background:#f1f4ec}
+    .page-size{display:flex;align-items:center;gap:9px;color:#526258;font-size:12px;font-weight:650}
+    .page-size select{min-width:94px;border:1px solid #cbd7c2;border-radius:6px;padding:7px 9px;color:#344b3d;background:#fff}
+    .page-status{color:#657365;font-size:11px}
+    .page-nav{display:flex;align-items:center;gap:8px}
+    .page-nav button{border:1px solid #cbd7c2;border-radius:6px;padding:7px 11px;background:#fff;color:#466044;font-size:11px}
+    .page-nav button:disabled{opacity:.45;cursor:default}
+    .page-current{min-width:50px;text-align:center;color:#526258;font-size:11px;font-weight:700}
+    .check-prompt{margin:12px 0 0;padding:9px 11px;border-radius:6px;background:#f7f5eb;color:#6b633f;font-size:11px;line-height:1.75}
+    
+    @media(max-width:680px){.accuracy-note{margin:-3px 0 28px;padding:14px}.page-controls{align-items:flex-start}.page-status{width:100%;order:3}}
+
