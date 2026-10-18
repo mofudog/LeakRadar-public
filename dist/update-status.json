@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-18T15:42:01+00:00",
+  "lastAttemptAt": "2026-10-18T16:43:41+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-18T15:42:01+00:00",
+  "lastPartialSuccessAt": "2026-10-18T16:43:41+00:00",
   "successfulFetches": 213,
   "failedFetches": 20,
   "changedReviewedSources": 8,
@@ -37,7 +37,7 @@
     },
     {
       "url": "https://www.okamura.co.jp/corporate/info/2026/20260410.html",
-      "error": "<urlopen error _ssl.c:983: The handshake operation timed out>"
+      "error": "The read operation timed out"
     },
     {
       "url": "https://www.nikkei.co.jp/",
@@ -97,16 +97,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-19",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-18T15:42:01+00:00",
+    "lastAttemptAt": "2026-10-18T16:43:41+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 4,
-    "newsCandidates": 593,
+    "newsCandidates": 601,
     "newsArticlesChecked": 70,
-    "deferredNewsArticles": 194,
+    "deferredNewsArticles": 202,
     "officialFetches": 100,
     "confirmedOfficialAnnouncements": 106,
-    "pendingNewsArticles": 388,
+    "pendingNewsArticles": 385,
     "skippedReviewedArticles": 33,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -126,7 +126,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-18T15:45:14+00:00",
+      "lastAttemptAt": "2026-10-18T16:46:43+00:00",
       "listPagesChecked": 2,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -136,15 +136,15 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "needs_review": 124,
     "needs_source_lookup": 22,
     "covered": 20,
-    "fetch_failed": 15,
+    "fetch_failed": 17,
+    "needs_review": 111,
     "duplicate": 4,
     "reopened": 2,
-    "deferred": 194
+    "deferred": 202
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 357,
-  "deferredNewsCandidates": 194
+  "unresolvedNewsCandidates": 354,
+  "deferredNewsCandidates": 202
 }
