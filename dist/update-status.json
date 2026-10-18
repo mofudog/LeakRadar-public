@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-18T18:45:08+00:00",
+  "lastAttemptAt": "2026-10-18T19:38:00+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-18T18:45:08+00:00",
+  "lastPartialSuccessAt": "2026-10-18T19:38:00+00:00",
   "successfulFetches": 213,
   "failedFetches": 20,
   "changedReviewedSources": 8,
@@ -36,8 +36,8 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "https://www.okamura.co.jp/corporate/info/2026/20260410.html",
-      "error": "<urlopen error _ssl.c:983: The handshake operation timed out>"
+      "url": "https://www.sakura-kogyo.co.jp/%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e7%ad%89%e3%81%ae%e6%bc%8f%e3%81%88%e3%81%84%e3%81%ae%e3%81%8a%e3%81%9d%e3%82%8c/",
+      "error": "<urlopen error timed out>"
     },
     {
       "url": "https://www.nikkei.co.jp/",
@@ -97,16 +97,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-19",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-18T18:45:08+00:00",
+    "lastAttemptAt": "2026-10-18T19:38:00+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 4,
-    "newsCandidates": 621,
+    "newsCandidates": 631,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 213,
     "officialFetches": 100,
     "confirmedOfficialAnnouncements": 106,
-    "pendingNewsArticles": 396,
+    "pendingNewsArticles": 410,
     "skippedReviewedArticles": 33,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -127,7 +127,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-18T18:48:02+00:00",
+      "lastAttemptAt": "2026-10-18T19:40:38+00:00",
       "listPagesChecked": 2,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -137,15 +137,15 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
+    "needs_review": 129,
     "needs_source_lookup": 22,
     "covered": 20,
-    "fetch_failed": 16,
-    "needs_review": 112,
+    "fetch_failed": 13,
     "duplicate": 4,
     "reopened": 2,
     "deferred": 213
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 365,
+  "unresolvedNewsCandidates": 379,
   "deferredNewsCandidates": 213
 }
