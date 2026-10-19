@@ -1,16 +1,20 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-19T01:45:44+00:00",
+  "lastAttemptAt": "2026-10-19T02:46:25+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-19T01:45:44+00:00",
-  "successfulFetches": 220,
-  "failedFetches": 19,
-  "changedReviewedSources": 10,
+  "lastPartialSuccessAt": "2026-10-19T02:46:25+00:00",
+  "successfulFetches": 211,
+  "failedFetches": 28,
+  "changedReviewedSources": 11,
   "automaticAnnouncements": 88,
   "watchedDocumentCount": 185,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
+    {
+      "url": "https://www.daiki-suisan.co.jp/files/optionallink/00000164_file.pdf",
+      "error": "<urlopen error timed out>"
+    },
     {
       "url": "https://support.rakuten-drive.com/hc/ja/articles/62934949147929",
       "error": "HTTP Error 403: Forbidden"
@@ -32,8 +36,36 @@
       "error": "Source body could not be read"
     },
     {
+      "url": "https://www.saga-hirakawaya.jp/documents/pdf/202606-public-notice.pdf",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "url": "https://idare.jp/news/1926/",
+      "error": "<urlopen error timed out>"
+    },
+    {
       "url": "https://support-qa.eplus.jp/hc/ja/articles/62711500727961-%E5%BC%8A%E7%A4%BE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AE%E7%99%BA-%E3%81%8A%E3%82%88%E3%81%B3%E5%80%8B-%E6%83%85%E5%A0%B1-%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
       "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://sanpofoods.co.jp/news/archives/1658/",
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.saga-hirakawaya.jp/security-notice/",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "url": "https://www.sakura-kogyo.co.jp/%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e7%ad%89%e3%81%ae%e6%bc%8f%e3%81%88%e3%81%84%e3%81%ae%e3%81%8a%e3%81%9d%e3%82%8c/",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "url": "https://www.medica.co.jp/news/information/3544/",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "url": "https://ark-aaa.jp/post-1248/",
+      "error": "<urlopen error timed out>"
     },
     {
       "url": "https://www.nikkei.co.jp/",
@@ -46,6 +78,10 @@
     {
       "url": "https://jp.adventurekk.com/",
       "error": "Source body could not be read"
+    },
+    {
+      "url": "https://www.daiki-suisan.co.jp/",
+      "error": "<urlopen error timed out>"
     },
     {
       "url": "https://support.rakuten-drive.com/",
@@ -93,16 +129,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-19",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-19T01:45:44+00:00",
+    "lastAttemptAt": "2026-10-19T02:46:25+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 4,
-    "newsCandidates": 695,
+    "newsCandidates": 706,
     "newsArticlesChecked": 70,
-    "deferredNewsArticles": 229,
-    "officialFetches": 100,
+    "deferredNewsArticles": 239,
+    "officialFetches": 93,
     "confirmedOfficialAnnouncements": 112,
-    "pendingNewsArticles": 449,
+    "pendingNewsArticles": 454,
     "skippedReviewedArticles": 33,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -121,11 +157,12 @@
         "2025-09",
         "2025-08",
         "2025-07",
-        "2025-06"
+        "2025-06",
+        "2025-05"
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-19T01:49:01+00:00",
+      "lastAttemptAt": "2026-10-19T02:49:43+00:00",
       "listPagesChecked": 2,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -136,14 +173,14 @@
   "candidateTriageCounts": {
     "out_of_scope": 9,
     "needs_source_lookup": 33,
-    "covered": 20,
-    "fetch_failed": 20,
-    "needs_review": 134,
+    "covered": 19,
+    "reopened": 3,
+    "fetch_failed": 23,
+    "needs_review": 126,
     "duplicate": 4,
-    "reopened": 2,
-    "deferred": 229
+    "deferred": 239
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 418,
-  "deferredNewsCandidates": 229
+  "unresolvedNewsCandidates": 424,
+  "deferredNewsCandidates": 239
 }
