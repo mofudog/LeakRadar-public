@@ -20,3 +20,15 @@ assert status['status'] in ('complete','partial','failed')
 assert status['fullyComprehensive'] is False
 assert (status['status']=='complete') == (status['failedFetches']==0)
 print(f'Validated {len(records)} records; source check: {status["status"]}')
+
+service_names=json.loads((root/'dist/service-names.json').read_text(encoding='utf-8-sig'))
+assert service_names.get('author')=='mofu'
+for key in ('byId','bySource'):
+ assert isinstance(service_names.get(key),dict),'Invalid service name index'
+ for reference,entry in service_names[key].items():
+  assert isinstance(reference,str) and reference,'Missing service reference'
+  if key=='bySource':assert urllib.parse.urlsplit(reference).scheme=='https','Invalid service source'
+  assert isinstance(entry.get('names'),list) and all(isinstance(x,str) and 0<len(x)<=100 for x in entry['names']),'Invalid service names'
+  assert isinstance(entry.get('scope'),str) and len(entry['scope'])<=400,'Invalid service scope'
+  assert entry.get('evidence') and all(urllib.parse.urlsplit(u).scheme=='https' for u in entry['evidence']),'Missing official service evidence'
+print('Validated source-scoped service names and registration scopes')
