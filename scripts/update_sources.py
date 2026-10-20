@@ -34,6 +34,25 @@ def host(url):return (urllib.parse.urlsplit(url).hostname or '').lower()
 def normalize_url(url):
  p=urllib.parse.urlsplit(url);return urllib.parse.urlunsplit((p.scheme.lower(),p.netloc.lower(),p.path.rstrip('/'),p.query,''))
 
+def canonicalize_announcements(items):
+ """Collapse repeated discoveries of the same source URL into one announcement."""
+ result={}
+ for raw_url,announcement in items.items():
+  source=announcement.get('source') or raw_url
+  key=normalize_url(source)
+  current=result.get(key)
+  if current is None:
+   result[key]=announcement
+   continue
+  # Keep the newest metadata and preserve all news references gathered for this URL.
+  merged=dict(current)
+  if announcement.get('fetchedAt','') >= current.get('fetchedAt',''):
+   merged.update(announcement)
+  news_sources=list(dict.fromkeys(current.get('newsSources',[])+announcement.get('newsSources',[])))
+  if news_sources:merged['newsSources']=news_sources
+  result[key]=merged
+ return result
+
 def safe_url(url,allowed):
  p=urllib.parse.urlsplit(url)
  if p.scheme!='https' or p.username or p.password or p.port not in (None,443):return False
@@ -137,7 +156,7 @@ def main():
  previous=read(ROOT/'data/source-state.json',{'documents':{},'announcements':{},'hibp':{}})
  approvals=read(ROOT/'data/reviewed-source-hashes.json',{})
  previous_docs=previous.get('documents',{})
- documents=dict(previous_docs);announcements={u:a for u,a in previous.get('announcements',{}).items() if a.get('dateSource')=='scoped-publication-date-v2'};errors=list(news_result.get('errors',[]));success=0;changes=0;cache={}
+ documents=dict(previous_docs);announcements=canonicalize_announcements({u:a for u,a in previous.get('announcements',{}).items() if a.get('dateSource')=='scoped-publication-date-v2'});errors=list(news_result.get('errors',[]));success=0;changes=0;cache={}
  def get(source):
   try:return source,fetch(source['url'],allowed),None
   except Exception as error:return source,None,str(error)[:160]
@@ -184,7 +203,8 @@ def main():
    if not page or not KEYWORDS.search(page.heading) or normalize_url(result['url']) in reviewed_urls:continue
    date=page.date()
    if not date or not cutoff<=date<=NOW.date():continue
-   announcements[src['url']]={'id':'auto-'+digest(src['url'])[:14],'company':src['company'],'service':page.heading[:240],'category':'公式発表・未整理','published':date.isoformat(),'updated':date.isoformat(),'status':'announcement','audience':'対象となる登録・利用条件は、出典の公式発表本文をご確認ください。自動取得では条件の整理・確認を完了していません。','items':[],'scale':'自動取得では確認していません。','note':'登録した監視先から、関連する公式発表のタイトル・URL・日付を自動取得しました。漏洩の有無、対象範囲、件数を推測して生成していません。','excluded':'対象外の情報も、自動では判断していません。','source':result['url'],'sourceType':'official','region':'国内企業','aliases':src['company'],'verifiedAt':None,'fetchedAt':STAMP,'automaticallyCollected':True,'dateSource':'scoped-publication-date-v2'}
+   announcement={'id':'auto-'+digest(normalize_url(result['url']))[:14],'company':src['company'],'service':page.heading[:240],'category':'公式発表・未整理','published':date.isoformat(),'updated':date.isoformat(),'status':'announcement','audience':'対象となる登録・利用条件は、出典の公式発表本文をご確認ください。自動取得では条件の整理・確認を完了していません。','items':[],'scale':'自動取得では確認していません。','note':'登録した監視先から、関連する公式発表のタイトル・URL・日付を自動取得しました。漏洩の有無、対象範囲、件数を推測して生成していません。','excluded':'対象外の情報も、自動では判断していません。','source':result['url'],'sourceType':'official','region':'国内企業','aliases':src['company'],'verifiedAt':None,'fetchedAt':STAMP,'automaticallyCollected':True,'dateSource':'scoped-publication-date-v2'}
+   announcements[normalize_url(result['url'])]=canonicalize_announcements({**announcements,normalize_url(result['url']):announcement})[normalize_url(result['url'])]
   except Exception as error:errors.append({'url':src['url'],'error':str(error)[:160]})
  foreign=read(ROOT/'data/hibp-selected.json',[]);foreign_old={x['Name']:x for x in foreign}
  foreign_domains={x['Domain'] for x in foreign};foreign_changes={}
@@ -202,7 +222,9 @@ def main():
  except Exception as error:errors.append({'url':'https://haveibeenpwned.com/api/v3/breaches','error':str(error)[:160]})
  for x in news_result.get('confirmed',{}).values():
   if normalize_url(x['source']) in reviewed_urls:continue
-  announcements[x['source']]={'id':'news-'+digest(normalize_url(x['source']))[:14],'company':x['company'],'service':x['title'],'category':'公式発表・未整理','published':x['published'],'updated':x['published'],'status':'announcement','audience':'ニュースを手がかりに公式発表を確認しました。対象となる登録・利用条件の要約は未整理です。公式発表の本文をご確認ください。','items':[],'scale':'自動取得では確認していません。','note':'発表元の表示、本文、日付をニュースの参照先と照合しました。漏洩の有無・対象範囲・件数を自動で判定するものではありません。','excluded':'対象外の情報は推測していません。','source':x['source'],'sourceType':'official','region':'国内向け報道から発見','aliases':x['company'],'verifiedAt':None,'fetchedAt':x['lastCheckedAt'],'automaticallyCollected':True,'dateSource':'scoped-publication-date-v2','discoveredViaNews':x.get('discoverySource')!='TDnet','discoverySource':x.get('discoverySource','news'),'newsSources':x['newsSources']}
+  announcement={'id':'news-'+digest(normalize_url(x['source']))[:14],'company':x['company'],'service':x['title'],'category':'公式発表・未整理','published':x['published'],'updated':x['published'],'status':'announcement','audience':'ニュースを手がかりに公式発表を確認しました。対象となる登録・利用条件の要約は未整理です。公式発表の本文をご確認ください。','items':[],'scale':'自動取得では確認していません。','note':'発表元の表示、本文、日付をニュースの参照先と照合しました。漏洩の有無・対象範囲・件数を自動で判定するものではありません。','excluded':'対象外の情報は推測していません。','source':x['source'],'sourceType':'official','region':'国内向け報道から発見','aliases':x['company'],'verifiedAt':None,'fetchedAt':x['lastCheckedAt'],'automaticallyCollected':True,'dateSource':'scoped-publication-date-v2','discoveredViaNews':x.get('discoverySource')!='TDnet','discoverySource':x.get('discoverySource','news'),'newsSources':x['newsSources']}
+  key=normalize_url(x['source'])
+  announcements[key]=canonicalize_announcements({**announcements,key:announcement})[key]
 
  for a in announcements.values():
   if a.get('discoverySource')=='TDnet':

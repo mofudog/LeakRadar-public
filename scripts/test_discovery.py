@@ -10,9 +10,20 @@ from unittest.mock import patch
 
 from bs4 import BeautifulSoup
 import news_discovery as discovery
+from update_sources import canonicalize_announcements, normalize_url
 
 
 class DiscoveryRegression(unittest.TestCase):
+    def test_announcement_urls_with_optional_trailing_slash_are_deduplicated(self):
+        base = 'https://issuer.example/notices/82023'
+        first = {'id': 'auto-first', 'source': base, 'fetchedAt': '2026-10-20T00:00:00+00:00'}
+        second = {'id': 'news-second', 'source': base + '/', 'fetchedAt': '2026-10-20T00:00:01+00:00', 'newsSources': ['https://media.example/article']}
+        result = canonicalize_announcements({base: first, base + '/': second})
+        self.assertEqual(len(result), 1)
+        self.assertEqual(set(result), {normalize_url(base)})
+        self.assertEqual(result[normalize_url(base)]['id'], 'news-second')
+        self.assertEqual(result[normalize_url(base)]['newsSources'], ['https://media.example/article'])
+
     def test_japanese_charset_and_real_body_selector_priority(self):
         html = '<meta charset="shift_jis"><div class="inner">見出し</div><div id="cmsBody">' + '会員情報の漏えいについて。' * 15 + '<a href="https://issuer.example/notice.pdf">公式発表</a></div>'
         decoded = discovery.decode_html(html.encode('cp932'), 'utf-8')
