@@ -1,18 +1,18 @@
 {
-  "checkedAt": "2026-10-20T17:43:27+00:00",
+  "checkedAt": "2026-10-20T18:54:00+00:00",
   "fullyComprehensive": false,
   "completeHistoricalBackfill": false,
   "retentionStart": "2023-10-21",
   "discovery": {
-    "lastAttemptAt": "2026-10-20T17:43:27+00:00",
+    "lastAttemptAt": "2026-10-20T18:54:00+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 4,
-    "newsCandidates": 844,
+    "newsCandidates": 854,
     "newsArticlesChecked": 70,
-    "deferredNewsArticles": 256,
-    "officialFetches": 100,
-    "confirmedOfficialAnnouncements": 145,
+    "deferredNewsArticles": 252,
+    "officialFetches": 93,
+    "confirmedOfficialAnnouncements": 150,
     "pendingNewsArticles": 530,
     "skippedReviewedArticles": 30,
     "archiveCursors": {
@@ -39,7 +39,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-20T17:45:58+00:00",
+      "lastAttemptAt": "2026-10-20T18:57:07+00:00",
       "listPagesChecked": 3,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -134,13 +134,13 @@
   ],
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 27,
+    "fetch_failed": 28,
     "needs_source_lookup": 52,
     "covered": 17,
     "reopened": 6,
-    "needs_review": 162,
+    "needs_review": 165,
     "duplicate": 3,
-    "deferred": 256
+    "deferred": 252
   },
   "baselineReview": {
     "candidateCount": 84,
@@ -360,7 +360,7 @@
       "reportedDate": "2026-10-16",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 5,
       "reasons": [
         {
@@ -809,7 +809,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "ITmedia NEWS セキュリティ",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 4,
       "reasons": [
         {
@@ -4674,56 +4674,20 @@
       "recordIds": []
     },
     {
-      "newsSource": "https://www.security-next.com/176048",
-      "title": "作業服通販サイトに不正アクセス - 2024年に判明、新サイトへ移行",
-      "reportedDate": "2025-10-21",
-      "publisher": "Security NEXT 月別記事",
-      "firstSeenAt": "2026-10-18T08:44:57+00:00",
-      "lastCheckedAt": null,
-      "attempts": 0,
-      "reasons": [
-        {
-          "url": "https://www.security-next.com/176048",
-          "reason": "Deferred: article has not been checked yet"
-        }
-      ],
-      "classification": "deferred",
-      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
-      "recordIds": []
-    },
-    {
-      "newsSource": "https://www.security-next.com/175668",
-      "title": "グループ会社サーバから個人情報が流出 - 茨城県の人材サービス会社",
-      "reportedDate": "2025-10-21",
-      "publisher": "Security NEXT 月別記事",
-      "firstSeenAt": "2026-10-18T08:44:57+00:00",
-      "lastCheckedAt": null,
-      "attempts": 0,
-      "reasons": [
-        {
-          "url": "https://www.security-next.com/175668",
-          "reason": "Deferred: article has not been checked yet"
-        }
-      ],
-      "classification": "deferred",
-      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
-      "recordIds": []
-    },
-    {
       "newsSource": "https://www.security-next.com/176044",
       "title": "「Spring Cloud Gateway Server Webflux」に情報漏洩の脆弱性",
       "reportedDate": "2025-10-21",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-18T08:44:57+00:00",
-      "lastCheckedAt": null,
-      "attempts": 0,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 1,
       "reasons": [
         {
-          "url": "https://www.security-next.com/176044",
-          "reason": "Deferred: article has not been checked yet"
+          "url": "https://spring.io/security/cve-2025-41253/",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
-      "classification": "deferred",
+      "classification": "needs_review",
       "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
       "recordIds": []
     },
@@ -4733,15 +4697,15 @@
       "reportedDate": "2025-10-20",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-18T08:44:57+00:00",
-      "lastCheckedAt": null,
-      "attempts": 0,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 1,
       "reasons": [
         {
-          "url": "https://www.security-next.com/176014",
-          "reason": "Deferred: article has not been checked yet"
+          "url": "https://github.com/squid-cache/squid",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
-      "classification": "deferred",
+      "classification": "needs_review",
       "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
       "recordIds": []
     },
@@ -4751,33 +4715,15 @@
       "reportedDate": "2025-10-20",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-18T08:44:57+00:00",
-      "lastCheckedAt": null,
-      "attempts": 0,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 1,
       "reasons": [
         {
-          "url": "https://www.security-next.com/175968",
-          "reason": "Deferred: article has not been checked yet"
+          "url": "https://www.ffpri.go.jp/ffpri.html",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
-      "classification": "deferred",
-      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
-      "recordIds": []
-    },
-    {
-      "newsSource": "https://www.security-next.com/176006",
-      "title": "手書き帳票デジタル化サービスにサイバー攻撃 - 情報流出の可能性",
-      "reportedDate": "2025-10-20",
-      "publisher": "Security NEXT 月別記事",
-      "firstSeenAt": "2026-10-18T08:44:57+00:00",
-      "lastCheckedAt": null,
-      "attempts": 0,
-      "reasons": [
-        {
-          "url": "https://www.security-next.com/176006",
-          "reason": "Deferred: article has not been checked yet"
-        }
-      ],
-      "classification": "deferred",
+      "classification": "needs_review",
       "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
       "recordIds": []
     },
@@ -4810,78 +4756,6 @@
       "reasons": [
         {
           "url": "https://www.security-next.com/175085",
-          "reason": "Deferred: article has not been checked yet"
-        }
-      ],
-      "classification": "deferred",
-      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
-      "recordIds": []
-    },
-    {
-      "newsSource": "https://www.security-next.com/175936",
-      "title": "小学校で教員募集メールを誤送信、メアド流出 - 江戸川区",
-      "reportedDate": "2025-10-17",
-      "publisher": "Security NEXT 月別記事",
-      "firstSeenAt": "2026-10-18T08:44:57+00:00",
-      "lastCheckedAt": null,
-      "attempts": 0,
-      "reasons": [
-        {
-          "url": "https://www.security-next.com/175936",
-          "reason": "Deferred: article has not been checked yet"
-        }
-      ],
-      "classification": "deferred",
-      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
-      "recordIds": []
-    },
-    {
-      "newsSource": "https://www.security-next.com/175326",
-      "title": "個人情報含むメールを委託業者へ誤送信 - 名古屋市",
-      "reportedDate": "2025-10-16",
-      "publisher": "Security NEXT 月別記事",
-      "firstSeenAt": "2026-10-18T08:44:57+00:00",
-      "lastCheckedAt": null,
-      "attempts": 0,
-      "reasons": [
-        {
-          "url": "https://www.security-next.com/175326",
-          "reason": "Deferred: article has not been checked yet"
-        }
-      ],
-      "classification": "deferred",
-      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
-      "recordIds": []
-    },
-    {
-      "newsSource": "https://www.security-next.com/175730",
-      "title": "サイバー攻撃で個人情報流出の可能性 - アサヒグループHD",
-      "reportedDate": "2025-10-15",
-      "publisher": "Security NEXT 月別記事",
-      "firstSeenAt": "2026-10-18T09:43:44+00:00",
-      "lastCheckedAt": null,
-      "attempts": 0,
-      "reasons": [
-        {
-          "url": "https://www.security-next.com/175730",
-          "reason": "Deferred: article has not been checked yet"
-        }
-      ],
-      "classification": "deferred",
-      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
-      "recordIds": []
-    },
-    {
-      "newsSource": "https://www.security-next.com/175595",
-      "title": "「認知症サポーター養成講座」の案内メールを誤送信 - 藤沢市",
-      "reportedDate": "2025-10-14",
-      "publisher": "Security NEXT 月別記事",
-      "firstSeenAt": "2026-10-18T09:43:44+00:00",
-      "lastCheckedAt": null,
-      "attempts": 0,
-      "reasons": [
-        {
-          "url": "https://www.security-next.com/175595",
           "reason": "Deferred: article has not been checked yet"
         }
       ],
@@ -4967,69 +4841,15 @@
       "reportedDate": "2025-10-14",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-18T09:43:44+00:00",
-      "lastCheckedAt": null,
-      "attempts": 0,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 1,
       "reasons": [
         {
-          "url": "https://www.security-next.com/174896",
-          "reason": "Deferred: article has not been checked yet"
+          "url": "https://www.icic.co.jp/",
+          "reason": "HTTPError: HTTP Error 403: Forbidden"
         }
       ],
-      "classification": "deferred",
-      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
-      "recordIds": []
-    },
-    {
-      "newsSource": "https://www.security-next.com/175599",
-      "title": "健康靴の通販サイト、個人情報流出の可能性",
-      "reportedDate": "2025-10-10",
-      "publisher": "Security NEXT 月別記事",
-      "firstSeenAt": "2026-10-18T09:43:44+00:00",
-      "lastCheckedAt": null,
-      "attempts": 0,
-      "reasons": [
-        {
-          "url": "https://www.security-next.com/175599",
-          "reason": "Deferred: article has not been checked yet"
-        }
-      ],
-      "classification": "deferred",
-      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
-      "recordIds": []
-    },
-    {
-      "newsSource": "https://www.security-next.com/175469",
-      "title": "闇サイトでの個人情報流通を契機に不正アクセス判明 - 不動産管理会社",
-      "reportedDate": "2025-10-10",
-      "publisher": "Security NEXT 月別記事",
-      "firstSeenAt": "2026-10-18T09:43:44+00:00",
-      "lastCheckedAt": null,
-      "attempts": 0,
-      "reasons": [
-        {
-          "url": "https://www.security-next.com/175469",
-          "reason": "Deferred: article has not been checked yet"
-        }
-      ],
-      "classification": "deferred",
-      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
-      "recordIds": []
-    },
-    {
-      "newsSource": "https://www.security-next.com/175477",
-      "title": "個人情報含む国勢調査世帯一覧を紛失 - 荒尾市",
-      "reportedDate": "2025-10-10",
-      "publisher": "Security NEXT 月別記事",
-      "firstSeenAt": "2026-10-18T09:43:44+00:00",
-      "lastCheckedAt": null,
-      "attempts": 0,
-      "reasons": [
-        {
-          "url": "https://www.security-next.com/175477",
-          "reason": "Deferred: article has not been checked yet"
-        }
-      ],
-      "classification": "deferred",
+      "classification": "fetch_failed",
       "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
       "recordIds": []
     },
@@ -6947,7 +6767,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-18T22:40:48+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -7073,7 +6893,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -7091,7 +6911,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -7109,7 +6929,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -7127,7 +6947,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -7145,7 +6965,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -7163,7 +6983,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -7181,7 +7001,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -7199,7 +7019,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -7217,7 +7037,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -7235,8 +7055,8 @@
       "reportedDate": "2026-10-19",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 5,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 6,
       "reasons": [
         {
           "url": "https://www.cyber.go.jp/pdf/press/taiou.pdf",
@@ -7253,9 +7073,13 @@
       "reportedDate": "2026-10-18",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 5,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 6,
       "reasons": [
+        {
+          "url": "https://digym.cloud/post-955/",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
         {
           "url": "https://www.jfa.jp/jfapassport/news/00034519/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
@@ -7267,10 +7091,6 @@
         {
           "url": "https://www.carsensor.net/",
           "reason": "HTTPError: HTTP Error 503: Service Temporarily Unavailable"
-        },
-        {
-          "url": "https://www.joshin.co.jp/ja/news/info/info-20261017/main/0/link/20261017Notice%20and%20Apology%20Regarding%20System%20Disruption%20Caused%20by%20Unauthorized%20Access.pdf",
-          "reason": "ValueError: PDF metadata needs review: publisher=False, date=True, title=True"
         },
         {
           "url": "https://innovatopia.jp/cyber-security/cyber-security-news/119035/",
@@ -7287,19 +7107,15 @@
       "reportedDate": "2026-10-18",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 5,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 6,
       "reasons": [
         {
-          "url": "https://geo-online.co.jp/",
-          "reason": "ValueError: Only public HTTPS sources are allowed"
-        },
-        {
-          "url": "https://jvn.jp/jp/JVN40460777/",
+          "url": "https://www.nttsolmare.com/press/2026/1016-1.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.nttsolmare.com/press/2026/1016.html",
+          "url": "https://www.bookoff.co.jp/info/news/2026/post_113.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -7461,8 +7277,8 @@
       "reportedDate": "2026-10-19",
       "publisher": "ITmedia エンタープライズ",
       "firstSeenAt": "2026-10-19T00:58:30+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 5,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 6,
       "reasons": [
         {
           "url": "https://www.burgerking.co.jp/images/notice/2026/10/15/d4d114ca-ebd7-4f3d-94ef-c4ea7a84a139.pdf",
@@ -7479,8 +7295,8 @@
       "reportedDate": "2026-10-19",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-19T00:58:30+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 5,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 6,
       "reasons": [
         {
           "url": "https://www.jfa.jp/news/00036934/",
@@ -7767,8 +7583,8 @@
       "reportedDate": "2026-10-19",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-19T02:46:25+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 4,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 5,
       "reasons": [
         {
           "url": "https://www.joshin.co.jp/ja/news/info/info-20261017/main/0/link/20261017Notice%20and%20Apology%20Regarding%20System%20Disruption%20Caused%20by%20Unauthorized%20Access.pdf",
@@ -7965,8 +7781,8 @@
       "reportedDate": "2026-10-19",
       "publisher": "Security NEXT",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
         {
           "url": "https://coconala.co.jp/news-20261009/",
@@ -8037,7 +7853,7 @@
       "reportedDate": "2026-10-20",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -8055,7 +7871,7 @@
       "reportedDate": "2026-10-20",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -8073,7 +7889,7 @@
       "reportedDate": "2026-10-20",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -8091,7 +7907,7 @@
       "reportedDate": "2026-10-20",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -8109,7 +7925,7 @@
       "reportedDate": "2026-10-20",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -8127,7 +7943,7 @@
       "reportedDate": "2026-10-20",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T16:47:20+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -8145,7 +7961,7 @@
       "reportedDate": "2026-10-20",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T16:47:20+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -8163,7 +7979,7 @@
       "reportedDate": "2026-10-20",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T16:47:20+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -8181,7 +7997,7 @@
       "reportedDate": "2026-10-20",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T16:47:20+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -8199,7 +8015,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -8217,7 +8033,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -8235,7 +8051,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -8323,8 +8139,8 @@
       "reportedDate": "2026-10-19",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
         {
           "url": "https://www.tdb.co.jp/report/economic/20261019-databreach/",
@@ -8405,15 +8221,15 @@
       "reportedDate": "2026-10-20",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
         {
-          "url": "https://gmo-cybersecurity.com/blog/20261019/",
+          "url": "https://gmo-cybersecurity.com/blog/20261014/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://gmo-cybersecurity.com/blog/20261014/",
+          "url": "https://gmo-cybersecurity.com/blog/20261019/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
@@ -8427,8 +8243,8 @@
       "reportedDate": "2026-10-20",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
         {
           "url": "https://raiden.site.ktaiwork.jp/wp-content/uploads/sites/2/2026/10/2026_10_19AccessIncident.pdf%EF%BC%88PDF%EF%BC%89",
@@ -8445,8 +8261,8 @@
       "reportedDate": "2026-10-20",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
         {
           "url": "https://www.softbank.jp/corp/news/press/sbkk/2026/20261019_01/",
@@ -8463,8 +8279,8 @@
       "reportedDate": "2026-10-20",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
         {
           "url": "https://www.cuenote.jp/information/news/unauthorizedaccess.html",
@@ -8481,9 +8297,13 @@
       "reportedDate": "2026-10-20",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
+        {
+          "url": "https://www.sankei.com/article/20261006-QENMXFY2YBPCFK734JJGVGLWSQ/",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
         {
           "url": "https://www.sankei.com/article/20261005-BWOBT7GNLJLT5DXHLR35YV54BY/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
@@ -8494,10 +8314,6 @@
         },
         {
           "url": "https://www.sankei.com/article/20261020-YBF2ADO4GBMDXLG64LMGN6K76U/",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
-        },
-        {
-          "url": "https://www.sankei.com/article/20261020-DFTM5VHTSFOHRCPJZHWO6EH5TU/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -8515,8 +8331,8 @@
       "reportedDate": "2026-10-19",
       "publisher": "ITmedia Mobile",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
         {
           "url": "https://www.softbank.jp/corp/news/press/sbkk/2026/20261019_01/?sbpr=info",
@@ -8533,7 +8349,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -8551,7 +8367,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -8569,15 +8385,23 @@
       "reportedDate": "2026-10-20",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
         {
-          "url": "https://www.monogatari.co.jp/news/261005_news/",
+          "url": "https://www.nikkeibp.co.jp/atcl/newsrelease/corp/100200417/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://piyolog.hatenadiary.jp/entry/2026/10/05/115509",
+          "url": "https://studysapuri.jp/info/important/",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
+        {
+          "url": "https://www.jogmec.go.jp/news/information/information_00706.html",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
+        {
+          "url": "https://www.sammy-net.jp/news/2026/10/777con-pass-6.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -8595,23 +8419,23 @@
       "reportedDate": "2026-10-20",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
         {
-          "url": "https://nano.shinmai.co.jp/info/media/93016/",
+          "url": "https://www.keio.co.jp/news/update/news_release/news_release2026/pdf/nr20261016_newsrelease.pdf",
+          "reason": "ValueError: PDF metadata needs review: publisher=True, date=False, title=False"
+        },
+        {
+          "url": "https://piyolog.hatenadiary.jp/entry/2026/09/30/021814",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://starts-pub.jp/info20260927",
+          "url": "https://www.watch.impress.co.jp/docs/news/2143794.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.tokyometro.jp/info/files/3aef5fe666b10b7986117276c4907f66_1.pdf",
-          "reason": "ValueError: PDF metadata needs review: publisher=True, date=False, title=True"
-        },
-        {
-          "url": "https://www.nipponrentacar.co.jp/info/202610_2.html",
+          "url": "https://piyolog.hatenadiary.jp/entry/2026/09/28/214857",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -8629,15 +8453,19 @@
       "reportedDate": "2026-10-20",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
         {
-          "url": "https://01bank.co.jp/news/pdf/2026/0827.pdf",
-          "reason": "HTTPError: HTTP Error 403: Forbidden"
+          "url": "https://www.b-soccer.jp/news/34285-0820",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.expo2025.or.jp/news/news-20260820-01/",
+          "url": "https://career-center.doshisha.ac.jp/career/news/detail/011-waMBd6.html",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
+        {
+          "url": "https://voising-official.com/news/936",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -8645,7 +8473,7 @@
           "reason": "Remaining official links deferred by the per-run/per-article limit"
         }
       ],
-      "classification": "fetch_failed",
+      "classification": "needs_review",
       "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
       "recordIds": []
     },
@@ -8655,23 +8483,27 @@
       "reportedDate": "2026-10-20",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
         {
-          "url": "https://support.smileserver.ne.jp/ver5/72trb/2026/07/2026072402.html",
+          "url": "https://www.ipa.go.jp/security/security-alert/2026/alert20260722.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.cmic-hci.com/news/20260724",
+          "url": "https://piyolog.hatenadiary.jp/entry/2026/07/19/181822",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.ocs.co.jp/5282218",
+          "url": "https://www.fusodentsu.co.jp/news/news_cp_20260722.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.axcelead.com/news-release/17310/",
+          "url": "https://www.aida.co.jp/news/77898e7008265ee89562f5843f23724f65d0e7f4.pdf",
+          "reason": "ValueError: PDF metadata needs review: publisher=False, date=False, title=True"
+        },
+        {
+          "url": "https://www.solid-adv.co.jp/20260716-01/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -8689,23 +8521,27 @@
       "reportedDate": "2026-10-20",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
         {
-          "url": "https://legal.fronteo.com/cyber-security/credit-card-investigation?hsLang=ja",
+          "url": "https://www.mbsd.jp/solutions/security_force/incident/index.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://legal.fronteo.com/retiree-computers-dataintegrity?hsLang=ja",
+          "url": "https://agest.co.jp/solution/emergency_response/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.sompocybersecurity.com/service/incident_support_desk.html",
+          "url": "https://www.blackpanda.com/jp/solutions/emergency-incident-response",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.isskk.co.jp/emergency/index.php",
+          "url": "https://www.nec-security.co.jp/service/dfir/index.html",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
+        {
+          "url": "https://www.nri-secure.co.jp/service/consulting/incident",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -8723,23 +8559,23 @@
       "reportedDate": "2026-10-20",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
         {
-          "url": "https://corporate.moobon.jp/security-diagnosis",
+          "url": "https://vlcsecurity.com/news/20835",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://peoplex.jp/news/20261019",
+          "url": "https://www.cyberdefense.jp/services/training/cdir_l",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.loggol.jp/news/2026/1008.html",
+          "url": "https://www.securesky-tech.com/2026/10/14/9506/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://privtech.co.jp/events/2026/10/28.html",
+          "url": "https://www.jnsa.org/emergency_response/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -8757,19 +8593,23 @@
       "reportedDate": "2026-10-20",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
         {
-          "url": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261019/20261019553124.pdf",
-          "reason": "ValueError: PDF metadata needs review: publisher=True, date=True, title=False"
+          "url": "https://www.shueisha.co.jp/wp-content/uploads/2026/09/Shueisha20260928-1.pdf",
+          "reason": "ValueError: PDF metadata needs review: publisher=False, date=False, title=True"
         },
         {
-          "url": "https://www.mitsuifudosan.co.jp/letter/260928/download/260928.pdf",
-          "reason": "ValueError: PDF metadata needs review: publisher=True, date=False, title=True"
+          "url": "https://nano.shinmai.co.jp/info/media/93016/",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://kingprinters.com/news/2026/oshirase_20260925",
+          "url": "https://corp.eplus.jp/press-release/1824/",
+          "reason": "HTTPError: HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.ghi.gr.jp/information/news/post-215.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -8777,7 +8617,7 @@
           "reason": "Remaining official links deferred by the per-run/per-article limit"
         }
       ],
-      "classification": "needs_review",
+      "classification": "fetch_failed",
       "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
       "recordIds": []
     },
@@ -10438,12 +10278,192 @@
       "recordIds": []
     },
     {
+      "newsSource": "https://www.security-next.com/167280",
+      "title": "委託先がマルウェア感染、コード管理サービスから情報流出 - アイリッジ",
+      "reportedDate": "2025-02-17",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-20T18:54:00+00:00",
+      "lastCheckedAt": null,
+      "attempts": 0,
+      "reasons": [
+        {
+          "url": "https://www.security-next.com/167280",
+          "reason": "Deferred: article has not been checked yet"
+        }
+      ],
+      "classification": "deferred",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
+      "newsSource": "https://www.security-next.com/167283",
+      "title": "サーバでランサム被害、情報流出を調査 - ニチノー緑化",
+      "reportedDate": "2025-02-17",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-20T18:54:00+00:00",
+      "lastCheckedAt": null,
+      "attempts": 0,
+      "reasons": [
+        {
+          "url": "https://www.security-next.com/167283",
+          "reason": "Deferred: article has not been checked yet"
+        }
+      ],
+      "classification": "deferred",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
+      "newsSource": "https://www.security-next.com/167191",
+      "title": "運動機能測定結果と血液検査結果をメール誤送信 - 太子町",
+      "reportedDate": "2025-02-14",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-20T18:54:00+00:00",
+      "lastCheckedAt": null,
+      "attempts": 0,
+      "reasons": [
+        {
+          "url": "https://www.security-next.com/167191",
+          "reason": "Deferred: article has not been checked yet"
+        }
+      ],
+      "classification": "deferred",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
+      "newsSource": "https://www.security-next.com/167240",
+      "title": "患者情報含む書類を紛失、誤廃棄の可能性 - 日大付属板橋病院",
+      "reportedDate": "2025-02-14",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-20T18:54:00+00:00",
+      "lastCheckedAt": null,
+      "attempts": 0,
+      "reasons": [
+        {
+          "url": "https://www.security-next.com/167240",
+          "reason": "Deferred: article has not been checked yet"
+        }
+      ],
+      "classification": "deferred",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
+      "newsSource": "https://www.security-next.com/166717",
+      "title": "他顧客情報をウェブで誤表示、設計ミスで - ジブラルタ生命",
+      "reportedDate": "2025-02-04",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-20T18:54:00+00:00",
+      "lastCheckedAt": null,
+      "attempts": 0,
+      "reasons": [
+        {
+          "url": "https://www.security-next.com/166717",
+          "reason": "Deferred: article has not been checked yet"
+        }
+      ],
+      "classification": "deferred",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
+      "newsSource": "https://www.security-next.com/166809",
+      "title": "ランサム被害を確認、情報流出を調査 - サカイ創建",
+      "reportedDate": "2025-02-03",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-20T18:54:00+00:00",
+      "lastCheckedAt": null,
+      "attempts": 0,
+      "reasons": [
+        {
+          "url": "https://www.security-next.com/166809",
+          "reason": "Deferred: article has not been checked yet"
+        }
+      ],
+      "classification": "deferred",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
+      "newsSource": "https://www.security-next.com/166823",
+      "title": "「Apache Hive」に脆弱性 - 認証回避や情報漏洩のおそれ",
+      "reportedDate": "2025-02-03",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-20T18:54:00+00:00",
+      "lastCheckedAt": null,
+      "attempts": 0,
+      "reasons": [
+        {
+          "url": "https://www.security-next.com/166823",
+          "reason": "Deferred: article has not been checked yet"
+        }
+      ],
+      "classification": "deferred",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
+      "newsSource": "https://www.security-next.com/166715",
+      "title": "サイトが改ざん被害、情報流出を確認 - 自立支援のNPO法人",
+      "reportedDate": "2025-02-13",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-20T18:54:00+00:00",
+      "lastCheckedAt": null,
+      "attempts": 0,
+      "reasons": [
+        {
+          "url": "https://www.security-next.com/166715",
+          "reason": "Deferred: article has not been checked yet"
+        }
+      ],
+      "classification": "deferred",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
+      "newsSource": "https://www.security-next.com/167134",
+      "title": "関係者向けメールで誤送信が発生 - 協立情報通信",
+      "reportedDate": "2025-02-13",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-20T18:54:00+00:00",
+      "lastCheckedAt": null,
+      "attempts": 0,
+      "reasons": [
+        {
+          "url": "https://www.security-next.com/167134",
+          "reason": "Deferred: article has not been checked yet"
+        }
+      ],
+      "classification": "deferred",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
+      "newsSource": "https://www.security-next.com/167053",
+      "title": "メルアカに不正アクセス、フィッシングの踏み台に - SVリーグ",
+      "reportedDate": "2025-02-12",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-20T18:54:00+00:00",
+      "lastCheckedAt": null,
+      "attempts": 0,
+      "reasons": [
+        {
+          "url": "https://www.security-next.com/167053",
+          "reason": "Deferred: article has not been checked yet"
+        }
+      ],
+      "classification": "deferred",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
       "newsSource": "https://www.release.tdnet.info/inbs/140120261009548970.pdf",
       "title": "当社ウェブサイトへの一部不正アクセスによる 個人情報漏洩に関するお詫びとご報告",
       "reportedDate": "2026-10-09",
       "publisher": "TDnet",
       "firstSeenAt": "2026-10-16T23:45:02+00:00",
-      "lastCheckedAt": "2026-10-20T16:50:34+00:00",
+      "lastCheckedAt": "2026-10-20T18:57:07+00:00",
       "reasons": [
         {
           "url": "https://www.release.tdnet.info/inbs/140120261009548970.pdf",
@@ -10460,7 +10480,7 @@
       "reportedDate": "2026-10-06",
       "publisher": "TDnet",
       "firstSeenAt": "2026-10-16T23:48:55+00:00",
-      "lastCheckedAt": "2026-10-20T17:45:58+00:00",
+      "lastCheckedAt": "2026-10-20T18:57:07+00:00",
       "reasons": [
         {
           "url": "https://www.release.tdnet.info/inbs/140120261006546323.pdf",
@@ -10569,7 +10589,7 @@
       "reportedDate": "2026-10-16",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 5,
       "reasons": [
         {
@@ -10774,7 +10794,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "ITmedia NEWS セキュリティ",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 4,
       "reasons": [
         {
@@ -14216,56 +14236,20 @@
       "recordIds": []
     },
     {
-      "newsSource": "https://www.security-next.com/176048",
-      "title": "作業服通販サイトに不正アクセス - 2024年に判明、新サイトへ移行",
-      "reportedDate": "2025-10-21",
-      "publisher": "Security NEXT 月別記事",
-      "firstSeenAt": "2026-10-18T08:44:57+00:00",
-      "lastCheckedAt": null,
-      "attempts": 0,
-      "reasons": [
-        {
-          "url": "https://www.security-next.com/176048",
-          "reason": "Deferred: article has not been checked yet"
-        }
-      ],
-      "classification": "deferred",
-      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
-      "recordIds": []
-    },
-    {
-      "newsSource": "https://www.security-next.com/175668",
-      "title": "グループ会社サーバから個人情報が流出 - 茨城県の人材サービス会社",
-      "reportedDate": "2025-10-21",
-      "publisher": "Security NEXT 月別記事",
-      "firstSeenAt": "2026-10-18T08:44:57+00:00",
-      "lastCheckedAt": null,
-      "attempts": 0,
-      "reasons": [
-        {
-          "url": "https://www.security-next.com/175668",
-          "reason": "Deferred: article has not been checked yet"
-        }
-      ],
-      "classification": "deferred",
-      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
-      "recordIds": []
-    },
-    {
       "newsSource": "https://www.security-next.com/176044",
       "title": "「Spring Cloud Gateway Server Webflux」に情報漏洩の脆弱性",
       "reportedDate": "2025-10-21",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-18T08:44:57+00:00",
-      "lastCheckedAt": null,
-      "attempts": 0,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 1,
       "reasons": [
         {
-          "url": "https://www.security-next.com/176044",
-          "reason": "Deferred: article has not been checked yet"
+          "url": "https://spring.io/security/cve-2025-41253/",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
-      "classification": "deferred",
+      "classification": "needs_review",
       "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
       "recordIds": []
     },
@@ -14275,15 +14259,15 @@
       "reportedDate": "2025-10-20",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-18T08:44:57+00:00",
-      "lastCheckedAt": null,
-      "attempts": 0,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 1,
       "reasons": [
         {
-          "url": "https://www.security-next.com/176014",
-          "reason": "Deferred: article has not been checked yet"
+          "url": "https://github.com/squid-cache/squid",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
-      "classification": "deferred",
+      "classification": "needs_review",
       "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
       "recordIds": []
     },
@@ -14293,33 +14277,15 @@
       "reportedDate": "2025-10-20",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-18T08:44:57+00:00",
-      "lastCheckedAt": null,
-      "attempts": 0,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 1,
       "reasons": [
         {
-          "url": "https://www.security-next.com/175968",
-          "reason": "Deferred: article has not been checked yet"
+          "url": "https://www.ffpri.go.jp/ffpri.html",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
-      "classification": "deferred",
-      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
-      "recordIds": []
-    },
-    {
-      "newsSource": "https://www.security-next.com/176006",
-      "title": "手書き帳票デジタル化サービスにサイバー攻撃 - 情報流出の可能性",
-      "reportedDate": "2025-10-20",
-      "publisher": "Security NEXT 月別記事",
-      "firstSeenAt": "2026-10-18T08:44:57+00:00",
-      "lastCheckedAt": null,
-      "attempts": 0,
-      "reasons": [
-        {
-          "url": "https://www.security-next.com/176006",
-          "reason": "Deferred: article has not been checked yet"
-        }
-      ],
-      "classification": "deferred",
+      "classification": "needs_review",
       "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
       "recordIds": []
     },
@@ -14352,78 +14318,6 @@
       "reasons": [
         {
           "url": "https://www.security-next.com/175085",
-          "reason": "Deferred: article has not been checked yet"
-        }
-      ],
-      "classification": "deferred",
-      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
-      "recordIds": []
-    },
-    {
-      "newsSource": "https://www.security-next.com/175936",
-      "title": "小学校で教員募集メールを誤送信、メアド流出 - 江戸川区",
-      "reportedDate": "2025-10-17",
-      "publisher": "Security NEXT 月別記事",
-      "firstSeenAt": "2026-10-18T08:44:57+00:00",
-      "lastCheckedAt": null,
-      "attempts": 0,
-      "reasons": [
-        {
-          "url": "https://www.security-next.com/175936",
-          "reason": "Deferred: article has not been checked yet"
-        }
-      ],
-      "classification": "deferred",
-      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
-      "recordIds": []
-    },
-    {
-      "newsSource": "https://www.security-next.com/175326",
-      "title": "個人情報含むメールを委託業者へ誤送信 - 名古屋市",
-      "reportedDate": "2025-10-16",
-      "publisher": "Security NEXT 月別記事",
-      "firstSeenAt": "2026-10-18T08:44:57+00:00",
-      "lastCheckedAt": null,
-      "attempts": 0,
-      "reasons": [
-        {
-          "url": "https://www.security-next.com/175326",
-          "reason": "Deferred: article has not been checked yet"
-        }
-      ],
-      "classification": "deferred",
-      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
-      "recordIds": []
-    },
-    {
-      "newsSource": "https://www.security-next.com/175730",
-      "title": "サイバー攻撃で個人情報流出の可能性 - アサヒグループHD",
-      "reportedDate": "2025-10-15",
-      "publisher": "Security NEXT 月別記事",
-      "firstSeenAt": "2026-10-18T09:43:44+00:00",
-      "lastCheckedAt": null,
-      "attempts": 0,
-      "reasons": [
-        {
-          "url": "https://www.security-next.com/175730",
-          "reason": "Deferred: article has not been checked yet"
-        }
-      ],
-      "classification": "deferred",
-      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
-      "recordIds": []
-    },
-    {
-      "newsSource": "https://www.security-next.com/175595",
-      "title": "「認知症サポーター養成講座」の案内メールを誤送信 - 藤沢市",
-      "reportedDate": "2025-10-14",
-      "publisher": "Security NEXT 月別記事",
-      "firstSeenAt": "2026-10-18T09:43:44+00:00",
-      "lastCheckedAt": null,
-      "attempts": 0,
-      "reasons": [
-        {
-          "url": "https://www.security-next.com/175595",
           "reason": "Deferred: article has not been checked yet"
         }
       ],
@@ -14509,69 +14403,15 @@
       "reportedDate": "2025-10-14",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-18T09:43:44+00:00",
-      "lastCheckedAt": null,
-      "attempts": 0,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 1,
       "reasons": [
         {
-          "url": "https://www.security-next.com/174896",
-          "reason": "Deferred: article has not been checked yet"
+          "url": "https://www.icic.co.jp/",
+          "reason": "HTTPError: HTTP Error 403: Forbidden"
         }
       ],
-      "classification": "deferred",
-      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
-      "recordIds": []
-    },
-    {
-      "newsSource": "https://www.security-next.com/175599",
-      "title": "健康靴の通販サイト、個人情報流出の可能性",
-      "reportedDate": "2025-10-10",
-      "publisher": "Security NEXT 月別記事",
-      "firstSeenAt": "2026-10-18T09:43:44+00:00",
-      "lastCheckedAt": null,
-      "attempts": 0,
-      "reasons": [
-        {
-          "url": "https://www.security-next.com/175599",
-          "reason": "Deferred: article has not been checked yet"
-        }
-      ],
-      "classification": "deferred",
-      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
-      "recordIds": []
-    },
-    {
-      "newsSource": "https://www.security-next.com/175469",
-      "title": "闇サイトでの個人情報流通を契機に不正アクセス判明 - 不動産管理会社",
-      "reportedDate": "2025-10-10",
-      "publisher": "Security NEXT 月別記事",
-      "firstSeenAt": "2026-10-18T09:43:44+00:00",
-      "lastCheckedAt": null,
-      "attempts": 0,
-      "reasons": [
-        {
-          "url": "https://www.security-next.com/175469",
-          "reason": "Deferred: article has not been checked yet"
-        }
-      ],
-      "classification": "deferred",
-      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
-      "recordIds": []
-    },
-    {
-      "newsSource": "https://www.security-next.com/175477",
-      "title": "個人情報含む国勢調査世帯一覧を紛失 - 荒尾市",
-      "reportedDate": "2025-10-10",
-      "publisher": "Security NEXT 月別記事",
-      "firstSeenAt": "2026-10-18T09:43:44+00:00",
-      "lastCheckedAt": null,
-      "attempts": 0,
-      "reasons": [
-        {
-          "url": "https://www.security-next.com/175477",
-          "reason": "Deferred: article has not been checked yet"
-        }
-      ],
-      "classification": "deferred",
+      "classification": "fetch_failed",
       "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
       "recordIds": []
     },
@@ -16489,7 +16329,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-18T22:40:48+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -16615,7 +16455,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -16633,7 +16473,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -16651,7 +16491,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -16669,7 +16509,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -16687,7 +16527,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -16705,7 +16545,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -16723,7 +16563,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -16741,7 +16581,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -16759,7 +16599,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -16777,8 +16617,8 @@
       "reportedDate": "2026-10-19",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 5,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 6,
       "reasons": [
         {
           "url": "https://www.cyber.go.jp/pdf/press/taiou.pdf",
@@ -16795,9 +16635,13 @@
       "reportedDate": "2026-10-18",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 5,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 6,
       "reasons": [
+        {
+          "url": "https://digym.cloud/post-955/",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
         {
           "url": "https://www.jfa.jp/jfapassport/news/00034519/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
@@ -16809,10 +16653,6 @@
         {
           "url": "https://www.carsensor.net/",
           "reason": "HTTPError: HTTP Error 503: Service Temporarily Unavailable"
-        },
-        {
-          "url": "https://www.joshin.co.jp/ja/news/info/info-20261017/main/0/link/20261017Notice%20and%20Apology%20Regarding%20System%20Disruption%20Caused%20by%20Unauthorized%20Access.pdf",
-          "reason": "ValueError: PDF metadata needs review: publisher=False, date=True, title=True"
         },
         {
           "url": "https://innovatopia.jp/cyber-security/cyber-security-news/119035/",
@@ -16829,19 +16669,15 @@
       "reportedDate": "2026-10-18",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 5,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 6,
       "reasons": [
         {
-          "url": "https://geo-online.co.jp/",
-          "reason": "ValueError: Only public HTTPS sources are allowed"
-        },
-        {
-          "url": "https://jvn.jp/jp/JVN40460777/",
+          "url": "https://www.nttsolmare.com/press/2026/1016-1.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.nttsolmare.com/press/2026/1016.html",
+          "url": "https://www.bookoff.co.jp/info/news/2026/post_113.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -17003,8 +16839,8 @@
       "reportedDate": "2026-10-19",
       "publisher": "ITmedia エンタープライズ",
       "firstSeenAt": "2026-10-19T00:58:30+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 5,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 6,
       "reasons": [
         {
           "url": "https://www.burgerking.co.jp/images/notice/2026/10/15/d4d114ca-ebd7-4f3d-94ef-c4ea7a84a139.pdf",
@@ -17021,8 +16857,8 @@
       "reportedDate": "2026-10-19",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-19T00:58:30+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 5,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 6,
       "reasons": [
         {
           "url": "https://www.jfa.jp/news/00036934/",
@@ -17309,8 +17145,8 @@
       "reportedDate": "2026-10-19",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-19T02:46:25+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 4,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 5,
       "reasons": [
         {
           "url": "https://www.joshin.co.jp/ja/news/info/info-20261017/main/0/link/20261017Notice%20and%20Apology%20Regarding%20System%20Disruption%20Caused%20by%20Unauthorized%20Access.pdf",
@@ -17507,8 +17343,8 @@
       "reportedDate": "2026-10-19",
       "publisher": "Security NEXT",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
         {
           "url": "https://coconala.co.jp/news-20261009/",
@@ -17579,7 +17415,7 @@
       "reportedDate": "2026-10-20",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -17597,7 +17433,7 @@
       "reportedDate": "2026-10-20",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -17615,7 +17451,7 @@
       "reportedDate": "2026-10-20",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -17633,7 +17469,7 @@
       "reportedDate": "2026-10-20",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -17651,7 +17487,7 @@
       "reportedDate": "2026-10-20",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -17669,7 +17505,7 @@
       "reportedDate": "2026-10-20",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T16:47:20+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -17687,7 +17523,7 @@
       "reportedDate": "2026-10-20",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T16:47:20+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -17705,7 +17541,7 @@
       "reportedDate": "2026-10-20",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T16:47:20+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -17723,7 +17559,7 @@
       "reportedDate": "2026-10-20",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T16:47:20+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -17741,7 +17577,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -17759,7 +17595,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -17777,7 +17613,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -17865,8 +17701,8 @@
       "reportedDate": "2026-10-19",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
         {
           "url": "https://www.tdb.co.jp/report/economic/20261019-databreach/",
@@ -17947,15 +17783,15 @@
       "reportedDate": "2026-10-20",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
         {
-          "url": "https://gmo-cybersecurity.com/blog/20261019/",
+          "url": "https://gmo-cybersecurity.com/blog/20261014/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://gmo-cybersecurity.com/blog/20261014/",
+          "url": "https://gmo-cybersecurity.com/blog/20261019/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
@@ -17969,8 +17805,8 @@
       "reportedDate": "2026-10-20",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
         {
           "url": "https://raiden.site.ktaiwork.jp/wp-content/uploads/sites/2/2026/10/2026_10_19AccessIncident.pdf%EF%BC%88PDF%EF%BC%89",
@@ -17987,8 +17823,8 @@
       "reportedDate": "2026-10-20",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
         {
           "url": "https://www.softbank.jp/corp/news/press/sbkk/2026/20261019_01/",
@@ -18005,8 +17841,8 @@
       "reportedDate": "2026-10-20",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
         {
           "url": "https://www.cuenote.jp/information/news/unauthorizedaccess.html",
@@ -18023,9 +17859,13 @@
       "reportedDate": "2026-10-20",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
+        {
+          "url": "https://www.sankei.com/article/20261006-QENMXFY2YBPCFK734JJGVGLWSQ/",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
         {
           "url": "https://www.sankei.com/article/20261005-BWOBT7GNLJLT5DXHLR35YV54BY/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
@@ -18036,10 +17876,6 @@
         },
         {
           "url": "https://www.sankei.com/article/20261020-YBF2ADO4GBMDXLG64LMGN6K76U/",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
-        },
-        {
-          "url": "https://www.sankei.com/article/20261020-DFTM5VHTSFOHRCPJZHWO6EH5TU/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -18057,8 +17893,8 @@
       "reportedDate": "2026-10-19",
       "publisher": "ITmedia Mobile",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
         {
           "url": "https://www.softbank.jp/corp/news/press/sbkk/2026/20261019_01/?sbpr=info",
@@ -18075,7 +17911,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -18093,7 +17929,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -18111,15 +17947,23 @@
       "reportedDate": "2026-10-20",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
         {
-          "url": "https://www.monogatari.co.jp/news/261005_news/",
+          "url": "https://www.nikkeibp.co.jp/atcl/newsrelease/corp/100200417/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://piyolog.hatenadiary.jp/entry/2026/10/05/115509",
+          "url": "https://studysapuri.jp/info/important/",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
+        {
+          "url": "https://www.jogmec.go.jp/news/information/information_00706.html",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
+        {
+          "url": "https://www.sammy-net.jp/news/2026/10/777con-pass-6.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -18137,23 +17981,23 @@
       "reportedDate": "2026-10-20",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
         {
-          "url": "https://nano.shinmai.co.jp/info/media/93016/",
+          "url": "https://www.keio.co.jp/news/update/news_release/news_release2026/pdf/nr20261016_newsrelease.pdf",
+          "reason": "ValueError: PDF metadata needs review: publisher=True, date=False, title=False"
+        },
+        {
+          "url": "https://piyolog.hatenadiary.jp/entry/2026/09/30/021814",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://starts-pub.jp/info20260927",
+          "url": "https://www.watch.impress.co.jp/docs/news/2143794.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.tokyometro.jp/info/files/3aef5fe666b10b7986117276c4907f66_1.pdf",
-          "reason": "ValueError: PDF metadata needs review: publisher=True, date=False, title=True"
-        },
-        {
-          "url": "https://www.nipponrentacar.co.jp/info/202610_2.html",
+          "url": "https://piyolog.hatenadiary.jp/entry/2026/09/28/214857",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -18171,15 +18015,19 @@
       "reportedDate": "2026-10-20",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
         {
-          "url": "https://01bank.co.jp/news/pdf/2026/0827.pdf",
-          "reason": "HTTPError: HTTP Error 403: Forbidden"
+          "url": "https://www.b-soccer.jp/news/34285-0820",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.expo2025.or.jp/news/news-20260820-01/",
+          "url": "https://career-center.doshisha.ac.jp/career/news/detail/011-waMBd6.html",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
+        {
+          "url": "https://voising-official.com/news/936",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -18187,7 +18035,7 @@
           "reason": "Remaining official links deferred by the per-run/per-article limit"
         }
       ],
-      "classification": "fetch_failed",
+      "classification": "needs_review",
       "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
       "recordIds": []
     },
@@ -18197,23 +18045,27 @@
       "reportedDate": "2026-10-20",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
         {
-          "url": "https://support.smileserver.ne.jp/ver5/72trb/2026/07/2026072402.html",
+          "url": "https://www.ipa.go.jp/security/security-alert/2026/alert20260722.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.cmic-hci.com/news/20260724",
+          "url": "https://piyolog.hatenadiary.jp/entry/2026/07/19/181822",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.ocs.co.jp/5282218",
+          "url": "https://www.fusodentsu.co.jp/news/news_cp_20260722.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.axcelead.com/news-release/17310/",
+          "url": "https://www.aida.co.jp/news/77898e7008265ee89562f5843f23724f65d0e7f4.pdf",
+          "reason": "ValueError: PDF metadata needs review: publisher=False, date=False, title=True"
+        },
+        {
+          "url": "https://www.solid-adv.co.jp/20260716-01/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -18231,23 +18083,27 @@
       "reportedDate": "2026-10-20",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
         {
-          "url": "https://legal.fronteo.com/cyber-security/credit-card-investigation?hsLang=ja",
+          "url": "https://www.mbsd.jp/solutions/security_force/incident/index.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://legal.fronteo.com/retiree-computers-dataintegrity?hsLang=ja",
+          "url": "https://agest.co.jp/solution/emergency_response/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.sompocybersecurity.com/service/incident_support_desk.html",
+          "url": "https://www.blackpanda.com/jp/solutions/emergency-incident-response",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.isskk.co.jp/emergency/index.php",
+          "url": "https://www.nec-security.co.jp/service/dfir/index.html",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
+        {
+          "url": "https://www.nri-secure.co.jp/service/consulting/incident",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -18265,23 +18121,23 @@
       "reportedDate": "2026-10-20",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
         {
-          "url": "https://corporate.moobon.jp/security-diagnosis",
+          "url": "https://vlcsecurity.com/news/20835",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://peoplex.jp/news/20261019",
+          "url": "https://www.cyberdefense.jp/services/training/cdir_l",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.loggol.jp/news/2026/1008.html",
+          "url": "https://www.securesky-tech.com/2026/10/14/9506/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://privtech.co.jp/events/2026/10/28.html",
+          "url": "https://www.jnsa.org/emergency_response/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -18299,19 +18155,23 @@
       "reportedDate": "2026-10-20",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-10-20T15:58:06+00:00",
-      "attempts": 3,
+      "lastCheckedAt": "2026-10-20T18:54:00+00:00",
+      "attempts": 4,
       "reasons": [
         {
-          "url": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261019/20261019553124.pdf",
-          "reason": "ValueError: PDF metadata needs review: publisher=True, date=True, title=False"
+          "url": "https://www.shueisha.co.jp/wp-content/uploads/2026/09/Shueisha20260928-1.pdf",
+          "reason": "ValueError: PDF metadata needs review: publisher=False, date=False, title=True"
         },
         {
-          "url": "https://www.mitsuifudosan.co.jp/letter/260928/download/260928.pdf",
-          "reason": "ValueError: PDF metadata needs review: publisher=True, date=False, title=True"
+          "url": "https://nano.shinmai.co.jp/info/media/93016/",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://kingprinters.com/news/2026/oshirase_20260925",
+          "url": "https://corp.eplus.jp/press-release/1824/",
+          "reason": "HTTPError: HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.ghi.gr.jp/information/news/post-215.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -18319,7 +18179,7 @@
           "reason": "Remaining official links deferred by the per-run/per-article limit"
         }
       ],
-      "classification": "needs_review",
+      "classification": "fetch_failed",
       "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
       "recordIds": []
     },
@@ -19980,12 +19840,192 @@
       "recordIds": []
     },
     {
+      "newsSource": "https://www.security-next.com/167280",
+      "title": "委託先がマルウェア感染、コード管理サービスから情報流出 - アイリッジ",
+      "reportedDate": "2025-02-17",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-20T18:54:00+00:00",
+      "lastCheckedAt": null,
+      "attempts": 0,
+      "reasons": [
+        {
+          "url": "https://www.security-next.com/167280",
+          "reason": "Deferred: article has not been checked yet"
+        }
+      ],
+      "classification": "deferred",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
+      "newsSource": "https://www.security-next.com/167283",
+      "title": "サーバでランサム被害、情報流出を調査 - ニチノー緑化",
+      "reportedDate": "2025-02-17",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-20T18:54:00+00:00",
+      "lastCheckedAt": null,
+      "attempts": 0,
+      "reasons": [
+        {
+          "url": "https://www.security-next.com/167283",
+          "reason": "Deferred: article has not been checked yet"
+        }
+      ],
+      "classification": "deferred",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
+      "newsSource": "https://www.security-next.com/167191",
+      "title": "運動機能測定結果と血液検査結果をメール誤送信 - 太子町",
+      "reportedDate": "2025-02-14",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-20T18:54:00+00:00",
+      "lastCheckedAt": null,
+      "attempts": 0,
+      "reasons": [
+        {
+          "url": "https://www.security-next.com/167191",
+          "reason": "Deferred: article has not been checked yet"
+        }
+      ],
+      "classification": "deferred",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
+      "newsSource": "https://www.security-next.com/167240",
+      "title": "患者情報含む書類を紛失、誤廃棄の可能性 - 日大付属板橋病院",
+      "reportedDate": "2025-02-14",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-20T18:54:00+00:00",
+      "lastCheckedAt": null,
+      "attempts": 0,
+      "reasons": [
+        {
+          "url": "https://www.security-next.com/167240",
+          "reason": "Deferred: article has not been checked yet"
+        }
+      ],
+      "classification": "deferred",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
+      "newsSource": "https://www.security-next.com/166717",
+      "title": "他顧客情報をウェブで誤表示、設計ミスで - ジブラルタ生命",
+      "reportedDate": "2025-02-04",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-20T18:54:00+00:00",
+      "lastCheckedAt": null,
+      "attempts": 0,
+      "reasons": [
+        {
+          "url": "https://www.security-next.com/166717",
+          "reason": "Deferred: article has not been checked yet"
+        }
+      ],
+      "classification": "deferred",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
+      "newsSource": "https://www.security-next.com/166809",
+      "title": "ランサム被害を確認、情報流出を調査 - サカイ創建",
+      "reportedDate": "2025-02-03",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-20T18:54:00+00:00",
+      "lastCheckedAt": null,
+      "attempts": 0,
+      "reasons": [
+        {
+          "url": "https://www.security-next.com/166809",
+          "reason": "Deferred: article has not been checked yet"
+        }
+      ],
+      "classification": "deferred",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
+      "newsSource": "https://www.security-next.com/166823",
+      "title": "「Apache Hive」に脆弱性 - 認証回避や情報漏洩のおそれ",
+      "reportedDate": "2025-02-03",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-20T18:54:00+00:00",
+      "lastCheckedAt": null,
+      "attempts": 0,
+      "reasons": [
+        {
+          "url": "https://www.security-next.com/166823",
+          "reason": "Deferred: article has not been checked yet"
+        }
+      ],
+      "classification": "deferred",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
+      "newsSource": "https://www.security-next.com/166715",
+      "title": "サイトが改ざん被害、情報流出を確認 - 自立支援のNPO法人",
+      "reportedDate": "2025-02-13",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-20T18:54:00+00:00",
+      "lastCheckedAt": null,
+      "attempts": 0,
+      "reasons": [
+        {
+          "url": "https://www.security-next.com/166715",
+          "reason": "Deferred: article has not been checked yet"
+        }
+      ],
+      "classification": "deferred",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
+      "newsSource": "https://www.security-next.com/167134",
+      "title": "関係者向けメールで誤送信が発生 - 協立情報通信",
+      "reportedDate": "2025-02-13",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-20T18:54:00+00:00",
+      "lastCheckedAt": null,
+      "attempts": 0,
+      "reasons": [
+        {
+          "url": "https://www.security-next.com/167134",
+          "reason": "Deferred: article has not been checked yet"
+        }
+      ],
+      "classification": "deferred",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
+      "newsSource": "https://www.security-next.com/167053",
+      "title": "メルアカに不正アクセス、フィッシングの踏み台に - SVリーグ",
+      "reportedDate": "2025-02-12",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-20T18:54:00+00:00",
+      "lastCheckedAt": null,
+      "attempts": 0,
+      "reasons": [
+        {
+          "url": "https://www.security-next.com/167053",
+          "reason": "Deferred: article has not been checked yet"
+        }
+      ],
+      "classification": "deferred",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
       "newsSource": "https://www.release.tdnet.info/inbs/140120261009548970.pdf",
       "title": "当社ウェブサイトへの一部不正アクセスによる 個人情報漏洩に関するお詫びとご報告",
       "reportedDate": "2026-10-09",
       "publisher": "TDnet",
       "firstSeenAt": "2026-10-16T23:45:02+00:00",
-      "lastCheckedAt": "2026-10-20T16:50:34+00:00",
+      "lastCheckedAt": "2026-10-20T18:57:07+00:00",
       "reasons": [
         {
           "url": "https://www.release.tdnet.info/inbs/140120261009548970.pdf",
@@ -20002,7 +20042,7 @@
       "reportedDate": "2026-10-06",
       "publisher": "TDnet",
       "firstSeenAt": "2026-10-16T23:48:55+00:00",
-      "lastCheckedAt": "2026-10-20T17:45:58+00:00",
+      "lastCheckedAt": "2026-10-20T18:57:07+00:00",
       "reasons": [
         {
           "url": "https://www.release.tdnet.info/inbs/140120261006546323.pdf",
