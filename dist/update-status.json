@@ -1,18 +1,22 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-21T10:13:39+00:00",
+  "lastAttemptAt": "2026-10-21T10:47:58+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-21T10:13:39+00:00",
+  "lastPartialSuccessAt": "2026-10-21T10:47:58+00:00",
   "successfulFetches": 283,
-  "failedFetches": 25,
-  "changedReviewedSources": 25,
-  "automaticAnnouncements": 153,
-  "watchedDocumentCount": 254,
+  "failedFetches": 27,
+  "changedReviewedSources": 24,
+  "automaticAnnouncements": 155,
+  "watchedDocumentCount": 256,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
     {
       "url": "https://support.rakuten-drive.com/hc/ja/articles/62934949147929",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.resorttrust.co.jp/topics/20261016/3397/",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,6 +76,10 @@
       "error": "Source body could not be read"
     },
     {
+      "url": "https://www.resorttrust.co.jp/",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
       "url": "https://support.rakuten-drive.com/",
       "error": "HTTP Error 403: Forbidden"
     },
@@ -117,16 +125,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-21",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-21T10:13:39+00:00",
+    "lastAttemptAt": "2026-10-21T10:47:58+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 4,
-    "newsCandidates": 1055,
+    "newsCandidates": 1065,
     "newsArticlesChecked": 70,
-    "deferredNewsArticles": 284,
-    "officialFetches": 95,
-    "confirmedOfficialAnnouncements": 186,
-    "pendingNewsArticles": 636,
+    "deferredNewsArticles": 280,
+    "officialFetches": 87,
+    "confirmedOfficialAnnouncements": 188,
+    "pendingNewsArticles": 635,
     "skippedReviewedArticles": 30,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -153,11 +161,12 @@
         "2025-01",
         "2024-12",
         "2024-11",
-        "2024-10"
+        "2024-10",
+        "2024-09"
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-21T10:16:34+00:00",
+      "lastAttemptAt": "2026-10-21T10:51:24+00:00",
       "listPagesChecked": 4,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -166,22 +175,22 @@
   },
   "automaticSummaries": {
     "ready": 34,
-    "partial": 69,
-    "pending": 68,
-    "fetchFailed": 5
+    "partial": 68,
+    "pending": 71,
+    "fetchFailed": 6
   },
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 41,
+    "fetch_failed": 42,
     "needs_source_lookup": 68,
     "covered": 17,
     "reopened": 6,
-    "needs_review": 210,
+    "needs_review": 212,
     "duplicate": 3,
-    "deferred": 284
+    "deferred": 280
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 609,
-  "deferredNewsCandidates": 284
+  "unresolvedNewsCandidates": 608,
+  "deferredNewsCandidates": 280
 }
