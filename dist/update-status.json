@@ -1,16 +1,20 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-21T07:00:11+00:00",
+  "lastAttemptAt": "2026-10-21T07:55:17+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-21T07:00:11+00:00",
-  "successfulFetches": 273,
-  "failedFetches": 22,
+  "lastPartialSuccessAt": "2026-10-21T07:55:17+00:00",
+  "successfulFetches": 274,
+  "failedFetches": 23,
   "changedReviewedSources": 24,
-  "automaticAnnouncements": 141,
-  "watchedDocumentCount": 241,
+  "automaticAnnouncements": 142,
+  "watchedDocumentCount": 242,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
+    {
+      "url": "https://internet.watch.impress.co.jp/docs/news/2149829.html",
+      "error": "IncompleteRead: IncompleteRead(9902 bytes read)"
+    },
     {
       "url": "https://support.rakuten-drive.com/hc/ja/articles/62934949147929",
       "error": "HTTP Error 403: Forbidden"
@@ -105,16 +109,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-21",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-21T07:00:11+00:00",
+    "lastAttemptAt": "2026-10-21T07:55:17+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 4,
-    "newsCandidates": 1008,
-    "newsArticlesChecked": 70,
+    "newsCandidates": 1017,
+    "newsArticlesChecked": 69,
     "deferredNewsArticles": 279,
     "officialFetches": 100,
-    "confirmedOfficialAnnouncements": 174,
-    "pendingNewsArticles": 617,
+    "confirmedOfficialAnnouncements": 175,
+    "pendingNewsArticles": 624,
     "skippedReviewedArticles": 30,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -144,7 +148,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-21T07:02:58+00:00",
+      "lastAttemptAt": "2026-10-21T07:58:02+00:00",
       "listPagesChecked": 4,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -154,15 +158,15 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 35,
-    "needs_source_lookup": 66,
+    "fetch_failed": 34,
+    "needs_source_lookup": 65,
     "covered": 17,
     "reopened": 6,
-    "needs_review": 204,
+    "needs_review": 213,
     "duplicate": 3,
     "deferred": 279
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 590,
+  "unresolvedNewsCandidates": 597,
   "deferredNewsCandidates": 279
 }
