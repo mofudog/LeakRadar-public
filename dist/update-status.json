@@ -1,20 +1,16 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-21T03:48:02+00:00",
+  "lastAttemptAt": "2026-10-21T04:46:48+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-21T03:48:02+00:00",
-  "successfulFetches": 265,
-  "failedFetches": 23,
+  "lastPartialSuccessAt": "2026-10-21T04:46:48+00:00",
+  "successfulFetches": 266,
+  "failedFetches": 22,
   "changedReviewedSources": 23,
   "automaticAnnouncements": 134,
   "watchedDocumentCount": 234,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
-    {
-      "url": "https://www.mrmax.co.jp/info/incident_20261006/",
-      "error": "HTTP Error 403: Forbidden"
-    },
     {
       "url": "https://support.rakuten-drive.com/hc/ja/articles/62934949147929",
       "error": "HTTP Error 403: Forbidden"
@@ -30,6 +26,10 @@
     {
       "url": "https://www.medley.jp/notice/20161015.html",
       "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://at-link.net/information/%E3%82%A2%E3%83%83%E3%83%88%E3%83%AA%E3%83%B3%E3%82%AF%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%8A%E3%82%88%E3%81%B3%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE/",
+      "error": "<urlopen error _ssl.c:983: The handshake operation timed out>"
     },
     {
       "url": "https://sanga-fc.jp/news/detail/21401",
@@ -58,10 +58,6 @@
     {
       "url": "https://jp.adventurekk.com/",
       "error": "Source body could not be read"
-    },
-    {
-      "url": "https://www.mrmax.co.jp/",
-      "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://support.rakuten-drive.com/",
@@ -109,16 +105,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-21",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-21T03:48:02+00:00",
+    "lastAttemptAt": "2026-10-21T04:46:48+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 4,
-    "newsCandidates": 972,
+    "newsCandidates": 985,
     "newsArticlesChecked": 70,
-    "deferredNewsArticles": 277,
-    "officialFetches": 92,
+    "deferredNewsArticles": 275,
+    "officialFetches": 100,
     "confirmedOfficialAnnouncements": 167,
-    "pendingNewsArticles": 599,
+    "pendingNewsArticles": 612,
     "skippedReviewedArticles": 30,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -147,7 +143,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-21T03:51:28+00:00",
+      "lastAttemptAt": "2026-10-21T04:49:51+00:00",
       "listPagesChecked": 3,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -161,11 +157,11 @@
     "needs_source_lookup": 63,
     "covered": 17,
     "reopened": 6,
-    "needs_review": 188,
+    "needs_review": 203,
     "duplicate": 3,
-    "deferred": 277
+    "deferred": 275
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 572,
-  "deferredNewsCandidates": 277
+  "unresolvedNewsCandidates": 585,
+  "deferredNewsCandidates": 275
 }
