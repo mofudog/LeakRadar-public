@@ -10,6 +10,9 @@ from news_discovery import run as discover_news, public_url, decode_html, KEY
 from tdnet_discovery import run as discover_disclosures
 from candidate_triage import classify, markdown as triage_markdown
 from pathlib import Path
+from source_summary import apply as summarize_sources
+from pypdf import PdfReader
+import io
 ROOT=Path(__file__).resolve().parents[1]
 UTC=dt.timezone.utc
 NOW=dt.datetime.now(UTC)
@@ -115,7 +118,19 @@ def fetch(url,allowed):
   data=response.read(12_000_001)
   if len(data)>12_000_000:raise ValueError('Source exceeds size limit')
   ctype=response.headers.get('Content-Type','');charset=response.headers.get_content_charset()
-  if 'pdf' in ctype or data.startswith(b'%PDF'):return {'url':response.url,'hash':digest(data),'page':None,'http':response.status}
+  if 'pdf' in ctype or data.startswith(b'%PDF'):
+   result={'url':response.url,'hash':digest(data),'page':None,'http':response.status}
+   try:
+    pdf=PdfReader(io.BytesIO(data))
+    if pdf.is_encrypted or len(pdf.pages)>50:raise ValueError('PDF exceeds summary limits')
+    parts=[];size=0
+    for pdf_page in pdf.pages:
+     text=pdf_page.extract_text() or '';size+=len(text)
+     if size>250_000:raise ValueError('PDF text exceeds summary limits')
+     parts.append(text)
+    result['summaryText']='\n'.join(parts)
+   except Exception:result['summaryReadError']=True
+   return result
   if 'json' in ctype:return {'url':response.url,'json':json.loads(data.decode('utf-8-sig')),'http':response.status}
   if not charset:
    m=re.search(br'charset\s*=\s*["\']?([a-zA-Z0-9_-]+)',data[:4096]);charset=m.group(1).decode('ascii') if m else 'utf-8'
@@ -149,6 +164,18 @@ def main():
  reviewed=read(ROOT/'data/reviewed-incidents.json',{})
  if not reviewed.get('incidents'):raise ValueError('Reviewed seed data is required')
  sources=list(config['documents']);indexes=config['indexes']
+ # Revisit every outstanding published source, not only sources rediscovered in
+ # today's RSS window. Reusing the normal fetch cache avoids duplicate requests.
+ prior=read(ROOT/'data/source-state.json',{'announcements':{}})
+ outstanding=list(prior.get('announcements',{}).values())+reviewed['incidents']
+ seen_sources={x['url'] for x in sources}
+ for record in outstanding:
+  if record.get('sourceType')!='official':continue
+  for source_url in [record['source']]+record.get('additionalSources',[]):
+   if source_url not in seen_sources:
+    sources.append({'company':record['company'],'url':source_url,'kind':'document'})
+    seen_sources.add(source_url)
+
  for x in news_result.get('confirmed',{}).values():
   if x['source'] not in {r['url'] for r in sources}:sources.append({'company':x['company'],'url':x['source'],'kind':'document'})
  allowed={host(x['url']) for x in sources+indexes}|{'haveibeenpwned.com'}
@@ -253,9 +280,11 @@ def main():
  try:retention_start=jst_today.replace(year=jst_today.year-3)
  except ValueError:retention_start=jst_today.replace(year=jst_today.year-3,day=28)
  records=[r for r in records if (r.get('eventDate','') if r['sourceType']=='hibp' else r.get('updated',r['published']))>=retention_start.isoformat()]
+ summary_stats=summarize_sources(records,cache,STAMP)
  status='complete' if not errors else ('partial' if success else 'failed')
  old_status=read(ROOT/'dist/update-status.json',{})
  update={'status':status,'lastAttemptAt':STAMP,'lastSuccessAt':STAMP if status=='complete' else old_status.get('lastSuccessAt'),'lastPartialSuccessAt':STAMP if status=='partial' else old_status.get('lastPartialSuccessAt'),'successfulFetches':success,'failedFetches':len(errors),'changedReviewedSources':changes,'automaticAnnouncements':sum(r.get('automaticallyCollected',False) for r in records),'watchedDocumentCount':len(sources),'watchedIndexCount':len(indexes),'schedule':'毎時（GitHub Actionsの遅延・停止があり得ます）','errors':errors,'fullyComprehensive':False,'summaryReviewedAt':reviewed.get('checkedAt'),'cloudRun':os.environ.get('GITHUB_ACTIONS')=='true','retentionStart':retention_start.isoformat(),'newsDiscovery':{k:v for k,v in news_result.items() if k not in ('queue','confirmed','errors','archiveProgress')}}
+ update['automaticSummaries']=summary_stats
  write(ROOT/'data/source-state.json',{'documents':documents,'announcements':announcements,'hibp':{x['Name']:digest(json.dumps(x,sort_keys=True)) for x in foreign},'lastAttemptAt':STAMP})
  followups=[{'newsSource':u,'title':q.get('title',''),'reportedDate':q['published'],'publisher':q['publisher'],'firstSeenAt':q.get('firstSeenAt'),'lastCheckedAt':q.get('lastCheckedAt'),'attempts':q.get('attempts',0),'reasons':q['pending']} for u,q in news_result.get('queue',{}).items() if q.get('pending')]
 

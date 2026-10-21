@@ -13,6 +13,22 @@ for r in records:
   assert r['status']=='announcement' and not r.get('verifiedAt'),'Automatic source must not claim editorial verification'
   assert not r['items'],'Unreviewed announcement cannot invent exposed data'
  if r.get('sourceChanged'):assert r['status']=='needsReview' and not r['items'],'Changed source must withdraw old assertions'
+ if 'automaticSummary' in r:
+  from source_summary import SENSITIVE, VERSION
+  import datetime,re
+  summary=r['automaticSummary']
+  assert summary['version']==VERSION and summary['source']==r['source'],'Summary evidence must match this official source'
+  assert r['sourceType']=='official' and (r.get('automaticallyCollected') or r.get('sourceChanged'))
+  datetime.datetime.fromisoformat(summary['checkedAt'])
+  assert summary['state'] in ('ready','partial','pending')
+  passages=summary['passages'];kinds=set()
+  for p in passages:
+   assert p['kind'] in ('audience','items','scale') and p['kind'] not in kinds
+   kinds.add(p['kind'])
+   assert isinstance(p['quote'],str) and 15<=len(p['quote'])<=240 and not SENSITIVE.search(p['quote'])
+  assert len(kinds)==(3 if summary['state']=='ready' else 0 if summary['state']=='pending' else len(kinds))
+  if summary['state']=='partial':assert 0<len(kinds)<3
+  if passages:assert re.fullmatch('[a-f0-9]{64}',summary['documentHash']) and summary['reason'] is None
 for name in ('index.html','app.js','style.css','help.html','about.html','update-status.json'):
  assert (root/'dist'/name).is_file(),f'Missing asset {name}'
 status=json.loads((root/'dist/update-status.json').read_text(encoding='utf-8-sig'))

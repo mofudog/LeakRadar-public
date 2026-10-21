@@ -42,7 +42,7 @@ jobs:
       - name: HTML解析ライブラリを用意
         run: python3 -m pip install --disable-pip-version-check -r requirements.txt
       - name: 取りこぼし再発防止の検査
-        run: python3 -m unittest discover -s scripts -p test_discovery.py -v
+        run: python3 -m unittest discover -s scripts -p 'test_*.py' -v
       - name: 公開情報の取得と変更確認
         run: python3 scripts/update_sources.py
       - name: 公開対象と機密情報の形式を確認
