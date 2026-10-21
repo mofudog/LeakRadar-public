@@ -50,7 +50,8 @@ def extract(text, source, checked_at, document_hash):
         candidates.append((pos,sentence,local))
     used=set()
     rules=(
-      ('audience',lambda s,c:PERSON.search(s) and re.search(r'対象|登録された|登録されて|利用された|利用されて|保有する|管理する|お預かり',s)),
+      ('audience',lambda s,c:PERSON.search(s) and re.search(r'対象者|対象とな|対象範囲|対象期間|対象サービス|登録|利用された|利用されて|予約|宿泊|契約|応募|保有する|管理する|お預かり',s)
+       and not re.search(r'ご連絡|ご説明|お詫び|通知いた|ご案内いた|お問い合わせ',s)),
       ('items',lambda s,c:ITEM.search(s) and re.search(r'情報|データ|項目|内容|漏[え洩い]|流出',s)),
       ('scale',lambda s,c:scale_passage(s)),
     )

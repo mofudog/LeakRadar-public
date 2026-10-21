@@ -52,7 +52,7 @@ def validate(payload,body):
   quote=normalized(quote)
   if not 15<=len(quote)<=240 or quote not in body or SENSITIVE.search(quote) or '削除]' in quote:raise AIError('ungrounded_output')
   if kind=='items' and not ITEM.search(quote):raise AIError('irrelevant_output')
-  if kind=='audience' and not (PERSON.search(quote) or re.search(r'対象|サービス|登録',quote)):raise AIError('irrelevant_output')
+  if kind=='audience' and (not re.search(r'対象者|対象とな|対象範囲|対象期間|対象サービス|登録|ご利用|利用され|予約|宿泊|契約|応募|保有|管理|お預かり',quote) or re.search(r'ご連絡|ご説明|お詫び|通知いた|お問い合わせ',quote)):raise AIError('irrelevant_output')
   if kind=='scale' and not scale_passage(quote):raise AIError('irrelevant_count')
   seen.add(kind);result.append({'kind':kind,'quote':quote})
  return result

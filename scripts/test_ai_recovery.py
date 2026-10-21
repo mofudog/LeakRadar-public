@@ -25,6 +25,8 @@ class AI(unittest.TestCase):
   for quote in ['対象件数:最大で延べ999人の個人情報です。','対象件数:最大で延べ1200人の個人情報です。']:
    with self.assertRaises(ai.AIError):ai.validate({'passages':[{'kind':'scale','quote':quote}]},BODY)
   with self.assertRaises(ai.AIError):ai.validate({'passages':[{'kind':'scale','quote':'なりすましメール約9000件が送信されました。'}]},BODY+'なりすましメール約9000件が送信されました。')
+  notice='対象のお客様に本件のご説明をメールにてご連絡いたします。'
+  with self.assertRaises(ai.AIError):ai.validate({'passages':[{'kind':'audience','quote':notice}]},BODY+notice)
  def test_redaction_keeps_boundaries(self):
   body=ai.safe_body(BODY+'\n担当者名 田中太郎\n連絡先test@example.com 電話03-1234-5678\n'+BODY)
   self.assertNotIn('田中太郎',body);self.assertNotIn('@example.com',body);self.assertNotIn('03-1234',body)
@@ -86,5 +88,12 @@ class Recovery(unittest.TestCase):
    stats,report=pdf_reading.run(cache,{},STAMP)
   self.assertEqual(report[0]['state'],'ocr_tools_not_available')
   apply([r],cache,STAMP);self.assertEqual(r['automaticSummary']['passages'],[])
+ def test_ocr_report_preserves_unattempted_sources(self):
+  sources=['https://example.com/a.pdf','https://example.com/b.pdf']
+  cache={s:{'hash':'a'*64,'pdfBytes':b'%PDF','pdfPages':1} for s in sources}
+  state={'entries':{sources[0]:{'checkedAt':'2026-10-20'},sources[1]:{'checkedAt':'2026-10-19'}}}
+  with patch('pdf_reading.shutil.which',return_value=None):
+   stats,report=pdf_reading.run(cache,state,STAMP)
+  self.assertEqual(len(report),2);self.assertEqual({r['source'] for r in report},set(sources))
 
 if __name__=='__main__':unittest.main()

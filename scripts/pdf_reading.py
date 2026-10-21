@@ -12,7 +12,8 @@ def run(cache,state,checked_at,max_documents=1):
   if old.get('hash')==doc.get('hash') and now<float(old.get('retryAfter',0)):
    reports.append(old);continue
   jobs.append((old.get('checkedAt',''),source,doc))
- for _,source,doc in sorted(jobs,key=lambda x:(x[0],x[1]))[:max_documents]:
+ jobs.sort(key=lambda x:(x[0],x[1]))
+ for _,source,doc in jobs[:max_documents]:
   result={'source':source,'hash':doc['hash'],'checkedAt':checked_at,'state':'pending','passages':[],'retryAfter':now+86400}
   if not available:result['state']='ocr_tools_not_available'
   elif not 1<=doc.get('pdfPages',0)<=4:result['state']='page_limit_requires_review'
@@ -34,6 +35,6 @@ def run(cache,state,checked_at,max_documents=1):
    except Exception:result['state']='ocr_read_failed'
   entries[source]=result;reports.append(result)
  for _,source,doc in jobs[max_documents:]:
-  reports.append(entries.get(source) or {'source':source,'state':'deferred','passages':[]})
+  reports.append({'source':source,'state':'deferred','passages':[],**entries.get(source,{})})
  return {'toolsAvailable':available,'attempted':min(max_documents,len(jobs)),
          'requiresReview':sum(x['state']=='ocr_requires_human_review' for x in reports)},reports
