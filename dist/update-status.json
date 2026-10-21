@@ -1,11 +1,11 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-21T11:48:09+00:00",
+  "lastAttemptAt": "2026-10-21T12:59:17+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-21T11:48:09+00:00",
-  "successfulFetches": 285,
-  "failedFetches": 33,
-  "changedReviewedSources": 25,
+  "lastPartialSuccessAt": "2026-10-21T12:59:17+00:00",
+  "successfulFetches": 279,
+  "failedFetches": 39,
+  "changedReviewedSources": 23,
   "automaticAnnouncements": 158,
   "watchedDocumentCount": 264,
   "watchedIndexCount": 52,
@@ -36,6 +36,10 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
+      "url": "https://at-link.net/information/%E3%82%A2%E3%83%83%E3%83%88%E3%83%AA%E3%83%B3%E3%82%AF%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%8A%E3%82%88%E3%81%B3%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE/",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
       "url": "https://sanga-fc.jp/news/detail/21401",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
     },
@@ -52,6 +56,18 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "url": "https://www.semco.net/news/detail/12790",
+      "error": "<urlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "url": "https://www.seicomart.co.jp/images/top/pdf/202610051430.pdf",
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "url": "https://coconala.com/news/1391",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
       "url": "https://kufu.co.jp/2026/10/16/kufuhd-announce/",
       "error": "HTTP Error 503: Service Temporarily Unavailable"
     },
@@ -61,6 +77,10 @@
     },
     {
       "url": "https://www.sagin-dp.jp/news/000097.php",
+      "error": "<urlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "url": "https://www.corona.co.jp/news/other/post-439.html",
       "error": "<urlopen error [Errno 111] Connection refused>"
     },
     {
@@ -77,6 +97,10 @@
     },
     {
       "url": "https://www.sagin-dp.jp/news/000094.php",
+      "error": "<urlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "url": "https://www.corona.co.jp/news/files/8b2f0ecb55148c682f6358866140c34782add8fd.pdf",
       "error": "<urlopen error [Errno 111] Connection refused>"
     },
     {
@@ -149,16 +173,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-21",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-21T11:48:09+00:00",
+    "lastAttemptAt": "2026-10-21T12:59:17+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 4,
-    "newsCandidates": 1111,
+    "newsCandidates": 1119,
     "newsArticlesChecked": 70,
-    "deferredNewsArticles": 283,
+    "deferredNewsArticles": 278,
     "officialFetches": 100,
     "confirmedOfficialAnnouncements": 192,
-    "pendingNewsArticles": 655,
+    "pendingNewsArticles": 656,
     "skippedReviewedArticles": 30,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -191,7 +215,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-21T11:51:20+00:00",
+      "lastAttemptAt": "2026-10-21T13:01:56+00:00",
       "listPagesChecked": 4,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -199,22 +223,22 @@
     }
   },
   "automaticSummaries": {
-    "ready": 30,
-    "partial": 80,
-    "pending": 66,
-    "fetchFailed": 9
+    "ready": 28,
+    "partial": 79,
+    "pending": 69,
+    "fetchFailed": 13
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
-    "requestsLast24Hours": 15,
-    "cachedSources": 7,
-    "acceptedSources": 1,
-    "noMatchingSources": 1,
-    "failedSources": 3,
-    "deferredSources": 102,
-    "lastError": "irrelevant_output",
+    "requestsLast24Hours": 20,
+    "cachedSources": 8,
+    "acceptedSources": 0,
+    "noMatchingSources": 0,
+    "failedSources": 5,
+    "deferredSources": 95,
+    "lastError": "irrelevant_count",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
@@ -238,11 +262,11 @@
     "needs_source_lookup": 69,
     "covered": 17,
     "reopened": 6,
-    "needs_review": 220,
+    "needs_review": 226,
     "duplicate": 3,
-    "deferred": 283
+    "deferred": 278
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 628,
-  "deferredNewsCandidates": 283
+  "unresolvedNewsCandidates": 629,
+  "deferredNewsCandidates": 278
 }
