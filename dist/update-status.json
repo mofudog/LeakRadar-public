@@ -1,13 +1,13 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-21T10:47:58+00:00",
+  "lastAttemptAt": "2026-10-21T11:06:55+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-21T10:47:58+00:00",
-  "successfulFetches": 283,
-  "failedFetches": 27,
-  "changedReviewedSources": 24,
-  "automaticAnnouncements": 155,
-  "watchedDocumentCount": 256,
+  "lastPartialSuccessAt": "2026-10-21T11:06:55+00:00",
+  "successfulFetches": 282,
+  "failedFetches": 30,
+  "changedReviewedSources": 25,
+  "automaticAnnouncements": 156,
+  "watchedDocumentCount": 258,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
@@ -48,8 +48,16 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "url": "https://kufu.co.jp/2026/10/16/kufuhd-announce/",
+      "error": "HTTP Error 503: Service Temporarily Unavailable"
+    },
+    {
       "url": "https://binc.jp/press-room/news/notice/news_20261016",
       "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.sagin-dp.jp/news/000097.php",
+      "error": "<urlopen error [Errno 111] Connection refused>"
     },
     {
       "url": "https://www.nifty.co.jp/newsrelease/nifty202610195434.htm",
@@ -62,6 +70,10 @@
     {
       "url": "https://jgc-digital.com/topics/topics-3049/",
       "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.sagin-dp.jp/news/000094.php",
+      "error": "<urlopen error [Errno 111] Connection refused>"
     },
     {
       "url": "https://www.nikkei.co.jp/",
@@ -125,16 +137,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-21",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-21T10:47:58+00:00",
+    "lastAttemptAt": "2026-10-21T11:06:55+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 4,
-    "newsCandidates": 1065,
+    "newsCandidates": 1075,
     "newsArticlesChecked": 70,
-    "deferredNewsArticles": 280,
-    "officialFetches": 87,
-    "confirmedOfficialAnnouncements": 188,
-    "pendingNewsArticles": 635,
+    "deferredNewsArticles": 276,
+    "officialFetches": 100,
+    "confirmedOfficialAnnouncements": 189,
+    "pendingNewsArticles": 646,
     "skippedReviewedArticles": 30,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -166,7 +178,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-21T10:51:24+00:00",
+      "lastAttemptAt": "2026-10-21T11:09:39+00:00",
       "listPagesChecked": 4,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -174,23 +186,49 @@
     }
   },
   "automaticSummaries": {
-    "ready": 34,
-    "partial": 68,
+    "ready": 31,
+    "partial": 72,
     "pending": 71,
-    "fetchFailed": 6
+    "fetchFailed": 9
+  },
+  "aiSummary": {
+    "status": "not_configured",
+    "model": "gemini-3.5-flash-lite",
+    "requestsThisRun": 0,
+    "requestsLast24Hours": 0,
+    "cachedSources": 0,
+    "acceptedSources": 0,
+    "failedSources": 0,
+    "deferredSources": 0,
+    "lastError": null,
+    "dailySafetyLimit": 15,
+    "runSafetyLimit": 2
+  },
+  "sourceRecovery": {
+    "fetches": 5,
+    "linkedDocuments": 0,
+    "matchedAlternatives": 0,
+    "pending": 4,
+    "failed": 2,
+    "report": "data/source-recovery-report.md",
+    "ocr": {
+      "toolsAvailable": true,
+      "attempted": 0,
+      "requiresReview": 0
+    }
   },
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 42,
+    "fetch_failed": 44,
     "needs_source_lookup": 68,
     "covered": 17,
     "reopened": 6,
-    "needs_review": 212,
+    "needs_review": 225,
     "duplicate": 3,
-    "deferred": 280
+    "deferred": 276
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 608,
-  "deferredNewsCandidates": 280
+  "unresolvedNewsCandidates": 619,
+  "deferredNewsCandidates": 276
 }
