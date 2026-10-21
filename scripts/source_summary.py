@@ -84,10 +84,15 @@ def apply(records, cache, checked_at):
                     'state':'pending','reason':'source_fetch_failed','passages':[]}
             stats['fetchFailed']+=1
         else:
-            page=doc.get('page')
-            text=doc.get('summaryText') or (page.content if page else '')
-            result=extract(text,record['source'],checked_at,doc.get('hash'))
-            if doc.get('summaryReadError'):result['reason']='document_text_unreadable'
+            effective=doc.get('summaryDocument') or doc
+            page=effective.get('page')
+            text=effective.get('summaryText') or (page.content if page else '')
+            result=extract(text,record['source'],checked_at,effective.get('hash'))
+            if effective.get('summaryReadError'):result['reason']='document_text_unreadable'
+            if doc.get('summaryEvidence'):
+                result['evidenceSource']=doc['summaryEvidence']['url']
+                result['evidenceRelation']=doc['summaryEvidence']['method']
+                result['linkedFrom']=doc['summaryEvidence']['linkedFrom']
         record['automaticSummary']=result
         stats[result['state']]+=1
     return stats

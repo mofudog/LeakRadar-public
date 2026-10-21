@@ -15,7 +15,7 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 20
     steps:
       - name: ソースを取得
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -43,7 +43,14 @@ jobs:
         run: python3 -m pip install --disable-pip-version-check -r requirements.txt
       - name: 取りこぼし再発防止の検査
         run: python3 -m unittest discover -s scripts -p 'test_*.py' -v
+      - name: 画像PDFの文字起こしを用意
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends poppler-utils tesseract-ocr tesseract-ocr-jpn tesseract-ocr-eng
       - name: 公開情報の取得と変更確認
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_FREE_TIER_CONFIRMED: ${{ vars.GEMINI_FREE_TIER_CONFIRMED }}
         run: python3 scripts/update_sources.py
       - name: 公開対象と機密情報の形式を確認
         run: python3 scripts/audit_public_files.py

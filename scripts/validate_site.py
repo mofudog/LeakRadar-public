@@ -20,6 +20,15 @@ for r in records:
   assert summary['version']==VERSION and summary['source']==r['source'],'Summary evidence must match this official source'
   assert r['sourceType']=='official' and (r.get('automaticallyCollected') or r.get('sourceChanged'))
   datetime.datetime.fromisoformat(summary['checkedAt'])
+  if summary.get('evidenceSource'):
+   from source_recovery import permitted
+   assert permitted(r['source'],summary['evidenceSource']) and summary['linkedFrom']==r['source']
+   assert summary['evidenceRelation'] in ('direct_official_pdf','same_title_and_date')
+  if summary.get('ai'):
+   from ai_summary import MODEL,VERSION as AI_VERSION
+   assert summary['ai']['provider']=='Gemini' and summary['ai']['model']==MODEL and summary['ai']['version']==AI_VERSION
+   assert set(summary['ai']['kinds'])<=set(p['kind'] for p in summary['passages'])
+
   assert summary['state'] in ('ready','partial','pending')
   passages=summary['passages'];kinds=set()
   for p in passages:

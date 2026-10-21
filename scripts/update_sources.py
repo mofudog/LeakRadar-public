@@ -11,6 +11,10 @@ from tdnet_discovery import run as discover_disclosures
 from candidate_triage import classify, markdown as triage_markdown
 from pathlib import Path
 from source_summary import apply as summarize_sources
+from ai_summary import run as ai_summaries
+from source_recovery import run as recover_sources, markdown as recovery_markdown
+from pdf_reading import run as read_image_pdfs
+from news_discovery import scoped_date
 from pypdf import PdfReader
 import io
 ROOT=Path(__file__).resolve().parents[1]
@@ -122,14 +126,23 @@ def fetch(url,allowed):
    result={'url':response.url,'hash':digest(data),'page':None,'http':response.status}
    try:
     pdf=PdfReader(io.BytesIO(data))
-    if pdf.is_encrypted or len(pdf.pages)>50:raise ValueError('PDF exceeds summary limits')
+    if pdf.is_encrypted and not pdf.decrypt(''):
+     result['pdfProtected']=True
+     raise ValueError('Password-protected PDF requires review')
+    result['pdfPages']=len(pdf.pages)
+    if len(pdf.pages)>50:raise ValueError('PDF exceeds summary limits')
     parts=[];size=0
     for pdf_page in pdf.pages:
      text=pdf_page.extract_text() or '';size+=len(text)
      if size>250_000:raise ValueError('PDF text exceeds summary limits')
      parts.append(text)
     result['summaryText']='\n'.join(parts)
-   except Exception:result['summaryReadError']=True
+    if len(clean(result['summaryText']))<100:
+     result['summaryReadError']=True
+     result['pdfBytes']=data
+   except Exception:
+    result['summaryReadError']=True
+    if not result.get('pdfProtected'):result['pdfBytes']=data
    return result
   if 'json' in ctype:return {'url':response.url,'json':json.loads(data.decode('utf-8-sig')),'http':response.status}
   if not charset:
@@ -150,7 +163,10 @@ def fetch(url,allowed):
     element.decompose()
    page.main=[body.get_text(' ',strip=True)]
   if len(page.content)<80 or re.search(r'just a moment|access denied|enable javascript',page.heading,re.I):raise ValueError('Source body could not be read')
-  return {'url':response.url,'hash':digest(page.content),'page':page,'http':response.status}
+  publication=scoped_date(soup,body or soup)
+  return {'url':response.url,'hash':digest(page.content),'page':page,'http':response.status,
+          'summaryText':body.get_text('\n',strip=True) if body else page.content,
+          'summaryPublished':publication.isoformat() if publication else None}
 
 
 def main():
@@ -280,11 +296,27 @@ def main():
  try:retention_start=jst_today.replace(year=jst_today.year-3)
  except ValueError:retention_start=jst_today.replace(year=jst_today.year-3,day=28)
  records=[r for r in records if (r.get('eventDate','') if r['sourceType']=='hibp' else r.get('updated',r['published']))>=retention_start.isoformat()]
+ recovery_state=read(ROOT/'data/source-recovery-state.json',{})
+ recovery_stats,recovery_report=recover_sources(records,cache,indexes,recovery_state,fetch,allowed,STAMP,
+  blocked_hosts={host(e.get('url','')) for e in errors if '429' in e.get('error','')})
+ ocr_state=read(ROOT/'data/pdf-reading-state.json',{})
+ ocr_stats,ocr_report=read_image_pdfs(cache,ocr_state,STAMP)
  summary_stats=summarize_sources(records,cache,STAMP)
+ ai_state=read(ROOT/'data/ai-summary-state.json',{})
+ ai_stats=ai_summaries(records,cache,ai_state,STAMP)
+ # Recalculate extraction coverage after AI supplements; never change incident status.
+ summary_stats.update({key:sum(r.get('automaticSummary',{}).get('state')==key for r in records) for key in ('ready','partial','pending')})
+ write(ROOT/'data/source-recovery-state.json',recovery_state)
+ write(ROOT/'data/pdf-reading-state.json',ocr_state)
+ write(ROOT/'data/ai-summary-state.json',ai_state)
+ write(ROOT/'data/source-recovery-report.json',{'checkedAt':STAMP,'recovery':recovery_report,'ocr':ocr_report})
+ (ROOT/'data/source-recovery-report.md').write_text(recovery_markdown(recovery_report,ocr_report,STAMP),encoding='utf-8')
  status='complete' if not errors else ('partial' if success else 'failed')
  old_status=read(ROOT/'dist/update-status.json',{})
  update={'status':status,'lastAttemptAt':STAMP,'lastSuccessAt':STAMP if status=='complete' else old_status.get('lastSuccessAt'),'lastPartialSuccessAt':STAMP if status=='partial' else old_status.get('lastPartialSuccessAt'),'successfulFetches':success,'failedFetches':len(errors),'changedReviewedSources':changes,'automaticAnnouncements':sum(r.get('automaticallyCollected',False) for r in records),'watchedDocumentCount':len(sources),'watchedIndexCount':len(indexes),'schedule':'毎時（GitHub Actionsの遅延・停止があり得ます）','errors':errors,'fullyComprehensive':False,'summaryReviewedAt':reviewed.get('checkedAt'),'cloudRun':os.environ.get('GITHUB_ACTIONS')=='true','retentionStart':retention_start.isoformat(),'newsDiscovery':{k:v for k,v in news_result.items() if k not in ('queue','confirmed','errors','archiveProgress')}}
  update['automaticSummaries']=summary_stats
+ update['aiSummary']=ai_stats
+ update['sourceRecovery']={**recovery_stats,'report':'data/source-recovery-report.md','ocr':ocr_stats}
  write(ROOT/'data/source-state.json',{'documents':documents,'announcements':announcements,'hibp':{x['Name']:digest(json.dumps(x,sort_keys=True)) for x in foreign},'lastAttemptAt':STAMP})
  followups=[{'newsSource':u,'title':q.get('title',''),'reportedDate':q['published'],'publisher':q['publisher'],'firstSeenAt':q.get('firstSeenAt'),'lastCheckedAt':q.get('lastCheckedAt'),'attempts':q.get('attempts',0),'reasons':q['pending']} for u,q in news_result.get('queue',{}).items() if q.get('pending')]
 
@@ -318,6 +350,8 @@ def main():
  write(ROOT/'dist/incidents.json',{**reviewed,'version':reviewed.get('version','1.3.4'),'incidents':records,'automaticUpdateStatus':status,'automaticLastAttemptAt':STAMP})
  write(ROOT/'dist/update-status.json',update)
  print(json.dumps({k:v for k,v in update.items() if k!='errors'},ensure_ascii=False))
+ if ai_stats['status'] in ('not_configured','paused'):
+  print('::warning title=AI補助の状態::'+ai_stats['status']+'。本文の通常抽出は継続します。設定手順は README.md を参照してください。')
  if not success:raise SystemExit(1)
 
 if __name__=='__main__':main()
