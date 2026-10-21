@@ -1,16 +1,16 @@
 # 収集候補の確認状況
 
-確認日時: 2026-10-21T21:48:33+00:00
+確認日時: 2026-10-21T22:46:09+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
 - 掲載済み: 17件
 - 同一事案の別記事: 3件
 - 掲載対象外: 9件
-- 取得失敗: 113件
+- 取得失敗: 114件
 - 公式発表の発見待ち: 33件
-- 内容確認が必要: 241件
-- 未処理: 258件
+- 内容確認が必要: 246件
+- 未処理: 257件
 - 再確認が必要: 6件
 
 ## 確認待ち
@@ -812,8 +812,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: HTTPError: HTTP Error 503: Service Unavailable / <https://www.2ndstreet.jp/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://2nd-rtl.com/news/82023/>
+- 取得結果: HTTPError: HTTP Error 503: Service Unavailable / <https://www.2ndstreet.jp/>
 
 ### 「ふるさとチョイス」不正アクセスの疑いでサービス停止
 
@@ -843,35 +843,36 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/personalinfo/legal/leakAction/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.lawson.co.jp/contents/cont07/1533174_3310.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.mrmax.co.jp/info/incident_20261006/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119011/>
 
 ### 【解説】Astemo・岩井コスモ証券・函館市など5件、委託先に関わる不正アクセスを整理｜10月16日公表分
 
-取得失敗 / 報道・公表日: 2026-10-18
+内容確認が必要 / 報道・公表日: 2026-10-18
 
 <https://innovatopia.jp/cyber-security/cyber-security-news/119020/>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.hakodate.hokkaido.jp/docs/2026101600015/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.fdma.go.jp/mission/enrichment/kyukyumusen_kinkyutuhou/net119.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.keio.co.jp/news/update/announce/nr260926v13404/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://csrc.nist.gov/glossary/term/multi_factor_authentication>
-- 取得結果: HTTPError: HTTP Error 404: Not Found / <https://www.iwaicosmo.co.jp/news/2026/10161410.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.smd-am.co.jp/news/news/2026/news_20261016/>
-- 取得結果: ValueError: PDF metadata needs review: publisher=True, date=False, title=False / <https://www.keio.co.jp/news/update/news_release/news_release2026/pdf/nr20261016_newsrelease.pdf>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119020/>
 
 ### 【解説】JFA Passport・カーセンサー・Joshinなど6件、不正アクセスと不審なアクセスの公表を整理｜10月17〜18日
 
-取得失敗 / 報道・公表日: 2026-10-18
+内容確認が必要 / 報道・公表日: 2026-10-18
 
 <https://innovatopia.jp/cyber-security/cyber-security-news/119035/>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://digym.cloud/post-955/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jfa.jp/jfapassport/news/00034519/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jfa.jp/news/00036934/>
-- 取得結果: HTTPError: HTTP Error 503: Service Temporarily Unavailable / <https://www.carsensor.net/>
-- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=True, title=True / <https://www.joshin.co.jp/ja/news/info/info-20261017/main/0/link/20261017Notice%20and%20Apology%20Regarding%20System%20Disruption%20Caused%20by%20Unauthorized%20Access.pdf>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119035/>
 
 ### セカンドリテイリングに不正アクセス、ゲオとセカンドストリートのアプリ・WEBサービスを停止　再開は未定
@@ -882,10 +883,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.bookoff.co.jp/info/news/2026/post_113.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://2nd-rtl.com/news/82023>
+- 取得結果: HTTPError: HTTP Error 503: Service Unavailable / <https://geo-online.co.jp/>
 - 取得結果: HTTPError: HTTP Error 503: Service Unavailable / <https://www.2ndstreet.jp/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://jvn.jp/jp/JVN40460777/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nttsolmare.com/press/2026/1016.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nttsolmare.com/press/2026/1016-1.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119032/>
 
 ### タイムズカー、退会後も7年間保管していた免許証画像を全削除へ　約660万アカウント分の漏えい受け
@@ -4079,16 +4080,6 @@
 
 - 取得結果: HTTPError: HTTP Error 503: Service Unavailable / <https://www.gaora.co.jp/>
 
-### シルバーアクセ通販サイトに不正アクセス - 個人情報流出の可能性
-
-内容確認が必要 / 報道・公表日: 2024-11-27
-
-<https://www.security-next.com/164643>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/164643>
-
 ### イベント当選者宛てのメールで誤送信が発生 - 宮崎市
 
 内容確認が必要 / 報道・公表日: 2024-11-26
@@ -4097,127 +4088,89 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/164647>
-
-### ランサム被害で個人情報流出の可能性、調査を継続 - AIS
-
-内容確認が必要 / 報道・公表日: 2024-11-26
-
-<https://www.security-next.com/164645>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/164645>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.miyazaki.miyazaki.jp/city/public_relations/press_material/418584.html>
 
 ### 購入者プレゼントの発送案内メールで誤送信 - 吉田金属工業
 
-未処理 / 報道・公表日: 2024-11-25
+取得失敗 / 報道・公表日: 2024-11-25
 
 <https://www.security-next.com/164593>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: Deferred: article has not been checked yet / <https://www.security-next.com/164593>
-
-### 他職員の業務情報に不正アクセス、職員を処分 - 児玉広域組合
-
-未処理 / 報道・公表日: 2024-11-25
-
-<https://www.security-next.com/164591>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: Deferred: article has not been checked yet / <https://www.security-next.com/164591>
+- 取得結果: HTTPError: HTTP Error 502: Bad Gateway / <https://www.yoshikin.co.jp/>
 
 ### 「NVIDIA License System」に脆弱性 - 情報漏洩やDoSのおそれ
 
-未処理 / 報道・公表日: 2024-11-22
+取得失敗 / 報道・公表日: 2024-11-22
 
 <https://www.security-next.com/164559>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: Deferred: article has not been checked yet / <https://www.security-next.com/164559>
+- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://nvidia.custhelp.com/app/answers/detail/a_id/5570>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nvidia.com/ja-jp/>
 
 ### 県立高校の生徒の個人情報含むUSBメモリを紛失 - 埼玉県
 
-未処理 / 報道・公表日: 2024-11-22
+内容確認が必要 / 報道・公表日: 2024-11-22
 
 <https://www.security-next.com/164484>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: Deferred: article has not been checked yet / <https://www.security-next.com/164484>
-
-### Instagramアカウントに不正アクセス - バウアーファインド
-
-未処理 / 報道・公表日: 2024-11-22
-
-<https://www.security-next.com/164543>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: Deferred: article has not been checked yet / <https://www.security-next.com/164543>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.pref.saitama.lg.jp/a0903/news/page/news2026102001.html>
 
 ### 講座受講者向けの動画URL通知メールで誤送信 - 宮城県総合教育センター
 
-未処理 / 報道・公表日: 2024-11-22
+内容確認が必要 / 報道・公表日: 2024-11-22
 
 <https://www.security-next.com/164538>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: Deferred: article has not been checked yet / <https://www.security-next.com/164538>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.pref.miyagi.jp/soshiki/seihocnt/20261021_tien.html>
 
 ### 児童館でメール誤送信、個人情報が流出 - 福井市
 
-未処理 / 報道・公表日: 2024-11-21
+内容確認が必要 / 報道・公表日: 2024-11-21
 
 <https://www.security-next.com/164482>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: Deferred: article has not been checked yet / <https://www.security-next.com/164482>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.fukui.lg.jp/kurasi/mati/jiti/p073486.html>
 
 ### V音楽フェスのアカウント侵害、情報流出の可能性 - JVCケンウッド
 
-未処理 / 報道・公表日: 2024-11-21
+内容確認が必要 / 報道・公表日: 2024-11-21
 
 <https://www.security-next.com/164476>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: Deferred: article has not been checked yet / <https://www.security-next.com/164476>
-
-### 出生情報欄の掲載情報を無関係の新聞社へ誤送信 - 新潟市
-
-未処理 / 報道・公表日: 2024-11-20
-
-<https://www.security-next.com/164389>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: Deferred: article has not been checked yet / <https://www.security-next.com/164389>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jvckenwood.com/>
 
 ### 「Oracle Agile PLM」に情報漏洩の脆弱性 - 定例外パッチで緊急対応
 
-未処理 / 報道・公表日: 2024-11-20
+内容確認が必要 / 報道・公表日: 2024-11-20
 
 <https://www.security-next.com/164451>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: Deferred: article has not been checked yet / <https://www.security-next.com/164451>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.oracle.com/security-alerts/alert-cve-2024-21287.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.oracle.com/jp/>
 
 ### 研究室サーバに不正アクセス、学生情報が流出か - 室工大
 
-未処理 / 報道・公表日: 2024-11-20
+取得失敗 / 報道・公表日: 2024-11-20
 
 <https://www.security-next.com/164376>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: Deferred: article has not been checked yet / <https://www.security-next.com/164376>
+- 取得結果: HTTPError: HTTP Error 503: Service Unavailable / <https://muroran-it.ac.jp/>
 
 ### メール誤送信、防災イベント申込者のメアド流出 - 松前町
 
@@ -6618,6 +6571,106 @@
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
 - 取得結果: Deferred: article has not been checked yet / <https://www.security-next.com/156251>
+
+### 個人情報含む道路占用届書をメール誤送信 - 国交省
+
+未処理 / 報道・公表日: 2024-04-25
+
+<https://www.security-next.com/156425>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: Deferred: article has not been checked yet / <https://www.security-next.com/156425>
+
+### MS 365アカウントに不正アクセス、個人情報流出の可能性 - セガ子会社
+
+未処理 / 報道・公表日: 2024-04-25
+
+<https://www.security-next.com/156423>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: Deferred: article has not been checked yet / <https://www.security-next.com/156423>
+
+### 記者会見参加応募者の個人情報をメールで誤送信 - 太秦映画村
+
+未処理 / 報道・公表日: 2024-04-24
+
+<https://www.security-next.com/156249>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: Deferred: article has not been checked yet / <https://www.security-next.com/156249>
+
+### 光学メーカーのHOYA、生産供給体制が概ね復旧 - 情報流出の影響を調査
+
+未処理 / 報道・公表日: 2024-04-24
+
+<https://www.security-next.com/156366>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: Deferred: article has not been checked yet / <https://www.security-next.com/156366>
+
+### 添付ファイルと宛先の確認不足が重なる誤送信が発生 - 大塚商会
+
+未処理 / 報道・公表日: 2024-04-23
+
+<https://www.security-next.com/156313>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: Deferred: article has not been checked yet / <https://www.security-next.com/156313>
+
+### 福岡飲食店のECサイトに不正アクセス - 個人情報流出の可能性
+
+未処理 / 報道・公表日: 2024-04-23
+
+<https://www.security-next.com/156308>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: Deferred: article has not been checked yet / <https://www.security-next.com/156308>
+
+### メールの誤送信で学生のメアドが流出 - 都住宅供給公社
+
+未処理 / 報道・公表日: 2024-04-19
+
+<https://www.security-next.com/156209>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: Deferred: article has not been checked yet / <https://www.security-next.com/156209>
+
+### 人事情報の不正閲覧で職員2人を処分、以前から漏洩のうわさ - 筑前町
+
+未処理 / 報道・公表日: 2024-04-19
+
+<https://www.security-next.com/155609>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: Deferred: article has not been checked yet / <https://www.security-next.com/155609>
+
+### 認可保育所に無関係の副食費免除対象者情報を誤送信 - 青梅市
+
+未処理 / 報道・公表日: 2024-04-18
+
+<https://www.security-next.com/156039>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: Deferred: article has not been checked yet / <https://www.security-next.com/156039>
+
+### 被災労働者の個人情報含むファイルをメール誤送信 - 労働基準監督署
+
+未処理 / 報道・公表日: 2024-04-18
+
+<https://www.security-next.com/156085>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: Deferred: article has not been checked yet / <https://www.security-next.com/156085>
 
 ### 労務管理クラウドシステムでアクセス権の設定ミス - 個人情報が流出
 
