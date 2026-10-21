@@ -1,16 +1,20 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-21T11:17:15+00:00",
+  "lastAttemptAt": "2026-10-21T11:27:27+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-21T11:17:15+00:00",
-  "successfulFetches": 281,
-  "failedFetches": 30,
+  "lastPartialSuccessAt": "2026-10-21T11:27:27+00:00",
+  "successfulFetches": 283,
+  "failedFetches": 34,
   "changedReviewedSources": 25,
-  "automaticAnnouncements": 156,
-  "watchedDocumentCount": 257,
+  "automaticAnnouncements": 158,
+  "watchedDocumentCount": 261,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
+    {
+      "url": "https://www.lashinbang.com/info/26357/",
+      "error": "The read operation timed out"
+    },
     {
       "url": "https://support.rakuten-drive.com/hc/ja/articles/62934949147929",
       "error": "HTTP Error 403: Forbidden"
@@ -76,6 +80,10 @@
       "error": "<urlopen error [Errno 111] Connection refused>"
     },
     {
+      "url": "https://corp.eplus.jp/press-release/1824/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
       "url": "https://www.nikkei.co.jp/",
       "error": "Redirect to an unregistered host"
     },
@@ -124,12 +132,20 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "url": "https://www.lashinbang.com/info/",
+      "error": "The read operation timed out"
+    },
+    {
       "url": "https://www.dkkaraoke.co.jp/stockinfo/irnews/index.html",
       "error": "Only public HTTPS sources are allowed"
     },
     {
       "url": "https://www.monogatari.co.jp/ir/ir_news/",
       "error": "Source body could not be read"
+    },
+    {
+      "url": "https://www.lashinbang.com/info/26363/",
+      "error": "The read operation timed out"
     }
   ],
   "fullyComprehensive": false,
@@ -137,16 +153,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-21",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-21T11:17:15+00:00",
+    "lastAttemptAt": "2026-10-21T11:27:27+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 4,
-    "newsCandidates": 1082,
+    "newsCandidates": 1097,
     "newsArticlesChecked": 70,
-    "deferredNewsArticles": 282,
-    "officialFetches": 94,
-    "confirmedOfficialAnnouncements": 189,
-    "pendingNewsArticles": 643,
+    "deferredNewsArticles": 283,
+    "officialFetches": 95,
+    "confirmedOfficialAnnouncements": 192,
+    "pendingNewsArticles": 648,
     "skippedReviewedArticles": 30,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -174,11 +190,12 @@
         "2024-12",
         "2024-11",
         "2024-10",
-        "2024-09"
+        "2024-09",
+        "2024-08"
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-21T11:20:43+00:00",
+      "lastAttemptAt": "2026-10-21T11:30:43+00:00",
       "listPagesChecked": 4,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -186,27 +203,28 @@
     }
   },
   "automaticSummaries": {
-    "ready": 31,
-    "partial": 73,
-    "pending": 70,
+    "ready": 30,
+    "partial": 79,
+    "pending": 67,
     "fetchFailed": 9
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
-    "requestsLast24Hours": 5,
-    "cachedSources": 0,
-    "acceptedSources": 5,
-    "failedSources": 0,
-    "deferredSources": 108,
-    "lastError": null,
+    "requestsLast24Hours": 10,
+    "cachedSources": 5,
+    "acceptedSources": 2,
+    "noMatchingSources": 1,
+    "failedSources": 2,
+    "deferredSources": 106,
+    "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
     "fetches": 5,
-    "linkedDocuments": 2,
+    "linkedDocuments": 4,
     "matchedAlternatives": 0,
     "pending": 2,
     "failed": 2,
@@ -220,15 +238,15 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 47,
+    "fetch_failed": 50,
     "needs_source_lookup": 68,
     "covered": 17,
     "reopened": 6,
-    "needs_review": 213,
+    "needs_review": 214,
     "duplicate": 3,
-    "deferred": 282
+    "deferred": 283
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 616,
-  "deferredNewsCandidates": 282
+  "unresolvedNewsCandidates": 621,
+  "deferredNewsCandidates": 283
 }
