@@ -1,20 +1,16 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-21T07:55:17+00:00",
+  "lastAttemptAt": "2026-10-21T08:51:37+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-21T07:55:17+00:00",
+  "lastPartialSuccessAt": "2026-10-21T08:51:37+00:00",
   "successfulFetches": 274,
-  "failedFetches": 23,
+  "failedFetches": 24,
   "changedReviewedSources": 24,
-  "automaticAnnouncements": 142,
-  "watchedDocumentCount": 242,
+  "automaticAnnouncements": 144,
+  "watchedDocumentCount": 244,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
-    {
-      "url": "https://internet.watch.impress.co.jp/docs/news/2149829.html",
-      "error": "IncompleteRead: IncompleteRead(9902 bytes read)"
-    },
     {
       "url": "https://support.rakuten-drive.com/hc/ja/articles/62934949147929",
       "error": "HTTP Error 403: Forbidden"
@@ -48,8 +44,16 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "url": "https://binc.jp/press-room/news/notice/news_20261016",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
       "url": "https://www.nifty.co.jp/newsrelease/nifty202610195434.htm",
       "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.nidek.co.jp/news/20260807-news/",
+      "error": "HTTP Error 502: Bad Gateway"
     },
     {
       "url": "https://www.nikkei.co.jp/",
@@ -109,16 +113,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-21",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-21T07:55:17+00:00",
+    "lastAttemptAt": "2026-10-21T08:51:37+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 4,
-    "newsCandidates": 1017,
-    "newsArticlesChecked": 69,
-    "deferredNewsArticles": 279,
-    "officialFetches": 100,
-    "confirmedOfficialAnnouncements": 175,
-    "pendingNewsArticles": 624,
+    "newsCandidates": 1028,
+    "newsArticlesChecked": 70,
+    "deferredNewsArticles": 286,
+    "officialFetches": 93,
+    "confirmedOfficialAnnouncements": 177,
+    "pendingNewsArticles": 629,
     "skippedReviewedArticles": 30,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -148,7 +152,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-21T07:58:02+00:00",
+      "lastAttemptAt": "2026-10-21T08:54:36+00:00",
       "listPagesChecked": 4,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -158,15 +162,15 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 34,
-    "needs_source_lookup": 65,
+    "fetch_failed": 35,
+    "needs_source_lookup": 66,
     "covered": 17,
     "reopened": 6,
-    "needs_review": 213,
+    "needs_review": 209,
     "duplicate": 3,
-    "deferred": 279
+    "deferred": 286
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 597,
-  "deferredNewsCandidates": 279
+  "unresolvedNewsCandidates": 602,
+  "deferredNewsCandidates": 286
 }
