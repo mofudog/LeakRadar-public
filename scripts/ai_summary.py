@@ -4,7 +4,7 @@ No browser-side key, paid fallback, freeform factual assertions or raw response 
 """
 from __future__ import annotations
 import datetime as dt, hashlib, json, os, re, urllib.error, urllib.request
-from source_summary import normalized, SENSITIVE, NON_PRIMARY, INCIDENT, PERSON, ITEM, scale_passage
+from source_summary import normalized, SENSITIVE, NON_PRIMARY, INCIDENT, PERSON, ITEM, scale_passage, audience_passage
 from urllib.parse import urlsplit
 
 MODEL='gemini-3.5-flash-lite'
@@ -54,7 +54,7 @@ def validate(payload,body):
   quote=normalized(quote)
   if not 15<=len(quote)<=240 or quote not in body or SENSITIVE.search(quote) or '削除]' in quote:raise AIError('ungrounded_output')
   if kind=='items' and not ITEM.search(quote):raise AIError('irrelevant_output')
-  if kind=='audience' and (not re.search(r'対象者|対象とな|対象範囲|対象期間|対象サービス|登録|ご利用|利用され|予約|宿泊|契約|応募|保有|管理|お預かり',quote) or re.search(r'ご連絡|ご説明|お詫び|通知いた|お問い合わせ',quote)):raise AIError('irrelevant_output')
+  if kind=='audience' and not audience_passage(quote):raise AIError('irrelevant_output')
   if kind=='scale' and not scale_passage(quote):raise AIError('irrelevant_count')
   seen.add(kind);result.append({'kind':kind,'quote':quote})
  return result
@@ -87,18 +87,21 @@ def request_summary(body,key):
 
 def merge(summary,passages):
  combined={p['kind']:p for p in summary['passages']}
- for p in passages:combined.setdefault(p['kind'],p)
+ added=[]
+ for p in passages:
+  if p['kind'] not in combined:combined[p['kind']]=p;added.append(p['kind'])
  summary['passages']=list(combined.values())
  summary['state']='ready' if len(combined)==3 else 'partial' if combined else 'pending'
  if combined:summary['reason']=None
- if passages:summary['ai']={'provider':'Gemini','model':MODEL,'version':VERSION,'kinds':[p['kind'] for p in passages]}
+ if added:summary['ai']={'provider':'Gemini','model':MODEL,'version':VERSION,'kinds':list(dict.fromkeys(summary.get('ai',{}).get('kinds',[])+added))}
+ return len(added)
 
 def run(records,cache,state,checked_at,call=request_summary,env=None):
  env=os.environ if env is None else env
  now=dt.datetime.fromisoformat(checked_at);timestamp=now.timestamp()
  entries=state.setdefault('entries',{});usage=[t for t in state.get('requestTimes',[]) if isinstance(t,(int,float)) and 0<=timestamp-t<86400]
  state['requestTimes']=usage
- stats={'status':'not_configured','model':MODEL,'requestsThisRun':0,'requestsLast24Hours':len(usage),'cachedSources':0,'acceptedSources':0,'failedSources':0,'deferredSources':0,'lastError':None,'dailySafetyLimit':DAILY_LIMIT,'runSafetyLimit':RUN_LIMIT}
+ stats={'status':'not_configured','model':MODEL,'requestsThisRun':0,'requestsLast24Hours':len(usage),'cachedSources':0,'acceptedSources':0,'noMatchingSources':0,'failedSources':0,'deferredSources':0,'lastError':None,'dailySafetyLimit':DAILY_LIMIT,'runSafetyLimit':RUN_LIMIT}
  key=env.get('GEMINI_API_KEY','').strip()
  if not key or env.get('GEMINI_FREE_TIER_CONFIRMED','').lower()!='true':return stats
  stats['status']='active'
@@ -137,7 +140,8 @@ def run(records,cache,state,checked_at,call=request_summary,env=None):
   try:
    passages=validate({'passages':call(body,key)},body)
    entry.update(state='success',passages=passages)
-   merge(summary,passages);stats['acceptedSources']+=1
+   added=merge(summary,passages)
+   stats['acceptedSources' if added else 'noMatchingSources']+=1
   except AIError as error:
    entry.update(state='failed',error=error.code,retryAfter=timestamp+86400)
    stats['failedSources']+=1;stats['lastError']=error.code

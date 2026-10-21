@@ -12,7 +12,7 @@ from candidate_triage import classify, markdown as triage_markdown
 from pathlib import Path
 from source_summary import apply as summarize_sources
 from ai_summary import run as ai_summaries
-from source_recovery import run as recover_sources, markdown as recovery_markdown
+from source_recovery import run as recover_sources, markdown as recovery_markdown, permitted as permitted_recovery, REVIEWED as SOURCE_MIRRORS
 from pdf_reading import run as read_image_pdfs
 from news_discovery import scoped_date
 from pypdf import PdfReader
@@ -191,6 +191,16 @@ def main():
    if source_url not in seen_sources:
     sources.append({'company':record['company'],'url':source_url,'kind':'document'})
     seen_sources.add(source_url)
+
+ # Fetch accepted alternate evidence on every run too. Relationships are
+ # revalidated against the original page or reviewed title/date below.
+ prior_recovery=read(ROOT/'data/source-recovery-state.json',{}).get('entries',{})
+ known_originals={r.get('source') for r in outstanding}
+ alternatives=[(u,e.get('selected'),e.get('company')) for u,e in prior_recovery.items() if e.get('state')=='recovered']
+ alternatives.extend((u,e['url'],e['company']) for u,e in SOURCE_MIRRORS.items())
+ for original,alternative,company in alternatives:
+  if original in known_originals and alternative and alternative not in seen_sources and permitted_recovery(original,alternative):
+   sources.append({'company':company,'url':alternative,'kind':'document'});seen_sources.add(alternative)
 
  for x in news_result.get('confirmed',{}).values():
   if x['source'] not in {r['url'] for r in sources}:sources.append({'company':x['company'],'url':x['source'],'kind':'document'})

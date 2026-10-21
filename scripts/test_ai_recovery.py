@@ -27,6 +27,8 @@ class AI(unittest.TestCase):
   with self.assertRaises(ai.AIError):ai.validate({'passages':[{'kind':'scale','quote':'なりすましメール約9000件が送信されました。'}]},BODY+'なりすましメール約9000件が送信されました。')
   notice='対象のお客様に本件のご説明をメールにてご連絡いたします。'
   with self.assertRaises(ai.AIError):ai.validate({'passages':[{'kind':'audience','quote':notice}]},BODY+notice)
+  notice='対象となる情報は氏名、メールアドレスであり、当社社員のアカウントから漏えいした可能性があります。'
+  with self.assertRaises(ai.AIError):ai.validate({'passages':[{'kind':'audience','quote':notice}]},BODY+notice)
  def test_redaction_keeps_boundaries(self):
   body=ai.safe_body(BODY+'\n担当者名 田中太郎\n連絡先test@example.com 電話03-1234-5678\n'+BODY)
   self.assertNotIn('田中太郎',body);self.assertNotIn('@example.com',body);self.assertNotIn('03-1234',body)
@@ -49,6 +51,10 @@ class AI(unittest.TestCase):
   state={};x=ai.run(rs,cache,state,STAMP,quota,ENV)
   self.assertEqual(x['status'],'paused');self.assertEqual(len(calls),1)
   ai.run(rs,cache,state,STAMP,quota,ENV);self.assertEqual(len(calls),1)
+ def test_empty_result_is_not_counted_as_an_enriched_source(self):
+  r=record();stats=ai.run([r],{r['source']:document()},{},STAMP,lambda *args:[],ENV)
+  self.assertEqual(stats['acceptedSources'],0);self.assertEqual(stats['noMatchingSources'],1)
+  self.assertEqual(r['automaticSummary']['state'],'pending');self.assertNotIn('ai',r['automaticSummary'])
 
 class Recovery(unittest.TestCase):
  def test_link_requires_official_relation(self):
@@ -67,6 +73,15 @@ class Recovery(unittest.TestCase):
   self.assertEqual(r['automaticSummary']['evidenceSource'],'https://example.com/notice.pdf')
   self.assertEqual(r['automaticSummary']['documentHash'],'a'*64)
   self.assertEqual(r['status'],'announcement')
+ def test_recovered_evidence_is_refreshed_without_queue_flicker(self):
+  r=record();source=r['source'];url='https://example.com/notice.pdf'
+  page=SimpleNamespace(heading=r['service'],links=[('/notice.pdf','詳細PDF')],content=BODY)
+  cache={source:{'hash':'b'*64,'page':page},url:document()}
+  state={'entries':{source:{'source':source,'company':r['company'],'selected':url,'method':'direct_official_pdf','state':'recovered'}}}
+  def no_fetch(*args):self.fail('Already fetched target must not be fetched again')
+  stats,report=recovery.run([r],cache,[],state,no_fetch,{'example.com'},STAMP,max_fetches=0)
+  self.assertEqual(cache[source]['summaryDocument']['hash'],'a'*64)
+  self.assertEqual(stats['linkedDocuments'],1);self.assertEqual(report[0]['lastAttemptAt'],STAMP)
  def test_same_heading_wrong_date_not_accepted(self):
   r=record();index=SimpleNamespace(heading='お知らせ',links=[('/other','不正アクセスのお知らせ')])
   candidate=SimpleNamespace(heading=r['service'],content=BODY,links=[])
@@ -92,6 +107,9 @@ class Recovery(unittest.TestCase):
   with patch.object(recovery,'REVIEWED',mirror):
    stats,report=recovery.run([r],{},[],{},fetch,{'example.com'},STAMP)
    self.assertEqual(stats['matchedAlternatives'],1);self.assertEqual(report[0]['method'],'reviewed_official_mirror')
+   fresh={url:{'hash':'a'*64,'page':page,'summaryText':BODY,'summaryPublished':r['published']}}
+   stats,report=recovery.run([r],fresh,[],{},fetch,{'example.com'},STAMP,max_fetches=0)
+   self.assertEqual(stats['matchedAlternatives'],1);self.assertEqual(report[0]['source'],r['source'])
    page.heading='不正アクセスの別の事案'
    stats,report=recovery.run([r],{},[],{},fetch,{'example.com'},STAMP)
    self.assertEqual(stats['matchedAlternatives'],0);self.assertIsNone(report[0]['selected'])

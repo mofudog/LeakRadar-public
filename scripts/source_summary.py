@@ -27,6 +27,9 @@ def scale_passage(sentence):
 def normalized(text):
     return re.sub(r'\s+', ' ', unicodedata.normalize('NFKC', text)).strip()
 
+def audience_passage(text):
+    return bool(re.search(r'対象者|対象とな(?:る|った)(?:お客|会員|方|人|利用)|対象範囲|対象期間|対象サービス|登録|ご利用|利用された|利用されて|予約|宿泊|契約|応募|保有する|管理する|お預かり',text)) and not re.search(r'ご連絡|ご説明|お詫び|通知いた|ご案内いた|お問い合わせ',text)
+
 def extract(text, source, checked_at, document_hash):
     """Return only short, verbatim (NFKC/whitespace-normalized) source excerpts."""
     host=(urlsplit(source).hostname or '').lower()
@@ -50,8 +53,7 @@ def extract(text, source, checked_at, document_hash):
         candidates.append((pos,sentence,local))
     used=set()
     rules=(
-      ('audience',lambda s,c:PERSON.search(s) and re.search(r'対象者|対象とな|対象範囲|対象期間|対象サービス|登録|利用された|利用されて|予約|宿泊|契約|応募|保有する|管理する|お預かり',s)
-       and not re.search(r'ご連絡|ご説明|お詫び|通知いた|ご案内いた|お問い合わせ',s)),
+      ('audience',lambda s,c:PERSON.search(s) and audience_passage(s)),
       ('items',lambda s,c:ITEM.search(s) and re.search(r'情報|データ|項目|内容|漏[え洩い]|流出',s)),
       ('scale',lambda s,c:scale_passage(s)),
     )

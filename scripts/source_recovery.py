@@ -44,6 +44,24 @@ def run(records,cache,indexes,state,fetch,allowed,checked_at,max_fetches=8,secon
   if doc and not page:continue
   pdfs=linked_pdfs(source,page)
   old=entries.get(source,{})
+  selected_url=old.get('selected') or REVIEWED.get(source,{}).get('url');replacement=cache.get(selected_url)
+  method=old.get('method') or ('reviewed_official_mirror' if source in REVIEWED else None)
+  # Reuse the verified relationship, but only with a freshly fetched target.
+  # This prevents alternate-document fields disappearing on a later queue turn.
+  if replacement and permitted(source,selected_url):
+   candidate_page=replacement.get('page')
+   mirror=REVIEWED.get(source,{})
+   valid=(method=='direct_official_pdf' and (not doc or selected_url in pdfs)) or (
+    method=='reviewed_official_mirror' and mirror.get('url')==selected_url and mirror.get('company')==r['company'] and mirror.get('published')==r.get('published') and candidate_page and title(candidate_page.heading)==title(r['service']) and replacement.get('summaryPublished')==r.get('published')) or (
+    method=='same_title_and_date' and not doc and candidate_page and title(candidate_page.heading)==title(r['service']) and replacement.get('summaryPublished')==r.get('published'))
+   text=replacement.get('summaryText') or (candidate_page.content if candidate_page else '')
+   if valid and replacement.get('hash') and len(normalized(text))>=100 and INCIDENT.search(normalized(text)):
+    if not doc:doc={'url':source,'hash':None,'page':None};cache[source]=doc
+    doc['summaryDocument']=replacement;doc['summaryEvidence']={'url':selected_url,'linkedFrom':source,'method':method}
+    entry={**old,'source':source,'company':r['company'],'selected':selected_url,'method':method,'lastAttemptAt':checked_at,'documentHash':replacement['hash'],'state':'recovered'}
+    entries[source]=entry;reports.append(entry)
+    stats['linkedDocuments' if method=='direct_official_pdf' else 'matchedAlternatives']+=1
+    continue
   if not doc or pdfs or source in REVIEWED:work.append((old.get('lastAttemptAt',''),r,doc,pdfs,old))
  # Round robin separately for failures and linked-document pages.
  work.sort(key=lambda x:(x[0],x[1]['source']))
@@ -77,6 +95,7 @@ def run(records,cache,indexes,state,fetch,allowed,checked_at,max_fetches=8,secon
    page=(candidate_doc or {}).get('page')
    if page and title(page.heading)==title(r['service']) and candidate_doc.get('summaryPublished')==r['published']:
     selected=(mirror['url'],candidate_doc);method='reviewed_official_mirror'
+   else:entry['candidates'].append({'url':mirror['url'],'reason':'linked_document_unreadable' if not candidate_doc else 'official_candidate_needs_matching'})
   for candidate in pdfs:
    if selected:break
    candidate_doc=get(candidate,source)
