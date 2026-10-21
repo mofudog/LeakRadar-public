@@ -1,19 +1,19 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-21T11:27:27+00:00",
+  "lastAttemptAt": "2026-10-21T11:48:09+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-21T11:27:27+00:00",
-  "successfulFetches": 283,
-  "failedFetches": 34,
+  "lastPartialSuccessAt": "2026-10-21T11:48:09+00:00",
+  "successfulFetches": 285,
+  "failedFetches": 33,
   "changedReviewedSources": 25,
   "automaticAnnouncements": 158,
-  "watchedDocumentCount": 261,
+  "watchedDocumentCount": 264,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
     {
       "url": "https://www.lashinbang.com/info/26357/",
-      "error": "The read operation timed out"
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://support.rakuten-drive.com/hc/ja/articles/62934949147929",
@@ -100,6 +100,10 @@
       "error": "HTTP Error 503: Service Unavailable"
     },
     {
+      "url": "https://www.lashinbang.com/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
       "url": "https://support.rakuten-drive.com/",
       "error": "HTTP Error 403: Forbidden"
     },
@@ -132,20 +136,12 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "https://www.lashinbang.com/info/",
-      "error": "The read operation timed out"
-    },
-    {
       "url": "https://www.dkkaraoke.co.jp/stockinfo/irnews/index.html",
       "error": "Only public HTTPS sources are allowed"
     },
     {
       "url": "https://www.monogatari.co.jp/ir/ir_news/",
       "error": "Source body could not be read"
-    },
-    {
-      "url": "https://www.lashinbang.com/info/26363/",
-      "error": "The read operation timed out"
     }
   ],
   "fullyComprehensive": false,
@@ -153,16 +149,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-21",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-21T11:27:27+00:00",
+    "lastAttemptAt": "2026-10-21T11:48:09+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 4,
-    "newsCandidates": 1097,
+    "newsCandidates": 1111,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 283,
-    "officialFetches": 95,
+    "officialFetches": 100,
     "confirmedOfficialAnnouncements": 192,
-    "pendingNewsArticles": 648,
+    "pendingNewsArticles": 655,
     "skippedReviewedArticles": 30,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -195,7 +191,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-21T11:30:43+00:00",
+      "lastAttemptAt": "2026-10-21T11:51:20+00:00",
       "listPagesChecked": 4,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -204,29 +200,29 @@
   },
   "automaticSummaries": {
     "ready": 30,
-    "partial": 79,
-    "pending": 67,
+    "partial": 80,
+    "pending": 66,
     "fetchFailed": 9
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
-    "requestsLast24Hours": 10,
-    "cachedSources": 5,
-    "acceptedSources": 2,
+    "requestsLast24Hours": 15,
+    "cachedSources": 7,
+    "acceptedSources": 1,
     "noMatchingSources": 1,
-    "failedSources": 2,
-    "deferredSources": 106,
+    "failedSources": 3,
+    "deferredSources": 102,
     "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
     "fetches": 5,
-    "linkedDocuments": 4,
+    "linkedDocuments": 5,
     "matchedAlternatives": 0,
-    "pending": 2,
+    "pending": 3,
     "failed": 2,
     "report": "data/source-recovery-report.md",
     "ocr": {
@@ -239,14 +235,14 @@
   "candidateTriageCounts": {
     "out_of_scope": 9,
     "fetch_failed": 50,
-    "needs_source_lookup": 68,
+    "needs_source_lookup": 69,
     "covered": 17,
     "reopened": 6,
-    "needs_review": 214,
+    "needs_review": 220,
     "duplicate": 3,
     "deferred": 283
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 621,
+  "unresolvedNewsCandidates": 628,
   "deferredNewsCandidates": 283
 }
