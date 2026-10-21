@@ -40,10 +40,10 @@ class AI(unittest.TestCase):
   self.assertEqual(len(calls),1);self.assertEqual(second['automaticSummary']['passages'],QUOTES)
   self.assertEqual(second['status'],'announcement');self.assertIsNone(second['verifiedAt']);self.assertEqual(second['items'],[])
  def test_budget_and_quota_stop(self):
-  rs=[record('https://example.com/'+str(i)) for i in range(4)];cache={r['source']:document() for r in rs};calls=[]
+  rs=[record('https://example.com/'+str(i)) for i in range(ai.RUN_LIMIT+2)];cache={r['source']:document() for r in rs};calls=[]
   def call(*args):calls.append(1);return QUOTES
-  x=ai.run(rs,cache,{},STAMP,call,ENV);self.assertEqual(len(calls),2);self.assertEqual(x['deferredSources'],2)
-  calls.clear();state={'requestTimes':[dt.datetime.fromisoformat(STAMP).timestamp()]*15}
+  x=ai.run(rs,cache,{},STAMP,call,ENV);self.assertEqual(len(calls),ai.RUN_LIMIT);self.assertEqual(x['deferredSources'],2)
+  calls.clear();state={'requestTimes':[dt.datetime.fromisoformat(STAMP).timestamp()]*ai.DAILY_LIMIT}
   ai.run([record()],cache,state,STAMP,call,ENV);self.assertFalse(calls)
   def quota(*args):calls.append(1);raise ai.AIError('quota_exhausted')
   state={};x=ai.run(rs,cache,state,STAMP,quota,ENV)
@@ -82,6 +82,19 @@ class Recovery(unittest.TestCase):
   state={'entries':{r['source']:{'source':r['source'],'company':r['company'],'state':'pending','retryAfter':9999999999,'candidates':[]}}}
   recovery.run([r],{},[],state,lambda *args:calls.append(1),{'example.com'},STAMP)
   self.assertFalse(calls)
+ def test_reviewed_mirror_still_requires_same_title_and_date(self):
+  r=record();url='https://corporate.example.org/notice'
+  mirror={r['source']:{'url':url,'company':r['company'],'published':r['published']}}
+  page=SimpleNamespace(heading=r['service'],links=[],content=BODY)
+  def fetch(source,allowed):
+   if source==url:return {'hash':'a'*64,'page':page,'summaryText':BODY,'summaryPublished':r['published']}
+   raise ValueError('not available')
+  with patch.object(recovery,'REVIEWED',mirror):
+   stats,report=recovery.run([r],{},[],{},fetch,{'example.com'},STAMP)
+   self.assertEqual(stats['matchedAlternatives'],1);self.assertEqual(report[0]['method'],'reviewed_official_mirror')
+   page.heading='不正アクセスの別の事案'
+   stats,report=recovery.run([r],{},[],{},fetch,{'example.com'},STAMP)
+   self.assertEqual(stats['matchedAlternatives'],0);self.assertIsNone(report[0]['selected'])
  def test_ocr_never_populates_public_summary(self):
   r=record();cache={r['source']:{'hash':'d'*64,'page':None,'summaryReadError':True,'pdfBytes':b'%PDF','pdfPages':1}}
   with patch('pdf_reading.shutil.which',return_value=None):

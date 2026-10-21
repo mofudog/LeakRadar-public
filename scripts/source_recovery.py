@@ -1,16 +1,19 @@
 """Conservative official-document recovery. mofu / Copyright 2026 mofu."""
 from __future__ import annotations
-import datetime as dt, hashlib, re, time, urllib.parse
+import datetime as dt, hashlib, re, time, urllib.parse, json
+from pathlib import Path
 from source_summary import normalized, INCIDENT, NON_PRIMARY, extract
 
 CDN={'data.swcms.net','ssl4.eir-parts.net','www.release.tdnet.info','release.tdnet.info'}
+try:REVIEWED=json.loads((Path(__file__).resolve().parents[1]/'data/official-source-alternatives.json').read_text(encoding='utf-8')).get('alternatives',{})
+except FileNotFoundError:REVIEWED={}
 
 def host(url):return (urllib.parse.urlsplit(url).hostname or '').lower()
 def site(url):return host(url).removeprefix('www.')
 def permitted(original,candidate):
  try:
   p=urllib.parse.urlsplit(candidate)
-  return p.scheme=='https' and not p.username and not p.password and p.port in (None,443) and (site(original)==site(candidate) or host(candidate) in CDN)
+  return p.scheme=='https' and not p.username and not p.password and p.port in (None,443) and (site(original)==site(candidate) or host(candidate) in CDN or REVIEWED.get(original,{}).get('url')==candidate)
  except ValueError:return False
 def title(text):return re.sub(r'[\W_]+','',normalized(text))
 
@@ -41,7 +44,7 @@ def run(records,cache,indexes,state,fetch,allowed,checked_at,max_fetches=8,secon
   if doc and not page:continue
   pdfs=linked_pdfs(source,page)
   old=entries.get(source,{})
-  if not doc or pdfs:work.append((old.get('lastAttemptAt',''),r,doc,pdfs,old))
+  if not doc or pdfs or source in REVIEWED:work.append((old.get('lastAttemptAt',''),r,doc,pdfs,old))
  # Round robin separately for failures and linked-document pages.
  work.sort(key=lambda x:(x[0],x[1]['source']))
  counts={'failed':0,'linked':0}
@@ -65,10 +68,17 @@ def run(records,cache,indexes,state,fetch,allowed,checked_at,max_fetches=8,secon
   if not doc and timestamp<float(old.get('retryAfter',0)):
    entry.update(old);reports.append(entry);continue
   counts[bucket]+=1
-  if not doc and old.get('selected') and old.get('method') in ('direct_official_pdf','same_title_and_date'):
+  if not doc and old.get('selected') and old.get('method')=='direct_official_pdf':
    pdfs=[old['selected']]
   selected=None;method=None
+  mirror=REVIEWED.get(source,{})
+  if mirror.get('company')==r['company'] and mirror.get('published')==r.get('published'):
+   candidate_doc=get(mirror['url'],source)
+   page=(candidate_doc or {}).get('page')
+   if page and title(page.heading)==title(r['service']) and candidate_doc.get('summaryPublished')==r['published']:
+    selected=(mirror['url'],candidate_doc);method='reviewed_official_mirror'
   for candidate in pdfs:
+   if selected:break
    candidate_doc=get(candidate,source)
    text=(candidate_doc or {}).get('summaryText','')
    if candidate_doc and len(normalized(text))>=100 and INCIDENT.search(normalized(text)):
@@ -124,7 +134,7 @@ def markdown(reports,ocr,checked_at):
          'ocr_tools_not_available':'文字起こしの準備待ち','page_limit_requires_review':'ページ数が多いため手動確認が必要','ocr_requires_human_review':'文字起こし済み・原本との目視確認が必要','ocr_read_failed':'文字起こしに失敗'}
  lines=['# 公式資料の取得・再確認','',f'最終実行：{checked_at}','',
         '候補リンクは同じ事故と確認済みではありません。候補の件数は未掲載事故数ではありません。',
-        '自動差し替えは、直接リンクされた公式PDF、または同じ公式サイトの見出し・公表日が一致する資料に限定します。','']
+        '自動差し替えは、直接リンクされた公式PDF、同じ公式サイトの見出し・公表日が一致する資料、または事前確認した同一発表の公式掲載先に限定します。','']
  for entry in reports:
   lines.extend(['## '+entry.get('company','発表元'),'', '* 状態：'+labels.get(entry['state'],entry['state']),'* この資料の確認日時：'+entry.get('lastAttemptAt','未実行'),'* 元の出典：'+entry['source']])
   if entry.get('selected'):lines.append('* 要約に使った公式資料：'+entry['selected'])

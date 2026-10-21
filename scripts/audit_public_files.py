@@ -8,6 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = {'index.html', 'help.html', 'about.html', 'app.js', 'style.css',
           'icon.svg', 'incidents.json', 'service-names.json', 'update-status.json', '_headers', '.nojekyll'}
 PATTERNS = [r'-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----',
+            r'\bAIza[0-9A-Za-z_-]{30,}',
             r'\bgh[pousr]_[A-Za-z0-9]{20,}', r'\bgithub_pat_[A-Za-z0-9_]{20,}',
             r'\bAKIA[A-Z0-9]{16}\b', r'\bsk-[A-Za-z0-9_-]{24,}',
             r'(?i)https?://[^\s/]+:[^\s/]+@',

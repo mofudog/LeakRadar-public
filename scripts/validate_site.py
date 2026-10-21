@@ -23,7 +23,7 @@ for r in records:
   if summary.get('evidenceSource'):
    from source_recovery import permitted
    assert permitted(r['source'],summary['evidenceSource']) and summary['linkedFrom']==r['source']
-   assert summary['evidenceRelation'] in ('direct_official_pdf','same_title_and_date')
+   assert summary['evidenceRelation'] in ('direct_official_pdf','same_title_and_date','reviewed_official_mirror')
   if summary.get('ai'):
    from ai_summary import MODEL,VERSION as AI_VERSION
    assert summary['ai']['provider']=='Gemini' and summary['ai']['model']==MODEL and summary['ai']['version']==AI_VERSION

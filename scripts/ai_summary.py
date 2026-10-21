@@ -9,6 +9,8 @@ from urllib.parse import urlsplit
 
 MODEL='gemini-3.5-flash-lite'
 VERSION='gemini-excerpts-v1'
+DAILY_LIMIT=100
+RUN_LIMIT=5
 KINDS={'audience','items','scale'}
 SCHEMA={'type':'OBJECT','properties':{'passages':{'type':'ARRAY','items':{'type':'OBJECT',
  'properties':{'kind':{'type':'STRING','enum':sorted(KINDS)},'quote':{'type':'STRING'}},
@@ -96,7 +98,7 @@ def run(records,cache,state,checked_at,call=request_summary,env=None):
  now=dt.datetime.fromisoformat(checked_at);timestamp=now.timestamp()
  entries=state.setdefault('entries',{});usage=[t for t in state.get('requestTimes',[]) if isinstance(t,(int,float)) and 0<=timestamp-t<86400]
  state['requestTimes']=usage
- stats={'status':'not_configured','model':MODEL,'requestsThisRun':0,'requestsLast24Hours':len(usage),'cachedSources':0,'acceptedSources':0,'failedSources':0,'deferredSources':0,'lastError':None,'dailySafetyLimit':15,'runSafetyLimit':2}
+ stats={'status':'not_configured','model':MODEL,'requestsThisRun':0,'requestsLast24Hours':len(usage),'cachedSources':0,'acceptedSources':0,'failedSources':0,'deferredSources':0,'lastError':None,'dailySafetyLimit':DAILY_LIMIT,'runSafetyLimit':RUN_LIMIT}
  key=env.get('GEMINI_API_KEY','').strip()
  if not key or env.get('GEMINI_FREE_TIER_CONFIRMED','').lower()!='true':return stats
  stats['status']='active'
@@ -128,7 +130,7 @@ def run(records,cache,state,checked_at,call=request_summary,env=None):
   scheduled.add(source)
  # Oldest attempt first avoids repeatedly retrying only the first listing page.
  for _,source,summary,body,digest,key_id in sorted(pending,key=lambda x:(x[0],x[1])):
-  if paused or len(usage)>=15 or stats['requestsThisRun']>=2:
+  if paused or len(usage)>=DAILY_LIMIT or stats['requestsThisRun']>=RUN_LIMIT:
    stats['deferredSources']+=1;continue
   usage.append(timestamp);stats['requestsThisRun']+=1
   entry={'hash':digest,'version':VERSION,'model':MODEL,'source':source,'attemptedAt':checked_at}
