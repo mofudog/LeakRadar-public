@@ -1,20 +1,16 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-22T22:44:25+00:00",
+  "lastAttemptAt": "2026-10-22T23:34:55+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-22T22:44:25+00:00",
-  "successfulFetches": 283,
-  "failedFetches": 53,
-  "changedReviewedSources": 31,
-  "automaticAnnouncements": 172,
-  "watchedDocumentCount": 280,
+  "lastPartialSuccessAt": "2026-10-22T23:34:55+00:00",
+  "successfulFetches": 277,
+  "failedFetches": 50,
+  "changedReviewedSources": 32,
+  "automaticAnnouncements": 164,
+  "watchedDocumentCount": 272,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
-    {
-      "url": "https://www.sourcenext.com/support/i/2026/1015_info/",
-      "error": "The read operation timed out"
-    },
     {
       "url": "https://www.rideonexpresshd.co.jp/news/2026/10/3-33.html",
       "error": "HTTP Error 503: Service Unavailable"
@@ -116,10 +112,6 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "https://www.asahi-kasei.co.jp/pharma/oshirase_20261006.html",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
       "url": "https://www.nifty.co.jp/newsrelease/nifty202610195434.htm",
       "error": "HTTP Error 403: Forbidden"
     },
@@ -218,10 +210,6 @@
     {
       "url": "https://www.monogatari.co.jp/ir/ir_news/",
       "error": "Source body could not be read"
-    },
-    {
-      "url": "https://www.sourcenext.com/product/photo-keshigomu-privacy/?i=gt_new",
-      "error": "The read operation timed out"
     }
   ],
   "fullyComprehensive": false,
@@ -229,16 +217,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-23",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-22T22:44:25+00:00",
+    "lastAttemptAt": "2026-10-22T23:34:55+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
-    "newsCandidates": 1402,
+    "newsCandidates": 1409,
     "newsArticlesChecked": 70,
-    "deferredNewsArticles": 187,
-    "officialFetches": 86,
-    "confirmedOfficialAnnouncements": 207,
-    "pendingNewsArticles": 723,
+    "deferredNewsArticles": 173,
+    "officialFetches": 46,
+    "confirmedOfficialAnnouncements": 199,
+    "pendingNewsArticles": 730,
     "skippedReviewedArticles": 30,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -281,7 +269,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-22T22:47:22+00:00",
+      "lastAttemptAt": "2026-10-22T23:36:57+00:00",
       "listPagesChecked": 3,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -289,27 +277,27 @@
     }
   },
   "automaticSummaries": {
-    "ready": 33,
-    "partial": 79,
-    "pending": 79,
-    "fetchFailed": 16
+    "ready": 34,
+    "partial": 80,
+    "pending": 69,
+    "fetchFailed": 14
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
     "requestsLast24Hours": 85,
-    "cachedSources": 52,
-    "acceptedSources": 1,
-    "noMatchingSources": 0,
+    "cachedSources": 53,
+    "acceptedSources": 0,
+    "noMatchingSources": 1,
     "failedSources": 4,
-    "deferredSources": 17,
-    "lastError": "irrelevant_count",
+    "deferredSources": 16,
+    "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 2,
+    "fetches": 4,
     "linkedDocuments": 8,
     "matchedAlternatives": 0,
     "pending": 3,
@@ -324,15 +312,15 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 93,
-    "needs_source_lookup": 97,
+    "fetch_failed": 91,
+    "needs_source_lookup": 118,
     "covered": 17,
     "reopened": 6,
-    "needs_review": 313,
+    "needs_review": 315,
     "duplicate": 3,
-    "deferred": 187
+    "deferred": 173
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 696,
-  "deferredNewsCandidates": 187
+  "unresolvedNewsCandidates": 703,
+  "deferredNewsCandidates": 173
 }
