@@ -1,9 +1,9 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-22T04:47:14+00:00",
+  "lastAttemptAt": "2026-10-22T05:45:38+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-22T04:47:14+00:00",
-  "successfulFetches": 264,
+  "lastPartialSuccessAt": "2026-10-22T05:45:38+00:00",
+  "successfulFetches": 265,
   "failedFetches": 58,
   "changedReviewedSources": 29,
   "automaticAnnouncements": 163,
@@ -97,7 +97,7 @@
     },
     {
       "url": "https://www.sagin-dp.jp/news/000097.php",
-      "error": "HTTP Error 403: Forbidden"
+      "error": "HTTP Error 503: Service Temporarily Unavailable"
     },
     {
       "url": "https://sanpofoods.co.jp/news/archives/1658/",
@@ -141,7 +141,7 @@
     },
     {
       "url": "https://www.spoonsports.jp/blog/?p=8274",
-      "error": "<urlopen error timed out>"
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "url": "https://www.lbm.co.jp/news/2026/260109/",
@@ -161,7 +161,7 @@
     },
     {
       "url": "https://www.sagin-dp.jp/news/000094.php",
-      "error": "HTTP Error 403: Forbidden"
+      "error": "HTTP Error 503: Service Temporarily Unavailable"
     },
     {
       "url": "https://www.kind.co.jp/notice-20260828",
@@ -182,10 +182,6 @@
     {
       "url": "https://www.suzuki.co.jp/",
       "error": "Source body could not be read"
-    },
-    {
-      "url": "https://global.yamaha-motor.com/",
-      "error": "HTTP Error 503: Service Temporarily Unavailable"
     },
     {
       "url": "https://www.dip-net.co.jp/",
@@ -242,6 +238,10 @@
     {
       "url": "https://www.charm.co.jp/honten/info/notice/",
       "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://global.yamaha-motor.com/news/",
+      "error": "HTTP Error 503: Service Temporarily Unavailable"
     }
   ],
   "fullyComprehensive": false,
@@ -249,16 +249,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-22",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-22T04:47:14+00:00",
+    "lastAttemptAt": "2026-10-22T05:45:38+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 4,
-    "newsCandidates": 1271,
+    "newsCandidates": 1279,
     "newsArticlesChecked": 70,
-    "deferredNewsArticles": 242,
-    "officialFetches": 89,
+    "deferredNewsArticles": 236,
+    "officialFetches": 100,
     "confirmedOfficialAnnouncements": 198,
-    "pendingNewsArticles": 698,
+    "pendingNewsArticles": 704,
     "skippedReviewedArticles": 30,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -295,7 +295,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-22T04:49:59+00:00",
+      "lastAttemptAt": "2026-10-22T05:48:54+00:00",
       "listPagesChecked": 3,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -323,7 +323,7 @@
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 4,
+    "fetches": 6,
     "linkedDocuments": 6,
     "matchedAlternatives": 0,
     "pending": 3,
@@ -338,15 +338,15 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 106,
+    "fetch_failed": 96,
+    "needs_source_lookup": 65,
     "covered": 17,
     "reopened": 6,
-    "needs_source_lookup": 54,
-    "needs_review": 263,
+    "needs_review": 274,
     "duplicate": 3,
-    "deferred": 242
+    "deferred": 236
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 671,
-  "deferredNewsCandidates": 242
+  "unresolvedNewsCandidates": 677,
+  "deferredNewsCandidates": 236
 }
