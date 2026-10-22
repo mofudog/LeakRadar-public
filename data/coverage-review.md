@@ -1,15 +1,15 @@
 # 収集候補の確認状況
 
-確認日時: 2026-10-21T23:44:29+00:00
+確認日時: 2026-10-22T00:58:43+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
 - 掲載済み: 17件
 - 同一事案の別記事: 3件
 - 掲載対象外: 9件
-- 取得失敗: 113件
+- 取得失敗: 120件
 - 公式発表の発見待ち: 33件
-- 内容確認が必要: 257件
+- 内容確認が必要: 254件
 - 未処理: 248件
 - 再確認が必要: 6件
 
@@ -1097,9 +1097,9 @@
 
 記事の見出し・日付または確認済み資料の状態が変わったため、過去の判断を適用していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nikkei.com/article/DGXZQOUC15AOL0V11C26A0000000/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.sourcenext.com/support/i/2026/1015_1/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jpcert.or.jp/at/2026/at260030.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nikkei.com/article/DGXZQOUC15AOL0V11C26A0000000/>
 
 ### 東洋紡せんいのメールアカウントに不正アクセス、約1,500件の不審メール送信
 
@@ -1286,7 +1286,17 @@
 
 記事の見出し・日付または確認済み資料の状態が変わったため、過去の判断を適用していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.lawson.co.jp/contents/cont07/1533174_3310.html>
+- 取得結果: URLError: <urlopen error _ssl.c:983: The handshake operation timed out> / <https://www.security-next.com/191245>
+
+### システムに不正アクセス、顧客への不審メールで判明 - アバハウス
+
+取得失敗 / 報道・公表日: 2026-10-09
+
+<https://www.security-next.com/190998>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: URLError: <urlopen error _ssl.c:983: The handshake operation timed out> / <https://www.security-next.com/190998>
 
 ### 当社ウェブサイトへの一部不正アクセスによる 個人情報漏洩に関するお詫びとご報告
 
@@ -1300,34 +1310,43 @@
 
 ### 医療関係者向け情報サイトで会員情報流出の可能性 - 旭化成グループ会社
 
-内容確認が必要 / 報道・公表日: 2026-10-08
+取得失敗 / 報道・公表日: 2026-10-08
 
 <https://www.security-next.com/191148>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.asahi-kasei.co.jp/pharma/>
+- 取得結果: URLError: <urlopen error _ssl.c:983: The handshake operation timed out> / <https://www.security-next.com/191148>
 
 ### 関係者の個人情報や口座情報が流出の可能性 - 修道学園
 
-内容確認が必要 / 報道・公表日: 2026-10-08
+取得失敗 / 報道・公表日: 2026-10-08
 
 <https://www.security-next.com/190905>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.shudo-u.ac.jp/gakuen/>
+- 取得結果: URLError: <urlopen error _ssl.c:983: The handshake operation timed out> / <https://www.security-next.com/190905>
 
 ### 相次ぐ情報流出被害、攻撃手法は多様 - 思わぬ「API」も
 
-内容確認が必要 / 報道・公表日: 2026-10-08
+取得失敗 / 報道・公表日: 2026-10-08
 
 <https://www.security-next.com/191213>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jpcert.or.jp/wr/2026/wr261021.html#22>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jpcert.or.jp/at/2026/at260030.html>
+- 取得結果: URLError: <urlopen error _ssl.c:983: The handshake operation timed out> / <https://www.security-next.com/191213>
+
+### タイ子会社に不正アクセス、パスポート情報流出の可能性 - HIS
+
+取得失敗 / 報道・公表日: 2026-10-08
+
+<https://www.security-next.com/191188>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: URLError: <urlopen error _ssl.c:983: The handshake operation timed out> / <https://www.security-next.com/191188>
 
 ### 関西国際大に不正アクセス、学生の記録などが外部流出か　授業や手続きにも支障
 
@@ -1337,8 +1356,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.kuins.ac.jp/news/2026/09/post_1448.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.kuins.ac.jp/news/2026/10/post_1450.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.kuins.ac.jp/news/2026/09/post_1448.html>
 
 ### 1億件超えの「楽天会員」情報が闇フォーラムで販売？　楽天「漏えいは確認されていない」
 
@@ -1456,6 +1475,26 @@
 
 - 取得結果: ValueError: PDF metadata needs review: publisher=False, date=False, title=True / <https://eneken.ieej.or.jp/press/press261002.pdf>
 
+### グッズ作成サービス、クレカ情報含む個人情報流出の可能性
+
+取得失敗 / 報道・公表日: 2026-10-01
+
+<https://www.security-next.com/190511>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: URLError: <urlopen error _ssl.c:983: The handshake operation timed out> / <https://www.security-next.com/190511>
+
+### チケット販売「イープラス」、払戻し申請した顧客顧客の個人情報が流出
+
+取得失敗 / 報道・公表日: 2026-09-30
+
+<https://www.security-next.com/190837>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: URLError: <urlopen error _ssl.c:983: The handshake operation timed out> / <https://www.security-next.com/190837>
+
 ### 2支店で顧客情報記載の書類が所在不明 - 青森みちのく銀
 
 取得失敗 / 報道・公表日: 2026-09-30
@@ -1464,7 +1503,7 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: TimeoutError: The read operation timed out / <https://www.am-bk.co.jp/>
+- 取得結果: URLError: <urlopen error _ssl.c:983: The handshake operation timed out> / <https://www.security-next.com/190648>
 
 ### チケット販売サイト「イープラス」に不正アクセス、個人情報1463件漏えい　口座情報や住所なども一部流出
 

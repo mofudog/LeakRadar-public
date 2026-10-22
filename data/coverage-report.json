@@ -1,19 +1,19 @@
 {
-  "checkedAt": "2026-10-21T23:44:29+00:00",
+  "checkedAt": "2026-10-22T00:58:43+00:00",
   "fullyComprehensive": false,
   "completeHistoricalBackfill": false,
   "retentionStart": "2023-10-22",
   "discovery": {
-    "lastAttemptAt": "2026-10-21T23:44:29+00:00",
+    "lastAttemptAt": "2026-10-22T00:58:43+00:00",
     "feedCount": 9,
-    "successfulFeeds": 8,
-    "successfulArchivePages": 4,
+    "successfulFeeds": 7,
+    "successfulArchivePages": 0,
     "newsCandidates": 1232,
-    "newsArticlesChecked": 56,
+    "newsArticlesChecked": 6,
     "deferredNewsArticles": 248,
-    "officialFetches": 100,
+    "officialFetches": 10,
     "confirmedOfficialAnnouncements": 197,
-    "pendingNewsArticles": 684,
+    "pendingNewsArticles": 688,
     "skippedReviewedArticles": 30,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -49,7 +49,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-21T23:47:34+00:00",
+      "lastAttemptAt": "2026-10-22T01:02:58+00:00",
       "listPagesChecked": 3,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -58,8 +58,28 @@
   },
   "sourceErrors": [
     {
+      "url": "https://www.security-next.com/feed",
+      "error": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
+    },
+    {
       "url": "https://scan.netsecurity.ne.jp/rss20/index.rdf",
       "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.security-next.com/date/2026/10",
+      "error": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
+    },
+    {
+      "url": "https://www.security-next.com/date/2024/04/page/7",
+      "error": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
+    },
+    {
+      "url": "https://www.security-next.com/date/2024/04/page/10",
+      "error": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
+    },
+    {
+      "url": "https://www.security-next.com/date/2024/04/page/8",
+      "error": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
     },
     {
       "url": "https://scan.netsecurity.ne.jp/article/2026/10/19/56484.html",
@@ -74,48 +94,44 @@
       "error": "HTTPError: HTTP Error 503: Service Unavailable"
     },
     {
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/13/56434.html",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/15/56462.html",
       "error": "HTTPError: HTTP Error 503: Service Unavailable"
     },
     {
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56530.html",
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      "url": "https://www.security-next.com/191245",
+      "error": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
     },
     {
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56528.html",
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      "url": "https://www.security-next.com/190998",
+      "error": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
     },
     {
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56527.html",
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      "url": "https://www.security-next.com/191148",
+      "error": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
     },
     {
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56526.html",
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      "url": "https://www.security-next.com/190905",
+      "error": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
     },
     {
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56525.html",
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      "url": "https://www.security-next.com/191213",
+      "error": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
     },
     {
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56521.html",
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      "url": "https://www.security-next.com/191188",
+      "error": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
     },
     {
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56518.html",
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      "url": "https://www.security-next.com/190511",
+      "error": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
     },
     {
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/16/56482.html",
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      "url": "https://www.security-next.com/190837",
+      "error": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
     },
     {
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/16/56481.html",
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
-    },
-    {
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/16/56478.html",
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      "url": "https://www.security-next.com/190648",
+      "error": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
     },
     {
       "url": "https://global.yamaha-motor.com/jp/news/2026/1012/leakage.html",
@@ -123,7 +139,7 @@
     },
     {
       "url": "https://www.dip-net.co.jp/news/2192",
-      "error": "HTTP Error 403: Forbidden"
+      "error": "HTTP Error 503: Service Temporarily Unavailable"
     },
     {
       "url": "https://www.resorttrust.co.jp/wp_api/wp-content/uploads/2026/10/20261009.pdf",
@@ -170,6 +186,10 @@
       "error": "HTTP Error 503: Service Unavailable"
     },
     {
+      "url": "https://www.security-next.com/191572",
+      "error": "<urlopen error timed out>"
+    },
+    {
       "url": "https://scan.netsecurity.ne.jp/article/2026/10/16/56474.html",
       "error": "HTTP Error 503: Service Unavailable"
     },
@@ -198,24 +218,8 @@
       "error": "HTTP Error 502: Bad Gateway"
     },
     {
-      "url": "https://www.innovation.co.jp/2026/08/github%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E8%A9%B3%E7%B4%B0%E8%AA%BF%E6%9F%BB%E3%81%AE%E5%AE%8C%E4%BA%86%E3%81%8A%E3%82%88/",
-      "error": "HTTP Error 503: Service Temporarily Unavailable"
-    },
-    {
       "url": "https://binc.jp/press-room/news/notice/news_20261016",
       "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "url": "https://www.innovation.co.jp/2026/06/%e9%80%80%e4%bc%9a%e6%b8%88%e3%81%bf%e4%bc%9a%e5%93%a1%e6%a7%98%e3%81%b8%e3%81%ae%e3%83%a1%e3%83%bc%e3%83%ab%e8%aa%a4%e9%80%81%e4%bf%a1%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e3%81%8a%e8%a9%ab%e3%81%b3/",
-      "error": "HTTP Error 503: Service Temporarily Unavailable"
-    },
-    {
-      "url": "https://www.innovation.co.jp/2026/08/%e3%80%8egithub%e3%80%8f%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e7%99%ba%e7%94%9f%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%e3%81%a8/",
-      "error": "HTTP Error 503: Service Temporarily Unavailable"
-    },
-    {
-      "url": "https://www.innovation.co.jp/2026/08/github%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e8%a9%b3%e7%b4%b0%e8%aa%bf%e6%9f%bb%e3%81%ae%e5%ae%8c%e4%ba%86%e3%81%8a%e3%82%88/",
-      "error": "HTTP Error 503: Service Temporarily Unavailable"
     },
     {
       "url": "https://www.sagin-dp.jp/news/000097.php",
@@ -243,7 +247,7 @@
     },
     {
       "url": "https://2nd-rtl.com/news/82023",
-      "error": "HTTP Error 503: Service Unavailable"
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
@@ -259,15 +263,7 @@
     },
     {
       "url": "https://2nd-rtl.com/news/82032/",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "url": "https://www.anatc.com/pressroom/20260904_01/",
-      "error": "Redirect to an unregistered host"
-    },
-    {
-      "url": "https://www.nidek.co.jp/news/20260807-news/",
-      "error": "HTTP Error 502: Bad Gateway"
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://jgc-digital.com/topics/topics-3049/",
@@ -278,8 +274,16 @@
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.media4u.co.jp'. (_ssl.c:1000)>"
     },
     {
+      "url": "https://www.active-pro.jp/news/4303/",
+      "error": "Only public HTTPS sources are allowed"
+    },
+    {
       "url": "https://www.sagin-dp.jp/news/000094.php",
       "error": "<urlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "url": "https://gakken-meds.jp/post/news/20260804/",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "url": "https://www.kind.co.jp/notice-20260828",
@@ -302,12 +306,8 @@
       "error": "Source body could not be read"
     },
     {
-      "url": "https://global.yamaha-motor.com/",
-      "error": "HTTP Error 503: Service Temporarily Unavailable"
-    },
-    {
       "url": "https://www.dip-net.co.jp/",
-      "error": "HTTP Error 403: Forbidden"
+      "error": "HTTP Error 503: Service Temporarily Unavailable"
     },
     {
       "url": "https://jp.adventurekk.com/",
@@ -354,6 +354,10 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "url": "https://global.yamaha-motor.com/news/",
+      "error": "HTTP Error 503: Service Temporarily Unavailable"
+    },
+    {
       "url": "https://www.dkkaraoke.co.jp/stockinfo/irnews/index.html",
       "error": "Only public HTTPS sources are allowed"
     },
@@ -364,11 +368,11 @@
   ],
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 113,
+    "fetch_failed": 120,
     "covered": 17,
     "reopened": 6,
     "needs_source_lookup": 33,
-    "needs_review": 257,
+    "needs_review": 254,
     "duplicate": 3,
     "deferred": 248
   },
@@ -590,7 +594,7 @@
       "reportedDate": "2026-10-16",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-10-21T20:48:19+00:00",
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
       "attempts": 5,
       "reasons": [
         {
@@ -634,7 +638,7 @@
       "reportedDate": "2026-10-16",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-10-21T20:48:19+00:00",
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
       "attempts": 5,
       "reasons": [
         {
@@ -718,8 +722,8 @@
       "reportedDate": "2026-10-15",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-10-21T20:48:19+00:00",
-      "attempts": 7,
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 8,
       "reasons": [
         {
           "url": "https://scan.netsecurity.ne.jp/article/2026/10/15/56462.html",
@@ -802,8 +806,8 @@
       "reportedDate": "2026-10-15",
       "publisher": "ITmedia エンタープライズ",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-10-21T20:48:19+00:00",
-      "attempts": 46,
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 47,
       "reasons": [
         {
           "url": "https://www.npa.go.jp/publications/statistics/cybersecurity/data/R7kami/R07_kami_cyber_jyosei.pdf",
@@ -1081,15 +1085,15 @@
       "reportedDate": "2026-10-07",
       "publisher": "ITmedia NEWS セキュリティ",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-10-21T20:48:19+00:00",
-      "attempts": 44,
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 45,
       "reasons": [
         {
-          "url": "https://www.kuins.ac.jp/news/2026/09/post_1448.html",
+          "url": "https://www.kuins.ac.jp/news/2026/10/post_1450.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.kuins.ac.jp/news/2026/10/post_1450.html",
+          "url": "https://www.kuins.ac.jp/news/2026/09/post_1448.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
@@ -1487,8 +1491,8 @@
       "reportedDate": "2026-10-16",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-10-21T20:48:19+00:00",
-      "attempts": 44,
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 45,
       "reasons": [
         {
           "url": "https://www.sourcenext.com/support/i/2026/1015_1/",
@@ -1552,6 +1556,24 @@
       "recordIds": [
         "medley-atlink-20261016"
       ]
+    },
+    {
+      "newsSource": "https://www.security-next.com/190837",
+      "title": "チケット販売「イープラス」、払戻し申請した顧客顧客の個人情報が流出",
+      "reportedDate": "2026-09-30",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-16T23:15:06+00:00",
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 44,
+      "reasons": [
+        {
+          "url": "https://www.security-next.com/190837",
+          "reason": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
+        }
+      ],
+      "classification": "fetch_failed",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
     },
     {
       "newsSource": "https://www.security-next.com/190798",
@@ -1815,19 +1837,19 @@
       "reportedDate": "2026-10-16",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-10-16T23:40:35+00:00",
-      "lastCheckedAt": "2026-10-21T20:48:19+00:00",
-      "attempts": 40,
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 41,
       "reasons": [
-        {
-          "url": "https://www.nikkei.com/article/DGXZQOUC15AOL0V11C26A0000000/",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
-        },
         {
           "url": "https://www.sourcenext.com/support/i/2026/1015_1/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
           "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
+        {
+          "url": "https://www.nikkei.com/article/DGXZQOUC15AOL0V11C26A0000000/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
@@ -2040,12 +2062,12 @@
       "reportedDate": "2026-09-30",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:40:35+00:00",
-      "lastCheckedAt": "2026-10-21T20:48:19+00:00",
-      "attempts": 41,
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 42,
       "reasons": [
         {
-          "url": "https://www.am-bk.co.jp/",
-          "reason": "TimeoutError: The read operation timed out"
+          "url": "https://www.security-next.com/190648",
+          "reason": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
         }
       ],
       "classification": "fetch_failed",
@@ -2058,12 +2080,12 @@
       "reportedDate": "2026-10-09",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:46:24+00:00",
-      "lastCheckedAt": "2026-10-21T20:48:19+00:00",
-      "attempts": 14,
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 15,
       "reasons": [
         {
-          "url": "https://www.lawson.co.jp/contents/cont07/1533174_3310.html",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+          "url": "https://www.security-next.com/191245",
+          "reason": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
         }
       ],
       "classification": "reopened",
@@ -2074,20 +2096,38 @@
       ]
     },
     {
+      "newsSource": "https://www.security-next.com/190998",
+      "title": "システムに不正アクセス、顧客への不審メールで判明 - アバハウス",
+      "reportedDate": "2026-10-09",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-16T23:46:24+00:00",
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 43,
+      "reasons": [
+        {
+          "url": "https://www.security-next.com/190998",
+          "reason": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
+        }
+      ],
+      "classification": "fetch_failed",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
       "newsSource": "https://www.security-next.com/191148",
       "title": "医療関係者向け情報サイトで会員情報流出の可能性 - 旭化成グループ会社",
       "reportedDate": "2026-10-08",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:46:24+00:00",
-      "lastCheckedAt": "2026-10-21T20:48:19+00:00",
-      "attempts": 42,
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 43,
       "reasons": [
         {
-          "url": "https://www.asahi-kasei.co.jp/pharma/",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+          "url": "https://www.security-next.com/191148",
+          "reason": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
         }
       ],
-      "classification": "needs_review",
+      "classification": "fetch_failed",
       "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
       "recordIds": []
     },
@@ -2097,15 +2137,15 @@
       "reportedDate": "2026-10-08",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:46:24+00:00",
-      "lastCheckedAt": "2026-10-21T20:48:19+00:00",
-      "attempts": 42,
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 43,
       "reasons": [
         {
-          "url": "https://www.shudo-u.ac.jp/gakuen/",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+          "url": "https://www.security-next.com/190905",
+          "reason": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
         }
       ],
-      "classification": "needs_review",
+      "classification": "fetch_failed",
       "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
       "recordIds": []
     },
@@ -2115,19 +2155,33 @@
       "reportedDate": "2026-10-08",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:46:24+00:00",
-      "lastCheckedAt": "2026-10-21T20:48:19+00:00",
-      "attempts": 42,
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 43,
       "reasons": [
         {
-          "url": "https://www.jpcert.or.jp/wr/2026/wr261021.html#22",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
-        },
-        {
-          "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+          "url": "https://www.security-next.com/191213",
+          "reason": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
         }
       ],
-      "classification": "needs_review",
+      "classification": "fetch_failed",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
+      "newsSource": "https://www.security-next.com/191188",
+      "title": "タイ子会社に不正アクセス、パスポート情報流出の可能性 - HIS",
+      "reportedDate": "2026-10-08",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-16T23:46:24+00:00",
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 43,
+      "reasons": [
+        {
+          "url": "https://www.security-next.com/191188",
+          "reason": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
+        }
+      ],
+      "classification": "fetch_failed",
       "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
       "recordIds": []
     },
@@ -2243,6 +2297,24 @@
         {
           "url": "https://www.shueisha.co.jp/",
           "reason": "HTTPError: HTTP Error 503: Service Temporarily Unavailable"
+        }
+      ],
+      "classification": "fetch_failed",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
+      "newsSource": "https://www.security-next.com/190511",
+      "title": "グッズ作成サービス、クレカ情報含む個人情報流出の可能性",
+      "reportedDate": "2026-10-01",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-17T01:19:47+00:00",
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 41,
+      "reasons": [
+        {
+          "url": "https://www.security-next.com/190511",
+          "reason": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
         }
       ],
       "classification": "fetch_failed",
@@ -5991,8 +6063,8 @@
       "reportedDate": "2026-10-19",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-10-21T23:44:29+00:00",
-      "attempts": 25,
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 26,
       "reasons": [
         {
           "url": "https://scan.netsecurity.ne.jp/article/2026/10/19/56484.html",
@@ -6675,7 +6747,7 @@
       "newsSource": "https://www.itmedia.co.jp/news/article/2610/19/2000002390/",
       "title": "情報漏えい「経験あり」は企業の16.2％、「発生したか分からない」の声も──帝国データバンク調査",
       "reportedDate": "2026-10-19",
-      "publisher": "ITmedia NEWS 全新着",
+      "publisher": "ITmedia NEWS セキュリティ",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
       "lastCheckedAt": "2026-10-21T21:48:33+00:00",
       "attempts": 15,
@@ -8295,8 +8367,8 @@
       "reportedDate": "2026-10-21",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-20T23:42:04+00:00",
-      "lastCheckedAt": "2026-10-21T23:44:29+00:00",
-      "attempts": 17,
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 18,
       "reasons": [
         {
           "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56523.html",
@@ -8313,8 +8385,8 @@
       "reportedDate": "2026-10-21",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-20T23:42:04+00:00",
-      "lastCheckedAt": "2026-10-21T23:44:29+00:00",
-      "attempts": 17,
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 18,
       "reasons": [
         {
           "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56522.html",
@@ -13637,7 +13709,7 @@
       "reportedDate": "2026-10-09",
       "publisher": "TDnet",
       "firstSeenAt": "2026-10-16T23:45:02+00:00",
-      "lastCheckedAt": "2026-10-21T22:48:32+00:00",
+      "lastCheckedAt": "2026-10-22T01:02:58+00:00",
       "reasons": [
         {
           "url": "https://www.release.tdnet.info/inbs/140120261009548970.pdf",
@@ -13763,7 +13835,7 @@
       "reportedDate": "2026-10-16",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-10-21T20:48:19+00:00",
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
       "attempts": 5,
       "reasons": [
         {
@@ -13785,7 +13857,7 @@
       "reportedDate": "2026-10-16",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-10-21T20:48:19+00:00",
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
       "attempts": 5,
       "reasons": [
         {
@@ -13821,8 +13893,8 @@
       "reportedDate": "2026-10-15",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-10-21T20:48:19+00:00",
-      "attempts": 7,
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 8,
       "reasons": [
         {
           "url": "https://scan.netsecurity.ne.jp/article/2026/10/15/56462.html",
@@ -13857,8 +13929,8 @@
       "reportedDate": "2026-10-15",
       "publisher": "ITmedia エンタープライズ",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-10-21T20:48:19+00:00",
-      "attempts": 46,
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 47,
       "reasons": [
         {
           "url": "https://www.npa.go.jp/publications/statistics/cybersecurity/data/R7kami/R07_kami_cyber_jyosei.pdf",
@@ -13986,15 +14058,15 @@
       "reportedDate": "2026-10-07",
       "publisher": "ITmedia NEWS セキュリティ",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-10-21T20:48:19+00:00",
-      "attempts": 44,
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 45,
       "reasons": [
         {
-          "url": "https://www.kuins.ac.jp/news/2026/09/post_1448.html",
+          "url": "https://www.kuins.ac.jp/news/2026/10/post_1450.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.kuins.ac.jp/news/2026/10/post_1450.html",
+          "url": "https://www.kuins.ac.jp/news/2026/09/post_1448.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
@@ -14198,8 +14270,8 @@
       "reportedDate": "2026-10-16",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-10-21T20:48:19+00:00",
-      "attempts": 44,
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 45,
       "reasons": [
         {
           "url": "https://www.sourcenext.com/support/i/2026/1015_1/",
@@ -14235,6 +14307,24 @@
       "recordIds": [
         "medley-atlink-20261016"
       ]
+    },
+    {
+      "newsSource": "https://www.security-next.com/190837",
+      "title": "チケット販売「イープラス」、払戻し申請した顧客顧客の個人情報が流出",
+      "reportedDate": "2026-09-30",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-16T23:15:06+00:00",
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 44,
+      "reasons": [
+        {
+          "url": "https://www.security-next.com/190837",
+          "reason": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
+        }
+      ],
+      "classification": "fetch_failed",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
     },
     {
       "newsSource": "https://www.security-next.com/190798",
@@ -14418,19 +14508,19 @@
       "reportedDate": "2026-10-16",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-10-16T23:40:35+00:00",
-      "lastCheckedAt": "2026-10-21T20:48:19+00:00",
-      "attempts": 40,
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 41,
       "reasons": [
-        {
-          "url": "https://www.nikkei.com/article/DGXZQOUC15AOL0V11C26A0000000/",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
-        },
         {
           "url": "https://www.sourcenext.com/support/i/2026/1015_1/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
           "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
+        {
+          "url": "https://www.nikkei.com/article/DGXZQOUC15AOL0V11C26A0000000/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
@@ -14574,12 +14664,12 @@
       "reportedDate": "2026-09-30",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:40:35+00:00",
-      "lastCheckedAt": "2026-10-21T20:48:19+00:00",
-      "attempts": 41,
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 42,
       "reasons": [
         {
-          "url": "https://www.am-bk.co.jp/",
-          "reason": "TimeoutError: The read operation timed out"
+          "url": "https://www.security-next.com/190648",
+          "reason": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
         }
       ],
       "classification": "fetch_failed",
@@ -14592,12 +14682,12 @@
       "reportedDate": "2026-10-09",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:46:24+00:00",
-      "lastCheckedAt": "2026-10-21T20:48:19+00:00",
-      "attempts": 14,
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 15,
       "reasons": [
         {
-          "url": "https://www.lawson.co.jp/contents/cont07/1533174_3310.html",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+          "url": "https://www.security-next.com/191245",
+          "reason": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
         }
       ],
       "classification": "reopened",
@@ -14608,20 +14698,38 @@
       ]
     },
     {
+      "newsSource": "https://www.security-next.com/190998",
+      "title": "システムに不正アクセス、顧客への不審メールで判明 - アバハウス",
+      "reportedDate": "2026-10-09",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-16T23:46:24+00:00",
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 43,
+      "reasons": [
+        {
+          "url": "https://www.security-next.com/190998",
+          "reason": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
+        }
+      ],
+      "classification": "fetch_failed",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
       "newsSource": "https://www.security-next.com/191148",
       "title": "医療関係者向け情報サイトで会員情報流出の可能性 - 旭化成グループ会社",
       "reportedDate": "2026-10-08",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:46:24+00:00",
-      "lastCheckedAt": "2026-10-21T20:48:19+00:00",
-      "attempts": 42,
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 43,
       "reasons": [
         {
-          "url": "https://www.asahi-kasei.co.jp/pharma/",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+          "url": "https://www.security-next.com/191148",
+          "reason": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
         }
       ],
-      "classification": "needs_review",
+      "classification": "fetch_failed",
       "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
       "recordIds": []
     },
@@ -14631,15 +14739,15 @@
       "reportedDate": "2026-10-08",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:46:24+00:00",
-      "lastCheckedAt": "2026-10-21T20:48:19+00:00",
-      "attempts": 42,
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 43,
       "reasons": [
         {
-          "url": "https://www.shudo-u.ac.jp/gakuen/",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+          "url": "https://www.security-next.com/190905",
+          "reason": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
         }
       ],
-      "classification": "needs_review",
+      "classification": "fetch_failed",
       "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
       "recordIds": []
     },
@@ -14649,19 +14757,33 @@
       "reportedDate": "2026-10-08",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:46:24+00:00",
-      "lastCheckedAt": "2026-10-21T20:48:19+00:00",
-      "attempts": 42,
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 43,
       "reasons": [
         {
-          "url": "https://www.jpcert.or.jp/wr/2026/wr261021.html#22",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
-        },
-        {
-          "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+          "url": "https://www.security-next.com/191213",
+          "reason": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
         }
       ],
-      "classification": "needs_review",
+      "classification": "fetch_failed",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
+      "newsSource": "https://www.security-next.com/191188",
+      "title": "タイ子会社に不正アクセス、パスポート情報流出の可能性 - HIS",
+      "reportedDate": "2026-10-08",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-16T23:46:24+00:00",
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 43,
+      "reasons": [
+        {
+          "url": "https://www.security-next.com/191188",
+          "reason": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
+        }
+      ],
+      "classification": "fetch_failed",
       "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
       "recordIds": []
     },
@@ -14749,6 +14871,24 @@
         {
           "url": "https://www.shueisha.co.jp/",
           "reason": "HTTPError: HTTP Error 503: Service Temporarily Unavailable"
+        }
+      ],
+      "classification": "fetch_failed",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
+      "newsSource": "https://www.security-next.com/190511",
+      "title": "グッズ作成サービス、クレカ情報含む個人情報流出の可能性",
+      "reportedDate": "2026-10-01",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-17T01:19:47+00:00",
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 41,
+      "reasons": [
+        {
+          "url": "https://www.security-next.com/190511",
+          "reason": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
         }
       ],
       "classification": "fetch_failed",
@@ -18497,8 +18637,8 @@
       "reportedDate": "2026-10-19",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-10-21T23:44:29+00:00",
-      "attempts": 25,
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 26,
       "reasons": [
         {
           "url": "https://scan.netsecurity.ne.jp/article/2026/10/19/56484.html",
@@ -19181,7 +19321,7 @@
       "newsSource": "https://www.itmedia.co.jp/news/article/2610/19/2000002390/",
       "title": "情報漏えい「経験あり」は企業の16.2％、「発生したか分からない」の声も──帝国データバンク調査",
       "reportedDate": "2026-10-19",
-      "publisher": "ITmedia NEWS 全新着",
+      "publisher": "ITmedia NEWS セキュリティ",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
       "lastCheckedAt": "2026-10-21T21:48:33+00:00",
       "attempts": 15,
@@ -20801,8 +20941,8 @@
       "reportedDate": "2026-10-21",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-20T23:42:04+00:00",
-      "lastCheckedAt": "2026-10-21T23:44:29+00:00",
-      "attempts": 17,
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 18,
       "reasons": [
         {
           "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56523.html",
@@ -20819,8 +20959,8 @@
       "reportedDate": "2026-10-21",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-20T23:42:04+00:00",
-      "lastCheckedAt": "2026-10-21T23:44:29+00:00",
-      "attempts": 17,
+      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
+      "attempts": 18,
       "reasons": [
         {
           "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56522.html",
@@ -26143,7 +26283,7 @@
       "reportedDate": "2026-10-09",
       "publisher": "TDnet",
       "firstSeenAt": "2026-10-16T23:45:02+00:00",
-      "lastCheckedAt": "2026-10-21T22:48:32+00:00",
+      "lastCheckedAt": "2026-10-22T01:02:58+00:00",
       "reasons": [
         {
           "url": "https://www.release.tdnet.info/inbs/140120261009548970.pdf",
