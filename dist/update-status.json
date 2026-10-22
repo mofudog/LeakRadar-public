@@ -1,16 +1,20 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-22T21:45:31+00:00",
+  "lastAttemptAt": "2026-10-22T22:44:25+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-22T21:45:31+00:00",
-  "successfulFetches": 284,
-  "failedFetches": 51,
-  "changedReviewedSources": 32,
+  "lastPartialSuccessAt": "2026-10-22T22:44:25+00:00",
+  "successfulFetches": 283,
+  "failedFetches": 53,
+  "changedReviewedSources": 31,
   "automaticAnnouncements": 172,
   "watchedDocumentCount": 280,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
+    {
+      "url": "https://www.sourcenext.com/support/i/2026/1015_info/",
+      "error": "The read operation timed out"
+    },
     {
       "url": "https://www.rideonexpresshd.co.jp/news/2026/10/3-33.html",
       "error": "HTTP Error 503: Service Unavailable"
@@ -214,6 +218,10 @@
     {
       "url": "https://www.monogatari.co.jp/ir/ir_news/",
       "error": "Source body could not be read"
+    },
+    {
+      "url": "https://www.sourcenext.com/product/photo-keshigomu-privacy/?i=gt_new",
+      "error": "The read operation timed out"
     }
   ],
   "fullyComprehensive": false,
@@ -221,16 +229,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-23",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-22T21:45:31+00:00",
+    "lastAttemptAt": "2026-10-22T22:44:25+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
-    "successfulArchivePages": 4,
+    "successfulArchivePages": 1,
     "newsCandidates": 1402,
     "newsArticlesChecked": 70,
-    "deferredNewsArticles": 201,
-    "officialFetches": 82,
+    "deferredNewsArticles": 187,
+    "officialFetches": 86,
     "confirmedOfficialAnnouncements": 207,
-    "pendingNewsArticles": 727,
+    "pendingNewsArticles": 723,
     "skippedReviewedArticles": 30,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -273,7 +281,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-22T21:48:20+00:00",
+      "lastAttemptAt": "2026-10-22T22:47:22+00:00",
       "listPagesChecked": 3,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -282,9 +290,9 @@
   },
   "automaticSummaries": {
     "ready": 33,
-    "partial": 80,
-    "pending": 78,
-    "fetchFailed": 15
+    "partial": 79,
+    "pending": 79,
+    "fetchFailed": 16
   },
   "aiSummary": {
     "status": "active",
@@ -292,16 +300,16 @@
     "requestsThisRun": 5,
     "requestsLast24Hours": 85,
     "cachedSources": 52,
-    "acceptedSources": 0,
+    "acceptedSources": 1,
     "noMatchingSources": 0,
-    "failedSources": 5,
-    "deferredSources": 20,
-    "lastError": "irrelevant_output",
+    "failedSources": 4,
+    "deferredSources": 17,
+    "lastError": "irrelevant_count",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 3,
+    "fetches": 2,
     "linkedDocuments": 8,
     "matchedAlternatives": 0,
     "pending": 3,
@@ -317,14 +325,14 @@
   "candidateTriageCounts": {
     "out_of_scope": 9,
     "fetch_failed": 93,
-    "needs_source_lookup": 88,
+    "needs_source_lookup": 97,
     "covered": 17,
     "reopened": 6,
-    "needs_review": 312,
+    "needs_review": 313,
     "duplicate": 3,
-    "deferred": 201
+    "deferred": 187
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 700,
-  "deferredNewsCandidates": 201
+  "unresolvedNewsCandidates": 696,
+  "deferredNewsCandidates": 187
 }
