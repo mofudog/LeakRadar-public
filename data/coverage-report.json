@@ -1,19 +1,19 @@
 {
-  "checkedAt": "2026-10-22T00:58:43+00:00",
+  "checkedAt": "2026-10-22T01:47:44+00:00",
   "fullyComprehensive": false,
   "completeHistoricalBackfill": false,
   "retentionStart": "2023-10-22",
   "discovery": {
-    "lastAttemptAt": "2026-10-22T00:58:43+00:00",
+    "lastAttemptAt": "2026-10-22T01:47:44+00:00",
     "feedCount": 9,
     "successfulFeeds": 7,
     "successfulArchivePages": 0,
-    "newsCandidates": 1232,
-    "newsArticlesChecked": 6,
+    "newsCandidates": 1233,
+    "newsArticlesChecked": 1,
     "deferredNewsArticles": 248,
-    "officialFetches": 10,
+    "officialFetches": 2,
     "confirmedOfficialAnnouncements": 197,
-    "pendingNewsArticles": 688,
+    "pendingNewsArticles": 689,
     "skippedReviewedArticles": 30,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -49,7 +49,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-22T01:02:58+00:00",
+      "lastAttemptAt": "2026-10-22T01:51:56+00:00",
       "listPagesChecked": 3,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -91,10 +91,6 @@
     },
     {
       "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56522.html",
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
-    },
-    {
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/15/56462.html",
       "error": "HTTPError: HTTP Error 503: Service Unavailable"
     },
     {
@@ -150,6 +146,10 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "url": "https://www.dkkaraoke.co.jp/news/newsletter/261008_2.html",
+      "error": "HTTP Error 503: Service Temporarily Unavailable"
+    },
+    {
       "url": "https://support.rakuten-drive.com/hc/ja/articles/62934949147929",
       "error": "HTTP Error 403: Forbidden"
     },
@@ -187,7 +187,7 @@
     },
     {
       "url": "https://www.security-next.com/191572",
-      "error": "<urlopen error timed out>"
+      "error": "<urlopen error _ssl.c:983: The handshake operation timed out>"
     },
     {
       "url": "https://scan.netsecurity.ne.jp/article/2026/10/16/56474.html",
@@ -208,6 +208,10 @@
     {
       "url": "https://lean-body.co.jp/news/JlBWMCs7",
       "error": "Source body could not be read"
+    },
+    {
+      "url": "https://www.hands-holdings.co.jp/news/news20260825/",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "url": "https://support-qa.eplus.jp/hc/ja/articles/62711500727961-%E5%BC%8A%E7%A4%BE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AE%E7%99%BA-%E3%81%8A%E3%82%88%E3%81%B3%E5%80%8B-%E6%83%85%E5%A0%B1-%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
@@ -266,6 +270,14 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "url": "https://www.spoonsports.jp/blog/?p=8274",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "url": "https://www.lbm.co.jp/news/2026/260109/",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
       "url": "https://jgc-digital.com/topics/topics-3049/",
       "error": "HTTP Error 503: Service Unavailable"
     },
@@ -276,6 +288,10 @@
     {
       "url": "https://www.active-pro.jp/news/4303/",
       "error": "Only public HTTPS sources are allowed"
+    },
+    {
+      "url": "https://ainokaze.co.jp/24166",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "url": "https://www.sagin-dp.jp/news/000094.php",
@@ -322,6 +338,10 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "url": "https://www.dkkaraoke.co.jp/",
+      "error": "HTTP Error 503: Service Temporarily Unavailable"
+    },
+    {
       "url": "https://support.rakuten-drive.com/",
       "error": "HTTP Error 403: Forbidden"
     },
@@ -358,17 +378,13 @@
       "error": "HTTP Error 503: Service Temporarily Unavailable"
     },
     {
-      "url": "https://www.dkkaraoke.co.jp/stockinfo/irnews/index.html",
-      "error": "Only public HTTPS sources are allowed"
-    },
-    {
       "url": "https://www.monogatari.co.jp/ir/ir_news/",
       "error": "Source body could not be read"
     }
   ],
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 120,
+    "fetch_failed": 121,
     "covered": 17,
     "reopened": 6,
     "needs_source_lookup": 33,
@@ -1563,8 +1579,8 @@
       "reportedDate": "2026-09-30",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
-      "attempts": 44,
+      "lastCheckedAt": "2026-10-22T01:47:44+00:00",
+      "attempts": 45,
       "reasons": [
         {
           "url": "https://www.security-next.com/190837",
@@ -2062,8 +2078,8 @@
       "reportedDate": "2026-09-30",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:40:35+00:00",
-      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
-      "attempts": 42,
+      "lastCheckedAt": "2026-10-22T01:47:44+00:00",
+      "attempts": 43,
       "reasons": [
         {
           "url": "https://www.security-next.com/190648",
@@ -2080,8 +2096,8 @@
       "reportedDate": "2026-10-09",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:46:24+00:00",
-      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
-      "attempts": 15,
+      "lastCheckedAt": "2026-10-22T01:47:44+00:00",
+      "attempts": 16,
       "reasons": [
         {
           "url": "https://www.security-next.com/191245",
@@ -2101,8 +2117,8 @@
       "reportedDate": "2026-10-09",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:46:24+00:00",
-      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
-      "attempts": 43,
+      "lastCheckedAt": "2026-10-22T01:47:44+00:00",
+      "attempts": 44,
       "reasons": [
         {
           "url": "https://www.security-next.com/190998",
@@ -2119,8 +2135,8 @@
       "reportedDate": "2026-10-08",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:46:24+00:00",
-      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
-      "attempts": 43,
+      "lastCheckedAt": "2026-10-22T01:47:44+00:00",
+      "attempts": 44,
       "reasons": [
         {
           "url": "https://www.security-next.com/191148",
@@ -2137,8 +2153,8 @@
       "reportedDate": "2026-10-08",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:46:24+00:00",
-      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
-      "attempts": 43,
+      "lastCheckedAt": "2026-10-22T01:47:44+00:00",
+      "attempts": 44,
       "reasons": [
         {
           "url": "https://www.security-next.com/190905",
@@ -2155,8 +2171,8 @@
       "reportedDate": "2026-10-08",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:46:24+00:00",
-      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
-      "attempts": 43,
+      "lastCheckedAt": "2026-10-22T01:47:44+00:00",
+      "attempts": 44,
       "reasons": [
         {
           "url": "https://www.security-next.com/191213",
@@ -2173,8 +2189,8 @@
       "reportedDate": "2026-10-08",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:46:24+00:00",
-      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
-      "attempts": 43,
+      "lastCheckedAt": "2026-10-22T01:47:44+00:00",
+      "attempts": 44,
       "reasons": [
         {
           "url": "https://www.security-next.com/191188",
@@ -2309,8 +2325,8 @@
       "reportedDate": "2026-10-01",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-17T01:19:47+00:00",
-      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
-      "attempts": 41,
+      "lastCheckedAt": "2026-10-22T01:47:44+00:00",
+      "attempts": 42,
       "reasons": [
         {
           "url": "https://www.security-next.com/190511",
@@ -6063,8 +6079,8 @@
       "reportedDate": "2026-10-19",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
-      "attempts": 26,
+      "lastCheckedAt": "2026-10-22T01:47:44+00:00",
+      "attempts": 27,
       "reasons": [
         {
           "url": "https://scan.netsecurity.ne.jp/article/2026/10/19/56484.html",
@@ -8367,8 +8383,8 @@
       "reportedDate": "2026-10-21",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-20T23:42:04+00:00",
-      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
-      "attempts": 18,
+      "lastCheckedAt": "2026-10-22T01:47:44+00:00",
+      "attempts": 19,
       "reasons": [
         {
           "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56523.html",
@@ -8385,8 +8401,8 @@
       "reportedDate": "2026-10-21",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-20T23:42:04+00:00",
-      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
-      "attempts": 18,
+      "lastCheckedAt": "2026-10-22T01:47:44+00:00",
+      "attempts": 19,
       "reasons": [
         {
           "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56522.html",
@@ -13704,6 +13720,28 @@
       "recordIds": []
     },
     {
+      "newsSource": "https://www.itmedia.co.jp/news/article/2610/22/2000002491/",
+      "title": "大阪大、学生など7.8万人の情報漏えい　NECが無断で協力会社とデータ共有",
+      "reportedDate": "2026-10-22",
+      "publisher": "ITmedia NEWS 全新着",
+      "firstSeenAt": "2026-10-22T01:47:44+00:00",
+      "lastCheckedAt": "2026-10-22T01:47:44+00:00",
+      "attempts": 1,
+      "reasons": [
+        {
+          "url": "https://www.osaka-u.ac.jp/ja/news/topics/2026/10/21004",
+          "reason": "HTTPError: HTTP Error 502: Bad Gateway"
+        },
+        {
+          "url": "https://jpn.nec.com/news/info/20261020.html",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        }
+      ],
+      "classification": "fetch_failed",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
       "newsSource": "https://www.release.tdnet.info/inbs/140120261009548970.pdf",
       "title": "当社ウェブサイトへの一部不正アクセスによる 個人情報漏洩に関するお詫びとご報告",
       "reportedDate": "2026-10-09",
@@ -13726,7 +13764,7 @@
       "reportedDate": "2026-10-06",
       "publisher": "TDnet",
       "firstSeenAt": "2026-10-16T23:48:55+00:00",
-      "lastCheckedAt": "2026-10-21T23:47:34+00:00",
+      "lastCheckedAt": "2026-10-22T01:51:56+00:00",
       "reasons": [
         {
           "url": "https://www.release.tdnet.info/inbs/140120261006546323.pdf",
@@ -14314,8 +14352,8 @@
       "reportedDate": "2026-09-30",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
-      "attempts": 44,
+      "lastCheckedAt": "2026-10-22T01:47:44+00:00",
+      "attempts": 45,
       "reasons": [
         {
           "url": "https://www.security-next.com/190837",
@@ -14664,8 +14702,8 @@
       "reportedDate": "2026-09-30",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:40:35+00:00",
-      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
-      "attempts": 42,
+      "lastCheckedAt": "2026-10-22T01:47:44+00:00",
+      "attempts": 43,
       "reasons": [
         {
           "url": "https://www.security-next.com/190648",
@@ -14682,8 +14720,8 @@
       "reportedDate": "2026-10-09",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:46:24+00:00",
-      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
-      "attempts": 15,
+      "lastCheckedAt": "2026-10-22T01:47:44+00:00",
+      "attempts": 16,
       "reasons": [
         {
           "url": "https://www.security-next.com/191245",
@@ -14703,8 +14741,8 @@
       "reportedDate": "2026-10-09",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:46:24+00:00",
-      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
-      "attempts": 43,
+      "lastCheckedAt": "2026-10-22T01:47:44+00:00",
+      "attempts": 44,
       "reasons": [
         {
           "url": "https://www.security-next.com/190998",
@@ -14721,8 +14759,8 @@
       "reportedDate": "2026-10-08",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:46:24+00:00",
-      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
-      "attempts": 43,
+      "lastCheckedAt": "2026-10-22T01:47:44+00:00",
+      "attempts": 44,
       "reasons": [
         {
           "url": "https://www.security-next.com/191148",
@@ -14739,8 +14777,8 @@
       "reportedDate": "2026-10-08",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:46:24+00:00",
-      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
-      "attempts": 43,
+      "lastCheckedAt": "2026-10-22T01:47:44+00:00",
+      "attempts": 44,
       "reasons": [
         {
           "url": "https://www.security-next.com/190905",
@@ -14757,8 +14795,8 @@
       "reportedDate": "2026-10-08",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:46:24+00:00",
-      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
-      "attempts": 43,
+      "lastCheckedAt": "2026-10-22T01:47:44+00:00",
+      "attempts": 44,
       "reasons": [
         {
           "url": "https://www.security-next.com/191213",
@@ -14775,8 +14813,8 @@
       "reportedDate": "2026-10-08",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:46:24+00:00",
-      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
-      "attempts": 43,
+      "lastCheckedAt": "2026-10-22T01:47:44+00:00",
+      "attempts": 44,
       "reasons": [
         {
           "url": "https://www.security-next.com/191188",
@@ -14883,8 +14921,8 @@
       "reportedDate": "2026-10-01",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-17T01:19:47+00:00",
-      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
-      "attempts": 41,
+      "lastCheckedAt": "2026-10-22T01:47:44+00:00",
+      "attempts": 42,
       "reasons": [
         {
           "url": "https://www.security-next.com/190511",
@@ -18637,8 +18675,8 @@
       "reportedDate": "2026-10-19",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
-      "attempts": 26,
+      "lastCheckedAt": "2026-10-22T01:47:44+00:00",
+      "attempts": 27,
       "reasons": [
         {
           "url": "https://scan.netsecurity.ne.jp/article/2026/10/19/56484.html",
@@ -20941,8 +20979,8 @@
       "reportedDate": "2026-10-21",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-20T23:42:04+00:00",
-      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
-      "attempts": 18,
+      "lastCheckedAt": "2026-10-22T01:47:44+00:00",
+      "attempts": 19,
       "reasons": [
         {
           "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56523.html",
@@ -20959,8 +20997,8 @@
       "reportedDate": "2026-10-21",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-20T23:42:04+00:00",
-      "lastCheckedAt": "2026-10-22T00:58:43+00:00",
-      "attempts": 18,
+      "lastCheckedAt": "2026-10-22T01:47:44+00:00",
+      "attempts": 19,
       "reasons": [
         {
           "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56522.html",
@@ -26278,6 +26316,28 @@
       "recordIds": []
     },
     {
+      "newsSource": "https://www.itmedia.co.jp/news/article/2610/22/2000002491/",
+      "title": "大阪大、学生など7.8万人の情報漏えい　NECが無断で協力会社とデータ共有",
+      "reportedDate": "2026-10-22",
+      "publisher": "ITmedia NEWS 全新着",
+      "firstSeenAt": "2026-10-22T01:47:44+00:00",
+      "lastCheckedAt": "2026-10-22T01:47:44+00:00",
+      "attempts": 1,
+      "reasons": [
+        {
+          "url": "https://www.osaka-u.ac.jp/ja/news/topics/2026/10/21004",
+          "reason": "HTTPError: HTTP Error 502: Bad Gateway"
+        },
+        {
+          "url": "https://jpn.nec.com/news/info/20261020.html",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        }
+      ],
+      "classification": "fetch_failed",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
       "newsSource": "https://www.release.tdnet.info/inbs/140120261009548970.pdf",
       "title": "当社ウェブサイトへの一部不正アクセスによる 個人情報漏洩に関するお詫びとご報告",
       "reportedDate": "2026-10-09",
@@ -26300,7 +26360,7 @@
       "reportedDate": "2026-10-06",
       "publisher": "TDnet",
       "firstSeenAt": "2026-10-16T23:48:55+00:00",
-      "lastCheckedAt": "2026-10-21T23:47:34+00:00",
+      "lastCheckedAt": "2026-10-22T01:51:56+00:00",
       "reasons": [
         {
           "url": "https://www.release.tdnet.info/inbs/140120261006546323.pdf",
