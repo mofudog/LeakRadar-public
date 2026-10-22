@@ -88,30 +88,30 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://central-con.co.jp/news/%e5%bd%93%e7%a4%be%e3%82%b3%e3%83%bc%e3%83%9d%e3%83%ac%e3%83%bc%e3%83%88%e3%82%b5%e3%82%a4%e3%83%88%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e9%96%a2%e3%81%99/",
-      "attemptedAt": "2026-10-21T11:27:27+00:00",
+      "attemptedAt": "2026-10-22T19:00:13+00:00",
       "state": "failed",
       "error": "irrelevant_output",
-      "retryAfter": 1792668447.0
+      "retryAfter": 1792782013.0
     },
     "0ebf3280292ae21f2fd6dbcd28c63164d26abc79e3eaa22662dfb434971f3b42": {
-      "hash": "336811659874fb77c1fc9a14e9f839f926e844f9f1a16abb10dd9eb6a1fae0c6",
+      "hash": "8874a01849310d22d946952ad2d1c6534cc4289cb8c377ca0e36358f6e0b7cf9",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://coconala.com/news/1391",
-      "attemptedAt": "2026-10-21T11:27:27+00:00",
+      "attemptedAt": "2026-10-22T19:00:13+00:00",
       "state": "success",
       "passages": [
         {
           "kind": "audience",
-          "quote": "対象者:「ココナラスキルマーケット」に履歴書・職務経歴書を登録された会員様の一部"
+          "quote": "(1) 対象者:「ココナラスキルマーケット」に履歴書・職務経歴書を登録された会員様の一部"
         },
         {
           "kind": "items",
-          "quote": "履歴書449件、職務経歴書関連書類1,845件 ※クレジットカード情報、各種パスワードをはじめとする上記以外の情報については、今回の不正アクセスの対象とはなっていないことを確認しております。"
+          "quote": "※クレジットカード情報、各種パスワードをはじめとする上記以外の情報については、今回の不正アクセスの対象とはなっていないことを確認しております。"
         },
         {
           "kind": "scale",
-          "quote": "件数:履歴書449件、職務経歴書関連書類1,845件 ※クレジットカード情報、各種パスワードをはじめとする上記以外の情報については、今回の不正アクセスの対象とはなっていないことを確認しております。"
+          "quote": "(2) 件数:履歴書449件、職務経歴書関連書類1,845件"
         }
       ]
     },
@@ -1422,14 +1422,38 @@
       "state": "failed",
       "error": "api_request_failed",
       "retryAfter": 1792777861.0
+    },
+    "03d09d447cd95db78208195e6188720786979b48815a2f1a413f80edcc760414": {
+      "hash": "2c892411c29ea875f20aaf27ecb28a7c494151cae54379fe95e1a86101b9a1b9",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://www.yamaguti-coop.or.jp/line-miniapp-incident-report2/",
+      "attemptedAt": "2026-10-22T19:00:13+00:00",
+      "state": "failed",
+      "error": "ungrounded_output",
+      "retryAfter": 1792782013.0
+    },
+    "08cc5067a7ed5cfceb38528974738a5e99f5925596d366bee5c408d4a86125c3": {
+      "hash": "8331327ba4601acc7d26f940795409bbb4899a063ff78e60cd713bea9053f40b",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://www.yamaha.com/ja/news_release/2026/26100901/",
+      "attemptedAt": "2026-10-22T19:00:13+00:00",
+      "state": "success",
+      "passages": []
+    },
+    "55d379d5ca63a16a821c3eac2b7b89e0ce23dbff17897f69e4279a56882e6ff6": {
+      "hash": "e5c3e01d1a2980ae9836d66260eb48c01fd4fbf986991b8e20fad805a9fb8673",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://www.yamato-hd.co.jp/important/info_260929_1.html",
+      "attemptedAt": "2026-10-22T19:00:13+00:00",
+      "state": "failed",
+      "error": "irrelevant_count",
+      "retryAfter": 1792782013.0
     }
   },
   "requestTimes": [
-    1792608913.0,
-    1792608913.0,
-    1792608913.0,
-    1792608913.0,
-    1792608913.0,
     1792611970.0,
     1792611970.0,
     1792611970.0,
@@ -1504,6 +1528,11 @@
     1792691461.0,
     1792691461.0,
     1792691461.0,
-    1792691461.0
+    1792691461.0,
+    1792695613.0,
+    1792695613.0,
+    1792695613.0,
+    1792695613.0,
+    1792695613.0
   ]
 }
