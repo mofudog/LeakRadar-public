@@ -1,16 +1,20 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-22T10:52:10+00:00",
+  "lastAttemptAt": "2026-10-22T11:47:12+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-22T10:52:10+00:00",
+  "lastPartialSuccessAt": "2026-10-22T11:47:12+00:00",
   "successfulFetches": 281,
-  "failedFetches": 49,
+  "failedFetches": 51,
   "changedReviewedSources": 32,
-  "automaticAnnouncements": 168,
-  "watchedDocumentCount": 275,
+  "automaticAnnouncements": 170,
+  "watchedDocumentCount": 277,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
+    {
+      "url": "https://www.rideonexpresshd.co.jp/news/2026/10/3-33.html",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
     {
       "url": "https://global.yamaha-motor.com/jp/news/2026/1012/leakage.html",
       "error": "HTTP Error 503: Service Temporarily Unavailable"
@@ -101,7 +105,7 @@
     },
     {
       "url": "https://www.asahi-kasei.co.jp/pharma/oshirase_20261006.html",
-      "error": "HTTP Error 502: Bad Gateway"
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "url": "https://www.nifty.co.jp/newsrelease/nifty202610195434.htm",
@@ -146,6 +150,10 @@
     {
       "url": "https://www.nikkei.co.jp/",
       "error": "Redirect to an unregistered host"
+    },
+    {
+      "url": "https://www.rideonexpresshd.co.jp/",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "url": "https://www.suzuki.co.jp/",
@@ -213,16 +221,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-22",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-22T10:52:10+00:00",
+    "lastAttemptAt": "2026-10-22T11:47:12+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 4,
-    "newsCandidates": 1325,
+    "newsCandidates": 1329,
     "newsArticlesChecked": 70,
-    "deferredNewsArticles": 231,
-    "officialFetches": 64,
-    "confirmedOfficialAnnouncements": 203,
-    "pendingNewsArticles": 715,
+    "deferredNewsArticles": 221,
+    "officialFetches": 92,
+    "confirmedOfficialAnnouncements": 205,
+    "pendingNewsArticles": 710,
     "skippedReviewedArticles": 30,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -261,7 +269,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-22T10:54:49+00:00",
+      "lastAttemptAt": "2026-10-22T11:50:05+00:00",
       "listPagesChecked": 4,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -270,26 +278,26 @@
   },
   "automaticSummaries": {
     "ready": 29,
-    "partial": 79,
-    "pending": 79,
+    "partial": 82,
+    "pending": 78,
     "fetchFailed": 16
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
-    "requestsThisRun": 0,
-    "requestsLast24Hours": 100,
+    "requestsThisRun": 5,
+    "requestsLast24Hours": 95,
     "cachedSources": 35,
-    "acceptedSources": 0,
-    "noMatchingSources": 0,
-    "failedSources": 0,
-    "deferredSources": 36,
-    "lastError": null,
+    "acceptedSources": 1,
+    "noMatchingSources": 3,
+    "failedSources": 1,
+    "deferredSources": 35,
+    "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 4,
+    "fetches": 3,
     "linkedDocuments": 7,
     "matchedAlternatives": 0,
     "pending": 3,
@@ -304,15 +312,15 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 80,
-    "needs_source_lookup": 86,
+    "fetch_failed": 81,
+    "needs_source_lookup": 87,
     "covered": 17,
     "reopened": 6,
-    "needs_review": 285,
+    "needs_review": 288,
     "duplicate": 3,
-    "deferred": 231
+    "deferred": 221
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 688,
-  "deferredNewsCandidates": 231
+  "unresolvedNewsCandidates": 683,
+  "deferredNewsCandidates": 221
 }
