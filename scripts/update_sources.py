@@ -6,7 +6,7 @@ from __future__ import annotations
 import concurrent.futures, datetime as dt, hashlib, html, json, os, re, sys, urllib.error, urllib.parse, urllib.request
 from html.parser import HTMLParser
 from bs4 import BeautifulSoup
-from news_discovery import run as discover_news, public_url, decode_html, KEY
+from news_discovery import run as discover_news, public_url, decode_html, KEY, is_unofficial_publisher
 from tdnet_discovery import run as discover_disclosures
 from candidate_triage import classify, markdown as triage_markdown
 from pathlib import Path
@@ -183,6 +183,7 @@ def main():
  # Revisit every outstanding published source, not only sources rediscovered in
  # today's RSS window. Reusing the normal fetch cache avoids duplicate requests.
  prior=read(ROOT/'data/source-state.json',{'announcements':{}})
+ prior['announcements']={u:a for u,a in prior.get('announcements',{}).items() if not is_unofficial_publisher(host(a.get('source',u)))}
  outstanding=list(prior.get('announcements',{}).values())+reviewed['incidents']
  seen_sources={x['url'] for x in sources}
  for record in outstanding:
@@ -208,8 +209,8 @@ def main():
  allowed|={('www.'+h if not h.startswith('www.') else h[4:]) for h in list(allowed) if h!='haveibeenpwned.com'}
  previous=read(ROOT/'data/source-state.json',{'documents':{},'announcements':{},'hibp':{}})
  approvals=read(ROOT/'data/reviewed-source-hashes.json',{})
- previous_docs=previous.get('documents',{})
- documents=dict(previous_docs);announcements=canonicalize_announcements({u:a for u,a in previous.get('announcements',{}).items() if a.get('dateSource')=='scoped-publication-date-v2'});errors=list(news_result.get('errors',[]));success=0;changes=0;cache={}
+ previous_docs={u:d for u,d in previous.get('documents',{}).items() if not is_unofficial_publisher(host(u))}
+ documents=dict(previous_docs);announcements=canonicalize_announcements({u:a for u,a in previous.get('announcements',{}).items() if a.get('dateSource')=='scoped-publication-date-v2' and not is_unofficial_publisher(host(a.get('source',u)))});errors=list(news_result.get('errors',[]));success=0;changes=0;cache={}
  def get(source):
   try:return source,fetch(source['url'],allowed),None
   except Exception as error:return source,None,str(error)[:160]
@@ -274,6 +275,7 @@ def main():
   foreign=selected;success+=1
  except Exception as error:errors.append({'url':'https://haveibeenpwned.com/api/v3/breaches','error':str(error)[:160]})
  for x in news_result.get('confirmed',{}).values():
+  if is_unofficial_publisher(host(x.get('source',''))):continue
   if normalize_url(x['source']) in reviewed_urls:continue
   announcement={'id':'news-'+digest(normalize_url(x['source']))[:14],'company':x['company'],'service':x['title'],'category':'公式発表・未整理','published':x['published'],'updated':x['published'],'status':'announcement','audience':'ニュースを手がかりに公式発表を確認しました。対象となる登録・利用条件の要約は未整理です。公式発表の本文をご確認ください。','items':[],'scale':'自動取得では確認していません。','note':'発表元の表示、本文、日付をニュースの参照先と照合しました。漏洩の有無・対象範囲・件数を自動で判定するものではありません。','excluded':'対象外の情報は推測していません。','source':x['source'],'sourceType':'official','region':'国内向け報道から発見','aliases':x['company'],'verifiedAt':None,'fetchedAt':x['lastCheckedAt'],'automaticallyCollected':True,'dateSource':'scoped-publication-date-v2','discoveredViaNews':x.get('discoverySource')!='TDnet','discoverySource':x.get('discoverySource','news'),'newsSources':x['newsSources']}
   key=normalize_url(x['source'])
