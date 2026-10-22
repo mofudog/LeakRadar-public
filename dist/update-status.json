@@ -1,11 +1,11 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-22T07:02:33+00:00",
+  "lastAttemptAt": "2026-10-22T07:56:28+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-22T07:02:33+00:00",
-  "successfulFetches": 271,
-  "failedFetches": 55,
-  "changedReviewedSources": 30,
+  "lastPartialSuccessAt": "2026-10-22T07:56:28+00:00",
+  "successfulFetches": 273,
+  "failedFetches": 53,
+  "changedReviewedSources": 29,
   "automaticAnnouncements": 166,
   "watchedDocumentCount": 272,
   "watchedIndexCount": 52,
@@ -38,6 +38,10 @@
     {
       "url": "https://www.resorttrust.co.jp/topics/20261016/3397/",
       "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.burgerking.co.jp/images/notice/2026/10/15/d4d114ca-ebd7-4f3d-94ef-c4ea7a84a139.pdf",
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://www.monogatari.co.jp/news/261005_news/",
@@ -92,16 +96,8 @@
       "error": "HTTP Error 503: Service Temporarily Unavailable"
     },
     {
-      "url": "https://sanpofoods.co.jp/news/archives/1658/",
-      "error": "<urlopen error [Errno 111] Connection refused>"
-    },
-    {
       "url": "https://www.nihon-kotsu.co.jp/news/20260819-3385/",
       "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "https://www.taikisha.co.jp/common/mtimg/20260918.pdf",
-      "error": "<urlopen error [Errno 111] Connection refused>"
     },
     {
       "url": "https://www.iwaicosmo.co.jp/news/2026/10161410.html",
@@ -118,10 +114,6 @@
     {
       "url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
       "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "url": "https://www.corona.co.jp/news/other/post-439.html",
-      "error": "<urlopen error [Errno 111] Connection refused>"
     },
     {
       "url": "https://www.nifty.co.jp/newsrelease/nifty202610195434.htm",
@@ -197,7 +189,7 @@
     },
     {
       "url": "https://www.burgerking.co.jp/",
-      "error": "Source body could not be read"
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://www2.sagawa-exp.co.jp/information/",
@@ -237,16 +229,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-22",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-22T07:02:33+00:00",
+    "lastAttemptAt": "2026-10-22T07:56:28+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 4,
-    "newsCandidates": 1291,
+    "newsCandidates": 1304,
     "newsArticlesChecked": 70,
-    "deferredNewsArticles": 243,
-    "officialFetches": 68,
+    "deferredNewsArticles": 241,
+    "officialFetches": 86,
     "confirmedOfficialAnnouncements": 201,
-    "pendingNewsArticles": 706,
+    "pendingNewsArticles": 713,
     "skippedReviewedArticles": 30,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -284,7 +276,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-22T07:05:07+00:00",
+      "lastAttemptAt": "2026-10-22T07:59:35+00:00",
       "listPagesChecked": 4,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -293,9 +285,9 @@
   },
   "automaticSummaries": {
     "ready": 30,
-    "partial": 76,
-    "pending": 79,
-    "fetchFailed": 19
+    "partial": 77,
+    "pending": 78,
+    "fetchFailed": 16
   },
   "aiSummary": {
     "status": "active",
@@ -306,14 +298,14 @@
     "acceptedSources": 0,
     "noMatchingSources": 0,
     "failedSources": 0,
-    "deferredSources": 29,
+    "deferredSources": 31,
     "lastError": null,
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 5,
-    "linkedDocuments": 6,
+    "fetches": 7,
+    "linkedDocuments": 7,
     "matchedAlternatives": 0,
     "pending": 3,
     "failed": 2,
@@ -328,14 +320,14 @@
   "candidateTriageCounts": {
     "out_of_scope": 9,
     "fetch_failed": 81,
-    "needs_source_lookup": 83,
+    "needs_source_lookup": 84,
     "covered": 17,
     "reopened": 6,
-    "needs_review": 266,
+    "needs_review": 274,
     "duplicate": 3,
-    "deferred": 243
+    "deferred": 241
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 679,
-  "deferredNewsCandidates": 243
+  "unresolvedNewsCandidates": 686,
+  "deferredNewsCandidates": 241
 }
