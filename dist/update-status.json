@@ -1,13 +1,13 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-22T05:45:38+00:00",
+  "lastAttemptAt": "2026-10-22T07:02:33+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-22T05:45:38+00:00",
-  "successfulFetches": 265,
-  "failedFetches": 58,
-  "changedReviewedSources": 29,
-  "automaticAnnouncements": 163,
-  "watchedDocumentCount": 270,
+  "lastPartialSuccessAt": "2026-10-22T07:02:33+00:00",
+  "successfulFetches": 271,
+  "failedFetches": 55,
+  "changedReviewedSources": 30,
+  "automaticAnnouncements": 166,
+  "watchedDocumentCount": 272,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
@@ -40,12 +40,8 @@
       "error": "HTTP Error 503: Service Unavailable"
     },
     {
-      "url": "https://www.burgerking.co.jp/images/notice/2026/10/15/d4d114ca-ebd7-4f3d-94ef-c4ea7a84a139.pdf",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
       "url": "https://www.monogatari.co.jp/news/261005_news/",
-      "error": "HTTP Error 503: Service Temporarily Unavailable"
+      "error": "Redirect to an unregistered host"
     },
     {
       "url": "https://www2.sagawa-exp.co.jp/information/detail/426/",
@@ -90,10 +86,6 @@
     {
       "url": "https://support-qa.eplus.jp/hc/ja/articles/62711500727961-%E5%BC%8A%E7%A4%BE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AE%E7%99%BA-%E3%81%8A%E3%82%88%E3%81%B3%E5%80%8B-%E6%83%85%E5%A0%B1-%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
       "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "url": "https://binc.jp/press-room/news/notice/news_20261016",
-      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "url": "https://www.sagin-dp.jp/news/000097.php",
@@ -168,10 +160,6 @@
       "error": "HTTP Error 503: Service Unavailable"
     },
     {
-      "url": "https://www.iwaicosmo.co.jp/news/pdf/64f680003862eee42041a9663f2f12f970716818.pdf",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
       "url": "https://corp.eplus.jp/press-release/1824/",
       "error": "HTTP Error 403: Forbidden"
     },
@@ -209,11 +197,7 @@
     },
     {
       "url": "https://www.burgerking.co.jp/",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "url": "https://www.monogatari.co.jp/news/",
-      "error": "HTTP Error 503: Service Temporarily Unavailable"
+      "error": "Source body could not be read"
     },
     {
       "url": "https://www2.sagawa-exp.co.jp/information/",
@@ -242,6 +226,10 @@
     {
       "url": "https://global.yamaha-motor.com/news/",
       "error": "HTTP Error 503: Service Temporarily Unavailable"
+    },
+    {
+      "url": "https://www.monogatari.co.jp/ir/ir_news/",
+      "error": "Source body could not be read"
     }
   ],
   "fullyComprehensive": false,
@@ -249,16 +237,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-22",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-22T05:45:38+00:00",
+    "lastAttemptAt": "2026-10-22T07:02:33+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 4,
-    "newsCandidates": 1279,
+    "newsCandidates": 1291,
     "newsArticlesChecked": 70,
-    "deferredNewsArticles": 236,
-    "officialFetches": 100,
-    "confirmedOfficialAnnouncements": 198,
-    "pendingNewsArticles": 704,
+    "deferredNewsArticles": 243,
+    "officialFetches": 68,
+    "confirmedOfficialAnnouncements": 201,
+    "pendingNewsArticles": 706,
     "skippedReviewedArticles": 30,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -291,12 +279,13 @@
         "2024-07",
         "2024-06",
         "2024-05",
-        "2024-04"
+        "2024-04",
+        "2024-03"
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-22T05:48:54+00:00",
-      "listPagesChecked": 3,
+      "lastAttemptAt": "2026-10-22T07:05:07+00:00",
+      "listPagesChecked": 4,
       "documentsChecked": 20,
       "pendingListPages": 0,
       "pendingDocuments": 2
@@ -304,9 +293,9 @@
   },
   "automaticSummaries": {
     "ready": 30,
-    "partial": 74,
-    "pending": 78,
-    "fetchFailed": 20
+    "partial": 76,
+    "pending": 79,
+    "fetchFailed": 19
   },
   "aiSummary": {
     "status": "active",
@@ -317,13 +306,13 @@
     "acceptedSources": 0,
     "noMatchingSources": 0,
     "failedSources": 0,
-    "deferredSources": 25,
+    "deferredSources": 29,
     "lastError": null,
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 6,
+    "fetches": 5,
     "linkedDocuments": 6,
     "matchedAlternatives": 0,
     "pending": 3,
@@ -338,15 +327,15 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 96,
-    "needs_source_lookup": 65,
+    "fetch_failed": 81,
+    "needs_source_lookup": 83,
     "covered": 17,
     "reopened": 6,
-    "needs_review": 274,
+    "needs_review": 266,
     "duplicate": 3,
-    "deferred": 236
+    "deferred": 243
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 677,
-  "deferredNewsCandidates": 236
+  "unresolvedNewsCandidates": 679,
+  "deferredNewsCandidates": 243
 }
