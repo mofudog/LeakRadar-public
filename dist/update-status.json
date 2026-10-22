@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-22T09:50:55+00:00",
+  "lastAttemptAt": "2026-10-22T10:52:10+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-22T09:50:55+00:00",
+  "lastPartialSuccessAt": "2026-10-22T10:52:10+00:00",
   "successfulFetches": 281,
   "failedFetches": 49,
   "changedReviewedSources": 32,
@@ -14,10 +14,6 @@
     {
       "url": "https://global.yamaha-motor.com/jp/news/2026/1012/leakage.html",
       "error": "HTTP Error 503: Service Temporarily Unavailable"
-    },
-    {
-      "url": "https://www.resorttrust.co.jp/wp_api/wp-content/uploads/2026/10/20261009.pdf",
-      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "url": "https://www.lashinbang.com/info/26357/",
@@ -77,6 +73,10 @@
     },
     {
       "url": "https://lean-body.co.jp/news/JlBWMCs7",
+      "error": "Source body could not be read"
+    },
+    {
+      "url": "https://www.hands-holdings.co.jp/news/news20260825/",
       "error": "Source body could not be read"
     },
     {
@@ -213,16 +213,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-22",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-22T09:50:55+00:00",
+    "lastAttemptAt": "2026-10-22T10:52:10+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 4,
-    "newsCandidates": 1319,
+    "newsCandidates": 1325,
     "newsArticlesChecked": 70,
-    "deferredNewsArticles": 240,
-    "officialFetches": 90,
+    "deferredNewsArticles": 231,
+    "officialFetches": 64,
     "confirmedOfficialAnnouncements": 203,
-    "pendingNewsArticles": 717,
+    "pendingNewsArticles": 715,
     "skippedReviewedArticles": 30,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -261,7 +261,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-22T09:54:09+00:00",
+      "lastAttemptAt": "2026-10-22T10:54:49+00:00",
       "listPagesChecked": 4,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -272,7 +272,7 @@
     "ready": 29,
     "partial": 79,
     "pending": 79,
-    "fetchFailed": 15
+    "fetchFailed": 16
   },
   "aiSummary": {
     "status": "active",
@@ -289,7 +289,7 @@
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 3,
+    "fetches": 4,
     "linkedDocuments": 7,
     "matchedAlternatives": 0,
     "pending": 3,
@@ -304,15 +304,15 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 78,
-    "needs_source_lookup": 85,
+    "fetch_failed": 80,
+    "needs_source_lookup": 86,
     "covered": 17,
     "reopened": 6,
-    "needs_review": 281,
+    "needs_review": 285,
     "duplicate": 3,
-    "deferred": 240
+    "deferred": 231
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 690,
-  "deferredNewsCandidates": 240
+  "unresolvedNewsCandidates": 688,
+  "deferredNewsCandidates": 231
 }
