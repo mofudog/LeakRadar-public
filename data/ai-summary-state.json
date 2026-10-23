@@ -88,10 +88,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://central-con.co.jp/news/%e5%bd%93%e7%a4%be%e3%82%b3%e3%83%bc%e3%83%9d%e3%83%ac%e3%83%bc%e3%83%88%e3%82%b5%e3%82%a4%e3%83%88%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e9%96%a2%e3%81%99/",
-      "attemptedAt": "2026-10-22T19:00:13+00:00",
+      "attemptedAt": "2026-10-23T19:44:59+00:00",
       "state": "failed",
       "error": "irrelevant_output",
-      "retryAfter": 1792782013.0
+      "retryAfter": 1792871099.0
     },
     "0ebf3280292ae21f2fd6dbcd28c63164d26abc79e3eaa22662dfb434971f3b42": {
       "hash": "8874a01849310d22d946952ad2d1c6534cc4289cb8c377ca0e36358f6e0b7cf9",
@@ -1374,10 +1374,14 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.smtb.jp/-/media/tb/important/pdf/20251217.pdf",
-      "attemptedAt": "2026-10-22T16:49:14+00:00",
-      "state": "failed",
-      "error": "api_request_failed",
-      "retryAfter": 1792774154.0
+      "attemptedAt": "2026-10-23T19:44:59+00:00",
+      "state": "success",
+      "passages": [
+        {
+          "kind": "items",
+          "quote": " お客さまの氏名・名称(企業名/団体名)  郵便番号・住所  お客さま管理番号(店番、お客様番号)  定期預金のご契約明細※ ※種別(スーパー定期、大口定期 等)、契約番号、満期日、期間、元金、利率、利息、 利息に係る税率、元金と利息の取扱い"
+        }
+      ]
     },
     "426e360cc506920e318e9f0c6116176ffcc39589216d64e634271aff88efbec4": {
       "hash": "92de584f77d6861e70533010157d9960109301a4a05c6adbb28f1186f9749681",
@@ -1393,10 +1397,9 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.spoonsports.jp/blog/?p=8274",
-      "attemptedAt": "2026-10-22T17:51:01+00:00",
-      "state": "failed",
-      "error": "api_request_failed",
-      "retryAfter": 1792777861.0
+      "attemptedAt": "2026-10-23T19:44:59+00:00",
+      "state": "success",
+      "passages": []
     },
     "9afdcb3e1575b53bad2818f7e9c2cbde503df1fe9620928d120c72d1b3c56901": {
       "hash": "889de5c899fbff660ad7d56dd2558d506d5c699280b334c213ad61e2761925ce",
@@ -1421,20 +1424,19 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.tohoku-frontier.co.jp/news/1947/",
-      "attemptedAt": "2026-10-22T17:51:01+00:00",
+      "attemptedAt": "2026-10-23T19:44:59+00:00",
       "state": "failed",
-      "error": "api_request_failed",
-      "retryAfter": 1792777861.0
+      "error": "irrelevant_output",
+      "retryAfter": 1792871099.0
     },
     "6fb629299dc4ae482d8ac7be0a19f3e42a05d7b69450ae5c197867e9be08188d": {
       "hash": "cc90d0cd668ecbdaee4b2c32e2e2ad775de4e67989e2c1f604ef422b55fd2638",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.trustbank.co.jp/newsroom/news/news261019/",
-      "attemptedAt": "2026-10-22T17:51:01+00:00",
-      "state": "failed",
-      "error": "api_request_failed",
-      "retryAfter": 1792777861.0
+      "attemptedAt": "2026-10-23T19:44:59+00:00",
+      "state": "success",
+      "passages": []
     },
     "03d09d447cd95db78208195e6188720786979b48815a2f1a413f80edcc760414": {
       "hash": "2c892411c29ea875f20aaf27ecb28a7c494151cae54379fe95e1a86101b9a1b9",
@@ -1728,11 +1730,6 @@
     }
   },
   "requestTimes": [
-    1792695613.0,
-    1792695613.0,
-    1792695613.0,
-    1792695613.0,
-    1792695613.0,
     1792698433.0,
     1792698433.0,
     1792698433.0,
@@ -1827,6 +1824,11 @@
     1792781688.0,
     1792781688.0,
     1792781688.0,
-    1792781688.0
+    1792781688.0,
+    1792784699.0,
+    1792784699.0,
+    1792784699.0,
+    1792784699.0,
+    1792784699.0
   ]
 }
