@@ -319,10 +319,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://studio.design/ja/whats-new/unauthorized-access-2026-10",
-      "attemptedAt": "2026-10-22T21:45:31+00:00",
+      "attemptedAt": "2026-10-23T23:42:36+00:00",
       "state": "failed",
-      "error": "irrelevant_output",
-      "retryAfter": 1792791931.0
+      "error": "ungrounded_output",
+      "retryAfter": 1792885356.0
     },
     "377b59843b82cb6311aa4d58cd76d9c59b1243f728be2f77253b940291a28f0c": {
       "hash": "45248b071013f25320834913880d4fef1a5c24033a1c4b49fb8e58567bbc34f6",
@@ -339,20 +339,28 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.aflac.co.jp/info/yorisou_faq.html",
-      "attemptedAt": "2026-10-22T22:44:25+00:00",
-      "state": "failed",
-      "error": "invalid_output",
-      "retryAfter": 1792795465.0
+      "attemptedAt": "2026-10-23T23:42:36+00:00",
+      "state": "success",
+      "passages": [
+        {
+          "kind": "items",
+          "quote": "契約者氏名・生年月日・性別・住所・電話番号、被保険者氏名・生年月日・ 性別、受取人氏名、証券番号、保障内容、第二連絡先の情報*6、保険料振替 口座(金融機関名、支店名、預金種類、口座番号、口座名義など) 等 なお、マイナンバー、クレジットカード情報およびメールアドレスは含ま れておりません。"
+        },
+        {
+          "kind": "scale",
+          "quote": "お客様数*7:約 440万人 うち、保険料振替口座情報が含まれるお客様数:約22万人 (2) 代理店関連の個人情報 1 個人情報の項目 代理店代表者氏名、代理店住所、代理店電話番号 等 2 漏えい件数 代理店数:約4万店*8"
+        }
+      ]
     },
     "d3edd65cb258dad866b7a4d66231b847b88390116d48e146039f1406ea925766": {
       "hash": "05e182d5ca95abc414abf191e04b7eeb3cb86576970151f4e724d81aa9d3bd25",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.asahi-kasei.co.jp/pharma/oshirase_20261006.html",
-      "attemptedAt": "2026-10-22T23:34:55+00:00",
+      "attemptedAt": "2026-10-23T23:42:36+00:00",
       "state": "failed",
       "error": "irrelevant_output",
-      "retryAfter": 1792798495.0
+      "retryAfter": 1792885356.0
     },
     "38531642441b08dde07aa6d76fd1d70ed7236ec145596ea80ea1889e4be28e1c": {
       "hash": "8ea2a18d2cbd0907efbdac91e4a6e4a30ca2f3ab4d9dcb624a834843f17544d3",
@@ -377,20 +385,20 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.chibabank.co.jp/news/news20260917_01",
-      "attemptedAt": "2026-10-22T22:44:25+00:00",
+      "attemptedAt": "2026-10-23T23:42:36+00:00",
       "state": "failed",
       "error": "irrelevant_output",
-      "retryAfter": 1792795465.0
+      "retryAfter": 1792885356.0
     },
     "7adab25f53e14d43032b030bcb3fc4960c3b628861bf5c3eb0171894272e6e2f": {
       "hash": "3de6f02566a8cb871259bbc4d50e73611b9c8776f500c7c8419b4142bb6448b9",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.daiichilife-group.com/news/assets/pdf/portalaccess.pdf",
-      "attemptedAt": "2026-10-22T22:44:25+00:00",
+      "attemptedAt": "2026-10-23T23:42:36+00:00",
       "state": "failed",
       "error": "irrelevant_count",
-      "retryAfter": 1792795465.0
+      "retryAfter": 1792885356.0
     },
     "e0a486c5ca8c8086efd395c6ec086f6e9288825c39a08b511a10c55e392438e6": {
       "hash": "fbd85ef097b7d320cf4222a32814c2a1a4226edeab05ba43c818dc2c78aef492",
@@ -1730,11 +1738,6 @@
     }
   },
   "requestTimes": [
-    1792712095.0,
-    1792712095.0,
-    1792712095.0,
-    1792712095.0,
-    1792712095.0,
     1792712576.0,
     1792712576.0,
     1792712576.0,
@@ -1824,6 +1827,11 @@
     1792795479.0,
     1792795479.0,
     1792795479.0,
-    1792795479.0
+    1792795479.0,
+    1792798956.0,
+    1792798956.0,
+    1792798956.0,
+    1792798956.0,
+    1792798956.0
   ]
 }
