@@ -1,13 +1,13 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-23T05:45:58+00:00",
+  "lastAttemptAt": "2026-10-23T07:03:00+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-23T05:45:58+00:00",
-  "successfulFetches": 287,
-  "failedFetches": 43,
-  "changedReviewedSources": 31,
-  "automaticAnnouncements": 166,
-  "watchedDocumentCount": 275,
+  "lastPartialSuccessAt": "2026-10-23T07:03:00+00:00",
+  "successfulFetches": 294,
+  "failedFetches": 39,
+  "changedReviewedSources": 34,
+  "automaticAnnouncements": 169,
+  "watchedDocumentCount": 278,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
@@ -20,16 +20,8 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "https://www.mrmax.co.jp/info/incident_20261006/",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
       "url": "https://support.rakuten-drive.com/hc/ja/articles/62934949147929",
       "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "url": "https://www.resorttrust.co.jp/topics/20261016/3397/",
-      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "url": "https://www.burgerking.co.jp/images/notice/2026/10/15/d4d114ca-ebd7-4f3d-94ef-c4ea7a84a139.pdf",
@@ -128,15 +120,7 @@
       "error": "Source body could not be read"
     },
     {
-      "url": "https://www.resorttrust.co.jp/",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
       "url": "https://www.lashinbang.com/",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "url": "https://www.mrmax.co.jp/",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -189,15 +173,15 @@
   "cloudRun": true,
   "retentionStart": "2023-10-23",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-23T05:45:58+00:00",
+    "lastAttemptAt": "2026-10-23T07:03:00+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
-    "newsCandidates": 1414,
+    "newsCandidates": 1415,
     "newsArticlesChecked": 70,
-    "deferredNewsArticles": 61,
-    "officialFetches": 57,
-    "confirmedOfficialAnnouncements": 203,
+    "deferredNewsArticles": 47,
+    "officialFetches": 96,
+    "confirmedOfficialAnnouncements": 206,
     "pendingNewsArticles": 734,
     "skippedReviewedArticles": 28,
     "archiveCursors": {
@@ -241,29 +225,29 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-23T05:48:33+00:00",
-      "listPagesChecked": 3,
+      "lastAttemptAt": "2026-10-23T07:05:59+00:00",
+      "listPagesChecked": 4,
       "documentsChecked": 20,
       "pendingListPages": 0,
-      "pendingDocuments": 2
+      "pendingDocuments": 3
     }
   },
   "automaticSummaries": {
     "ready": 34,
-    "partial": 83,
-    "pending": 69,
-    "fetchFailed": 14
+    "partial": 88,
+    "pending": 67,
+    "fetchFailed": 12
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
-    "requestsThisRun": 3,
-    "requestsLast24Hours": 98,
+    "requestsThisRun": 2,
+    "requestsLast24Hours": 100,
     "cachedSources": 57,
     "acceptedSources": 0,
-    "noMatchingSources": 1,
+    "noMatchingSources": 0,
     "failedSources": 2,
-    "deferredSources": 0,
+    "deferredSources": 5,
     "lastError": "irrelevant_count",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
@@ -284,15 +268,15 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 90,
-    "needs_source_lookup": 230,
+    "fetch_failed": 92,
+    "needs_source_lookup": 244,
     "covered": 15,
     "reopened": 9,
-    "needs_review": 320,
+    "needs_review": 319,
     "duplicate": 2,
-    "deferred": 61
+    "deferred": 47
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 710,
-  "deferredNewsCandidates": 61
+  "unresolvedNewsCandidates": 711,
+  "deferredNewsCandidates": 47
 }
