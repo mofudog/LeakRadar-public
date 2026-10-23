@@ -1,11 +1,11 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-23T17:44:33+00:00",
+  "lastAttemptAt": "2026-10-23T18:54:48+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-23T17:44:33+00:00",
-  "successfulFetches": 316,
-  "failedFetches": 39,
-  "changedReviewedSources": 41,
+  "lastPartialSuccessAt": "2026-10-23T18:54:48+00:00",
+  "successfulFetches": 315,
+  "failedFetches": 40,
+  "changedReviewedSources": 40,
   "automaticAnnouncements": 186,
   "watchedDocumentCount": 298,
   "watchedIndexCount": 52,
@@ -82,6 +82,10 @@
     {
       "url": "https://www.lbm.co.jp/news/2026/260109/",
       "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.japantimes.co.jp/press/2026/10/02/noticeransomware-incident-jp/",
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://ainokaze.co.jp/24166",
@@ -173,16 +177,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-24",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-23T17:44:33+00:00",
+    "lastAttemptAt": "2026-10-23T18:54:48+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1422,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 100,
+    "officialFetches": 82,
     "confirmedOfficialAnnouncements": 224,
-    "pendingNewsArticles": 756,
+    "pendingNewsArticles": 745,
     "skippedReviewedArticles": 28,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -225,7 +229,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-23T17:47:03+00:00",
+      "lastAttemptAt": "2026-10-23T18:57:53+00:00",
       "listPagesChecked": 4,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -236,24 +240,24 @@
     "ready": 37,
     "partial": 103,
     "pending": 67,
-    "fetchFailed": 11
+    "fetchFailed": 12
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
-    "requestsThisRun": 0,
+    "requestsThisRun": 5,
     "requestsLast24Hours": 100,
     "cachedSources": 62,
     "acceptedSources": 0,
-    "noMatchingSources": 0,
-    "failedSources": 0,
-    "deferredSources": 10,
-    "lastError": null,
+    "noMatchingSources": 2,
+    "failedSources": 3,
+    "deferredSources": 7,
+    "lastError": "irrelevant_count",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 5,
+    "fetches": 6,
     "linkedDocuments": 11,
     "matchedAlternatives": 0,
     "pending": 4,
@@ -268,14 +272,14 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 87,
+    "fetch_failed": 91,
     "needs_source_lookup": 290,
     "covered": 15,
     "reopened": 9,
-    "needs_review": 348,
+    "needs_review": 333,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 734,
+  "unresolvedNewsCandidates": 723,
   "deferredNewsCandidates": 0
 }
