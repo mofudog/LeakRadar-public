@@ -1,13 +1,13 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-23T08:07:04+00:00",
+  "lastAttemptAt": "2026-10-23T08:50:02+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-23T08:07:04+00:00",
-  "successfulFetches": 299,
-  "failedFetches": 39,
+  "lastPartialSuccessAt": "2026-10-23T08:50:02+00:00",
+  "successfulFetches": 301,
+  "failedFetches": 40,
   "changedReviewedSources": 38,
-  "automaticAnnouncements": 174,
-  "watchedDocumentCount": 283,
+  "automaticAnnouncements": 175,
+  "watchedDocumentCount": 284,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
@@ -41,7 +41,7 @@
     },
     {
       "url": "https://sanga-fc.jp/news/detail/21401",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
     },
     {
       "url": "https://revisio.co.jp/news/qlqXjTs7",
@@ -68,10 +68,6 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
-      "url": "https://www.iwaicosmo.co.jp/news/2026/10161410.html",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
       "url": "https://2nd-rtl.com/news/82023",
       "error": "HTTP Error 403: Forbidden"
     },
@@ -89,7 +85,7 @@
     },
     {
       "url": "https://www.media4u.co.jp/news/3351",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.media4u.co.jp'. (_ssl.c:1000)>"
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.media4u.co.jp'. (_ssl.c:1081)>"
     },
     {
       "url": "https://ainokaze.co.jp/24166",
@@ -141,7 +137,7 @@
     },
     {
       "url": "https://sanga-fc.jp/news",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
     },
     {
       "url": "https://revisio.co.jp/news",
@@ -166,6 +162,14 @@
     {
       "url": "https://www.monogatari.co.jp/ir/ir_news/",
       "error": "Source body could not be read"
+    },
+    {
+      "url": "https://raiden.site.ktaiwork.jp/wp-content/uploads/sites/2/2026/10/【説明資料】不正アクセスによる個⼈情報漏えいの可能性に関して20261023.pdf",
+      "error": "'ascii' codec can't encode characters in position 40-69: ordinal not in range(128)"
+    },
+    {
+      "url": "https://raiden.site.ktaiwork.jp/wp-content/uploads/sites/2/2026/10/【報告書】不正アクセスによる個⼈情報漏えいの可能性に関して20261023.pdf",
+      "error": "'ascii' codec can't encode characters in position 40-68: ordinal not in range(128)"
     }
   ],
   "fullyComprehensive": false,
@@ -173,16 +177,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-23",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-23T08:07:04+00:00",
+    "lastAttemptAt": "2026-10-23T08:50:02+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
-    "newsCandidates": 1416,
+    "newsCandidates": 1418,
     "newsArticlesChecked": 70,
-    "deferredNewsArticles": 19,
-    "officialFetches": 78,
-    "confirmedOfficialAnnouncements": 211,
-    "pendingNewsArticles": 734,
+    "deferredNewsArticles": 5,
+    "officialFetches": 54,
+    "confirmedOfficialAnnouncements": 212,
+    "pendingNewsArticles": 736,
     "skippedReviewedArticles": 28,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -225,8 +229,8 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-23T08:09:46+00:00",
-      "listPagesChecked": 4,
+      "lastAttemptAt": "2026-10-23T08:52:11+00:00",
+      "listPagesChecked": 5,
       "documentsChecked": 20,
       "pendingListPages": 0,
       "pendingDocuments": 3
@@ -234,9 +238,9 @@
   },
   "automaticSummaries": {
     "ready": 34,
-    "partial": 92,
-    "pending": 68,
-    "fetchFailed": 12
+    "partial": 94,
+    "pending": 67,
+    "fetchFailed": 11
   },
   "aiSummary": {
     "status": "active",
@@ -247,7 +251,7 @@
     "acceptedSources": 0,
     "noMatchingSources": 0,
     "failedSources": 0,
-    "deferredSources": 10,
+    "deferredSources": 11,
     "lastError": null,
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
@@ -257,7 +261,7 @@
     "linkedDocuments": 8,
     "matchedAlternatives": 0,
     "pending": 3,
-    "failed": 2,
+    "failed": 1,
     "report": "data/source-recovery-report.md",
     "ocr": {
       "toolsAvailable": true,
@@ -269,14 +273,14 @@
   "candidateTriageCounts": {
     "out_of_scope": 9,
     "fetch_failed": 93,
-    "needs_source_lookup": 272,
+    "needs_source_lookup": 287,
     "covered": 15,
     "reopened": 9,
-    "needs_review": 318,
+    "needs_review": 319,
     "duplicate": 2,
-    "deferred": 19
+    "deferred": 5
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 711,
-  "deferredNewsCandidates": 19
+  "unresolvedNewsCandidates": 713,
+  "deferredNewsCandidates": 5
 }
