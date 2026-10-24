@@ -1,13 +1,13 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-24T02:46:24+00:00",
+  "lastAttemptAt": "2026-10-24T03:47:30+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-24T02:46:24+00:00",
-  "successfulFetches": 317,
+  "lastPartialSuccessAt": "2026-10-24T03:47:30+00:00",
+  "successfulFetches": 318,
   "failedFetches": 39,
   "changedReviewedSources": 41,
   "automaticAnnouncements": 187,
-  "watchedDocumentCount": 299,
+  "watchedDocumentCount": 300,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
@@ -93,7 +93,7 @@
     },
     {
       "url": "https://www.betsudaikohsan.co.jp/topics/detail/id_402/",
-      "error": "HTTP Error 503: Service Unavailable"
+      "error": "[Errno -3] Temporary failure in name resolution"
     },
     {
       "url": "https://corp.eplus.jp/press-release/1824/",
@@ -173,16 +173,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-24",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-24T02:46:24+00:00",
+    "lastAttemptAt": "2026-10-24T03:47:30+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1422,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 81,
+    "officialFetches": 95,
     "confirmedOfficialAnnouncements": 225,
-    "pendingNewsArticles": 749,
+    "pendingNewsArticles": 750,
     "skippedReviewedArticles": 28,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -225,7 +225,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-24T02:49:02+00:00",
+      "lastAttemptAt": "2026-10-24T03:50:06+00:00",
       "listPagesChecked": 4,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -243,21 +243,21 @@
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
     "requestsLast24Hours": 90,
-    "cachedSources": 68,
+    "cachedSources": 69,
     "acceptedSources": 0,
-    "noMatchingSources": 1,
-    "failedSources": 4,
+    "noMatchingSources": 0,
+    "failedSources": 5,
     "deferredSources": 8,
-    "lastError": "irrelevant_count",
+    "lastError": "ungrounded_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 4,
+    "fetches": 6,
     "linkedDocuments": 11,
     "matchedAlternatives": 0,
-    "pending": 3,
-    "failed": 1,
+    "pending": 4,
+    "failed": 2,
     "report": "data/source-recovery-report.md",
     "ocr": {
       "toolsAvailable": true,
@@ -272,10 +272,10 @@
     "needs_source_lookup": 290,
     "covered": 15,
     "reopened": 9,
-    "needs_review": 336,
+    "needs_review": 337,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 727,
+  "unresolvedNewsCandidates": 728,
   "deferredNewsCandidates": 0
 }
