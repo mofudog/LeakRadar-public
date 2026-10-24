@@ -325,13 +325,14 @@
       "retryAfter": 1792885356.0
     },
     "377b59843b82cb6311aa4d58cd76d9c59b1243f728be2f77253b940291a28f0c": {
-      "hash": "27c93b1ebaebec50989901f60777c9f74ee4e9a62a121d6f959aad51d14495e0",
+      "hash": "df1b94a2741be3b00de86e1436cd7d4d21a3ecd9337e677db8819ef9c91d60cd",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://wasabi-inc.biz/help/news/20260706-04/",
-      "attemptedAt": "2026-10-24T12:53:57+00:00",
-      "state": "success",
-      "passages": []
+      "attemptedAt": "2026-10-24T19:39:33+00:00",
+      "state": "failed",
+      "error": "irrelevant_output",
+      "retryAfter": 1792957173.0
     },
     "2c15d79868a3e66b0831dadc564151ca8d2beaaa4bbb15ec33caab7a22d0079b": {
       "hash": "0fc51f1346bdebb56c2d46ff2fae2d39284916299e9a34dfd4e3b86a7a9fcb98",
@@ -1303,10 +1304,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.release.tdnet.info/inbs/140120261022554492.pdf",
-      "attemptedAt": "2026-10-23T18:54:48+00:00",
+      "attemptedAt": "2026-10-24T19:39:33+00:00",
       "state": "failed",
       "error": "irrelevant_count",
-      "retryAfter": 1792868088.0
+      "retryAfter": 1792957173.0
     },
     "4cf1173ea34c08311e303287f7585a3f6bdc14696d31a0a8c1cb4f319cfef328": {
       "hash": "2619bb89a360c3cc3d1cc12011b47229350c7e0da321efc119e67f10e9c46fa8",
@@ -1345,10 +1346,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.saga-hirakawaya.jp/security-notice/",
-      "attemptedAt": "2026-10-23T18:54:48+00:00",
+      "attemptedAt": "2026-10-24T19:39:33+00:00",
       "state": "failed",
       "error": "ungrounded_output",
-      "retryAfter": 1792868088.0
+      "retryAfter": 1792957173.0
     },
     "fd329caeef3994de1eeaf544ae96cc70ef7b4bb251a3fdabb4144026b8a332d2": {
       "hash": "95df0e029b3a495e20214fdfb4a04bf36f65bc9b4741b39ec57968b9294ff1fa",
@@ -1374,10 +1375,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.seicomart.co.jp/images/top/pdf/202610051430.pdf",
-      "attemptedAt": "2026-10-23T18:54:48+00:00",
+      "attemptedAt": "2026-10-24T19:39:33+00:00",
       "state": "failed",
       "error": "irrelevant_count",
-      "retryAfter": 1792868088.0
+      "retryAfter": 1792957173.0
     },
     "ef8640329ed184827a45e3e2f2ff15f15b6898b6f60c51c8fad07ac941124995": {
       "hash": "dba820355ffeada2c9d57fd0ace5498c7bc32716927e5d59c3339df2feb81d12",
@@ -1831,14 +1832,19 @@
           "quote": "漏洩の可能性がある個人情報の最大件数 メールアドレス:約3,136,000件 電話番号:約105,000件 FAX 番号:約15,000件"
         }
       ]
+    },
+    "f0f4d56c09516f1d53da27eb24ff2d06e8538548eaa9b781619eb9d72e9a8f09": {
+      "hash": "4b6a462895cfaf1040c80cf7b099292d787bdc18956f9632c6ef2a20674bbb49",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://www.kissei.co.jp/news/2026/20261009-5205.html",
+      "attemptedAt": "2026-10-24T19:39:33+00:00",
+      "state": "failed",
+      "error": "irrelevant_output",
+      "retryAfter": 1792957173.0
     }
   },
   "requestTimes": [
-    1792781688.0,
-    1792781688.0,
-    1792781688.0,
-    1792781688.0,
-    1792781688.0,
     1792784699.0,
     1792784699.0,
     1792784699.0,
@@ -1933,6 +1939,11 @@
     1792863723.0,
     1792863723.0,
     1792863723.0,
-    1792863723.0
+    1792863723.0,
+    1792870773.0,
+    1792870773.0,
+    1792870773.0,
+    1792870773.0,
+    1792870773.0
   ]
 }

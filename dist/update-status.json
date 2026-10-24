@@ -1,13 +1,13 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-24T18:47:19+00:00",
+  "lastAttemptAt": "2026-10-24T19:39:33+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-24T18:47:19+00:00",
-  "successfulFetches": 322,
+  "lastPartialSuccessAt": "2026-10-24T19:39:33+00:00",
+  "successfulFetches": 323,
   "failedFetches": 38,
   "changedReviewedSources": 41,
-  "automaticAnnouncements": 191,
-  "watchedDocumentCount": 305,
+  "automaticAnnouncements": 192,
+  "watchedDocumentCount": 306,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
@@ -169,16 +169,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-25",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-24T18:47:19+00:00",
+    "lastAttemptAt": "2026-10-24T19:39:33+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1421,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 71,
-    "confirmedOfficialAnnouncements": 229,
-    "pendingNewsArticles": 750,
+    "officialFetches": 100,
+    "confirmedOfficialAnnouncements": 230,
+    "pendingNewsArticles": 761,
     "skippedReviewedArticles": 28,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -221,7 +221,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-24T18:50:07+00:00",
+      "lastAttemptAt": "2026-10-24T19:42:39+00:00",
       "listPagesChecked": 2,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -231,29 +231,29 @@
   "automaticSummaries": {
     "ready": 37,
     "partial": 110,
-    "pending": 65,
+    "pending": 66,
     "fetchFailed": 12
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
-    "requestsThisRun": 0,
+    "requestsThisRun": 5,
     "requestsLast24Hours": 100,
     "cachedSources": 76,
     "acceptedSources": 0,
     "noMatchingSources": 0,
-    "failedSources": 0,
-    "deferredSources": 3,
-    "lastError": null,
+    "failedSources": 5,
+    "deferredSources": 1,
+    "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 5,
-    "linkedDocuments": 13,
+    "fetches": 1,
+    "linkedDocuments": 14,
     "matchedAlternatives": 0,
-    "pending": 2,
-    "failed": 2,
+    "pending": 0,
+    "failed": 0,
     "report": "data/source-recovery-report.md",
     "ocr": {
       "toolsAvailable": true,
@@ -264,14 +264,14 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 94,
+    "fetch_failed": 97,
     "needs_source_lookup": 288,
     "covered": 15,
     "reopened": 9,
-    "needs_review": 337,
+    "needs_review": 345,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 728,
+  "unresolvedNewsCandidates": 739,
   "deferredNewsCandidates": 0
 }
