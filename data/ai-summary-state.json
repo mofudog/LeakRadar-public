@@ -535,11 +535,11 @@
       ]
     },
     "f95a0617f63f415f38c04b64ed3ddc473123148380b2deae7bb025acf61a8ab9": {
-      "hash": "cf7f938cb341ec4509802f920def38e718cf0e07031d07b3a0c9cae1affdfeb0",
+      "hash": "4202c9c4f8806099dd7f9b44963639e54373383d7a769e56a24328a2f7e17ff3",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.japantimes.co.jp/press/2026/10/02/noticeransomware-incident-jp/",
-      "attemptedAt": "2026-10-23T05:45:58+00:00",
+      "attemptedAt": "2026-10-24T07:46:02+00:00",
       "state": "success",
       "passages": []
     },
@@ -592,10 +592,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.leange.co.jp/corporate_news/post-12669/",
-      "attemptedAt": "2026-10-23T05:45:58+00:00",
+      "attemptedAt": "2026-10-24T07:46:02+00:00",
       "state": "failed",
       "error": "irrelevant_output",
-      "retryAfter": 1792820758.0
+      "retryAfter": 1792914362.0
     },
     "58272eaf7fb53c746823ff4da30ed71c633f6bdcaf08039ca01698f55e51e11d": {
       "hash": "3769f1cfa9b0f83b5037c73e2ce04b27b11265747d772a97433c361e031e79ee",
@@ -1525,20 +1525,20 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.release.tdnet.info/inbs/140120261023555158.pdf",
-      "attemptedAt": "2026-10-23T07:03:00+00:00",
+      "attemptedAt": "2026-10-24T07:46:02+00:00",
       "state": "failed",
       "error": "ungrounded_output",
-      "retryAfter": 1792825380.0
+      "retryAfter": 1792914362.0
     },
     "6548c94fd3d6b135e3898213d3cafc9aabe30f980c41f216cf7f99b482682540": {
       "hash": "50ca08ea9730e92031ad52f8038b2c16c488dec8bff3ea0b52cf689dcc2e6b03",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.release.tdnet.info/inbs/140120261023555328.pdf",
-      "attemptedAt": "2026-10-23T07:03:00+00:00",
+      "attemptedAt": "2026-10-24T07:46:02+00:00",
       "state": "failed",
-      "error": "irrelevant_count",
-      "retryAfter": 1792825380.0
+      "error": "ungrounded_output",
+      "retryAfter": 1792914362.0
     },
     "2513063958a5ecaf54f7a363cc324d9c4aeb892288b784eb5145c3018c862e5f": {
       "hash": "4671b5f84d860c5e522ad303663d054ad41762316df85220c562e5eb34c7278d",
@@ -1761,11 +1761,31 @@
       "state": "failed",
       "error": "ungrounded_output",
       "retryAfter": 1792903529.0
+    },
+    "73fd7bdc94843c3f6b39c8269bbee064be3d4be04caeb5ebb8d2ae1f5ba6cada": {
+      "hash": "ee768d2e02c144ae5507b75e71d68473ebb4bb84ca76a43d17a3bd4c86d14395",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://nsbj.jp/information_leakage_20260218/",
+      "attemptedAt": "2026-10-24T07:46:02+00:00",
+      "state": "success",
+      "passages": [
+        {
+          "kind": "scale",
+          "quote": "40件(件数には個人情報に係る本人が重複している可能性のあるものも含まれます)"
+        },
+        {
+          "kind": "items",
+          "quote": "顧客ID(商品を購入したお客さまごとに発行される固有の識別番号) お名前(フリガナ、会社名は含みません) 郵便番号 ご住所 お電話番号 メールアドレス プライバシーポリシーへの同意の有無"
+        },
+        {
+          "kind": "audience",
+          "quote": "下記期間に弊社オンラインショップで「新規顧客として」ご注文いただいたお客さま 平成 28年 9月 13日 ~ 平成 28年 9月 30日 令和 7年 11月 4日 ~ 令和 8年 2月 3日 (上記期間外でショップ会員登録を行っており、会員ログイン後にご注文されている場合は、上記期間内のご注文であっても漏えい対象にはあたりません)"
+        }
+      ]
     }
   },
   "requestTimes": [
-    1792738980.0,
-    1792738980.0,
     1792756063.0,
     1792756063.0,
     1792756063.0,
@@ -1855,6 +1875,11 @@
     1792825001.0,
     1792825001.0,
     1792825001.0,
-    1792825001.0
+    1792825001.0,
+    1792827962.0,
+    1792827962.0,
+    1792827962.0,
+    1792827962.0,
+    1792827962.0
   ]
 }
