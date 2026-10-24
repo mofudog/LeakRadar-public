@@ -325,14 +325,13 @@
       "retryAfter": 1792885356.0
     },
     "377b59843b82cb6311aa4d58cd76d9c59b1243f728be2f77253b940291a28f0c": {
-      "hash": "45248b071013f25320834913880d4fef1a5c24033a1c4b49fb8e58567bbc34f6",
+      "hash": "28d77b116ee7dc28b6c34b75ff926cd94e2d54cc528dcf1c5bb8959015a32ff3",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://wasabi-inc.biz/help/news/20260706-04/",
-      "attemptedAt": "2026-10-23T05:45:58+00:00",
-      "state": "failed",
-      "error": "irrelevant_count",
-      "retryAfter": 1792820758.0
+      "attemptedAt": "2026-10-24T06:56:41+00:00",
+      "state": "success",
+      "passages": []
     },
     "2c15d79868a3e66b0831dadc564151ca8d2beaaa4bbb15ec33caab7a22d0079b": {
       "hash": "0fc51f1346bdebb56c2d46ff2fae2d39284916299e9a34dfd4e3b86a7a9fcb98",
@@ -1078,10 +1077,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.release.tdnet.info/inbs/140120261016552454.pdf",
-      "attemptedAt": "2026-10-23T03:48:05+00:00",
+      "attemptedAt": "2026-10-24T06:56:41+00:00",
       "state": "failed",
-      "error": "invalid_output",
-      "retryAfter": 1792813685.0
+      "error": "ungrounded_output",
+      "retryAfter": 1792911401.0
     },
     "a086615d394ae1a62bc5601cea8f7371ec2bf65aa240fc2f310497110068cc3e": {
       "hash": "69de4f5b3296be34f337239cb78977096bf9817ca8f5112b70265e4d9e60eafb",
@@ -1106,30 +1105,34 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.release.tdnet.info/inbs/140120261019553073.pdf",
-      "attemptedAt": "2026-10-23T04:46:59+00:00",
+      "attemptedAt": "2026-10-24T06:56:41+00:00",
       "state": "failed",
       "error": "irrelevant_output",
-      "retryAfter": 1792817219.0
+      "retryAfter": 1792911401.0
     },
     "d8d7717434dea76e561a13d5f8722061a7d0768db6f4d83489089a71c057e4fd": {
       "hash": "d1c0ab2b2d06e71e5e7eb20696ed5151efdae449d0abfd22ff4a13844e5e1347",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.release.tdnet.info/inbs/140120261019553091.pdf",
-      "attemptedAt": "2026-10-23T04:46:59+00:00",
-      "state": "failed",
-      "error": "ungrounded_output",
-      "retryAfter": 1792817219.0
+      "attemptedAt": "2026-10-24T06:56:41+00:00",
+      "state": "success",
+      "passages": [
+        {
+          "kind": "items",
+          "quote": "当サービスを利用した医療従事者の氏名、所属医療機関、所在地都道府県  プラットフォームにアクセスするユーザー (管理者、eMR等) の情報(氏名、 メールアドレス)  予約時に連絡先として入力された電話番号、メールアドレス  予約対象となった製品名・製薬企業名  予約作成日時、面談日時、面談ステータス"
+        }
+      ]
     },
     "4761de61074a3937a32dc52c6ae54458dcb584c172c505b6b9b1cf15fb76d7c2": {
       "hash": "23c112931b6582b6e01386678e810d35b26ac13bfcffb2922162719b79cbf8bf",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.release.tdnet.info/inbs/140120261019553109.pdf",
-      "attemptedAt": "2026-10-23T04:46:59+00:00",
+      "attemptedAt": "2026-10-24T06:56:41+00:00",
       "state": "failed",
       "error": "irrelevant_output",
-      "retryAfter": 1792817219.0
+      "retryAfter": 1792911401.0
     },
     "c25529488e0ec791c0c58391f9ad4cf2ed4d4f3e7b8f082583f212ef507e115a": {
       "hash": "3b859d5642d65ca9e53862732bb09804afa4464e19b0746aa164692af25d540b",
@@ -1847,6 +1850,11 @@
     1792820768.0,
     1792820768.0,
     1792820768.0,
-    1792820768.0
+    1792820768.0,
+    1792825001.0,
+    1792825001.0,
+    1792825001.0,
+    1792825001.0,
+    1792825001.0
   ]
 }
