@@ -3,7 +3,7 @@
 No LLM, paid API, leaked personal data, or automatic claims about affected people.
 """
 from __future__ import annotations
-import concurrent.futures, datetime as dt, hashlib, html, json, os, re, sys, urllib.error, urllib.parse, urllib.request
+import concurrent.futures, datetime as dt, hashlib, html, json, os, re, sys, time, urllib.error, urllib.parse, urllib.request
 from html.parser import HTMLParser
 from bs4 import BeautifulSoup
 from news_discovery import run as discover_news, public_url, decode_html, KEY, is_unofficial_publisher
@@ -115,8 +115,19 @@ class Page(HTMLParser):
 def fetch(url,allowed):
  public_url(url)
  if not safe_url(url,allowed):raise ValueError('Unregistered URL')
- req=urllib.request.Request(url,headers={'User-Agent':'Mofu-Information-LeakCheck/1.0','Accept':'text/html,application/pdf,application/json;q=0.9'})
- with urllib.request.build_opener(RedirectGuard(allowed)).open(req,timeout=18) as response:
+ parts=urllib.parse.urlsplit(url)
+ request_url=urllib.parse.urlunsplit((parts.scheme,parts.netloc,urllib.parse.quote(parts.path,safe="/%:@!$&'()*+,;=-._~"),urllib.parse.quote(parts.query,safe="/?=:&;%+@!$'()*,-._~"),''))
+ req=urllib.request.Request(request_url,headers={'User-Agent':'Mofu-Information-LeakCheck/1.0','Accept':'text/html,application/pdf,application/json;q=0.9'})
+ opener=urllib.request.build_opener(RedirectGuard(allowed))
+ for attempt in range(3):
+  try:
+   response=opener.open(req,timeout=18)
+   break
+  except urllib.error.HTTPError as error:
+   if error.code not in (500,502,503,504) or attempt>=2:raise
+   error.close()
+   time.sleep(2**attempt)
+ with response as response:
   length=response.headers.get('Content-Length')
   if length and int(length)>12_000_000:raise ValueError('Source exceeds size limit')
   data=response.read(12_000_001)
