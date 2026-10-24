@@ -1,10 +1,10 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-24T22:42:45+00:00",
+  "lastAttemptAt": "2026-10-24T23:38:58+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-24T22:42:45+00:00",
-  "successfulFetches": 323,
-  "failedFetches": 39,
+  "lastPartialSuccessAt": "2026-10-24T23:38:58+00:00",
+  "successfulFetches": 324,
+  "failedFetches": 38,
   "changedReviewedSources": 41,
   "automaticAnnouncements": 192,
   "watchedDocumentCount": 307,
@@ -62,10 +62,6 @@
     {
       "url": "https://www.sagin-dp.jp/news/000097.php",
       "error": "HTTP Error 503: Service Temporarily Unavailable"
-    },
-    {
-      "url": "https://sanpofoods.co.jp/news/archives/1658/",
-      "error": "The read operation timed out"
     },
     {
       "url": "https://www.nihon-kotsu.co.jp/news/20260819-3385/",
@@ -173,16 +169,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-25",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-24T22:42:45+00:00",
+    "lastAttemptAt": "2026-10-24T23:38:58+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1421,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 74,
+    "officialFetches": 100,
     "confirmedOfficialAnnouncements": 230,
-    "pendingNewsArticles": 751,
+    "pendingNewsArticles": 760,
     "skippedReviewedArticles": 28,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -225,7 +221,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-24T22:44:58+00:00",
+      "lastAttemptAt": "2026-10-24T23:41:55+00:00",
       "listPagesChecked": 2,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -236,24 +232,24 @@
     "ready": 37,
     "partial": 110,
     "pending": 66,
-    "fetchFailed": 13
+    "fetchFailed": 12
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
     "requestsLast24Hours": 100,
-    "cachedSources": 74,
+    "cachedSources": 75,
     "acceptedSources": 0,
-    "noMatchingSources": 0,
-    "failedSources": 5,
+    "noMatchingSources": 1,
+    "failedSources": 4,
     "deferredSources": 4,
     "lastError": "irrelevant_count",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 2,
+    "fetches": 3,
     "linkedDocuments": 14,
     "matchedAlternatives": 0,
     "pending": 2,
@@ -268,14 +264,14 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 101,
+    "fetch_failed": 95,
     "needs_source_lookup": 288,
     "covered": 15,
     "reopened": 9,
-    "needs_review": 331,
+    "needs_review": 346,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 729,
+  "unresolvedNewsCandidates": 738,
   "deferredNewsCandidates": 0
 }
