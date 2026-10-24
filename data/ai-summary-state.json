@@ -941,10 +941,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.nidek.co.jp/news/20260807-news/",
-      "attemptedAt": "2026-10-23T02:47:44+00:00",
+      "attemptedAt": "2026-10-24T04:45:29+00:00",
       "state": "failed",
-      "error": "ungrounded_output",
-      "retryAfter": 1792810064.0
+      "error": "irrelevant_count",
+      "retryAfter": 1792903529.0
     },
     "c642f5b0fb987d39312885a7d3825a415e37de2f15a52f69221a0542d846117d": {
       "hash": "666f98c292b7456b26b28d511be0fae4eb9a4f9f3bd50a7fb11e973ffc21f685",
@@ -987,10 +987,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.release.tdnet.info/inbs/140120261014550839.pdf",
-      "attemptedAt": "2026-10-23T02:47:44+00:00",
+      "attemptedAt": "2026-10-24T04:45:29+00:00",
       "state": "failed",
       "error": "ungrounded_output",
-      "retryAfter": 1792810064.0
+      "retryAfter": 1792903529.0
     },
     "0d204120926f21dd0b409bca21644fd8183d2c2e9762fdbe6028380d70836bbc": {
       "hash": "8f3c9cda81d3d024a734c3df4aeec3394661cb9974f86fba002d0b7587434245",
@@ -1006,10 +1006,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.release.tdnet.info/inbs/140120261015551164.pdf",
-      "attemptedAt": "2026-10-23T02:47:44+00:00",
+      "attemptedAt": "2026-10-24T04:45:29+00:00",
       "state": "failed",
       "error": "irrelevant_output",
-      "retryAfter": 1792810064.0
+      "retryAfter": 1792903529.0
     },
     "8779a787329b30746de05425bf6ceb274bf368c0cc6a3f1f89ba540fef4b460d": {
       "hash": "23841d5c48d61ae7676f359016170b1012b35d0a289a4aaaa4ba6dc554840f9f",
@@ -1734,14 +1734,33 @@
       "state": "failed",
       "error": "irrelevant_count",
       "retryAfter": 1792857499.0
+    },
+    "e577feac0053a3dea984a59d751454e8a1f6bd8ddcd63cfb837585064b00f43f": {
+      "hash": "5b73a2fdc3fc3c7285696fa4f0f2fe25ece81ca96dd61813a2e7fd914ec08661",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://www.release.tdnet.info/inbs/140120261024555606.pdf",
+      "attemptedAt": "2026-10-24T04:45:29+00:00",
+      "state": "success",
+      "passages": [
+        {
+          "kind": "audience",
+          "quote": "本サービスを現在ご利用されているすべてのお客様に対し、金銭的被害の有無にかかわらず、お見舞金として一律 5,000 円をお支払いします。"
+        }
+      ]
+    },
+    "ce6ade65b463ae33132e6f04083107e0372414e004a1b50f7aee28df521e78c0": {
+      "hash": "02e41174c21479594a11ddcd288b0e39acc411f21292738218b26423ba726c66",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://www.release.tdnet.info/inbs/140120261024555624.pdf",
+      "attemptedAt": "2026-10-24T04:45:29+00:00",
+      "state": "failed",
+      "error": "ungrounded_output",
+      "retryAfter": 1792903529.0
     }
   },
   "requestTimes": [
-    1792727285.0,
-    1792727285.0,
-    1792727285.0,
-    1792727285.0,
-    1792727285.0,
     1792730819.0,
     1792730819.0,
     1792730819.0,
@@ -1826,6 +1845,11 @@
     1792813650.0,
     1792813650.0,
     1792813650.0,
-    1792813650.0
+    1792813650.0,
+    1792817129.0,
+    1792817129.0,
+    1792817129.0,
+    1792817129.0,
+    1792817129.0
   ]
 }

@@ -1,13 +1,13 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-24T03:47:30+00:00",
+  "lastAttemptAt": "2026-10-24T04:45:29+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-24T03:47:30+00:00",
-  "successfulFetches": 318,
+  "lastPartialSuccessAt": "2026-10-24T04:45:29+00:00",
+  "successfulFetches": 320,
   "failedFetches": 39,
   "changedReviewedSources": 41,
-  "automaticAnnouncements": 187,
-  "watchedDocumentCount": 300,
+  "automaticAnnouncements": 189,
+  "watchedDocumentCount": 302,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
@@ -93,7 +93,7 @@
     },
     {
       "url": "https://www.betsudaikohsan.co.jp/topics/detail/id_402/",
-      "error": "[Errno -3] Temporary failure in name resolution"
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "url": "https://corp.eplus.jp/press-release/1824/",
@@ -173,15 +173,15 @@
   "cloudRun": true,
   "retentionStart": "2023-10-24",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-24T03:47:30+00:00",
+    "lastAttemptAt": "2026-10-24T04:45:29+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1422,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 95,
-    "confirmedOfficialAnnouncements": 225,
+    "officialFetches": 74,
+    "confirmedOfficialAnnouncements": 227,
     "pendingNewsArticles": 750,
     "skippedReviewedArticles": 28,
     "archiveCursors": {
@@ -225,7 +225,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-24T03:50:06+00:00",
+      "lastAttemptAt": "2026-10-24T04:47:42+00:00",
       "listPagesChecked": 4,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -234,7 +234,7 @@
   },
   "automaticSummaries": {
     "ready": 38,
-    "partial": 104,
+    "partial": 106,
     "pending": 66,
     "fetchFailed": 11
   },
@@ -245,15 +245,15 @@
     "requestsLast24Hours": 90,
     "cachedSources": 69,
     "acceptedSources": 0,
-    "noMatchingSources": 0,
-    "failedSources": 5,
-    "deferredSources": 8,
-    "lastError": "ungrounded_output",
+    "noMatchingSources": 1,
+    "failedSources": 4,
+    "deferredSources": 10,
+    "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 6,
+    "fetches": 8,
     "linkedDocuments": 11,
     "matchedAlternatives": 0,
     "pending": 4,
@@ -268,11 +268,11 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 92,
+    "fetch_failed": 93,
     "needs_source_lookup": 290,
     "covered": 15,
     "reopened": 9,
-    "needs_review": 337,
+    "needs_review": 336,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
