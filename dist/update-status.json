@@ -1,11 +1,11 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-24T12:53:57+00:00",
+  "lastAttemptAt": "2026-10-24T13:43:11+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-24T12:53:57+00:00",
-  "successfulFetches": 321,
-  "failedFetches": 39,
-  "changedReviewedSources": 41,
+  "lastPartialSuccessAt": "2026-10-24T13:43:11+00:00",
+  "successfulFetches": 318,
+  "failedFetches": 40,
+  "changedReviewedSources": 40,
   "automaticAnnouncements": 191,
   "watchedDocumentCount": 303,
   "watchedIndexCount": 52,
@@ -17,6 +17,10 @@
     },
     {
       "url": "https://www.lashinbang.com/info/26357/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.mrmax.co.jp/info/incident_20261006/",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -80,6 +84,10 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "url": "https://www.temairazu.co.jp/pdf/1206/news-update",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
       "url": "https://www.lbm.co.jp/news/2026/260109/",
       "error": "HTTP Error 503: Service Unavailable"
     },
@@ -113,6 +121,10 @@
     },
     {
       "url": "https://www.lashinbang.com/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.mrmax.co.jp/",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -158,14 +170,6 @@
     {
       "url": "https://www.monogatari.co.jp/ir/ir_news/",
       "error": "Source body could not be read"
-    },
-    {
-      "url": "https://raiden.site.ktaiwork.jp/wp-content/uploads/sites/2/2026/10/【説明資料】不正アクセスによる個⼈情報漏えいの可能性に関して20261023.pdf",
-      "error": "'ascii' codec can't encode characters in position 40-69: ordinal not in range(128)"
-    },
-    {
-      "url": "https://raiden.site.ktaiwork.jp/wp-content/uploads/sites/2/2026/10/【報告書】不正アクセスによる個⼈情報漏えいの可能性に関して20261023.pdf",
-      "error": "'ascii' codec can't encode characters in position 40-68: ordinal not in range(128)"
     }
   ],
   "fullyComprehensive": false,
@@ -173,16 +177,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-24",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-24T12:53:57+00:00",
+    "lastAttemptAt": "2026-10-24T13:43:11+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1422,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 100,
+    "officialFetches": 83,
     "confirmedOfficialAnnouncements": 229,
-    "pendingNewsArticles": 764,
+    "pendingNewsArticles": 751,
     "skippedReviewedArticles": 28,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -225,7 +229,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-24T12:57:17+00:00",
+      "lastAttemptAt": "2026-10-24T13:45:18+00:00",
       "listPagesChecked": 4,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -233,31 +237,31 @@
     }
   },
   "automaticSummaries": {
-    "ready": 39,
-    "partial": 106,
+    "ready": 37,
+    "partial": 108,
     "pending": 67,
-    "fetchFailed": 11
+    "fetchFailed": 13
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
-    "requestsThisRun": 5,
+    "requestsThisRun": 0,
     "requestsLast24Hours": 100,
-    "cachedSources": 73,
+    "cachedSources": 71,
     "acceptedSources": 0,
-    "noMatchingSources": 2,
-    "failedSources": 3,
-    "deferredSources": 1,
-    "lastError": "ungrounded_output",
+    "noMatchingSources": 0,
+    "failedSources": 0,
+    "deferredSources": 5,
+    "lastError": null,
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 3,
-    "linkedDocuments": 11,
+    "fetches": 5,
+    "linkedDocuments": 13,
     "matchedAlternatives": 0,
     "pending": 2,
-    "failed": 0,
+    "failed": 2,
     "report": "data/source-recovery-report.md",
     "ocr": {
       "toolsAvailable": true,
@@ -268,14 +272,14 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 97,
+    "fetch_failed": 99,
     "needs_source_lookup": 290,
     "covered": 15,
     "reopened": 9,
-    "needs_review": 346,
+    "needs_review": 331,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 742,
+  "unresolvedNewsCandidates": 729,
   "deferredNewsCandidates": 0
 }
