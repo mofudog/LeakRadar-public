@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-23T23:42:36+00:00",
+  "lastAttemptAt": "2026-10-24T01:04:14+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-23T23:42:36+00:00",
+  "lastPartialSuccessAt": "2026-10-24T01:04:14+00:00",
   "successfulFetches": 316,
   "failedFetches": 39,
   "changedReviewedSources": 41,
@@ -85,7 +85,7 @@
     },
     {
       "url": "https://ainokaze.co.jp/24166",
-      "error": "HTTP Error 503: Service Unavailable"
+      "error": "HTTP Error 401: Unauthorized"
     },
     {
       "url": "https://www.sagin-dp.jp/news/000094.php",
@@ -173,14 +173,14 @@
   "cloudRun": true,
   "retentionStart": "2023-10-24",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-23T23:42:36+00:00",
+    "lastAttemptAt": "2026-10-24T01:04:14+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1422,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 94,
+    "officialFetches": 79,
     "confirmedOfficialAnnouncements": 224,
     "pendingNewsArticles": 749,
     "skippedReviewedArticles": 28,
@@ -225,7 +225,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-23T23:44:53+00:00",
+      "lastAttemptAt": "2026-10-24T01:07:23+00:00",
       "listPagesChecked": 4,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -242,18 +242,18 @@
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
-    "requestsLast24Hours": 95,
-    "cachedSources": 67,
+    "requestsLast24Hours": 90,
+    "cachedSources": 68,
     "acceptedSources": 0,
-    "noMatchingSources": 1,
-    "failedSources": 4,
-    "deferredSources": 7,
+    "noMatchingSources": 0,
+    "failedSources": 5,
+    "deferredSources": 10,
     "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 6,
+    "fetches": 5,
     "linkedDocuments": 11,
     "matchedAlternatives": 0,
     "pending": 4,
