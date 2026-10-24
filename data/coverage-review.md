@@ -1,15 +1,15 @@
 # 収集候補の確認状況
 
-確認日時: 2026-10-24T19:39:33+00:00
+確認日時: 2026-10-24T20:41:24+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
 - 掲載済み: 15件
 - 同一事案の別記事: 2件
 - 掲載対象外: 9件
-- 取得失敗: 97件
+- 取得失敗: 99件
 - 公式発表の発見待ち: 288件
-- 内容確認が必要: 345件
+- 内容確認が必要: 332件
 - 未処理: 0件
 - 再確認が必要: 9件
 
@@ -396,10 +396,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://news.mynavi.jp/article/20210420-security>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-after-gamers-data-stolen-in-cyberattack/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.capcom.co.jp/ir/english/news/html/e261022.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://cid.capcom.com/en/guide/game/regist/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.capcom.co.jp/ir/sustainability/security.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.zkai.co.jp/post-120678/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/news/press/2026/261007_houdou?ref=tninf>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/news/careful_information/261007_alert?ref=topnews>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119314/>
 
 ### リクルートの中古車情報サービスで個人情報など流出か
@@ -820,10 +820,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.sankei.com/article/20261006-QENMXFY2YBPCFK734JJGVGLWSQ/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.sankei.com/article/20261005-BWOBT7GNLJLT5DXHLR35YV54BY/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.sankei.com/article/20261015-GJ537TQB3NJF7BN2745YG3CRIE/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.sankei.com/article/20261015-AYKWEDXF6FLRPDXODPS63PDSWM/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.sankei.com/article/20261013-VXBIIZ454JORTPWNLNSXRWDPWM/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.itmedia.co.jp/business/articles/2610/20/news045.html>
 
 ### 不正アクセス・情報漏えいの記録｜2026年10月
@@ -1271,9 +1271,9 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: HTTPError: HTTP Error 406: Not Acceptable / <https://www.nikkei.com/markets/ir/irftp/data/tdnr/tdnetg3/20261016/g6lrwl/140120261016552453.pdf>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nttsolmare.com/press/2026/1016.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.post.japanpost.jp/newsrelease/pressrelease/383542224171.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nikkeibp.co.jp/atcl/newsrelease/corp/20261017/>
-- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://outpost-amd1006.slack.com/archives/C08UZSUAGLQ/p1792548071612799>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/118964/>
 
 ### Eストアー「ショップサーブ」不正アクセスの最終報、漏えい対象者は約2,335万6,000人
@@ -1284,8 +1284,6 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.pfu.ricoh.com/news/2026/news260918-2.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nikkei.com/article/DGXZQOUC16B0O0W6A011C2000000/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/118960/>
 
 ### ヤマト運輸、利用者情報約526万件の持ち出し判明　「クロネコ代金後払い」不正アクセスの第4報
@@ -1310,22 +1308,25 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nikkei.co.jp/nikkeiinfo/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nikkeibp.co.jp/atcl/newsrelease/corp/20261021_2/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/news/press/2026/261007_houdou?ref=tninf>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/news/careful_information/261007_alert?ref=topnews>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/legal/rouei?ref=toppanel>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/personalinfo/legal/leakAction?ref=toppanel>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/118954/>
 
 ### Meta、GitHubリポジトリに不正アクセスで約1,500人に通知　入口は従業員の盗まれた認証情報
 
-内容確認が必要 / 報道・公表日: 2026-10-17
+取得失敗 / 報道・公表日: 2026-10-17
 
 <https://innovatopia.jp/cyber-security/cyber-security-news/118948/>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://adversa.ai/blog/cryptographic-context-injection-github-copilot/>
+- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://securityboulevard.com/2026/10/meta-security-breach-exposes-corporate-code-employee-data-on-github/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.digit.in/news/general/meta-says-hackers-accessed-its-github-exposing-personal-data-of-1500-people.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://cybernews.com/security/meta-hack-github-personal-data/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://docs.github.com/en/code-security/concepts/secret-security/secret-scanning>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/118948/>
 
 ### \[ITmedia ビジネスオンライン\] ECサイト運営支援「ショップサーブ」で約2335万人の情報漏えい　クレカ情報も一部流出
@@ -1742,10 +1743,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.g-plan.net/news/details/20260930.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jaea.go.jp/02/press2026/p26100105/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://tixplus.jp/information/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nipponrentacar.co.jp/info/202610_2.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://studysapuri.jp/info/important/>
+- 取得結果: ValueError: Cross-domain redirect requires review / <https://www.monogatari.co.jp/news/261005_news/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.itmedia.co.jp/enterprise/articles/2610/07/news020.html>
 
 ### アプリや通販サイト会員の個人情報が流出 - MrMax
@@ -1909,17 +1908,7 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/190445>
-
-### 川崎市施設のサイトに不正アクセス - サイト更新時に判明
-
-内容確認が必要 / 報道・公表日: 2026-09-25
-
-<https://www.security-next.com/190242>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/190242>
+- 取得結果: ValueError: Not an eligible first-party source / <https://www.fukujo.ac.jp/university/>
 
 ### 不正アクセスでサイト改ざん、内部に個人情報 - コンサル会社
 
@@ -3278,16 +3267,6 @@
 
 - 取得結果: URLError: <urlopen error \[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: certificate has expired ( / <https://e-olive.com/>
 
-### JetBrains「YouTrack」に複数の脆弱性 - トークン漏洩のおそれも
-
-内容確認が必要 / 報道・公表日: 2025-11-11
-
-<https://www.security-next.com/176940>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/176940>
-
 ### 説明会の参加者向けメールで誤送信 - 鳥取労働基準監督署
 
 内容確認が必要 / 報道・公表日: 2025-11-10
@@ -3296,37 +3275,7 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/176878>
-
-### サイト侵害で個人情報流出の可能性 - 幼児向け通信教材会社
-
-内容確認が必要 / 報道・公表日: 2025-11-10
-
-<https://www.security-next.com/176690>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/176690>
-
-### 職員などの個人情報含む書類を外出時に紛失か - 志摩市
-
-内容確認が必要 / 報道・公表日: 2025-11-06
-
-<https://www.security-next.com/176375>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/176375>
-
-### 全校生徒の個人情報を流出させた教師を懲戒処分 - 愛媛県
-
-内容確認が必要 / 報道・公表日: 2025-11-06
-
-<https://www.security-next.com/176233>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/176233>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.mhlw.go.jp/>
 
 ### マルウェアがSlack認証情報を窃取、個人情報や履歴が流出か - 日経
 
@@ -3336,37 +3285,17 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/176746>
-
-### 物流関連サービスへ不正アクセス、個人情報流出のおそれ - 西濃運輸
-
-内容確認が必要 / 報道・公表日: 2025-11-06
-
-<https://www.security-next.com/176770>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/176770>
+- 取得結果: ValueError: Cross-domain redirect requires review / <https://www.nikkei.co.jp/>
 
 ### 業務用PCから個人情報流出か、詳細を調査 - JRバス関東
 
-内容確認が必要 / 報道・公表日: 2025-11-05
+取得失敗 / 報道・公表日: 2025-11-05
 
 <https://www.security-next.com/176433>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/176433>
-
-### 複数ECサイトで個人情報流出か、営業は再開 - ユニバーサルミュージック
-
-内容確認が必要 / 報道・公表日: 2025-11-05
-
-<https://www.security-next.com/176687>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/176687>
+- 取得結果: URLError: <urlopen error timed out> / <https://www.jrbuskanto.co.jp/jwp/>
 
 ### サイクリングイベント参加者へのお礼メールで誤送信 - 栄村
 
@@ -3377,46 +3306,6 @@
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
 - 取得結果: No direct official announcement link found / <https://www.security-next.com/176697>
-
-### ビジネスフォン通販サイト、個人情報流出の可能性
-
-内容確認が必要 / 報道・公表日: 2025-11-04
-
-<https://www.security-next.com/176609>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/176609>
-
-### ネット印刷サービスにサイバー攻撃、個人情報流出か - ウイルコHD子会社
-
-内容確認が必要 / 報道・公表日: 2025-10-31
-
-<https://www.security-next.com/176577>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/176577>
-
-### 英国ブランド通販サイト、約3年間にわたりクレカ情報流出の可能性
-
-内容確認が必要 / 報道・公表日: 2025-10-31
-
-<https://www.security-next.com/176542>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/176542>
-
-### イベント案内メールで誤送信、参加者のメアド流出 - 氷見市
-
-内容確認が必要 / 報道・公表日: 2025-10-30
-
-<https://www.security-next.com/176492>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/176492>
 
 ### 外部サービス侵害で従業員などの個人情報が流出した可能性 - アルビオン
 
