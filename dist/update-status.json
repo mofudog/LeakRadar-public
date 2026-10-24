@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-24T11:45:06+00:00",
+  "lastAttemptAt": "2026-10-24T12:53:57+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-24T11:45:06+00:00",
+  "lastPartialSuccessAt": "2026-10-24T12:53:57+00:00",
   "successfulFetches": 321,
   "failedFetches": 39,
   "changedReviewedSources": 41,
@@ -173,16 +173,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-24",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-24T11:45:06+00:00",
+    "lastAttemptAt": "2026-10-24T12:53:57+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1422,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 68,
+    "officialFetches": 100,
     "confirmedOfficialAnnouncements": 229,
-    "pendingNewsArticles": 752,
+    "pendingNewsArticles": 764,
     "skippedReviewedArticles": 28,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -225,7 +225,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-24T11:47:42+00:00",
+      "lastAttemptAt": "2026-10-24T12:57:17+00:00",
       "listPagesChecked": 4,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -241,23 +241,23 @@
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
-    "requestsThisRun": 0,
+    "requestsThisRun": 5,
     "requestsLast24Hours": 100,
     "cachedSources": 73,
     "acceptedSources": 0,
-    "noMatchingSources": 0,
-    "failedSources": 0,
-    "deferredSources": 4,
-    "lastError": null,
+    "noMatchingSources": 2,
+    "failedSources": 3,
+    "deferredSources": 1,
+    "lastError": "ungrounded_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 8,
+    "fetches": 3,
     "linkedDocuments": 11,
     "matchedAlternatives": 0,
-    "pending": 4,
-    "failed": 2,
+    "pending": 2,
+    "failed": 0,
     "report": "data/source-recovery-report.md",
     "ocr": {
       "toolsAvailable": true,
@@ -268,14 +268,14 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 98,
+    "fetch_failed": 97,
     "needs_source_lookup": 290,
     "covered": 15,
     "reopened": 9,
-    "needs_review": 333,
+    "needs_review": 346,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 730,
+  "unresolvedNewsCandidates": 742,
   "deferredNewsCandidates": 0
 }
