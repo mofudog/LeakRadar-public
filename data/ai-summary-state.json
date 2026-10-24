@@ -1343,13 +1343,14 @@
       "retryAfter": 1792868088.0
     },
     "fd329caeef3994de1eeaf544ae96cc70ef7b4bb251a3fdabb4144026b8a332d2": {
-      "hash": "942fe09e407ecb783feee8f604e3551e88d06858bd9d85ad2dd724032a82636b",
+      "hash": "95df0e029b3a495e20214fdfb4a04bf36f65bc9b4741b39ec57968b9294ff1fa",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.sakura-kogyo.co.jp/%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e7%ad%89%e3%81%ae%e6%bc%8f%e3%81%88%e3%81%84%e3%81%ae%e3%81%8a%e3%81%9d%e3%82%8c/",
-      "attemptedAt": "2026-10-22T15:48:59+00:00",
-      "state": "success",
-      "passages": []
+      "attemptedAt": "2026-10-24T14:43:58+00:00",
+      "state": "failed",
+      "error": "ungrounded_output",
+      "retryAfter": 1792939438.0
     },
     "787555071aa218b1a92da6e7e582382a84972824cfbbff53323075cd6de6f2d1": {
       "hash": "2d7d758fae5aa857e1a6f36831da64ce7164c913791ec17230bb27e437fcabc8",
@@ -1593,10 +1594,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://corp.timescar.jp/mail/announce/faq.pdf?20261006=",
-      "attemptedAt": "2026-10-23T13:53:25+00:00",
+      "attemptedAt": "2026-10-24T14:43:58+00:00",
       "state": "failed",
       "error": "ungrounded_output",
-      "retryAfter": 1792850005.0
+      "retryAfter": 1792939438.0
     },
     "528aec6e6099feecf7ccd9fd5e20506568bbf20d33e09655dd77da250941be16": {
       "hash": "28400f64a746105b667a9d2957bbe451bfd35615f55f3e342c7d011b54cf9a2f",
@@ -1635,20 +1636,28 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.corona.co.jp/news/other/-2-1.html",
-      "attemptedAt": "2026-10-23T13:53:25+00:00",
+      "attemptedAt": "2026-10-24T14:43:58+00:00",
       "state": "failed",
-      "error": "irrelevant_count",
-      "retryAfter": 1792850005.0
+      "error": "ungrounded_output",
+      "retryAfter": 1792939438.0
     },
     "8dcbf99da5dda73f034ae14163567ccef8863bc386914068a252561ae749f19c": {
       "hash": "d68c41cb68a2fb8f3403112cf9ef5a7319ccfa095f589a9b64f55000097c6ddb",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.japex.co.jp/news/detail/20261021_01/",
-      "attemptedAt": "2026-10-23T13:53:25+00:00",
-      "state": "failed",
-      "error": "api_http_503",
-      "retryAfter": 1792850005.0
+      "attemptedAt": "2026-10-24T14:43:58+00:00",
+      "state": "success",
+      "passages": [
+        {
+          "kind": "audience",
+          "quote": "JAPEXメールマガジンにご登録の方の情報(漏えい件数は調査中) ・メールアドレス 機関投資家・証券アナリスト向けイベント案内配信対象者の方の情報(漏えい件数は調査中) ・氏名、会社名、所属部署、役職、メールアドレス、郵便番号、住所、電話番号"
+        },
+        {
+          "kind": "items",
+          "quote": "JAPEXメールマガジンにご登録の方の情報(漏えい件数は調査中) ・メールアドレス 機関投資家・証券アナリスト向けイベント案内配信対象者の方の情報(漏えい件数は調査中) ・氏名、会社名、所属部署、役職、メールアドレス、郵便番号、住所、電話番号"
+        }
+      ]
     },
     "7f4fadda98fd1878145c391ff0795f5639aa38f3ca45674ebd9e3522e971b81e": {
       "hash": "1946fe3e5dacfb98f932090af669c08307ba37bfe88c4fb2e61f2a3463092041",
@@ -1791,14 +1800,27 @@
       "attemptedAt": "2026-10-24T08:47:15+00:00",
       "state": "success",
       "passages": []
+    },
+    "e2009040890852d995194b16da34e62ed8708a49c19b4f09f508c583d592a090": {
+      "hash": "4ce3f35d6b383aed9b887fc42af0fa425b946105dbd6e0c1f6b497efb76fab0f",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://raiden.site.ktaiwork.jp/archives/4597",
+      "attemptedAt": "2026-10-24T14:43:58+00:00",
+      "state": "success",
+      "passages": [
+        {
+          "kind": "items",
+          "quote": "漏洩した可能性がある情報は、SpeeCAN RAIDENで扱っている以下となります。 連絡先の名前、メールアドレス、電話・FAX番号 担当者、契約情報 履歴として保存されている本文に記載されている内容"
+        },
+        {
+          "kind": "scale",
+          "quote": "漏洩の可能性がある個人情報の最大件数 メールアドレス:約3,136,000件 電話番号:約105,000件 FAX 番号:約15,000件"
+        }
+      ]
     }
   },
   "requestTimes": [
-    1792763605.0,
-    1792763605.0,
-    1792763605.0,
-    1792763605.0,
-    1792763605.0,
     1792767162.0,
     1792767162.0,
     1792767162.0,
@@ -1893,6 +1915,11 @@
     1792846437.0,
     1792846437.0,
     1792846437.0,
-    1792846437.0
+    1792846437.0,
+    1792853038.0,
+    1792853038.0,
+    1792853038.0,
+    1792853038.0,
+    1792853038.0
   ]
 }
