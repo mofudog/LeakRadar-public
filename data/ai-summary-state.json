@@ -329,13 +329,14 @@
       "retryAfter": 1792976088.0
     },
     "377b59843b82cb6311aa4d58cd76d9c59b1243f728be2f77253b940291a28f0c": {
-      "hash": "f1ca9055e013e9525ede31b6f4c0f46f516470f3198c75e88ab3d4fde1e67afe",
+      "hash": "98d3d32f923308f24a6634b3dcc20234ac5ef3e5d0ea9d27eb0b87aa80a4770f",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://wasabi-inc.biz/help/news/20260706-04/",
-      "attemptedAt": "2026-10-25T09:22:22+00:00",
-      "state": "success",
-      "passages": []
+      "attemptedAt": "2026-10-25T14:44:32+00:00",
+      "state": "failed",
+      "error": "irrelevant_output",
+      "retryAfter": 1793025872.0
     },
     "2c15d79868a3e66b0831dadc564151ca8d2beaaa4bbb15ec33caab7a22d0079b": {
       "hash": "0fc51f1346bdebb56c2d46ff2fae2d39284916299e9a34dfd4e3b86a7a9fcb98",
@@ -539,11 +540,11 @@
       ]
     },
     "f95a0617f63f415f38c04b64ed3ddc473123148380b2deae7bb025acf61a8ab9": {
-      "hash": "fdf91926b23d48c1dff0ccf44eb71bd110e5195c71992427483b9894adee2805",
+      "hash": "faff261ad441d6e9a4fc7f89d7b6f5709a6ee50c075d13b6838139edd8817082",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.japantimes.co.jp/press/2026/10/02/noticeransomware-incident-jp/",
-      "attemptedAt": "2026-10-25T13:43:48+00:00",
+      "attemptedAt": "2026-10-25T14:44:32+00:00",
       "state": "success",
       "passages": []
     },
@@ -1358,10 +1359,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.sakura-kogyo.co.jp/%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e7%ad%89%e3%81%ae%e6%bc%8f%e3%81%88%e3%81%84%e3%81%ae%e3%81%8a%e3%81%9d%e3%82%8c/",
-      "attemptedAt": "2026-10-24T14:43:58+00:00",
+      "attemptedAt": "2026-10-25T14:44:32+00:00",
       "state": "failed",
       "error": "ungrounded_output",
-      "retryAfter": 1792939438.0
+      "retryAfter": 1793025872.0
     },
     "787555071aa218b1a92da6e7e582382a84972824cfbbff53323075cd6de6f2d1": {
       "hash": "2d7d758fae5aa857e1a6f36831da64ce7164c913791ec17230bb27e437fcabc8",
@@ -1572,14 +1573,18 @@
       "retryAfter": 1793022228.0
     },
     "7e51f5596564e2db3cd1f6764c727c70ad3e789c8689a2c552558bdac798bb0a": {
-      "hash": "f58365061437e38098cbec7c2f1eee17b62a9907588ee6100040ddb182d9e8c7",
+      "hash": "257e4f9fa617225644bd6f82e0e5024b7f871fc88c1086eb6031c7b2b712cc01",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.niigata-nippo.co.jp/articles/-/929006",
-      "attemptedAt": "2026-10-25T08:46:37+00:00",
-      "state": "failed",
-      "error": "irrelevant_output",
-      "retryAfter": 1793004397.0
+      "attemptedAt": "2026-10-25T14:44:32+00:00",
+      "state": "success",
+      "passages": [
+        {
+          "kind": "scale",
+          "quote": "「新潟日報パスポート」全会員分の個人情報が漏えいしたことが判明しました。最大約25万3000人とみられます。"
+        }
+      ]
     },
     "cd94c34729dc2cf1f26eaf564819af186e4755d257fce8bb6a828a7537bcedf9": {
       "hash": "6018a95877e95154ac74aa51996f4db08689bbaa9f4386edb3f4074b46e6d7a0",
@@ -1606,10 +1611,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://corp.timescar.jp/mail/announce/faq.pdf?20261006=",
-      "attemptedAt": "2026-10-24T14:43:58+00:00",
+      "attemptedAt": "2026-10-25T14:44:32+00:00",
       "state": "failed",
       "error": "ungrounded_output",
-      "retryAfter": 1792939438.0
+      "retryAfter": 1793025872.0
     },
     "528aec6e6099feecf7ccd9fd5e20506568bbf20d33e09655dd77da250941be16": {
       "hash": "28400f64a746105b667a9d2957bbe451bfd35615f55f3e342c7d011b54cf9a2f",
@@ -1862,11 +1867,6 @@
     }
   },
   "requestTimes": [
-    1792853038.0,
-    1792853038.0,
-    1792853038.0,
-    1792853038.0,
-    1792853038.0,
     1792856697.0,
     1792856697.0,
     1792856697.0,
@@ -1961,6 +1961,11 @@
     1792935828.0,
     1792935828.0,
     1792935828.0,
-    1792935828.0
+    1792935828.0,
+    1792939472.0,
+    1792939472.0,
+    1792939472.0,
+    1792939472.0,
+    1792939472.0
   ]
 }
