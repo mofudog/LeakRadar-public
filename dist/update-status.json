@@ -1,10 +1,10 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-25T05:44:19+00:00",
+  "lastAttemptAt": "2026-10-25T06:57:16+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-25T05:44:19+00:00",
-  "successfulFetches": 329,
-  "failedFetches": 36,
+  "lastPartialSuccessAt": "2026-10-25T06:57:16+00:00",
+  "successfulFetches": 328,
+  "failedFetches": 37,
   "changedReviewedSources": 40,
   "automaticAnnouncements": 194,
   "watchedDocumentCount": 310,
@@ -58,6 +58,10 @@
     {
       "url": "https://www.nihon-kotsu.co.jp/news/20260819-3385/",
       "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.k9natural.jp/blogs/news/%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E9%A1%98%E3%81%84",
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "url": "https://2nd-rtl.com/news/82023",
@@ -161,16 +165,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-25",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-25T05:44:19+00:00",
+    "lastAttemptAt": "2026-10-25T06:57:16+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1422,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 76,
+    "officialFetches": 100,
     "confirmedOfficialAnnouncements": 233,
-    "pendingNewsArticles": 754,
+    "pendingNewsArticles": 767,
     "skippedReviewedArticles": 28,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -213,7 +217,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-25T05:47:05+00:00",
+      "lastAttemptAt": "2026-10-25T07:00:00+00:00",
       "listPagesChecked": 2,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -221,22 +225,22 @@
     }
   },
   "automaticSummaries": {
-    "ready": 37,
+    "ready": 36,
     "partial": 110,
-    "pending": 67,
-    "fetchFailed": 12
+    "pending": 68,
+    "fetchFailed": 13
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
-    "requestsLast24Hours": 100,
+    "requestsLast24Hours": 95,
     "cachedSources": 78,
     "acceptedSources": 0,
-    "noMatchingSources": 1,
-    "failedSources": 4,
-    "deferredSources": 2,
-    "lastError": "ungrounded_output",
+    "noMatchingSources": 0,
+    "failedSources": 5,
+    "deferredSources": 7,
+    "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
@@ -260,10 +264,10 @@
     "needs_source_lookup": 288,
     "covered": 16,
     "reopened": 8,
-    "needs_review": 335,
+    "needs_review": 348,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 731,
+  "unresolvedNewsCandidates": 744,
   "deferredNewsCandidates": 0
 }
