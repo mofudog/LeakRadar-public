@@ -1,11 +1,11 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-25T21:43:39+00:00",
+  "lastAttemptAt": "2026-10-25T22:41:08+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-25T21:43:39+00:00",
-  "successfulFetches": 334,
-  "failedFetches": 35,
-  "changedReviewedSources": 40,
+  "lastPartialSuccessAt": "2026-10-25T22:41:08+00:00",
+  "successfulFetches": 333,
+  "failedFetches": 36,
+  "changedReviewedSources": 39,
   "automaticAnnouncements": 187,
   "watchedDocumentCount": 314,
   "watchedIndexCount": 52,
@@ -42,6 +42,10 @@
     {
       "url": "https://lean-body.co.jp/news/JlBWMCs7",
       "error": "Source body could not be read"
+    },
+    {
+      "url": "https://www.aena.co.jp/news/detail/7826/",
+      "error": "The read operation timed out"
     },
     {
       "url": "https://www.hands-holdings.co.jp/news/news20260825/",
@@ -157,16 +161,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-26",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-25T21:43:39+00:00",
+    "lastAttemptAt": "2026-10-25T22:41:08+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1422,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 90,
+    "officialFetches": 96,
     "confirmedOfficialAnnouncements": 233,
-    "pendingNewsArticles": 757,
+    "pendingNewsArticles": 755,
     "skippedReviewedArticles": 28,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -209,7 +213,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-25T21:46:20+00:00",
+      "lastAttemptAt": "2026-10-25T22:44:04+00:00",
       "listPagesChecked": 2,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -217,27 +221,27 @@
     }
   },
   "automaticSummaries": {
-    "ready": 37,
+    "ready": 36,
     "partial": 105,
-    "pending": 65,
-    "fetchFailed": 11
+    "pending": 66,
+    "fetchFailed": 12
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
-    "requestsThisRun": 1,
+    "requestsThisRun": 5,
     "requestsLast24Hours": 100,
     "cachedSources": 79,
     "acceptedSources": 0,
     "noMatchingSources": 0,
-    "failedSources": 1,
+    "failedSources": 5,
     "deferredSources": 3,
-    "lastError": "ungrounded_output",
+    "lastError": "irrelevant_count",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 4,
+    "fetches": 2,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
     "pending": 2,
@@ -252,14 +256,14 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 100,
+    "fetch_failed": 101,
     "needs_source_lookup": 288,
     "covered": 16,
     "reopened": 8,
-    "needs_review": 338,
+    "needs_review": 335,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 734,
+  "unresolvedNewsCandidates": 732,
   "deferredNewsCandidates": 0
 }
