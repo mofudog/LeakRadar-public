@@ -1,13 +1,13 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-25T01:43:50+00:00",
+  "lastAttemptAt": "2026-10-25T02:46:15+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-25T01:43:50+00:00",
+  "lastPartialSuccessAt": "2026-10-25T02:46:15+00:00",
   "successfulFetches": 328,
-  "failedFetches": 36,
+  "failedFetches": 37,
   "changedReviewedSources": 40,
-  "automaticAnnouncements": 193,
-  "watchedDocumentCount": 309,
+  "automaticAnnouncements": 194,
+  "watchedDocumentCount": 310,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
@@ -30,6 +30,10 @@
     {
       "url": "https://www2.sagawa-exp.co.jp/information/detail/430/",
       "error": "Source body could not be read"
+    },
+    {
+      "url": "https://www.mitsuifudosan.co.jp/letter/260928/download/260928.pdf",
+      "error": "<urlopen error _ssl.c:1063: The handshake operation timed out>"
     },
     {
       "url": "https://sanga-fc.jp/news/detail/21401",
@@ -161,16 +165,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-25",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-25T01:43:50+00:00",
+    "lastAttemptAt": "2026-10-25T02:46:15+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1422,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 76,
-    "confirmedOfficialAnnouncements": 232,
-    "pendingNewsArticles": 754,
+    "officialFetches": 100,
+    "confirmedOfficialAnnouncements": 233,
+    "pendingNewsArticles": 766,
     "skippedReviewedArticles": 28,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -213,7 +217,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-25T01:46:35+00:00",
+      "lastAttemptAt": "2026-10-25T02:49:26+00:00",
       "listPagesChecked": 2,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -222,30 +226,30 @@
   },
   "automaticSummaries": {
     "ready": 37,
-    "partial": 109,
+    "partial": 110,
     "pending": 67,
     "fetchFailed": 12
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
-    "requestsThisRun": 0,
+    "requestsThisRun": 5,
     "requestsLast24Hours": 100,
     "cachedSources": 77,
     "acceptedSources": 0,
     "noMatchingSources": 0,
-    "failedSources": 0,
-    "deferredSources": 4,
-    "lastError": null,
+    "failedSources": 5,
+    "deferredSources": 5,
+    "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 2,
+    "fetches": 3,
     "linkedDocuments": 14,
     "matchedAlternatives": 0,
-    "pending": 1,
-    "failed": 1,
+    "pending": 2,
+    "failed": 2,
     "report": "data/source-recovery-report.md",
     "ocr": {
       "toolsAvailable": true,
@@ -256,14 +260,14 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 94,
+    "fetch_failed": 96,
     "needs_source_lookup": 288,
     "covered": 16,
     "reopened": 8,
-    "needs_review": 341,
+    "needs_review": 351,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 731,
+  "unresolvedNewsCandidates": 743,
   "deferredNewsCandidates": 0
 }
