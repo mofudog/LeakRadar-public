@@ -540,11 +540,11 @@
       ]
     },
     "f95a0617f63f415f38c04b64ed3ddc473123148380b2deae7bb025acf61a8ab9": {
-      "hash": "faff261ad441d6e9a4fc7f89d7b6f5709a6ee50c075d13b6838139edd8817082",
+      "hash": "2282887476b9aae5641d03194a5fdbe7dae9cefd3287d54648987e2e7d1942f9",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.japantimes.co.jp/press/2026/10/02/noticeransomware-incident-jp/",
-      "attemptedAt": "2026-10-25T14:44:32+00:00",
+      "attemptedAt": "2026-10-25T16:45:54+00:00",
       "state": "success",
       "passages": []
     },
@@ -1212,10 +1212,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
-      "attemptedAt": "2026-10-24T16:45:14+00:00",
+      "attemptedAt": "2026-10-25T16:45:54+00:00",
       "state": "failed",
-      "error": "api_http_503",
-      "retryAfter": 1792946714.0
+      "error": "ungrounded_output",
+      "retryAfter": 1793033154.0
     },
     "9a29386ebc20cd306c3c996dbdd261ea753484e6ea927749d08fe9fb692f8819": {
       "hash": "c752f8d2d6232ded6371fa48d47733bb5196f1f690952683845f539fe7e86894",
@@ -1573,18 +1573,14 @@
       "retryAfter": 1793022228.0
     },
     "7e51f5596564e2db3cd1f6764c727c70ad3e789c8689a2c552558bdac798bb0a": {
-      "hash": "257e4f9fa617225644bd6f82e0e5024b7f871fc88c1086eb6031c7b2b712cc01",
+      "hash": "5a8d981128a78fcdb61019048144600ae9c4e7de3ffcc9c7f71e005e4cf271ce",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.niigata-nippo.co.jp/articles/-/929006",
-      "attemptedAt": "2026-10-25T14:44:32+00:00",
-      "state": "success",
-      "passages": [
-        {
-          "kind": "scale",
-          "quote": "「新潟日報パスポート」全会員分の個人情報が漏えいしたことが判明しました。最大約25万3000人とみられます。"
-        }
-      ]
+      "attemptedAt": "2026-10-25T16:45:54+00:00",
+      "state": "failed",
+      "error": "ungrounded_output",
+      "retryAfter": 1793033154.0
     },
     "cd94c34729dc2cf1f26eaf564819af186e4755d257fce8bb6a828a7537bcedf9": {
       "hash": "6018a95877e95154ac74aa51996f4db08689bbaa9f4386edb3f4074b46e6d7a0",
@@ -1739,10 +1735,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.release.tdnet.info/inbs/140120261023555560.pdf",
-      "attemptedAt": "2026-10-24T16:45:14+00:00",
+      "attemptedAt": "2026-10-25T16:45:54+00:00",
       "state": "failed",
-      "error": "api_http_503",
-      "retryAfter": 1792946714.0
+      "error": "ungrounded_output",
+      "retryAfter": 1793033154.0
     },
     "9f2d53f0cba99bd9227a3f8e00ea15fc8f24f41a4020b72dc995ea73bb8b7c88": {
       "hash": "296f7b4c1d408beb9049f46cd6990b56a1d855d7d584d26a57db2d0a418c1d55",
@@ -1758,10 +1754,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.tohoku-frontier.co.jp/news/1960/",
-      "attemptedAt": "2026-10-24T16:45:14+00:00",
+      "attemptedAt": "2026-10-25T16:45:54+00:00",
       "state": "failed",
       "error": "irrelevant_count",
-      "retryAfter": 1792946714.0
+      "retryAfter": 1793033154.0
     },
     "e577feac0053a3dea984a59d751454e8a1f6bd8ddcd63cfb837585064b00f43f": {
       "hash": "5b73a2fdc3fc3c7285696fa4f0f2fe25ece81ca96dd61813a2e7fd914ec08661",
@@ -1867,11 +1863,6 @@
     }
   },
   "requestTimes": [
-    1792860314.0,
-    1792860314.0,
-    1792860314.0,
-    1792860314.0,
-    1792860314.0,
     1792863723.0,
     1792863723.0,
     1792863723.0,
@@ -1966,6 +1957,11 @@
     1792943104.0,
     1792943104.0,
     1792943104.0,
-    1792943104.0
+    1792943104.0,
+    1792946754.0,
+    1792946754.0,
+    1792946754.0,
+    1792946754.0,
+    1792946754.0
   ]
 }
