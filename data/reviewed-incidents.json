@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-17",
-  "version": "1.3.21",
+  "version": "1.3.22",
   "scope": "国内企業の公式公表を中心に、日本でも利用される海外の有名サービスを選定して掲載。全件網羅は保証しません。",
   "incidents": [
     {
@@ -2149,6 +2149,117 @@
       "source": "https://www.universal-music.co.jp/press-releases/2026-05-18/",
       "aliases": "Universal Music Store UMストア THE BEATLES STORE",
       "verifiedAt": "2026-10-17",
+      "sourceType": "official",
+      "region": "国内企業"
+    },
+    {
+      "id": "trustbank-furusato-choice-20261020",
+      "company": "株式会社トラストバンク",
+      "service": "ふるさとチョイス・会員／寄附者情報",
+      "category": "趣味・生活",
+      "published": "2026-10-20",
+      "updated": "2026-10-23",
+      "status": "confirmed",
+      "audience": "「ふるさとチョイス」の会員情報。対象となった情報項目や個別の該当有無は、10月21日以降に順次送られている同社からのメールで確認してください。",
+      "items": [
+        "氏名",
+        "メールアドレス",
+        "住所",
+        "電話番号",
+        "ハッシュ化されたパスワード",
+        "寄附控除試算額",
+        "ポイント履歴（追加判明分・5名）",
+        "寄附履歴（追加判明分・2名）",
+        "カード下4桁・名義・有効期限（追加判明分・2名）",
+        "生年月日（追加判明分・2名）",
+        "送付先（追加判明分・1名）",
+        "住所の一部（県名・追加判明分・1名）"
+      ],
+      "scale": "会員情報 4,454,097件。追加情報が判明した5名はこの件数に含まれ、別件として加算しません。",
+      "note": "10月23日第2報で、10月20日公表分のうち5名について追加の情報項目が外部流出したと公表。カード情報はマイページで表示される情報への第三者アクセスが確認されたもので、その情報だけで決済はできないと説明。",
+      "excluded": "カード情報はシステムに保存されていないと説明。項目別の対象人数は重複があるため合算していません。",
+      "source": "https://www.trustbank.co.jp/newsroom/newsrelease/news20261023/",
+      "additionalSources": [],
+      "aliases": "ふるさとチョイス トラストバンク 寄附",
+      "verifiedAt": "2026-10-25",
+      "sourceType": "official",
+      "region": "国内企業"
+    },
+    {
+      "id": "corona-cloud-20260828",
+      "company": "株式会社コロナ",
+      "service": "施工案件等の情報（外部クラウドサービス）",
+      "category": "建設・不動産",
+      "published": "2026-08-28",
+      "updated": "2026-10-22",
+      "status": "possible",
+      "audience": "コロナが施工を請け負った案件等の情報が含まれるファイルの対象者。本人の概数は約24,000名と公表されていますが、対象者の特定は継続中です。",
+      "items": [
+        "氏名",
+        "住所",
+        "電話番号",
+        "施工関連資料"
+      ],
+      "scale": "対象本人の概数：約24,000名（漏えい、または漏えいした可能性のある情報）",
+      "note": "10月22日第2報で、インターネット上の情報が同社保管ファイルと一致し、特定アカウントからデータがダウンロードされたことを確認したと公表。個人情報項目のすべてが漏えいしたと確認したという意味ではありません。",
+      "excluded": "対象アカウント以外の認証情報の漏えいは確認していないと説明。不正利用は現時点で未確認。",
+      "source": "https://www.corona.co.jp/news/other/-2-1.html",
+      "additionalSources": [
+        "https://www.corona.co.jp/news/other/post-439.html",
+        "https://www.release.tdnet.info/inbs/140120261022554492.pdf"
+      ],
+      "aliases": "CORONA コロナ 工事 施工",
+      "verifiedAt": "2026-10-25",
+      "sourceType": "official",
+      "region": "国内企業"
+    },
+    {
+      "id": "nulab-blastmail-20261022",
+      "company": "株式会社ヌーラボ",
+      "service": "Backlog・Cacoo等のメール配信先情報（ブラストメール）",
+      "category": "IT・アプリ",
+      "published": "2026-10-22",
+      "updated": "2026-10-22",
+      "status": "possible",
+      "audience": "ヌーラボがメール配信サービス「ブラストメール」に登録していた配信先情報。ヌーラボ利用者の情報が外部流出したリストに含まれるか、同社が確認中です。対象件数は未公表です。",
+      "items": [
+        "メールアドレス",
+        "スペースID・スペースキー・組織名（対象となる一部利用者のみ）",
+        "お客様番号（オンプレミス利用者のみ）"
+      ],
+      "scale": "ヌーラボ利用者が対象に含まれるか・対象件数とも確認中",
+      "note": "ブラストメール運営会社から配信先リストが外部に持ち出されたとの報告を受け、10月22日に第一報を公表。ヌーラボ自身のサービスへの不正アクセスは確認されていないと説明。",
+      "excluded": "パスワードとクレジットカード情報は対象外。スペースID・スペースキーだけでログインはできないと説明。",
+      "source": "https://nulab.com/ja/info/20261022-1-nulab/",
+      "additionalSources": [],
+      "aliases": "Nulab Backlog Cacoo Nulab Pass ブラストメール",
+      "verifiedAt": "2026-10-25",
+      "sourceType": "official",
+      "region": "国内企業"
+    },
+    {
+      "id": "paycloud-valuecard-20261023",
+      "company": "Ｇ－ペイクラウドＨＤ",
+      "service": "Value Card（ハウス電子マネー発行サービス）",
+      "category": "IT・アプリ",
+      "published": "2026-10-23",
+      "updated": "2026-10-23",
+      "status": "confirmed",
+      "audience": "バリューデザインが発行会社に提供するValue CardのID情報。発行済IDと未発行IDの両方が件数に含まれます。個人情報の漏えい事案ではないと公表されています。",
+      "items": [
+        "ID番号",
+        "PIN番号",
+        "残高情報"
+      ],
+      "scale": "1,424,748件（発行済ID 569,224件、未発行ID 855,524件）",
+      "note": "ペイクラウドHDの10月23日開示で、Value Cardのサーバーから情報の一部が外部流出したと公表。発行済IDは不正利用のおそれがあったものの対処済みで、実被害はないと説明。",
+      "excluded": "個人情報は該当なしと公表。未発行IDは最終利用者が購入する前のID。",
+      "source": "https://www.release.tdnet.info/inbs/140120261023555340.pdf",
+      "additionalSources": [
+        "https://www.valuedesign.jp/news/info/20261023"
+      ],
+      "aliases": "PayCloud ペイクラウドHD バリューデザイン Value Design Value Card 電子マネー",
+      "verifiedAt": "2026-10-25",
       "sourceType": "official",
       "region": "国内企業"
     }
