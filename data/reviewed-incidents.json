@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-17",
-  "version": "1.3.22",
+  "checkedAt": "2026-10-25",
+  "version": "1.3.23",
   "scope": "国内企業の公式公表を中心に、日本でも利用される海外の有名サービスを選定して掲載。全件網羅は保証しません。",
   "incidents": [
     {
@@ -2262,6 +2262,77 @@
       "verifiedAt": "2026-10-25",
       "sourceType": "official",
       "region": "国内企業"
+    },
+    {
+      "id": "ejudo-blastmail-20261025",
+      "company": "株式会社eJudo",
+      "service": "eJudo会員向けメール配信（ブラストメール）",
+      "category": "趣味・生活",
+      "published": "2026-10-25",
+      "updated": "2026-10-25",
+      "eventDate": "2026-10-21",
+      "status": "confirmed",
+      "audience": "ブラストメールに登録していたeJudo会員（過去の会員を含む）。配信先リスト全件が対象と説明されています。",
+      "items": [
+        "メールアドレス"
+      ],
+      "scale": "メール配信先リスト全件（人数・件数は未公表）",
+      "note": "eJudoは、サービス提供元から登録していたメール配信先リスト（読者データ）の全件が漏えいしたとの報告を受けたと公表。漏えいした情報はメールアドレス。名前やクレジットカード情報などは登録していないと説明しています。公式ページの公開日は10月25日、本文末尾の日付は10月24日です。",
+      "excluded": "氏名、クレジットカード情報などは登録していないため漏えいしていないと説明。",
+      "source": "https://ejudo.info/articles/34272",
+      "aliases": "eJudo イージュードー ブラストメール Blastmail",
+      "verifiedAt": "2026-10-25",
+      "sourceType": "official",
+      "region": "国内企業"
+    },
+    {
+      "id": "shizuoka-ekipa-20261024",
+      "company": "静岡市",
+      "service": "エキパ（静岡駅北口地下駐車場）駐車券紛失届兼再発行願",
+      "category": "交通・旅行",
+      "published": "2026-10-24",
+      "updated": "2026-10-24",
+      "eventDate": "2026-10-23",
+      "status": "possible",
+      "audience": "過去にエキパで駐車券紛失届兼再発行願を提出した利用者。対象人数・件数は確認中です。",
+      "items": [
+        "氏名",
+        "住所",
+        "電話番号",
+        "運転免許証番号",
+        "車種"
+      ],
+      "scale": "対象人数・件数不明（相手方は約300枚を拾得したと説明。実数は未確認）",
+      "note": "市は、電話の相手が2名分の個人情報を読み上げ、その該当日の紛失届の所在を確認できなかったことから、外部流出のおそれがあると公表しました。流出が確認された事案ではなく、調査中です。",
+      "excluded": "",
+      "source": "https://www.city.shizuoka.lg.jp/s3792/s001405.html",
+      "additionalSources": [
+        "https://www.city.shizuoka.lg.jp/documents/1394/20261024001.pdf"
+      ],
+      "aliases": "エキパ 静岡駅北口地下駐車場 静岡市 駐車券紛失届",
+      "verifiedAt": "2026-10-25",
+      "sourceType": "official",
+      "region": "国内組織"
+    },
+    {
+      "id": "maarU-blastmail-20261024",
+      "company": "ま・あ・る（静岡市こどもクリエイティブタウン）",
+      "service": "施設からのお知らせメール配信（ブラストメール）",
+      "category": "公共・教育",
+      "published": "2026-10-24",
+      "updated": "2026-10-24",
+      "eventDate": "2026-10-21",
+      "status": "possible",
+      "audience": "ブラストメールに個人情報が登録されている施設利用者が対象となる可能性があります。対象に含まれるか確認中です。",
+      "items": [],
+      "scale": "対象者・件数とも未確認",
+      "note": "施設は、メール配信サービスへの不正アクセスに伴い個人情報が漏えいした可能性を公表。10月24日14時時点では、サービス提供元から当施設利用者の情報が漏えいしたとの報告はなく、対象となるか調査中と説明しています。",
+      "excluded": "",
+      "source": "https://maaru-ct.jp/news/270383/",
+      "aliases": "まある ま・あ・る 静岡市こどもクリエイティブタウン Blastmail",
+      "verifiedAt": "2026-10-25",
+      "sourceType": "official",
+      "region": "国内組織"
     }
   ]
 }
