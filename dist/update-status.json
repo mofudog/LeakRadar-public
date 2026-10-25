@@ -1,16 +1,20 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-25T16:45:54+00:00",
+  "lastAttemptAt": "2026-10-25T17:42:24+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-25T16:45:54+00:00",
+  "lastPartialSuccessAt": "2026-10-25T17:42:24+00:00",
   "successfulFetches": 334,
-  "failedFetches": 35,
+  "failedFetches": 36,
   "changedReviewedSources": 40,
   "automaticAnnouncements": 187,
   "watchedDocumentCount": 314,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
+    {
+      "url": "https://innovatopia.jp/feed/",
+      "error": "HTTPError: HTTP Error 521: <none>"
+    },
     {
       "url": "https://global.yamaha-motor.com/jp/news/2026/1012/leakage.html",
       "error": "HTTP Error 503: Service Temporarily Unavailable"
@@ -157,16 +161,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-26",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-25T16:45:54+00:00",
+    "lastAttemptAt": "2026-10-25T17:42:24+00:00",
     "feedCount": 9,
-    "successfulFeeds": 9,
+    "successfulFeeds": 8,
     "successfulArchivePages": 1,
     "newsCandidates": 1422,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 100,
+    "officialFetches": 96,
     "confirmedOfficialAnnouncements": 233,
-    "pendingNewsArticles": 766,
+    "pendingNewsArticles": 756,
     "skippedReviewedArticles": 28,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -209,7 +213,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-25T16:48:47+00:00",
+      "lastAttemptAt": "2026-10-25T17:45:34+00:00",
       "listPagesChecked": 2,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -229,19 +233,19 @@
     "requestsLast24Hours": 100,
     "cachedSources": 77,
     "acceptedSources": 0,
-    "noMatchingSources": 1,
-    "failedSources": 4,
+    "noMatchingSources": 2,
+    "failedSources": 3,
     "deferredSources": 2,
     "lastError": "ungrounded_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 3,
+    "fetches": 0,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
-    "pending": 2,
-    "failed": 2,
+    "pending": 0,
+    "failed": 0,
     "report": "data/source-recovery-report.md",
     "ocr": {
       "toolsAvailable": true,
@@ -252,14 +256,14 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 102,
+    "fetch_failed": 100,
     "needs_source_lookup": 288,
     "covered": 16,
     "reopened": 8,
-    "needs_review": 345,
+    "needs_review": 337,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 743,
+  "unresolvedNewsCandidates": 733,
   "deferredNewsCandidates": 0
 }
