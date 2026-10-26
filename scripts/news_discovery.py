@@ -53,8 +53,8 @@ SELF = re.compile(r'当社|弊社|当法人|当院|本学|当行|当組合|当�
 BLOCK = re.compile(r'(^|\.)(?:google|youtube|facebook|twitter|instagram|linkedin|amazon|doubleclick)\.|(^|\.)(?:t\.co|x\.com|prtimes\.jp|value-press\.com|b\.hatena\.ne\.jp|news\.yahoo\.co\.jp)$')
 
 EXCLUDE = re.compile(r'/login|/signin|/contact|/privacy|/policy|/terms|/recruit|/search|/tag/')
-BLOG_HOST_SUFFIXES = ('hatenadiary.jp', 'note.com', 'ameblo.jp', 'blogspot.com', 'wordpress.com', 'substack.com', 'livedoor.blog', 'fc2.com', 'seesaa.net', 'exblog.jp', 'goo.ne.jp', 'tumblr.com', 'medium.com')
-BLOG_TITLE = re.compile(r'まとめてみた|まとめてみました|解説してみた|調べてみた|考察してみた|考えてみた')
+BLOG_HOST_SUFFIXES = ('hatenadiary.jp', 'note.com', 'ameblo.jp', 'blogspot.com', 'wordpress.com', 'substack.com', 'livedoor.blog', 'fc2.com', 'seesaa.net', 'exblog.jp', 'goo.ne.jp', 'tumblr.com', 'medium.com', 'sankei.com', 'oricon.co.jp', 'rocket-boys.co.jp')
+BLOG_TITLE = re.compile(r'まとめてみた|まとめてみました|解説してみた|調べてみた|考察してみた|考えてみた|ブログ全文|社長ブログ|ブログ記事|全文公開')
 
 def is_unofficial_publisher(host):
     host = (host or '').lower().rstrip('.')
