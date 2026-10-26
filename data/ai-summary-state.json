@@ -88,10 +88,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://central-con.co.jp/news/%e5%bd%93%e7%a4%be%e3%82%b3%e3%83%bc%e3%83%9d%e3%83%ac%e3%83%bc%e3%83%88%e3%82%b5%e3%82%a4%e3%83%88%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e9%96%a2%e3%81%99/",
-      "attemptedAt": "2026-10-25T20:42:45+00:00",
+      "attemptedAt": "2026-10-26T20:49:45+00:00",
       "state": "failed",
       "error": "irrelevant_output",
-      "retryAfter": 1793047365.0
+      "retryAfter": 1793134185.0
     },
     "0ebf3280292ae21f2fd6dbcd28c63164d26abc79e3eaa22662dfb434971f3b42": {
       "hash": "8874a01849310d22d946952ad2d1c6534cc4289cb8c377ca0e36358f6e0b7cf9",
@@ -325,14 +325,13 @@
       "retryAfter": 1793066216.0
     },
     "377b59843b82cb6311aa4d58cd76d9c59b1243f728be2f77253b940291a28f0c": {
-      "hash": "b679231479755022738887b622b864d2d300b4d663ba5acc1e10491f0e924a44",
+      "hash": "1575a8082cb9a450d75e3019f783f075dd55504a8471cd347993744a0a06d012",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://wasabi-inc.biz/help/news/20260706-04/",
-      "attemptedAt": "2026-10-26T19:52:56+00:00",
-      "state": "failed",
-      "error": "irrelevant_output",
-      "retryAfter": 1793130776.0
+      "attemptedAt": "2026-10-26T20:49:45+00:00",
+      "state": "success",
+      "passages": []
     },
     "2c15d79868a3e66b0831dadc564151ca8d2beaaa4bbb15ec33caab7a22d0079b": {
       "hash": "0fc51f1346bdebb56c2d46ff2fae2d39284916299e9a34dfd4e3b86a7a9fcb98",
@@ -536,11 +535,11 @@
       ]
     },
     "f95a0617f63f415f38c04b64ed3ddc473123148380b2deae7bb025acf61a8ab9": {
-      "hash": "d2fa9f89d3f683a79afe5e4f17ce70fd5bb988e5af36364ac2be657389c9e52d",
+      "hash": "7e7f64b1bff7f7d89d377acb418a0b05824540de1ca4839511665d757ba8a569",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.japantimes.co.jp/press/2026/10/02/noticeransomware-incident-jp/",
-      "attemptedAt": "2026-10-26T19:52:56+00:00",
+      "attemptedAt": "2026-10-26T20:49:45+00:00",
       "state": "success",
       "passages": []
     },
@@ -1579,14 +1578,22 @@
       "retryAfter": 1793115797.0
     },
     "7e51f5596564e2db3cd1f6764c727c70ad3e789c8689a2c552558bdac798bb0a": {
-      "hash": "0803b21ddcb4b5b8f43ca6339103a064f41e8f7c29dfb6dee449d88d2304e1db",
+      "hash": "53f163b59b14cb883fe90000009e3ab0f3a0734b3b70b1a3582b3680501b452f",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.niigata-nippo.co.jp/articles/-/929006",
-      "attemptedAt": "2026-10-26T19:01:56+00:00",
-      "state": "failed",
-      "error": "irrelevant_output",
-      "retryAfter": 1793127716.0
+      "attemptedAt": "2026-10-26T20:49:45+00:00",
+      "state": "success",
+      "passages": [
+        {
+          "kind": "items",
+          "quote": "「新潟日報パスポート会員」1氏名(カタカナ)2都道府県名3市町村名4メールアドレス5性別6年代7購読商品名8購読するメルマガサービス名"
+        },
+        {
+          "kind": "scale",
+          "quote": "「新潟日報パスポート」全会員分の個人情報が漏えいしたことが判明しました。最大約25万3000人とみられます。"
+        }
+      ]
     },
     "cd94c34729dc2cf1f26eaf564819af186e4755d257fce8bb6a828a7537bcedf9": {
       "hash": "6018a95877e95154ac74aa51996f4db08689bbaa9f4386edb3f4074b46e6d7a0",
@@ -1934,10 +1941,6 @@
     }
   },
   "requestTimes": [
-    1792960965.0,
-    1792960965.0,
-    1792960965.0,
-    1792960965.0,
     1792964619.0,
     1792968068.0,
     1792968068.0,
@@ -2027,6 +2030,10 @@
     1793044376.0,
     1793044376.0,
     1793044376.0,
-    1793044376.0
+    1793044376.0,
+    1793047785.0,
+    1793047785.0,
+    1793047785.0,
+    1793047785.0
   ]
 }
