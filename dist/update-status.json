@@ -1,13 +1,13 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-25T23:39:32+00:00",
+  "lastAttemptAt": "2026-10-26T01:09:48+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-25T23:39:32+00:00",
-  "successfulFetches": 334,
+  "lastPartialSuccessAt": "2026-10-26T01:09:48+00:00",
+  "successfulFetches": 335,
   "failedFetches": 35,
-  "changedReviewedSources": 39,
-  "automaticAnnouncements": 187,
-  "watchedDocumentCount": 314,
+  "changedReviewedSources": 40,
+  "automaticAnnouncements": 188,
+  "watchedDocumentCount": 315,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
@@ -77,7 +77,7 @@
     },
     {
       "url": "https://ainokaze.co.jp/24166",
-      "error": "HTTP Error 503: Service Unavailable"
+      "error": "HTTP Error 401: Unauthorized"
     },
     {
       "url": "https://www.sagin-dp.jp/news/000094.php",
@@ -157,16 +157,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-26",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-25T23:39:32+00:00",
+    "lastAttemptAt": "2026-10-26T01:09:48+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1427,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 64,
-    "confirmedOfficialAnnouncements": 233,
-    "pendingNewsArticles": 759,
+    "officialFetches": 100,
+    "confirmedOfficialAnnouncements": 234,
+    "pendingNewsArticles": 770,
     "skippedReviewedArticles": 28,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -209,7 +209,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-25T23:41:52+00:00",
+      "lastAttemptAt": "2026-10-26T01:13:05+00:00",
       "listPagesChecked": 2,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -219,7 +219,7 @@
   "automaticSummaries": {
     "ready": 37,
     "partial": 105,
-    "pending": 65,
+    "pending": 66,
     "fetchFailed": 11
   },
   "aiSummary": {
@@ -229,10 +229,10 @@
     "requestsLast24Hours": 95,
     "cachedSources": 79,
     "acceptedSources": 0,
-    "noMatchingSources": 0,
-    "failedSources": 5,
+    "noMatchingSources": 1,
+    "failedSources": 4,
     "deferredSources": 8,
-    "lastError": "ungrounded_output",
+    "lastError": "irrelevant_count",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
@@ -256,10 +256,10 @@
     "needs_source_lookup": 293,
     "covered": 16,
     "reopened": 8,
-    "needs_review": 335,
+    "needs_review": 346,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 736,
+  "unresolvedNewsCandidates": 747,
   "deferredNewsCandidates": 0
 }
