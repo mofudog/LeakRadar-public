@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-26T08:58:14+00:00",
+  "lastAttemptAt": "2026-10-26T09:58:12+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-26T08:58:14+00:00",
+  "lastPartialSuccessAt": "2026-10-26T09:58:12+00:00",
   "successfulFetches": 337,
   "failedFetches": 38,
   "changedReviewedSources": 38,
@@ -45,27 +45,23 @@
     },
     {
       "url": "https://www.hands-holdings.co.jp/news/news20260825/",
-      "error": "HTTP Error 503: Service Unavailable"
+      "error": "Source body could not be read"
     },
     {
       "url": "https://support-qa.eplus.jp/hc/ja/articles/62711500727961-%E5%BC%8A%E7%A4%BE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AE%E7%99%BA-%E3%81%8A%E3%82%88%E3%81%B3%E5%80%8B-%E6%83%85%E5%A0%B1-%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "https://share.timescar.jp/news/2026/0925/1814.html",
-      "error": "<urlopen error [Errno 104] Connection reset by peer>"
-    },
-    {
       "url": "https://share.timescar.jp/news/2026/0928/1815.html",
-      "error": "<urlopen error [Errno 104] Connection reset by peer>"
+      "error": "<urlopen error [Errno 111] Connection refused>"
     },
     {
       "url": "https://share.timescar.jp/news/2026/0929/1816.html",
-      "error": "<urlopen error [Errno 104] Connection reset by peer>"
+      "error": "<urlopen error [Errno 111] Connection refused>"
     },
     {
       "url": "https://share.timescar.jp/news/2026/1016/1826.html",
-      "error": "<urlopen error [Errno 104] Connection reset by peer>"
+      "error": "<urlopen error [Errno 111] Connection refused>"
     },
     {
       "url": "https://www.nihon-kotsu.co.jp/news/20260819-3385/",
@@ -86,6 +82,10 @@
     {
       "url": "https://www.lbm.co.jp/news/2026/260109/",
       "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.japantimes.co.jp/press/2026/10/02/noticeransomware-incident-jp/",
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://ainokaze.co.jp/24166",
@@ -169,16 +169,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-26",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-26T08:58:14+00:00",
+    "lastAttemptAt": "2026-10-26T09:58:12+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
-    "newsCandidates": 1430,
-    "newsArticlesChecked": 48,
+    "newsCandidates": 1431,
+    "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 99,
+    "officialFetches": 74,
     "confirmedOfficialAnnouncements": 239,
-    "pendingNewsArticles": 755,
+    "pendingNewsArticles": 757,
     "skippedReviewedArticles": 27,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -221,7 +221,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-26T09:02:20+00:00",
+      "lastAttemptAt": "2026-10-26T10:01:28+00:00",
       "listPagesChecked": 3,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -230,26 +230,26 @@
   },
   "automaticSummaries": {
     "ready": 39,
-    "partial": 105,
-    "pending": 71,
+    "partial": 106,
+    "pending": 70,
     "fetchFailed": 14
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
-    "requestsLast24Hours": 91,
+    "requestsLast24Hours": 95,
     "cachedSources": 85,
     "acceptedSources": 0,
-    "noMatchingSources": 0,
-    "failedSources": 5,
-    "deferredSources": 8,
-    "lastError": "invalid_output",
+    "noMatchingSources": 1,
+    "failedSources": 4,
+    "deferredSources": 2,
+    "lastError": "irrelevant_count",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 3,
+    "fetches": 2,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
     "pending": 2,
@@ -264,14 +264,14 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 91,
-    "needs_source_lookup": 294,
+    "fetch_failed": 95,
+    "needs_source_lookup": 295,
     "covered": 15,
     "reopened": 9,
-    "needs_review": 339,
+    "needs_review": 336,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 733,
+  "unresolvedNewsCandidates": 735,
   "deferredNewsCandidates": 0
 }
