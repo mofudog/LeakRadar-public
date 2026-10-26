@@ -246,18 +246,14 @@
       "passages": []
     },
     "a9a86a47ea60348ee74499b14d2596b616b477f282eeff0d1e3a8dcf07d10a24": {
-      "hash": "aa81732f889a50533ac98a04d8534c4a17cdb3b09ecdd64ef2d5cdfbc51716c2",
+      "hash": "70cc788371be4d13f1bb2a14c7e6763bc3907d815fc951eaae3a7022ea9c8041",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://omicnet.com/uncategorized/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E6%B4%A9%E3%81%AE%E3%81%8A%E3%81%9D%E3%82%8C%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%A8%E3%81%8A%E8%A9%AB%E3%81%B3/",
-      "attemptedAt": "2026-10-24T23:38:58+00:00",
-      "state": "success",
-      "passages": [
-        {
-          "kind": "items",
-          "quote": "漏洩した可能性のある個人情報の項目および件数は以下の通りです。(更新日 2026.8.18更新) ・お名前: 924件 ・住所:16件 ・生年月日:25件 ・職歴(有機JAS担当者経歴書に記載の内容): 183件 ・電話番号: 4件 ・E-メールアドレス: 36件 ・最終学歴: 7件"
-        }
-      ]
+      "attemptedAt": "2026-10-26T08:58:14+00:00",
+      "state": "failed",
+      "error": "irrelevant_count",
+      "retryAfter": 1793091494.0
     },
     "39a646f9e488247834284495da1935b0130db63d6e4a3d73bae8bfd515bc22d9": {
       "hash": "36d5c9f2e4b6513464b74e14fb453db435fa394388d71dbfc1c41d11abc08191",
@@ -1059,30 +1055,30 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.release.tdnet.info/inbs/140120261016552448.pdf",
-      "attemptedAt": "2026-10-25T06:57:16+00:00",
+      "attemptedAt": "2026-10-26T08:58:14+00:00",
       "state": "failed",
-      "error": "api_http_503",
-      "retryAfter": 1792997836.0
+      "error": "irrelevant_output",
+      "retryAfter": 1793091494.0
     },
     "ee841fd6c8b6879c546ce8a8de808c312926e3e8afb9626ad919b15d68893d13": {
       "hash": "81f5559bd425e271ecbe126d04d5b1f787d2dfe8fc7b702959414b612c854b2c",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.release.tdnet.info/inbs/140120261016552453.pdf",
-      "attemptedAt": "2026-10-25T06:57:16+00:00",
+      "attemptedAt": "2026-10-26T08:58:14+00:00",
       "state": "failed",
       "error": "irrelevant_output",
-      "retryAfter": 1792997836.0
+      "retryAfter": 1793091494.0
     },
     "fcf46d44c81674f73f6baf749f616ea5793c9f1e0b6e97e6f83a05558ce4f892": {
       "hash": "7441a9a7f79173362a5a8c51958aaf2b83d1bb8287af2b3ad64ef5ec916ebb90",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.release.tdnet.info/inbs/140120261016552454.pdf",
-      "attemptedAt": "2026-10-25T07:14:22+00:00",
+      "attemptedAt": "2026-10-26T08:58:14+00:00",
       "state": "failed",
-      "error": "ungrounded_output",
-      "retryAfter": 1792998862.0
+      "error": "invalid_output",
+      "retryAfter": 1793091494.0
     },
     "a086615d394ae1a62bc5601cea8f7371ec2bf65aa240fc2f310497110068cc3e": {
       "hash": "69de4f5b3296be34f337239cb78977096bf9817ca8f5112b70265e4d9e60eafb",
@@ -1924,13 +1920,19 @@
       "state": "failed",
       "error": "irrelevant_output",
       "retryAfter": 1793076601.0
+    },
+    "d8066d1165f193c528ac6c2a682ee1babb493bd2e7c18becc6ba4f2a1bbbafb1": {
+      "hash": "4479ba18f6df5271c0c2ee1d3e4855ee2471f50eac410bbd00e882b2fd49eae1",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://www.release.tdnet.info/inbs/140120261026556267.pdf",
+      "attemptedAt": "2026-10-26T08:58:14+00:00",
+      "state": "failed",
+      "error": "irrelevant_count",
+      "retryAfter": 1793091494.0
     }
   },
   "requestTimes": [
-    1792917997.0,
-    1792917997.0,
-    1792917997.0,
-    1792917997.0,
     1792920142.0,
     1792935828.0,
     1792935828.0,
@@ -2016,6 +2018,11 @@
     1793001773.0,
     1793001773.0,
     1793001773.0,
-    1793001773.0
+    1793001773.0,
+    1793005094.0,
+    1793005094.0,
+    1793005094.0,
+    1793005094.0,
+    1793005094.0
   ]
 }
