@@ -1,13 +1,13 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-26T13:31:51+00:00",
+  "lastAttemptAt": "2026-10-26T15:43:17+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-26T13:31:51+00:00",
-  "successfulFetches": 340,
-  "failedFetches": 33,
+  "lastPartialSuccessAt": "2026-10-26T15:43:17+00:00",
+  "successfulFetches": 337,
+  "failedFetches": 35,
   "changedReviewedSources": 42,
   "automaticAnnouncements": 189,
-  "watchedDocumentCount": 318,
+  "watchedDocumentCount": 317,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
@@ -52,6 +52,10 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "url": "https://www.release.tdnet.info/inbs/140120260917537753.pdf",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
       "url": "https://www.nihon-kotsu.co.jp/news/20260819-3385/",
       "error": "HTTP Error 404: Not Found"
     },
@@ -70,6 +74,10 @@
     {
       "url": "https://www.lbm.co.jp/news/2026/260109/",
       "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.media4u.co.jp/news/3351",
+      "error": "<urlopen error timed out>"
     },
     {
       "url": "https://ainokaze.co.jp/24166",
@@ -147,18 +155,18 @@
   "fullyComprehensive": false,
   "summaryReviewedAt": "2026-10-25",
   "cloudRun": true,
-  "retentionStart": "2023-10-26",
+  "retentionStart": "2023-10-27",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-26T13:31:51+00:00",
+    "lastAttemptAt": "2026-10-26T15:43:17+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1434,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 100,
+    "officialFetches": 84,
     "confirmedOfficialAnnouncements": 236,
-    "pendingNewsArticles": 768,
+    "pendingNewsArticles": 759,
     "skippedReviewedArticles": 27,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -201,39 +209,39 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-26T13:34:59+00:00",
+      "lastAttemptAt": "2026-10-26T15:46:02+00:00",
       "listPagesChecked": 3,
       "documentsChecked": 20,
       "pendingListPages": 0,
-      "pendingDocuments": 5
+      "pendingDocuments": 6
     }
   },
   "automaticSummaries": {
     "ready": 41,
     "partial": 107,
     "pending": 64,
-    "fetchFailed": 9
+    "fetchFailed": 10
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
-    "requestsThisRun": 0,
-    "requestsLast24Hours": 100,
-    "cachedSources": 85,
+    "requestsThisRun": 5,
+    "requestsLast24Hours": 95,
+    "cachedSources": 84,
     "acceptedSources": 0,
     "noMatchingSources": 0,
-    "failedSources": 0,
+    "failedSources": 5,
     "deferredSources": 4,
-    "lastError": null,
+    "lastError": "ungrounded_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 1,
+    "fetches": 3,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
-    "pending": 1,
-    "failed": 1,
+    "pending": 2,
+    "failed": 2,
     "report": "data/source-recovery-report.md",
     "ocr": {
       "toolsAvailable": true,
@@ -244,14 +252,14 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 94,
-    "needs_source_lookup": 299,
+    "fetch_failed": 93,
+    "needs_source_lookup": 300,
     "covered": 15,
     "reopened": 9,
-    "needs_review": 345,
+    "needs_review": 337,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 747,
+  "unresolvedNewsCandidates": 739,
   "deferredNewsCandidates": 0
 }
