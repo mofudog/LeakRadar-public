@@ -463,10 +463,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.frau-inter.co.jp/other/20260803_6519/",
-      "attemptedAt": "2026-10-25T01:20:10+00:00",
+      "attemptedAt": "2026-10-26T03:50:52+00:00",
       "state": "failed",
       "error": "irrelevant_output",
-      "retryAfter": 1792977610.0
+      "retryAfter": 1793073052.0
     },
     "45a5ec8cbeffb6cb2167814a01621326e4935a71f0b2a2586e6a7bf780c2aed0": {
       "hash": "421f872138c29ddc0fcb1d857db8dfd2f9a259dc136347ba5806796153c28fc0",
@@ -482,10 +482,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.fukuoka-u.ac.jp/news/26/07/08175927.html",
-      "attemptedAt": "2026-10-25T01:20:10+00:00",
+      "attemptedAt": "2026-10-26T03:50:52+00:00",
       "state": "failed",
       "error": "irrelevant_output",
-      "retryAfter": 1792977610.0
+      "retryAfter": 1793073052.0
     },
     "d2810eef2e16cfd75bfa4c84b48182c94e4ef6bcf8786d2afda689c9c3567d4b": {
       "hash": "a880e5d302fad6d971adbaff05c92c6f64f7ec7ad60116ac98392cf40762f187",
@@ -1515,10 +1515,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://group.gmo/info/alert/20261022/",
-      "attemptedAt": "2026-10-25T02:46:15+00:00",
+      "attemptedAt": "2026-10-26T03:50:52+00:00",
       "state": "failed",
-      "error": "irrelevant_count",
-      "retryAfter": 1792982775.0
+      "error": "irrelevant_output",
+      "retryAfter": 1793073052.0
     },
     "48e08e657fe40ab656f92fc07c7f0fc39efa2fb67b5d985913b2a5e61ceee67d": {
       "hash": "b42c6dfd7e2240e14421734b13739ea5272d6e27a10e00c229e0a189f2eb51f5",
@@ -1866,10 +1866,14 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.jreast.co.jp/card/news/pdf/20261015.pdf",
-      "attemptedAt": "2026-10-25T02:46:15+00:00",
-      "state": "failed",
-      "error": "ungrounded_output",
-      "retryAfter": 1792982775.0
+      "attemptedAt": "2026-10-26T03:50:52+00:00",
+      "state": "success",
+      "passages": [
+        {
+          "kind": "scale",
+          "quote": "(1)メールアドレス対象件数 約 403万件 ※対象者の特定は現在、調査中となります。 ※iiマークのあるカード、ビュー法人カードは対象外となります。"
+        }
+      ]
     },
     "7a73cf885e374efee66079e4083127f0b31b3076fdc68192dc21018bd9d83a79": {
       "hash": "89fdf59016d450e7ff23090c5bd250af3dc7c93206ac8c4920bbb18cf7bc4f45",
@@ -1897,14 +1901,19 @@
       "attemptedAt": "2026-10-26T02:49:49+00:00",
       "state": "success",
       "passages": []
+    },
+    "386014ff9c7862b057b6829563283b12eb05ed0194cf9b16e27104d1c9f8bc7f": {
+      "hash": "7b16ff4944f669572a10bef419a26882bc37394437b47e33bbec53eafb042440",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://www.sankei.com/article/20261026-FPM5XMZGCZP4RDOXILAKMEOOFE/",
+      "attemptedAt": "2026-10-26T03:50:52+00:00",
+      "state": "failed",
+      "error": "irrelevant_count",
+      "retryAfter": 1793073052.0
     }
   },
   "requestTimes": [
-    1792900086.0,
-    1792900086.0,
-    1792900086.0,
-    1792900086.0,
-    1792900086.0,
     1792903599.0,
     1792903599.0,
     1792903599.0,
@@ -1994,6 +2003,11 @@
     1792982989.0,
     1792982989.0,
     1792982989.0,
-    1792982989.0
+    1792982989.0,
+    1792986652.0,
+    1792986652.0,
+    1792986652.0,
+    1792986652.0,
+    1792986652.0
   ]
 }
