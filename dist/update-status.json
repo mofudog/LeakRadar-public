@@ -1,16 +1,20 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-26T19:01:56+00:00",
+  "lastAttemptAt": "2026-10-26T19:52:56+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-26T19:01:56+00:00",
+  "lastPartialSuccessAt": "2026-10-26T19:52:56+00:00",
   "successfulFetches": 338,
-  "failedFetches": 34,
+  "failedFetches": 35,
   "changedReviewedSources": 42,
   "automaticAnnouncements": 189,
   "watchedDocumentCount": 317,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
+    {
+      "url": "https://innovatopia.jp/cyber-security/cyber-security-news/119011/",
+      "error": "HTTPError: HTTP Error 500: Internal Server Error"
+    },
     {
       "url": "https://global.yamaha-motor.com/jp/news/2026/1012/leakage.html",
       "error": "HTTP Error 503: Service Temporarily Unavailable"
@@ -153,16 +157,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-27",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-26T19:01:56+00:00",
+    "lastAttemptAt": "2026-10-26T19:52:56+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1435,
-    "newsArticlesChecked": 70,
+    "newsArticlesChecked": 69,
     "deferredNewsArticles": 0,
-    "officialFetches": 99,
+    "officialFetches": 79,
     "confirmedOfficialAnnouncements": 236,
-    "pendingNewsArticles": 758,
+    "pendingNewsArticles": 757,
     "skippedReviewedArticles": 27,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -205,7 +209,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-26T19:05:28+00:00",
+      "lastAttemptAt": "2026-10-26T19:55:03+00:00",
       "listPagesChecked": 3,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -221,19 +225,19 @@
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
-    "requestsThisRun": 4,
+    "requestsThisRun": 5,
     "requestsLast24Hours": 94,
     "cachedSources": 84,
     "acceptedSources": 0,
-    "noMatchingSources": 2,
-    "failedSources": 2,
-    "deferredSources": 0,
+    "noMatchingSources": 1,
+    "failedSources": 4,
+    "deferredSources": 1,
     "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 3,
+    "fetches": 4,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
     "pending": 2,
@@ -248,14 +252,14 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 96,
+    "fetch_failed": 97,
     "needs_source_lookup": 301,
     "covered": 15,
     "reopened": 9,
-    "needs_review": 332,
+    "needs_review": 330,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 738,
+  "unresolvedNewsCandidates": 737,
   "deferredNewsCandidates": 0
 }
