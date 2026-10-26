@@ -1,11 +1,11 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-26T16:57:29+00:00",
+  "lastAttemptAt": "2026-10-26T17:54:47+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-26T16:57:29+00:00",
-  "successfulFetches": 337,
-  "failedFetches": 35,
-  "changedReviewedSources": 42,
+  "lastPartialSuccessAt": "2026-10-26T17:54:47+00:00",
+  "successfulFetches": 338,
+  "failedFetches": 34,
+  "changedReviewedSources": 41,
   "automaticAnnouncements": 189,
   "watchedDocumentCount": 317,
   "watchedIndexCount": 52,
@@ -58,10 +58,6 @@
     {
       "url": "https://www.nihon-kotsu.co.jp/news/20260819-3385/",
       "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "https://www.ec-gendaibutsudan.com/view/news/20260619190311",
-      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "url": "https://2nd-rtl.com/news/82023",
@@ -157,16 +153,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-27",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-26T16:57:29+00:00",
+    "lastAttemptAt": "2026-10-26T17:54:47+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
-    "successfulArchivePages": 1,
+    "successfulArchivePages": 2,
     "newsCandidates": 1435,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 78,
+    "officialFetches": 67,
     "confirmedOfficialAnnouncements": 236,
-    "pendingNewsArticles": 761,
+    "pendingNewsArticles": 758,
     "skippedReviewedArticles": 27,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -209,7 +205,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-26T17:00:14+00:00",
+      "lastAttemptAt": "2026-10-26T17:56:57+00:00",
       "listPagesChecked": 3,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -218,20 +214,20 @@
   },
   "automaticSummaries": {
     "ready": 41,
-    "partial": 106,
-    "pending": 65,
-    "fetchFailed": 11
+    "partial": 107,
+    "pending": 64,
+    "fetchFailed": 10
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
     "requestsLast24Hours": 90,
-    "cachedSources": 83,
+    "cachedSources": 84,
     "acceptedSources": 0,
-    "noMatchingSources": 0,
-    "failedSources": 5,
-    "deferredSources": 5,
+    "noMatchingSources": 1,
+    "failedSources": 4,
+    "deferredSources": 3,
     "lastError": "ungrounded_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
@@ -256,10 +252,10 @@
     "needs_source_lookup": 301,
     "covered": 15,
     "reopened": 9,
-    "needs_review": 338,
+    "needs_review": 335,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 741,
+  "unresolvedNewsCandidates": 738,
   "deferredNewsCandidates": 0
 }
