@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-26T15:43:17+00:00",
+  "lastAttemptAt": "2026-10-26T16:57:29+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-26T15:43:17+00:00",
+  "lastPartialSuccessAt": "2026-10-26T16:57:29+00:00",
   "successfulFetches": 337,
   "failedFetches": 35,
   "changedReviewedSources": 42,
@@ -60,6 +60,10 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
+      "url": "https://www.ec-gendaibutsudan.com/view/news/20260619190311",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
       "url": "https://2nd-rtl.com/news/82023",
       "error": "HTTP Error 403: Forbidden"
     },
@@ -74,10 +78,6 @@
     {
       "url": "https://www.lbm.co.jp/news/2026/260109/",
       "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "url": "https://www.media4u.co.jp/news/3351",
-      "error": "<urlopen error timed out>"
     },
     {
       "url": "https://ainokaze.co.jp/24166",
@@ -157,16 +157,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-27",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-26T15:43:17+00:00",
+    "lastAttemptAt": "2026-10-26T16:57:29+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
-    "newsCandidates": 1434,
+    "newsCandidates": 1435,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 84,
+    "officialFetches": 78,
     "confirmedOfficialAnnouncements": 236,
-    "pendingNewsArticles": 759,
+    "pendingNewsArticles": 761,
     "skippedReviewedArticles": 27,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -209,7 +209,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-26T15:46:02+00:00",
+      "lastAttemptAt": "2026-10-26T17:00:14+00:00",
       "listPagesChecked": 3,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -218,20 +218,20 @@
   },
   "automaticSummaries": {
     "ready": 41,
-    "partial": 107,
-    "pending": 64,
-    "fetchFailed": 10
+    "partial": 106,
+    "pending": 65,
+    "fetchFailed": 11
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
-    "requestsLast24Hours": 95,
-    "cachedSources": 84,
+    "requestsLast24Hours": 90,
+    "cachedSources": 83,
     "acceptedSources": 0,
     "noMatchingSources": 0,
     "failedSources": 5,
-    "deferredSources": 4,
+    "deferredSources": 5,
     "lastError": "ungrounded_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
@@ -253,13 +253,13 @@
   "candidateTriageCounts": {
     "out_of_scope": 9,
     "fetch_failed": 93,
-    "needs_source_lookup": 300,
+    "needs_source_lookup": 301,
     "covered": 15,
     "reopened": 9,
-    "needs_review": 337,
+    "needs_review": 338,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 739,
+  "unresolvedNewsCandidates": 741,
   "deferredNewsCandidates": 0
 }
