@@ -1,13 +1,13 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-26T22:48:45+00:00",
+  "lastAttemptAt": "2026-10-27T01:06:45+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-26T22:48:45+00:00",
-  "successfulFetches": 338,
-  "failedFetches": 35,
+  "lastPartialSuccessAt": "2026-10-27T01:06:45+00:00",
+  "successfulFetches": 341,
+  "failedFetches": 33,
   "changedReviewedSources": 42,
-  "automaticAnnouncements": 190,
-  "watchedDocumentCount": 318,
+  "automaticAnnouncements": 191,
+  "watchedDocumentCount": 319,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
@@ -76,20 +76,12 @@
       "error": "HTTP Error 503: Service Unavailable"
     },
     {
-      "url": "https://ainokaze.co.jp/24166",
-      "error": "HTTP Error 401: Unauthorized"
-    },
-    {
-      "url": "https://www.betsudaikohsan.co.jp/topics/detail/id_402/",
-      "error": "HTTP Error 503: Service Unavailable"
+      "url": "https://www.sklg.co.jp/news/%e5%bd%93%e7%a4%be%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%e3%81%a8/",
+      "error": "Source body could not be read"
     },
     {
       "url": "https://corp.eplus.jp/press-release/1824/",
       "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "url": "https://www.sklg.co.jp/news/%e5%bd%93%e7%a4%be%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%e3%81%a8/",
-      "error": "Source body could not be read"
     },
     {
       "url": "https://www.nikkei.co.jp/",
@@ -157,16 +149,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-27",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-26T22:48:45+00:00",
+    "lastAttemptAt": "2026-10-27T01:06:45+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
-    "newsCandidates": 1436,
+    "newsCandidates": 1454,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 99,
-    "confirmedOfficialAnnouncements": 237,
-    "pendingNewsArticles": 757,
+    "officialFetches": 75,
+    "confirmedOfficialAnnouncements": 238,
+    "pendingNewsArticles": 772,
     "skippedReviewedArticles": 27,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -209,7 +201,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-26T22:51:50+00:00",
+      "lastAttemptAt": "2026-10-27T01:09:37+00:00",
       "listPagesChecked": 3,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -217,31 +209,31 @@
     }
   },
   "automaticSummaries": {
-    "ready": 41,
-    "partial": 107,
-    "pending": 65,
-    "fetchFailed": 11
+    "ready": 42,
+    "partial": 108,
+    "pending": 64,
+    "fetchFailed": 9
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
     "requestsLast24Hours": 98,
-    "cachedSources": 84,
+    "cachedSources": 85,
     "acceptedSources": 0,
-    "noMatchingSources": 0,
-    "failedSources": 5,
-    "deferredSources": 3,
-    "lastError": "irrelevant_count",
+    "noMatchingSources": 1,
+    "failedSources": 4,
+    "deferredSources": 4,
+    "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 1,
+    "fetches": 4,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
-    "pending": 1,
-    "failed": 1,
+    "pending": 2,
+    "failed": 2,
     "report": "data/source-recovery-report.md",
     "ocr": {
       "toolsAvailable": true,
@@ -252,14 +244,14 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 92,
-    "needs_source_lookup": 302,
+    "fetch_failed": 91,
+    "needs_source_lookup": 316,
     "covered": 15,
     "reopened": 9,
-    "needs_review": 334,
+    "needs_review": 336,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 737,
+  "unresolvedNewsCandidates": 752,
   "deferredNewsCandidates": 0
 }
