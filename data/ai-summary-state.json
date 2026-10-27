@@ -88,10 +88,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://central-con.co.jp/news/%e5%bd%93%e7%a4%be%e3%82%b3%e3%83%bc%e3%83%9d%e3%83%ac%e3%83%bc%e3%83%88%e3%82%b5%e3%82%a4%e3%83%88%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e9%96%a2%e3%81%99/",
-      "attemptedAt": "2026-10-26T20:49:45+00:00",
+      "attemptedAt": "2026-10-27T21:48:40+00:00",
       "state": "failed",
       "error": "irrelevant_output",
-      "retryAfter": 1793134185.0
+      "retryAfter": 1793224120.0
     },
     "0ebf3280292ae21f2fd6dbcd28c63164d26abc79e3eaa22662dfb434971f3b42": {
       "hash": "8874a01849310d22d946952ad2d1c6534cc4289cb8c377ca0e36358f6e0b7cf9",
@@ -231,10 +231,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://newspicks.com/news/17665641/body/",
-      "attemptedAt": "2026-10-26T21:46:03+00:00",
+      "attemptedAt": "2026-10-27T21:48:40+00:00",
       "state": "failed",
-      "error": "irrelevant_count",
-      "retryAfter": 1793137563.0
+      "error": "ungrounded_output",
+      "retryAfter": 1793224120.0
     },
     "add097599d67f367b4d28c53d47de4a9a3d929b233756aef2d1c556d716fbad9": {
       "hash": "deaff9dd4edf525f849ccc7a56f230ab26eb3548591ad34b63ffb54bfd4fe6d5",
@@ -333,11 +333,11 @@
       ]
     },
     "377b59843b82cb6311aa4d58cd76d9c59b1243f728be2f77253b940291a28f0c": {
-      "hash": "d6e8282d776ad8283ebf962c04027de1d9b7ebdc42d0044dee570fd70e9762a0",
+      "hash": "8a9bf81cb64025d63dad67cccc29b11f048b3ec1dc6ca1c5bde8993c86b496bf",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://wasabi-inc.biz/help/news/20260706-04/",
-      "attemptedAt": "2026-10-27T19:52:08+00:00",
+      "attemptedAt": "2026-10-27T21:48:40+00:00",
       "state": "success",
       "passages": []
     },
@@ -544,11 +544,11 @@
       "retryAfter": 1793170852.0
     },
     "f95a0617f63f415f38c04b64ed3ddc473123148380b2deae7bb025acf61a8ab9": {
-      "hash": "da15f54a84eb9edc94502d07e7e1b2859b2680cd4a8098c4661cedde728ea6b5",
+      "hash": "7abd8cd13edea43cc7cdf079f61384b08338fc9197cd925c1783f372caeebafa",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.japantimes.co.jp/press/2026/10/02/noticeransomware-incident-jp/",
-      "attemptedAt": "2026-10-27T19:52:08+00:00",
+      "attemptedAt": "2026-10-27T21:48:40+00:00",
       "state": "success",
       "passages": []
     },
@@ -1594,14 +1594,22 @@
       "retryAfter": 1793203203.0
     },
     "7e51f5596564e2db3cd1f6764c727c70ad3e789c8689a2c552558bdac798bb0a": {
-      "hash": "9a59e08541e5190e5983b7d43fc2b0ffdf7c5a779f8d45c081e0aa2056ffc212",
+      "hash": "36d757d03e0b0c81150f189721f24ead7d12424882b445988714dd526a72d81f",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.niigata-nippo.co.jp/articles/-/929006",
-      "attemptedAt": "2026-10-27T19:52:08+00:00",
-      "state": "failed",
-      "error": "irrelevant_output",
-      "retryAfter": 1793217128.0
+      "attemptedAt": "2026-10-27T21:48:40+00:00",
+      "state": "success",
+      "passages": [
+        {
+          "kind": "items",
+          "quote": "【漏えいした個人情報】「新潟日報パスポート会員」1氏名(カタカナ)2都道府県名3市町村名4メールアドレス5性別6年代7購読商品名8購読するメルマガサービス名"
+        },
+        {
+          "kind": "scale",
+          "quote": "「新潟日報パスポート」全会員分の個人情報が漏えいしたことが判明しました。最大約25万3000人とみられます。"
+        }
+      ]
     },
     "cd94c34729dc2cf1f26eaf564819af186e4755d257fce8bb6a828a7537bcedf9": {
       "hash": "6018a95877e95154ac74aa51996f4db08689bbaa9f4386edb3f4074b46e6d7a0",
@@ -2040,15 +2048,6 @@
     }
   },
   "requestTimes": [
-    1793047785.0,
-    1793047785.0,
-    1793047785.0,
-    1793047785.0,
-    1793051163.0,
-    1793051163.0,
-    1793051163.0,
-    1793051163.0,
-    1793051163.0,
     1793054925.0,
     1793054925.0,
     1793054925.0,
@@ -2139,6 +2138,11 @@
     1793134151.0,
     1793134151.0,
     1793134151.0,
-    1793134151.0
+    1793134151.0,
+    1793137720.0,
+    1793137720.0,
+    1793137720.0,
+    1793137720.0,
+    1793137720.0
   ]
 }
