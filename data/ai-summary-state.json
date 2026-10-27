@@ -511,36 +511,37 @@
       "passages": []
     },
     "c27182ffe70ea5c3ddfceb0f7575657e1eb95c1a86e05fd63f0349e617b44dde": {
-      "hash": "04b7e01900d6973a17c8c3cbfe4fc29020fcc79b1e4a55e34527adf6f6ec263e",
+      "hash": "5d890793d7f2ddea68ae8c2d6e8c328e1b8c413ab8861dc328debd48cb588670",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.idcf.jp/news/topics/20261008001",
-      "attemptedAt": "2026-10-22T23:34:55+00:00",
+      "attemptedAt": "2026-10-27T07:00:52+00:00",
       "state": "success",
-      "passages": []
+      "passages": [
+        {
+          "kind": "audience",
+          "quote": "IDCFクラウドをご契約いただきご利用中の495の企業や自治体"
+        }
+      ]
     },
     "b2446a03ae2d6a0c643242875441702737d5d7279222c01f0eae07d6567e30ba": {
-      "hash": "e8a04a020d1bc76616270d4d159f348622dc2dcc1ef597accfb15b75e776147d",
+      "hash": "cc70fc1c368e9227bcd48c9e57b763e0fbcdd15a27af7cdc69f86c5490f6d6b2",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.idcf.jp/news/topics/20261009001",
-      "attemptedAt": "2026-10-21T17:45:10+00:00",
+      "attemptedAt": "2026-10-27T07:00:52+00:00",
       "state": "success",
       "passages": []
     },
     "eae7663c3235286be629e29468816908c1568aee08e7366b26fabb0686dd403f": {
-      "hash": "3ec137bd2cc726d9b8d18a3e5e99c64641d101692f76167fa98ddeefe19805e7",
+      "hash": "880a3dd345bc118c4c49cfd6ec306b948cc39849fcc3359c7d7d7c0e26537fc2",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.idcf.jp/news/topics/20261014001/",
-      "attemptedAt": "2026-10-21T17:45:10+00:00",
-      "state": "success",
-      "passages": [
-        {
-          "kind": "items",
-          "quote": "契約時に設定した企業名 IDCFクラウドポータルのログインに使用するID IDCFクラウドポータルのログインに使用するパスワード(復元困難かつランダムなハッシュ値) 契約関連およびサーバーの稼働状況の通知先情報(企業メールアドレス) サービスの月額利用料金の合計額"
-        }
-      ]
+      "attemptedAt": "2026-10-27T07:00:52+00:00",
+      "state": "failed",
+      "error": "irrelevant_count",
+      "retryAfter": 1793170852.0
     },
     "f95a0617f63f415f38c04b64ed3ddc473123148380b2deae7bb025acf61a8ab9": {
       "hash": "b60067cd77a0ec5af0e38705c4ebe08777a545833e219c4d1cb142ffe8484e84",
@@ -1967,6 +1968,25 @@
       "state": "failed",
       "error": "ungrounded_output",
       "retryAfter": 1793166660.0
+    },
+    "f33c4b2d25f15e94cbb1414e9ef7d8659a3da70385e65e20b7b1ffb87ad83f88": {
+      "hash": "3275cfc79c6cd9aadfc15f5c18151131b39f18ba587902f1bb85347d1c6ab944",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://maaru-ct.jp/news/270383/",
+      "attemptedAt": "2026-10-27T07:00:52+00:00",
+      "state": "success",
+      "passages": []
+    },
+    "1f58a4982929527f7c15029788b80ba307aa7052dadbc4070165e20d753ae409": {
+      "hash": "a8d52cdcba07aaf8c8fc39e4cb182c7e8a8d8602b7c7b86b84fa0edb7fceb030",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://www.dai-ichi-life.co.jp/information/pdf/index_192.pdf",
+      "attemptedAt": "2026-10-27T07:00:52+00:00",
+      "state": "failed",
+      "error": "irrelevant_count",
+      "retryAfter": 1793170852.0
     }
   },
   "requestTimes": [
@@ -2062,6 +2082,11 @@
     1793080260.0,
     1793080260.0,
     1793080260.0,
-    1793080260.0
+    1793080260.0,
+    1793084452.0,
+    1793084452.0,
+    1793084452.0,
+    1793084452.0,
+    1793084452.0
   ]
 }
