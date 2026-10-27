@@ -1,10 +1,10 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-27T09:53:46+00:00",
+  "lastAttemptAt": "2026-10-27T10:55:57+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-27T09:53:46+00:00",
-  "successfulFetches": 347,
-  "failedFetches": 32,
+  "lastPartialSuccessAt": "2026-10-27T10:55:57+00:00",
+  "successfulFetches": 344,
+  "failedFetches": 35,
   "changedReviewedSources": 45,
   "automaticAnnouncements": 196,
   "watchedDocumentCount": 324,
@@ -56,6 +56,14 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
+      "url": "https://www.k9natural.jp/blogs/news/%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E9%A1%98%E3%81%84",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.k9natural.jp/blogs/news/%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E8%AA%BF%E6%9F%BB%E7%B5%90%E6%9E%9C%E3%81%AE%E3%81%94%E5%A0%B1%E5%91%8A",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
       "url": "https://2nd-rtl.com/news/82023",
       "error": "HTTP Error 403: Forbidden"
     },
@@ -69,6 +77,10 @@
     },
     {
       "url": "https://www.lbm.co.jp/news/2026/260109/",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.betsudaikohsan.co.jp/topics/detail/id_402/",
       "error": "HTTP Error 503: Service Unavailable"
     },
     {
@@ -145,14 +157,14 @@
   "cloudRun": true,
   "retentionStart": "2023-10-27",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-27T09:53:46+00:00",
+    "lastAttemptAt": "2026-10-27T10:55:57+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1463,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 70,
+    "officialFetches": 61,
     "confirmedOfficialAnnouncements": 243,
     "pendingNewsArticles": 780,
     "skippedReviewedArticles": 26,
@@ -197,7 +209,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-27T09:55:49+00:00",
+      "lastAttemptAt": "2026-10-27T10:58:01+00:00",
       "listPagesChecked": 5,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -205,27 +217,27 @@
     }
   },
   "automaticSummaries": {
-    "ready": 42,
-    "partial": 112,
-    "pending": 67,
-    "fetchFailed": 8
+    "ready": 41,
+    "partial": 110,
+    "pending": 70,
+    "fetchFailed": 11
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
-    "requestsLast24Hours": 98,
-    "cachedSources": 86,
+    "requestsLast24Hours": 94,
+    "cachedSources": 84,
     "acceptedSources": 0,
     "noMatchingSources": 0,
     "failedSources": 5,
-    "deferredSources": 12,
+    "deferredSources": 11,
     "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 4,
+    "fetches": 2,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
     "pending": 2,
@@ -240,11 +252,11 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 90,
+    "fetch_failed": 91,
     "needs_source_lookup": 320,
     "covered": 14,
     "reopened": 10,
-    "needs_review": 341,
+    "needs_review": 340,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
