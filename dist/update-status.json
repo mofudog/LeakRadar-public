@@ -1,13 +1,13 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-27T10:55:57+00:00",
+  "lastAttemptAt": "2026-10-27T11:49:15+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-27T10:55:57+00:00",
-  "successfulFetches": 344,
-  "failedFetches": 35,
-  "changedReviewedSources": 45,
-  "automaticAnnouncements": 196,
-  "watchedDocumentCount": 324,
+  "lastPartialSuccessAt": "2026-10-27T11:49:15+00:00",
+  "successfulFetches": 347,
+  "failedFetches": 33,
+  "changedReviewedSources": 46,
+  "automaticAnnouncements": 197,
+  "watchedDocumentCount": 325,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
@@ -54,14 +54,6 @@
     {
       "url": "https://www.nihon-kotsu.co.jp/news/20260819-3385/",
       "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "https://www.k9natural.jp/blogs/news/%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E9%A1%98%E3%81%84",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "url": "https://www.k9natural.jp/blogs/news/%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E8%AA%BF%E6%9F%BB%E7%B5%90%E6%9E%9C%E3%81%AE%E3%81%94%E5%A0%B1%E5%91%8A",
-      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "url": "https://2nd-rtl.com/news/82023",
@@ -157,16 +149,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-27",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-27T10:55:57+00:00",
+    "lastAttemptAt": "2026-10-27T11:49:15+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
-    "newsCandidates": 1463,
+    "newsCandidates": 1465,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 61,
-    "confirmedOfficialAnnouncements": 243,
-    "pendingNewsArticles": 780,
+    "officialFetches": 62,
+    "confirmedOfficialAnnouncements": 244,
+    "pendingNewsArticles": 782,
     "skippedReviewedArticles": 26,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -209,7 +201,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-27T10:58:01+00:00",
+      "lastAttemptAt": "2026-10-27T11:51:27+00:00",
       "listPagesChecked": 5,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -217,31 +209,31 @@
     }
   },
   "automaticSummaries": {
-    "ready": 41,
-    "partial": 110,
-    "pending": 70,
-    "fetchFailed": 11
+    "ready": 43,
+    "partial": 111,
+    "pending": 69,
+    "fetchFailed": 9
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
-    "requestsLast24Hours": 94,
-    "cachedSources": 84,
-    "acceptedSources": 0,
-    "noMatchingSources": 0,
-    "failedSources": 5,
-    "deferredSources": 11,
+    "requestsLast24Hours": 99,
+    "cachedSources": 85,
+    "acceptedSources": 2,
+    "noMatchingSources": 1,
+    "failedSources": 2,
+    "deferredSources": 8,
     "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 2,
+    "fetches": 1,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
-    "pending": 2,
-    "failed": 2,
+    "pending": 1,
+    "failed": 1,
     "report": "data/source-recovery-report.md",
     "ocr": {
       "toolsAvailable": true,
@@ -252,14 +244,14 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 91,
+    "fetch_failed": 92,
     "needs_source_lookup": 320,
     "covered": 14,
     "reopened": 10,
-    "needs_review": 340,
+    "needs_review": 341,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 761,
+  "unresolvedNewsCandidates": 763,
   "deferredNewsCandidates": 0
 }
