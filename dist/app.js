@@ -7,7 +7,7 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const norm=s=>String(s).normalize('NFKC').toLocaleLowerCase('ja').trim();
 const safeUrl=u=>{try{const x=new URL(u);return x.protocol==='https:'?x.href:'#'}catch{return '#'}};
 const sourceNames={'innovatopia.jp':'innovaTopia','security-next.com':'Security NEXT','scan.netsecurity.ne.jp':'ScanNetSecurity','internet.watch.impress.co.jp':'INTERNET Watch','itmedia.co.jp':'ITmedia NEWS','news.yahoo.co.jp':'Yahoo!ニュース','yahoo.co.jp':'Yahoo!ニュース','nikkei.co.jp':'日本経済新聞','nikkei.com':'日本経済新聞','asahi.com':'朝日新聞デジタル','mainichi.jp':'毎日新聞','yomiuri.co.jp':'読売新聞オンライン','sankei.com':'産経ニュース','oricon.co.jp':'ORICON NEWS'};
-function sourceSiteName(url){try{const host=new URL(url).hostname.toLowerCase().replace(/^www\\./,'');const key=Object.keys(sourceNames).sort((a,b)=>b.length-a.length).find(x=>host===x||host.endsWith('.'+x));return key?sourceNames[key]:host}catch{return '出典サイト'}}
+function sourceSiteName(url){try{const host=new URL(url).hostname.toLowerCase().replace('www.','');const key=Object.keys(sourceNames).sort((a,b)=>b.length-a.length).find(x=>host===x||host.endsWith('.'+x));return key?sourceNames[key]:host}catch{return '出典サイト'}}
 function sourceAttribution(r,detail=false){
  const entries=[];const seen=new Set();
  const add=(url,label,primary=false)=>{const href=safeUrl(url);if(href==='#'||seen.has(href))return;seen.add(href);entries.push({href,label:label+'（'+sourceSiteName(href)+'）',primary})};
