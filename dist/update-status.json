@@ -1,11 +1,11 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-29T19:05:06+00:00",
+  "lastAttemptAt": "2026-10-29T19:58:52+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-29T19:05:06+00:00",
-  "successfulFetches": 363,
-  "failedFetches": 33,
-  "changedReviewedSources": 52,
+  "lastPartialSuccessAt": "2026-10-29T19:58:52+00:00",
+  "successfulFetches": 362,
+  "failedFetches": 34,
+  "changedReviewedSources": 53,
   "automaticAnnouncements": 210,
   "watchedDocumentCount": 341,
   "watchedIndexCount": 52,
@@ -80,6 +80,10 @@
       "error": "Source body could not be read"
     },
     {
+      "url": "https://www.kind.co.jp/notice-20260828",
+      "error": "The read operation timed out"
+    },
+    {
       "url": "https://corp.eplus.jp/press-release/1824/",
       "error": "HTTP Error 403: Forbidden"
     },
@@ -149,14 +153,14 @@
   "cloudRun": true,
   "retentionStart": "2023-10-30",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-29T19:05:06+00:00",
+    "lastAttemptAt": "2026-10-29T19:58:52+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1506,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 77,
+    "officialFetches": 49,
     "confirmedOfficialAnnouncements": 261,
     "pendingNewsArticles": 805,
     "skippedReviewedArticles": 25,
@@ -201,7 +205,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-29T19:07:39+00:00",
+      "lastAttemptAt": "2026-10-29T20:01:13+00:00",
       "listPagesChecked": 6,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -217,14 +221,14 @@
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
-    "requestsThisRun": 5,
+    "requestsThisRun": 4,
     "requestsLast24Hours": 100,
     "cachedSources": 96,
     "acceptedSources": 0,
-    "noMatchingSources": 0,
-    "failedSources": 5,
-    "deferredSources": 6,
-    "lastError": "irrelevant_count",
+    "noMatchingSources": 2,
+    "failedSources": 2,
+    "deferredSources": 4,
+    "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
@@ -244,11 +248,11 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 89,
+    "fetch_failed": 91,
     "needs_source_lookup": 341,
     "covered": 13,
     "reopened": 11,
-    "needs_review": 346,
+    "needs_review": 344,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
