@@ -670,20 +670,20 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.media4u.co.jp/news/3351",
-      "attemptedAt": "2026-10-28T08:10:01+00:00",
+      "attemptedAt": "2026-10-29T09:05:39+00:00",
       "state": "failed",
       "error": "ungrounded_output",
-      "retryAfter": 1793261401.0
+      "retryAfter": 1793351139.0
     },
     "f1242967d2a5b30d55f0048b2ff5b318ded6478ffae0bb8dbb5593c043f30b94": {
       "hash": "82a77a341cfa056e936309c9f07a1f1432b5ed63f124fe8b0e22b6f756800a41",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.medica.co.jp/news/information/3544/",
-      "attemptedAt": "2026-10-28T08:10:01+00:00",
+      "attemptedAt": "2026-10-29T09:05:39+00:00",
       "state": "failed",
       "error": "irrelevant_output",
-      "retryAfter": 1793261401.0
+      "retryAfter": 1793351139.0
     },
     "a6a95c3e3b941374ed743eb4a0fb474a73a24757a7ca19c30187be544721fe32": {
       "hash": "7fca87e5180b5541e6ac7abd9523cdbb87109b3e83c9b1877f841d965f57a8c5",
@@ -1638,11 +1638,11 @@
       "retryAfter": 1793289813.0
     },
     "528aec6e6099feecf7ccd9fd5e20506568bbf20d33e09655dd77da250941be16": {
-      "hash": "28400f64a746105b667a9d2957bbe451bfd35615f55f3e342c7d011b54cf9a2f",
+      "hash": "f3aca9313b7c6923bc8c0b79e2aa78f306b354d6bc51bb1c36f0ebe6bc7675b9",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://kurashi.com/news/16912",
-      "attemptedAt": "2026-10-23T13:53:25+00:00",
+      "attemptedAt": "2026-10-29T09:05:39+00:00",
       "state": "success",
       "passages": [
         {
@@ -1770,10 +1770,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.resorttrust.co.jp/topics/20261016/3397/",
-      "attemptedAt": "2026-10-28T08:10:01+00:00",
+      "attemptedAt": "2026-10-29T09:05:39+00:00",
       "state": "failed",
       "error": "ungrounded_output",
-      "retryAfter": 1793261401.0
+      "retryAfter": 1793351139.0
     },
     "f7661b9c3a655e9879a733688c02636a1f49516c58fc716d8139951679950df5": {
       "hash": "b43f6e518d14bb4ce35c93491daaa4d698a8ebd42a6491ba422b31725765730c",
@@ -2191,14 +2191,31 @@
           "quote": "緊急停止までの間に、計7件の個人情報に対して外部からアクセスされた痕跡を確認いたしました。内 訳は以下の通りです。  クレジットカードの有効期限および暗号化された名義情報:1 件 ※当社システムではクレジットカード番号およびセキュリティコードは一切保持しておりません。  メールアドレスおよび活動履歴等の情報:6 件"
         }
       ]
+    },
+    "701c7e9382c56cf7cad0526d4b668ba5b795a748e9456c9cafe3dfb50b63dbc6": {
+      "hash": "7c288ba0cfc40c394ee172cc00581a56bdb40a7cd098d40efbf8b76a26706add",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://e-tenki.co.jp/news/%E5%BC%8A%E7%A4%BE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84/",
+      "attemptedAt": "2026-10-29T09:05:39+00:00",
+      "state": "success",
+      "passages": [
+        {
+          "kind": "audience",
+          "quote": "本メールは、契約が終了しているお客様を含め、対象となる予約データをお預かりしていたすべてのお客様にお送りしております。"
+        },
+        {
+          "kind": "items",
+          "quote": "・ご予約者様の氏名、電話番号、メールアドレス ・ご予約の内容(店舗・施設名、担当スタッフ名、メニュー名、予約日時、予約番号、料金・割引、予約の登録・更新日時、予約区分等) ・ご予約者様に関して、顧客名の欄に記載されていた情報(顧客名の欄に、氏名以外の情報を記載されていた場合)"
+        },
+        {
+          "kind": "scale",
+          "quote": "・対象件数:1,536,322件"
+        }
+      ]
     }
   },
   "requestTimes": [
-    1793178129.0,
-    1793178129.0,
-    1793178129.0,
-    1793178129.0,
-    1793178129.0,
     1793181613.0,
     1793181613.0,
     1793181613.0,
@@ -2288,6 +2305,11 @@
     1793261595.0,
     1793261595.0,
     1793261595.0,
-    1793261595.0
+    1793261595.0,
+    1793264739.0,
+    1793264739.0,
+    1793264739.0,
+    1793264739.0,
+    1793264739.0
   ]
 }
