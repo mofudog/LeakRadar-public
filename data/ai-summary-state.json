@@ -221,10 +221,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://luup.sc/news/2026-10-16/",
-      "attemptedAt": "2026-10-29T02:59:14+00:00",
+      "attemptedAt": "2026-10-30T02:59:45+00:00",
       "state": "failed",
-      "error": "irrelevant_output",
-      "retryAfter": 1793329154.0
+      "error": "irrelevant_count",
+      "retryAfter": 1793415585.0
     },
     "d8a50626ca34ee49fe300cdb97cea40a2d0646d510d2ee833572dadadfe4b684": {
       "hash": "b96200d331685052f66f75fe7f892e9b4777c1a282e5f21ec5f5b0a996a041ba",
@@ -260,10 +260,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://rizap.co.jp/news/vNh1nMuA",
-      "attemptedAt": "2026-10-29T02:59:14+00:00",
+      "attemptedAt": "2026-10-30T02:59:45+00:00",
       "state": "failed",
       "error": "irrelevant_output",
-      "retryAfter": 1793329154.0
+      "retryAfter": 1793415585.0
     },
     "1a93502d2f9c93ea017dc431e3d94d6a599ef7f7ef2f7fc05a7e4f9fa88f1629": {
       "hash": "4eb863f859039abad155950544adcc4967dba536568854f196b27e29fcb7bd62",
@@ -280,10 +280,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://scalagrp.jp/pdf/ir/news/2026_IRnews1006.pdf",
-      "attemptedAt": "2026-10-29T02:59:14+00:00",
+      "attemptedAt": "2026-10-30T02:59:45+00:00",
       "state": "failed",
-      "error": "ungrounded_output",
-      "retryAfter": 1793329154.0
+      "error": "irrelevant_output",
+      "retryAfter": 1793415585.0
     },
     "709f6983742d4988cfccd3a9925db614236f87c224931d11d96906a1d145197f": {
       "hash": "d23341677743ace2c6834c2a7af07965602d56ff5ad1c5d6a792847e24f8b191",
@@ -2047,10 +2047,14 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.release.tdnet.info/inbs/140120261027557045.pdf",
-      "attemptedAt": "2026-10-29T02:06:35+00:00",
-      "state": "failed",
-      "error": "ungrounded_output",
-      "retryAfter": 1793325995.0
+      "attemptedAt": "2026-10-30T02:59:45+00:00",
+      "state": "success",
+      "passages": [
+        {
+          "kind": "audience",
+          "quote": "本サービスを現在ご利用のすべてのお客 様に、一律 5,000 円"
+        }
+      ]
     },
     "2b731274087df4fdd374083dc9745b3f59b3bcffa33d02807634767edfaa9d3a": {
       "hash": "faa28c3056e3f0f140ab9dd2f54066dbc4a963c22f370c08500784e3223940b0",
@@ -2242,14 +2246,19 @@
       "attemptedAt": "2026-10-30T02:10:40+00:00",
       "state": "success",
       "passages": []
+    },
+    "08794d09df7a95e183b7bda1f65d26db2c66498f7c0343ede521e7a28680142a": {
+      "hash": "4c8d3952dc98ac269a460cc21554635ae863dae0b8a0a522123085491b60a8bc",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://global.yamaha-motor.com/jp/news/2026/1012/leakage.html",
+      "attemptedAt": "2026-10-30T02:59:45+00:00",
+      "state": "failed",
+      "error": "irrelevant_count",
+      "retryAfter": 1793415585.0
     }
   },
   "requestTimes": [
-    1793242754.0,
-    1793242754.0,
-    1793242754.0,
-    1793242754.0,
-    1793242754.0,
     1793246338.0,
     1793246338.0,
     1793246338.0,
@@ -2344,6 +2353,11 @@
     1793326240.0,
     1793326240.0,
     1793326240.0,
-    1793326240.0
+    1793326240.0,
+    1793329185.0,
+    1793329185.0,
+    1793329185.0,
+    1793329185.0,
+    1793329185.0
   ]
 }
