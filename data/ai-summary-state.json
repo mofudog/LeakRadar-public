@@ -270,10 +270,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://scala-com.jp/news/2026/10-1/",
-      "attemptedAt": "2026-10-29T10:58:59+00:00",
+      "attemptedAt": "2026-10-30T11:54:31+00:00",
       "state": "failed",
-      "error": "irrelevant_count",
-      "retryAfter": 1793357939.0
+      "error": "irrelevant_output",
+      "retryAfter": 1793447671.0
     },
     "81f947b0bfb6aba9e2bdb97fe9531d043bf28796809af6815c24598075b23203": {
       "hash": "981465b79ac232abf97ff97f46579f8e89c6f5d304db030c4a64f1c78c788d26",
@@ -801,10 +801,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.release.tdnet.info/inbs/140120260928540919.pdf",
-      "attemptedAt": "2026-10-29T10:58:59+00:00",
+      "attemptedAt": "2026-10-30T11:54:31+00:00",
       "state": "failed",
       "error": "ungrounded_output",
-      "retryAfter": 1793357939.0
+      "retryAfter": 1793447671.0
     },
     "510a397d1d3844506070174a7ccc7b84518f56dbaaf0737f8a8e643142829715": {
       "hash": "199e02fe6f8330ae29bd75dc11d0b9c9369b27ab6fd052a2dd3b755404ab4291",
@@ -866,10 +866,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.release.tdnet.info/inbs/140120261008548235.pdf",
-      "attemptedAt": "2026-10-29T10:58:59+00:00",
+      "attemptedAt": "2026-10-30T11:54:31+00:00",
       "state": "failed",
       "error": "irrelevant_count",
-      "retryAfter": 1793357939.0
+      "retryAfter": 1793447671.0
     },
     "d0037e22fc143c04fb9312af4b64b55ba97c51fcf6ca56195bc8874b919c2885": {
       "hash": "bf59dff920a66280f05523645982516258fc34f5f91beab910229db25ad9d767",
@@ -1036,10 +1036,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://jgc-digital.com/topics/topics-3049/",
-      "attemptedAt": "2026-10-29T10:58:59+00:00",
+      "attemptedAt": "2026-10-30T11:54:31+00:00",
       "state": "failed",
       "error": "irrelevant_count",
-      "retryAfter": 1793357939.0
+      "retryAfter": 1793447671.0
     },
     "e77af81da0a69bde045eff0045c659b3db9ab2b477b75c444eea051581ab8694": {
       "hash": "41868a2fe83b133a4cca307d7c653318d112b76f61300d8789ddead59e04d0a4",
@@ -1598,14 +1598,22 @@
       "retryAfter": 1793376381.0
     },
     "7e51f5596564e2db3cd1f6764c727c70ad3e789c8689a2c552558bdac798bb0a": {
-      "hash": "e76720c911626c8b5eff1d493ee2f80335efa503d237fa70c36accf6dcbd9401",
+      "hash": "9c9c84c07796ef4d3216239fff57878c0d459619930b1b4fd07bfccbea08599f",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.niigata-nippo.co.jp/articles/-/929006",
-      "attemptedAt": "2026-10-29T20:56:43+00:00",
-      "state": "failed",
-      "error": "ungrounded_output",
-      "retryAfter": 1793393803.0
+      "attemptedAt": "2026-10-30T11:54:31+00:00",
+      "state": "success",
+      "passages": [
+        {
+          "kind": "items",
+          "quote": "【漏えいした個人情報】「新潟日報パスポート会員」1氏名(カタカナ)2都道府県名3市町村名4メールアドレス5性別6年代7購読商品名8購読するメルマガサービス名"
+        },
+        {
+          "kind": "scale",
+          "quote": "「新潟日報パスポート」全会員分の個人情報が漏えいしたことが判明しました。最大約25万3000人とみられます。"
+        }
+      ]
     },
     "cd94c34729dc2cf1f26eaf564819af186e4755d257fce8bb6a828a7537bcedf9": {
       "hash": "2b499af27f616d258893c9af67dbd26a30ae7ed55bde5d9a8d29946c45edd581",
@@ -2268,11 +2276,6 @@
     }
   },
   "requestTimes": [
-    1793271539.0,
-    1793271539.0,
-    1793271539.0,
-    1793271539.0,
-    1793271539.0,
     1793274981.0,
     1793274981.0,
     1793274981.0,
@@ -2367,6 +2370,11 @@
     1793357839.0,
     1793357839.0,
     1793357839.0,
-    1793357839.0
+    1793357839.0,
+    1793361271.0,
+    1793361271.0,
+    1793361271.0,
+    1793361271.0,
+    1793361271.0
   ]
 }
