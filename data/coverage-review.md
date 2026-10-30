@@ -1,15 +1,15 @@
 # 収集候補の確認状況
 
-確認日時: 2026-10-30T13:09:56+00:00
+確認日時: 2026-10-30T14:11:19+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
 - 掲載済み: 12件
 - 同一事案の別記事: 2件
 - 掲載対象外: 9件
-- 取得失敗: 91件
+- 取得失敗: 90件
 - 公式発表の発見待ち: 355件
-- 内容確認が必要: 343件
+- 内容確認が必要: 342件
 - 未処理: 0件
 - 再確認が必要: 12件
 
@@ -6221,27 +6221,6 @@
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
 - 取得結果: gaierror: \[Errno -2\] Name or service not known / <https://www.popmc.jp/>
-
-### 転職支援サイトに不正アクセス - 海外サイトに会員情報
-
-取得失敗 / 報道・公表日: 2024-06-11
-
-<https://www.security-next.com/158100>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: URLError: <urlopen error timed out> / <https://www.workport.co.jp/>
-
-### 高校教諭が生徒の個人情報含む教務手帳を一時紛失 - 東京都
-
-内容確認が必要 / 報道・公表日: 2024-06-06
-
-<https://www.security-next.com/157982>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.metro.tokyo.lg.jp/information/press/2026/10/2026102317>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.metro.tokyo.lg.jp/information/press/2026/10/2026102601>
 
 ### アンケートメールを誤送信、氏名やメアド流出 - 鉾田市
 
