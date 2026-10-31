@@ -1,15 +1,15 @@
 # 収集候補の確認状況
 
-確認日時: 2026-10-31T20:48:04+00:00
+確認日時: 2026-10-31T21:46:38+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
 - 掲載済み: 12件
 - 同一事案の別記事: 2件
 - 掲載対象外: 9件
-- 取得失敗: 91件
+- 取得失敗: 89件
 - 公式発表の発見待ち: 350件
-- 内容確認が必要: 340件
+- 内容確認が必要: 343件
 - 未処理: 0件
 - 再確認が必要: 12件
 
@@ -623,9 +623,9 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://travel.faq.rakuten.net/detail/000031574>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/news/careful_information/261007_alert?ref=topnews>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/legal/rouei?ref=toppanel>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/personalinfo/legal/leakAction?ref=toppanel>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119509/>
 
 ### So-netに不正アクセス、会員情報258万件が漏えい　plala（Sコース）も対象、メールのパスワードは5.4万件
@@ -636,10 +636,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.so-net.ne.jp/support/faq/qa202610_01/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.docomo.ne.jp/info/notice/page/261027_05_m.html>
 - 取得結果: ValueError: Cross-domain redirect requires review / <https://www.so-net.ne.jp/mypage/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/news/careful_information/261007_alert?ref=topnews>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/legal/rouei?ref=toppanel>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119506/>
 
 ### ヤクルト本社サイト、不正アクセスで停止中　顧客情報への影響は「調査中」
@@ -1503,10 +1503,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.capcom.co.jp/ir/sustainability/security.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.zkai.co.jp/post-120678/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/news/careful_information/261007_alert?ref=topnews>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/legal/rouei?ref=toppanel>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://gamebiz.jp/news/293484>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://news.mynavi.jp/article/20210420-security>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-after-gamers-data-stolen-in-cyberattack/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.capcom.co.jp/ir/english/news/html/e261022.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119314/>
 
 ### リクルートの中古車情報サービスで個人情報など流出か
@@ -2443,11 +2443,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://adversa.ai/blog/cryptographic-context-injection-github-copilot/>
 - 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://securityboulevard.com/2026/10/meta-security-breach-exposes-corporate-code-employee-data-on-github/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.digit.in/news/general/meta-says-hackers-accessed-its-github-exposing-personal-data-of-1500-people.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://cybernews.com/security/meta-hack-github-personal-data/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://docs.github.com/en/code-security/concepts/secret-security/secret-scanning>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/118948/>
 
 ### \[ITmedia ビジネスオンライン\] ECサイト運営支援「ショップサーブ」で約2335万人の情報漏えい　クレカ情報も一部流出
@@ -2681,14 +2680,16 @@
 
 ### 【解説】IDCFクラウド第5報「流出なし」、委託元はマウスやイズミなど「漏えいの可能性」を公表
 
-取得失敗 / 報道・公表日: 2026-10-15
+内容確認が必要 / 報道・公表日: 2026-10-15
 
 <https://innovatopia.jp/cyber-security/cyber-security-news/118902/>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: HTTPError: HTTP Error 404: Not Found / <https://jr-central.co.jp/news/release/_pdf/000046058.pdf>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nissui.co.jp/news/20261014.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www2.mouse-jp.co.jp/ssl/user_support2/info.asp?N_ID=535>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.izumi.co.jp/news_release/idc.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://faq.peachjohn.co.jp/info_and_news/show/77?site_domain=default>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nttexc.co.jp/news/detail20261013/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/118902/>
 
 ### ConoHa WING byGMO に不正アクセス、不正プログラムを設置
@@ -2791,16 +2792,16 @@
 
 ### 【解説】手間いらず・バイトル・JR九州など不正アクセス14件、10月8〜10日の公表を整理
 
-取得失敗 / 報道・公表日: 2026-10-12
+内容確認が必要 / 報道・公表日: 2026-10-12
 
 <https://innovatopia.jp/cyber-security/cyber-security-news/118817/>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/security/security-alert/2026/alert20261009.html>
-- 取得結果: HTTPError: HTTP Error 404: Not Found / <https://www.fnn.jp/articles/-/1128991>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://news.livedoor.com/article/detail/32518371/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://news.web.nhk/newsweb/na/nd-20261010de57536>
+- 取得結果: ValueError: PDF metadata needs review: publisher=True, date=True, title=True / <https://www.jrkyushu.co.jp/common/inc/news/newtopics/__icsFiles/afieldfile/2026/10/09/202691009_mail_address_access_1.pdf>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nishuhan.co.jp/news/2026/20261009.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://communeinc.com/ja/news/2026oct09>
+- 取得結果: ValueError: PDF metadata needs review: publisher=True, date=False, title=True / <https://www.suzuki.co.jp/release/d/2026/1009/pdf/1009.pdf>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/118817/>
 
 ### skyticketに不正アクセス、約1,464万件の顧客情報が流出　経路の異なる3件を公表
@@ -3947,6 +3948,16 @@
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.pref.fukui.lg.jp/kenkei/>
+
+### 「SESマッチングサービス」のメルアカに不正アクセス - アデコ
+
+内容確認が必要 / 報道・公表日: 2026-02-20
+
+<https://www.security-next.com/181217>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: ValueError: Cross-domain redirect requires review / <https://www.adeccogroup.jp/>
 
 ### サーバ内にバックドア、個人情報流出の可能性 - ケイ・ウノ
 

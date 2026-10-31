@@ -341,13 +341,14 @@
       ]
     },
     "377b59843b82cb6311aa4d58cd76d9c59b1243f728be2f77253b940291a28f0c": {
-      "hash": "44a093a70e19d0397587d8725f0d3687a2011277c7e3ce3c239c2a8b7d34f1bd",
+      "hash": "1379c1931c97c26454e2e342526560962e3fdd6194627c42636e3f422ea34f34",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://wasabi-inc.biz/help/news/20260706-04/",
-      "attemptedAt": "2026-10-31T02:58:14+00:00",
-      "state": "success",
-      "passages": []
+      "attemptedAt": "2026-10-31T21:46:38+00:00",
+      "state": "failed",
+      "error": "irrelevant_output",
+      "retryAfter": 1793569598.0
     },
     "2c15d79868a3e66b0831dadc564151ca8d2beaaa4bbb15ec33caab7a22d0079b": {
       "hash": "0fc51f1346bdebb56c2d46ff2fae2d39284916299e9a34dfd4e3b86a7a9fcb98",
@@ -410,10 +411,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.daiichilife-group.com/news/assets/pdf/portalaccess.pdf",
-      "attemptedAt": "2026-10-30T20:53:57+00:00",
+      "attemptedAt": "2026-10-31T21:46:38+00:00",
       "state": "failed",
       "error": "irrelevant_count",
-      "retryAfter": 1793480037.0
+      "retryAfter": 1793569598.0
     },
     "e0a486c5ca8c8086efd395c6ec086f6e9288825c39a08b511a10c55e392438e6": {
       "hash": "fbd85ef097b7d320cf4222a32814c2a1a4226edeab05ba43c818dc2c78aef492",
@@ -613,14 +614,14 @@
       "retryAfter": 1793555084.0
     },
     "026820664a8455d7133afaa3762e425735877873b7e867a59d38548d4e5bb08c": {
-      "hash": "dd5c359c3f5b16a40e13cc8d29511ce2f3826d7cd9ffab103ea60671c3ee92d1",
+      "hash": "322768f1d26d4f7f52097c24e4bd03ebac1435d1a6ed245797e04f20bbcf9d9b",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.leange.co.jp/corporate_news/post-12669/",
-      "attemptedAt": "2026-10-31T03:56:39+00:00",
+      "attemptedAt": "2026-10-31T21:46:38+00:00",
       "state": "failed",
       "error": "irrelevant_output",
-      "retryAfter": 1793505399.0
+      "retryAfter": 1793569598.0
     },
     "58272eaf7fb53c746823ff4da30ed71c633f6bdcaf08039ca01698f55e51e11d": {
       "hash": "3769f1cfa9b0f83b5037c73e2ce04b27b11265747d772a97433c361e031e79ee",
@@ -1610,14 +1611,18 @@
       "retryAfter": 1793555084.0
     },
     "7e51f5596564e2db3cd1f6764c727c70ad3e789c8689a2c552558bdac798bb0a": {
-      "hash": "2256532ce1fb595f967512dc1d1b1f03fcde79e678a317ccd0bcd92c9f6d66f0",
+      "hash": "edb1c0b36abadb7b66e2f3f11053909f6e7402f5a46cf1d9a375f58b21dce496",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.niigata-nippo.co.jp/articles/-/929006",
-      "attemptedAt": "2026-10-31T05:52:29+00:00",
-      "state": "failed",
-      "error": "ungrounded_output",
-      "retryAfter": 1793512349.0
+      "attemptedAt": "2026-10-31T21:46:38+00:00",
+      "state": "success",
+      "passages": [
+        {
+          "kind": "scale",
+          "quote": "「新潟日報パスポート」全会員分の個人情報が漏えいしたことが判明しました。最大約25万3000人とみられます。"
+        }
+      ]
     },
     "cd94c34729dc2cf1f26eaf564819af186e4755d257fce8bb6a828a7537bcedf9": {
       "hash": "2b499af27f616d258893c9af67dbd26a30ae7ed55bde5d9a8d29946c45edd581",
@@ -2300,10 +2305,6 @@
     }
   },
   "requestTimes": [
-    1793393637.0,
-    1793393637.0,
-    1793393637.0,
-    1793393637.0,
     1793397027.0,
     1793397027.0,
     1793397027.0,
@@ -2399,6 +2400,10 @@
     1793479684.0,
     1793479684.0,
     1793479684.0,
-    1793479684.0
+    1793479684.0,
+    1793483198.0,
+    1793483198.0,
+    1793483198.0,
+    1793483198.0
   ]
 }
