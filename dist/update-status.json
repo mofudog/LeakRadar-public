@@ -1,38 +1,22 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-31T22:46:46+00:00",
+  "lastAttemptAt": "2026-10-31T23:45:30+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-31T22:46:46+00:00",
-  "successfulFetches": 368,
-  "failedFetches": 36,
-  "changedReviewedSources": 55,
-  "automaticAnnouncements": 215,
-  "watchedDocumentCount": 346,
+  "lastPartialSuccessAt": "2026-10-31T23:45:30+00:00",
+  "successfulFetches": 372,
+  "failedFetches": 33,
+  "changedReviewedSources": 56,
+  "automaticAnnouncements": 218,
+  "watchedDocumentCount": 350,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
-    {
-      "url": "https://innovatopia.jp/feed/",
-      "error": "HTTPError: HTTP Error 415: Unsupported Media Type"
-    },
     {
       "url": "https://www.security-next.com/date/2026/11",
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/16/56481.html",
-      "error": "HTTPError: HTTP Error 502: Gateway Error"
-    },
-    {
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/20/56512.html",
-      "error": "HTTPError: HTTP Error 502: Gateway Error"
-    },
-    {
       "url": "https://www.lashinbang.com/info/26357/",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "url": "https://www.mrmax.co.jp/info/incident_20261006/",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -70,6 +54,14 @@
     {
       "url": "https://www.nihon-kotsu.co.jp/news/20260819-3385/",
       "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.k9natural.jp/blogs/news/%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E9%A1%98%E3%81%84",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.k9natural.jp/blogs/news/%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E8%AA%BF%E6%9F%BB%E7%B5%90%E6%9E%9C%E3%81%AE%E3%81%94%E5%A0%B1%E5%91%8A",
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "url": "https://www.solnet.ne.jp/news/20260817",
@@ -116,10 +108,6 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "https://www.mrmax.co.jp/",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
       "url": "https://support.rakuten-drive.com/",
       "error": "HTTP Error 403: Forbidden"
     },
@@ -161,16 +149,16 @@
   "cloudRun": true,
   "retentionStart": "2023-11-01",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-31T22:46:46+00:00",
+    "lastAttemptAt": "2026-10-31T23:45:30+00:00",
     "feedCount": 9,
-    "successfulFeeds": 8,
+    "successfulFeeds": 9,
     "successfulArchivePages": 0,
-    "newsCandidates": 1526,
-    "newsArticlesChecked": 68,
+    "newsCandidates": 1529,
+    "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 69,
-    "confirmedOfficialAnnouncements": 268,
-    "pendingNewsArticles": 810,
+    "officialFetches": 91,
+    "confirmedOfficialAnnouncements": 272,
+    "pendingNewsArticles": 813,
     "skippedReviewedArticles": 24,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -213,7 +201,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-31T22:49:28+00:00",
+      "lastAttemptAt": "2026-10-31T23:48:41+00:00",
       "listPagesChecked": 2,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -222,26 +210,26 @@
   },
   "automaticSummaries": {
     "ready": 49,
-    "partial": 127,
-    "pending": 74,
-    "fetchFailed": 11
+    "partial": 129,
+    "pending": 76,
+    "fetchFailed": 12
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
     "requestsLast24Hours": 100,
-    "cachedSources": 104,
-    "acceptedSources": 0,
+    "cachedSources": 102,
+    "acceptedSources": 1,
     "noMatchingSources": 1,
-    "failedSources": 4,
-    "deferredSources": 0,
+    "failedSources": 3,
+    "deferredSources": 6,
     "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 4,
+    "fetches": 6,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
     "pending": 4,
@@ -256,14 +244,14 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 91,
-    "needs_source_lookup": 348,
-    "covered": 12,
-    "reopened": 12,
-    "needs_review": 343,
+    "fetch_failed": 95,
+    "needs_source_lookup": 349,
+    "covered": 11,
+    "reopened": 13,
+    "needs_review": 341,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 794,
+  "unresolvedNewsCandidates": 798,
   "deferredNewsCandidates": 0
 }
