@@ -1,11 +1,11 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-31T16:49:07+00:00",
+  "lastAttemptAt": "2026-10-31T17:44:44+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-31T16:49:07+00:00",
-  "successfulFetches": 366,
-  "failedFetches": 35,
-  "changedReviewedSources": 55,
+  "lastPartialSuccessAt": "2026-10-31T17:44:44+00:00",
+  "successfulFetches": 370,
+  "failedFetches": 31,
+  "changedReviewedSources": 56,
   "automaticAnnouncements": 215,
   "watchedDocumentCount": 346,
   "watchedIndexCount": 52,
@@ -60,10 +60,6 @@
       "error": "HTTP Error 503: Service Unavailable"
     },
     {
-      "url": "https://www.astemo.com/jp/news/pdf/20261016-01.pdf",
-      "error": "<urlopen error timed out>"
-    },
-    {
       "url": "https://2nd-rtl.com/news/82023",
       "error": "HTTP Error 403: Forbidden"
     },
@@ -74,18 +70,6 @@
     {
       "url": "https://2nd-rtl.com/news/82032/",
       "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "url": "https://www.lbm.co.jp/news/2026/260109/",
-      "error": "<urlopen error timed out>"
-    },
-    {
-      "url": "https://www.marubishi-group.co.jp/2025/08/05/%e3%80%90%e5%bd%93%e7%a4%be%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8b%e3%83%a9%e3%83%b3%e3%82%b5%e3%83%a0%e3%82%a6%e3%82%a7%e3%82%a2%e8%a2%ab%e5%ae%b3%e3%81%ab%e4%bc%b4%e3%81%86%e3%82%b7%e3%82%b9%e3%83%86/",
-      "error": "<urlopen error timed out>"
-    },
-    {
-      "url": "https://www.marubishi-group.co.jp/2025/09/05/%e3%80%90%e5%bd%93%e7%a4%be%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8b%e3%83%a9%e3%83%b3%e3%82%b5%e3%83%a0%e3%82%a6%e3%82%a7%e3%82%a2%e8%a2%ab%e5%ae%b3%e3%81%ab%e4%bc%b4%e3%81%86%e3%82%b7%e3%82%b9%e3%83%86-2/",
-      "error": "<urlopen error timed out>"
     },
     {
       "url": "https://www.betsudaikohsan.co.jp/topics/detail/id_402/",
@@ -157,16 +141,16 @@
   "cloudRun": true,
   "retentionStart": "2023-11-01",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-31T16:49:07+00:00",
+    "lastAttemptAt": "2026-10-31T17:44:44+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 0,
     "newsCandidates": 1526,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 72,
+    "officialFetches": 97,
     "confirmedOfficialAnnouncements": 268,
-    "pendingNewsArticles": 811,
+    "pendingNewsArticles": 810,
     "skippedReviewedArticles": 24,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -209,7 +193,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-31T16:51:40+00:00",
+      "lastAttemptAt": "2026-10-31T17:47:47+00:00",
       "listPagesChecked": 2,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -218,21 +202,21 @@
   },
   "automaticSummaries": {
     "ready": 49,
-    "partial": 125,
-    "pending": 76,
-    "fetchFailed": 14
+    "partial": 128,
+    "pending": 73,
+    "fetchFailed": 10
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
-    "requestsThisRun": 0,
+    "requestsThisRun": 5,
     "requestsLast24Hours": 100,
-    "cachedSources": 100,
+    "cachedSources": 103,
     "acceptedSources": 0,
     "noMatchingSources": 0,
-    "failedSources": 0,
-    "deferredSources": 5,
-    "lastError": null,
+    "failedSources": 5,
+    "deferredSources": 4,
+    "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
@@ -252,7 +236,7 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 91,
+    "fetch_failed": 90,
     "needs_source_lookup": 350,
     "covered": 12,
     "reopened": 12,
@@ -260,6 +244,6 @@
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 795,
+  "unresolvedNewsCandidates": 794,
   "deferredNewsCandidates": 0
 }
