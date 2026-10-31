@@ -1,13 +1,13 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-31T13:54:51+00:00",
+  "lastAttemptAt": "2026-10-31T14:47:58+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-31T13:54:51+00:00",
-  "successfulFetches": 369,
-  "failedFetches": 31,
-  "changedReviewedSources": 55,
+  "lastPartialSuccessAt": "2026-10-31T14:47:58+00:00",
+  "successfulFetches": 371,
+  "failedFetches": 30,
+  "changedReviewedSources": 56,
   "automaticAnnouncements": 215,
-  "watchedDocumentCount": 346,
+  "watchedDocumentCount": 347,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
@@ -26,10 +26,6 @@
     {
       "url": "https://www2.sagawa-exp.co.jp/information/detail/430/",
       "error": "Source body could not be read"
-    },
-    {
-      "url": "https://www.kyuden.co.jp/td/press/2026/260708.html",
-      "error": "The read operation timed out"
     },
     {
       "url": "https://revisio.co.jp/news/qlqXjTs7",
@@ -141,14 +137,14 @@
   "cloudRun": true,
   "retentionStart": "2023-10-31",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-31T13:54:51+00:00",
+    "lastAttemptAt": "2026-10-31T14:47:58+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1529,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 70,
+    "officialFetches": 66,
     "confirmedOfficialAnnouncements": 268,
     "pendingNewsArticles": 815,
     "skippedReviewedArticles": 24,
@@ -193,7 +189,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-31T13:57:41+00:00",
+      "lastAttemptAt": "2026-10-31T14:50:19+00:00",
       "listPagesChecked": 10,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -211,21 +207,21 @@
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
     "requestsLast24Hours": 100,
-    "cachedSources": 104,
+    "cachedSources": 103,
     "acceptedSources": 0,
     "noMatchingSources": 0,
     "failedSources": 5,
-    "deferredSources": 4,
+    "deferredSources": 6,
     "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 2,
+    "fetches": 6,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
-    "pending": 2,
-    "failed": 0,
+    "pending": 4,
+    "failed": 2,
     "report": "data/source-recovery-report.md",
     "ocr": {
       "toolsAvailable": true,
@@ -236,11 +232,11 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 91,
+    "fetch_failed": 94,
     "needs_source_lookup": 353,
     "covered": 12,
     "reopened": 12,
-    "needs_review": 343,
+    "needs_review": 340,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
