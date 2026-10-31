@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-30T23:48:38+00:00",
+  "lastAttemptAt": "2026-10-31T01:13:51+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-30T23:48:38+00:00",
+  "lastPartialSuccessAt": "2026-10-31T01:13:51+00:00",
   "successfulFetches": 369,
   "failedFetches": 30,
   "changedReviewedSources": 54,
@@ -137,16 +137,16 @@
   "cloudRun": true,
   "retentionStart": "2023-10-31",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-30T23:48:38+00:00",
+    "lastAttemptAt": "2026-10-31T01:13:51+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
-    "newsCandidates": 1526,
+    "newsCandidates": 1527,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 79,
+    "officialFetches": 62,
     "confirmedOfficialAnnouncements": 266,
-    "pendingNewsArticles": 811,
+    "pendingNewsArticles": 812,
     "skippedReviewedArticles": 24,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -189,7 +189,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-30T23:51:32+00:00",
+      "lastAttemptAt": "2026-10-31T01:16:15+00:00",
       "listPagesChecked": 10,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -205,19 +205,19 @@
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
-    "requestsThisRun": 3,
+    "requestsThisRun": 5,
     "requestsLast24Hours": 100,
     "cachedSources": 102,
     "acceptedSources": 0,
-    "noMatchingSources": 1,
-    "failedSources": 2,
-    "deferredSources": 3,
-    "lastError": "invalid_output",
+    "noMatchingSources": 0,
+    "failedSources": 5,
+    "deferredSources": 5,
+    "lastError": "ungrounded_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 6,
+    "fetches": 5,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
     "pending": 4,
@@ -233,13 +233,13 @@
   "candidateTriageCounts": {
     "out_of_scope": 9,
     "fetch_failed": 92,
-    "needs_source_lookup": 352,
+    "needs_source_lookup": 353,
     "covered": 12,
     "reopened": 12,
     "needs_review": 339,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 795,
+  "unresolvedNewsCandidates": 796,
   "deferredNewsCandidates": 0
 }
