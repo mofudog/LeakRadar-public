@@ -221,10 +221,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://luup.sc/news/2026-10-16/",
-      "attemptedAt": "2026-10-30T02:59:45+00:00",
+      "attemptedAt": "2026-10-31T03:56:39+00:00",
       "state": "failed",
-      "error": "irrelevant_count",
-      "retryAfter": 1793415585.0
+      "error": "irrelevant_output",
+      "retryAfter": 1793505399.0
     },
     "d8a50626ca34ee49fe300cdb97cea40a2d0646d510d2ee833572dadadfe4b684": {
       "hash": "b96200d331685052f66f75fe7f892e9b4777c1a282e5f21ec5f5b0a996a041ba",
@@ -260,10 +260,18 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://rizap.co.jp/news/vNh1nMuA",
-      "attemptedAt": "2026-10-30T02:59:45+00:00",
-      "state": "failed",
-      "error": "irrelevant_output",
-      "retryAfter": 1793415585.0
+      "attemptedAt": "2026-10-31T03:56:39+00:00",
+      "state": "success",
+      "passages": [
+        {
+          "kind": "audience",
+          "quote": "2026年5月1日 ~ 2026年8月5日 ■ 対象者 上記期間中に「APORITOオンラインストア」にてご注文、または情報を入力されたお客様"
+        },
+        {
+          "kind": "items",
+          "quote": "・個人情報(氏名、住所、電話番号、メールアドレス) ・クレジットカード情報(カード番号、有効期限、セキュリティコード)"
+        }
+      ]
     },
     "1a93502d2f9c93ea017dc431e3d94d6a599ef7f7ef2f7fc05a7e4f9fa88f1629": {
       "hash": "4eb863f859039abad155950544adcc4967dba536568854f196b27e29fcb7bd62",
@@ -280,10 +288,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://scalagrp.jp/pdf/ir/news/2026_IRnews1006.pdf",
-      "attemptedAt": "2026-10-30T02:59:45+00:00",
+      "attemptedAt": "2026-10-31T03:56:39+00:00",
       "state": "failed",
-      "error": "irrelevant_output",
-      "retryAfter": 1793415585.0
+      "error": "ungrounded_output",
+      "retryAfter": 1793505399.0
     },
     "709f6983742d4988cfccd3a9925db614236f87c224931d11d96906a1d145197f": {
       "hash": "d23341677743ace2c6834c2a7af07965602d56ff5ad1c5d6a792847e24f8b191",
@@ -605,14 +613,14 @@
       "retryAfter": 1793490518.0
     },
     "026820664a8455d7133afaa3762e425735877873b7e867a59d38548d4e5bb08c": {
-      "hash": "c066f580fec003fe533c068920a3171045de8a794e71812a77db4154502609a1",
+      "hash": "dd5c359c3f5b16a40e13cc8d29511ce2f3826d7cd9ffab103ea60671c3ee92d1",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.leange.co.jp/corporate_news/post-12669/",
-      "attemptedAt": "2026-10-30T22:50:18+00:00",
+      "attemptedAt": "2026-10-31T03:56:39+00:00",
       "state": "failed",
       "error": "irrelevant_output",
-      "retryAfter": 1793487018.0
+      "retryAfter": 1793505399.0
     },
     "58272eaf7fb53c746823ff4da30ed71c633f6bdcaf08039ca01698f55e51e11d": {
       "hash": "3769f1cfa9b0f83b5037c73e2ce04b27b11265747d772a97433c361e031e79ee",
@@ -2251,10 +2259,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://global.yamaha-motor.com/jp/news/2026/1012/leakage.html",
-      "attemptedAt": "2026-10-30T02:59:45+00:00",
+      "attemptedAt": "2026-10-31T03:56:39+00:00",
       "state": "failed",
       "error": "irrelevant_count",
-      "retryAfter": 1793415585.0
+      "retryAfter": 1793505399.0
     },
     "239ce5f57b8f7c9e385b76ddb587d27e75b717fb3881a4be92896239a77fef9e": {
       "hash": "ae8b593cc1ff52bd0627e086f358cec373cda70237ea83dc6118c97c92cd9852",
@@ -2278,11 +2286,6 @@
     }
   },
   "requestTimes": [
-    1793329185.0,
-    1793329185.0,
-    1793329185.0,
-    1793329185.0,
-    1793329185.0,
     1793332787.0,
     1793332787.0,
     1793332787.0,
@@ -2377,6 +2380,11 @@
     1793415494.0,
     1793415494.0,
     1793415494.0,
-    1793415494.0
+    1793415494.0,
+    1793418999.0,
+    1793418999.0,
+    1793418999.0,
+    1793418999.0,
+    1793418999.0
   ]
 }
