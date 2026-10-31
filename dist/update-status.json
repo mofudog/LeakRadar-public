@@ -1,13 +1,13 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-10-31T03:56:39+00:00",
+  "lastAttemptAt": "2026-10-31T04:55:59+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-10-31T03:56:39+00:00",
-  "successfulFetches": 369,
-  "failedFetches": 30,
+  "lastPartialSuccessAt": "2026-10-31T04:55:59+00:00",
+  "successfulFetches": 364,
+  "failedFetches": 36,
   "changedReviewedSources": 54,
   "automaticAnnouncements": 214,
-  "watchedDocumentCount": 345,
+  "watchedDocumentCount": 346,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
@@ -56,6 +56,14 @@
       "error": "HTTP Error 503: Service Unavailable"
     },
     {
+      "url": "https://www.medica.co.jp/news/information/3544/",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "url": "https://ark-aaa.jp/post-1248/",
+      "error": "<urlopen error timed out>"
+    },
+    {
       "url": "https://2nd-rtl.com/news/82023",
       "error": "HTTP Error 403: Forbidden"
     },
@@ -68,12 +76,28 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "url": "https://abahouse.co.jp/news/2005/",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "url": "https://acrylic-undoubu.com/incident20250516/",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "url": "https://wisewise.com/news/20241224_news/",
+      "error": "<urlopen error timed out>"
+    },
+    {
       "url": "https://www.betsudaikohsan.co.jp/topics/detail/id_402/",
       "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "url": "https://www.sklg.co.jp/news/%e5%bd%93%e7%a4%be%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%e3%81%a8/",
       "error": "Source body could not be read"
+    },
+    {
+      "url": "https://ejudo.info/articles/34272",
+      "error": "<urlopen error timed out>"
     },
     {
       "url": "https://corp.eplus.jp/press-release/1824/",
@@ -137,14 +161,14 @@
   "cloudRun": true,
   "retentionStart": "2023-10-31",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-10-31T03:56:39+00:00",
+    "lastAttemptAt": "2026-10-31T04:55:59+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1529,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 53,
+    "officialFetches": 74,
     "confirmedOfficialAnnouncements": 266,
     "pendingNewsArticles": 814,
     "skippedReviewedArticles": 24,
@@ -189,7 +213,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-10-31T03:58:52+00:00",
+      "lastAttemptAt": "2026-10-31T04:58:40+00:00",
       "listPagesChecked": 10,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -198,26 +222,26 @@
   },
   "automaticSummaries": {
     "ready": 48,
-    "partial": 128,
-    "pending": 72,
-    "fetchFailed": 10
+    "partial": 124,
+    "pending": 76,
+    "fetchFailed": 16
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
     "requestsLast24Hours": 100,
-    "cachedSources": 102,
+    "cachedSources": 99,
     "acceptedSources": 1,
     "noMatchingSources": 0,
     "failedSources": 4,
-    "deferredSources": 4,
+    "deferredSources": 5,
     "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 5,
+    "fetches": 4,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
     "pending": 4,
