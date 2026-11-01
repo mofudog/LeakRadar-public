@@ -1,6 +1,6 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-01T02:59:28+00:00
+確認日時: 2026-11-01T04:02:23+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
@@ -70,7 +70,11 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.binance.com/ja>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.elliptic.co/insights/binance-largest-hack-in-history/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.binance.com/ja/support/announcement/detail/062daeb5a08b444ca5248113154457ae>
+- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=True, title=False / <https://www.fsa.go.jp/news/r7/sonota/20260403/01.pdf>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119572/>
 
 ### 【解説】外務省・日本交通・無印良品などの不正アクセス、10月28〜31日の公表を整理
@@ -489,9 +493,9 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=False, title=False / <https://www.ppc.go.jp/files/pdf/261028_sankoushiryou-2.pdf>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.stat.go.jp/data/jinsui/new.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/aboutus/minutes/2026/20261028/>
-- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=False, title=False / <https://www.ppc.go.jp/files/pdf/261028_sankoushiryou-2.pdf>
 
 ### 従業員の個人情報が流出した可能性 - ドトールコーヒー
 
@@ -1393,8 +1397,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.osaka-u.ac.jp/ja/news/topics/2026/10/21004>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://jpn.nec.com/news/info/20261020.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.osaka-u.ac.jp/ja/news/topics/2026/10/21004>
 
 ### ドコモが一部サイトで緊急メンテナンス、現在は完了　不正アクセスは確認されず
 
@@ -2419,15 +2423,15 @@
 
 ### 【解説】Studio・コミックシーモア・日本郵便など不正アクセス8件、10月16〜17日の公表を整理
 
-取得失敗 / 報道・公表日: 2026-10-17
+内容確認が必要 / 報道・公表日: 2026-10-17
 
 <https://innovatopia.jp/cyber-security/cyber-security-news/118964/>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nttsolmare.com/press/2026/1016.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.post.japanpost.jp/newsrelease/pressrelease/383542224171.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nikkeibp.co.jp/atcl/newsrelease/corp/20261017/>
-- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://outpost-amd1006.slack.com/archives/C08UZSUAGLQ/p1792548071612799>
-- 取得結果: HTTPError: HTTP Error 406: Not Acceptable / <https://www.nikkei.com/markets/ir/irftp/data/tdnr/tdnetg3/20261016/g6lrwl/140120261016552453.pdf>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/118964/>
 
 ### Eストアー「ショップサーブ」不正アクセスの最終報、漏えい対象者は約2,335万6,000人
@@ -2812,17 +2816,16 @@
 
 ### 防災メールの配信基盤「SpeeCAN RAIDEN」に不正アクセス、自治体は配信を止めるか続けるかで分かれる
 
-内容確認が必要 / 報道・公表日: 2026-10-13
+取得失敗 / 報道・公表日: 2026-10-13
 
 <https://innovatopia.jp/cyber-security/cyber-security-news/118857/>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.ayase.kanagawa.jp/soshiki/kikikanrika/bosai_bohan_anzen_anshin/1/25245.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.pref.oita.jp/soshiki/13550/bosaimeil.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.pref.miyazaki.lg.jp/kiki-kikikanri/press/2026/10/20261013181842.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.tokyo-np.co.jp/article/521381>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nikkei.com/article/DGXZQOUF139TI0T11C26A0000000/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.arcadia.co.jp/info/4076>
+- 取得結果: HTTPError: HTTP Error 404: Not Found / <https://raiden.site.ktaiwork.jp/archives/4601>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.arcadia.co.jp/products/speecan_raiden>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.yokosuka.kanagawa.jp/0525/nagekomi/20261013_roueinoosore.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/118857/>
 
 ### 【解説】i-ask・Commune・IDCFクラウドに不正アクセス、大和証券やヤマハなど委託元の公表が連鎖
@@ -2833,9 +2836,9 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://communeinc.com/ja/news/2026oct09>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://global.yamaha-motor.com/jp/news/2026/1012/leakage.html>
-- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=False, title=True / <https://www.cyber.go.jp/pdf/press/taiou.pdf>
+- 取得結果: ValueError: Encrypted/large PDF requires editorial review / <https://www.ppc.go.jp/files/pdf/261007_warning.pdf>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://laws.e-gov.go.jp/law/415AC0000000057>
+- 取得結果: ValueError: PDF metadata needs review: publisher=True, date=False, title=True / <https://www.tobu.co.jp/cms-pdf/news/20261007153424wpo2m-MJPLTJzWJHnUDkVw.pdf>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/118849/>
 
 ### 【解説】手間いらず・バイトル・JR九州など不正アクセス14件、10月8〜10日の公表を整理
@@ -4216,6 +4219,7 @@
 
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.mobara.chiba.jp/emergencyinfo/0000000386.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.mobara.chiba.jp/emergencyinfo/0000000387.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.mobara.chiba.jp/emergencyinfo/0000000390.html>
 
 ### Node.js環境向けPDF生成ライブラリに脆弱性 - 情報漏洩のおそれ
 
