@@ -1,15 +1,15 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-01T22:47:55+00:00
+確認日時: 2026-11-01T23:45:23+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
 - 掲載済み: 11件
 - 同一事案の別記事: 2件
 - 掲載対象外: 9件
-- 取得失敗: 87件
-- 公式発表の発見待ち: 350件
-- 内容確認が必要: 344件
+- 取得失敗: 88件
+- 公式発表の発見待ち: 361件
+- 内容確認が必要: 343件
 - 未処理: 0件
 - 再確認が必要: 13件
 
@@ -24,6 +24,116 @@
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
 - 取得結果: No direct official announcement link found / <https://internet.watch.impress.co.jp/docs/news/2152904.html>
+
+### AI を活用した総点検で発見 ～ デジタルアーツのクラウドサービス運用環境に不正アクセス
+
+公式発表の発見待ち / 報道・公表日: 2026-11-02
+
+<https://scan.netsecurity.ne.jp/article/2026/11/02/56649.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/02/56649.html>
+
+### WPプラグインの脆弱性悪用 ～ ティエスエスリンクのウェブサイトに不正アクセス、製品にはセキュリティ上の問題 確認されておらず
+
+公式発表の発見待ち / 報道・公表日: 2026-11-02
+
+<https://scan.netsecurity.ne.jp/article/2026/11/02/56648.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/02/56648.html>
+
+### 他の職員のIDとパスワードを使用し複数回にわたり庁内共有フォルダに不正アクセス、上司の印影の偽造も
+
+公式発表の発見待ち / 報道・公表日: 2026-11-02
+
+<https://scan.netsecurity.ne.jp/article/2026/11/02/56647.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/02/56647.html>
+
+### 「楽天トラベル」海外ホテル予約サイトの一部ページと多言語予約サイトに不正アクセス
+
+公式発表の発見待ち / 報道・公表日: 2026-11-02
+
+<https://scan.netsecurity.ne.jp/article/2026/11/02/56646.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/02/56646.html>
+
+### ユミルリンクのメール配信サービスの一部サーバシステムに不正アクセス、延べ51,628,280件の情報が流出
+
+公式発表の発見待ち / 報道・公表日: 2026-11-02
+
+<https://scan.netsecurity.ne.jp/article/2026/11/02/56645.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/02/56645.html>
+
+### フジッコのキャンペーンの応募受付業務の委託先に不正アクセス
+
+公式発表の発見待ち / 報道・公表日: 2026-11-02
+
+<https://scan.netsecurity.ne.jp/article/2026/11/02/56644.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/02/56644.html>
+
+### 「SHIPS CYCLE MARKET」で利用している外部アプリケーション「Swym Wishlist Plus」に不正アクセス、外部の疑似サイトに誘導
+
+公式発表の発見待ち / 報道・公表日: 2026-11-02
+
+<https://scan.netsecurity.ne.jp/article/2026/11/02/56643.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/02/56643.html>
+
+### Sallyに2件の不正アクセス、問い合わせ情報が漏えいした可能性
+
+公式発表の発見待ち / 報道・公表日: 2026-11-02
+
+<https://scan.netsecurity.ne.jp/article/2026/11/02/56641.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/02/56641.html>
+
+### PingCAPに不正アクセス、日本国内で最大約5万件の個人情報が漏えい
+
+公式発表の発見待ち / 報道・公表日: 2026-11-02
+
+<https://scan.netsecurity.ne.jp/article/2026/11/02/56640.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/02/56640.html>
+
+### 会員名簿とされるデータがアップロードされていると警察から報告 ～ 在宅ワーク求人サイト「ママワークス」に不正アクセス
+
+公式発表の発見待ち / 報道・公表日: 2026-11-02
+
+<https://scan.netsecurity.ne.jp/article/2026/11/02/56639.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/02/56639.html>
+
+### 越境ECサービス「WorldShopping」に不正アクセス、海外顧客301名の個人情報が漏えい
+
+公式発表の発見待ち / 報道・公表日: 2026-11-02
+
+<https://scan.netsecurity.ne.jp/article/2026/11/02/56638.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/02/56638.html>
 
 ### \[ITmedia ビジネスオンライン\] タイムズカーは3000円、GMOは300万円　漏えい「見舞金」納得できる？
 
@@ -539,7 +649,6 @@
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://group.gmo/news/article/10255/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://group.gmo/ir_news/article/895/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://group.gmo/ir_news/article/896/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://group.gmo/ir_news/article/898/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.itmedia.co.jp/news/article/2610/27/2000002642/>
 
 ### 個人情報を電話で読み上げ ～ 駐車券紛失届を拾得したとする人物から買い取り要求、個人情報拡散を示唆する発言も
@@ -1959,7 +2068,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.post.japanpost.jp/newsrelease/pressrelease/383542224171.html>
+- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=False, title=False / <https://www.mrmaxhd.co.jp/release/upload/20261006_release.pdf>
+- 取得結果: ValueError: PDF metadata needs review: publisher=True, date=False, title=True / <https://www.his.co.jp/assets/20261007.pdf>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.itmedia.co.jp/enterprise/articles/2610/20/news061.html>
 
 ### 相次ぐ個人情報漏えいの一因「A2B攻撃」　正体は20年前から言われ続けた“あの教訓”だった
@@ -1970,10 +2080,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Source exceeds discovery size limit / <https://cynex.nict.go.jp/pdf/library/lettice/261013-01.pdf>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jpcert.or.jp/at/2026/at260030.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.cyber.go.jp/news/20261014.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nict.go.jp/press/2026/10/13-1.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000680.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.itmedia.co.jp/enterprise/articles/2610/20/news018.html>
 
 ### 日本企業狙う不正アクセスにAI　攻撃者が自律型侵入テスト「ARTEX」を悪用　GMOイエラエ調査
@@ -2420,22 +2530,22 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jfa.jp/news/00036934/>
 - 取得結果: ValueError: PDF metadata needs review: publisher=False, date=True, title=True / <https://www.joshin.co.jp/ja/news/info/info-20261017/main/0/link/20261017Notice%20and%20Apology%20Regarding%20System%20Disruption%20Caused%20by%20Unauthorized%20Access.pdf>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://digym.cloud/post-955/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jfa.jp/jfapassport/news/00034519/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119035/>
 
 ### セカンドリテイリングに不正アクセス、ゲオとセカンドストリートのアプリ・WEBサービスを停止　再開は未定
 
-内容確認が必要 / 報道・公表日: 2026-10-18
+取得失敗 / 報道・公表日: 2026-10-18
 
 <https://innovatopia.jp/cyber-security/cyber-security-news/119032/>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://jvn.jp/jp/JVN40460777/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nttsolmare.com/press/2026/1016.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nttsolmare.com/press/2026/1016-1.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.bookoff.co.jp/info/news/2026/post_113.html>
+- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://2nd-rtl.com/news/82023>
+- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://2nd-rtl.com/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119032/>
 
 ### タイムズカー、退会後も7年間保管していた免許証画像を全削除へ　約660万アカウント分の漏えい受け
@@ -2973,8 +3083,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.kuins.ac.jp/news/2026/09/post_1448.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.kuins.ac.jp/news/2026/10/post_1450.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.kuins.ac.jp/news/2026/09/post_1448.html>
 
 ### 1億件超えの「楽天会員」情報が闇フォーラムで販売？　楽天「漏えいは確認されていない」
 
