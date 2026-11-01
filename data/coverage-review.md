@@ -1,6 +1,6 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-01T19:50:16+00:00
+確認日時: 2026-11-01T20:49:33+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
@@ -9,7 +9,7 @@
 - 掲載対象外: 9件
 - 取得失敗: 88件
 - 公式発表の発見待ち: 349件
-- 内容確認が必要: 344件
+- 内容確認が必要: 343件
 - 未処理: 0件
 - 再確認が必要: 13件
 
@@ -57,10 +57,9 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=False, title=True / <https://www.ppc.go.jp/files/pdf/260902_shiryou-3-2.pdf>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.kantei.go.jp/jp/105/actions/202610/26kaigi_cyber.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/security/10threats/10threats2026.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/aboutus/minutes/2026/20261028/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://public-comment.e-gov.go.jp/pcm/detail?CLASSNAME=PCMMSTDETAIL&Mode=0&id=240000133>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/personalinfo/legal/leakAction/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/security/anshin/index.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119569/>
 
 ### Binance、約63億ドル流出で出金停止　秘密鍵漏えいの証拠なく全額補償へ
@@ -2971,8 +2970,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.park24.co.jp/news/2026/09/20260929-1.html>
-- 取得結果: ValueError: PDF metadata needs review: publisher=True, date=False, title=True / <https://www.tokyometro.jp/info/files/9172e2efa7222d15f8d4f601b6385457.pdf>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://starts-pub.jp/info20260927>
+- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=False, title=True / <https://www.shueisha.co.jp/wp-content/uploads/2026/09/Shueisha20260928-1.pdf>
+- 取得結果: ValueError: Article encoding could not be read reliably / <https://online.seicomart.co.jp/delivery/cms/preview.php?pre_no=119>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www2.sagawa-exp.co.jp/information/detail/419/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.itmedia.co.jp/enterprise/articles/2610/07/news020.html>
 
 ### アプリや通販サイト会員の個人情報が流出 - MrMax
@@ -4967,8 +4968,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-32711>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.microsoft.com/ja-jp/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-32711>
 
 ### 採用職員の健診関連情報含む名簿を誤送信 - 奈良県
 
@@ -4979,17 +4980,6 @@
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
 - 取得結果: URLError: <urlopen error \[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: certificate has expired ( / <https://www.pref.nara.jp/>
-
-### 児童や保護者の個人情報含むファイルを保育施設にメール誤送信 - 龍ケ崎市
-
-内容確認が必要 / 報道・公表日: 2025-06-06
-
-<https://www.security-next.com/171100>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.ryugasaki.ibaraki.jp/shisei/koho/oshirase/2026-systemerror.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.ryugasaki.ibaraki.jp/kurashi/zeikin/nozei/furusato/satofuru-incident.html>
 
 ### サイトの応募企画に関する個人情報が流出した可能性 - 南日本酪農協同
 
