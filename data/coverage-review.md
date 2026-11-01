@@ -1,15 +1,15 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-01T20:49:33+00:00
+確認日時: 2026-11-01T21:47:41+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
 - 掲載済み: 11件
 - 同一事案の別記事: 2件
 - 掲載対象外: 9件
-- 取得失敗: 88件
+- 取得失敗: 89件
 - 公式発表の発見待ち: 349件
-- 内容確認が必要: 343件
+- 内容確認が必要: 342件
 - 未処理: 0件
 - 再確認が必要: 13件
 
@@ -64,15 +64,13 @@
 
 ### Binance、約63億ドル流出で出金停止　秘密鍵漏えいの証拠なく全額補償へ
 
-内容確認が必要 / 報道・公表日: 2026-10-31
+取得失敗 / 報道・公表日: 2026-10-31
 
 <https://innovatopia.jp/cyber-security/cyber-security-news/119572/>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.elliptic.co/insights/binance-largest-hack-in-history/>
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119572/>
+- 取得結果: HTTPError: HTTP Error 415: Unsupported Media Type / <https://innovatopia.jp/cyber-security/cyber-security-news/119572/>
 
 ### 【解説】外務省・日本交通・無印良品などの不正アクセス、10月28〜31日の公表を整理
 
@@ -491,9 +489,9 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=False, title=False / <https://www.ppc.go.jp/files/pdf/261028_sankoushiryou-2.pdf>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.stat.go.jp/data/jinsui/new.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/aboutus/minutes/2026/20261028/>
-- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=False, title=False / <https://www.ppc.go.jp/files/pdf/261028_sankoushiryou-2.pdf>
 
 ### 従業員の個人情報が流出した可能性 - ドトールコーヒー
 
@@ -1387,8 +1385,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://jpn.nec.com/news/info/20261020.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.osaka-u.ac.jp/ja/news/topics/2026/10/21004>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://jpn.nec.com/news/info/20261020.html>
 
 ### ドコモが一部サイトで緊急メンテナンス、現在は完了　不正アクセスは確認されず
 
@@ -2370,9 +2368,7 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/personalinfo/legal/leakAction/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.lawson.co.jp/contents/cont07/1533174_3310.html>
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119011/>
+- 取得結果: ValueError: News article body could not be isolated / <https://innovatopia.jp/cyber-security/cyber-security-news/119011/>
 
 ### 【解説】Astemo・岩井コスモ証券・函館市など5件、委託先に関わる不正アクセスを整理｜10月16日公表分
 
@@ -2382,12 +2378,7 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.smd-am.co.jp/news/news/2026/news_20261016/>
-- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://www.keio.co.jp/news/update/news_release/news_release2026/pdf/nr20261016_newsrelease.pdf>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.hakodate.hokkaido.jp/docs/2026101600015/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.fdma.go.jp/mission/enrichment/kyukyumusen_kinkyutuhou/net119.html>
-- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://www.keio.co.jp/news/update/announce/nr260926v13404/>
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119020/>
+- 取得結果: HTTPError: HTTP Error 415: Unsupported Media Type / <https://innovatopia.jp/cyber-security/cyber-security-news/119020/>
 
 ### 【解説】JFA Passport・カーセンサー・Joshinなど6件、不正アクセスと不審なアクセスの公表を整理｜10月17〜18日
 
@@ -5044,6 +5035,7 @@
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
 - 取得結果: ValueError: Announcement date does not match the news time window / <https://www.kawai.co.jp/news/20261029/>
+- 取得結果: ValueError: Announcement date does not match the news time window / <https://www.kawai.co.jp/news/20261030/>
 
 ### 災害時言語ボランティア向けのメールで誤送信 - 太田市
 
