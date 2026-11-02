@@ -1,6 +1,6 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-02T04:10:22+00:00
+確認日時: 2026-11-02T05:14:53+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
@@ -8,8 +8,8 @@
 - 同一事案の別記事: 2件
 - 掲載対象外: 9件
 - 取得失敗: 87件
-- 公式発表の発見待ち: 361件
-- 内容確認が必要: 346件
+- 公式発表の発見待ち: 360件
+- 内容確認が必要: 347件
 - 未処理: 0件
 - 再確認が必要: 13件
 
@@ -654,9 +654,9 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/aboutus/minutes/2026/20261028/>
 - 取得結果: ValueError: PDF metadata needs review: publisher=False, date=False, title=False / <https://www.ppc.go.jp/files/pdf/261028_sankoushiryou-2.pdf>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.stat.go.jp/data/jinsui/new.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/aboutus/minutes/2026/20261028/>
 
 ### 従業員の個人情報が流出した可能性 - ドトールコーヒー
 
@@ -1335,13 +1335,13 @@
 
 ### 警視庁が個人情報漏えいに関する対策・啓発冊子を公開、都民向けと事業者向け　
 
-公式発表の発見待ち / 報道・公表日: 2026-10-23
+内容確認が必要 / 報道・公表日: 2026-10-23
 
 <https://internet.watch.impress.co.jp/docs/news/2150370.html>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: No direct official announcement link found / <https://internet.watch.impress.co.jp/docs/news/2150370.html>
+- 取得結果: IncompleteRead: IncompleteRead(10028 bytes read) / <https://internet.watch.impress.co.jp/docs/news/2150370.html>
 
 ### ふるさと納税ポータルサイト「ふるさとチョイス」に不正アクセス、泉大津市で寄附の受付ができない状況に
 
@@ -3131,10 +3131,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://starts-pub.jp/info20260927>
-- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=False, title=True / <https://www.shueisha.co.jp/wp-content/uploads/2026/09/Shueisha20260928-1.pdf>
-- 取得結果: ValueError: Article encoding could not be read reliably / <https://online.seicomart.co.jp/delivery/cms/preview.php?pre_no=119>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www2.sagawa-exp.co.jp/information/detail/419/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www2.sagawa-exp.co.jp/information/detail/420/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www2.sagawa-exp.co.jp/information/detail/421/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.g-plan.net/news/details/20260930.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jaea.go.jp/02/press2026/p26100105/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.itmedia.co.jp/enterprise/articles/2610/07/news020.html>
 
 ### アプリや通販サイト会員の個人情報が流出 - MrMax
@@ -3165,6 +3165,7 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://share.timescar.jp/faq/other/09.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.itmedia.co.jp/enterprise/articles/2610/06/news018.html>
 
 ### 介護事業者向けの報告書依頼メールで誤送信 - 鳥取県
@@ -3245,8 +3246,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.post.japanpost.jp/service/send/oversea/mypage/web-inquiry/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.post.japanpost.jp/newsrelease/pressrelease/6267689171.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.post.japanpost.jp/service/send/oversea/mypage/web-inquiry/>
 
 ### モンベルのグローバルサイトに不正アクセス - 個人情報流出の可能性
 
