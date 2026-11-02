@@ -1,19 +1,19 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-02T05:14:53+00:00",
+  "lastAttemptAt": "2026-11-02T06:18:43+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-02T05:14:53+00:00",
+  "lastPartialSuccessAt": "2026-11-02T06:18:43+00:00",
   "successfulFetches": 383,
-  "failedFetches": 30,
+  "failedFetches": 31,
   "changedReviewedSources": 58,
-  "automaticAnnouncements": 225,
-  "watchedDocumentCount": 358,
+  "automaticAnnouncements": 226,
+  "watchedDocumentCount": 359,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
     {
-      "url": "https://internet.watch.impress.co.jp/docs/news/2150370.html",
-      "error": "IncompleteRead: IncompleteRead(10028 bytes read)"
+      "url": "https://internet.watch.impress.co.jp/docs/news/2150509.html",
+      "error": "IncompleteRead: IncompleteRead(9900 bytes read)"
     },
     {
       "url": "https://www.lashinbang.com/info/26357/",
@@ -49,6 +49,10 @@
     },
     {
       "url": "https://www.release.tdnet.info/inbs/140120260917537753.pdf",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.rakuten-booksnetwork.co.jp/2026/08/21/unauthorized-access-notice/index.html",
       "error": "HTTP Error 404: Not Found"
     },
     {
@@ -137,15 +141,15 @@
   "cloudRun": true,
   "retentionStart": "2023-11-02",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-02T05:14:53+00:00",
+    "lastAttemptAt": "2026-11-02T06:18:43+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
-    "newsCandidates": 1545,
+    "newsCandidates": 1546,
     "newsArticlesChecked": 69,
     "deferredNewsArticles": 0,
-    "officialFetches": 52,
-    "confirmedOfficialAnnouncements": 280,
+    "officialFetches": 80,
+    "confirmedOfficialAnnouncements": 281,
     "pendingNewsArticles": 822,
     "skippedReviewedArticles": 24,
     "archiveCursors": {
@@ -189,7 +193,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-02T05:16:43+00:00",
+      "lastAttemptAt": "2026-11-02T06:21:55+00:00",
       "listPagesChecked": 3,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -197,10 +201,10 @@
     }
   },
   "automaticSummaries": {
-    "ready": 52,
-    "partial": 134,
-    "pending": 75,
-    "fetchFailed": 9
+    "ready": 53,
+    "partial": 133,
+    "pending": 76,
+    "fetchFailed": 10
   },
   "aiSummary": {
     "status": "active",
@@ -212,16 +216,16 @@
     "noMatchingSources": 0,
     "failedSources": 5,
     "deferredSources": 11,
-    "lastError": "irrelevant_count",
+    "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 4,
+    "fetches": 5,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
-    "pending": 3,
-    "failed": 1,
+    "pending": 4,
+    "failed": 2,
     "report": "data/source-recovery-report.md",
     "ocr": {
       "toolsAvailable": true,
@@ -233,10 +237,10 @@
   "candidateTriageCounts": {
     "out_of_scope": 9,
     "fetch_failed": 87,
-    "needs_source_lookup": 360,
+    "needs_source_lookup": 359,
     "covered": 11,
     "reopened": 13,
-    "needs_review": 347,
+    "needs_review": 348,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
