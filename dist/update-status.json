@@ -1,12 +1,12 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-02T15:06:31+00:00",
+  "lastAttemptAt": "2026-11-02T16:13:44+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-02T15:06:31+00:00",
-  "successfulFetches": 388,
-  "failedFetches": 30,
-  "changedReviewedSources": 59,
-  "automaticAnnouncements": 230,
+  "lastPartialSuccessAt": "2026-11-02T16:13:44+00:00",
+  "successfulFetches": 387,
+  "failedFetches": 31,
+  "changedReviewedSources": 58,
+  "automaticAnnouncements": 231,
   "watchedDocumentCount": 364,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
@@ -70,6 +70,10 @@
     {
       "url": "https://www.betsudaikohsan.co.jp/topics/detail/id_402/",
       "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.lindsp.com/f/info12",
+      "error": "HTTP Error 503: Service Temporarily Unavailable"
     },
     {
       "url": "https://www.sklg.co.jp/news/%e5%bd%93%e7%a4%be%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%e3%81%a8/",
@@ -137,15 +141,15 @@
   "cloudRun": true,
   "retentionStart": "2023-11-03",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-02T15:06:31+00:00",
+    "lastAttemptAt": "2026-11-02T16:13:44+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1550,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 76,
-    "confirmedOfficialAnnouncements": 285,
+    "officialFetches": 67,
+    "confirmedOfficialAnnouncements": 286,
     "pendingNewsArticles": 826,
     "skippedReviewedArticles": 24,
     "archiveCursors": {
@@ -189,7 +193,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-02T15:09:13+00:00",
+      "lastAttemptAt": "2026-11-02T16:16:11+00:00",
       "listPagesChecked": 6,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -197,22 +201,22 @@
     }
   },
   "automaticSummaries": {
-    "ready": 53,
+    "ready": 52,
     "partial": 135,
-    "pending": 78,
-    "fetchFailed": 10
+    "pending": 80,
+    "fetchFailed": 11
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
-    "requestsLast24Hours": 76,
+    "requestsLast24Hours": 81,
     "cachedSources": 110,
     "acceptedSources": 0,
     "noMatchingSources": 0,
     "failedSources": 5,
-    "deferredSources": 24,
-    "lastError": "irrelevant_output",
+    "deferredSources": 21,
+    "lastError": "ungrounded_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
