@@ -1,16 +1,20 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-03T22:57:38+00:00",
+  "lastAttemptAt": "2026-11-03T23:50:39+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-03T22:57:38+00:00",
-  "successfulFetches": 394,
-  "failedFetches": 31,
-  "changedReviewedSources": 58,
-  "automaticAnnouncements": 235,
-  "watchedDocumentCount": 371,
+  "lastPartialSuccessAt": "2026-11-03T23:50:39+00:00",
+  "successfulFetches": 395,
+  "failedFetches": 32,
+  "changedReviewedSources": 57,
+  "automaticAnnouncements": 236,
+  "watchedDocumentCount": 372,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/11/04/56663.html",
+      "error": "HTTPError: HTTP Error 502: Gateway Error"
+    },
     {
       "url": "https://www.lashinbang.com/info/26357/",
       "error": "HTTP Error 403: Forbidden"
@@ -141,16 +145,16 @@
   "cloudRun": true,
   "retentionStart": "2023-11-04",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-03T22:57:38+00:00",
+    "lastAttemptAt": "2026-11-03T23:50:39+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
-    "newsCandidates": 1556,
-    "newsArticlesChecked": 70,
+    "newsCandidates": 1568,
+    "newsArticlesChecked": 69,
     "deferredNewsArticles": 0,
-    "officialFetches": 64,
-    "confirmedOfficialAnnouncements": 290,
-    "pendingNewsArticles": 828,
+    "officialFetches": 45,
+    "confirmedOfficialAnnouncements": 291,
+    "pendingNewsArticles": 840,
     "skippedReviewedArticles": 24,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -193,7 +197,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-03T22:59:32+00:00",
+      "lastAttemptAt": "2026-11-03T23:52:42+00:00",
       "listPagesChecked": 2,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -202,7 +206,7 @@
   },
   "automaticSummaries": {
     "ready": 54,
-    "partial": 136,
+    "partial": 137,
     "pending": 81,
     "fetchFailed": 11
   },
@@ -212,16 +216,16 @@
     "requestsThisRun": 5,
     "requestsLast24Hours": 95,
     "cachedSources": 113,
-    "acceptedSources": 0,
+    "acceptedSources": 1,
     "noMatchingSources": 0,
-    "failedSources": 5,
-    "deferredSources": 7,
-    "lastError": "ungrounded_output",
+    "failedSources": 4,
+    "deferredSources": 6,
+    "lastError": "irrelevant_count",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 4,
+    "fetches": 5,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
     "pending": 4,
@@ -236,14 +240,14 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 94,
-    "needs_source_lookup": 364,
+    "fetch_failed": 93,
+    "needs_source_lookup": 373,
     "covered": 11,
     "reopened": 13,
-    "needs_review": 342,
+    "needs_review": 346,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 813,
+  "unresolvedNewsCandidates": 825,
   "deferredNewsCandidates": 0
 }
