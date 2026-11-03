@@ -293,6 +293,7 @@ def main():
   announcements[key]=canonicalize_announcements({**announcements,key:announcement})[key]
 
  for a in announcements.values():
+  if 'お名前.com デスクトップクラウド' in a.get('service',''):a['company']='GMOインターネット株式会社'
   if a.get('discoverySource')=='TDnet':
    a['audience']='公式の適時開示で関連発表を確認しました。対象となる登録・利用条件の要約は未整理です。公式資料の本文をご確認ください。'
    a['note']='適時開示一覧の発表企業・見出し・日付とPDFを照合しました。漏洩の有無・対象範囲・件数の自動判定はしていません。'
