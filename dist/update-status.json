@@ -1,13 +1,13 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-03T15:11:55+00:00",
+  "lastAttemptAt": "2026-11-03T15:21:55+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-03T15:11:55+00:00",
-  "successfulFetches": 391,
-  "failedFetches": 31,
+  "lastPartialSuccessAt": "2026-11-03T15:21:55+00:00",
+  "successfulFetches": 393,
+  "failedFetches": 32,
   "changedReviewedSources": 58,
   "automaticAnnouncements": 235,
-  "watchedDocumentCount": 368,
+  "watchedDocumentCount": 371,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
@@ -76,6 +76,10 @@
       "error": "Source body could not be read"
     },
     {
+      "url": "https://e-tenki.co.jp/news/reserve-system-incident/",
+      "error": "<urlopen error _ssl.c:1063: The handshake operation timed out>"
+    },
+    {
       "url": "https://contents.online.nojima.co.jp/uncategorized/%E3%83%8E%E3%82%B8%E3%83%9E%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E4%BC%B4%E3%81%86%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1/",
       "error": "HTTP Error 404: Not Found"
     },
@@ -141,14 +145,14 @@
   "cloudRun": true,
   "retentionStart": "2023-11-04",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-03T15:11:55+00:00",
+    "lastAttemptAt": "2026-11-03T15:21:55+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1553,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 73,
+    "officialFetches": 65,
     "confirmedOfficialAnnouncements": 290,
     "pendingNewsArticles": 825,
     "skippedReviewedArticles": 24,
@@ -193,7 +197,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-03T15:14:34+00:00",
+      "lastAttemptAt": "2026-11-03T15:23:54+00:00",
       "listPagesChecked": 2,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -201,27 +205,27 @@
     }
   },
   "automaticSummaries": {
-    "ready": 54,
+    "ready": 53,
     "partial": 136,
-    "pending": 81,
-    "fetchFailed": 11
+    "pending": 82,
+    "fetchFailed": 12
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
-    "requestsThisRun": 5,
+    "requestsThisRun": 0,
     "requestsLast24Hours": 100,
     "cachedSources": 112,
     "acceptedSources": 0,
-    "noMatchingSources": 1,
-    "failedSources": 4,
+    "noMatchingSources": 0,
+    "failedSources": 0,
     "deferredSources": 7,
-    "lastError": "irrelevant_count",
+    "lastError": null,
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 4,
+    "fetches": 5,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
     "pending": 4,
