@@ -1,6 +1,6 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-03T04:04:38+00:00
+確認日時: 2026-11-03T05:06:51+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
@@ -8,8 +8,8 @@
 - 同一事案の別記事: 2件
 - 掲載対象外: 9件
 - 取得失敗: 89件
-- 公式発表の発見待ち: 360件
-- 内容確認が必要: 349件
+- 公式発表の発見待ち: 361件
+- 内容確認が必要: 348件
 - 未処理: 0件
 - 再確認が必要: 13件
 
@@ -1357,13 +1357,13 @@
 
 ### ユミルリンク、不正アクセスで情報漏えい件数を最大約5163万件と発表。対象が50システムに拡大　同社のドメインを悪用した迷惑メールにも注意喚起
 
-内容確認が必要 / 報道・公表日: 2026-10-26
+公式発表の発見待ち / 報道・公表日: 2026-10-26
 
 <https://internet.watch.impress.co.jp/docs/news/2151309.html>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: IncompleteRead: IncompleteRead(10154 bytes read) / <https://internet.watch.impress.co.jp/docs/news/2151309.html>
+- 取得結果: No direct official announcement link found / <https://internet.watch.impress.co.jp/docs/news/2151309.html>
 
 ### 楽天トラベルで2件の不正アクセス、海外ホテル予約サイト・多言語予約サイトで合計最大約350万件の個人情報が対象に　
 
@@ -1423,8 +1423,7 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nikkei.com/article/DGXZQOUC238H90T21C26A0000000/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://news.web.nhk/newsweb/na/nd-20261023de64388>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.mos.jp/topics/20261023_1/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119412/>
 
 ### 警視庁が個人情報漏えいに関する対策・啓発冊子を公開、都民向けと事業者向け　
@@ -2728,9 +2727,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/security/support/soudan.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/security/anshin/index.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/pressrelease/2026/press20261102.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nikkei.co.jp/nikkeiinfo/news/information/1393.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nikkei.co.jp/nikkeiinfo/news/information/1490.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jpcert.or.jp/at/2026/at260030.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/security/security-alert/2026/alert20261009.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/118954/>
 
 ### Meta、GitHubリポジトリに不正アクセスで約1,500人に通知　入口は従業員の盗まれた認証情報
@@ -2987,8 +2987,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://akatake.co.jp/news/2026/4531/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.kyokyo-u.ac.jp/news/2026/10/web20260722-owabi.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ntv-wands.co.jp/news/articles/pbs9b02rgl3oubrj.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://lili-jo.com/notice/20261014.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.matsushima-wh.or.jp/news/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://thincacloud.toppan.com/newsrelease/20261014/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/118908/>
 
 ### 【解説】IDCFクラウド第5報「流出なし」、委託元はマウスやイズミなど「漏えいの可能性」を公表

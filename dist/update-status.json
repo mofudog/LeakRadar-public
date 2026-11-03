@@ -1,24 +1,16 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-03T04:04:38+00:00",
+  "lastAttemptAt": "2026-11-03T05:06:51+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-03T04:04:38+00:00",
-  "successfulFetches": 391,
-  "failedFetches": 32,
+  "lastPartialSuccessAt": "2026-11-03T05:06:51+00:00",
+  "successfulFetches": 390,
+  "failedFetches": 31,
   "changedReviewedSources": 58,
   "automaticAnnouncements": 234,
   "watchedDocumentCount": 367,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
-    {
-      "url": "https://internet.watch.impress.co.jp/docs/news/2149476.html",
-      "error": "IncompleteRead: IncompleteRead(10020 bytes read)"
-    },
-    {
-      "url": "https://internet.watch.impress.co.jp/docs/news/ranking/2149143.html",
-      "error": "IncompleteRead: IncompleteRead(9770 bytes read)"
-    },
     {
       "url": "https://www.lashinbang.com/info/26357/",
       "error": "HTTP Error 403: Forbidden"
@@ -84,6 +76,10 @@
       "error": "Source body could not be read"
     },
     {
+      "url": "https://contents.online.nojima.co.jp/uncategorized/%E3%83%8E%E3%82%B8%E3%83%9E%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E4%BC%B4%E3%81%86%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1/",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
       "url": "https://corp.eplus.jp/press-release/1824/",
       "error": "HTTP Error 403: Forbidden"
     },
@@ -145,14 +141,14 @@
   "cloudRun": true,
   "retentionStart": "2023-11-03",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-03T04:04:38+00:00",
+    "lastAttemptAt": "2026-11-03T05:06:51+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1553,
-    "newsArticlesChecked": 68,
+    "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 64,
+    "officialFetches": 54,
     "confirmedOfficialAnnouncements": 289,
     "pendingNewsArticles": 826,
     "skippedReviewedArticles": 24,
@@ -197,7 +193,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-03T04:07:23+00:00",
+      "lastAttemptAt": "2026-11-03T05:09:00+00:00",
       "listPagesChecked": 6,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -208,19 +204,19 @@
     "ready": 54,
     "partial": 135,
     "pending": 81,
-    "fetchFailed": 10
+    "fetchFailed": 11
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
     "requestsLast24Hours": 100,
-    "cachedSources": 112,
-    "acceptedSources": 1,
-    "noMatchingSources": 1,
-    "failedSources": 3,
-    "deferredSources": 2,
-    "lastError": "irrelevant_output",
+    "cachedSources": 111,
+    "acceptedSources": 0,
+    "noMatchingSources": 0,
+    "failedSources": 5,
+    "deferredSources": 6,
+    "lastError": "ungrounded_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
@@ -241,10 +237,10 @@
   "candidateTriageCounts": {
     "out_of_scope": 9,
     "fetch_failed": 89,
-    "needs_source_lookup": 360,
+    "needs_source_lookup": 361,
     "covered": 11,
     "reopened": 13,
-    "needs_review": 349,
+    "needs_review": 348,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
