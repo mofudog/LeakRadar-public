@@ -1,15 +1,15 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-04T07:30:48+00:00
+確認日時: 2026-11-04T09:10:17+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
 - 掲載済み: 11件
 - 同一事案の別記事: 2件
 - 掲載対象外: 9件
-- 取得失敗: 91件
-- 公式発表の発見待ち: 372件
-- 内容確認が必要: 353件
+- 取得失敗: 87件
+- 公式発表の発見待ち: 374件
+- 内容確認が必要: 356件
 - 未処理: 0件
 - 再確認が必要: 13件
 
@@ -47,13 +47,13 @@
 
 ### 外務省のネットワークに不正アクセス、7月27日に検知
 
-取得失敗 / 報道・公表日: 2026-11-04
+公式発表の発見待ち / 報道・公表日: 2026-11-04
 
 <https://scan.netsecurity.ne.jp/article/2026/11/04/56663.html>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: HTTPError: HTTP Error 502: Gateway Error / <https://scan.netsecurity.ne.jp/article/2026/11/04/56663.html>
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/04/56663.html>
 
 ### 松屋公式アプリに不正アクセス 会員情報等が漏えい
 
@@ -230,6 +230,37 @@
 
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.segafave.co.jp/news/261102_1/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://xp.bandainamco-am.co.jp/important_20261102/index.html>
+
+### デニーズアプリに不正アクセス　旧アプリ移行処理で認証情報を不正作成される　個人情報漏えいか
+
+取得失敗 / 報道・公表日: 2026-11-04
+
+<https://www.itmedia.co.jp/news/article/2611/04/2000002878/>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: HTTPError: HTTP Error 404: Not Found / <https://www.dennys.co.jp/dennys-japan/pdf/261103.pdf%5D%28https://www.dennys.co.jp/dennys-japan/pdf/261103.pdf>
+
+### NTTの島田明社長、不正アクセス攻撃者の遮断で法制化求める　事前の想定が重要と強調
+
+公式発表の発見待ち / 報道・公表日: 2026-11-04
+
+<https://www.itmedia.co.jp/news/article/2611/04/2000002877/>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://www.itmedia.co.jp/news/article/2611/04/2000002877/>
+
+### サイバー攻撃の漏えい情報件数、10月だけで2025年の約3.7倍に急増　MM総研調べ
+
+内容確認が必要 / 報道・公表日: 2026-11-04
+
+<https://www.itmedia.co.jp/mobile/articles/2611/04/news072.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.m2ri.jp/release/detail.html?id=741>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.m2ri.jp/release/detail.html?id=745>
 
 ### 「既知の脆弱性を対策すれば、AIが大きな脅威とは言いがたい」「個人情報漏えいの被害は何年も続く」、森井名誉教授が語るサイバー攻撃の現状　GMOへの攻撃は「直接顧客の個人情報を人質に取るランサムウェアの新形態」
 
@@ -974,9 +1005,9 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.stat.go.jp/data/jinsui/new.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/aboutus/minutes/2026/20261028/>
 - 取得結果: ValueError: PDF metadata needs review: publisher=False, date=False, title=False / <https://www.ppc.go.jp/files/pdf/261028_sankoushiryou-2.pdf>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.stat.go.jp/data/jinsui/new.html>
 
 ### 従業員の個人情報が流出した可能性 - ドトールコーヒー
 
@@ -2143,16 +2174,6 @@
 
 - 取得結果: ValueError: PDF metadata needs review: publisher=False, date=True, title=True / <https://www.fujitv.co.jp/company/news/r20261020_4814149391.pdf>
 
-### 「カーセンサー」などに不正アクセス、最大371万件の個人情報漏えいか　問い合わせ客の氏名・住所など
-
-取得失敗 / 報道・公表日: 2026-10-21
-
-<https://www.itmedia.co.jp/news/article/2610/21/2000002456/>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://www.recruit.co.jp/newsroom/pressrelease/2026/1021_149447.html>
-
 ### 高輪ゲートウェイで10月23日まで開催中。AIのリスクや情報漏えい対策など、サイバーセキュリティに特化したセミナー／展示会「Security Days Fall 2026」　
 
 内容確認が必要 / 報道・公表日: 2026-10-21
@@ -2843,23 +2864,20 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/personalinfo/legal/leakAction/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.lawson.co.jp/contents/cont07/1533174_3310.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.mrmax.co.jp/info/incident_20261006/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119011/>
 
 ### 【解説】Astemo・岩井コスモ証券・函館市など5件、委託先に関わる不正アクセスを整理｜10月16日公表分
 
-取得失敗 / 報道・公表日: 2026-10-18
+内容確認が必要 / 報道・公表日: 2026-10-18
 
 <https://innovatopia.jp/cyber-security/cyber-security-news/119020/>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://csrc.nist.gov/glossary/term/multi_factor_authentication>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.smd-am.co.jp/news/news/2026/news_20261016/>
-- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://www.keio.co.jp/news/update/news_release/news_release2026/pdf/nr20261016_newsrelease.pdf>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.hakodate.hokkaido.jp/docs/2026101600015/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.fdma.go.jp/mission/enrichment/kyukyumusen_kinkyutuhou/net119.html>
-- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://www.keio.co.jp/news/update/announce/nr260926v13404/>
+- 取得結果: ValueError: PDF metadata needs review: publisher=True, date=False, title=False / <https://www.keio.co.jp/news/update/news_release/news_release2026/pdf/nr20261016_newsrelease.pdf>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119020/>
 
 ### 【解説】JFA Passport・カーセンサー・Joshinなど6件、不正アクセスと不審なアクセスの公表を整理｜10月17〜18日
@@ -3119,17 +3137,16 @@
 
 ### 【解説】エムスリー・ACCESS・大和総研など不正アクセス11件、10月15日の公表を整理
 
-取得失敗 / 報道・公表日: 2026-10-16
+内容確認が必要 / 報道・公表日: 2026-10-16
 
 <https://innovatopia.jp/cyber-security/cyber-security-news/118934/>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://www.yellowhat.jp/information/yellowhat/202608.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.moonstar.co.jp/information/2026/10/gg.html>
-- 取得結果: ValueError: PDF metadata needs review: publisher=True, date=True, title=True / <https://www.jrkyushu.co.jp/common/inc/news/newtopics/__icsFiles/afieldfile/2026/10/15/202691015_mail_address_access.pdf>
-- 取得結果: HTTPError: HTTP Error 406: Not Acceptable / <https://www.nikkei.com/markets/ir/irftp/data/tdnr/tdnetg3/20261013/g6fai4/140120261013549964.pdf>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jpcert.or.jp/at/2026/at260030.html>
+- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=True, title=True / <https://fs2.magicalir.net/tdnet/2026/3180/20261015551741.pdf>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.beautygarage.jp/topics/news_unauthorizedaccess2026>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://koike-japan.com/pages/1?detail=1&b_id=206&r_id=524>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.kushiro.lg.jp/kosodatekyouiku/kyouiku/1008303/1019759.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/118934/>
 
 ### ソースネクストに不正アクセス、会員情報取得APIの悪用で2,252万件が流出の可能性
@@ -3890,16 +3907,6 @@
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://s-facom.jp/news/ua2_/>
-
-### インク通販サイトに不正アクセス - 個人情報流出の可能性
-
-取得失敗 / 報道・公表日: 2026-07-30
-
-<https://www.security-next.com/188056>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: URLError: <urlopen error timed out> / <https://c-connect.co.jp/>
 
 ### マルウェア感染で業務に影響、情報漏洩の可能性も - 日本交通
 

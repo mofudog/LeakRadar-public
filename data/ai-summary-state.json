@@ -288,10 +288,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://scalagrp.jp/pdf/ir/news/2026_IRnews1006.pdf",
-      "attemptedAt": "2026-11-03T06:05:27+00:00",
+      "attemptedAt": "2026-11-04T09:10:17+00:00",
       "state": "failed",
       "error": "ungrounded_output",
-      "retryAfter": 1793772327.0
+      "retryAfter": 1793869817.0
     },
     "709f6983742d4988cfccd3a9925db614236f87c224931d11d96906a1d145197f": {
       "hash": "d23341677743ace2c6834c2a7af07965602d56ff5ad1c5d6a792847e24f8b191",
@@ -1502,10 +1502,14 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.yamaguti-coop.or.jp/line-miniapp-incident-report2/",
-      "attemptedAt": "2026-11-03T06:05:27+00:00",
-      "state": "failed",
-      "error": "ungrounded_output",
-      "retryAfter": 1793772327.0
+      "attemptedAt": "2026-11-04T09:10:17+00:00",
+      "state": "success",
+      "passages": [
+        {
+          "kind": "scale",
+          "quote": "対象件数:69,586件 情報の項目:組合員コード、氏名(名字のみ)、電話番号、郵便番号 ※LINEミニアプリのご利用の有無にかかわらず対象となります。"
+        }
+      ]
     },
     "08cc5067a7ed5cfceb38528974738a5e99f5925596d366bee5c408d4a86125c3": {
       "hash": "8331327ba4601acc7d26f940795409bbb4899a063ff78e60cd713bea9053f40b",
@@ -1521,10 +1525,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.yamato-hd.co.jp/important/info_260929_1.html",
-      "attemptedAt": "2026-11-03T06:05:27+00:00",
+      "attemptedAt": "2026-11-04T09:10:17+00:00",
       "state": "failed",
       "error": "irrelevant_count",
-      "retryAfter": 1793772327.0
+      "retryAfter": 1793869817.0
     },
     "6bec06b832292f20ff8c648ea6e6ab493ad5acabd9c770ee3048a878d07eccc4": {
       "hash": "94d0852bd268cf72263b3be4bb007baafc808d21ef9d5279623e1d9cb961bf24",
@@ -2581,14 +2585,29 @@
       "state": "failed",
       "error": "irrelevant_output",
       "retryAfter": 1793863848.0
+    },
+    "3ad4690bedae38c1b0c72970d054a2d1fa6884b87db1431d5ee1656887271fb8": {
+      "hash": "218a74a10e99b3c62a8918bd6ff3d7bf3b960019617b131a893a30fbd7ccb792",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://www.recruit.co.jp/newsroom/pressrelease/2026/1021_149447.html",
+      "attemptedAt": "2026-11-04T09:10:17+00:00",
+      "state": "failed",
+      "error": "ungrounded_output",
+      "retryAfter": 1793869817.0
+    },
+    "797322491e639a2aed4891146fad9ce6e5d7356a2ef2857eed6ddbad9f1dd1e6": {
+      "hash": "5d29a2f1207687dcab544a4e21cb7cb70d4d95306315db41a39d6ec691336337",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://www.release.tdnet.info/inbs/140120261102562932.pdf",
+      "attemptedAt": "2026-11-04T09:10:17+00:00",
+      "state": "failed",
+      "error": "ungrounded_output",
+      "retryAfter": 1793869817.0
     }
   },
   "requestTimes": [
-    1793696657.0,
-    1793696657.0,
-    1793696657.0,
-    1793696657.0,
-    1793696657.0,
     1793704027.0,
     1793704027.0,
     1793704027.0,
@@ -2678,6 +2697,11 @@
     1793777448.0,
     1793777448.0,
     1793777448.0,
-    1793777448.0
+    1793777448.0,
+    1793783417.0,
+    1793783417.0,
+    1793783417.0,
+    1793783417.0,
+    1793783417.0
   ]
 }
