@@ -1,24 +1,16 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-04T06:12:07+00:00",
+  "lastAttemptAt": "2026-11-04T07:30:48+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-04T06:12:07+00:00",
+  "lastPartialSuccessAt": "2026-11-04T07:30:48+00:00",
   "successfulFetches": 399,
-  "failedFetches": 35,
+  "failedFetches": 34,
   "changedReviewedSources": 59,
-  "automaticAnnouncements": 242,
-  "watchedDocumentCount": 378,
+  "automaticAnnouncements": 243,
+  "watchedDocumentCount": 379,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
-    {
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/30/56625.html",
-      "error": "HTTPError: HTTP Error 502: Gateway Error"
-    },
-    {
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/29/56621.html",
-      "error": "HTTPError: HTTP Error 502: Gateway Error"
-    },
     {
       "url": "https://www.lashinbang.com/info/26357/",
       "error": "HTTP Error 403: Forbidden"
@@ -46,10 +38,6 @@
     {
       "url": "https://newspicks.com/news/17665641/body/",
       "error": "Source body could not be read"
-    },
-    {
-      "url": "https://www.hands-holdings.co.jp/news/news20260825/",
-      "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://support-qa.eplus.jp/hc/ja/articles/62711500727961-%E5%BC%8A%E7%A4%BE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AE%E7%99%BA-%E3%81%8A%E3%82%88%E3%81%B3%E5%80%8B-%E6%83%85%E5%A0%B1-%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
@@ -81,7 +69,7 @@
     },
     {
       "url": "https://wisewise.com/news/20241224_news/",
-      "error": "HTTP Error 503: Service Unavailable"
+      "error": "Redirect to an unregistered host"
     },
     {
       "url": "https://www.betsudaikohsan.co.jp/topics/detail/id_402/",
@@ -96,8 +84,16 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
+      "url": "https://www.sonynetwork.co.jp/corporation/release/2026/v5e5u00000000zwj-att/20261027.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
       "url": "https://tixplus.jp/information/",
       "error": "Source body could not be read"
+    },
+    {
+      "url": "https://corp.eplus.jp/press-release/1824/",
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://www.nikkei.co.jp/",
@@ -157,15 +153,15 @@
   "cloudRun": true,
   "retentionStart": "2023-11-04",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-04T06:12:07+00:00",
+    "lastAttemptAt": "2026-11-04T07:30:48+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1574,
-    "newsArticlesChecked": 68,
+    "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 70,
-    "confirmedOfficialAnnouncements": 297,
+    "officialFetches": 69,
+    "confirmedOfficialAnnouncements": 298,
     "pendingNewsArticles": 844,
     "skippedReviewedArticles": 24,
     "archiveCursors": {
@@ -209,18 +205,18 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-04T06:14:44+00:00",
-      "listPagesChecked": 3,
+      "lastAttemptAt": "2026-11-04T07:33:53+00:00",
+      "listPagesChecked": 5,
       "documentsChecked": 20,
       "pendingListPages": 0,
       "pendingDocuments": 7
     }
   },
   "automaticSummaries": {
-    "ready": 56,
-    "partial": 142,
-    "pending": 81,
-    "fetchFailed": 13
+    "ready": 57,
+    "partial": 140,
+    "pending": 83,
+    "fetchFailed": 14
   },
   "aiSummary": {
     "status": "active",
@@ -228,18 +224,18 @@
     "requestsThisRun": 5,
     "requestsLast24Hours": 95,
     "cachedSources": 113,
-    "acceptedSources": 0,
+    "acceptedSources": 1,
     "noMatchingSources": 0,
-    "failedSources": 5,
-    "deferredSources": 12,
-    "lastError": "ungrounded_output",
+    "failedSources": 4,
+    "deferredSources": 13,
+    "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 4,
+    "fetches": 5,
     "linkedDocuments": 12,
-    "matchedAlternatives": 1,
+    "matchedAlternatives": 0,
     "pending": 4,
     "failed": 2,
     "report": "data/source-recovery-report.md",
@@ -252,11 +248,11 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "fetch_failed": 92,
+    "fetch_failed": 91,
     "needs_source_lookup": 372,
     "covered": 11,
     "reopened": 13,
-    "needs_review": 352,
+    "needs_review": 353,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",

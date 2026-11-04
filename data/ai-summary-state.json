@@ -221,10 +221,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://luup.sc/news/2026-10-16/",
-      "attemptedAt": "2026-11-03T06:05:27+00:00",
+      "attemptedAt": "2026-11-04T07:30:48+00:00",
       "state": "failed",
       "error": "irrelevant_output",
-      "retryAfter": 1793772327.0
+      "retryAfter": 1793863848.0
     },
     "d8a50626ca34ee49fe300cdb97cea40a2d0646d510d2ee833572dadadfe4b684": {
       "hash": "b96200d331685052f66f75fe7f892e9b4777c1a282e5f21ec5f5b0a996a041ba",
@@ -1374,10 +1374,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.saga-hirakawaya.jp/security-notice/",
-      "attemptedAt": "2026-11-03T05:06:51+00:00",
+      "attemptedAt": "2026-11-04T07:30:48+00:00",
       "state": "failed",
       "error": "ungrounded_output",
-      "retryAfter": 1793768811.0
+      "retryAfter": 1793863848.0
     },
     "fd329caeef3994de1eeaf544ae96cc70ef7b4bb251a3fdabb4144026b8a332d2": {
       "hash": "95df0e029b3a495e20214fdfb4a04bf36f65bc9b4741b39ec57968b9294ff1fa",
@@ -2246,10 +2246,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.release.tdnet.info/inbs/140120261029560120.pdf",
-      "attemptedAt": "2026-11-03T05:06:51+00:00",
+      "attemptedAt": "2026-11-04T07:30:48+00:00",
       "state": "failed",
       "error": "irrelevant_count",
-      "retryAfter": 1793768811.0
+      "retryAfter": 1793863848.0
     },
     "879390884f358c812472963d9eebeae7fab67742b8cd0af8d3d0958c90bf62d2": {
       "hash": "60983d13ad287a8558b38862cf53f933a5d8b3c9f87325af943d1141cfb16ea4",
@@ -2265,10 +2265,14 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://global.yamaha-motor.com/jp/news/2026/1012/leakage.html",
-      "attemptedAt": "2026-11-03T06:05:27+00:00",
-      "state": "failed",
-      "error": "irrelevant_count",
-      "retryAfter": 1793772327.0
+      "attemptedAt": "2026-11-04T07:30:48+00:00",
+      "state": "success",
+      "passages": [
+        {
+          "kind": "scale",
+          "quote": "コミューン社のサーバーに保管されているPAS Lifeの登録者の約1,600名分の会員情報が閲覧・取得された可能性があることが報告されています。現時点で漏えいした可能性のある情報は以下の通りです。 氏名、生年月日、性別、住所、メールアドレス、会員ID、ニックネーム、自己紹介、所属グループ"
+        }
+      ]
     },
     "239ce5f57b8f7c9e385b76ddb587d27e75b717fb3881a4be92896239a77fef9e": {
       "hash": "ae8b593cc1ff52bd0627e086f358cec373cda70237ea83dc6118c97c92cd9852",
@@ -2567,14 +2571,19 @@
       "state": "failed",
       "error": "ungrounded_output",
       "retryAfter": 1793859127.0
+    },
+    "b11f430b97f7ad90ffafd259470e633b644767a84e9aff9b80119285204314da": {
+      "hash": "83547448ea9797ab23a95d561c434b541a6f19387d51d42007ae936f6e8de182",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://www.release.tdnet.info/inbs/140120261104564546.pdf",
+      "attemptedAt": "2026-11-04T07:30:48+00:00",
+      "state": "failed",
+      "error": "irrelevant_output",
+      "retryAfter": 1793863848.0
     }
   },
   "requestTimes": [
-    1793690854.0,
-    1793690854.0,
-    1793690854.0,
-    1793690854.0,
-    1793690854.0,
     1793696657.0,
     1793696657.0,
     1793696657.0,
@@ -2664,6 +2673,11 @@
     1793772727.0,
     1793772727.0,
     1793772727.0,
-    1793772727.0
+    1793772727.0,
+    1793777448.0,
+    1793777448.0,
+    1793777448.0,
+    1793777448.0,
+    1793777448.0
   ]
 }
