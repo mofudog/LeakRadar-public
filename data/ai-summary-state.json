@@ -19,11 +19,11 @@
       "passages": []
     },
     "eeadef6db8c4a181dcacb841cea438b2652174754c33c074bef437dca3e9d2f2": {
-      "hash": "e6d26d46d98370005a9ff2a5bd5c95f560f5cbf2575a09a1bb8e83e0ca73dd79",
+      "hash": "3d9b1ac4203c515c6496cf35136d2112a7c031e0ae079573487b3d5d7ad17e96",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://abahouse.co.jp/news/2005/",
-      "attemptedAt": "2026-10-21T11:17:15+00:00",
+      "attemptedAt": "2026-11-04T12:00:44+00:00",
       "state": "success",
       "passages": [
         {
@@ -94,24 +94,20 @@
       "retryAfter": 1793851663.0
     },
     "0ebf3280292ae21f2fd6dbcd28c63164d26abc79e3eaa22662dfb434971f3b42": {
-      "hash": "8874a01849310d22d946952ad2d1c6534cc4289cb8c377ca0e36358f6e0b7cf9",
+      "hash": "3562ff726aba2f67f2a39c3d21b836d6114e1e6be27a4bd4f484f16148698995",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://coconala.com/news/1391",
-      "attemptedAt": "2026-10-22T19:00:13+00:00",
+      "attemptedAt": "2026-11-04T12:00:44+00:00",
       "state": "success",
       "passages": [
         {
           "kind": "audience",
-          "quote": "(1) 対象者:「ココナラスキルマーケット」に履歴書・職務経歴書を登録された会員様の一部"
-        },
-        {
-          "kind": "items",
-          "quote": "※クレジットカード情報、各種パスワードをはじめとする上記以外の情報については、今回の不正アクセスの対象とはなっていないことを確認しております。"
+          "quote": "対象者:「ココナラスキルマーケット」に履歴書・職務経歴書を登録された会員様の一部"
         },
         {
           "kind": "scale",
-          "quote": "(2) 件数:履歴書449件、職務経歴書関連書類1,845件"
+          "quote": "件数:履歴書449件、職務経歴書関連書類1,845件"
         }
       ]
     },
@@ -392,10 +388,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.chibabank.co.jp/news/news20260917_01",
-      "attemptedAt": "2026-11-03T09:04:17+00:00",
+      "attemptedAt": "2026-11-04T12:00:44+00:00",
       "state": "failed",
       "error": "irrelevant_output",
-      "retryAfter": 1793783057.0
+      "retryAfter": 1793880044.0
     },
     "7adab25f53e14d43032b030bcb3fc4960c3b628861bf5c3eb0171894272e6e2f": {
       "hash": "a97fac2d5b4e8bcb6483698afa8d381556feaa568fde8c39f504870827858669",
@@ -1545,10 +1541,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://group.gmo/info/alert/20261022/",
-      "attemptedAt": "2026-11-03T09:04:17+00:00",
+      "attemptedAt": "2026-11-04T12:00:44+00:00",
       "state": "failed",
       "error": "irrelevant_count",
-      "retryAfter": 1793783057.0
+      "retryAfter": 1793880044.0
     },
     "48e08e657fe40ab656f92fc07c7f0fc39efa2fb67b5d985913b2a5e61ceee67d": {
       "hash": "b42c6dfd7e2240e14421734b13739ea5272d6e27a10e00c229e0a189f2eb51f5",
@@ -2435,10 +2431,18 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.release.tdnet.info/inbs/140120261102562920.pdf",
-      "attemptedAt": "2026-11-03T09:04:17+00:00",
-      "state": "failed",
-      "error": "ungrounded_output",
-      "retryAfter": 1793783057.0
+      "attemptedAt": "2026-11-04T12:00:44+00:00",
+      "state": "success",
+      "passages": [
+        {
+          "kind": "items",
+          "quote": "同社のお客様 4,975名の氏名、メールアドレス等の情 報が漏えいした可能性があることを確認いたしました。"
+        },
+        {
+          "kind": "scale",
+          "quote": "同社のお客様 4,975名の氏名、メールアドレス等の情 報が漏えいした可能性があることを確認いたしました。"
+        }
+      ]
     },
     "40971a0ab2310712a27fe366749e9da2c2dc7fe6ef74ca106206aac09d643efb": {
       "hash": "64fc27a5efff01a8cb1ad2585d829e6e28ec50218e5a0fd274298244757b3d94",
@@ -2608,11 +2612,6 @@
     }
   },
   "requestTimes": [
-    1793704027.0,
-    1793704027.0,
-    1793704027.0,
-    1793704027.0,
-    1793704027.0,
     1793711970.0,
     1793711970.0,
     1793711970.0,
@@ -2707,6 +2706,11 @@
     1793787551.0,
     1793787551.0,
     1793787551.0,
-    1793787551.0
+    1793787551.0,
+    1793793644.0,
+    1793793644.0,
+    1793793644.0,
+    1793793644.0,
+    1793793644.0
   ]
 }
