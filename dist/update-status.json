@@ -1,13 +1,13 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-04T09:10:17+00:00",
+  "lastAttemptAt": "2026-11-04T10:19:11+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-04T09:10:17+00:00",
-  "successfulFetches": 402,
-  "failedFetches": 33,
+  "lastPartialSuccessAt": "2026-11-04T10:19:11+00:00",
+  "successfulFetches": 401,
+  "failedFetches": 35,
   "changedReviewedSources": 59,
   "automaticAnnouncements": 245,
-  "watchedDocumentCount": 381,
+  "watchedDocumentCount": 382,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
@@ -36,10 +36,6 @@
       "error": "Source body could not be read"
     },
     {
-      "url": "https://www.hands-holdings.co.jp/news/news20260825/",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
       "url": "https://support-qa.eplus.jp/hc/ja/articles/62711500727961-%E5%BC%8A%E7%A4%BE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AE%E7%99%BA-%E3%81%8A%E3%82%88%E3%81%B3%E5%80%8B-%E6%83%85%E5%A0%B1-%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
       "error": "HTTP Error 403: Forbidden"
     },
@@ -50,10 +46,6 @@
     {
       "url": "https://www.rakuten-booksnetwork.co.jp/2026/08/21/unauthorized-access-notice/index.html",
       "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "https://sanpofoods.co.jp/news/archives/1658/",
-      "error": "<urlopen error timed out>"
     },
     {
       "url": "https://www.nihon-kotsu.co.jp/news/20260819-3385/",
@@ -88,8 +80,24 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
+      "url": "https://www.sonynetwork.co.jp/corporation/release/2026/v5e5u00000000zwj-att/20261027.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
       "url": "https://tixplus.jp/information/",
       "error": "Source body could not be read"
+    },
+    {
+      "url": "https://www.recruit.co.jp/newsroom/pressrelease/2026/1021_149447.html",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://corp.eplus.jp/press-release/1824/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.recruit.co.jp/wp-content/uploads/2026/10/20261021_eZ84iR_01.pdf",
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://www.nikkei.co.jp/",
@@ -149,14 +157,14 @@
   "cloudRun": true,
   "retentionStart": "2023-11-04",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-04T09:10:17+00:00",
+    "lastAttemptAt": "2026-11-04T10:19:11+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
-    "newsCandidates": 1577,
+    "newsCandidates": 1578,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 83,
+    "officialFetches": 73,
     "confirmedOfficialAnnouncements": 300,
     "pendingNewsArticles": 845,
     "skippedReviewedArticles": 24,
@@ -201,7 +209,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-04T09:12:26+00:00",
+      "lastAttemptAt": "2026-11-04T10:21:22+00:00",
       "listPagesChecked": 5,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -210,29 +218,29 @@
   },
   "automaticSummaries": {
     "ready": 57,
-    "partial": 143,
-    "pending": 82,
-    "fetchFailed": 14
+    "partial": 141,
+    "pending": 84,
+    "fetchFailed": 15
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
-    "requestsLast24Hours": 95,
-    "cachedSources": 113,
-    "acceptedSources": 1,
+    "requestsLast24Hours": 100,
+    "cachedSources": 115,
+    "acceptedSources": 0,
     "noMatchingSources": 0,
-    "failedSources": 4,
-    "deferredSources": 12,
-    "lastError": "irrelevant_count",
+    "failedSources": 5,
+    "deferredSources": 8,
+    "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
     "fetches": 4,
-    "linkedDocuments": 13,
-    "matchedAlternatives": 1,
-    "pending": 3,
+    "linkedDocuments": 12,
+    "matchedAlternatives": 0,
+    "pending": 4,
     "failed": 2,
     "report": "data/source-recovery-report.md",
     "ocr": {
