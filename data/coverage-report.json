@@ -1,19 +1,19 @@
 {
-  "checkedAt": "2026-11-05T13:27:08+00:00",
+  "checkedAt": "2026-11-05T15:11:13+00:00",
   "fullyComprehensive": false,
   "completeHistoricalBackfill": false,
-  "retentionStart": "2023-11-05",
+  "retentionStart": "2023-11-06",
   "discovery": {
-    "lastAttemptAt": "2026-11-05T13:27:08+00:00",
+    "lastAttemptAt": "2026-11-05T15:11:13+00:00",
     "feedCount": 9,
-    "successfulFeeds": 9,
+    "successfulFeeds": 8,
     "successfulArchivePages": 1,
-    "newsCandidates": 1606,
+    "newsCandidates": 1607,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 50,
+    "officialFetches": 86,
     "confirmedOfficialAnnouncements": 307,
-    "pendingNewsArticles": 880,
+    "pendingNewsArticles": 882,
     "skippedReviewedArticles": 24,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -56,14 +56,18 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-05T13:29:41+00:00",
-      "listPagesChecked": 10,
+      "lastAttemptAt": "2026-11-05T15:13:57+00:00",
+      "listPagesChecked": 7,
       "documentsChecked": 20,
       "pendingListPages": 0,
       "pendingDocuments": 7
     }
   },
   "sourceErrors": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/rss20/index.rdf",
+      "error": "HTTPError: HTTP Error 502: Gateway Error"
+    },
     {
       "url": "https://www.lashinbang.com/info/26357/",
       "error": "HTTP Error 403: Forbidden"
@@ -202,8 +206,8 @@
     "needs_source_lookup": 389,
     "covered": 11,
     "reopened": 13,
-    "fetch_failed": 89,
-    "needs_review": 374,
+    "fetch_failed": 87,
+    "needs_review": 378,
     "duplicate": 2
   },
   "baselineReview": {
@@ -1219,7 +1223,7 @@
       "reportedDate": "2026-10-16",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-11-05T13:27:08+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 78,
       "reasons": [
         {
@@ -1237,8 +1241,8 @@
       "reportedDate": "2026-10-16",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 61,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 62,
       "reasons": [
         {
           "url": "https://www.nikkei.com/article/DGXZQOUD159VX0V11C26A0000000/",
@@ -1293,8 +1297,8 @@
       "reportedDate": "2026-10-16",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 111,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 112,
       "reasons": [
         {
           "url": "https://www.nttsolmare.com/press/2026/0616-1.html",
@@ -1311,8 +1315,8 @@
       "reportedDate": "2026-10-16",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 107,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 108,
       "reasons": [
         {
           "url": "https://www.sourcenext.com/support/i/2026/1015_1/",
@@ -1613,27 +1617,23 @@
       "reportedDate": "2026-10-16",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-10-16T23:40:35+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 108,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 109,
       "reasons": [
         {
-          "url": "https://www.yellowhat.jp/information/yellowhat/202608.html",
-          "reason": "HTTPError: HTTP Error 403: Forbidden"
+          "url": "https://fs2.magicalir.net/tdnet/2026/3180/20261015551741.pdf",
+          "reason": "ValueError: PDF metadata needs review: publisher=False, date=True, title=True"
         },
         {
-          "url": "https://www.moonstar.co.jp/information/2026/10/gg.html",
+          "url": "https://www.beautygarage.jp/topics/news_unauthorizedaccess2026",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.jrkyushu.co.jp/common/inc/news/newtopics/__icsFiles/afieldfile/2026/10/15/202691015_mail_address_access.pdf",
-          "reason": "ValueError: PDF metadata needs review: publisher=True, date=True, title=True"
+          "url": "https://koike-japan.com/pages/1?detail=1&b_id=206&r_id=524",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.nikkei.com/markets/ir/irftp/data/tdnr/tdnetg3/20261013/g6fai4/140120261013549964.pdf",
-          "reason": "HTTPError: HTTP Error 406: Not Acceptable"
-        },
-        {
-          "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+          "url": "https://www.city.kushiro.lg.jp/kosodatekyouiku/kyouiku/1008303/1019759.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -1641,7 +1641,7 @@
           "reason": "Remaining official links deferred by the per-run/per-article limit"
         }
       ],
-      "classification": "fetch_failed",
+      "classification": "needs_review",
       "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
       "recordIds": []
     },
@@ -1946,8 +1946,8 @@
       "reportedDate": "2026-10-08",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:46:24+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 106,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 107,
       "reasons": [
         {
           "url": "https://www.asahi-kasei.co.jp/pharma/",
@@ -1964,8 +1964,8 @@
       "reportedDate": "2026-10-08",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:46:24+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 106,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 107,
       "reasons": [
         {
           "url": "https://www.shudo-u.ac.jp/gakuen/",
@@ -4552,8 +4552,8 @@
       "reportedDate": "2025-12-02",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-18T02:44:03+00:00",
-      "lastCheckedAt": "2026-11-01T08:10:18+00:00",
-      "attempts": 4,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 5,
       "reasons": [
         {
           "url": "https://www.net-school.co.jp/news/bm202610/",
@@ -4570,23 +4570,19 @@
       "reportedDate": "2026-10-18",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-10-18T03:45:10+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 102,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 103,
       "reasons": [
         {
+          "url": "https://www.keio.co.jp/news/update/announce/nr260926v13404/",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
+        {
+          "url": "https://csrc.nist.gov/glossary/term/multi_factor_authentication",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
+        {
           "url": "https://www.smd-am.co.jp/news/news/2026/news_20261016/",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
-        },
-        {
-          "url": "https://www.keio.co.jp/news/update/news_release/news_release2026/pdf/nr20261016_newsrelease.pdf",
-          "reason": "ValueError: PDF metadata needs review: publisher=True, date=False, title=False"
-        },
-        {
-          "url": "https://www.city.hakodate.hokkaido.jp/docs/2026101600015/",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
-        },
-        {
-          "url": "https://www.fdma.go.jp/mission/enrichment/kyukyumusen_kinkyutuhou/net119.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -4604,15 +4600,15 @@
       "reportedDate": "2025-12-09",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-18T03:45:10+00:00",
-      "lastCheckedAt": "2026-11-01T07:14:54+00:00",
-      "attempts": 4,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 5,
       "reasons": [
         {
-          "url": "https://www.synology.com/",
+          "url": "https://www.synology.com/en-global/security/advisory/Synology_SA_24_27",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.synology.com/en-global/security/advisory/Synology_SA_24_27",
+          "url": "https://www.synology.com/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
@@ -4626,8 +4622,8 @@
       "reportedDate": "2025-12-08",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-18T03:45:10+00:00",
-      "lastCheckedAt": "2026-11-01T07:14:54+00:00",
-      "attempts": 4,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 5,
       "reasons": [
         {
           "url": "https://www.pref.kanagawa.jp/docs/v6g/potalrenraku.html",
@@ -4644,12 +4640,30 @@
       "reportedDate": "2025-12-05",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-18T03:45:10+00:00",
-      "lastCheckedAt": "2026-11-01T07:14:54+00:00",
-      "attempts": 4,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 5,
       "reasons": [
         {
           "url": "https://www.kono-shinkin.co.jp/wp/wp-content/uploads/2025/11/20251121.pdf",
           "reason": "ValueError: PDF metadata needs review: publisher=False, date=False, title=True"
+        }
+      ],
+      "classification": "needs_review",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
+      "newsSource": "https://www.security-next.com/177856",
+      "title": "放課後児童クラブでメール誤送信 - 個人情報印刷時に第三者へ",
+      "reportedDate": "2025-12-05",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-18T03:45:10+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 5,
+      "reasons": [
+        {
+          "url": "https://www.city.fukuoka.lg.jp/shimin/kusei/myna_yoyaku_kojinjohorouei.html",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
       "classification": "needs_review",
@@ -6628,8 +6642,8 @@
       "reportedDate": "2026-10-19",
       "publisher": "ITmedia NEWS セキュリティ",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 80,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 81,
       "reasons": [
         {
           "url": "https://www.nifty.co.jp/newsrelease/nifty202610195434.htm",
@@ -6664,23 +6678,23 @@
       "reportedDate": "2026-10-20",
       "publisher": "ITmedia エンタープライズ",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 82,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 83,
       "reasons": [
         {
-          "url": "https://corp.newspicks.com/info/20261008",
+          "url": "https://www.jreast.co.jp/press/2026/20261009_ho02.pdf",
+          "reason": "ValueError: PDF metadata needs review: publisher=True, date=True, title=True"
+        },
+        {
+          "url": "https://communeinc.com/ja/news/2026oct09",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://corp.newspicks.com/info/20261009",
+          "url": "https://www.dip-net.co.jp/news/2192",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://jp.adventurekk.com/news/apology-notice-unauthorized-access-data-leak/",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
-        },
-        {
-          "url": "https://jp.adventurekk.com/news/news-2026-unauthorized-access-notice-2/",
+          "url": "https://coconala.co.jp/news-20261009/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -6698,9 +6712,13 @@
       "reportedDate": "2026-10-20",
       "publisher": "ITmedia エンタープライズ",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 82,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 83,
       "reasons": [
+        {
+          "url": "https://www.cyber.go.jp/news/20261014.html",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
         {
           "url": "https://www.nict.go.jp/press/2026/10/13-1.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
@@ -6712,10 +6730,6 @@
         {
           "url": "https://cynex.nict.go.jp/pdf/library/lettice/261013-01.pdf",
           "reason": "ValueError: Source exceeds discovery size limit"
-        },
-        {
-          "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
           "url": "https://www.itmedia.co.jp/enterprise/articles/2610/20/news018.html",
@@ -6790,7 +6804,7 @@
       "reportedDate": "2026-10-20",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-11-05T13:27:08+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 44,
       "reasons": [
         {
@@ -8968,7 +8982,7 @@
       "reportedDate": "2026-10-21",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-21T09:48:33+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -9586,8 +9600,8 @@
       "reportedDate": "2026-10-21",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-21T15:25:31+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 70,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 71,
       "reasons": [
         {
           "url": "https://www.iwaicosmo.co.jp/info/2026/10201710.html",
@@ -13792,7 +13806,7 @@
       "reportedDate": "2026-10-23",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-10-23T09:48:37+00:00",
-      "lastCheckedAt": "2026-11-05T13:27:08+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 20,
       "reasons": [
         {
@@ -13944,7 +13958,7 @@
       "reportedDate": "2026-10-26",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-10-26T03:50:52+00:00",
-      "lastCheckedAt": "2026-11-05T13:27:08+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 2,
       "reasons": [
         {
@@ -14286,7 +14300,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -14304,7 +14318,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -14322,7 +14336,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -14340,7 +14354,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -14358,8 +14372,8 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 36,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 37,
       "reasons": [
         {
           "url": "https://www.bandainamco.co.jp/files/2026102620HPE794A820E4B88DE6ADA3E382A2E382AFE382BB.pdf",
@@ -14376,8 +14390,8 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 36,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 37,
       "reasons": [
         {
           "url": "https://amzn.asia/d/gwTaqTX",
@@ -14412,7 +14426,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-10-27T01:54:01+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -14430,8 +14444,8 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-27T02:50:08+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 36,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 37,
       "reasons": [
         {
           "url": "https://jr-central.co.jp/news/release/_pdf/000046119.pdf",
@@ -14448,8 +14462,8 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-27T03:49:08+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 36,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 37,
       "reasons": [
         {
           "url": "https://www.ipa.go.jp/security/anshin/attention/2026/mgdayori20261026.html",
@@ -14466,8 +14480,8 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-10-27T03:49:08+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 36,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 37,
       "reasons": [
         {
           "url": "https://internet.gmo/news/article/254/",
@@ -14484,7 +14498,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-27T05:51:00+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -14502,7 +14516,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-27T08:55:21+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -14520,9 +14534,13 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia Mobile",
       "firstSeenAt": "2026-10-27T08:55:21+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 34,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 35,
       "reasons": [
+        {
+          "url": "https://www.docomo.ne.jp/info/notice/page/261027_05_m.html",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
         {
           "url": "https://www.so-net.ne.jp/support/faq/qa202610_01/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
@@ -14530,10 +14548,6 @@
         {
           "url": "https://www.sonynetwork.co.jp/corporation/release/2026/v5e5u00000000zwj-att/20261027.pdf",
           "reason": "HTTPError: HTTP Error 403: Forbidden"
-        },
-        {
-          "url": "https://www.docomo.ne.jp/info/notice/page/261027_05_m.html",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
       "classification": "fetch_failed",
@@ -14546,7 +14560,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-27T09:53:46+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 1,
       "reasons": [
         {
@@ -14586,8 +14600,8 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-27T11:49:15+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 34,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 35,
       "reasons": [
         {
           "url": "https://www.sonynetwork.co.jp/corporation/release/2026/v5e5u00000000zwj-att/20261027.pdf",
@@ -14802,7 +14816,7 @@
       "reportedDate": "2026-10-28",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T23:44:00+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -14820,7 +14834,7 @@
       "reportedDate": "2026-10-28",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T23:44:00+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -14838,7 +14852,7 @@
       "reportedDate": "2026-10-28",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T23:44:00+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -15380,7 +15394,7 @@
       "reportedDate": "2026-10-30",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-29T23:50:18+00:00",
-      "lastCheckedAt": "2026-11-05T05:12:52+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -15834,23 +15848,15 @@
       "reportedDate": "2026-10-31",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-10-31T02:58:14+00:00",
-      "lastCheckedAt": "2026-11-05T05:12:52+00:00",
-      "attempts": 19,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 20,
       "reasons": [
         {
-          "url": "https://www.npa.go.jp/bureau/cyber/koho/caution/caution20241224.html",
+          "url": "https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.binance.com/en/support/announcement/detail/d3306d9dca5243548c813b605e1d1751",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
-        },
-        {
-          "url": "https://www.binance.com/en/support/announcement",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
-        },
-        {
-          "url": "https://www.binance.com/ja",
+          "url": "https://www.elliptic.co/insights/binance-largest-hack-in-history/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -15868,7 +15874,7 @@
       "reportedDate": "2026-11-01",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-10-31T23:45:30+00:00",
-      "lastCheckedAt": "2026-11-05T05:12:52+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -16164,7 +16170,7 @@
       "reportedDate": "2026-11-02",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-11-01T23:45:23+00:00",
-      "lastCheckedAt": "2026-11-05T05:12:52+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -16182,7 +16188,7 @@
       "reportedDate": "2026-11-02",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-11-01T23:45:23+00:00",
-      "lastCheckedAt": "2026-11-05T05:12:52+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -16200,8 +16206,8 @@
       "reportedDate": "2026-11-02",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-11-02T03:01:44+00:00",
-      "lastCheckedAt": "2026-11-05T05:12:52+00:00",
-      "attempts": 11,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 12,
       "reasons": [
         {
           "url": "https://corp.world.co.jp/company/notice/pdf/20261030_%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA_%E9%96%8B%E7%A4%BA.pdf",
@@ -16218,8 +16224,8 @@
       "reportedDate": "2026-11-02",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-11-02T03:01:44+00:00",
-      "lastCheckedAt": "2026-11-05T05:12:52+00:00",
-      "attempts": 11,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 12,
       "reasons": [
         {
           "url": "https://www.club-tourism.co.jp/jpn/news/2026/1031/",
@@ -16258,7 +16264,7 @@
       "reportedDate": "2026-11-02",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-11-02T08:31:28+00:00",
-      "lastCheckedAt": "2026-11-05T05:12:52+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -16276,7 +16282,7 @@
       "reportedDate": "2026-11-02",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-11-02T08:31:28+00:00",
-      "lastCheckedAt": "2026-11-05T05:12:52+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -16332,7 +16338,7 @@
       "reportedDate": "2026-11-02",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-11-02T12:04:50+00:00",
-      "lastCheckedAt": "2026-11-05T05:12:52+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -16830,8 +16836,8 @@
       "reportedDate": "2026-11-04",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-11-04T04:07:43+00:00",
-      "lastCheckedAt": "2026-11-05T05:12:52+00:00",
-      "attempts": 4,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 5,
       "reasons": [
         {
           "url": "https://www.biccamera.com/bc/c/info/report/sorry_20261102.jsp",
@@ -16964,7 +16970,7 @@
       "reportedDate": "2026-11-05",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-11-04T21:06:49+00:00",
-      "lastCheckedAt": "2026-11-05T05:12:52+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -16982,35 +16988,31 @@
       "reportedDate": "2026-11-04",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-11-04T21:06:49+00:00",
-      "lastCheckedAt": "2026-11-05T05:12:52+00:00",
-      "attempts": 2,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 3,
       "reasons": [
         {
-          "url": "https://www.ppc.go.jp/files/pdf/261007_alert_dataleakage.pdf",
-          "reason": "ValueError: PDF metadata needs review: publisher=False, date=False, title=True"
-        },
-        {
-          "url": "https://www.jcb.co.jp/merchant/release/kappu_security.html",
+          "url": "https://www.muji.com/jp/mujicard/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.sbbit.jp/article/cont1/187966",
-          "reason": "HTTPError: HTTP Error 403: Forbidden"
+          "url": "https://www.saisoncard.co.jp/customer-support/information/20261104/",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.ryohin-keikaku.jp/news/articles/2026_1104_02",
-          "reason": "HTTPError: HTTP Error 429: Too Many Requests"
+          "url": "https://www.ppc.go.jp/news/careful_information/261007_alert?ref=topnews",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.ryohin-keikaku.jp/",
-          "reason": "HTTPError: HTTP Error 429: Too Many Requests"
+          "url": "https://www.ppc.go.jp/legal/rouei?ref=toppanel",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
           "url": "https://innovatopia.jp/cyber-security/cyber-security-news/119729/",
           "reason": "Remaining official links deferred by the per-run/per-article limit"
         }
       ],
-      "classification": "fetch_failed",
+      "classification": "needs_review",
       "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
       "recordIds": []
     },
@@ -17278,8 +17280,8 @@
       "reportedDate": "2026-11-05",
       "publisher": "ITmedia Mobile",
       "firstSeenAt": "2026-11-05T05:12:52+00:00",
-      "lastCheckedAt": "2026-11-05T05:12:52+00:00",
-      "attempts": 1,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 2,
       "reasons": [
         {
           "url": "https://www.iijmio.jp/info/iij/1793774823.html",
@@ -17441,6 +17443,24 @@
       "recordIds": []
     },
     {
+      "newsSource": "https://www.security-next.com/192260",
+      "title": "サーバ設定不備、従業員情報流出の可能性 - 資さんうどん",
+      "reportedDate": "2026-11-05",
+      "publisher": "Security NEXT",
+      "firstSeenAt": "2026-11-05T15:11:13+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 1,
+      "reasons": [
+        {
+          "url": "https://www.sukesanudon.com/news/news-8014/",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        }
+      ],
+      "classification": "needs_review",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
       "newsSource": "https://www.release.tdnet.info/inbs/140120261009548970.pdf",
       "title": "当社ウェブサイトへの一部不正アクセスによる 個人情報漏洩に関するお詫びとご報告",
       "reportedDate": "2026-10-09",
@@ -17463,7 +17483,7 @@
       "reportedDate": "2026-10-06",
       "publisher": "TDnet",
       "firstSeenAt": "2026-10-16T23:48:55+00:00",
-      "lastCheckedAt": "2026-11-05T09:17:46+00:00",
+      "lastCheckedAt": "2026-11-05T15:13:57+00:00",
       "reasons": [
         {
           "url": "https://www.release.tdnet.info/inbs/140120261006546323.pdf",
@@ -17531,7 +17551,7 @@
       "reportedDate": "2026-10-26",
       "publisher": "TDnet",
       "firstSeenAt": "2026-10-26T10:57:15+00:00",
-      "lastCheckedAt": "2026-11-05T09:17:46+00:00",
+      "lastCheckedAt": "2026-11-05T15:13:57+00:00",
       "reasons": [
         {
           "url": "https://www.release.tdnet.info/inbs/140120261026556413.pdf",
@@ -18150,7 +18170,7 @@
       "reportedDate": "2026-10-16",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-11-05T13:27:08+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 78,
       "reasons": [
         {
@@ -18168,8 +18188,8 @@
       "reportedDate": "2026-10-16",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 61,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 62,
       "reasons": [
         {
           "url": "https://www.nikkei.com/article/DGXZQOUD159VX0V11C26A0000000/",
@@ -18224,8 +18244,8 @@
       "reportedDate": "2026-10-16",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 111,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 112,
       "reasons": [
         {
           "url": "https://www.nttsolmare.com/press/2026/0616-1.html",
@@ -18242,8 +18262,8 @@
       "reportedDate": "2026-10-16",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 107,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 108,
       "reasons": [
         {
           "url": "https://www.sourcenext.com/support/i/2026/1015_1/",
@@ -18464,27 +18484,23 @@
       "reportedDate": "2026-10-16",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-10-16T23:40:35+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 108,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 109,
       "reasons": [
         {
-          "url": "https://www.yellowhat.jp/information/yellowhat/202608.html",
-          "reason": "HTTPError: HTTP Error 403: Forbidden"
+          "url": "https://fs2.magicalir.net/tdnet/2026/3180/20261015551741.pdf",
+          "reason": "ValueError: PDF metadata needs review: publisher=False, date=True, title=True"
         },
         {
-          "url": "https://www.moonstar.co.jp/information/2026/10/gg.html",
+          "url": "https://www.beautygarage.jp/topics/news_unauthorizedaccess2026",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.jrkyushu.co.jp/common/inc/news/newtopics/__icsFiles/afieldfile/2026/10/15/202691015_mail_address_access.pdf",
-          "reason": "ValueError: PDF metadata needs review: publisher=True, date=True, title=True"
+          "url": "https://koike-japan.com/pages/1?detail=1&b_id=206&r_id=524",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.nikkei.com/markets/ir/irftp/data/tdnr/tdnetg3/20261013/g6fai4/140120261013549964.pdf",
-          "reason": "HTTPError: HTTP Error 406: Not Acceptable"
-        },
-        {
-          "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+          "url": "https://www.city.kushiro.lg.jp/kosodatekyouiku/kyouiku/1008303/1019759.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -18492,7 +18508,7 @@
           "reason": "Remaining official links deferred by the per-run/per-article limit"
         }
       ],
-      "classification": "fetch_failed",
+      "classification": "needs_review",
       "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
       "recordIds": []
     },
@@ -18733,8 +18749,8 @@
       "reportedDate": "2026-10-08",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:46:24+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 106,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 107,
       "reasons": [
         {
           "url": "https://www.asahi-kasei.co.jp/pharma/",
@@ -18751,8 +18767,8 @@
       "reportedDate": "2026-10-08",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-16T23:46:24+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 106,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 107,
       "reasons": [
         {
           "url": "https://www.shudo-u.ac.jp/gakuen/",
@@ -21311,8 +21327,8 @@
       "reportedDate": "2025-12-02",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-18T02:44:03+00:00",
-      "lastCheckedAt": "2026-11-01T08:10:18+00:00",
-      "attempts": 4,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 5,
       "reasons": [
         {
           "url": "https://www.net-school.co.jp/news/bm202610/",
@@ -21329,23 +21345,19 @@
       "reportedDate": "2026-10-18",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-10-18T03:45:10+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 102,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 103,
       "reasons": [
         {
+          "url": "https://www.keio.co.jp/news/update/announce/nr260926v13404/",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
+        {
+          "url": "https://csrc.nist.gov/glossary/term/multi_factor_authentication",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
+        {
           "url": "https://www.smd-am.co.jp/news/news/2026/news_20261016/",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
-        },
-        {
-          "url": "https://www.keio.co.jp/news/update/news_release/news_release2026/pdf/nr20261016_newsrelease.pdf",
-          "reason": "ValueError: PDF metadata needs review: publisher=True, date=False, title=False"
-        },
-        {
-          "url": "https://www.city.hakodate.hokkaido.jp/docs/2026101600015/",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
-        },
-        {
-          "url": "https://www.fdma.go.jp/mission/enrichment/kyukyumusen_kinkyutuhou/net119.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -21363,15 +21375,15 @@
       "reportedDate": "2025-12-09",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-18T03:45:10+00:00",
-      "lastCheckedAt": "2026-11-01T07:14:54+00:00",
-      "attempts": 4,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 5,
       "reasons": [
         {
-          "url": "https://www.synology.com/",
+          "url": "https://www.synology.com/en-global/security/advisory/Synology_SA_24_27",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.synology.com/en-global/security/advisory/Synology_SA_24_27",
+          "url": "https://www.synology.com/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
@@ -21385,8 +21397,8 @@
       "reportedDate": "2025-12-08",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-18T03:45:10+00:00",
-      "lastCheckedAt": "2026-11-01T07:14:54+00:00",
-      "attempts": 4,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 5,
       "reasons": [
         {
           "url": "https://www.pref.kanagawa.jp/docs/v6g/potalrenraku.html",
@@ -21403,12 +21415,30 @@
       "reportedDate": "2025-12-05",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-18T03:45:10+00:00",
-      "lastCheckedAt": "2026-11-01T07:14:54+00:00",
-      "attempts": 4,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 5,
       "reasons": [
         {
           "url": "https://www.kono-shinkin.co.jp/wp/wp-content/uploads/2025/11/20251121.pdf",
           "reason": "ValueError: PDF metadata needs review: publisher=False, date=False, title=True"
+        }
+      ],
+      "classification": "needs_review",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
+      "newsSource": "https://www.security-next.com/177856",
+      "title": "放課後児童クラブでメール誤送信 - 個人情報印刷時に第三者へ",
+      "reportedDate": "2025-12-05",
+      "publisher": "Security NEXT 月別記事",
+      "firstSeenAt": "2026-10-18T03:45:10+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 5,
+      "reasons": [
+        {
+          "url": "https://www.city.fukuoka.lg.jp/shimin/kusei/myna_yoyaku_kojinjohorouei.html",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
       "classification": "needs_review",
@@ -23387,8 +23417,8 @@
       "reportedDate": "2026-10-19",
       "publisher": "ITmedia NEWS セキュリティ",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 80,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 81,
       "reasons": [
         {
           "url": "https://www.nifty.co.jp/newsrelease/nifty202610195434.htm",
@@ -23423,23 +23453,23 @@
       "reportedDate": "2026-10-20",
       "publisher": "ITmedia エンタープライズ",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 82,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 83,
       "reasons": [
         {
-          "url": "https://corp.newspicks.com/info/20261008",
+          "url": "https://www.jreast.co.jp/press/2026/20261009_ho02.pdf",
+          "reason": "ValueError: PDF metadata needs review: publisher=True, date=True, title=True"
+        },
+        {
+          "url": "https://communeinc.com/ja/news/2026oct09",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://corp.newspicks.com/info/20261009",
+          "url": "https://www.dip-net.co.jp/news/2192",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://jp.adventurekk.com/news/apology-notice-unauthorized-access-data-leak/",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
-        },
-        {
-          "url": "https://jp.adventurekk.com/news/news-2026-unauthorized-access-notice-2/",
+          "url": "https://coconala.co.jp/news-20261009/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -23457,9 +23487,13 @@
       "reportedDate": "2026-10-20",
       "publisher": "ITmedia エンタープライズ",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 82,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 83,
       "reasons": [
+        {
+          "url": "https://www.cyber.go.jp/news/20261014.html",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
         {
           "url": "https://www.nict.go.jp/press/2026/10/13-1.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
@@ -23471,10 +23505,6 @@
         {
           "url": "https://cynex.nict.go.jp/pdf/library/lettice/261013-01.pdf",
           "reason": "ValueError: Source exceeds discovery size limit"
-        },
-        {
-          "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
           "url": "https://www.itmedia.co.jp/enterprise/articles/2610/20/news018.html",
@@ -23549,7 +23579,7 @@
       "reportedDate": "2026-10-20",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-11-05T13:27:08+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 44,
       "reasons": [
         {
@@ -25727,7 +25757,7 @@
       "reportedDate": "2026-10-21",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-21T09:48:33+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -26345,8 +26375,8 @@
       "reportedDate": "2026-10-21",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-21T15:25:31+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 70,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 71,
       "reasons": [
         {
           "url": "https://www.iwaicosmo.co.jp/info/2026/10201710.html",
@@ -30551,7 +30581,7 @@
       "reportedDate": "2026-10-23",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-10-23T09:48:37+00:00",
-      "lastCheckedAt": "2026-11-05T13:27:08+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 20,
       "reasons": [
         {
@@ -30703,7 +30733,7 @@
       "reportedDate": "2026-10-26",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-10-26T03:50:52+00:00",
-      "lastCheckedAt": "2026-11-05T13:27:08+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 2,
       "reasons": [
         {
@@ -31045,7 +31075,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -31063,7 +31093,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -31081,7 +31111,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -31099,7 +31129,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -31117,8 +31147,8 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 36,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 37,
       "reasons": [
         {
           "url": "https://www.bandainamco.co.jp/files/2026102620HPE794A820E4B88DE6ADA3E382A2E382AFE382BB.pdf",
@@ -31135,8 +31165,8 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 36,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 37,
       "reasons": [
         {
           "url": "https://amzn.asia/d/gwTaqTX",
@@ -31171,7 +31201,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-10-27T01:54:01+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -31189,8 +31219,8 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-27T02:50:08+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 36,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 37,
       "reasons": [
         {
           "url": "https://jr-central.co.jp/news/release/_pdf/000046119.pdf",
@@ -31207,8 +31237,8 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-27T03:49:08+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 36,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 37,
       "reasons": [
         {
           "url": "https://www.ipa.go.jp/security/anshin/attention/2026/mgdayori20261026.html",
@@ -31225,8 +31255,8 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-10-27T03:49:08+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 36,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 37,
       "reasons": [
         {
           "url": "https://internet.gmo/news/article/254/",
@@ -31243,7 +31273,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-27T05:51:00+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -31261,7 +31291,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-27T08:55:21+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -31279,9 +31309,13 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia Mobile",
       "firstSeenAt": "2026-10-27T08:55:21+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 34,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 35,
       "reasons": [
+        {
+          "url": "https://www.docomo.ne.jp/info/notice/page/261027_05_m.html",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
         {
           "url": "https://www.so-net.ne.jp/support/faq/qa202610_01/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
@@ -31289,10 +31323,6 @@
         {
           "url": "https://www.sonynetwork.co.jp/corporation/release/2026/v5e5u00000000zwj-att/20261027.pdf",
           "reason": "HTTPError: HTTP Error 403: Forbidden"
-        },
-        {
-          "url": "https://www.docomo.ne.jp/info/notice/page/261027_05_m.html",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
       "classification": "fetch_failed",
@@ -31305,7 +31335,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-27T09:53:46+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 1,
       "reasons": [
         {
@@ -31345,8 +31375,8 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-27T11:49:15+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
-      "attempts": 34,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 35,
       "reasons": [
         {
           "url": "https://www.sonynetwork.co.jp/corporation/release/2026/v5e5u00000000zwj-att/20261027.pdf",
@@ -31561,7 +31591,7 @@
       "reportedDate": "2026-10-28",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T23:44:00+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -31579,7 +31609,7 @@
       "reportedDate": "2026-10-28",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T23:44:00+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -31597,7 +31627,7 @@
       "reportedDate": "2026-10-28",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T23:44:00+00:00",
-      "lastCheckedAt": "2026-11-05T04:07:49+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -32139,7 +32169,7 @@
       "reportedDate": "2026-10-30",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-29T23:50:18+00:00",
-      "lastCheckedAt": "2026-11-05T05:12:52+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -32593,23 +32623,15 @@
       "reportedDate": "2026-10-31",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-10-31T02:58:14+00:00",
-      "lastCheckedAt": "2026-11-05T05:12:52+00:00",
-      "attempts": 19,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 20,
       "reasons": [
         {
-          "url": "https://www.npa.go.jp/bureau/cyber/koho/caution/caution20241224.html",
+          "url": "https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.binance.com/en/support/announcement/detail/d3306d9dca5243548c813b605e1d1751",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
-        },
-        {
-          "url": "https://www.binance.com/en/support/announcement",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
-        },
-        {
-          "url": "https://www.binance.com/ja",
+          "url": "https://www.elliptic.co/insights/binance-largest-hack-in-history/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -32627,7 +32649,7 @@
       "reportedDate": "2026-11-01",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-10-31T23:45:30+00:00",
-      "lastCheckedAt": "2026-11-05T05:12:52+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -32923,7 +32945,7 @@
       "reportedDate": "2026-11-02",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-11-01T23:45:23+00:00",
-      "lastCheckedAt": "2026-11-05T05:12:52+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -32941,7 +32963,7 @@
       "reportedDate": "2026-11-02",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-11-01T23:45:23+00:00",
-      "lastCheckedAt": "2026-11-05T05:12:52+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -32959,8 +32981,8 @@
       "reportedDate": "2026-11-02",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-11-02T03:01:44+00:00",
-      "lastCheckedAt": "2026-11-05T05:12:52+00:00",
-      "attempts": 11,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 12,
       "reasons": [
         {
           "url": "https://corp.world.co.jp/company/notice/pdf/20261030_%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA_%E9%96%8B%E7%A4%BA.pdf",
@@ -32977,8 +32999,8 @@
       "reportedDate": "2026-11-02",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-11-02T03:01:44+00:00",
-      "lastCheckedAt": "2026-11-05T05:12:52+00:00",
-      "attempts": 11,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 12,
       "reasons": [
         {
           "url": "https://www.club-tourism.co.jp/jpn/news/2026/1031/",
@@ -33017,7 +33039,7 @@
       "reportedDate": "2026-11-02",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-11-02T08:31:28+00:00",
-      "lastCheckedAt": "2026-11-05T05:12:52+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -33035,7 +33057,7 @@
       "reportedDate": "2026-11-02",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-11-02T08:31:28+00:00",
-      "lastCheckedAt": "2026-11-05T05:12:52+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -33091,7 +33113,7 @@
       "reportedDate": "2026-11-02",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-11-02T12:04:50+00:00",
-      "lastCheckedAt": "2026-11-05T05:12:52+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -33589,8 +33611,8 @@
       "reportedDate": "2026-11-04",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-11-04T04:07:43+00:00",
-      "lastCheckedAt": "2026-11-05T05:12:52+00:00",
-      "attempts": 4,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 5,
       "reasons": [
         {
           "url": "https://www.biccamera.com/bc/c/info/report/sorry_20261102.jsp",
@@ -33723,7 +33745,7 @@
       "reportedDate": "2026-11-05",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-11-04T21:06:49+00:00",
-      "lastCheckedAt": "2026-11-05T05:12:52+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -33741,35 +33763,31 @@
       "reportedDate": "2026-11-04",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-11-04T21:06:49+00:00",
-      "lastCheckedAt": "2026-11-05T05:12:52+00:00",
-      "attempts": 2,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 3,
       "reasons": [
         {
-          "url": "https://www.ppc.go.jp/files/pdf/261007_alert_dataleakage.pdf",
-          "reason": "ValueError: PDF metadata needs review: publisher=False, date=False, title=True"
-        },
-        {
-          "url": "https://www.jcb.co.jp/merchant/release/kappu_security.html",
+          "url": "https://www.muji.com/jp/mujicard/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.sbbit.jp/article/cont1/187966",
-          "reason": "HTTPError: HTTP Error 403: Forbidden"
+          "url": "https://www.saisoncard.co.jp/customer-support/information/20261104/",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.ryohin-keikaku.jp/news/articles/2026_1104_02",
-          "reason": "HTTPError: HTTP Error 429: Too Many Requests"
+          "url": "https://www.ppc.go.jp/news/careful_information/261007_alert?ref=topnews",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.ryohin-keikaku.jp/",
-          "reason": "HTTPError: HTTP Error 429: Too Many Requests"
+          "url": "https://www.ppc.go.jp/legal/rouei?ref=toppanel",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
           "url": "https://innovatopia.jp/cyber-security/cyber-security-news/119729/",
           "reason": "Remaining official links deferred by the per-run/per-article limit"
         }
       ],
-      "classification": "fetch_failed",
+      "classification": "needs_review",
       "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
       "recordIds": []
     },
@@ -34037,8 +34055,8 @@
       "reportedDate": "2026-11-05",
       "publisher": "ITmedia Mobile",
       "firstSeenAt": "2026-11-05T05:12:52+00:00",
-      "lastCheckedAt": "2026-11-05T05:12:52+00:00",
-      "attempts": 1,
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 2,
       "reasons": [
         {
           "url": "https://www.iijmio.jp/info/iij/1793774823.html",
@@ -34200,6 +34218,24 @@
       "recordIds": []
     },
     {
+      "newsSource": "https://www.security-next.com/192260",
+      "title": "サーバ設定不備、従業員情報流出の可能性 - 資さんうどん",
+      "reportedDate": "2026-11-05",
+      "publisher": "Security NEXT",
+      "firstSeenAt": "2026-11-05T15:11:13+00:00",
+      "lastCheckedAt": "2026-11-05T15:11:13+00:00",
+      "attempts": 1,
+      "reasons": [
+        {
+          "url": "https://www.sukesanudon.com/news/news-8014/",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        }
+      ],
+      "classification": "needs_review",
+      "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
+      "recordIds": []
+    },
+    {
       "newsSource": "https://www.release.tdnet.info/inbs/140120261009548970.pdf",
       "title": "当社ウェブサイトへの一部不正アクセスによる 個人情報漏洩に関するお詫びとご報告",
       "reportedDate": "2026-10-09",
@@ -34222,7 +34258,7 @@
       "reportedDate": "2026-10-06",
       "publisher": "TDnet",
       "firstSeenAt": "2026-10-16T23:48:55+00:00",
-      "lastCheckedAt": "2026-11-05T09:17:46+00:00",
+      "lastCheckedAt": "2026-11-05T15:13:57+00:00",
       "reasons": [
         {
           "url": "https://www.release.tdnet.info/inbs/140120261006546323.pdf",
@@ -34290,7 +34326,7 @@
       "reportedDate": "2026-10-26",
       "publisher": "TDnet",
       "firstSeenAt": "2026-10-26T10:57:15+00:00",
-      "lastCheckedAt": "2026-11-05T09:17:46+00:00",
+      "lastCheckedAt": "2026-11-05T15:13:57+00:00",
       "reasons": [
         {
           "url": "https://www.release.tdnet.info/inbs/140120261026556413.pdf",
