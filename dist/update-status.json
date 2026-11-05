@@ -1,10 +1,10 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-05T20:09:14+00:00",
+  "lastAttemptAt": "2026-11-05T21:00:20+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-05T20:09:14+00:00",
-  "successfulFetches": 411,
-  "failedFetches": 33,
+  "lastPartialSuccessAt": "2026-11-05T21:00:20+00:00",
+  "successfulFetches": 410,
+  "failedFetches": 34,
   "changedReviewedSources": 69,
   "automaticAnnouncements": 253,
   "watchedDocumentCount": 390,
@@ -70,6 +70,10 @@
     {
       "url": "https://www.sklg.co.jp/news/%e5%bd%93%e7%a4%be%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%e3%81%a8/",
       "error": "Source body could not be read"
+    },
+    {
+      "url": "https://e-tenki.co.jp/news/reserve-system-incident/",
+      "error": "<urlopen error timed out>"
     },
     {
       "url": "https://contents.online.nojima.co.jp/uncategorized/%E3%83%8E%E3%82%B8%E3%83%9E%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E4%BC%B4%E3%81%86%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1/",
@@ -149,16 +153,16 @@
   "cloudRun": true,
   "retentionStart": "2023-11-06",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-05T20:09:14+00:00",
+    "lastAttemptAt": "2026-11-05T21:00:20+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1607,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 58,
+    "officialFetches": 100,
     "confirmedOfficialAnnouncements": 309,
-    "pendingNewsArticles": 884,
+    "pendingNewsArticles": 893,
     "skippedReviewedArticles": 24,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -201,7 +205,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-05T20:11:14+00:00",
+      "lastAttemptAt": "2026-11-05T21:03:46+00:00",
       "listPagesChecked": 7,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -209,27 +213,27 @@
     }
   },
   "automaticSummaries": {
-    "ready": 58,
+    "ready": 57,
     "partial": 149,
-    "pending": 84,
-    "fetchFailed": 14
+    "pending": 85,
+    "fetchFailed": 15
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
-    "requestsLast24Hours": 95,
-    "cachedSources": 117,
+    "requestsLast24Hours": 100,
+    "cachedSources": 116,
     "acceptedSources": 0,
     "noMatchingSources": 0,
     "failedSources": 5,
-    "deferredSources": 16,
+    "deferredSources": 10,
     "lastError": "api_http_503",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 7,
+    "fetches": 5,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
     "pending": 4,
@@ -247,11 +251,11 @@
     "needs_source_lookup": 389,
     "covered": 11,
     "reopened": 13,
-    "fetch_failed": 83,
-    "needs_review": 384,
+    "fetch_failed": 81,
+    "needs_review": 395,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 869,
+  "unresolvedNewsCandidates": 878,
   "deferredNewsCandidates": 0
 }
