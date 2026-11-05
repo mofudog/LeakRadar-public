@@ -1,15 +1,15 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-05T12:06:52+00:00
+確認日時: 2026-11-05T13:27:08+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
 - 掲載済み: 11件
 - 同一事案の別記事: 2件
 - 掲載対象外: 9件
-- 取得失敗: 90件
+- 取得失敗: 89件
 - 公式発表の発見待ち: 389件
-- 内容確認が必要: 372件
+- 内容確認が必要: 374件
 - 未処理: 0件
 - 再確認が必要: 13件
 
@@ -148,8 +148,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.docomo.ne.jp/info/notice/page/261105_02_m.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.docomo.ne.jp/info/notice/page/261022_00_m.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.docomo.ne.jp/info/notice/page/261105_02_m.html>
 
 ### 「e-Tax」再開　安全性確認、納税者の情報漏えいなし
 
@@ -236,6 +236,16 @@
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.docomo.ne.jp/info/notice/page/261105_03_m.html>
+
+### 総務省消防庁「安否情報システム」に不正アクセス、サービス停止中　
+
+内容確認が必要 / 報道・公表日: 2026-11-05
+
+<https://internet.watch.impress.co.jp/docs/news/2154132.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.fdma.go.jp/about/organization/post-19.html>
 
 ### ロードサービス向け業務システムを手がけるプレステージ・コアソリューション、不正アクセスで最大550万件の情報漏えい　ソニー損保、ENEOSカーリースなどの事業者に影響
 
@@ -2380,13 +2390,13 @@
 
 ### 重点確認のIPアドレスを提示 ～ マクニカ、相次ぐWebシステムからの情報漏えいの被害傾向と攻撃手法を公表
 
-取得失敗 / 報道・公表日: 2026-10-21
+内容確認が必要 / 報道・公表日: 2026-10-21
 
 <https://scan.netsecurity.ne.jp/article/2026/10/21/56523.html>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: HTTPError: HTTP Error 502: Gateway Error / <https://scan.netsecurity.ne.jp/article/2026/10/21/56523.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jpcert.or.jp/at/2026/at260030.html>
 
 ### GMOサイバーセキュリティ byイエラエ、不正アクセス攻撃元にAI自律型ペンテストシステム「ARTEX」を確認
 
@@ -3151,7 +3161,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/personalinfo/legal/leakAction/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.lawson.co.jp/contents/cont07/1533174_3310.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.mrmax.co.jp/info/incident_20261006/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119011/>
 
 ### 【解説】Astemo・岩井コスモ証券・函館市など5件、委託先に関わる不正アクセスを整理｜10月16日公表分
