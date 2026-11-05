@@ -1,15 +1,15 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-05T01:23:27+00:00
+確認日時: 2026-11-05T03:02:13+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
 - 掲載済み: 11件
 - 同一事案の別記事: 2件
 - 掲載対象外: 9件
-- 取得失敗: 84件
-- 公式発表の発見待ち: 386件
-- 内容確認が必要: 366件
+- 取得失敗: 83件
+- 公式発表の発見待ち: 387件
+- 内容確認が必要: 368件
 - 未処理: 0件
 - 再確認が必要: 13件
 
@@ -116,6 +116,29 @@
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
 - 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/05/56672.html>
+
+### e-Taxにおいて不審な通信を検知、サービスを停止して緊急メンテナンス実施　現在は再開。「納税者の情報は漏えいしていないことを確認」と発表
+
+公式発表の発見待ち / 報道・公表日: 2026-11-05
+
+<https://internet.watch.impress.co.jp/docs/news/2153812.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://internet.watch.impress.co.jp/docs/news/2153812.html>
+
+### GMOインターネットの情報漏えい事案で総務省が業界団体に「ブロッキング要請」との報道　NTTは動いた？
+
+内容確認が必要 / 報道・公表日: 2026-11-05
+
+<https://www.itmedia.co.jp/mobile/articles/2611/05/news060.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.soumu.go.jp/menu_news/kaiken/01koho01_02001587.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://laws.e-gov.go.jp/law/359AC0000000086>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.netsafety.or.jp/index.html>
+- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.itmedia.co.jp/mobile/articles/2611/05/news060.html>
 
 ### ロードサービス向け業務システムを手がけるプレステージ・コアソリューション、不正アクセスで最大550万件の情報漏えい　ソニー損保、ENEOSカーリースなどの事業者に影響
 
@@ -278,8 +301,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.asoview.co.jp/news/articles/dgdm5nT6>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.asoview.co.jp/news/articles/AyTdT_tX>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.asoview.co.jp/news/articles/dgdm5nT6>
 
 ### セブン-イレブン「7NOW」の利用者情報16万件超漏えい　配達委託先に不正アクセス、出前館でも約800件
 
@@ -638,16 +661,16 @@
 
 ### ノジマオンラインに不正アクセス、会員情報約700万件が漏えい　カード情報は非保持で対象外
 
-取得失敗 / 報道・公表日: 2026-11-02
+内容確認が必要 / 報道・公表日: 2026-11-02
 
 <https://innovatopia.jp/cyber-security/cyber-security-news/119684/>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=False, title=True / <https://www.nojima.co.jp/wp-content/uploads/2026/11/fa47750556e505f2ddb83dc080a6420f.pdf>
-- 取得結果: HTTPError: HTTP Error 404: Not Found / <https://contents.online.nojima.co.jp/uncategorized/%E3%83%8E%E3%82%B8%E3%83%9E%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E4%BC%B4%E3%81%86%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/security/end_user/general/01/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/security/anshin/attention/2026/mgdayori20261026.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.j-credit.or.jp/security/document/index.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://news.web.nhk/newsweb/na/nd-20261102de69780>
+- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=False, title=False / <https://www.ppc.go.jp/files/pdf/261028_sankoushiryou-2.pdf>
+- 取得結果: ValueError: Encrypted/large PDF requires editorial review / <https://www.j-credit.or.jp/security/pdf/Creditcardsecurityguidelines_6.1_published.pdf>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119684/>
 
 ### \[ITmedia ビジネスオンライン\] タイムズカーは3000円、GMOは300万円　漏えい「見舞金」納得できる？
@@ -668,9 +691,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://news.trustlogin.com/20260916>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://news.trustlogin.com/20261007-1>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/personalinfo/legal/leakAction/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://news.web.nhk/newsweb/na/nd-20261101de69281>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nikkei.com/article/DGXZQOUC010ZZ0R01C26A1000000/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119634/>
 
 ### \[ITmedia ビジネスオンライン\] 情報漏えい2.6億人分　焼肉きんぐ、バーガーキング……1000万件超続々、不正アクセス被害企業は？【10月時点】
@@ -3015,8 +3039,6 @@
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/personalinfo/legal/leakAction/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.lawson.co.jp/contents/cont07/1533174_3310.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.mrmax.co.jp/info/incident_20261006/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119011/>
 
 ### 【解説】Astemo・岩井コスモ証券・函館市など5件、委託先に関わる不正アクセスを整理｜10月16日公表分
@@ -4594,8 +4616,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.takatsuki.osaka.jp/soshiki/6/187835.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.takatsuki.osaka.jp/soshiki/94/188938.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.takatsuki.osaka.jp/soshiki/23/156948.html>
 
 ### 校外学習先で生徒の個人情報含む書類を紛失 - 大阪府立高
 
