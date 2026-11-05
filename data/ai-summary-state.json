@@ -500,10 +500,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.hands-holdings.co.jp/news/news20260825/",
-      "attemptedAt": "2026-11-04T13:21:15+00:00",
+      "attemptedAt": "2026-11-05T16:18:37+00:00",
       "state": "failed",
-      "error": "irrelevant_output",
-      "retryAfter": 1793884875.0
+      "error": "api_http_503",
+      "retryAfter": 1793981917.0
     },
     "df48c8387515d4ed4eced23a728a188eeef9d1baf0bae24f15eab861551ba839": {
       "hash": "e7b3d9cfadc0585a07be1d85c3007786bd251a8ffa7ad77bb75aadaf2abd1c79",
@@ -2446,20 +2446,20 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.release.tdnet.info/inbs/140120261102563007.pdf",
-      "attemptedAt": "2026-11-04T13:21:15+00:00",
+      "attemptedAt": "2026-11-05T16:18:37+00:00",
       "state": "failed",
-      "error": "irrelevant_count",
-      "retryAfter": 1793884875.0
+      "error": "api_http_503",
+      "retryAfter": 1793981917.0
     },
     "ab11eff31d6f7ff3ede22d253971455e7afe27666fd17b54bac3b001efbf86be": {
       "hash": "71daad8e18cb63da89200b22094ccfb2259e7b119c5561cb0ad0bf2e2c813c2d",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.release.tdnet.info/inbs/140120261102563148.pdf",
-      "attemptedAt": "2026-11-04T13:21:15+00:00",
+      "attemptedAt": "2026-11-05T16:18:37+00:00",
       "state": "failed",
       "error": "ungrounded_output",
-      "retryAfter": 1793884875.0
+      "retryAfter": 1793981917.0
     },
     "6195424d54f0d658b6971fe3d3d0f71dcba531e3cc9339bf0087ff3b9e5d670b": {
       "hash": "3eb14e337e78f231f5ca3284ea93bcabd49d4dfd0816ca43d3dd4111004db376",
@@ -2656,14 +2656,37 @@
       "state": "failed",
       "error": "api_http_503",
       "retryAfter": 1793956511.0
+    },
+    "a69920b514a4ca73135aaa283129ac0e7c5e185551312f4e2bc94b1b5a211aa7": {
+      "hash": "f63ff20a52b6c2e47cefff0434da4dcbf6773f4350a961ec456d5f13f7942ab2",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://camelcoffee.jp/news/important/2026/002221.html",
+      "attemptedAt": "2026-11-05T16:18:37+00:00",
+      "state": "failed",
+      "error": "irrelevant_count",
+      "retryAfter": 1793981917.0
+    },
+    "945150c0d0202aa1737275a8242dc147da582a099799407b5114bca6629bd983": {
+      "hash": "bccde90259ff2c663c17c8c148bccc98f78ffb5ab4af2a7df3bcf29fc70c4add",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://www.tkc.jp/news/2026/20261102_2/",
+      "attemptedAt": "2026-11-05T16:18:37+00:00",
+      "state": "success",
+      "passages": [
+        {
+          "kind": "items",
+          "quote": "メール配信業務を委託するアララ株式会社の「アララメッセージ」が第三者による不正アクセスを受け、メールアドレスや氏名等の情報が外部に漏えいしたとの報告を受けました。"
+        },
+        {
+          "kind": "scale",
+          "quote": "漏えい対象に、当社のシステムを利用するお客さまのメールアドレスが最大223万812件含まれていることが判明しました。"
+        }
+      ]
     }
   },
   "requestTimes": [
-    1793808370.0,
-    1793808370.0,
-    1793808370.0,
-    1793808370.0,
-    1793808370.0,
     1793815321.0,
     1793815321.0,
     1793815321.0,
@@ -2753,6 +2776,11 @@
     1793891473.0,
     1793891473.0,
     1793891473.0,
-    1793891473.0
+    1793891473.0,
+    1793895517.0,
+    1793895517.0,
+    1793895517.0,
+    1793895517.0,
+    1793895517.0
   ]
 }
