@@ -1,10 +1,10 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-05T16:18:37+00:00",
+  "lastAttemptAt": "2026-11-05T17:58:32+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-05T16:18:37+00:00",
-  "successfulFetches": 410,
-  "failedFetches": 34,
+  "lastPartialSuccessAt": "2026-11-05T17:58:32+00:00",
+  "successfulFetches": 411,
+  "failedFetches": 33,
   "changedReviewedSources": 69,
   "automaticAnnouncements": 253,
   "watchedDocumentCount": 390,
@@ -21,7 +21,7 @@
     },
     {
       "url": "https://www2.sagawa-exp.co.jp/information/detail/430/",
-      "error": "Source body could not be read"
+      "error": "The read operation timed out"
     },
     {
       "url": "https://revisio.co.jp/news/qlqXjTs7",
@@ -66,10 +66,6 @@
     {
       "url": "https://www.betsudaikohsan.co.jp/topics/detail/id_402/",
       "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "url": "https://paperlogic.co.jp/post_17046/",
-      "error": "The read operation timed out"
     },
     {
       "url": "https://www.sklg.co.jp/news/%e5%bd%93%e7%a4%be%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%e3%81%a8/",
@@ -153,16 +149,16 @@
   "cloudRun": true,
   "retentionStart": "2023-11-06",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-05T16:18:37+00:00",
+    "lastAttemptAt": "2026-11-05T17:58:32+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1607,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 91,
+    "officialFetches": 78,
     "confirmedOfficialAnnouncements": 309,
-    "pendingNewsArticles": 883,
+    "pendingNewsArticles": 885,
     "skippedReviewedArticles": 24,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -205,7 +201,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-05T16:21:18+00:00",
+      "lastAttemptAt": "2026-11-05T18:01:35+00:00",
       "listPagesChecked": 7,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -214,26 +210,26 @@
   },
   "automaticSummaries": {
     "ready": 58,
-    "partial": 148,
-    "pending": 85,
-    "fetchFailed": 15
+    "partial": 149,
+    "pending": 84,
+    "fetchFailed": 14
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
-    "requestsLast24Hours": 95,
-    "cachedSources": 115,
+    "requestsLast24Hours": 100,
+    "cachedSources": 117,
     "acceptedSources": 0,
-    "noMatchingSources": 1,
-    "failedSources": 4,
-    "deferredSources": 16,
-    "lastError": "ungrounded_output",
+    "noMatchingSources": 0,
+    "failedSources": 5,
+    "deferredSources": 11,
+    "lastError": "api_http_503",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 5,
+    "fetches": 4,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
     "pending": 4,
@@ -251,11 +247,11 @@
     "needs_source_lookup": 389,
     "covered": 11,
     "reopened": 13,
-    "fetch_failed": 87,
-    "needs_review": 379,
+    "fetch_failed": 85,
+    "needs_review": 383,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 868,
+  "unresolvedNewsCandidates": 870,
   "deferredNewsCandidates": 0
 }
