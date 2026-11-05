@@ -88,10 +88,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://central-con.co.jp/news/%e5%bd%93%e7%a4%be%e3%82%b3%e3%83%bc%e3%83%9d%e3%83%ac%e3%83%bc%e3%83%88%e3%82%b5%e3%82%a4%e3%83%88%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e9%96%a2%e3%81%99/",
-      "attemptedAt": "2026-11-04T04:07:43+00:00",
+      "attemptedAt": "2026-11-05T06:14:15+00:00",
       "state": "failed",
-      "error": "irrelevant_output",
-      "retryAfter": 1793851663.0
+      "error": "api_http_503",
+      "retryAfter": 1793945655.0
     },
     "0ebf3280292ae21f2fd6dbcd28c63164d26abc79e3eaa22662dfb434971f3b42": {
       "hash": "3562ff726aba2f67f2a39c3d21b836d6114e1e6be27a4bd4f484f16148698995",
@@ -116,10 +116,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://contents.xj-storage.jp/xcontents/AS00463/e2f21951/695f/4a06/9479/dab1be29f32e/20260806085229423s.pdf",
-      "attemptedAt": "2026-11-04T04:07:43+00:00",
+      "attemptedAt": "2026-11-05T06:14:15+00:00",
       "state": "failed",
-      "error": "irrelevant_count",
-      "retryAfter": 1793851663.0
+      "error": "ungrounded_output",
+      "retryAfter": 1793945655.0
     },
     "3d6a7d4f54e6fd3d1d82084c0b41b071e0dce868ff754b8e37717146d9e38e78": {
       "hash": "6e9fb210921c44298299f1770137a5f561d7421594d69801068529a5b56cf060",
@@ -135,10 +135,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://contents.xj-storage.jp/xcontents/AS08813/afe2cda2/7ddb/4c8d/ac29/093acb365cc9/20260930152541531s.pdf",
-      "attemptedAt": "2026-11-04T04:07:43+00:00",
+      "attemptedAt": "2026-11-05T06:14:15+00:00",
       "state": "failed",
-      "error": "irrelevant_count",
-      "retryAfter": 1793851663.0
+      "error": "ungrounded_output",
+      "retryAfter": 1793945655.0
     },
     "f5570e76daaf4a593eb67d8e4d537da46418f914a6b7af507f6768b3aea44721": {
       "hash": "36f1996cb90c89341c14026e18292ad67202dfdab4d0e02c7920e697789dad68",
@@ -2313,10 +2313,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/4YBQ3JACTocGVgQmIVkSHe/c7865f094fe436292d7c81e1116a9c7f/20261015_Public_J.pdf",
-      "attemptedAt": "2026-11-04T04:07:43+00:00",
+      "attemptedAt": "2026-11-05T06:14:15+00:00",
       "state": "failed",
       "error": "irrelevant_output",
-      "retryAfter": 1793851663.0
+      "retryAfter": 1793945655.0
     },
     "98f3653f8449d642458ec7f154c3f006f87180800a7c3f61989214ed457e679f": {
       "hash": "7c288ba0cfc40c394ee172cc00581a56bdb40a7cd098d40efbf8b76a26706add",
@@ -2643,14 +2643,19 @@
       "state": "failed",
       "error": "api_http_503",
       "retryAfter": 1793934133.0
+    },
+    "ac0be5d817a6344418365fa76ee4c0c524de8d4279d00e17332f1bd3e019679c": {
+      "hash": "918e88a9701efb0c28dd7a1ebcaca92e4801d3a62d19a7283bcde2a31992365b",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://www.release.tdnet.info/inbs/140120261105565832.pdf",
+      "attemptedAt": "2026-11-05T06:14:15+00:00",
+      "state": "failed",
+      "error": "irrelevant_count",
+      "retryAfter": 1793945655.0
     }
   },
   "requestTimes": [
-    1793772727.0,
-    1793772727.0,
-    1793772727.0,
-    1793772727.0,
-    1793772727.0,
     1793777448.0,
     1793777448.0,
     1793777448.0,
@@ -2740,6 +2745,11 @@
     1793855572.0,
     1793855572.0,
     1793855572.0,
-    1793855572.0
+    1793855572.0,
+    1793859255.0,
+    1793859255.0,
+    1793859255.0,
+    1793859255.0,
+    1793859255.0
   ]
 }
