@@ -163,20 +163,20 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/4YBQ3JACTocGVgQmIVkSHe/bed9ff0b11db690e1217e0329c484104/20261015_Public_J.pdf",
-      "attemptedAt": "2026-11-05T07:38:03+00:00",
+      "attemptedAt": "2026-11-06T11:16:51+00:00",
       "state": "failed",
-      "error": "ungrounded_output",
-      "retryAfter": 1793950683.0
+      "error": "irrelevant_output",
+      "retryAfter": 1794050211.0
     },
     "aaf9c8b7523bb89a68be72c56c180ed163341122dea98ee9fb15880b06f00c04": {
       "hash": "eaf2549aa9d544b7c67d8eb0bb299f65986797e0d0852ce1a463f5c4d26da44c",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://data.swcms.net/file/h2o-retailing/ja/news/auto_20261019552921/pdfFile.pdf",
-      "attemptedAt": "2026-11-05T07:38:03+00:00",
+      "attemptedAt": "2026-11-06T11:16:51+00:00",
       "state": "failed",
-      "error": "irrelevant_output",
-      "retryAfter": 1793950683.0
+      "error": "api_http_503",
+      "retryAfter": 1794050211.0
     },
     "9b9733363c259bbd51a8cb1c20f8086db64ad74e0224ca3f503a21e2c7567cad": {
       "hash": "e5c07ba0842aeecc57f135bdca332f151066cce7efec314275196ff2c6c141a1",
@@ -2311,10 +2311,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/4YBQ3JACTocGVgQmIVkSHe/c7865f094fe436292d7c81e1116a9c7f/20261015_Public_J.pdf",
-      "attemptedAt": "2026-11-05T06:14:15+00:00",
+      "attemptedAt": "2026-11-06T11:16:51+00:00",
       "state": "failed",
       "error": "irrelevant_output",
-      "retryAfter": 1793945655.0
+      "retryAfter": 1794050211.0
     },
     "98f3653f8449d642458ec7f154c3f006f87180800a7c3f61989214ed457e679f": {
       "hash": "7c288ba0cfc40c394ee172cc00581a56bdb40a7cd098d40efbf8b76a26706add",
@@ -2651,10 +2651,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.release.tdnet.info/inbs/140120261105565832.pdf",
-      "attemptedAt": "2026-11-05T06:14:15+00:00",
+      "attemptedAt": "2026-11-06T11:16:51+00:00",
       "state": "failed",
       "error": "irrelevant_count",
-      "retryAfter": 1793945655.0
+      "retryAfter": 1794050211.0
     },
     "2c8f4283bffb64c853b066f2f08cacaaed5363918d87b17fe4743382bd99158a": {
       "hash": "16bad605c03d23ddff7f7977a91a52681a7187c45ec70103129c69fee04c6f64",
@@ -2796,14 +2796,27 @@
       "attemptedAt": "2026-11-06T10:16:10+00:00",
       "state": "success",
       "passages": []
+    },
+    "40ef841a4209f33e3f26c704c2d0d459f2613dff48624842a23c763a98df9286": {
+      "hash": "65b05fb6899d56b6c25cb1ffc282df4610a1eea408d8471182a52882d7104c43",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://www.rohto.co.jp/news/whatsnew/2026/1106_01",
+      "attemptedAt": "2026-11-06T11:16:51+00:00",
+      "state": "success",
+      "passages": [
+        {
+          "kind": "items",
+          "quote": "氏名 住所 電話番号 ※対象となる方やデータの内容により、含まれる情報項目は異なります。お客様によっては、上記のうち一部の項目のみに限られる場合があります。"
+        },
+        {
+          "kind": "scale",
+          "quote": "調査の結果、当社が利用する複数の顧客管理システムに保存されていた情報のうち、漏えい等の対象となったお客様は2,797,545人です。"
+        }
+      ]
     }
   },
   "requestTimes": [
-    1793874164.0,
-    1793874164.0,
-    1793874164.0,
-    1793874164.0,
-    1793874164.0,
     1793880412.0,
     1793880412.0,
     1793880412.0,
@@ -2898,6 +2911,11 @@
     1793960170.0,
     1793960170.0,
     1793960170.0,
-    1793960170.0
+    1793960170.0,
+    1793963811.0,
+    1793963811.0,
+    1793963811.0,
+    1793963811.0,
+    1793963811.0
   ]
 }
