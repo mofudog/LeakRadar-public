@@ -1,13 +1,13 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-06T18:07:05+00:00",
+  "lastAttemptAt": "2026-11-06T19:07:00+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-06T18:07:05+00:00",
-  "successfulFetches": 420,
+  "lastPartialSuccessAt": "2026-11-06T19:07:00+00:00",
+  "successfulFetches": 419,
   "failedFetches": 38,
-  "changedReviewedSources": 71,
+  "changedReviewedSources": 70,
   "automaticAnnouncements": 264,
-  "watchedDocumentCount": 404,
+  "watchedDocumentCount": 403,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
@@ -34,6 +34,10 @@
     {
       "url": "https://newspicks.com/news/17665641/body/",
       "error": "Source body could not be read"
+    },
+    {
+      "url": "https://www.hands-holdings.co.jp/news/news20260825/",
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
     },
     {
       "url": "https://support-qa.eplus.jp/hc/ja/articles/62711500727961-%E5%BC%8A%E7%A4%BE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AE%E7%99%BA-%E3%81%8A%E3%82%88%E3%81%B3%E5%80%8B-%E6%83%85%E5%A0%B1-%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
@@ -104,10 +108,6 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "https://www.capcom.co.jp/ir/news/pdf/261022.pdf",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
       "url": "https://corp.eplus.jp/press-release/1824/",
       "error": "HTTP Error 403: Forbidden"
     },
@@ -169,14 +169,14 @@
   "cloudRun": true,
   "retentionStart": "2023-11-07",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-06T18:07:05+00:00",
+    "lastAttemptAt": "2026-11-06T19:07:00+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1637,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 74,
+    "officialFetches": 71,
     "confirmedOfficialAnnouncements": 322,
     "pendingNewsArticles": 905,
     "skippedReviewedArticles": 24,
@@ -221,7 +221,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-06T18:09:32+00:00",
+      "lastAttemptAt": "2026-11-06T19:09:27+00:00",
       "listPagesChecked": 9,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -232,24 +232,24 @@
     "ready": 58,
     "partial": 153,
     "pending": 90,
-    "fetchFailed": 18
+    "fetchFailed": 19
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
-    "requestsThisRun": 5,
+    "requestsThisRun": 0,
     "requestsLast24Hours": 100,
     "cachedSources": 124,
     "acceptedSources": 0,
     "noMatchingSources": 0,
-    "failedSources": 5,
-    "deferredSources": 17,
-    "lastError": "irrelevant_count",
+    "failedSources": 0,
+    "deferredSources": 16,
+    "lastError": null,
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 7,
+    "fetches": 5,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
     "pending": 4,
