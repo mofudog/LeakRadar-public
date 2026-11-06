@@ -1,11 +1,11 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-06T14:59:12+00:00",
+  "lastAttemptAt": "2026-11-06T15:59:51+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-06T14:59:12+00:00",
-  "successfulFetches": 421,
-  "failedFetches": 37,
-  "changedReviewedSources": 71,
+  "lastPartialSuccessAt": "2026-11-06T15:59:51+00:00",
+  "successfulFetches": 420,
+  "failedFetches": 38,
+  "changedReviewedSources": 70,
   "automaticAnnouncements": 264,
   "watchedDocumentCount": 404,
   "watchedIndexCount": 52,
@@ -41,6 +41,10 @@
     },
     {
       "url": "https://www.release.tdnet.info/inbs/140120260928541262.pdf",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120260928540919.pdf",
       "error": "HTTP Error 404: Not Found"
     },
     {
@@ -163,18 +167,18 @@
   "fullyComprehensive": false,
   "summaryReviewedAt": "2026-10-25",
   "cloudRun": true,
-  "retentionStart": "2023-11-06",
+  "retentionStart": "2023-11-07",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-06T14:59:12+00:00",
+    "lastAttemptAt": "2026-11-06T15:59:51+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
-    "newsCandidates": 1640,
+    "newsCandidates": 1637,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 84,
+    "officialFetches": 80,
     "confirmedOfficialAnnouncements": 322,
-    "pendingNewsArticles": 907,
+    "pendingNewsArticles": 904,
     "skippedReviewedArticles": 24,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -217,7 +221,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-06T15:02:04+00:00",
+      "lastAttemptAt": "2026-11-06T16:02:21+00:00",
       "listPagesChecked": 9,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -226,21 +230,21 @@
   },
   "automaticSummaries": {
     "ready": 58,
-    "partial": 154,
-    "pending": 89,
-    "fetchFailed": 17
+    "partial": 153,
+    "pending": 90,
+    "fetchFailed": 18
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
     "requestsLast24Hours": 100,
-    "cachedSources": 122,
-    "acceptedSources": 1,
-    "noMatchingSources": 1,
-    "failedSources": 3,
-    "deferredSources": 17,
-    "lastError": "irrelevant_count",
+    "cachedSources": 124,
+    "acceptedSources": 0,
+    "noMatchingSources": 0,
+    "failedSources": 5,
+    "deferredSources": 18,
+    "lastError": "ungrounded_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
@@ -260,14 +264,14 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "needs_source_lookup": 405,
+    "needs_source_lookup": 402,
     "covered": 11,
     "reopened": 13,
-    "fetch_failed": 88,
-    "needs_review": 386,
+    "fetch_failed": 90,
+    "needs_review": 384,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 892,
+  "unresolvedNewsCandidates": 889,
   "deferredNewsCandidates": 0
 }
