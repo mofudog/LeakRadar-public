@@ -1,13 +1,13 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-06T06:12:09+00:00",
+  "lastAttemptAt": "2026-11-06T07:35:03+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-06T06:12:09+00:00",
-  "successfulFetches": 418,
-  "failedFetches": 33,
+  "lastPartialSuccessAt": "2026-11-06T07:35:03+00:00",
+  "successfulFetches": 417,
+  "failedFetches": 35,
   "changedReviewedSources": 69,
-  "automaticAnnouncements": 259,
-  "watchedDocumentCount": 397,
+  "automaticAnnouncements": 260,
+  "watchedDocumentCount": 398,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
@@ -68,6 +68,10 @@
       "error": "HTTP Error 503: Service Unavailable"
     },
     {
+      "url": "https://www.capcom.co.jp/ir/news/html/261022.html",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
       "url": "https://www.sklg.co.jp/news/%e5%bd%93%e7%a4%be%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%e3%81%a8/",
       "error": "Source body could not be read"
     },
@@ -85,6 +89,10 @@
     },
     {
       "url": "https://www.recruit.co.jp/newsroom/pressrelease/2026/1021_149447.html",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.capcom.co.jp/ir/news/pdf/261022.pdf",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -149,16 +157,16 @@
   "cloudRun": true,
   "retentionStart": "2023-11-06",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-06T06:12:09+00:00",
+    "lastAttemptAt": "2026-11-06T07:35:03+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
-    "newsCandidates": 1632,
+    "newsCandidates": 1633,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 96,
-    "confirmedOfficialAnnouncements": 315,
-    "pendingNewsArticles": 900,
+    "officialFetches": 71,
+    "confirmedOfficialAnnouncements": 316,
+    "pendingNewsArticles": 901,
     "skippedReviewedArticles": 24,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -201,18 +209,18 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-06T06:15:14+00:00",
-      "listPagesChecked": 10,
+      "lastAttemptAt": "2026-11-06T07:37:13+00:00",
+      "listPagesChecked": 14,
       "documentsChecked": 20,
       "pendingListPages": 0,
       "pendingDocuments": 7
     }
   },
   "automaticSummaries": {
-    "ready": 58,
-    "partial": 154,
-    "pending": 84,
-    "fetchFailed": 14
+    "ready": 57,
+    "partial": 155,
+    "pending": 85,
+    "fetchFailed": 15
   },
   "aiSummary": {
     "status": "active",
@@ -223,14 +231,14 @@
     "acceptedSources": 0,
     "noMatchingSources": 1,
     "failedSources": 4,
-    "deferredSources": 8,
-    "lastError": "irrelevant_output",
+    "deferredSources": 9,
+    "lastError": "irrelevant_count",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 4,
-    "linkedDocuments": 13,
+    "fetches": 6,
+    "linkedDocuments": 12,
     "matchedAlternatives": 0,
     "pending": 4,
     "failed": 2,
@@ -248,10 +256,10 @@
     "covered": 11,
     "reopened": 13,
     "fetch_failed": 84,
-    "needs_review": 383,
+    "needs_review": 384,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 885,
+  "unresolvedNewsCandidates": 886,
   "deferredNewsCandidates": 0
 }
