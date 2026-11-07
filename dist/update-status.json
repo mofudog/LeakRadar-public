@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-07T03:00:25+00:00",
+  "lastAttemptAt": "2026-11-07T04:01:52+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-07T03:00:25+00:00",
+  "lastPartialSuccessAt": "2026-11-07T04:01:52+00:00",
   "successfulFetches": 423,
   "failedFetches": 37,
   "changedReviewedSources": 71,
@@ -165,16 +165,16 @@
   "cloudRun": true,
   "retentionStart": "2023-11-07",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-07T03:00:25+00:00",
+    "lastAttemptAt": "2026-11-07T04:01:52+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1637,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 82,
+    "officialFetches": 85,
     "confirmedOfficialAnnouncements": 325,
-    "pendingNewsArticles": 912,
+    "pendingNewsArticles": 913,
     "skippedReviewedArticles": 24,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -217,7 +217,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-07T03:02:38+00:00",
+      "lastAttemptAt": "2026-11-07T04:04:52+00:00",
       "listPagesChecked": 9,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -233,19 +233,19 @@
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
-    "requestsThisRun": 0,
+    "requestsThisRun": 5,
     "requestsLast24Hours": 100,
     "cachedSources": 125,
     "acceptedSources": 0,
     "noMatchingSources": 0,
-    "failedSources": 0,
+    "failedSources": 5,
     "deferredSources": 12,
-    "lastError": null,
+    "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 4,
+    "fetches": 6,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
     "pending": 4,
@@ -264,10 +264,10 @@
     "covered": 11,
     "reopened": 13,
     "fetch_failed": 90,
-    "needs_review": 394,
+    "needs_review": 395,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 899,
+  "unresolvedNewsCandidates": 900,
   "deferredNewsCandidates": 0
 }
