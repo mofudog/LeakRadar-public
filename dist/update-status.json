@@ -1,9 +1,9 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-07T11:50:52+00:00",
+  "lastAttemptAt": "2026-11-07T13:06:05+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-07T11:50:52+00:00",
-  "successfulFetches": 425,
+  "lastPartialSuccessAt": "2026-11-07T13:06:05+00:00",
+  "successfulFetches": 424,
   "failedFetches": 38,
   "changedReviewedSources": 71,
   "automaticAnnouncements": 267,
@@ -11,10 +11,6 @@
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
-    {
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/30/56632.html",
-      "error": "HTTPError: HTTP Error 502: Gateway Error"
-    },
     {
       "url": "https://www.lashinbang.com/info/26357/",
       "error": "HTTP Error 403: Forbidden"
@@ -26,6 +22,10 @@
     {
       "url": "https://www2.sagawa-exp.co.jp/information/detail/430/",
       "error": "Source body could not be read"
+    },
+    {
+      "url": "https://www.legoland.jp/operation/news/news-release/news20260925/",
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://revisio.co.jp/news/qlqXjTs7",
@@ -169,16 +169,16 @@
   "cloudRun": true,
   "retentionStart": "2023-11-07",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-07T11:50:52+00:00",
+    "lastAttemptAt": "2026-11-07T13:06:05+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1637,
-    "newsArticlesChecked": 69,
+    "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 100,
+    "officialFetches": 70,
     "confirmedOfficialAnnouncements": 327,
-    "pendingNewsArticles": 918,
+    "pendingNewsArticles": 916,
     "skippedReviewedArticles": 24,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -221,7 +221,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-07T11:54:34+00:00",
+      "lastAttemptAt": "2026-11-07T13:08:37+00:00",
       "listPagesChecked": 9,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -237,19 +237,19 @@
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
-    "requestsThisRun": 5,
+    "requestsThisRun": 0,
     "requestsLast24Hours": 100,
     "cachedSources": 126,
     "acceptedSources": 0,
-    "noMatchingSources": 1,
-    "failedSources": 4,
-    "deferredSources": 8,
-    "lastError": "ungrounded_output",
+    "noMatchingSources": 0,
+    "failedSources": 0,
+    "deferredSources": 9,
+    "lastError": null,
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 6,
+    "fetches": 5,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
     "pending": 4,
@@ -267,11 +267,11 @@
     "needs_source_lookup": 400,
     "covered": 11,
     "reopened": 13,
-    "fetch_failed": 85,
-    "needs_review": 407,
+    "fetch_failed": 86,
+    "needs_review": 404,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 905,
+  "unresolvedNewsCandidates": 903,
   "deferredNewsCandidates": 0
 }
