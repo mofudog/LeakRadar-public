@@ -1,10 +1,10 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-07T16:52:00+00:00",
+  "lastAttemptAt": "2026-11-07T17:46:58+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-07T16:52:00+00:00",
-  "successfulFetches": 425,
-  "failedFetches": 37,
+  "lastPartialSuccessAt": "2026-11-07T17:46:58+00:00",
+  "successfulFetches": 424,
+  "failedFetches": 38,
   "changedReviewedSources": 71,
   "automaticAnnouncements": 267,
   "watchedDocumentCount": 408,
@@ -92,6 +92,10 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
+      "url": "https://vpc.lifecard.co.jp/vpreca_assets/pdf/important-notice3.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
       "url": "https://www.sonynetwork.co.jp/corporation/release/2026/v5e5u00000000zwj-att/20261027.pdf",
       "error": "HTTP Error 403: Forbidden"
     },
@@ -165,14 +169,14 @@
   "cloudRun": true,
   "retentionStart": "2023-11-08",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-07T16:52:00+00:00",
+    "lastAttemptAt": "2026-11-07T17:46:58+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1635,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 66,
+    "officialFetches": 60,
     "confirmedOfficialAnnouncements": 327,
     "pendingNewsArticles": 918,
     "skippedReviewedArticles": 24,
@@ -217,7 +221,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-07T16:54:05+00:00",
+      "lastAttemptAt": "2026-11-07T17:49:14+00:00",
       "listPagesChecked": 2,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -226,16 +230,16 @@
   },
   "automaticSummaries": {
     "ready": 58,
-    "partial": 157,
-    "pending": 90,
-    "fetchFailed": 18
+    "partial": 156,
+    "pending": 91,
+    "fetchFailed": 19
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
     "requestsLast24Hours": 100,
-    "cachedSources": 127,
+    "cachedSources": 126,
     "acceptedSources": 0,
     "noMatchingSources": 0,
     "failedSources": 5,
@@ -263,8 +267,8 @@
     "needs_source_lookup": 398,
     "covered": 11,
     "reopened": 13,
-    "fetch_failed": 80,
-    "needs_review": 414,
+    "fetch_failed": 81,
+    "needs_review": 413,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
