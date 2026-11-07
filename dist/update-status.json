@@ -1,10 +1,10 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-07T13:06:05+00:00",
+  "lastAttemptAt": "2026-11-07T13:58:47+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-07T13:06:05+00:00",
-  "successfulFetches": 424,
-  "failedFetches": 38,
+  "lastPartialSuccessAt": "2026-11-07T13:58:47+00:00",
+  "successfulFetches": 425,
+  "failedFetches": 37,
   "changedReviewedSources": 71,
   "automaticAnnouncements": 267,
   "watchedDocumentCount": 408,
@@ -22,10 +22,6 @@
     {
       "url": "https://www2.sagawa-exp.co.jp/information/detail/430/",
       "error": "Source body could not be read"
-    },
-    {
-      "url": "https://www.legoland.jp/operation/news/news-release/news20260925/",
-      "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://revisio.co.jp/news/qlqXjTs7",
@@ -169,16 +165,16 @@
   "cloudRun": true,
   "retentionStart": "2023-11-07",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-07T13:06:05+00:00",
+    "lastAttemptAt": "2026-11-07T13:58:47+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1637,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 70,
+    "officialFetches": 68,
     "confirmedOfficialAnnouncements": 327,
-    "pendingNewsArticles": 916,
+    "pendingNewsArticles": 915,
     "skippedReviewedArticles": 24,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -221,7 +217,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-07T13:08:37+00:00",
+      "lastAttemptAt": "2026-11-07T14:01:04+00:00",
       "listPagesChecked": 9,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -237,14 +233,14 @@
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
-    "requestsThisRun": 0,
+    "requestsThisRun": 5,
     "requestsLast24Hours": 100,
     "cachedSources": 126,
     "acceptedSources": 0,
     "noMatchingSources": 0,
-    "failedSources": 0,
-    "deferredSources": 9,
-    "lastError": null,
+    "failedSources": 5,
+    "deferredSources": 8,
+    "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
@@ -267,11 +263,11 @@
     "needs_source_lookup": 400,
     "covered": 11,
     "reopened": 13,
-    "fetch_failed": 86,
-    "needs_review": 404,
+    "fetch_failed": 83,
+    "needs_review": 406,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 903,
+  "unresolvedNewsCandidates": 902,
   "deferredNewsCandidates": 0
 }
