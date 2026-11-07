@@ -1,16 +1,20 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-06T23:49:35+00:00",
+  "lastAttemptAt": "2026-11-07T01:15:52+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-06T23:49:35+00:00",
+  "lastPartialSuccessAt": "2026-11-07T01:15:52+00:00",
   "successfulFetches": 423,
-  "failedFetches": 37,
+  "failedFetches": 38,
   "changedReviewedSources": 71,
   "automaticAnnouncements": 265,
   "watchedDocumentCount": 406,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
+    {
+      "url": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+      "error": "ValueError: Feed has no parseable items"
+    },
     {
       "url": "https://www.lashinbang.com/info/26357/",
       "error": "HTTP Error 403: Forbidden"
@@ -165,14 +169,14 @@
   "cloudRun": true,
   "retentionStart": "2023-11-07",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-06T23:49:35+00:00",
+    "lastAttemptAt": "2026-11-07T01:15:52+00:00",
     "feedCount": 9,
-    "successfulFeeds": 9,
+    "successfulFeeds": 8,
     "successfulArchivePages": 1,
     "newsCandidates": 1637,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 87,
+    "officialFetches": 57,
     "confirmedOfficialAnnouncements": 325,
     "pendingNewsArticles": 911,
     "skippedReviewedArticles": 24,
@@ -217,7 +221,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-06T23:52:49+00:00",
+      "lastAttemptAt": "2026-11-07T01:17:38+00:00",
       "listPagesChecked": 9,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -239,8 +243,8 @@
     "acceptedSources": 0,
     "noMatchingSources": 0,
     "failedSources": 5,
-    "deferredSources": 16,
-    "lastError": "irrelevant_output",
+    "deferredSources": 13,
+    "lastError": "ungrounded_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },

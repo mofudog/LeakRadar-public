@@ -1,6 +1,6 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-06T23:49:35+00:00
+確認日時: 2026-11-07T01:15:52+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
@@ -196,7 +196,7 @@
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2505.htm>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119740/>
 
-### ゲーセンに真っ暗な画面ずらり……セガ系システムの障害が長期化、復旧めど立たず　原因は不正アクセス
+### \[ITmedia News\] ゲーセンに真っ暗な画面ずらり……セガ系システムの障害が長期化、復旧めど立たず　原因は不正アクセス
 
 公式発表の発見待ち / 報道・公表日: 2026-11-06
 
@@ -216,7 +216,7 @@
 
 - 取得結果: No direct official announcement link found / <https://internet.watch.impress.co.jp/docs/news/2154286.html>
 
-### ソニー、プレステサービスの不正アクセス「措置を講じている」　被害状況は公表せず
+### \[ITmedia News\] ソニー、プレステサービスの不正アクセス「措置を講じている」　被害状況は公表せず
 
 公式発表の発見待ち / 報道・公表日: 2026-11-06
 
@@ -236,7 +236,7 @@
 
 - 取得結果: No direct official announcement link found / <https://internet.watch.impress.co.jp/docs/news/2154306.html>
 
-### 消防庁「安否情報システム」不正アクセスでサービス停止　委託先の富士ソフトから報告
+### \[ITmedia News\] 消防庁「安否情報システム」不正アクセスでサービス停止　委託先の富士ソフトから報告
 
 内容確認が必要 / 報道・公表日: 2026-11-06
 
@@ -246,7 +246,7 @@
 
 - 取得結果: ValueError: PDF metadata needs review: publisher=False, date=False, title=True / <https://www.fdma.go.jp/pressrelease/houdou/items/261105_kokuun_1.pdf>
 
-### 政府、相次ぐ情報漏えいで事業者に注意喚起　「基本的な対策が不十分」な事例を複数確認
+### \[ITmedia News\] 政府、相次ぐ情報漏えいで事業者に注意喚起　「基本的な対策が不十分」な事例を複数確認
 
 内容確認が必要 / 報道・公表日: 2026-11-06
 
@@ -256,7 +256,7 @@
 
 - 取得結果: ValueError: Encrypted/large PDF requires editorial review / <https://www.cyber.go.jp/pdf/press/261105_taiou.pdf>
 
-### セキュリティ啓発団体に不正アクセス　個人情報最大1.5万件漏えいか
+### \[ITmedia News\] セキュリティ啓発団体に不正アクセス　個人情報最大1.5万件漏えいか
 
 内容確認が必要 / 報道・公表日: 2026-11-06
 
@@ -442,8 +442,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.docomo.ne.jp/info/notice/page/261105_02_m.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.docomo.ne.jp/info/notice/page/261022_00_m.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.docomo.ne.jp/info/notice/page/261105_02_m.html>
 
 ### 「e-Tax」再開　安全性確認、納税者の情報漏えいなし
 
@@ -3547,6 +3547,7 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.pfu.ricoh.com/news/2026/news260918-2.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nikkei.com/article/DGXZQOUC16B0O0W6A011C2000000/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/118960/>
 
@@ -3558,9 +3559,9 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://faq.kuronekoyamato.co.jp/app/answers/detail/a_id/5278/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.kokusen.go.jp/news/data/n-20160707_1.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://business.kuronekoyamato.co.jp/service/lineup/payment/consumer/convenience_atobarai/index.html>
-- 取得結果: ValueError: Scanned or unreadable PDF requires editorial review / <https://www.yamato-hd.co.jp/important/img/info_260929_1_6.pdf>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/118957/>
 
 ### 日経、開発用クラウドに不正アクセス　認証情報を盗まれ個人情報約183万件が漏えい
@@ -3571,9 +3572,9 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jpcert.or.jp/at/2026/at260030.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/security/security-alert/2026/alert20261009.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nikkei.co.jp/nikkeiinfo/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/security/support/soudan.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/security/anshin/index.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/pressrelease/2026/press20261102.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/118954/>
 
 ### Meta、GitHubリポジトリに不正アクセスで約1,500人に通知　入口は従業員の盗まれた認証情報
@@ -6752,16 +6753,15 @@
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.takatsuki.osaka.jp/soshiki/94/188938.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.takatsuki.osaka.jp/soshiki/23/156948.html>
 
-### 再委託先が異なる案件のメールで個人情報を誤送信 - 静岡県
+### イベント当選者宛てのメールで誤送信が発生 - 宮崎市
 
-内容確認が必要 / 報道・公表日: 2024-12-03
+内容確認が必要 / 報道・公表日: 2024-11-26
 
-<https://www.security-next.com/164882>
+<https://www.security-next.com/164647>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.pref.shizuoka.jp/1078923.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.pref.shizuoka.jp/1079272.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.miyazaki.miyazaki.jp/city/public_relations/press_material/419117.html>
 
 ### 他職員の業務情報に不正アクセス、職員を処分 - 児玉広域組合
 
