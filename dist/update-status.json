@@ -1,9 +1,9 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-07T01:15:52+00:00",
+  "lastAttemptAt": "2026-11-07T02:11:13+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-07T01:15:52+00:00",
-  "successfulFetches": 423,
+  "lastPartialSuccessAt": "2026-11-07T02:11:13+00:00",
+  "successfulFetches": 422,
   "failedFetches": 38,
   "changedReviewedSources": 71,
   "automaticAnnouncements": 265,
@@ -11,10 +11,6 @@
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
-    {
-      "url": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
-      "error": "ValueError: Feed has no parseable items"
-    },
     {
       "url": "https://www.lashinbang.com/info/26357/",
       "error": "HTTP Error 403: Forbidden"
@@ -86,6 +82,10 @@
     {
       "url": "https://www.sklg.co.jp/news/%e5%bd%93%e7%a4%be%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%e3%81%a8/",
       "error": "Source body could not be read"
+    },
+    {
+      "url": "https://e-tenki.co.jp/news/reserve-system-incident/",
+      "error": "<urlopen error _ssl.c:1063: The handshake operation timed out>"
     },
     {
       "url": "https://www.kyushu-fg-sec.co.jp/article/data/info/files/a9f275749841d4f9ea6c35fa1b62a90f0b990bb0.pdf",
@@ -169,16 +169,16 @@
   "cloudRun": true,
   "retentionStart": "2023-11-07",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-07T01:15:52+00:00",
+    "lastAttemptAt": "2026-11-07T02:11:13+00:00",
     "feedCount": 9,
-    "successfulFeeds": 8,
+    "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1637,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 57,
+    "officialFetches": 65,
     "confirmedOfficialAnnouncements": 325,
-    "pendingNewsArticles": 911,
+    "pendingNewsArticles": 912,
     "skippedReviewedArticles": 24,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -221,7 +221,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-07T01:17:38+00:00",
+      "lastAttemptAt": "2026-11-07T02:13:35+00:00",
       "listPagesChecked": 9,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -229,27 +229,27 @@
     }
   },
   "automaticSummaries": {
-    "ready": 58,
+    "ready": 57,
     "partial": 155,
-    "pending": 90,
-    "fetchFailed": 18
+    "pending": 91,
+    "fetchFailed": 19
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
     "requestsLast24Hours": 100,
-    "cachedSources": 125,
+    "cachedSources": 124,
     "acceptedSources": 0,
     "noMatchingSources": 0,
     "failedSources": 5,
-    "deferredSources": 13,
-    "lastError": "ungrounded_output",
+    "deferredSources": 12,
+    "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 6,
+    "fetches": 5,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
     "pending": 4,
@@ -267,11 +267,11 @@
     "needs_source_lookup": 402,
     "covered": 11,
     "reopened": 13,
-    "fetch_failed": 91,
-    "needs_review": 392,
+    "fetch_failed": 90,
+    "needs_review": 394,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 898,
+  "unresolvedNewsCandidates": 899,
   "deferredNewsCandidates": 0
 }
