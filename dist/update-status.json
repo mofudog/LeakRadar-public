@@ -1,16 +1,20 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-07T10:54:30+00:00",
+  "lastAttemptAt": "2026-11-07T11:50:52+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-07T10:54:30+00:00",
+  "lastPartialSuccessAt": "2026-11-07T11:50:52+00:00",
   "successfulFetches": 425,
   "failedFetches": 38,
-  "changedReviewedSources": 72,
+  "changedReviewedSources": 71,
   "automaticAnnouncements": 267,
-  "watchedDocumentCount": 409,
+  "watchedDocumentCount": 408,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/30/56632.html",
+      "error": "HTTPError: HTTP Error 502: Gateway Error"
+    },
     {
       "url": "https://www.lashinbang.com/info/26357/",
       "error": "HTTP Error 403: Forbidden"
@@ -82,10 +86,6 @@
     {
       "url": "https://www.sklg.co.jp/news/%e5%bd%93%e7%a4%be%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%e3%81%a8/",
       "error": "Source body could not be read"
-    },
-    {
-      "url": "https://e-tenki.co.jp/news/reserve-system-incident/",
-      "error": "The read operation timed out"
     },
     {
       "url": "https://www.kyushu-fg-sec.co.jp/article/data/info/files/a9f275749841d4f9ea6c35fa1b62a90f0b990bb0.pdf",
@@ -169,16 +169,16 @@
   "cloudRun": true,
   "retentionStart": "2023-11-07",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-07T10:54:30+00:00",
+    "lastAttemptAt": "2026-11-07T11:50:52+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1637,
-    "newsArticlesChecked": 70,
+    "newsArticlesChecked": 69,
     "deferredNewsArticles": 0,
-    "officialFetches": 71,
+    "officialFetches": 100,
     "confirmedOfficialAnnouncements": 327,
-    "pendingNewsArticles": 916,
+    "pendingNewsArticles": 918,
     "skippedReviewedArticles": 24,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -221,7 +221,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-07T10:56:34+00:00",
+      "lastAttemptAt": "2026-11-07T11:54:34+00:00",
       "listPagesChecked": 9,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -229,22 +229,22 @@
     }
   },
   "automaticSummaries": {
-    "ready": 57,
+    "ready": 58,
     "partial": 157,
-    "pending": 91,
-    "fetchFailed": 19
+    "pending": 90,
+    "fetchFailed": 18
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
     "requestsLast24Hours": 100,
-    "cachedSources": 125,
+    "cachedSources": 126,
     "acceptedSources": 0,
-    "noMatchingSources": 2,
-    "failedSources": 3,
-    "deferredSources": 5,
-    "lastError": "api_http_503",
+    "noMatchingSources": 1,
+    "failedSources": 4,
+    "deferredSources": 8,
+    "lastError": "ungrounded_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
@@ -264,14 +264,14 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "needs_source_lookup": 401,
+    "needs_source_lookup": 400,
     "covered": 11,
     "reopened": 13,
-    "fetch_failed": 90,
-    "needs_review": 399,
+    "fetch_failed": 85,
+    "needs_review": 407,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 903,
+  "unresolvedNewsCandidates": 905,
   "deferredNewsCandidates": 0
 }
