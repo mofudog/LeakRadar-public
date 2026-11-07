@@ -1,10 +1,10 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-07T08:14:34+00:00",
+  "lastAttemptAt": "2026-11-07T09:04:47+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-07T08:14:34+00:00",
-  "successfulFetches": 425,
-  "failedFetches": 37,
+  "lastPartialSuccessAt": "2026-11-07T09:04:47+00:00",
+  "successfulFetches": 424,
+  "failedFetches": 38,
   "changedReviewedSources": 71,
   "automaticAnnouncements": 267,
   "watchedDocumentCount": 408,
@@ -78,6 +78,10 @@
     {
       "url": "https://www.capcom.co.jp/ir/news/html/261022.html",
       "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.fukuvi.co.jp/news/information/2026093001",
+      "error": "The read operation timed out"
     },
     {
       "url": "https://www.sklg.co.jp/news/%e5%bd%93%e7%a4%be%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%e3%81%a8/",
@@ -165,16 +169,16 @@
   "cloudRun": true,
   "retentionStart": "2023-11-07",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-07T08:14:34+00:00",
+    "lastAttemptAt": "2026-11-07T09:04:47+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1637,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 84,
+    "officialFetches": 66,
     "confirmedOfficialAnnouncements": 327,
-    "pendingNewsArticles": 916,
+    "pendingNewsArticles": 915,
     "skippedReviewedArticles": 24,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -217,7 +221,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-07T08:17:30+00:00",
+      "lastAttemptAt": "2026-11-07T09:06:51+00:00",
       "listPagesChecked": 9,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -228,24 +232,24 @@
     "ready": 58,
     "partial": 157,
     "pending": 90,
-    "fetchFailed": 18
+    "fetchFailed": 19
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
-    "requestsThisRun": 5,
+    "requestsThisRun": 0,
     "requestsLast24Hours": 100,
-    "cachedSources": 126,
+    "cachedSources": 125,
     "acceptedSources": 0,
     "noMatchingSources": 0,
-    "failedSources": 5,
+    "failedSources": 0,
     "deferredSources": 11,
-    "lastError": "ungrounded_output",
+    "lastError": null,
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 6,
+    "fetches": 5,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
     "pending": 4,
@@ -264,10 +268,10 @@
     "covered": 11,
     "reopened": 13,
     "fetch_failed": 91,
-    "needs_review": 398,
+    "needs_review": 397,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 903,
+  "unresolvedNewsCandidates": 902,
   "deferredNewsCandidates": 0
 }
