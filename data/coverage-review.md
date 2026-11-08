@@ -1,6 +1,6 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-08T17:47:51+00:00
+確認日時: 2026-11-08T18:57:56+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
@@ -821,16 +821,17 @@
 
 ### 無印良品の情報流出、連携終了後も残ったカード番号109万件が問う「手放す設計」
 
-内容確認が必要 / 報道・公表日: 2026-11-04
+取得失敗 / 報道・公表日: 2026-11-04
 
 <https://innovatopia.jp/cyber-security/cyber-security-news/119729/>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://www.sbbit.jp/article/cont1/187966>
+- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1104_02>
+- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.muji.com/jp/mujicard/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.saisoncard.co.jp/customer-support/information/20261104/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/news/careful_information/261007_alert?ref=topnews>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/legal/rouei?ref=toppanel>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119729/>
 
 ### 「既知の脆弱性を対策すれば、AIが大きな脅威とは言いがたい」「個人情報漏えいの被害は何年も続く」、森井名誉教授が語るサイバー攻撃の現状　GMOへの攻撃は「直接顧客の個人情報を人質に取るランサムウェアの新形態」
@@ -1153,9 +1154,11 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.elliptic.co/insights/binance-largest-hack-in-history/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.binance.com/ja/support/announcement/detail/062daeb5a08b444ca5248113154457ae>
+- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=True, title=False / <https://www.fsa.go.jp/news/r7/sonota/20260403/01.pdf>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.npa.go.jp/bureau/cyber/koho/caution/caution20241224.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.binance.com/en/support/announcement/detail/d3306d9dca5243548c813b605e1d1751>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.binance.com/en/support/announcement>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119572/>
 
 ### 【解説】外務省・日本交通・無印良品などの不正アクセス、10月28〜31日の公表を整理
@@ -3577,16 +3580,16 @@
 
 ### Meta、GitHubリポジトリに不正アクセスで約1,500人に通知　入口は従業員の盗まれた認証情報
 
-取得失敗 / 報道・公表日: 2026-10-17
+内容確認が必要 / 報道・公表日: 2026-10-17
 
 <https://innovatopia.jp/cyber-security/cyber-security-news/118948/>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.digit.in/news/general/meta-says-hackers-accessed-its-github-exposing-personal-data-of-1500-people.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://cybernews.com/security/meta-hack-github-personal-data/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://docs.github.com/en/code-security/concepts/secret-security/secret-scanning>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://adversa.ai/blog/cryptographic-context-injection-github-copilot/>
-- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://securityboulevard.com/2026/10/meta-security-breach-exposes-corporate-code-employee-data-on-github/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/118948/>
 
 ### \[ITmedia ビジネスオンライン\] ECサイト運営支援「ショップサーブ」で約2335万人の情報漏えい　クレカ情報も一部流出
@@ -4855,8 +4858,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://github.com/argoproj/argo-cd>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://argo-cd.readthedocs.io/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://github.com/argoproj/argo-cd>
 
 ### デンソー海外2拠点にサイバー攻撃 - 情報流出の可能性、生産に影響なし
 
@@ -4886,7 +4889,6 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.pref.gunma.jp/site/furusatozei/781011.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.pref.gunma.jp/site/furusatozei/779930.html>
 
 ### 個人情報流出の可能性、生産や販売活動には影響なし - 村田製作所
