@@ -1,6 +1,6 @@
 # 公式資料の取得・再確認
 
-最終実行：2026-11-08T13:05:56+00:00
+最終実行：2026-11-08T13:58:43+00:00
 
 候補リンクは同じ事故と確認済みではありません。候補の件数は未掲載事故数ではありません。
 自動差し替えは、直接リンクされた公式PDF、同じ公式サイトの見出し・公表日が一致する資料、または事前確認した同一発表の公式掲載先に限定します。
@@ -8,124 +8,112 @@
 ## アルカディア
 
 * 状態：公式資料を確認し、要約の根拠に採用
-* この資料の確認日時：2026-11-08T13:05:56+00:00
+* この資料の確認日時：2026-11-08T13:58:43+00:00
 * 元の出典：https://raiden.site.ktaiwork.jp/archives/4597
 * 要約に使った公式資料：https://raiden.site.ktaiwork.jp/wp-content/uploads/sites/2/2026/10/【説明資料】不正アクセスによる個⼈情報漏えいの可能性に関して20261023.pdf
 
 ## アフラック生命保険
 
 * 状態：公式資料を確認し、要約の根拠に採用
-* この資料の確認日時：2026-11-08T13:05:56+00:00
+* この資料の確認日時：2026-11-08T13:58:43+00:00
 * 元の出典：https://www.aflac.co.jp/info/yorisou_faq.html
 * 要約に使った公式資料：https://www.aflac.co.jp/static/corp/profile/news/2026/2026073100.pdf
 
 ## ホテリエ
 
 * 状態：公式資料を確認し、要約の根拠に採用
-* この資料の確認日時：2026-11-08T13:05:56+00:00
+* この資料の確認日時：2026-11-08T13:58:43+00:00
 * 元の出典：https://hotel.inc/news/information/20261013_01/
 * 要約に使った公式資料：https://hotel.inc/wp-content/uploads/2026/10/20261007_apology_ja.pdf
 
 ## 佐嘉平川屋
 
 * 状態：公式資料を確認し、要約の根拠に採用
-* この資料の確認日時：2026-11-08T13:05:56+00:00
+* この資料の確認日時：2026-11-08T13:58:43+00:00
 * 元の出典：https://www.saga-hirakawaya.jp/security-notice/
 * 要約に使った公式資料：https://www.saga-hirakawaya.jp/documents/pdf/202606-public-notice.pdf
 
 ## サクラ工業株式会社
 
 * 状態：公式資料を確認し、要約の根拠に採用
-* この資料の確認日時：2026-11-08T13:05:56+00:00
+* この資料の確認日時：2026-11-08T13:58:43+00:00
 * 元の出典：https://www.sakura-kogyo.co.jp/%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e7%ad%89%e3%81%ae%e6%bc%8f%e3%81%88%e3%81%84%e3%81%ae%e3%81%8a%e3%81%9d%e3%82%8c/
 * 要約に使った公式資料：https://www.sakura-kogyo.co.jp/wp-content/uploads/2026/03/公表文1.pdf
 
 ## 株式会社トレードワークス
 
 * 状態：公式資料を確認し、要約の根拠に採用
-* この資料の確認日時：2026-11-08T13:05:56+00:00
+* この資料の確認日時：2026-11-08T13:58:43+00:00
 * 元の出典：https://www.iwaicosmo.co.jp/news/2026/10161410.html
 * 要約に使った公式資料：https://www.iwaicosmo.co.jp/news/pdf/64f680003862eee42041a9663f2f12f970716818.pdf
 
 ## 東北電力フロンティア株式会社
 
 * 状態：公式資料を確認し、要約の根拠に採用
-* この資料の確認日時：2026-11-08T13:05:56+00:00
+* この資料の確認日時：2026-11-08T13:58:43+00:00
 * 元の出典：https://www.tohoku-frontier.co.jp/news/1947/
 * 要約に使った公式資料：https://www.tohoku-frontier.co.jp/cms/wp-content/uploads/261017_news1.pdf
 
 ## 株式会社メディア4u
 
 * 状態：公式資料を確認し、要約の根拠に採用
-* この資料の確認日時：2026-11-08T13:05:56+00:00
+* この資料の確認日時：2026-11-08T13:58:43+00:00
 * 元の出典：https://www.media4u.co.jp/news/3351
 * 要約に使った公式資料：https://ssl4.eir-parts.net/doc/4193/tdnet/2851745/00.pdf
 
 ## 損保ジャパン
 
 * 状態：公式資料を確認し、要約の根拠に採用
-* この資料の確認日時：2026-11-08T13:05:56+00:00
+* この資料の確認日時：2026-11-08T13:58:43+00:00
 * 元の出典：https://www.sompo-japan.co.jp/announce/2025/202504_01/
 * 要約に使った公式資料：https://www.sompo-japan.co.jp/-/media/SJNK/files/news/2025/20250613_2.pdf?la=ja-JP
 
 ## 株式会社ラクスライトクラウド
 
 * 状態：公式資料を確認し、要約の根拠に採用
-* この資料の確認日時：2026-11-08T13:05:56+00:00
+* この資料の確認日時：2026-11-08T13:58:43+00:00
 * 元の出典：https://www.tohoku-frontier.co.jp/news/1960/
 * 要約に使った公式資料：https://www.tohoku-frontier.co.jp/cms/wp-content/uploads/261022_news.pdf
 
 ## キッセイ薬品工業株式会社
 
 * 状態：公式資料を確認し、要約の根拠に採用
-* この資料の確認日時：2026-11-08T13:05:56+00:00
+* この資料の確認日時：2026-11-08T13:58:43+00:00
 * 元の出典：https://www.kissei.co.jp/news/2026/20261009-5205.html
 * 要約に使った公式資料：https://www.kissei.co.jp/news/uploaded/8799a42c0104c787a0519f1fabd3b2a5.pdf
 
 ## アイリスオーヤマ
 
 * 状態：公式資料を確認し、要約の根拠に採用
-* この資料の確認日時：2026-11-08T13:05:56+00:00
+* この資料の確認日時：2026-11-08T13:58:43+00:00
 * 元の出典：https://www.irisohyama.co.jp/news/2026/?date=1105
 * 要約に使った公式資料：https://www.irisohyama.co.jp/news/2026/1105.pdf
 
-## 株式会社セカンドリテイリング
+## ライフカード株式会社
 
 * 状態：資料の照合・確認が必要
-* この資料の確認日時：2026-11-08T13:05:56+00:00
-* 元の出典：https://2nd-rtl.com/news/82032/
+* この資料の確認日時：2026-11-08T13:58:43+00:00
+* 元の出典：https://vpc.lifecard.co.jp/vpreca_assets/pdf/important-notice3.pdf
 
-## 株式会社リクルート
+## 九州ＦＧ証券株式会社
 
 * 状態：資料の照合・確認が必要
-* この資料の確認日時：2026-11-08T13:05:56+00:00
-* 元の出典：https://www.recruit.co.jp/newsroom/pressrelease/2026/1021_149447.html
+* この資料の確認日時：2026-11-08T13:58:43+00:00
+* 元の出典：https://www.kyushu-fg-sec.co.jp/article/data/info/files/a9f275749841d4f9ea6c35fa1b62a90f0b990bb0.pdf
 
 ## リゾートトラスト
 
 * 状態：資料の照合・確認が必要
-* この資料の確認日時：2026-11-08T13:05:56+00:00
+* この資料の確認日時：2026-11-08T13:58:43+00:00
 * 元の出典：https://www.resorttrust.co.jp/topics/20261016/3397/
 * 要確認の公式候補：https://www.resorttrust.co.jp/ir/cms/wp-content/uploads/JINJI20261030-1.pdf（リンク先本文を取得できませんでした）
 
 ##  ZonExpert株式会社
 
 * 状態：資料の照合・確認が必要
-* この資料の確認日時：2026-11-08T13:05:56+00:00
+* この資料の確認日時：2026-11-08T13:58:43+00:00
 * 元の出典：https://www.zonexpert.co.jp/news/298/
 * 要確認の公式候補：https://www.zonexpert.co.jp/wp/wp-content/uploads/2026/09/store-information.pdf（リンク先本文を取得できませんでした）
-
-## ライフカード株式会社
-
-* 状態：資料の照合・確認が必要
-* この資料の確認日時：2026-11-08T04:05:13+00:00
-* 元の出典：https://vpc.lifecard.co.jp/vpreca_assets/pdf/important-notice3.pdf
-
-## 九州ＦＧ証券株式会社
-
-* 状態：資料の照合・確認が必要
-* この資料の確認日時：2026-11-08T04:05:13+00:00
-* 元の出典：https://www.kyushu-fg-sec.co.jp/article/data/info/files/a9f275749841d4f9ea6c35fa1b62a90f0b990bb0.pdf
 
 ## 株式会社イープラス
 
@@ -218,4 +206,16 @@
 * 状態：資料の照合・確認が必要
 * この資料の確認日時：2026-11-08T11:51:36+00:00
 * 元の出典：https://www.nifty.co.jp/newsrelease/nifty202610195434.htm
+
+## 株式会社セカンドリテイリング
+
+* 状態：資料の照合・確認が必要
+* この資料の確認日時：2026-11-08T13:05:56+00:00
+* 元の出典：https://2nd-rtl.com/news/82032/
+
+## 株式会社リクルート
+
+* 状態：資料の照合・確認が必要
+* この資料の確認日時：2026-11-08T13:05:56+00:00
+* 元の出典：https://www.recruit.co.jp/newsroom/pressrelease/2026/1021_149447.html
 
