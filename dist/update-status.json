@@ -1,11 +1,11 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-08T15:49:44+00:00",
+  "lastAttemptAt": "2026-11-08T16:51:55+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-08T15:49:44+00:00",
-  "successfulFetches": 427,
-  "failedFetches": 38,
-  "changedReviewedSources": 71,
+  "lastPartialSuccessAt": "2026-11-08T16:51:55+00:00",
+  "successfulFetches": 426,
+  "failedFetches": 39,
+  "changedReviewedSources": 70,
   "automaticAnnouncements": 269,
   "watchedDocumentCount": 411,
   "watchedIndexCount": 52,
@@ -41,6 +41,10 @@
     },
     {
       "url": "https://www.release.tdnet.info/inbs/140120260928541262.pdf",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120260930543544.pdf",
       "error": "HTTP Error 404: Not Found"
     },
     {
@@ -169,14 +173,14 @@
   "cloudRun": true,
   "retentionStart": "2023-11-09",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-08T15:49:44+00:00",
+    "lastAttemptAt": "2026-11-08T16:51:55+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1634,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 83,
+    "officialFetches": 87,
     "confirmedOfficialAnnouncements": 330,
     "pendingNewsArticles": 915,
     "skippedReviewedArticles": 24,
@@ -221,7 +225,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-08T15:52:35+00:00",
+      "lastAttemptAt": "2026-11-08T16:54:27+00:00",
       "listPagesChecked": 2,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -232,24 +236,24 @@
     "ready": 59,
     "partial": 158,
     "pending": 91,
-    "fetchFailed": 19
+    "fetchFailed": 20
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
-    "requestsThisRun": 0,
+    "requestsThisRun": 5,
     "requestsLast24Hours": 100,
-    "cachedSources": 127,
+    "cachedSources": 126,
     "acceptedSources": 0,
     "noMatchingSources": 0,
-    "failedSources": 0,
-    "deferredSources": 7,
-    "lastError": null,
+    "failedSources": 5,
+    "deferredSources": 6,
+    "lastError": "irrelevant_count",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 4,
+    "fetches": 6,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
     "pending": 4,
@@ -266,9 +270,9 @@
     "out_of_scope": 9,
     "needs_source_lookup": 398,
     "reopened": 14,
-    "fetch_failed": 82,
+    "fetch_failed": 81,
     "covered": 10,
-    "needs_review": 409,
+    "needs_review": 410,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
