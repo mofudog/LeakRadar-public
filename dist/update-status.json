@@ -1,26 +1,18 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-08T11:51:36+00:00",
+  "lastAttemptAt": "2026-11-08T13:05:56+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-08T11:51:36+00:00",
-  "successfulFetches": 425,
-  "failedFetches": 41,
-  "changedReviewedSources": 69,
+  "lastPartialSuccessAt": "2026-11-08T13:05:56+00:00",
+  "successfulFetches": 427,
+  "failedFetches": 38,
+  "changedReviewedSources": 71,
   "automaticAnnouncements": 269,
   "watchedDocumentCount": 411,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
     {
-      "url": "https://innovatopia.jp/feed/",
-      "error": "HTTPError: HTTP Error 415: Unsupported Media Type"
-    },
-    {
       "url": "https://www.lashinbang.com/info/26357/",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "url": "https://www.mrmax.co.jp/info/incident_20261006/",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -136,10 +128,6 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "https://www.mrmax.co.jp/",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
       "url": "https://support.rakuten-drive.com/",
       "error": "HTTP Error 403: Forbidden"
     },
@@ -181,14 +169,14 @@
   "cloudRun": true,
   "retentionStart": "2023-11-08",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-08T11:51:36+00:00",
+    "lastAttemptAt": "2026-11-08T13:05:56+00:00",
     "feedCount": 9,
-    "successfulFeeds": 8,
+    "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1635,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 73,
+    "officialFetches": 96,
     "confirmedOfficialAnnouncements": 330,
     "pendingNewsArticles": 916,
     "skippedReviewedArticles": 24,
@@ -233,7 +221,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-08T11:53:53+00:00",
+      "lastAttemptAt": "2026-11-08T13:09:05+00:00",
       "listPagesChecked": 2,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -242,21 +230,21 @@
   },
   "automaticSummaries": {
     "ready": 59,
-    "partial": 157,
-    "pending": 92,
-    "fetchFailed": 20
+    "partial": 158,
+    "pending": 91,
+    "fetchFailed": 19
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
-    "requestsThisRun": 5,
+    "requestsThisRun": 0,
     "requestsLast24Hours": 100,
     "cachedSources": 127,
     "acceptedSources": 0,
     "noMatchingSources": 0,
-    "failedSources": 5,
+    "failedSources": 0,
     "deferredSources": 5,
-    "lastError": "ungrounded_output",
+    "lastError": null,
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
@@ -278,9 +266,9 @@
     "out_of_scope": 9,
     "needs_source_lookup": 399,
     "reopened": 14,
-    "fetch_failed": 79,
+    "fetch_failed": 82,
     "covered": 10,
-    "needs_review": 412,
+    "needs_review": 409,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
