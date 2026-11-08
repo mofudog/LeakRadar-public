@@ -1,10 +1,10 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-08T20:50:53+00:00",
+  "lastAttemptAt": "2026-11-08T21:49:43+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-08T20:50:53+00:00",
-  "successfulFetches": 426,
-  "failedFetches": 39,
+  "lastPartialSuccessAt": "2026-11-08T21:49:43+00:00",
+  "successfulFetches": 425,
+  "failedFetches": 40,
   "changedReviewedSources": 71,
   "automaticAnnouncements": 269,
   "watchedDocumentCount": 411,
@@ -22,6 +22,10 @@
     {
       "url": "https://www2.sagawa-exp.co.jp/information/detail/430/",
       "error": "Source body could not be read"
+    },
+    {
+      "url": "https://www2.mouse-jp.co.jp/ssl/user_support2/info.asp?N_ID=535",
+      "error": "<urlopen error timed out>"
     },
     {
       "url": "https://revisio.co.jp/news/qlqXjTs7",
@@ -173,16 +177,16 @@
   "cloudRun": true,
   "retentionStart": "2023-11-09",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-08T20:50:53+00:00",
+    "lastAttemptAt": "2026-11-08T21:49:43+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1634,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 91,
+    "officialFetches": 83,
     "confirmedOfficialAnnouncements": 330,
-    "pendingNewsArticles": 918,
+    "pendingNewsArticles": 917,
     "skippedReviewedArticles": 24,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -225,7 +229,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-08T20:53:53+00:00",
+      "lastAttemptAt": "2026-11-08T21:52:28+00:00",
       "listPagesChecked": 2,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -241,14 +245,14 @@
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
-    "requestsThisRun": 0,
-    "requestsLast24Hours": 100,
+    "requestsThisRun": 5,
+    "requestsLast24Hours": 95,
     "cachedSources": 126,
     "acceptedSources": 0,
     "noMatchingSources": 0,
-    "failedSources": 0,
-    "deferredSources": 6,
-    "lastError": null,
+    "failedSources": 5,
+    "deferredSources": 11,
+    "lastError": "irrelevant_count",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
@@ -270,12 +274,12 @@
     "out_of_scope": 9,
     "needs_source_lookup": 398,
     "reopened": 14,
-    "fetch_failed": 79,
+    "fetch_failed": 81,
     "covered": 10,
-    "needs_review": 416,
+    "needs_review": 413,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 907,
+  "unresolvedNewsCandidates": 906,
   "deferredNewsCandidates": 0
 }
