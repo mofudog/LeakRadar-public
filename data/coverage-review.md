@@ -1,15 +1,15 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-08T13:58:43+00:00
+確認日時: 2026-11-08T14:52:04+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
 - 掲載済み: 10件
 - 同一事案の別記事: 2件
 - 掲載対象外: 9件
-- 取得失敗: 81件
+- 取得失敗: 82件
 - 公式発表の発見待ち: 399件
-- 内容確認が必要: 410件
+- 内容確認が必要: 409件
 - 未処理: 0件
 - 再確認が必要: 14件
 
@@ -3106,11 +3106,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://jp.finalfantasyxiv.com/lodestone/news/detail/7a3ea81bad4e15c107251cfe644209dcc2cd4e08>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.papy.co.jp/news/sc/index/article/2026/20261023.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.connectwise.com/company/trust/advisories>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://newsroom.aholddelhaize.com/ahold-delhaize-update-on-status-of-cybersecurity-incident/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://zeabur.com/blogs/october-2026-security-incident>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119068/>
 
 ### 不正アクセス・情報漏えいの記録｜2026年9月
@@ -3121,10 +3120,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.legoland.jp/operation/news/news-release/news20260925/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://kingprinters.com/news/2026/oshirase_20260925>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jpcert.or.jp/at/2026/at260028.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ikegami.co.jp/news/detail/574/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://newsreleases.jcom.co.jp/news/20260924_22551.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.tageskarte.io/hotellerie/detail/maritim-informiert-gaeste-ueber-datendiebstahl-bei-ihotelier.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://kufu.co.jp/2026/09/22/zaim-announce/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.pdpc.gov.sg/organisations/regulations-decisions/enforcement-decisions/voluntary-undertaking-by-bee-cheng-hiang-marketing-pte-ltd>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119067/>
 
 ### 不正アクセス・情報漏えいの記録｜2026年8月
@@ -3135,10 +3134,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://rizap.co.jp/news/vNh1nMuA>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.rizapgroup.com/news/detail?topics_id=1567>
-- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=False, title=True / <https://www.nissan-zaidan.or.jp/wp-content/uploads/2026/08/20260810owabi.pdf>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://isabou.net/oshirase/index_20260810.asp>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jst.go.jp/osirase/2026/20260807-2.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nice.co.jp/release/2026_08_06.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119066/>
 
 ### 不正アクセス・情報漏えいの記録｜2026年7月
@@ -3500,21 +3497,22 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jfa.jp/jfapassport/news/00034519/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jfa.jp/news/00036934/>
 - 取得結果: ValueError: PDF metadata needs review: publisher=False, date=True, title=True / <https://www.joshin.co.jp/ja/news/info/info-20261017/main/0/link/20261017Notice%20and%20Apology%20Regarding%20System%20Disruption%20Caused%20by%20Unauthorized%20Access.pdf>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://digym.cloud/post-955/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119035/>
 
 ### セカンドリテイリングに不正アクセス、ゲオとセカンドストリートのアプリ・WEBサービスを停止　再開は未定
 
-内容確認が必要 / 報道・公表日: 2026-10-18
+取得失敗 / 報道・公表日: 2026-10-18
 
 <https://innovatopia.jp/cyber-security/cyber-security-news/119032/>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://jvn.jp/jp/JVN40460777/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nttsolmare.com/press/2026/1016.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nttsolmare.com/press/2026/1016-1.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.bookoff.co.jp/info/news/2026/post_113.html>
+- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://2nd-rtl.com/news/82023>
+- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://2nd-rtl.com/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119032/>
 
 ### タイムズカー、退会後も7年間保管していた免許証画像を全削除へ　約660万アカウント分の漏えい受け
@@ -4666,7 +4664,6 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.osaka.lg.jp/hodoshiryo/ictsenryakushitsu/0000690714.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.osaka.lg.jp/ictsenryakushitsu/page/0000509799.html>
 
 ### 患者情報含むUSBメモリが所在不明 - 長崎みなとメディカルセンター
