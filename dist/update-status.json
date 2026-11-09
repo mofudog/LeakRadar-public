@@ -1,11 +1,11 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-09T02:59:48+00:00",
+  "lastAttemptAt": "2026-11-09T04:11:15+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-09T02:59:48+00:00",
-  "successfulFetches": 426,
-  "failedFetches": 40,
-  "changedReviewedSources": 70,
+  "lastPartialSuccessAt": "2026-11-09T04:11:15+00:00",
+  "successfulFetches": 425,
+  "failedFetches": 41,
+  "changedReviewedSources": 72,
   "automaticAnnouncements": 270,
   "watchedDocumentCount": 412,
   "watchedIndexCount": 52,
@@ -78,6 +78,10 @@
     {
       "url": "https://2nd-rtl.com/news/82032/",
       "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://wisewise.com/news/20241224_news/",
+      "error": "Redirect to an unregistered host"
     },
     {
       "url": "https://www.betsudaikohsan.co.jp/topics/detail/id_402/",
@@ -177,16 +181,16 @@
   "cloudRun": true,
   "retentionStart": "2023-11-09",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-09T02:59:48+00:00",
+    "lastAttemptAt": "2026-11-09T04:11:15+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
-    "newsCandidates": 1645,
+    "newsCandidates": 1648,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 50,
+    "officialFetches": 64,
     "confirmedOfficialAnnouncements": 331,
-    "pendingNewsArticles": 926,
+    "pendingNewsArticles": 929,
     "skippedReviewedArticles": 24,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -229,8 +233,8 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-09T03:02:04+00:00",
-      "listPagesChecked": 2,
+      "lastAttemptAt": "2026-11-09T04:13:35+00:00",
+      "listPagesChecked": 3,
       "documentsChecked": 20,
       "pendingListPages": 0,
       "pendingDocuments": 10
@@ -240,19 +244,19 @@
     "ready": 60,
     "partial": 158,
     "pending": 91,
-    "fetchFailed": 20
+    "fetchFailed": 21
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
-    "requestsLast24Hours": 100,
+    "requestsLast24Hours": 95,
     "cachedSources": 126,
     "acceptedSources": 0,
     "noMatchingSources": 0,
     "failedSources": 5,
-    "deferredSources": 8,
-    "lastError": "irrelevant_count",
+    "deferredSources": 13,
+    "lastError": "ungrounded_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
@@ -272,14 +276,14 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "needs_source_lookup": 407,
+    "needs_source_lookup": 408,
     "reopened": 14,
     "fetch_failed": 80,
     "covered": 10,
-    "needs_review": 414,
+    "needs_review": 416,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 915,
+  "unresolvedNewsCandidates": 918,
   "deferredNewsCandidates": 0
 }
