@@ -1,6 +1,6 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-09T09:25:32+00:00
+確認日時: 2026-11-09T11:10:18+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
@@ -8,8 +8,8 @@
 - 同一事案の別記事: 2件
 - 掲載対象外: 9件
 - 取得失敗: 81件
-- 公式発表の発見待ち: 408件
-- 内容確認が必要: 418件
+- 公式発表の発見待ち: 409件
+- 内容確認が必要: 419件
 - 未処理: 0件
 - 再確認が必要: 14件
 
@@ -189,6 +189,27 @@
 - 取得結果: HTTPError: HTTP Error 406: Not Acceptable / <https://www.prestigein.com/Portals/0/pdf/NEWS/news_20261102_01.pdf>
 - 取得結果: HTTPError: HTTP Error 406: Not Acceptable / <https://www.prestigein.com/Portals/0/pdf/NEWS/news_20261106_01.pdf>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119858/>
+
+### ニトリ、不正アクセスにより個人・法人会員の情報最大3762万件が流出の可能性　
+
+公式発表の発見待ち / 報道・公表日: 2026-11-09
+
+<https://internet.watch.impress.co.jp/docs/news/2154931.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://internet.watch.impress.co.jp/docs/news/2154931.html>
+
+### 無印良品、ネットストア再開延期　リスト型攻撃を確認、新たに約27万件漏えいか
+
+取得失敗 / 報道・公表日: 2026-11-09
+
+<https://www.itmedia.co.jp/news/article/2611/09/2000003038/>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1109_01>
+- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1106_01>
 
 ### その「返金のお知らせ」本物ですか？ 氏名や注文内容が正しくても詐欺メールかも……相次ぐ情報漏えいで巧妙化する手口【読めば身に付くネットリテラシー】
 
@@ -2600,14 +2621,14 @@
 
 ### メール配信サービスの契約者情報全て漏えい　横浜市やJR四国などに影響　ラクス子会社に不正アクセス
 
-取得失敗 / 報道・公表日: 2026-10-23
+内容確認が必要 / 報道・公表日: 2026-10-23
 
 <https://www.itmedia.co.jp/news/article/2610/23/2000002551/>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kankyo/2026/1022expovolunteer.html>
-- 取得結果: HTTPError: HTTP Error 404: Not Found / <https://giftee.co.jp/press/news/info20261022/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.hishotelgroup.com/news/3359/>
+- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=True, title=True / <https://www.jr-shikoku.co.jp/emc_info/assets/2026/10/22/0d2c20563ba3a1dafd421b6e36d48dad53dcd273.pdf>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.itmedia.co.jp/news/article/2610/23/2000002551/>
 
 ### \[ITmedia ビジネスオンライン\] GMO「お名前.com デスクトップクラウド」に不正アクセス　 取引口座の不正操作も報告
@@ -3644,11 +3665,9 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.smd-am.co.jp/news/news/2026/news_20261016/>
 - 取得結果: ValueError: PDF metadata needs review: publisher=True, date=False, title=False / <https://www.keio.co.jp/news/update/news_release/news_release2026/pdf/nr20261016_newsrelease.pdf>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.hakodate.hokkaido.jp/docs/2026101600015/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.fdma.go.jp/mission/enrichment/kyukyumusen_kinkyutuhou/net119.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.keio.co.jp/news/update/announce/nr260926v13404/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://csrc.nist.gov/glossary/term/multi_factor_authentication>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119020/>
 
 ### 【解説】JFA Passport・カーセンサー・Joshinなど6件、不正アクセスと不審なアクセスの公表を整理｜10月17〜18日
@@ -3992,9 +4011,9 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://akatake.co.jp/news/2026/4531/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.kyokyo-u.ac.jp/news/2026/10/web20260722-owabi.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ntv-wands.co.jp/news/articles/pbs9b02rgl3oubrj.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://lili-jo.com/notice/20261014.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.matsushima-wh.or.jp/news/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://thincacloud.toppan.com/newsrelease/20261014/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/118908/>
 
 ### 【解説】IDCFクラウド第5報「流出なし」、委託元はマウスやイズミなど「漏えいの可能性」を公表
@@ -4005,10 +4024,9 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: URLError: <urlopen error timed out> / <https://www2.mouse-jp.co.jp/ssl/user_support2/info.asp?N_ID=535>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.izumi.co.jp/news_release/idc.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://faq.peachjohn.co.jp/info_and_news/show/77?site_domain=default>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nttexc.co.jp/news/detail20261013/>
-- 取得結果: HTTPError: HTTP Error 404: Not Found / <https://jr-central.co.jp/news/release/_pdf/000046058.pdf>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nissui.co.jp/news/20261014.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/118902/>
 
 ### ConoHa WING byGMO に不正アクセス、不正プログラムを設置
