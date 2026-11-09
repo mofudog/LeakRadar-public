@@ -1,10 +1,10 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-09T15:09:17+00:00",
+  "lastAttemptAt": "2026-11-09T16:15:46+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-09T15:09:17+00:00",
-  "successfulFetches": 433,
-  "failedFetches": 40,
+  "lastPartialSuccessAt": "2026-11-09T16:15:46+00:00",
+  "successfulFetches": 432,
+  "failedFetches": 41,
   "changedReviewedSources": 71,
   "automaticAnnouncements": 277,
   "watchedDocumentCount": 419,
@@ -78,6 +78,10 @@
     {
       "url": "https://2nd-rtl.com/news/82032/",
       "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.kyoikusw.co.jp/news/20260817/",
+      "error": "The read operation timed out"
     },
     {
       "url": "https://wisewise.com/news/20241224_news/",
@@ -177,16 +181,16 @@
   "cloudRun": true,
   "retentionStart": "2023-11-10",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-09T15:09:17+00:00",
+    "lastAttemptAt": "2026-11-09T16:15:46+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
-    "newsCandidates": 1656,
+    "newsCandidates": 1657,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 52,
+    "officialFetches": 60,
     "confirmedOfficialAnnouncements": 338,
-    "pendingNewsArticles": 932,
+    "pendingNewsArticles": 933,
     "skippedReviewedArticles": 24,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -229,7 +233,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-09T15:11:33+00:00",
+      "lastAttemptAt": "2026-11-09T16:17:38+00:00",
       "listPagesChecked": 7,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -237,27 +241,27 @@
     }
   },
   "automaticSummaries": {
-    "ready": 62,
-    "partial": 164,
-    "pending": 90,
-    "fetchFailed": 20
+    "ready": 63,
+    "partial": 162,
+    "pending": 91,
+    "fetchFailed": 21
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
-    "requestsLast24Hours": 85,
+    "requestsLast24Hours": 90,
     "cachedSources": 127,
-    "acceptedSources": 0,
+    "acceptedSources": 1,
     "noMatchingSources": 0,
-    "failedSources": 5,
-    "deferredSources": 21,
-    "lastError": "ungrounded_output",
+    "failedSources": 4,
+    "deferredSources": 16,
+    "lastError": "irrelevant_count",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 6,
+    "fetches": 5,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
     "pending": 4,
@@ -274,12 +278,12 @@
     "out_of_scope": 9,
     "needs_source_lookup": 409,
     "reopened": 14,
-    "fetch_failed": 78,
+    "fetch_failed": 80,
     "covered": 10,
-    "needs_review": 420,
+    "needs_review": 419,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 921,
+  "unresolvedNewsCandidates": 922,
   "deferredNewsCandidates": 0
 }
