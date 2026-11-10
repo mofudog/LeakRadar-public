@@ -1,13 +1,13 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-10T09:04:35+00:00",
+  "lastAttemptAt": "2026-11-10T10:06:44+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-10T09:04:35+00:00",
-  "successfulFetches": 438,
+  "lastPartialSuccessAt": "2026-11-10T10:06:44+00:00",
+  "successfulFetches": 439,
   "failedFetches": 43,
   "changedReviewedSources": 69,
-  "automaticAnnouncements": 284,
-  "watchedDocumentCount": 427,
+  "automaticAnnouncements": 285,
+  "watchedDocumentCount": 428,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
@@ -84,10 +84,6 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "https://abahouse.co.jp/news/2005/",
-      "error": "The read operation timed out"
-    },
-    {
       "url": "https://wisewise.com/news/20241224_news/",
       "error": "Redirect to an unregistered host"
     },
@@ -98,6 +94,10 @@
     {
       "url": "https://www.sklg.co.jp/news/%e5%bd%93%e7%a4%be%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%e3%81%a8/",
       "error": "Source body could not be read"
+    },
+    {
+      "url": "https://e-tenki.co.jp/news/reserve-system-incident/",
+      "error": "<urlopen error [Errno 111] Connection refused>"
     },
     {
       "url": "https://www.kyushu-fg-sec.co.jp/article/data/info/files/a9f275749841d4f9ea6c35fa1b62a90f0b990bb0.pdf",
@@ -189,15 +189,15 @@
   "cloudRun": true,
   "retentionStart": "2023-11-10",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-10T09:04:35+00:00",
+    "lastAttemptAt": "2026-11-10T10:06:44+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
-    "newsCandidates": 1673,
+    "newsCandidates": 1674,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 90,
-    "confirmedOfficialAnnouncements": 346,
+    "officialFetches": 93,
+    "confirmedOfficialAnnouncements": 347,
     "pendingNewsArticles": 953,
     "skippedReviewedArticles": 24,
     "archiveCursors": {
@@ -241,7 +241,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-10T09:07:39+00:00",
+      "lastAttemptAt": "2026-11-10T10:09:05+00:00",
       "listPagesChecked": 14,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -249,9 +249,9 @@
     }
   },
   "automaticSummaries": {
-    "ready": 65,
-    "partial": 167,
-    "pending": 92,
+    "ready": 64,
+    "partial": 168,
+    "pending": 93,
     "fetchFailed": 22
   },
   "aiSummary": {
@@ -261,10 +261,10 @@
     "requestsLast24Hours": 100,
     "cachedSources": 127,
     "acceptedSources": 0,
-    "noMatchingSources": 0,
-    "failedSources": 5,
-    "deferredSources": 15,
-    "lastError": "ungrounded_output",
+    "noMatchingSources": 1,
+    "failedSources": 4,
+    "deferredSources": 16,
+    "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
@@ -286,9 +286,9 @@
     "out_of_scope": 9,
     "needs_source_lookup": 420,
     "reopened": 15,
-    "fetch_failed": 81,
+    "fetch_failed": 80,
     "covered": 9,
-    "needs_review": 427,
+    "needs_review": 428,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
