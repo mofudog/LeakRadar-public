@@ -1,20 +1,16 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-10T19:10:29+00:00",
+  "lastAttemptAt": "2026-11-10T20:03:47+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-10T19:10:29+00:00",
+  "lastPartialSuccessAt": "2026-11-10T20:03:47+00:00",
   "successfulFetches": 445,
-  "failedFetches": 43,
+  "failedFetches": 42,
   "changedReviewedSources": 71,
   "automaticAnnouncements": 289,
   "watchedDocumentCount": 433,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
-    {
-      "url": "https://innovatopia.jp/cyber-security/cyber-security-news/119684/",
-      "error": "ConnectionResetError: [Errno 104] Connection reset by peer"
-    },
     {
       "url": "https://www.sourcenext.com/support/i/2026/1015_info/",
       "error": "HTTP Error 403: Forbidden"
@@ -189,16 +185,16 @@
   "cloudRun": true,
   "retentionStart": "2023-11-11",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-10T19:10:29+00:00",
+    "lastAttemptAt": "2026-11-10T20:03:47+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1676,
-    "newsArticlesChecked": 69,
+    "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 60,
-    "confirmedOfficialAnnouncements": 351,
-    "pendingNewsArticles": 957,
+    "officialFetches": 100,
+    "confirmedOfficialAnnouncements": 352,
+    "pendingNewsArticles": 959,
     "skippedReviewedArticles": 24,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -241,7 +237,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-10T19:13:00+00:00",
+      "lastAttemptAt": "2026-11-10T20:06:54+00:00",
       "listPagesChecked": 9,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -257,19 +253,19 @@
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
-    "requestsThisRun": 5,
+    "requestsThisRun": 0,
     "requestsLast24Hours": 100,
-    "cachedSources": 130,
+    "cachedSources": 131,
     "acceptedSources": 0,
-    "noMatchingSources": 1,
-    "failedSources": 4,
+    "noMatchingSources": 0,
+    "failedSources": 0,
     "deferredSources": 11,
-    "lastError": "irrelevant_count",
+    "lastError": null,
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 6,
+    "fetches": 4,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
     "pending": 4,
@@ -288,10 +284,10 @@
     "reopened": 15,
     "fetch_failed": 80,
     "covered": 9,
-    "needs_review": 432,
+    "needs_review": 434,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 947,
+  "unresolvedNewsCandidates": 949,
   "deferredNewsCandidates": 0
 }
