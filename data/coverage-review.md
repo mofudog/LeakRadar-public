@@ -1,6 +1,6 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-10T05:09:40+00:00
+確認日時: 2026-11-10T06:06:25+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
@@ -337,8 +337,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1106_01>
 - 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1109_01>
+- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1106_01>
 
 ### \[ITmedia ビジネスオンライン\] ニトリ、最大3762万件の情報流出か　「ニトリネット」注文データなど不正アクセスの可能性
 
@@ -2586,6 +2586,7 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nikkei.com/article/DGXZQOUC238H90T21C26A0000000/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://news.web.nhk/newsweb/na/nd-20261023de64388>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.mos.jp/topics/20261023_1/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119412/>
@@ -3344,8 +3345,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.post.japanpost.jp/newsrelease/pressrelease/383542224171.html>
-- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=False, title=False / <https://www.mrmaxhd.co.jp/release/upload/20261006_release.pdf>
+- 取得結果: ValueError: PDF metadata needs review: publisher=True, date=False, title=True / <https://www.his.co.jp/assets/20261007.pdf>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.idcf.jp/news/topics/20261018001>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.itmedia.co.jp/enterprise/articles/2610/20/news061.html>
 
 ### 相次ぐ個人情報漏えいの一因「A2B攻撃」　正体は20年前から言われ続けた“あの教訓”だった
@@ -3356,10 +3357,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.cyber.go.jp/news/20261014.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nict.go.jp/press/2026/10/13-1.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000680.html>
 - 取得結果: ValueError: Source exceeds discovery size limit / <https://cynex.nict.go.jp/pdf/library/lettice/261013-01.pdf>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jpcert.or.jp/at/2026/at260030.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.itmedia.co.jp/enterprise/articles/2610/20/news018.html>
 
 ### 日本企業狙う不正アクセスにAI　攻撃者が自律型侵入テスト「ARTEX」を悪用　GMOイエラエ調査
@@ -6427,10 +6428,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Encrypted/large PDF requires editorial review / <https://www.ppc.go.jp/files/pdf/250625_houdou.pdf>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/news/careful_information/261007_alert?ref=topnews>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/legal/rouei?ref=toppanel>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/personalinfo/legal/leakAction?ref=toppanel>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/legal/?ref=topslide>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/171747>
 
 ### ランサムウェア被害による情報流出が判明 - 日揮ユニバーサル
