@@ -2034,10 +2034,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.dai-ichi-life.co.jp/company/news/pdf/2026_024.pdf",
-      "attemptedAt": "2026-11-08T23:47:58+00:00",
+      "attemptedAt": "2026-11-10T04:04:22+00:00",
       "state": "failed",
-      "error": "irrelevant_output",
-      "retryAfter": 1794268078.0
+      "error": "ungrounded_output",
+      "retryAfter": 1794369862.0
     },
     "1d356f93d1b52fcb331d27dafb01f071d8848ca0201c63797d5732aad5261fe1": {
       "hash": "a3e97aceccb47c1281b063810dc5e97edf87e3de56880737dd6f3f423e21a66e",
@@ -2956,14 +2956,57 @@
       "state": "failed",
       "error": "ungrounded_output",
       "retryAfter": 1794309018.0
+    },
+    "9aa72abb25b414200a8541c7608b0807e596f208f1cd78bcf6d54a8a7bf97b4b": {
+      "hash": "1574dca25baf220023cca2da356e2a697056256fa465244bab03f299712a7f31",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://corp.lafool.co.jp/news/information/172/",
+      "attemptedAt": "2026-11-10T04:04:22+00:00",
+      "state": "failed",
+      "error": "irrelevant_output",
+      "retryAfter": 1794369862.0
+    },
+    "b4e065b14e5a891d6955d843887e30a2b50034c82768e6b36babc9e5b74e468e": {
+      "hash": "0339119fe832313afb2cdb71e190c8fe4f71872a56af649d8abe73bf8d0ee0fe",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://www.ja-kyosai.or.jp/info/2026/20261104-2.html",
+      "attemptedAt": "2026-11-10T04:04:22+00:00",
+      "state": "success",
+      "passages": [
+        {
+          "kind": "audience",
+          "quote": "当会の自動車共済におけるレッカー・ロードサービスをご利用いただいた一部の利用者さまについて、氏名、住所、電話番号等の情報が漏えいした可能性があります。"
+        },
+        {
+          "kind": "items",
+          "quote": "当会の自動車共済におけるレッカー・ロードサービスをご利用いただいた一部の利用者さまについて、氏名、住所、電話番号等の情報が漏えいした可能性があります。"
+        }
+      ]
+    },
+    "e40352e2f5df1df970b7a47ff09e75fbfa4605b6f82e0ef77173f24547b865cb": {
+      "hash": "b945948325b7b026a5dfdb34b3612f4e5f2fef2a1070c277719969aa36c28bf3",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://www.nissan-fs.co.jp/info_list/pdf/261105.pdf",
+      "attemptedAt": "2026-11-10T04:04:22+00:00",
+      "state": "failed",
+      "error": "ungrounded_output",
+      "retryAfter": 1794369862.0
+    },
+    "d2d8cb5cff38c5f503af5c923f536fa1cd003b2b9f47a63edfabdf23d94b3c6d": {
+      "hash": "58ce45b5aaeee60259b060313110280bcac4c9562d0e0198827591688a8cb6d9",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://www.sompo-japan.co.jp/-/media/SJNK/files/news/2026/20261007_1.pdf?la=ja-JP",
+      "attemptedAt": "2026-11-10T04:04:22+00:00",
+      "state": "failed",
+      "error": "irrelevant_output",
+      "retryAfter": 1794369862.0
     }
   },
   "requestTimes": [
-    1794193188.0,
-    1794193188.0,
-    1794193188.0,
-    1794193188.0,
-    1794193188.0,
     1794197475.0,
     1794197475.0,
     1794197475.0,
@@ -3053,6 +3096,11 @@
     1794277117.0,
     1794277117.0,
     1794277117.0,
-    1794277117.0
+    1794277117.0,
+    1794283462.0,
+    1794283462.0,
+    1794283462.0,
+    1794283462.0,
+    1794283462.0
   ]
 }
