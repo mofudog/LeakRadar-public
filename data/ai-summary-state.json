@@ -333,13 +333,14 @@
       ]
     },
     "377b59843b82cb6311aa4d58cd76d9c59b1243f728be2f77253b940291a28f0c": {
-      "hash": "0a84fc5fcd7ba492fb4182c353713e8454ff18bceb90ca4b404b434bd2f0fa24",
+      "hash": "a545364e606ecd57376038cd2a6c0e3c71b046d222eb4ebadff00debc628e978",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://wasabi-inc.biz/help/news/20260706-04/",
-      "attemptedAt": "2026-11-09T17:26:23+00:00",
-      "state": "success",
-      "passages": []
+      "attemptedAt": "2026-11-10T20:57:52+00:00",
+      "state": "failed",
+      "error": "ungrounded_output",
+      "retryAfter": 1794430672.0
     },
     "2c15d79868a3e66b0831dadc564151ca8d2beaaa4bbb15ec33caab7a22d0079b": {
       "hash": "0fc51f1346bdebb56c2d46ff2fae2d39284916299e9a34dfd4e3b86a7a9fcb98",
@@ -551,11 +552,11 @@
       "passages": []
     },
     "f95a0617f63f415f38c04b64ed3ddc473123148380b2deae7bb025acf61a8ab9": {
-      "hash": "fcf8da6dbad9ded11d1afd337e2f1768eebffa0f445e0f992023da5519b35cc1",
+      "hash": "992077e6ebb8ca6e231c0a4f388b8ea4e1921b91e945f3fdbd435c041e4528bf",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.japantimes.co.jp/press/2026/10/02/noticeransomware-incident-jp/",
-      "attemptedAt": "2026-11-09T17:26:23+00:00",
+      "attemptedAt": "2026-11-10T20:57:52+00:00",
       "state": "success",
       "passages": []
     },
@@ -594,24 +595,23 @@
       "retryAfter": 1794243115.0
     },
     "e82fd2c9826a26fb6d50009e5a174a661b14596b5ea9ed0278179e2b82615525": {
-      "hash": "6f6f9665d11381108fc265ef294ad0d33eba299309d625a98bad35333a7a5a84",
+      "hash": "77a245ae3650efd0cfa55ed729829d6684f8b1bc39a8f2867fd6f9ae0fe053ca",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.lbm.co.jp/news/2026/260109/",
-      "attemptedAt": "2026-11-09T17:26:23+00:00",
-      "state": "failed",
-      "error": "irrelevant_output",
-      "retryAfter": 1794331583.0
+      "attemptedAt": "2026-11-10T20:57:52+00:00",
+      "state": "success",
+      "passages": []
     },
     "026820664a8455d7133afaa3762e425735877873b7e867a59d38548d4e5bb08c": {
-      "hash": "322768f1d26d4f7f52097c24e4bd03ebac1435d1a6ed245797e04f20bbcf9d9b",
+      "hash": "dd5c359c3f5b16a40e13cc8d29511ce2f3826d7cd9ffab103ea60671c3ee92d1",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.leange.co.jp/corporate_news/post-12669/",
-      "attemptedAt": "2026-11-09T17:26:23+00:00",
+      "attemptedAt": "2026-11-10T20:57:52+00:00",
       "state": "failed",
       "error": "irrelevant_output",
-      "retryAfter": 1794331583.0
+      "retryAfter": 1794430672.0
     },
     "58272eaf7fb53c746823ff4da30ed71c633f6bdcaf08039ca01698f55e51e11d": {
       "hash": "3769f1cfa9b0f83b5037c73e2ce04b27b11265747d772a97433c361e031e79ee",
@@ -2292,14 +2292,14 @@
       "retryAfter": 1794416675.0
     },
     "cbd24c258afb364639941a670e9e1484d89a83f83a9fc29027fd1eee8c54b3bc": {
-      "hash": "32517d316b23f8b0afee3e43c7ca036304ed008db239e972e6f033797f6c1aaf",
+      "hash": "24cd24deac398cba4154ef65e9f921c247b28db0896a20d8b64d28199a12a904",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.tsr-net.co.jp/data/detail/1203305_1527.html",
-      "attemptedAt": "2026-11-09T17:26:23+00:00",
+      "attemptedAt": "2026-11-10T20:57:52+00:00",
       "state": "failed",
       "error": "irrelevant_output",
-      "retryAfter": 1794331583.0
+      "retryAfter": 1794430672.0
     },
     "b84205a23c754bdbeeffd7ffba37c7e6736dbfd649461ad5693c422fe53179a8": {
       "hash": "465b89fbbf1f4da88016d0f7f1fa030a6117ceaaf89f7b19edea1d116754d028",
@@ -3040,11 +3040,6 @@
     }
   },
   "requestTimes": [
-    1794254682.0,
-    1794254682.0,
-    1794254682.0,
-    1794254682.0,
-    1794254682.0,
     1794258225.0,
     1794258225.0,
     1794258225.0,
@@ -3139,6 +3134,11 @@
     1794337829.0,
     1794337829.0,
     1794337829.0,
-    1794337829.0
+    1794337829.0,
+    1794344272.0,
+    1794344272.0,
+    1794344272.0,
+    1794344272.0,
+    1794344272.0
   ]
 }
