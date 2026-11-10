@@ -1,16 +1,20 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-10T17:56:55+00:00",
+  "lastAttemptAt": "2026-11-10T19:10:29+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-10T17:56:55+00:00",
-  "successfulFetches": 444,
-  "failedFetches": 42,
+  "lastPartialSuccessAt": "2026-11-10T19:10:29+00:00",
+  "successfulFetches": 445,
+  "failedFetches": 43,
   "changedReviewedSources": 71,
   "automaticAnnouncements": 289,
-  "watchedDocumentCount": 432,
+  "watchedDocumentCount": 433,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
+    {
+      "url": "https://innovatopia.jp/cyber-security/cyber-security-news/119684/",
+      "error": "ConnectionResetError: [Errno 104] Connection reset by peer"
+    },
     {
       "url": "https://www.sourcenext.com/support/i/2026/1015_info/",
       "error": "HTTP Error 403: Forbidden"
@@ -185,14 +189,14 @@
   "cloudRun": true,
   "retentionStart": "2023-11-11",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-10T17:56:55+00:00",
+    "lastAttemptAt": "2026-11-10T19:10:29+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1676,
-    "newsArticlesChecked": 70,
+    "newsArticlesChecked": 69,
     "deferredNewsArticles": 0,
-    "officialFetches": 89,
+    "officialFetches": 60,
     "confirmedOfficialAnnouncements": 351,
     "pendingNewsArticles": 957,
     "skippedReviewedArticles": 24,
@@ -237,7 +241,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-10T18:00:21+00:00",
+      "lastAttemptAt": "2026-11-10T19:13:00+00:00",
       "listPagesChecked": 9,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -257,10 +261,10 @@
     "requestsLast24Hours": 100,
     "cachedSources": 130,
     "acceptedSources": 0,
-    "noMatchingSources": 0,
-    "failedSources": 5,
+    "noMatchingSources": 1,
+    "failedSources": 4,
     "deferredSources": 11,
-    "lastError": "ungrounded_output",
+    "lastError": "irrelevant_count",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
@@ -282,9 +286,9 @@
     "out_of_scope": 9,
     "needs_source_lookup": 420,
     "reopened": 15,
-    "fetch_failed": 78,
+    "fetch_failed": 80,
     "covered": 9,
-    "needs_review": 434,
+    "needs_review": 432,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
