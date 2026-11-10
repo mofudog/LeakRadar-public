@@ -1,14 +1,14 @@
 {
-  "lastAttemptAt": "2026-11-10T15:01:58+00:00",
+  "lastAttemptAt": "2026-11-10T16:00:31+00:00",
   "feedCount": 9,
   "successfulFeeds": 9,
   "successfulArchivePages": 1,
-  "newsCandidates": 1675,
+  "newsCandidates": 1676,
   "newsArticlesChecked": 70,
   "deferredNewsArticles": 0,
-  "officialFetches": 94,
+  "officialFetches": 63,
   "confirmedOfficialAnnouncements": 269,
-  "pendingNewsArticles": 956,
+  "pendingNewsArticles": 957,
   "errors": [],
   "queue": {
     "https://www.security-next.com/191572": {
@@ -47,43 +47,43 @@
       "newsSource": "https://www.security-next.com/191554",
       "publisher": "Security NEXT 月別記事",
       "published": "2026-10-16",
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "pending": [],
       "hasDirectLinks": true,
       "title": "ECアプリに不正アクセス、会員情報流出の可能性 - アエナ",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "attempts": 126,
-      "lastOfficialAttemptAt": "2026-11-10T05:09:40+00:00"
+      "attempts": 127,
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00"
     },
     "https://www.security-next.com/191546": {
       "newsSource": "https://www.security-next.com/191546",
       "publisher": "Security NEXT 月別記事",
       "published": "2026-10-16",
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "pending": [],
       "hasDirectLinks": true,
       "title": "アプリ会員の個人情報が流出、詳細を調査 - バーガーキング",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "attempts": 126,
-      "lastOfficialAttemptAt": "2026-11-10T05:09:40+00:00"
+      "attempts": 127,
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00"
     },
     "https://www.security-next.com/190996": {
       "newsSource": "https://www.security-next.com/190996",
       "publisher": "Security NEXT 月別記事",
       "published": "2026-10-16",
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "pending": [],
       "hasDirectLinks": true,
       "title": "個人情報が流出、顧客宛のなりすましメールに過去の注文情報 - ムーンスター",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "attempts": 126,
-      "lastOfficialAttemptAt": "2026-11-10T05:09:40+00:00"
+      "attempts": 127,
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00"
     },
     "https://scan.netsecurity.ne.jp/article/2026/10/16/56482.html": {
       "newsSource": "https://scan.netsecurity.ne.jp/article/2026/10/16/56482.html",
       "publisher": "ScanNetSecurity",
       "published": "2026-10-16",
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "pending": [
         {
           "url": "https://scan.netsecurity.ne.jp/article/2026/10/16/56482.html",
@@ -451,7 +451,7 @@
       "newsSource": "https://scan.netsecurity.ne.jp/article/2026/10/13/56435.html",
       "publisher": "ScanNetSecurity",
       "published": "2026-10-13",
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "pending": [
         {
           "url": "https://scan.netsecurity.ne.jp/article/2026/10/13/56435.html",
@@ -945,7 +945,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-10T15:01:58+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": false,
       "attempts": 78,
       "lastOfficialAttemptAt": "2026-10-26T09:58:12+00:00"
@@ -1325,7 +1325,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": false,
       "attempts": 6,
       "lastOfficialAttemptAt": null
@@ -2584,6 +2584,14 @@
       "firstSeenAt": "2026-10-17T04:21:48+00:00",
       "pending": [
         {
+          "url": "https://securityboulevard.com/2026/10/meta-security-breach-exposes-corporate-code-employee-data-on-github/",
+          "reason": "HTTPError: HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.digit.in/news/general/meta-says-hackers-accessed-its-github-exposing-personal-data-of-1500-people.html",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
+        {
           "url": "https://cybernews.com/security/meta-hack-github-personal-data/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
@@ -2596,18 +2604,14 @@
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://adversa.ai/blog/cryptographic-context-injection-github-copilot/",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
-        },
-        {
           "url": "https://innovatopia.jp/cyber-security/cyber-security-news/118948/",
           "reason": "Remaining official links deferred by the per-run/per-article limit"
         }
       ],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T05:09:40+00:00",
-      "attempts": 131
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 132
     },
     "https://www.security-next.com/189127": {
       "newsSource": "https://www.security-next.com/189127",
@@ -3586,7 +3590,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -10496,10 +10500,10 @@
       "title": "複数システムに不正アクセス、個人情報が流出 - ユミルリンク",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T05:09:40+00:00",
-      "attempts": 95
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 96
     },
     "https://www.security-next.com/191329": {
       "newsSource": "https://www.security-next.com/191329",
@@ -10513,10 +10517,10 @@
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T05:09:40+00:00",
-      "attempts": 92
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 93
     },
     "https://www.security-next.com/191145": {
       "newsSource": "https://www.security-next.com/191145",
@@ -10525,10 +10529,10 @@
       "title": "交通系IC「nimoca」の利用履歴照会サービスで個人情報が流出",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T05:09:40+00:00",
-      "attempts": 92
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 93
     },
     "https://www.security-next.com/191552": {
       "newsSource": "https://www.security-next.com/191552",
@@ -10537,10 +10541,10 @@
       "title": "「コミックシーモア」で情報流出 - 影響など調査",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T05:09:40+00:00",
-      "attempts": 92
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 93
     },
     "https://scan.netsecurity.ne.jp/article/2026/10/20/56515.html": {
       "newsSource": "https://scan.netsecurity.ne.jp/article/2026/10/20/56515.html",
@@ -11059,7 +11063,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-10T15:01:58+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": "2026-10-26T09:58:12+00:00",
       "attempts": 44
@@ -11828,10 +11832,10 @@
       "title": "食中毒患者の個人情報をメールを第三者へ誤送信 - 山口県",
       "firstSeenAt": "2026-10-20T15:28:04+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-06T14:59:12+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-06T14:59:12+00:00",
-      "attempts": 5
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 6
     },
     "https://www.security-next.com/168584": {
       "newsSource": "https://www.security-next.com/168584",
@@ -11840,10 +11844,10 @@
       "title": "日本茶の通販サイトに不正アクセス - 個人情報流出の可能性",
       "firstSeenAt": "2026-10-20T15:34:04+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-06T14:59:12+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-06T14:59:12+00:00",
-      "attempts": 5
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 6
     },
     "https://www.security-next.com/168530": {
       "newsSource": "https://www.security-next.com/168530",
@@ -11857,10 +11861,10 @@
           "reason": "HTTPError: HTTP Error 404: Not Found"
         }
       ],
-      "lastCheckedAt": "2026-11-06T14:59:12+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-06T14:59:12+00:00",
-      "attempts": 5
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 6
     },
     "https://www.security-next.com/168596": {
       "newsSource": "https://www.security-next.com/168596",
@@ -11874,10 +11878,10 @@
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
-      "lastCheckedAt": "2026-11-06T14:59:12+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-06T14:59:12+00:00",
-      "attempts": 5
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 6
     },
     "https://www.security-next.com/168451": {
       "newsSource": "https://www.security-next.com/168451",
@@ -11886,10 +11890,10 @@
       "title": "事業の問い合わせ対応時に個人情報含む資料を誤交付 - 西条市",
       "firstSeenAt": "2026-10-20T15:34:04+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-06T14:59:12+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-06T14:59:12+00:00",
-      "attempts": 5
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 6
     },
     "https://www.security-next.com/168523": {
       "newsSource": "https://www.security-next.com/168523",
@@ -11898,10 +11902,10 @@
       "title": "食肉通販サイトに不正アクセス - 顧客情報が流出した可能性",
       "firstSeenAt": "2026-10-20T15:34:04+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-06T14:59:12+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-06T14:59:12+00:00",
-      "attempts": 5
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 6
     },
     "https://www.security-next.com/168448": {
       "newsSource": "https://www.security-next.com/168448",
@@ -11910,10 +11914,10 @@
       "title": "個人情報含むUSBメモリ4本が所在不明、監査で発覚 - 静岡県",
       "firstSeenAt": "2026-10-20T15:34:04+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-06T14:59:12+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-06T14:59:12+00:00",
-      "attempts": 5
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 6
     },
     "https://www.security-next.com/168476": {
       "newsSource": "https://www.security-next.com/168476",
@@ -11922,10 +11926,10 @@
       "title": "博物館でメール誤送信、市民活動グループ会員のメアド流出 - 平塚市",
       "firstSeenAt": "2026-10-20T15:34:04+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-06T14:59:12+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-06T14:59:12+00:00",
-      "attempts": 5
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 6
     },
     "https://www.security-next.com/168106": {
       "newsSource": "https://www.security-next.com/168106",
@@ -11939,7 +11943,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-06T14:59:12+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -11956,10 +11960,10 @@
           "reason": "HTTPError: HTTP Error 403: Forbidden"
         }
       ],
-      "lastCheckedAt": "2026-11-06T14:59:12+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-06T14:59:12+00:00",
-      "attempts": 5
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 6
     },
     "https://www.security-next.com/168368": {
       "newsSource": "https://www.security-next.com/168368",
@@ -11973,10 +11977,10 @@
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
-      "lastCheckedAt": "2026-11-06T14:59:12+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-06T14:59:12+00:00",
-      "attempts": 5
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 6
     },
     "https://www.security-next.com/168242": {
       "newsSource": "https://www.security-next.com/168242",
@@ -11985,10 +11989,10 @@
       "title": "市施設サイトに不正アクセス、メール配信CGIの脆弱性が標的に - 小諸市",
       "firstSeenAt": "2026-10-20T15:34:04+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-06T15:59:51+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-06T15:59:51+00:00",
-      "attempts": 5
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 6
     },
     "https://www.security-next.com/168317": {
       "newsSource": "https://www.security-next.com/168317",
@@ -11997,10 +12001,10 @@
       "title": "製麺通販サイトに不正アクセス - 不正プログラム除去も被害継続",
       "firstSeenAt": "2026-10-20T15:34:04+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-06T15:59:51+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-06T15:59:51+00:00",
-      "attempts": 5
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 6
     },
     "https://www.security-next.com/191694": {
       "newsSource": "https://www.security-next.com/191694",
@@ -12026,10 +12030,10 @@
       "title": "フィッシング被害から個人情報流出や不正メール送信が発生 - 日本無線",
       "firstSeenAt": "2026-10-20T15:47:36+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-06T15:59:51+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-06T15:59:51+00:00",
-      "attempts": 5
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 6
     },
     "https://www.security-next.com/168202": {
       "newsSource": "https://www.security-next.com/168202",
@@ -15325,7 +15329,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -15962,10 +15966,10 @@
       "title": "「代金後払いサービス」で個人情報が流出 - ヤマト運輸",
       "firstSeenAt": "2026-10-21T11:17:15+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T05:09:40+00:00",
-      "attempts": 85
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 86
     },
     "https://www.security-next.com/160880": {
       "newsSource": "https://www.security-next.com/160880",
@@ -16783,10 +16787,10 @@
       "title": "個人情報流出が判明、意図しない売買も - 岩井コスモ証券",
       "firstSeenAt": "2026-10-21T15:25:31+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T05:09:40+00:00",
-      "attempts": 83
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 84
     },
     "https://www.security-next.com/159464": {
       "newsSource": "https://www.security-next.com/159464",
@@ -21165,7 +21169,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-10T15:01:58+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": "2026-10-26T08:58:14+00:00",
       "attempts": 20
@@ -21235,7 +21239,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -21252,7 +21256,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -21269,7 +21273,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -21281,10 +21285,10 @@
       "title": "「大起水産公式アプリ」に不正アクセス、顧客17万4,933人の個人情報が漏えいした可能性",
       "firstSeenAt": "2026-10-25T23:39:32+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T05:09:40+00:00",
-      "attempts": 25
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 26
     },
     "https://scan.netsecurity.ne.jp/article/2026/10/26/56561.html": {
       "newsSource": "https://scan.netsecurity.ne.jp/article/2026/10/26/56561.html",
@@ -21298,7 +21302,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -21315,7 +21319,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -21332,7 +21336,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-10T15:01:58+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": "2026-10-26T08:02:53+00:00",
       "attempts": 2
@@ -21349,10 +21353,10 @@
           "reason": "HTTPError: HTTP Error 403: Forbidden"
         }
       ],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T05:09:40+00:00",
-      "attempts": 53
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 54
     },
     "https://internet.watch.impress.co.jp/docs/news/2151273.html": {
       "newsSource": "https://internet.watch.impress.co.jp/docs/news/2151273.html",
@@ -21769,10 +21773,10 @@
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T05:09:40+00:00",
-      "attempts": 50
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 51
     },
     "https://www.itmedia.co.jp/business/articles/2610/27/news044.html": {
       "newsSource": "https://www.itmedia.co.jp/business/articles/2610/27/news044.html",
@@ -21837,10 +21841,10 @@
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T05:09:40+00:00",
-      "attempts": 49
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 50
     },
     "https://internet.watch.impress.co.jp/docs/news/2151480.html": {
       "newsSource": "https://internet.watch.impress.co.jp/docs/news/2151480.html",
@@ -21854,7 +21858,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -21866,10 +21870,10 @@
       "title": "バンナム子会社に不正アクセス - 「一番くじONLINE」配送情報が流出か",
       "firstSeenAt": "2026-10-27T08:55:21+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T05:09:40+00:00",
-      "attempts": 47
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 48
     },
     "https://internet.watch.impress.co.jp/docs/news/2151585.html": {
       "newsSource": "https://internet.watch.impress.co.jp/docs/news/2151585.html",
@@ -21883,7 +21887,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -21896,22 +21900,22 @@
       "firstSeenAt": "2026-10-27T08:55:21+00:00",
       "pending": [
         {
+          "url": "https://www.sonynetwork.co.jp/corporation/release/2026/v5e5u00000000zwj-att/20261027.pdf",
+          "reason": "HTTPError: HTTP Error 403: Forbidden"
+        },
+        {
           "url": "https://www.docomo.ne.jp/info/notice/page/261027_05_m.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
           "url": "https://www.so-net.ne.jp/support/faq/qa202610_01/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
-        },
-        {
-          "url": "https://www.sonynetwork.co.jp/corporation/release/2026/v5e5u00000000zwj-att/20261027.pdf",
-          "reason": "HTTPError: HTTP Error 403: Forbidden"
         }
       ],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T05:09:40+00:00",
-      "attempts": 47
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 48
     },
     "https://internet.watch.impress.co.jp/docs/news/2151621.html": {
       "newsSource": "https://internet.watch.impress.co.jp/docs/news/2151621.html",
@@ -21925,7 +21929,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 1
@@ -21967,10 +21971,10 @@
           "reason": "HTTPError: HTTP Error 403: Forbidden"
         }
       ],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T05:09:40+00:00",
-      "attempts": 47
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 48
     },
     "https://www.security-next.com/192029": {
       "newsSource": "https://www.security-next.com/192029",
@@ -21979,10 +21983,10 @@
       "title": "49システムで情報流出、横展開など確認 - ユミルリンク",
       "firstSeenAt": "2026-10-27T16:00:03+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T05:09:40+00:00",
-      "attempts": 46
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 47
     },
     "https://scan.netsecurity.ne.jp/article/2026/10/28/56610.html": {
       "newsSource": "https://scan.netsecurity.ne.jp/article/2026/10/28/56610.html",
@@ -22230,19 +22234,19 @@
       "firstSeenAt": "2026-10-28T01:14:15+00:00",
       "pending": [
         {
-          "url": "https://www.watch.impress.co.jp/docs/news/2151286.html",
+          "url": "https://www.ppc.go.jp/news/careful_information/261007_alert?ref=topnews",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.microsoft.com/en-us/security/blog/2025/03/13/phishing-campaign-impersonates-booking-com-delivers-a-suite-of-credential-stealing-malware/",
+          "url": "https://www.ppc.go.jp/legal/rouei?ref=toppanel",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://travel.rakuten.co.jp/info/announce/20261026.html",
+          "url": "https://www.ppc.go.jp/personalinfo/legal/leakAction?ref=toppanel",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://travel.faq.rakuten.net/detail/000031574",
+          "url": "https://www.ppc.go.jp/legal/?ref=topslide",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -22250,10 +22254,10 @@
           "reason": "Remaining official links deferred by the per-run/per-article limit"
         }
       ],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T05:09:40+00:00",
-      "attempts": 45
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 46
     },
     "https://innovatopia.jp/cyber-security/cyber-security-news/119506/": {
       "newsSource": "https://innovatopia.jp/cyber-security/cyber-security-news/119506/",
@@ -22346,7 +22350,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -22637,10 +22641,10 @@
       "title": "ソニー生命に不正アクセス、個人情報約38.5万件漏えい　氏名や住所、契約内容など",
       "firstSeenAt": "2026-10-29T07:13:04+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T05:09:40+00:00",
-      "attempts": 39
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 40
     },
     "https://internet.watch.impress.co.jp/docs/news/2152332.html": {
       "newsSource": "https://internet.watch.impress.co.jp/docs/news/2152332.html",
@@ -22868,7 +22872,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -22885,7 +22889,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -22902,7 +22906,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -22919,7 +22923,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 1
@@ -22936,10 +22940,10 @@
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T05:09:40+00:00",
-      "attempts": 36
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 37
     },
     "https://innovatopia.jp/cyber-security/cyber-security-news/119555/": {
       "newsSource": "https://innovatopia.jp/cyber-security/cyber-security-news/119555/",
@@ -22948,6 +22952,10 @@
       "title": "グッドスマイルカンパニー公式ショップの決済ページに不正プログラム、2,800名のカード番号全桁など漏えいの可能性",
       "firstSeenAt": "2026-10-30T01:15:32+00:00",
       "pending": [
+        {
+          "url": "https://support.goodsmile.com/hc/ja/articles/63718007508761",
+          "reason": "HTTPError: HTTP Error 403: Forbidden"
+        },
         {
           "url": "https://support.goodsmile.com/hc/ja/articles/63547468806297",
           "reason": "HTTPError: HTTP Error 403: Forbidden"
@@ -22965,18 +22973,14 @@
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://paymentnavi.com/?p=173665",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
-        },
-        {
           "url": "https://innovatopia.jp/cyber-security/cyber-security-news/119555/",
           "reason": "Remaining official links deferred by the per-run/per-article limit"
         }
       ],
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T05:09:40+00:00",
-      "attempts": 36
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 37
     },
     "https://www.itmedia.co.jp/news/article/2610/30/2000002739/": {
       "newsSource": "https://www.itmedia.co.jp/news/article/2610/30/2000002739/",
@@ -24434,7 +24438,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-10T06:06:25+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -24451,7 +24455,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-10T06:06:25+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -24468,7 +24472,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-10T06:06:25+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -24485,7 +24489,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-10T06:06:25+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -25245,7 +25249,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-10T06:06:25+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -25257,10 +25261,10 @@
       "title": "「ドコモオンラインショップ」と「My docomo」で個人情報が流出",
       "firstSeenAt": "2026-11-06T05:11:16+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-10T06:06:25+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T06:06:25+00:00",
-      "attempts": 12
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 13
     },
     "https://internet.watch.impress.co.jp/docs/news/2154306.html": {
       "newsSource": "https://internet.watch.impress.co.jp/docs/news/2154306.html",
@@ -25274,7 +25278,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-10T06:06:25+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -25425,10 +25429,10 @@
           "reason": "ValueError: PDF metadata needs review: publisher=False, date=False, title=True"
         }
       ],
-      "lastCheckedAt": "2026-11-10T06:06:25+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T06:06:25+00:00",
-      "attempts": 11
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 12
     },
     "https://scan.netsecurity.ne.jp/article/2026/11/09/56708.html": {
       "newsSource": "https://scan.netsecurity.ne.jp/article/2026/11/09/56708.html",
@@ -25751,7 +25755,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-10T06:06:25+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -25764,18 +25768,18 @@
       "firstSeenAt": "2026-11-09T11:10:18+00:00",
       "pending": [
         {
-          "url": "https://www.ryohin-keikaku.jp/news/articles/2026_1109_01",
+          "url": "https://www.ryohin-keikaku.jp/news/articles/2026_1106_01",
           "reason": "HTTPError: HTTP Error 429: Too Many Requests"
         },
         {
-          "url": "https://www.ryohin-keikaku.jp/news/articles/2026_1106_01",
+          "url": "https://www.ryohin-keikaku.jp/news/articles/2026_1109_01",
           "reason": "HTTPError: HTTP Error 429: Too Many Requests"
         }
       ],
-      "lastCheckedAt": "2026-11-10T06:06:25+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T06:06:25+00:00",
-      "attempts": 3
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 4
     },
     "https://www.itmedia.co.jp/news/article/2611/09/2000003039/": {
       "newsSource": "https://www.itmedia.co.jp/news/article/2611/09/2000003039/",
@@ -25784,10 +25788,10 @@
       "title": "ニトリに不正アクセス、最大3762万件の個人情報流出の可能性　法人会員も対象に",
       "firstSeenAt": "2026-11-09T11:10:18+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-10T06:06:25+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T06:06:25+00:00",
-      "attempts": 3
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
+      "attempts": 4
     },
     "https://www.itmedia.co.jp/business/articles/2611/09/news085.html": {
       "newsSource": "https://www.itmedia.co.jp/business/articles/2611/09/news085.html",
@@ -26157,6 +26161,23 @@
       "lastCheckedAt": "2026-11-10T11:02:17+00:00",
       "hasDirectLinks": true,
       "lastOfficialAttemptAt": "2026-11-10T11:02:17+00:00",
+      "attempts": 1
+    },
+    "https://www.security-next.com/191650": {
+      "newsSource": "https://www.security-next.com/191650",
+      "publisher": "Security NEXT",
+      "published": "2026-11-10",
+      "title": "関連サイトで侵害、個人情報が流出 - 阪急阪神百貨店",
+      "firstSeenAt": "2026-11-10T16:00:31+00:00",
+      "pending": [
+        {
+          "url": "https://www.h2o-retailing.co.jp/ja/",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        }
+      ],
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
+      "hasDirectLinks": true,
+      "lastOfficialAttemptAt": "2026-11-10T16:00:31+00:00",
       "attempts": 1
     }
   },
@@ -26633,7 +26654,7 @@
         "https://scan.netsecurity.ne.jp/article/2026/10/26/56562.html"
       ],
       "firstSeenAt": "2026-10-16T23:46:24+00:00",
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "bodyHash": "493a9541c3f58fc187336af9017f7aa84eb234513a1c57c8306fc26522360dbc",
       "format": "pdf"
     },
@@ -27282,7 +27303,7 @@
         "https://www.security-next.com/191717"
       ],
       "firstSeenAt": "2026-10-18T03:45:10+00:00",
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "bodyHash": "2020cabd5423678f438b14529a7bb86739aa3570a705bb75681b6204996163ad",
       "format": "html"
     },
@@ -27446,7 +27467,7 @@
         "https://www.security-next.com/191145"
       ],
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "bodyHash": "5caf203388e8846e1fd0460d2f815f9fab9b054db7fb6c02e46e7f3621993517",
       "format": "pdf"
     },
@@ -28200,7 +28221,7 @@
         "https://innovatopia.jp/cyber-security/cyber-security-news/119068/"
       ],
       "firstSeenAt": "2026-10-21T11:06:55+00:00",
-      "lastCheckedAt": "2026-11-10T09:04:35+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "bodyHash": "eb7f3fce5caa34046a7bf5a793c9c783fb414e41fd0c8f3e66fd79be77a10623",
       "format": "html"
     },
@@ -28921,7 +28942,7 @@
         "https://www.itmedia.co.jp/news/article/2610/29/2000002717/"
       ],
       "firstSeenAt": "2026-10-29T07:13:04+00:00",
-      "lastCheckedAt": "2026-11-10T05:09:40+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "bodyHash": "512c778f0abaca539407ec05713facf67b5316ae61361d75ea3642d1a845d839",
       "format": "pdf"
     },
@@ -29591,7 +29612,7 @@
         "https://www.itmedia.co.jp/news/article/2611/09/2000003039/"
       ],
       "firstSeenAt": "2026-11-09T11:10:18+00:00",
-      "lastCheckedAt": "2026-11-10T06:06:25+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "bodyHash": "29f2725393f0dc06bf3902d6b925491da0d13a5a2fc0cf8b769c96e0d386ca96",
       "format": "pdf"
     },
@@ -29606,7 +29627,7 @@
         "https://www.security-next.com/192572"
       ],
       "firstSeenAt": "2026-11-09T11:10:18+00:00",
-      "lastCheckedAt": "2026-11-10T11:02:17+00:00",
+      "lastCheckedAt": "2026-11-10T16:00:31+00:00",
       "bodyHash": "29f2725393f0dc06bf3902d6b925491da0d13a5a2fc0cf8b769c96e0d386ca96",
       "format": "pdf"
     },
@@ -29818,7 +29839,7 @@
           "https://www.security-next.com/date/2026/11/page/2",
           "https://www.security-next.com/date/2026/11/page/3"
         ],
-        "lastSuccessAt": "2026-11-10T15:01:58+00:00"
+        "lastSuccessAt": "2026-11-10T16:00:31+00:00"
       },
       "2026-10": {
         "base": "https://www.security-next.com/date/2026/10",
