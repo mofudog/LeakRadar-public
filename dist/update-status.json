@@ -1,16 +1,20 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-10T07:27:24+00:00",
+  "lastAttemptAt": "2026-11-10T09:04:35+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-10T07:27:24+00:00",
-  "successfulFetches": 441,
-  "failedFetches": 40,
-  "changedReviewedSources": 71,
+  "lastPartialSuccessAt": "2026-11-10T09:04:35+00:00",
+  "successfulFetches": 438,
+  "failedFetches": 43,
+  "changedReviewedSources": 69,
   "automaticAnnouncements": 284,
   "watchedDocumentCount": 427,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
+    {
+      "url": "https://www.sourcenext.com/support/i/2026/1015_info/",
+      "error": "HTTP Error 403: Forbidden"
+    },
     {
       "url": "https://www.lashinbang.com/info/26357/",
       "error": "HTTP Error 403: Forbidden"
@@ -80,12 +84,16 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "url": "https://abahouse.co.jp/news/2005/",
+      "error": "The read operation timed out"
+    },
+    {
       "url": "https://wisewise.com/news/20241224_news/",
       "error": "Redirect to an unregistered host"
     },
     {
       "url": "https://www.capcom.co.jp/ir/news/html/261022.html",
-      "error": "Source body could not be read"
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://www.sklg.co.jp/news/%e5%bd%93%e7%a4%be%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%e3%81%a8/",
@@ -117,6 +125,10 @@
     },
     {
       "url": "https://corp.eplus.jp/press-release/1824/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.sourcenext.com/",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -177,14 +189,14 @@
   "cloudRun": true,
   "retentionStart": "2023-11-10",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-10T07:27:24+00:00",
+    "lastAttemptAt": "2026-11-10T09:04:35+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1673,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 76,
+    "officialFetches": 90,
     "confirmedOfficialAnnouncements": 346,
     "pendingNewsArticles": 953,
     "skippedReviewedArticles": 24,
@@ -229,35 +241,35 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-10T07:30:01+00:00",
-      "listPagesChecked": 13,
+      "lastAttemptAt": "2026-11-10T09:07:39+00:00",
+      "listPagesChecked": 14,
       "documentsChecked": 20,
       "pendingListPages": 0,
       "pendingDocuments": 10
     }
   },
   "automaticSummaries": {
-    "ready": 66,
-    "partial": 168,
-    "pending": 90,
-    "fetchFailed": 20
+    "ready": 65,
+    "partial": 167,
+    "pending": 92,
+    "fetchFailed": 22
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
     "requestsLast24Hours": 100,
-    "cachedSources": 128,
+    "cachedSources": 127,
     "acceptedSources": 0,
     "noMatchingSources": 0,
     "failedSources": 5,
-    "deferredSources": 14,
+    "deferredSources": 15,
     "lastError": "ungrounded_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 5,
+    "fetches": 4,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
     "pending": 4,
@@ -274,9 +286,9 @@
     "out_of_scope": 9,
     "needs_source_lookup": 420,
     "reopened": 15,
-    "fetch_failed": 82,
+    "fetch_failed": 81,
     "covered": 9,
-    "needs_review": 426,
+    "needs_review": 427,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
