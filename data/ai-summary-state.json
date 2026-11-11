@@ -1252,10 +1252,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.hanayayohei.co.jp/pdf/news_20240802.pdf",
-      "attemptedAt": "2026-11-10T16:00:31+00:00",
+      "attemptedAt": "2026-11-11T23:03:13+00:00",
       "state": "failed",
       "error": "irrelevant_count",
-      "retryAfter": 1794412831.0
+      "retryAfter": 1794524593.0
     },
     "3055920fbe1c12233e05742aa97b0200201e1acefa5f3813127c5b750a83ce34": {
       "hash": "c313722b365459ed68daa32a1f79f368aa84f8a8d63a1c2734b432b6c3267a41",
@@ -1586,10 +1586,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.release.tdnet.info/inbs/140120261023555158.pdf",
-      "attemptedAt": "2026-11-10T16:00:31+00:00",
+      "attemptedAt": "2026-11-11T23:03:13+00:00",
       "state": "failed",
       "error": "ungrounded_output",
-      "retryAfter": 1794412831.0
+      "retryAfter": 1794524593.0
     },
     "6548c94fd3d6b135e3898213d3cafc9aabe30f980c41f216cf7f99b482682540": {
       "hash": "50ca08ea9730e92031ad52f8038b2c16c488dec8bff3ea0b52cf689dcc2e6b03",
@@ -2417,10 +2417,18 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://news.trustlogin.com/20261030",
-      "attemptedAt": "2026-11-10T16:00:31+00:00",
-      "state": "failed",
-      "error": "irrelevant_count",
-      "retryAfter": 1794412831.0
+      "attemptedAt": "2026-11-11T23:03:13+00:00",
+      "state": "success",
+      "passages": [
+        {
+          "kind": "items",
+          "quote": "一括操作で作成されたファイル メールアドレス、氏名、対象アプリ名(連携サービス名)、カスタム属性値(社員番号、所属など、お客様が独自に設定された項目) 当社の契約情報ファイル 企業ID、ライセンス数、ご利用状況、解約日。請求送付先ご担当者様の氏名、ご住所、お電話番号、メールアドレス"
+        },
+        {
+          "kind": "scale",
+          "quote": "企業:合計2,492社 一括操作で作成されたファイルに含まれる個人情報が取得された企業:2,184社 上記以外で、請求送付先ご担当者様の情報が取得された企業:217社 管理者アカウントの削除などにより、企業を特定できないもの:91社 人数:合計45,030人 一括操作で作成されたファイルに含まれる方:44,836人 上記以外で、請求送付先ご担当者様:194人"
+        }
+      ]
     },
     "91d378e850439838dc40f5f26d91f791dcb786bb4ea5e473f0e54707ec910dfd": {
       "hash": "9ce613dc7cd3bb22cdd01794db2896b5bdac51b702553a807b100b19d978d254",
@@ -2742,10 +2750,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.smt-cinema.com/news/detail/098788.html",
-      "attemptedAt": "2026-11-10T15:01:58+00:00",
+      "attemptedAt": "2026-11-11T23:03:13+00:00",
       "state": "failed",
       "error": "irrelevant_count",
-      "retryAfter": 1794409318.0
+      "retryAfter": 1794524593.0
     },
     "5f15b9e3a571867ca11169fef93e48321d2bde5d4c77da8a32528848f997d600": {
       "hash": "27fd9c5de00af693c5957cc186e2dacaf0cfb610d355b2f5ed157aa1e693959f",
@@ -2876,10 +2884,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://corp.voicy.jp/2026/10/19/11746/",
-      "attemptedAt": "2026-11-10T16:00:31+00:00",
+      "attemptedAt": "2026-11-11T23:03:13+00:00",
       "state": "failed",
-      "error": "api_http_503",
-      "retryAfter": 1794412831.0
+      "error": "irrelevant_output",
+      "retryAfter": 1794524593.0
     },
     "876b718035af7d85994529343255e5fe793fa05580253596a21379dd24f133d9": {
       "hash": "2507bf1640f2e249c45c67081bef50de8cf47449bcf91453c4a7c7f08d7a00f9",
@@ -3159,16 +3167,6 @@
     }
   },
   "requestTimes": [
-    1794347635.0,
-    1794347635.0,
-    1794347635.0,
-    1794347635.0,
-    1794347635.0,
-    1794351299.0,
-    1794351299.0,
-    1794351299.0,
-    1794351299.0,
-    1794351299.0,
     1794354424.0,
     1794354424.0,
     1794354424.0,
@@ -3253,6 +3251,11 @@
     1794433600.0,
     1794433600.0,
     1794433600.0,
-    1794433600.0
+    1794433600.0,
+    1794438193.0,
+    1794438193.0,
+    1794438193.0,
+    1794438193.0,
+    1794438193.0
   ]
 }
