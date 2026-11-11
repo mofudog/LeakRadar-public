@@ -1643,10 +1643,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.rakus.co.jp/news/2026/1021-3.html",
-      "attemptedAt": "2026-11-10T02:18:37+00:00",
+      "attemptedAt": "2026-11-11T10:12:47+00:00",
       "state": "failed",
       "error": "ungrounded_output",
-      "retryAfter": 1794363517.0
+      "retryAfter": 1794478367.0
     },
     "14016acc630e366061d6a7d9f1b5dfb00345506970b2c5895db58fe8c0eea8db": {
       "hash": "e901bcad318dcc5e4d6b7c414af6ef3d5ff51414bd34e1991bdfd7fe5443bc7a",
@@ -2037,10 +2037,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.dai-ichi-life.co.jp/company/news/pdf/2026_024.pdf",
-      "attemptedAt": "2026-11-10T04:04:22+00:00",
+      "attemptedAt": "2026-11-11T10:12:47+00:00",
       "state": "failed",
-      "error": "ungrounded_output",
-      "retryAfter": 1794369862.0
+      "error": "api_http_503",
+      "retryAfter": 1794478367.0
     },
     "1d356f93d1b52fcb331d27dafb01f071d8848ca0201c63797d5732aad5261fe1": {
       "hash": "a3e97aceccb47c1281b063810dc5e97edf87e3de56880737dd6f3f423e21a66e",
@@ -2463,10 +2463,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.release.tdnet.info/inbs/140120261102563007.pdf",
-      "attemptedAt": "2026-11-10T02:18:37+00:00",
+      "attemptedAt": "2026-11-11T10:12:47+00:00",
       "state": "failed",
-      "error": "irrelevant_count",
-      "retryAfter": 1794363517.0
+      "error": "ungrounded_output",
+      "retryAfter": 1794478367.0
     },
     "ab11eff31d6f7ff3ede22d253971455e7afe27666fd17b54bac3b001efbf86be": {
       "hash": "71daad8e18cb63da89200b22094ccfb2259e7b119c5561cb0ad0bf2e2c813c2d",
@@ -2964,10 +2964,18 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://corp.lafool.co.jp/news/information/172/",
-      "attemptedAt": "2026-11-10T04:04:22+00:00",
-      "state": "failed",
-      "error": "irrelevant_output",
-      "retryAfter": 1794369862.0
+      "attemptedAt": "2026-11-11T10:12:47+00:00",
+      "state": "success",
+      "passages": [
+        {
+          "kind": "items",
+          "quote": "主な項目:従業員番号、氏名、所属部署、サーベイの回答と結果"
+        },
+        {
+          "kind": "scale",
+          "quote": "対象:182社、24,232名分(今後の調査で変わる可能性があります)"
+        }
+      ]
     },
     "b4e065b14e5a891d6955d843887e30a2b50034c82768e6b36babc9e5b74e468e": {
       "hash": "0339119fe832313afb2cdb71e190c8fe4f71872a56af649d8abe73bf8d0ee0fe",
@@ -2992,10 +3000,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.nissan-fs.co.jp/info_list/pdf/261105.pdf",
-      "attemptedAt": "2026-11-10T04:04:22+00:00",
+      "attemptedAt": "2026-11-11T10:12:47+00:00",
       "state": "failed",
-      "error": "ungrounded_output",
-      "retryAfter": 1794369862.0
+      "error": "api_http_503",
+      "retryAfter": 1794478367.0
     },
     "d2d8cb5cff38c5f503af5c923f536fa1cd003b2b9f47a63edfabdf23d94b3c6d": {
       "hash": "58ce45b5aaeee60259b060313110280bcac4c9562d0e0198827591688a8cb6d9",
@@ -3131,11 +3139,6 @@
     }
   },
   "requestTimes": [
-    1794305204.0,
-    1794305204.0,
-    1794305204.0,
-    1794305204.0,
-    1794305204.0,
     1794312012.0,
     1794312012.0,
     1794312012.0,
@@ -3225,6 +3228,11 @@
     1794388149.0,
     1794388149.0,
     1794388149.0,
-    1794388149.0
+    1794388149.0,
+    1794391967.0,
+    1794391967.0,
+    1794391967.0,
+    1794391967.0,
+    1794391967.0
   ]
 }
