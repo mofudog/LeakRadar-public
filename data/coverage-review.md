@@ -1,15 +1,15 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-11T23:58:16+00:00
+確認日時: 2026-11-12T01:27:54+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
 - 掲載済み: 8件
 - 同一事案の別記事: 2件
 - 掲載対象外: 9件
-- 取得失敗: 81件
+- 取得失敗: 80件
 - 公式発表の発見待ち: 441件
-- 内容確認が必要: 441件
+- 内容確認が必要: 445件
 - 未処理: 0件
 - 再確認が必要: 16件
 
@@ -666,8 +666,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1106_01>
 - 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1109_01>
+- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1106_01>
 
 ### \[ITmedia ビジネスオンライン\] ニトリ、最大3762万件の情報流出か　「ニトリネット」注文データなど不正アクセスの可能性
 
@@ -1974,11 +1974,11 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.j-credit.or.jp/security/document/index.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.watch.impress.co.jp/docs/news/2152347.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://paymentnavi.com/?p=173665>
 - 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://support.goodsmile.com/hc/ja/articles/63718007508761>
 - 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://support.goodsmile.com/hc/ja/articles/63547468806297>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.j-credit.or.jp/information/statistics/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119555/>
 
 ### ヤクルト本社、個人情報約4万件漏えい　公式サイトへの不正アクセスで
@@ -2419,9 +2419,9 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://travel.rakuten.co.jp/info/announce/20261026.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://travel.faq.rakuten.net/detail/000031574>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/news/careful_information/261007_alert?ref=topnews>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/legal/rouei?ref=toppanel>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119509/>
 
 ### So-netに不正アクセス、会員情報258万件が漏えい　plala（Sコース）も対象、メールのパスワードは5.4万件
@@ -2746,9 +2746,9 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://www.sonynetwork.co.jp/corporation/release/2026/v5e5u00000000zwj-att/20261027.pdf>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.docomo.ne.jp/info/notice/page/261027_05_m.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.so-net.ne.jp/support/faq/qa202610_01/>
-- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://www.sonynetwork.co.jp/corporation/release/2026/v5e5u00000000zwj-att/20261027.pdf>
 
 ### ユミルリンク「Cuenote FC」不正アクセスの影響広がる、JR東海、りそなグループらが相次ぎ発表　インプレスのメルマガ配信にも影響の可能性
 
@@ -4405,22 +4405,20 @@
 
 記事の見出し・日付または確認済み資料の状態が変わったため、過去の判断を適用していません。
 
-- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://www.sourcenext.com/support/i/2026/1015_1/>
-- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://www.sourcenext.com/support/i/2026/1015_info/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.sourcenext.com/support/i/2026/1015_1/>
 
 ### 【解説】エムスリー・ACCESS・大和総研など不正アクセス11件、10月15日の公表を整理
 
-取得失敗 / 報道・公表日: 2026-10-16
+内容確認が必要 / 報道・公表日: 2026-10-16
 
 <https://innovatopia.jp/cyber-security/cyber-security-news/118934/>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://www.yellowhat.jp/information/yellowhat/202608.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.moonstar.co.jp/information/2026/10/gg.html>
-- 取得結果: ValueError: PDF metadata needs review: publisher=True, date=True, title=True / <https://www.jrkyushu.co.jp/common/inc/news/newtopics/__icsFiles/afieldfile/2026/10/15/202691015_mail_address_access.pdf>
-- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=True, title=True / <https://www.nikkei.com/markets/ir/irftp/data/tdnr/tdnetg3/20261013/g6fai4/140120261013549964.pdf>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jpcert.or.jp/at/2026/at260030.html>
+- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=True, title=True / <https://fs2.magicalir.net/tdnet/2026/3180/20261015551741.pdf>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.beautygarage.jp/topics/news_unauthorizedaccess2026>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://koike-japan.com/pages/1?detail=1&b_id=206&r_id=524>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.kushiro.lg.jp/kosodatekyouiku/kyouiku/1008303/1019759.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/118934/>
 
 ### ソースネクストに不正アクセス、会員情報取得APIの悪用で2,252万件が流出の可能性
@@ -4431,10 +4429,9 @@
 
 記事の見出し・日付または確認済み資料の状態が変わったため、過去の判断を適用していません。
 
-- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://www.sourcenext.com/support/i/2026/1015_1/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jpcert.or.jp/at/2026/at260030.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nikkei.com/article/DGXZQOUC15AOL0V11C26A0000000/>
-- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://www.sourcenext.com/support/i/2026/1015_info/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.sourcenext.com/support/i/2026/1015_1/>
 
 ### 第一ライフグループと第一生命保険の人事システムに不正アクセス、約12万名の従業員情報が流出した可能性
 
@@ -8299,6 +8296,17 @@
 
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.osaka.lg.jp/ictsenryakushitsu/page/0000509799.html>
 
+### 高校教諭が生徒の個人情報含む教務手帳を一時紛失 - 東京都
+
+内容確認が必要 / 報道・公表日: 2024-06-06
+
+<https://www.security-next.com/157982>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111005>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111101>
+
 ### アンケートメールを誤送信、氏名やメアド流出 - 鉾田市
 
 内容確認が必要 / 報道・公表日: 2024-06-05
@@ -8329,6 +8337,17 @@
 
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.aizawa-am.co.jp/>
 
+### 個人情報含むメールを第三者へ誤送信 - 都立中央・城北職業能力開発センター
+
+内容確認が必要 / 報道・公表日: 2024-06-03
+
+<https://www.security-next.com/157464>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111005>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111101>
+
 ### 労務管理サービスの個人情報流出 - 調査結果を公表
 
 内容確認が必要 / 報道・公表日: 2024-06-03
@@ -8338,6 +8357,16 @@
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
 - 取得結果: ValueError: Cross-domain redirect requires review / <https://workstyletech.com/>
+
+### 他職員に対して窃盗や不正アクセスした職員を懲戒免職 - 岐阜県
+
+内容確認が必要 / 報道・公表日: 2024-05-31
+
+<https://www.security-next.com/155157>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.pref.gifu.lg.jp/site/pressrelease/526930.html>
 
 ### ディップの求人掲載企業に再び不正アクセス - 過去事案と同一犯の可能性
 
