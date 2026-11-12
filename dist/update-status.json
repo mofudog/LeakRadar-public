@@ -1,10 +1,10 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-12T20:05:47+00:00",
+  "lastAttemptAt": "2026-11-12T21:01:53+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-12T20:05:47+00:00",
-  "successfulFetches": 461,
-  "failedFetches": 41,
+  "lastPartialSuccessAt": "2026-11-12T21:01:53+00:00",
+  "successfulFetches": 460,
+  "failedFetches": 42,
   "changedReviewedSources": 77,
   "automaticAnnouncements": 303,
   "watchedDocumentCount": 448,
@@ -42,6 +42,10 @@
     {
       "url": "https://lean-body.co.jp/news/JlBWMCs7",
       "error": "Source body could not be read"
+    },
+    {
+      "url": "https://www.sakura.ad.jp/corporate/information/newsreleases/2026/09/10/1968225692/",
+      "error": "HTTP Error 500: Internal Server Error"
     },
     {
       "url": "https://newspicks.com/news/17665641/body/",
@@ -181,16 +185,16 @@
   "cloudRun": true,
   "retentionStart": "2023-11-13",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-12T20:05:47+00:00",
+    "lastAttemptAt": "2026-11-12T21:01:53+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1711,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 68,
+    "officialFetches": 42,
     "confirmedOfficialAnnouncements": 367,
-    "pendingNewsArticles": 996,
+    "pendingNewsArticles": 995,
     "skippedReviewedArticles": 24,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -233,7 +237,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-12T20:07:49+00:00",
+      "lastAttemptAt": "2026-11-12T21:04:00+00:00",
       "listPagesChecked": 13,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -255,8 +259,8 @@
     "acceptedSources": 0,
     "noMatchingSources": 0,
     "failedSources": 5,
-    "deferredSources": 31,
-    "lastError": "irrelevant_count",
+    "deferredSources": 30,
+    "lastError": "ungrounded_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
@@ -280,10 +284,10 @@
     "reopened": 16,
     "fetch_failed": 83,
     "covered": 8,
-    "needs_review": 446,
+    "needs_review": 445,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 988,
+  "unresolvedNewsCandidates": 987,
   "deferredNewsCandidates": 0
 }
