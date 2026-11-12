@@ -1,6 +1,6 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-12T03:02:11+00:00
+確認日時: 2026-11-12T04:08:41+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
@@ -285,6 +285,7 @@
 
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://corp.raksul.com/news/press/261016raksul_studio/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://corp.raksul.com/news/press/261109_unauthorized-access/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://corp.raksul.com/news/press/261112_unauthorized-access2/>
 
 ### 情報漏えい続出でフィッシングに変化？　“その人専用詐欺メール”登場の懸念
 
@@ -1106,7 +1107,6 @@
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.soumu.go.jp/menu_news/kaiken/01koho01_02001587.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://laws.e-gov.go.jp/law/359AC0000000086>
 - 取得結果: URLError: <urlopen error timed out> / <https://www.netsafety.or.jp/index.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://group.ntt/jp/newsrelease/2026/11/04/261104a.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.itmedia.co.jp/mobile/articles/2611/05/news060.html>
 
 ### 「My docomo」「ドコモオンラインショップ」が緊急メンテ　外部からの不正アクセスの可能性で
@@ -1368,8 +1368,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.gmo-pg.com/news/news/info/2026/1102.html>
 - 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://vpc.lifecard.co.jp/vpreca_assets/pdf/important-notice3.pdf>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.gmo-pg.com/news/news/info/2026/1102.html>
 
 ### アソビュー、会員情報1582万件流出　最終ログイン日や利用施設も　メール委託先・アララ不正アクセスで
 
@@ -1379,8 +1379,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.asoview.co.jp/news/articles/dgdm5nT6>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.asoview.co.jp/news/articles/AyTdT_tX>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.asoview.co.jp/news/articles/dgdm5nT6>
 
 ### セブン-イレブン「7NOW」の利用者情報16万件超漏えい　配達委託先に不正アクセス、出前館でも約800件
 
@@ -3070,10 +3070,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Source exceeds discovery size limit / <https://cynex.nict.go.jp/pdf/library/lettice/261013-01.pdf>
+- 取得結果: ValueError: PDF metadata needs review: publisher=True, date=False, title=False / <https://www.burgerking.co.jp/images/notice/2026/10/15/d4d114ca-ebd7-4f3d-94ef-c4ea7a84a139.pdf>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.monogatari.co.jp/news/261005_news/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.lawson.co.jp/contents/cont07/1533174_3310.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://skyticket.jp/news/maintenance/67603>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nict.go.jp/press/2026/10/13-1.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.itmedia.co.jp/business/articles/2610/23/news023.html>
 
 ### 「CAPCOM ID」で情報流出、パスワードの不正変更も - カプコン
@@ -3686,8 +3686,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.dip-net.co.jp/news/2192>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://coconala.co.jp/news-20261009/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://network.mobile.rakuten.co.jp/information/news/other/3888/>
+- 取得結果: ValueError: PDF metadata needs review: publisher=True, date=False, title=False / <https://www.burgerking.co.jp/images/notice/2026/10/15/d4d114ca-ebd7-4f3d-94ef-c4ea7a84a139.pdf>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.itmedia.co.jp/enterprise/articles/2610/20/news061.html>
 
 ### 相次ぐ個人情報漏えいの一因「A2B攻撃」　正体は20年前から言われ続けた“あの教訓”だった
@@ -4234,10 +4234,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.digit.in/news/general/meta-says-hackers-accessed-its-github-exposing-personal-data-of-1500-people.html>
+- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://cybernews.com/security/meta-hack-github-personal-data/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://docs.github.com/en/code-security/concepts/secret-security/secret-scanning>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://adversa.ai/blog/cryptographic-context-injection-github-copilot/>
-- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://securityboulevard.com/2026/10/meta-security-breach-exposes-corporate-code-employee-data-on-github/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/118948/>
 
 ### \[ITmedia ビジネスオンライン\] ECサイト運営支援「ショップサーブ」で約2335万人の情報漏えい　クレカ情報も一部流出
