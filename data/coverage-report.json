@@ -1,17 +1,17 @@
 {
-  "checkedAt": "2026-11-13T01:24:33+00:00",
+  "checkedAt": "2026-11-13T02:59:40+00:00",
   "fullyComprehensive": false,
   "completeHistoricalBackfill": false,
   "retentionStart": "2023-11-13",
   "discovery": {
-    "lastAttemptAt": "2026-11-13T01:24:33+00:00",
+    "lastAttemptAt": "2026-11-13T02:59:40+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1724,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 69,
+    "officialFetches": 58,
     "confirmedOfficialAnnouncements": 368,
     "pendingNewsArticles": 1007,
     "skippedReviewedArticles": 24,
@@ -56,8 +56,8 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-13T01:27:05+00:00",
-      "listPagesChecked": 13,
+      "lastAttemptAt": "2026-11-13T03:02:02+00:00",
+      "listPagesChecked": 14,
       "documentsChecked": 20,
       "pendingListPages": 0,
       "pendingDocuments": 10
@@ -233,9 +233,9 @@
     "out_of_scope": 9,
     "needs_source_lookup": 453,
     "reopened": 16,
-    "fetch_failed": 82,
+    "fetch_failed": 81,
     "covered": 8,
-    "needs_review": 447,
+    "needs_review": 448,
     "duplicate": 2
   },
   "baselineReview": {
@@ -670,7 +670,7 @@
       "reportedDate": "2026-10-14",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 4,
       "reasons": [
         {
@@ -690,7 +690,7 @@
       "reportedDate": "2026-10-14",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 8,
       "reasons": [
         {
@@ -1231,7 +1231,7 @@
       "reportedDate": "2026-10-16",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-11-13T01:24:33+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 78,
       "reasons": [
         {
@@ -1305,8 +1305,8 @@
       "reportedDate": "2026-10-16",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
-      "attempts": 128,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 129,
       "reasons": [
         {
           "url": "https://www.nttsolmare.com/press/2026/0616-1.html",
@@ -2647,20 +2647,20 @@
       "recordIds": []
     },
     {
-      "newsSource": "https://www.security-next.com/187303",
-      "title": "マルウェア感染で業務に影響、情報漏洩の可能性も - 日本交通",
-      "reportedDate": "2026-07-23",
+      "newsSource": "https://www.security-next.com/187989",
+      "title": "サーバにランサム攻撃、顧客情報流出の可能性 - 名鉄協商",
+      "reportedDate": "2026-07-29",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-17T04:45:01+00:00",
-      "lastCheckedAt": "2026-11-08T11:51:36+00:00",
-      "attempts": 6,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 7,
       "reasons": [
         {
-          "url": "https://www.nihon-kotsu.co.jp/",
-          "reason": "HTTPError: HTTP Error 404: Not Found"
+          "url": "https://www.mkyosho.co.jp/news/2026/11/10/13-883/?list=1",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
-      "classification": "fetch_failed",
+      "classification": "needs_review",
       "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
       "recordIds": []
     },
@@ -2670,15 +2670,15 @@
       "reportedDate": "2026-07-21",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-17T05:11:43+00:00",
-      "lastCheckedAt": "2026-11-08T11:51:36+00:00",
-      "attempts": 6,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 7,
       "reasons": [
         {
-          "url": "https://jvn.jp/jp/JVN40509781/",
+          "url": "https://www.sony.co.jp/Products/felica/business/information/2025001.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.sony.co.jp/Products/felica/business/information/2025001.html",
+          "url": "https://jvn.jp/jp/JVN40509781/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
@@ -2692,8 +2692,8 @@
       "reportedDate": "2026-07-17",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-17T05:11:43+00:00",
-      "lastCheckedAt": "2026-11-08T13:05:56+00:00",
-      "attempts": 6,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 7,
       "reasons": [
         {
           "url": "https://www.city.osaka.lg.jp/ictsenryakushitsu/page/0000509799.html",
@@ -6044,7 +6044,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 5,
       "reasons": [
         {
@@ -6184,8 +6184,8 @@
       "reportedDate": "2026-10-19",
       "publisher": "ITmedia エンタープライズ",
       "firstSeenAt": "2026-10-19T00:58:30+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
-      "attempts": 100,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 101,
       "reasons": [
         {
           "url": "https://www.burgerking.co.jp/images/notice/2026/10/15/d4d114ca-ebd7-4f3d-94ef-c4ea7a84a139.pdf",
@@ -6202,8 +6202,8 @@
       "reportedDate": "2026-10-19",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-19T00:58:30+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
-      "attempts": 99,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 100,
       "reasons": [
         {
           "url": "https://www.jfa.jp/news/00036934/",
@@ -6852,7 +6852,7 @@
       "reportedDate": "2026-10-20",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-11-13T01:24:33+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 44,
       "reasons": [
         {
@@ -6888,8 +6888,8 @@
       "reportedDate": "2026-10-19",
       "publisher": "ITmedia Mobile",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
-      "attempts": 96,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 97,
       "reasons": [
         {
           "url": "https://2nd-rtl.com/news/82023/",
@@ -6906,8 +6906,8 @@
       "reportedDate": "2026-10-19",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
-      "attempts": 96,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 97,
       "reasons": [
         {
           "url": "https://2nd-rtl.com/news/82023/",
@@ -14070,7 +14070,7 @@
       "reportedDate": "2026-10-23",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-10-23T09:48:37+00:00",
-      "lastCheckedAt": "2026-11-13T01:24:33+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 20,
       "reasons": [
         {
@@ -14204,7 +14204,7 @@
       "reportedDate": "2026-10-26",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-10-26T03:50:52+00:00",
-      "lastCheckedAt": "2026-11-13T01:24:33+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 2,
       "reasons": [
         {
@@ -14456,7 +14456,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -14474,7 +14474,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -14492,7 +14492,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -14510,7 +14510,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -14528,7 +14528,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -14546,7 +14546,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -14564,7 +14564,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -14582,7 +14582,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -14600,7 +14600,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -14618,8 +14618,8 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
-      "attempts": 54,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 55,
       "reasons": [
         {
           "url": "https://www.bandainamco.co.jp/files/2026102620HPE794A820E4B88DE6ADA3E382A2E382AFE382BB.pdf",
@@ -14636,8 +14636,8 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
-      "attempts": 54,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 55,
       "reasons": [
         {
           "url": "https://amzn.asia/d/gwTaqTX",
@@ -14672,7 +14672,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-10-27T01:54:01+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -14690,8 +14690,8 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-27T02:50:08+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
-      "attempts": 54,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 55,
       "reasons": [
         {
           "url": "https://jr-central.co.jp/news/release/_pdf/000046119.pdf",
@@ -14708,8 +14708,8 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-27T03:49:08+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
-      "attempts": 54,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 55,
       "reasons": [
         {
           "url": "https://www.ipa.go.jp/security/anshin/attention/2026/mgdayori20261026.html",
@@ -14726,8 +14726,8 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-10-27T03:49:08+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
-      "attempts": 54,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 55,
       "reasons": [
         {
           "url": "https://internet.gmo/news/article/254/",
@@ -14744,7 +14744,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-27T05:51:00+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -14762,7 +14762,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-27T08:55:21+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -14780,9 +14780,13 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia Mobile",
       "firstSeenAt": "2026-10-27T08:55:21+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
-      "attempts": 52,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 53,
       "reasons": [
+        {
+          "url": "https://www.docomo.ne.jp/info/notice/page/261027_05_m.html",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
         {
           "url": "https://www.so-net.ne.jp/support/faq/qa202610_01/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
@@ -14790,10 +14794,6 @@
         {
           "url": "https://www.sonynetwork.co.jp/corporation/release/2026/v5e5u00000000zwj-att/20261027.pdf",
           "reason": "HTTPError: HTTP Error 403: Forbidden"
-        },
-        {
-          "url": "https://www.docomo.ne.jp/info/notice/page/261027_05_m.html",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
       "classification": "fetch_failed",
@@ -14806,7 +14806,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-27T09:53:46+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 1,
       "reasons": [
         {
@@ -15120,9 +15120,13 @@
       "reportedDate": "2026-10-28",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-10-28T01:14:15+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
-      "attempts": 50,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 51,
       "reasons": [
+        {
+          "url": "https://www.watch.impress.co.jp/docs/news/2151286.html",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
         {
           "url": "https://www.microsoft.com/en-us/security/blog/2025/03/13/phishing-campaign-impersonates-booking-com-delivers-a-suite-of-credential-stealing-malware/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
@@ -15224,7 +15228,7 @@
       "reportedDate": "2026-10-28",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-28T10:57:45+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -16754,7 +16758,7 @@
       "reportedDate": "2026-11-04",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-11-03T22:57:38+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -17400,7 +17404,7 @@
       "reportedDate": "2026-11-05",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-11-04T23:53:31+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -17418,7 +17422,7 @@
       "reportedDate": "2026-11-05",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-11-04T23:53:31+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -17436,7 +17440,7 @@
       "reportedDate": "2026-11-05",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-11-04T23:53:31+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -17608,7 +17612,7 @@
       "reportedDate": "2026-11-05",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-11-05T09:15:11+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -18262,7 +18266,7 @@
       "reportedDate": "2026-11-09",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-11-08T23:47:58+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -18280,7 +18284,7 @@
       "reportedDate": "2026-11-09",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-11-08T23:47:58+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -18298,7 +18302,7 @@
       "reportedDate": "2026-11-09",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-11-08T23:47:58+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -18316,7 +18320,7 @@
       "reportedDate": "2026-11-09",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-11-08T23:47:58+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -18334,7 +18338,7 @@
       "reportedDate": "2026-11-09",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-11-08T23:47:58+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -18352,7 +18356,7 @@
       "reportedDate": "2026-11-09",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-11-08T23:47:58+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -18370,7 +18374,7 @@
       "reportedDate": "2026-11-09",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-11-08T23:47:58+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -18388,7 +18392,7 @@
       "reportedDate": "2026-11-09",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-11-08T23:47:58+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -18406,7 +18410,7 @@
       "reportedDate": "2026-11-10",
       "publisher": "ITmedia NEWS セキュリティ",
       "firstSeenAt": "2026-11-08T23:47:58+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -18616,7 +18620,7 @@
       "reportedDate": "2026-11-09",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-11-09T12:08:45+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -18902,8 +18906,8 @@
       "reportedDate": "2026-11-10",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-11-10T07:27:24+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
-      "attempts": 6,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 7,
       "reasons": [
         {
           "url": "https://www.doutor.co.jp/news/newsrelease/detail/20261026144748.html",
@@ -19218,7 +19222,7 @@
       "reportedDate": "2026-11-11",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-11-11T03:01:32+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -19236,8 +19240,8 @@
       "reportedDate": "2026-11-11",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-11-11T03:01:32+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
-      "attempts": 4,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 5,
       "reasons": [
         {
           "url": "https://www.edion.co.jp/system/files/news-release/pdf/ja/2026-11/20261109_pr_1_1.pdf",
@@ -19646,8 +19650,8 @@
       "reportedDate": "2026-11-12",
       "publisher": "Security NEXT",
       "firstSeenAt": "2026-11-12T16:17:26+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
-      "attempts": 1,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 2,
       "reasons": [
         {
           "url": "https://www.jcci.or.jp/news/news/2026/1110170000.html",
@@ -19973,7 +19977,7 @@
       "reportedDate": "2026-09-17",
       "publisher": "TDnet",
       "firstSeenAt": "2026-10-17T01:37:02+00:00",
-      "lastCheckedAt": "2026-11-12T22:01:30+00:00",
+      "lastCheckedAt": "2026-11-13T03:02:02+00:00",
       "reasons": [
         {
           "url": "https://www.release.tdnet.info/inbs/140120260917537753.pdf",
@@ -20007,7 +20011,7 @@
       "reportedDate": "2026-10-23",
       "publisher": "TDnet",
       "firstSeenAt": "2026-10-23T10:48:28+00:00",
-      "lastCheckedAt": "2026-11-12T21:04:00+00:00",
+      "lastCheckedAt": "2026-11-13T03:02:02+00:00",
       "reasons": [
         {
           "url": "https://www.release.tdnet.info/inbs/140120261023555550.pdf",
@@ -20342,7 +20346,7 @@
       "reportedDate": "2026-10-14",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 4,
       "reasons": [
         {
@@ -20362,7 +20366,7 @@
       "reportedDate": "2026-10-14",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 8,
       "reasons": [
         {
@@ -20671,7 +20675,7 @@
       "reportedDate": "2026-10-16",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-11-13T01:24:33+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 78,
       "reasons": [
         {
@@ -20745,8 +20749,8 @@
       "reportedDate": "2026-10-16",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
-      "attempts": 128,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 129,
       "reasons": [
         {
           "url": "https://www.nttsolmare.com/press/2026/0616-1.html",
@@ -21943,20 +21947,20 @@
       "recordIds": []
     },
     {
-      "newsSource": "https://www.security-next.com/187303",
-      "title": "マルウェア感染で業務に影響、情報漏洩の可能性も - 日本交通",
-      "reportedDate": "2026-07-23",
+      "newsSource": "https://www.security-next.com/187989",
+      "title": "サーバにランサム攻撃、顧客情報流出の可能性 - 名鉄協商",
+      "reportedDate": "2026-07-29",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-17T04:45:01+00:00",
-      "lastCheckedAt": "2026-11-08T11:51:36+00:00",
-      "attempts": 6,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 7,
       "reasons": [
         {
-          "url": "https://www.nihon-kotsu.co.jp/",
-          "reason": "HTTPError: HTTP Error 404: Not Found"
+          "url": "https://www.mkyosho.co.jp/news/2026/11/10/13-883/?list=1",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
-      "classification": "fetch_failed",
+      "classification": "needs_review",
       "reason": "自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。",
       "recordIds": []
     },
@@ -21966,15 +21970,15 @@
       "reportedDate": "2026-07-21",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-17T05:11:43+00:00",
-      "lastCheckedAt": "2026-11-08T11:51:36+00:00",
-      "attempts": 6,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 7,
       "reasons": [
         {
-          "url": "https://jvn.jp/jp/JVN40509781/",
+          "url": "https://www.sony.co.jp/Products/felica/business/information/2025001.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.sony.co.jp/Products/felica/business/information/2025001.html",
+          "url": "https://jvn.jp/jp/JVN40509781/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
@@ -21988,8 +21992,8 @@
       "reportedDate": "2026-07-17",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-10-17T05:11:43+00:00",
-      "lastCheckedAt": "2026-11-08T13:05:56+00:00",
-      "attempts": 6,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 7,
       "reasons": [
         {
           "url": "https://www.city.osaka.lg.jp/ictsenryakushitsu/page/0000509799.html",
@@ -25340,7 +25344,7 @@
       "reportedDate": "2026-10-19",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 5,
       "reasons": [
         {
@@ -25480,8 +25484,8 @@
       "reportedDate": "2026-10-19",
       "publisher": "ITmedia エンタープライズ",
       "firstSeenAt": "2026-10-19T00:58:30+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
-      "attempts": 100,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 101,
       "reasons": [
         {
           "url": "https://www.burgerking.co.jp/images/notice/2026/10/15/d4d114ca-ebd7-4f3d-94ef-c4ea7a84a139.pdf",
@@ -25498,8 +25502,8 @@
       "reportedDate": "2026-10-19",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-19T00:58:30+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
-      "attempts": 99,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 100,
       "reasons": [
         {
           "url": "https://www.jfa.jp/news/00036934/",
@@ -26148,7 +26152,7 @@
       "reportedDate": "2026-10-20",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-11-13T01:24:33+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 44,
       "reasons": [
         {
@@ -26184,8 +26188,8 @@
       "reportedDate": "2026-10-19",
       "publisher": "ITmedia Mobile",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
-      "attempts": 96,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 97,
       "reasons": [
         {
           "url": "https://2nd-rtl.com/news/82023/",
@@ -26202,8 +26206,8 @@
       "reportedDate": "2026-10-19",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
-      "attempts": 96,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 97,
       "reasons": [
         {
           "url": "https://2nd-rtl.com/news/82023/",
@@ -33366,7 +33370,7 @@
       "reportedDate": "2026-10-23",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-10-23T09:48:37+00:00",
-      "lastCheckedAt": "2026-11-13T01:24:33+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 20,
       "reasons": [
         {
@@ -33500,7 +33504,7 @@
       "reportedDate": "2026-10-26",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-10-26T03:50:52+00:00",
-      "lastCheckedAt": "2026-11-13T01:24:33+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 2,
       "reasons": [
         {
@@ -33752,7 +33756,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -33770,7 +33774,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -33788,7 +33792,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -33806,7 +33810,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -33824,7 +33828,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -33842,7 +33846,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -33860,7 +33864,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -33878,7 +33882,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -33896,7 +33900,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -33914,8 +33918,8 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
-      "attempts": 54,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 55,
       "reasons": [
         {
           "url": "https://www.bandainamco.co.jp/files/2026102620HPE794A820E4B88DE6ADA3E382A2E382AFE382BB.pdf",
@@ -33932,8 +33936,8 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-10-27T01:06:45+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
-      "attempts": 54,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 55,
       "reasons": [
         {
           "url": "https://amzn.asia/d/gwTaqTX",
@@ -33968,7 +33972,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-10-27T01:54:01+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -33986,8 +33990,8 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-27T02:50:08+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
-      "attempts": 54,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 55,
       "reasons": [
         {
           "url": "https://jr-central.co.jp/news/release/_pdf/000046119.pdf",
@@ -34004,8 +34008,8 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-10-27T03:49:08+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
-      "attempts": 54,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 55,
       "reasons": [
         {
           "url": "https://www.ipa.go.jp/security/anshin/attention/2026/mgdayori20261026.html",
@@ -34022,8 +34026,8 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-10-27T03:49:08+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
-      "attempts": 54,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 55,
       "reasons": [
         {
           "url": "https://internet.gmo/news/article/254/",
@@ -34040,7 +34044,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-27T05:51:00+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -34058,7 +34062,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-27T08:55:21+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -34076,9 +34080,13 @@
       "reportedDate": "2026-10-27",
       "publisher": "ITmedia Mobile",
       "firstSeenAt": "2026-10-27T08:55:21+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
-      "attempts": 52,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 53,
       "reasons": [
+        {
+          "url": "https://www.docomo.ne.jp/info/notice/page/261027_05_m.html",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
         {
           "url": "https://www.so-net.ne.jp/support/faq/qa202610_01/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
@@ -34086,10 +34094,6 @@
         {
           "url": "https://www.sonynetwork.co.jp/corporation/release/2026/v5e5u00000000zwj-att/20261027.pdf",
           "reason": "HTTPError: HTTP Error 403: Forbidden"
-        },
-        {
-          "url": "https://www.docomo.ne.jp/info/notice/page/261027_05_m.html",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
       "classification": "fetch_failed",
@@ -34102,7 +34106,7 @@
       "reportedDate": "2026-10-27",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-27T09:53:46+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 1,
       "reasons": [
         {
@@ -34416,9 +34420,13 @@
       "reportedDate": "2026-10-28",
       "publisher": "innovaTopia",
       "firstSeenAt": "2026-10-28T01:14:15+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
-      "attempts": 50,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 51,
       "reasons": [
+        {
+          "url": "https://www.watch.impress.co.jp/docs/news/2151286.html",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
         {
           "url": "https://www.microsoft.com/en-us/security/blog/2025/03/13/phishing-campaign-impersonates-booking-com-delivers-a-suite-of-credential-stealing-malware/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
@@ -34520,7 +34528,7 @@
       "reportedDate": "2026-10-28",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-10-28T10:57:45+00:00",
-      "lastCheckedAt": "2026-11-12T15:08:38+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -36050,7 +36058,7 @@
       "reportedDate": "2026-11-04",
       "publisher": "INTERNET Watch",
       "firstSeenAt": "2026-11-03T22:57:38+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -36696,7 +36704,7 @@
       "reportedDate": "2026-11-05",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-11-04T23:53:31+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -36714,7 +36722,7 @@
       "reportedDate": "2026-11-05",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-11-04T23:53:31+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -36732,7 +36740,7 @@
       "reportedDate": "2026-11-05",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-11-04T23:53:31+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -36904,7 +36912,7 @@
       "reportedDate": "2026-11-05",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-11-05T09:15:11+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -37558,7 +37566,7 @@
       "reportedDate": "2026-11-09",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-11-08T23:47:58+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -37576,7 +37584,7 @@
       "reportedDate": "2026-11-09",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-11-08T23:47:58+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -37594,7 +37602,7 @@
       "reportedDate": "2026-11-09",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-11-08T23:47:58+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -37612,7 +37620,7 @@
       "reportedDate": "2026-11-09",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-11-08T23:47:58+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -37630,7 +37638,7 @@
       "reportedDate": "2026-11-09",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-11-08T23:47:58+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -37648,7 +37656,7 @@
       "reportedDate": "2026-11-09",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-11-08T23:47:58+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -37666,7 +37674,7 @@
       "reportedDate": "2026-11-09",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-11-08T23:47:58+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -37684,7 +37692,7 @@
       "reportedDate": "2026-11-09",
       "publisher": "ScanNetSecurity",
       "firstSeenAt": "2026-11-08T23:47:58+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -37702,7 +37710,7 @@
       "reportedDate": "2026-11-10",
       "publisher": "ITmedia NEWS セキュリティ",
       "firstSeenAt": "2026-11-08T23:47:58+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -37912,7 +37920,7 @@
       "reportedDate": "2026-11-09",
       "publisher": "ITmedia 総合",
       "firstSeenAt": "2026-11-09T12:08:45+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -38198,8 +38206,8 @@
       "reportedDate": "2026-11-10",
       "publisher": "Security NEXT 月別記事",
       "firstSeenAt": "2026-11-10T07:27:24+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
-      "attempts": 6,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 7,
       "reasons": [
         {
           "url": "https://www.doutor.co.jp/news/newsrelease/detail/20261026144748.html",
@@ -38514,7 +38522,7 @@
       "reportedDate": "2026-11-11",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-11-11T03:01:32+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
       "attempts": 0,
       "reasons": [
         {
@@ -38532,8 +38540,8 @@
       "reportedDate": "2026-11-11",
       "publisher": "ITmedia NEWS 全新着",
       "firstSeenAt": "2026-11-11T03:01:32+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
-      "attempts": 4,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 5,
       "reasons": [
         {
           "url": "https://www.edion.co.jp/system/files/news-release/pdf/ja/2026-11/20261109_pr_1_1.pdf",
@@ -38942,8 +38950,8 @@
       "reportedDate": "2026-11-12",
       "publisher": "Security NEXT",
       "firstSeenAt": "2026-11-12T16:17:26+00:00",
-      "lastCheckedAt": "2026-11-12T16:17:26+00:00",
-      "attempts": 1,
+      "lastCheckedAt": "2026-11-13T02:59:40+00:00",
+      "attempts": 2,
       "reasons": [
         {
           "url": "https://www.jcci.or.jp/news/news/2026/1110170000.html",
@@ -39269,7 +39277,7 @@
       "reportedDate": "2026-09-17",
       "publisher": "TDnet",
       "firstSeenAt": "2026-10-17T01:37:02+00:00",
-      "lastCheckedAt": "2026-11-12T22:01:30+00:00",
+      "lastCheckedAt": "2026-11-13T03:02:02+00:00",
       "reasons": [
         {
           "url": "https://www.release.tdnet.info/inbs/140120260917537753.pdf",
@@ -39303,7 +39311,7 @@
       "reportedDate": "2026-10-23",
       "publisher": "TDnet",
       "firstSeenAt": "2026-10-23T10:48:28+00:00",
-      "lastCheckedAt": "2026-11-12T21:04:00+00:00",
+      "lastCheckedAt": "2026-11-13T03:02:02+00:00",
       "reasons": [
         {
           "url": "https://www.release.tdnet.info/inbs/140120261023555550.pdf",
