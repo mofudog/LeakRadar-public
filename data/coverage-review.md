@@ -1,6 +1,6 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-13T20:05:41+00:00
+確認日時: 2026-11-13T21:03:35+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
@@ -9,7 +9,7 @@
 - 掲載対象外: 9件
 - 取得失敗: 83件
 - 公式発表の発見待ち: 451件
-- 内容確認が必要: 451件
+- 内容確認が必要: 452件
 - 未処理: 0件
 - 再確認が必要: 16件
 
@@ -1890,8 +1890,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Article encoding could not be read reliably / <https://www.rakuten-sec.co.jp/web/info/info20261031-01.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nttdata.com/global/ja/news/release/2026/103101/>
+- 取得結果: ValueError: Article encoding could not be read reliably / <https://www.rakuten-sec.co.jp/web/info/info20261031-01.html>
 
 ### ペイクラウドHD、「アララ メッセージ」への不正アクセスで約7700万件のメールアドレスが流出　ラクスライトクラウド「ブラストメール」でも。法人向けメール配信サービスの不正アクセス続く
 
@@ -3997,10 +3997,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=False, title=True / <https://jr-central.co.jp/news/release/_pdf/000046119.pdf>
-- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=True, title=True / <https://www.shizuokagas.co.jp/news/documents/20261026_1.pdf>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/>
-- 取得結果: ValueError: PDF metadata needs review: publisher=True, date=True, title=False / <https://www.release.tdnet.info/inbs/140120261026556413.pdf>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.waterworks.metro.tokyo.lg.jp/information/press/r8/10/2026102601>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://support.apple.com/en-us/149225>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://palan.co.jp/news/20261026>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://therecord.media/university-of-new-mexico-hospital-diverts-cyber-incident>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119068/>
 
 ### 不正アクセス・情報漏えいの記録｜2026年9月
@@ -4379,9 +4379,9 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.smd-am.co.jp/news/news/2026/news_20261016/>
-- 取得結果: ValueError: PDF metadata needs review: publisher=True, date=False, title=False / <https://www.keio.co.jp/news/update/news_release/news_release2026/pdf/nr20261016_newsrelease.pdf>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.hakodate.hokkaido.jp/docs/2026101600015/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.fdma.go.jp/mission/enrichment/kyukyumusen_kinkyutuhou/net119.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.keio.co.jp/news/update/announce/nr260926v13404/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://csrc.nist.gov/glossary/term/multi_factor_authentication>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119020/>
 
 ### 【解説】JFA Passport・カーセンサー・Joshinなど6件、不正アクセスと不審なアクセスの公表を整理｜10月17〜18日
@@ -6192,6 +6192,16 @@
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
 - 取得結果: ValueError: Cross-domain redirect requires review / <https://www.osaka-shoin.ac.jp/univ/>
+
+### 生活保護関連書類持ち帰り家庭ゴミとして処分、情報流出や未支給も - 旭川市
+
+内容確認が必要 / 報道・公表日: 2026-01-29
+
+<https://www.security-next.com/180324>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.asahikawa.hokkaido.jp/kurashi/101/110/d085076.html>
 
 ### ハラスメント対策情報サイトが改ざん、個人情報流出は否定 - 厚労省
 
