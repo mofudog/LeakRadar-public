@@ -1,19 +1,32 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-13T21:57:38+00:00
+確認日時: 2026-11-13T22:55:25+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
 - 掲載済み: 8件
 - 同一事案の別記事: 2件
 - 掲載対象外: 9件
-- 取得失敗: 84件
+- 取得失敗: 83件
 - 公式発表の発見待ち: 451件
-- 内容確認が必要: 450件
+- 内容確認が必要: 452件
 - 未処理: 0件
 - 再確認が必要: 16件
 
 ## 確認待ち
+
+### 相次ぐ情報漏えいでアナログ回帰？　ダイソー「パスワード管理ノート」が品薄に　一方でリスクも──IPAに聞いた
+
+内容確認が必要 / 報道・公表日: 2026-11-14
+
+<https://www.itmedia.co.jp/news/article/2611/14/2000003193/>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://jp.daisonet.com/products/4549131894844>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.m2ri.jp/release/detail.html?id=745>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/security/anshin/attention/2026/mgdayori20261026.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/security/chocotto/>
 
 ### おわびメール1通で、後は自己責任？　個人情報漏えい時代に欠けた「3つの仕組み」
 
@@ -1915,17 +1928,17 @@
 
 ### GMOが記者会見　不正アクセス問題で15:30から｜生配信チャンネル一覧と注目のポイント
 
-内容確認が必要 / 報道・公表日: 2026-11-02
+取得失敗 / 報道・公表日: 2026-11-02
 
 <https://innovatopia.jp/cyber-security/cyber-security-news/119659/>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nikkei.com/article/DGXZQOUC0235C0S6A101C2000000/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://news.cube-soft.jp/article/4111873>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://smhn.info/202611-gmo-kumagai-cyber-aegis-ip-blocking-proposal>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.watch.impress.co.jp/docs/news/2153150.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.advertimes.com/20261102/article563033/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nikkei.com/article/DGXZQOUC312K20R31C26A0000000/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://news.web.nhk/newsweb/na/nd-20261031de69024>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.watch.impress.co.jp/docs/news/2151375.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://kumanichi.com/articles/2050148>
+- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://www.sbbit.jp/article/cont1/187915>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119659/>
 
 ### 「GMOトラスト・ログイン」で2492社・4万5030人の情報漏えい、設定不備でファイルが公開領域に　
@@ -1946,10 +1959,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/security/anshin/index.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/security/support/soudan.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/pressrelease/2026/press20261102.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/pressrelease/2026/press20261016.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/security/support/incident-support.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/192287>
 
 ### \[ITmedia ビジネスオンライン\] 「31年間『もうける』と言ったことはない」GMO熊谷代表、不正アクセスで謝罪も露呈した“組織の壁”【会見の要点まとめ】
@@ -2022,16 +2035,14 @@
 
 ### \[ITmedia ビジネスオンライン\] 情報漏えい2.6億人分　焼肉きんぐ、バーガーキング……1000万件超続々、不正アクセス被害企業は？【10月時点】
 
-取得失敗 / 報道・公表日: 2026-10-31
+内容確認が必要 / 報道・公表日: 2026-10-31
 
 <https://www.itmedia.co.jp/business/articles/2610/31/news017.html>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://www.capcom.co.jp/ir/news/html/261022.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www2.sagawa-exp.co.jp/information/detail/430/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ymir.co.jp/info/ymir-information20261027.html>
-- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1030_01>
+- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=False, title=False / <https://www.ppc.go.jp/files/pdf/261028_sankoushiryou-2.pdf>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.monogatari.co.jp/news/261005_news/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.itmedia.co.jp/business/articles/2610/31/news017.html>
 
 ### \[ITmedia ビジネスオンライン\] 「うちは大丈夫」が餌食に　中小企業の情報漏えい前年2倍、増えた「手口」は？
@@ -2052,9 +2063,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/personalinfo/legal/leakAction/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/security/support/soudan.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/security/anshin/index.html>
+- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=False, title=True / <https://www.ppc.go.jp/files/pdf/260902_shiryou-3-2.pdf>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.kantei.go.jp/jp/105/actions/202610/26kaigi_cyber.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/security/10threats/10threats2026.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/aboutus/minutes/2026/20261028/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119569/>
 
 ### Binance、約63億ドル流出で出金停止　秘密鍵漏えいの証拠なく全額補償へ
@@ -2078,8 +2090,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1030_01>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.hana-cupid.co.jp/news/news/20261028/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.irisohyama.co.jp/news/2026/?date=1029>
+- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://www.kyushu-fg-sec.co.jp/article/data/info/files/a9f275749841d4f9ea6c35fa1b62a90f0b990bb0.pdf>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.clubnets.jp/infos/id/221>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.kagin.co.jp/important/emergency_20261029_3.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119603/>
 
 ### クラブツーリズムに不正アクセス、会員約432万件が流出の可能性　国籍・緊急連絡先も
@@ -2090,11 +2104,11 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://travel.rakuten.co.jp/info/announce/20261026.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.club-tourism.co.jp/jpn/news/2026/1031/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.club-tourism.co.jp/jpn/>
 - 取得結果: ValueError: PDF metadata needs review: publisher=False, date=True, title=True / <https://www.club-tourism.co.jp/jpn/wp/info20241101.pdf>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/personalinfo/legal/leakAction/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/security/anshin/attention/2026/mgdayori20261026.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jiji.com/jc/article?k=2026103100452&g=soc&m=rss>
-- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=False, title=False / <https://www.ppc.go.jp/files/pdf/261028_sankoushiryou-2.pdf>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119597/>
 
 ### \[ITmedia ビジネスオンライン\] 「自社都合」のセキュリティ対策になっていないか　相次ぐ情報漏えい、安否を分ける3つの対策
@@ -3540,11 +3554,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://gamebiz.jp/news/293484>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://news.mynavi.jp/article/20210420-security>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-after-gamers-data-stolen-in-cyberattack/>
-- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://www.capcom.co.jp/ir/news/html/261022.html>
-- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://www.capcom.co.jp/ir/english/news/html/e261022.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://cid.capcom.com/en/guide/game/regist/>
+- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://www.capcom.co.jp/ir/sustainability/security.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.zkai.co.jp/post-120678/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/news/careful_information/261007_alert?ref=topnews>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119314/>
 
 ### リクルートの中古車情報サービスで個人情報など流出か
@@ -4037,9 +4050,11 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.tokyo-kosha.or.jp/topics/2607/0020.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jpcert.or.jp/at/2026/at260021.html>
-- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://support.rakuten-drive.com/hc/ja/articles/62934949147929>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://corp.hareruyamtg.com/notice-2026-07-30>
+- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=True, title=True / <https://www.seiho.or.jp/info/news/shared/mt-item/20260729.pdf>
+- 取得結果: HTTPError: HTTP Error 404: Not Found / <https://ink-revolution.com/index.php/info-2026-07-15.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://corp.tential.jp/news/20260728001/>
+- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=False, title=True / <https://dm.takaratomy.co.jp/img/notice20260728.pdf>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119065/>
 
 ### 【随時更新】費用をかけてもすぐ備える｜不正アクセスの緊急対応・診断・監視の料金
@@ -4050,11 +4065,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.soliton.co.jp/lp/forensic/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.forensic24.com/price/>
-- 取得結果: ValueError: Announcement date does not match the news time window / <https://www.ssk-kan.co.jp/digital-forensics>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://cr.bbsec.co.jp/cyberincident119>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.lac.co.jp/corporate/unit/cyber119.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.proactivedefense.jp/services/digital-forensics-incident-response>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.cyberdefense.jp/services/ir.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.hitachi-solutions.co.jp/security/sp/solution/task/mdr_incident_response.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.leon-tec.co.jp/emergency/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119058/>
 
 ### 【随時更新】不正アクセスに備える無償の相談・診断一覧｜「どこまで無料か」を比べる
@@ -4065,25 +4079,25 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ibm.com/jp-ja/services/security/incident-response>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://cr.bbsec.co.jp/cyberincident119>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.mbsd.jp/solutions/security_force/incident/index.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.lac.co.jp/corporate/unit/cyber119.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/pressrelease/2026/press20261016.html>
+- 取得結果: ValueError: Encrypted/large PDF requires editorial review / <https://www.ipa.go.jp/security/ug65p90000019fc0-att/20261009_1.pdf>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/security/sme/otasuketai/servicelist/category1/registration-number2025.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/security/support/incident-support.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://ictlink.jp/security_contact/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119057/>
 
 ### 【解説】相次ぐ不正アクセスの攻撃元にAIツール「ARTEX」、入口は公開アプリの解析　NICT・IPAも対応
 
-取得失敗 / 報道・公表日: 2026-10-20
+内容確認が必要 / 報道・公表日: 2026-10-20
 
 <https://innovatopia.jp/cyber-security/cyber-security-news/119091/>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=False, title=True / <https://www.shueisha.co.jp/wp-content/uploads/2026/09/Shueisha20260928-1.pdf>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://nano.shinmai.co.jp/info/media/93016/>
-- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://corp.eplus.jp/press-release/1824/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ghi.gr.jp/information/news/post-215.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.aiphone.co.jp/docs/news/202609291325.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.unirita.co.jp/news/2026/media_20261014.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.g-plan.net/news/details/20260930.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.shudo-u.ac.jp/gakuen/information/mh85jl0000000021.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nipponrentacar.co.jp/info/202610_2.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119091/>
 
 ### NEC委託先にサイバー攻撃 - 顧客システムで障害、個人情報流出
@@ -6316,8 +6330,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://parall.ax/products/jspdf>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://github.com/parallax/jsPDF>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://parall.ax/products/jspdf>
 
 ### ボランティア連絡用端末で誤送信、メアドが流出 - 奈良県
 
