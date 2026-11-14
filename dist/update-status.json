@@ -1,10 +1,10 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-14T22:50:07+00:00",
+  "lastAttemptAt": "2026-11-14T23:48:07+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-14T22:50:07+00:00",
-  "successfulFetches": 464,
-  "failedFetches": 46,
+  "lastPartialSuccessAt": "2026-11-14T23:48:07+00:00",
+  "successfulFetches": 465,
+  "failedFetches": 45,
   "changedReviewedSources": 79,
   "automaticAnnouncements": 310,
   "watchedDocumentCount": 456,
@@ -78,10 +78,6 @@
     {
       "url": "https://www.rakuten-booksnetwork.co.jp/2026/08/21/unauthorized-access-notice/index.html",
       "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "https://sanpofoods.co.jp/news/archives/1658/",
-      "error": "<urlopen error _ssl.c:1063: The handshake operation timed out>"
     },
     {
       "url": "https://2nd-rtl.com/news/82023",
@@ -201,16 +197,16 @@
   "cloudRun": true,
   "retentionStart": "2023-11-15",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-14T22:50:07+00:00",
+    "lastAttemptAt": "2026-11-14T23:48:07+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1724,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 55,
+    "officialFetches": 82,
     "confirmedOfficialAnnouncements": 374,
-    "pendingNewsArticles": 1005,
+    "pendingNewsArticles": 1006,
     "skippedReviewedArticles": 24,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -253,7 +249,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-14T22:52:19+00:00",
+      "lastAttemptAt": "2026-11-14T23:50:52+00:00",
       "listPagesChecked": 2,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -264,24 +260,24 @@
     "ready": 73,
     "partial": 173,
     "pending": 105,
-    "fetchFailed": 24
+    "fetchFailed": 23
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
     "requestsLast24Hours": 100,
-    "cachedSources": 142,
+    "cachedSources": 143,
     "acceptedSources": 0,
     "noMatchingSources": 0,
     "failedSources": 5,
-    "deferredSources": 20,
-    "lastError": "ungrounded_output",
+    "deferredSources": 21,
+    "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 5,
+    "fetches": 6,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
     "pending": 4,
@@ -298,12 +294,12 @@
     "out_of_scope": 9,
     "needs_source_lookup": 448,
     "reopened": 16,
-    "fetch_failed": 84,
+    "fetch_failed": 82,
     "covered": 8,
-    "needs_review": 452,
+    "needs_review": 455,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 1000,
+  "unresolvedNewsCandidates": 1001,
   "deferredNewsCandidates": 0
 }
