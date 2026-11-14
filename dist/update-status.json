@@ -1,10 +1,10 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-14T07:18:09+00:00",
+  "lastAttemptAt": "2026-11-14T09:00:11+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-14T07:18:09+00:00",
-  "successfulFetches": 465,
-  "failedFetches": 44,
+  "lastPartialSuccessAt": "2026-11-14T09:00:11+00:00",
+  "successfulFetches": 466,
+  "failedFetches": 43,
   "changedReviewedSources": 79,
   "automaticAnnouncements": 310,
   "watchedDocumentCount": 455,
@@ -100,10 +100,6 @@
       "error": "Source body could not be read"
     },
     {
-      "url": "https://e-tenki.co.jp/news/reserve-system-incident/",
-      "error": "<urlopen error _ssl.c:1063: The handshake operation timed out>"
-    },
-    {
       "url": "https://www.kyushu-fg-sec.co.jp/article/data/info/files/a9f275749841d4f9ea6c35fa1b62a90f0b990bb0.pdf",
       "error": "HTTP Error 403: Forbidden"
     },
@@ -193,16 +189,16 @@
   "cloudRun": true,
   "retentionStart": "2023-11-14",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-14T07:18:09+00:00",
+    "lastAttemptAt": "2026-11-14T09:00:11+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1727,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 43,
+    "officialFetches": 55,
     "confirmedOfficialAnnouncements": 374,
-    "pendingNewsArticles": 1005,
+    "pendingNewsArticles": 1007,
     "skippedReviewedArticles": 24,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -245,7 +241,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-14T07:20:03+00:00",
+      "lastAttemptAt": "2026-11-14T09:02:10+00:00",
       "listPagesChecked": 16,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -253,27 +249,27 @@
     }
   },
   "automaticSummaries": {
-    "ready": 72,
+    "ready": 73,
     "partial": 174,
-    "pending": 105,
-    "fetchFailed": 23
+    "pending": 104,
+    "fetchFailed": 22
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
     "requestsLast24Hours": 100,
-    "cachedSources": 142,
+    "cachedSources": 143,
     "acceptedSources": 0,
     "noMatchingSources": 0,
     "failedSources": 5,
-    "deferredSources": 24,
-    "lastError": "irrelevant_output",
+    "deferredSources": 22,
+    "lastError": "ungrounded_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 5,
+    "fetches": 4,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
     "pending": 4,
@@ -290,12 +286,12 @@
     "out_of_scope": 9,
     "needs_source_lookup": 451,
     "reopened": 16,
-    "fetch_failed": 84,
+    "fetch_failed": 85,
     "covered": 8,
-    "needs_review": 448,
+    "needs_review": 449,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 999,
+  "unresolvedNewsCandidates": 1001,
   "deferredNewsCandidates": 0
 }
