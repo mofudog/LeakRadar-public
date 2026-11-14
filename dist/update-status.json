@@ -1,10 +1,10 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-14T16:53:27+00:00",
+  "lastAttemptAt": "2026-11-14T17:48:53+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-14T16:53:27+00:00",
+  "lastPartialSuccessAt": "2026-11-14T17:48:53+00:00",
   "successfulFetches": 466,
-  "failedFetches": 45,
+  "failedFetches": 47,
   "changedReviewedSources": 78,
   "automaticAnnouncements": 310,
   "watchedDocumentCount": 456,
@@ -13,6 +13,14 @@
   "errors": [
     {
       "url": "https://innovatopia.jp/feed/",
+      "error": "HTTPError: HTTP Error 415: Unsupported Media Type"
+    },
+    {
+      "url": "https://innovatopia.jp/cyber-security/cyber-security-news/119506/",
+      "error": "HTTPError: HTTP Error 415: Unsupported Media Type"
+    },
+    {
+      "url": "https://innovatopia.jp/cyber-security/cyber-security-news/119011/",
       "error": "HTTPError: HTTP Error 415: Unsupported Media Type"
     },
     {
@@ -197,14 +205,14 @@
   "cloudRun": true,
   "retentionStart": "2023-11-15",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-14T16:53:27+00:00",
+    "lastAttemptAt": "2026-11-14T17:48:53+00:00",
     "feedCount": 9,
     "successfulFeeds": 8,
     "successfulArchivePages": 1,
     "newsCandidates": 1724,
-    "newsArticlesChecked": 70,
+    "newsArticlesChecked": 68,
     "deferredNewsArticles": 0,
-    "officialFetches": 60,
+    "officialFetches": 47,
     "confirmedOfficialAnnouncements": 374,
     "pendingNewsArticles": 1002,
     "skippedReviewedArticles": 24,
@@ -249,16 +257,16 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-14T16:55:18+00:00",
+      "lastAttemptAt": "2026-11-14T17:50:46+00:00",
       "listPagesChecked": 2,
       "documentsChecked": 20,
       "pendingListPages": 0,
-      "pendingDocuments": 13
+      "pendingDocuments": 14
     }
   },
   "automaticSummaries": {
-    "ready": 72,
-    "partial": 176,
+    "ready": 73,
+    "partial": 175,
     "pending": 103,
     "fetchFailed": 22
   },
@@ -268,16 +276,16 @@
     "requestsThisRun": 5,
     "requestsLast24Hours": 100,
     "cachedSources": 143,
-    "acceptedSources": 0,
-    "noMatchingSources": 2,
-    "failedSources": 3,
-    "deferredSources": 16,
-    "lastError": "irrelevant_count",
+    "acceptedSources": 1,
+    "noMatchingSources": 0,
+    "failedSources": 4,
+    "deferredSources": 19,
+    "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 5,
+    "fetches": 6,
     "linkedDocuments": 13,
     "matchedAlternatives": 1,
     "pending": 4,
@@ -294,12 +302,12 @@
     "out_of_scope": 9,
     "needs_source_lookup": 448,
     "reopened": 16,
-    "fetch_failed": 84,
+    "fetch_failed": 85,
     "covered": 8,
     "needs_review": 448,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 996,
+  "unresolvedNewsCandidates": 997,
   "deferredNewsCandidates": 0
 }
