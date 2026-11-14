@@ -1,10 +1,10 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-14T11:51:39+00:00",
+  "lastAttemptAt": "2026-11-14T13:07:38+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-14T11:51:39+00:00",
-  "successfulFetches": 466,
-  "failedFetches": 43,
+  "lastPartialSuccessAt": "2026-11-14T13:07:38+00:00",
+  "successfulFetches": 468,
+  "failedFetches": 41,
   "changedReviewedSources": 79,
   "automaticAnnouncements": 310,
   "watchedDocumentCount": 455,
@@ -46,6 +46,10 @@
     {
       "url": "https://newspicks.com/news/17665641/body/",
       "error": "Source body could not be read"
+    },
+    {
+      "url": "https://www.hands-holdings.co.jp/news/news20260825/",
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://support-qa.eplus.jp/hc/ja/articles/62711500727961-%E5%BC%8A%E7%A4%BE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AE%E7%99%BA-%E3%81%8A%E3%82%88%E3%81%B3%E5%80%8B-%E6%83%85%E5%A0%B1-%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
@@ -112,23 +116,11 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "https://www.sonynetwork.co.jp/corporation/release/2026/v5e5u00000000zwj-att/20261027.pdf",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
       "url": "https://tixplus.jp/information/",
       "error": "Source body could not be read"
     },
     {
-      "url": "https://www.recruit.co.jp/newsroom/pressrelease/2026/1021_149447.html",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
       "url": "https://www.smbc-cf.com/news/data/2026/11/news_20261105_1.pdf",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "url": "https://corp.eplus.jp/press-release/1824/",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -189,14 +181,14 @@
   "cloudRun": true,
   "retentionStart": "2023-11-14",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-14T11:51:39+00:00",
+    "lastAttemptAt": "2026-11-14T13:07:38+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1727,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 37,
+    "officialFetches": 76,
     "confirmedOfficialAnnouncements": 374,
     "pendingNewsArticles": 1007,
     "skippedReviewedArticles": 24,
@@ -241,7 +233,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-14T11:53:51+00:00",
+      "lastAttemptAt": "2026-11-14T13:09:56+00:00",
       "listPagesChecked": 16,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -250,9 +242,9 @@
   },
   "automaticSummaries": {
     "ready": 73,
-    "partial": 175,
-    "pending": 103,
-    "fetchFailed": 22
+    "partial": 177,
+    "pending": 101,
+    "fetchFailed": 20
   },
   "aiSummary": {
     "status": "active",
@@ -260,19 +252,19 @@
     "requestsThisRun": 5,
     "requestsLast24Hours": 100,
     "cachedSources": 143,
-    "acceptedSources": 0,
+    "acceptedSources": 1,
     "noMatchingSources": 0,
-    "failedSources": 5,
-    "deferredSources": 15,
+    "failedSources": 4,
+    "deferredSources": 17,
     "lastError": "ungrounded_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 7,
-    "linkedDocuments": 12,
-    "matchedAlternatives": 0,
-    "pending": 4,
+    "fetches": 5,
+    "linkedDocuments": 13,
+    "matchedAlternatives": 1,
+    "pending": 3,
     "failed": 2,
     "report": "data/source-recovery-report.md",
     "ocr": {
@@ -286,9 +278,9 @@
     "out_of_scope": 9,
     "needs_source_lookup": 451,
     "reopened": 16,
-    "fetch_failed": 85,
+    "fetch_failed": 84,
     "covered": 8,
-    "needs_review": 449,
+    "needs_review": 450,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
