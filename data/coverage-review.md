@@ -1,6 +1,6 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-14T10:55:18+00:00
+確認日時: 2026-11-14T11:51:39+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
@@ -9,7 +9,7 @@
 - 掲載対象外: 9件
 - 取得失敗: 85件
 - 公式発表の発見待ち: 451件
-- 内容確認が必要: 458件
+- 内容確認が必要: 449件
 - 未処理: 0件
 - 再確認が必要: 16件
 
@@ -2243,11 +2243,11 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.watch.impress.co.jp/docs/news/2152347.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://paymentnavi.com/?p=173665>
 - 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://support.goodsmile.com/hc/ja/articles/63718007508761>
 - 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://support.goodsmile.com/hc/ja/articles/63547468806297>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.j-credit.or.jp/information/statistics/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.j-credit.or.jp/security/document/index.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119555/>
 
 ### ヤクルト本社、個人情報約4万件漏えい　公式サイトへの不正アクセスで
@@ -6774,16 +6774,6 @@
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.sonicwall.com/support/knowledge-base/mysonicwall-cloud-backup-file-incident/250915160910330>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/174819>
 
-### 研修申込者への受講承認メールで誤送信 - 茨城県社会福祉協議会
-
-内容確認が必要 / 報道・公表日: 2025-09-22
-
-<https://www.security-next.com/174717>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/174717>
-
 ### システムに不正アクセス、予約者にフィッシングメール - 沼津リバーサイドホテル
 
 内容確認が必要 / 報道・公表日: 2025-09-19
@@ -6792,87 +6782,7 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/174725>
-
-### 産後ケアの利用者名簿を委託業者にメールで誤送信 - 館林市
-
-内容確認が必要 / 報道・公表日: 2025-09-18
-
-<https://www.security-next.com/174664>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/174664>
-
-### PTA理事宛の一斉メールで誤送信 - 埼玉県立高
-
-内容確認が必要 / 報道・公表日: 2025-09-17
-
-<https://www.security-next.com/174516>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/174516>
-
-### ネットワーク機器経由で侵害、個人情報流出か - クールジャパン機構
-
-内容確認が必要 / 報道・公表日: 2025-09-16
-
-<https://www.security-next.com/174568>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/174568>
-
-### 危険物取扱者試験講習会の案内メールで誤送信 - 薩摩川内市
-
-内容確認が必要 / 報道・公表日: 2025-09-12
-
-<https://www.security-next.com/174462>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/174462>
-
-### 住民の個人情報を議員に漏洩した職員2人を懲戒処分 - 吉野町
-
-内容確認が必要 / 報道・公表日: 2025-09-12
-
-<https://www.security-next.com/173615>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/173615>
-
-### 学生向けシステム内に不正ファイル、個人情報流出の可能性も - 帝塚山学院大
-
-内容確認が必要 / 報道・公表日: 2025-09-12
-
-<https://www.security-next.com/174459>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/174459>
-
-### 外部からの攻撃を検知、会員情報流出の可能性 - CNプレイガイド
-
-内容確認が必要 / 報道・公表日: 2025-09-12
-
-<https://www.security-next.com/174454>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/174454>
-
-### 顧客情報含むハンディ端末が所在不明に - ミツウロコヴェッセル
-
-内容確認が必要 / 報道・公表日: 2025-09-11
-
-<https://www.security-next.com/174249>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/174249>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://numazu-rs-hotel.com/nrh/2026/09/28/news260928/>
 
 ### メルアカに不正アクセス、スパムの踏み台に - 鹿児島市の総合病院
 
@@ -6882,7 +6792,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/174182>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://imakiire.jp/urgent_notice/20250822/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://imakiire.jp/urgent_notice/%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e8%a2%ab%e5%ae%b3%e3%81%ab%e3%82%88%e3%82%8b%e3%82%b9%e3%83%91%e3%83%a0%e3%83%a1%e3%83%bc%e3%83%ab%e9%80%81%e4%bf%a1%e3%81%ab%e9%96%a2%e3%81%99/>
 
 ### 「Argo CD」に深刻な脆弱性 - APIで認証情報漏洩のおそれ
 
@@ -6892,7 +6803,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/174188>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://github.com/argoproj/argo-cd/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://argo-cd.readthedocs.io/>
 
 ### 個人情報の置き忘れや誤交付などが発生 - 横浜労災病院
 
@@ -6902,7 +6814,7 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.security-next.com/173575>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://yokohamah.johas.go.jp/>
 
 ### 顧客情報流出の可能性、スーパーフランチャイズ運営企業で
 
