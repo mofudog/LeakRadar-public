@@ -1,15 +1,15 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-14T03:00:22+00:00
+確認日時: 2026-11-14T04:05:22+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
 - 掲載済み: 8件
 - 同一事案の別記事: 2件
 - 掲載対象外: 9件
-- 取得失敗: 84件
+- 取得失敗: 83件
 - 公式発表の発見待ち: 451件
-- 内容確認が必要: 451件
+- 内容確認が必要: 450件
 - 未処理: 0件
 - 再確認が必要: 16件
 
@@ -309,10 +309,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1109_01>
 - 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1030_01>
 - 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1104_02>
 - 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1106_01>
+- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1109_01>
 
 ### 宝くじ公式サイト、会員の当落情報まで第三者が閲覧の可能性　リスト型攻撃か
 
@@ -4438,8 +4438,9 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nikkeibp.co.jp/atcl/newsrelease/corp/20261017/>
-- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://outpost-amd1006.slack.com/archives/C08UZSUAGLQ/p1792548071612799>
+- 取得結果: HTTPError: HTTP Error 406: Not Acceptable / <https://www.nikkei.com/markets/ir/irftp/data/tdnr/tdnetg3/20261016/g6lrwl/140120261016552453.pdf>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nttsolmare.com/press/2026/1016.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.post.japanpost.jp/newsrelease/pressrelease/383542224171.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/118964/>
 
 ### Eストアー「ショップサーブ」不正アクセスの最終報、漏えい対象者は約2,335万6,000人
@@ -4450,13 +4451,12 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.pfu.ricoh.com/news/2026/news260918-2.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nikkei.com/article/DGXZQOUC16B0O0W6A011C2000000/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.pfu.ricoh.com/news/2026/news261023.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/118960/>
 
 ### ヤマト運輸、利用者情報約526万件の持ち出し判明　「クロネコ代金後払い」不正アクセスの第4報
 
-取得失敗 / 報道・公表日: 2026-10-17
+内容確認が必要 / 報道・公表日: 2026-10-17
 
 <https://innovatopia.jp/cyber-security/cyber-security-news/118957/>
 
@@ -4464,8 +4464,7 @@
 
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://business.kuronekoyamato.co.jp/service/lineup/payment/consumer/convenience_atobarai/index.html>
 - 取得結果: ValueError: Scanned or unreadable PDF requires editorial review / <https://www.yamato-hd.co.jp/important/img/info_260929_1_6.pdf>
-- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://faq.kuronekoyamato.co.jp/app/answers/detail/a_id/5278/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.kokusen.go.jp/news/data/n-20160707_1.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://faq.kuronekoyamato.co.jp/app/answers/detail/a_id/5278/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/118957/>
 
 ### 日経、開発用クラウドに不正アクセス　認証情報を盗まれ個人情報約183万件が漏えい
@@ -4476,9 +4475,9 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nikkei.co.jp/nikkeiinfo/news/information/1393.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nikkei.co.jp/nikkeiinfo/news/information/1490.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jpcert.or.jp/at/2026/at260030.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/security/security-alert/2026/alert20261009.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nikkei.co.jp/nikkeiinfo/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nikkeibp.co.jp/atcl/newsrelease/corp/20261021_2/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/118954/>
 
 ### Meta、GitHubリポジトリに不正アクセスで約1,500人に通知　入口は従業員の盗まれた認証情報
@@ -6463,16 +6462,6 @@
 
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.kashiwazaki.lg.jp/daijinaoshirase/50458.html>
 
-### 市営住宅入居者の個人情報含むディスクを紛失 - 京都市
-
-内容確認が必要 / 報道・公表日: 2025-11-25
-
-<https://www.security-next.com/177427>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.kyoto.lg.jp/gyozai/page/0000359313.html>
-
 ### 関係者向けメールを誤送信、訂正メール急いで発生 - 鳥取県
 
 公式発表の発見待ち / 報道・公表日: 2025-11-25
@@ -6492,16 +6481,6 @@
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.kasama.lg.jp/>
-
-### 県立校文化祭、事前登録者への案内メールで誤送信 - 埼玉県
-
-内容確認が必要 / 報道・公表日: 2025-11-20
-
-<https://www.security-next.com/177149>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.pref.saitama.lg.jp/f2216/news/page/news2026110901.html>
 
 ### メール誤送信で美術研究所研究生のメアド流出 - 大阪市立美術館
 
