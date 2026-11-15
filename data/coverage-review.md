@@ -1,6 +1,6 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-15T09:00:11+00:00
+確認日時: 2026-11-15T09:58:42+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
@@ -9,7 +9,7 @@
 - 掲載対象外: 9件
 - 取得失敗: 80件
 - 公式発表の発見待ち: 449件
-- 内容確認が必要: 459件
+- 内容確認が必要: 458件
 - 未処理: 0件
 - 再確認が必要: 16件
 
@@ -319,10 +319,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1106_01>
 - 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1109_01>
 - 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1030_01>
 - 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1104_02>
+- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1106_01>
 
 ### 宝くじ公式サイト、会員の当落情報まで第三者が閲覧の可能性　リスト型攻撃か
 
@@ -7676,17 +7676,6 @@
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
 - 取得結果: gaierror: \[Errno -5\] No address associated with hostname / <https://techful.jp/>
-
-### メール誤送信でセミナー対象者のメアド流出 - 鹿児島市
-
-内容確認が必要 / 報道・公表日: 2024-12-25
-
-<https://www.security-next.com/165661>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.kagoshima.lg.jp/san-sousyutu/shisetsu/sangyo/san-sou-oshirase20261026.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.kagoshima.lg.jp/shobo/sbsoumu/jouhoukannrika.html>
 
 ### 不正アクセスで役員や従業員の個人情報が流出した可能性 - 日清紡
 
