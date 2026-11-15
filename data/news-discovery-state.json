@@ -1,14 +1,14 @@
 {
-  "lastAttemptAt": "2026-11-15T06:02:49+00:00",
+  "lastAttemptAt": "2026-11-15T07:21:00+00:00",
   "feedCount": 9,
   "successfulFeeds": 9,
   "successfulArchivePages": 1,
   "newsCandidates": 1725,
   "newsArticlesChecked": 70,
   "deferredNewsArticles": 0,
-  "officialFetches": 100,
+  "officialFetches": 66,
   "confirmedOfficialAnnouncements": 286,
-  "pendingNewsArticles": 1009,
+  "pendingNewsArticles": 1006,
   "errors": [],
   "queue": {
     "https://www.security-next.com/191572": {
@@ -920,10 +920,10 @@
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
-      "lastCheckedAt": "2026-11-14T19:54:03+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "attempts": 159,
-      "lastOfficialAttemptAt": "2026-11-14T19:54:03+00:00"
+      "attempts": 160,
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00"
     },
     "https://www.itmedia.co.jp/news/article/2610/16/2000002341/": {
       "newsSource": "https://www.itmedia.co.jp/news/article/2610/16/2000002341/",
@@ -937,7 +937,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-15T06:02:49+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "attempts": 78,
       "lastOfficialAttemptAt": "2026-10-26T09:58:12+00:00"
@@ -949,10 +949,10 @@
       "title": "ファンケルとアテニア、計約83万件の会員情報漏えい　ECサイトに不正アクセス",
       "firstSeenAt": "2026-10-16T23:15:06+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-14T19:54:03+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "attempts": 133,
-      "lastOfficialAttemptAt": "2026-11-14T19:54:03+00:00"
+      "attempts": 134,
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00"
     },
     "https://www.itmedia.co.jp/news/article/2610/16/2000002339/": {
       "newsSource": "https://www.itmedia.co.jp/news/article/2610/16/2000002339/",
@@ -9874,22 +9874,26 @@
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
       "pending": [
         {
-          "url": "https://www.joshin.co.jp/ja/news/info/info-20261017/main/0/link/20261017Notice%20and%20Apology%20Regarding%20System%20Disruption%20Caused%20by%20Unauthorized%20Access.pdf",
-          "reason": "ValueError: PDF metadata needs review: publisher=False, date=True, title=True"
+          "url": "https://www.jfa.jp/jfapassport/news/00034519/",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://digym.cloud/post-955/",
+          "url": "https://www.jfa.jp/news/00036934/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
+        {
+          "url": "https://www.joshin.co.jp/ja/news/info/info-20261017/main/0/link/20261017Notice%20and%20Apology%20Regarding%20System%20Disruption%20Caused%20by%20Unauthorized%20Access.pdf",
+          "reason": "ValueError: PDF metadata needs review: publisher=False, date=True, title=True"
         },
         {
           "url": "https://innovatopia.jp/cyber-security/cyber-security-news/119035/",
           "reason": "Remaining official links deferred by the per-run/per-article limit"
         }
       ],
-      "lastCheckedAt": "2026-11-14T19:54:03+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-14T19:54:03+00:00",
-      "attempts": 102
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 103
     },
     "https://innovatopia.jp/cyber-security/cyber-security-news/119032/": {
       "newsSource": "https://innovatopia.jp/cyber-security/cyber-security-news/119032/",
@@ -9899,22 +9903,34 @@
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
       "pending": [
         {
-          "url": "https://2nd-rtl.com/",
+          "url": "https://www.nttsolmare.com/press/2026/1016.html",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
+        {
+          "url": "https://www.nttsolmare.com/press/2026/1016-1.html",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
+        {
+          "url": "https://www.bookoff.co.jp/info/news/2026/post_113.html",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
+        {
+          "url": "https://2nd-rtl.com/news/82023",
           "reason": "HTTPError: HTTP Error 403: Forbidden"
         },
         {
-          "url": "https://jvn.jp/jp/JVN40460777/",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+          "url": "https://2nd-rtl.com/",
+          "reason": "HTTPError: HTTP Error 403: Forbidden"
         },
         {
           "url": "https://innovatopia.jp/cyber-security/cyber-security-news/119032/",
           "reason": "Remaining official links deferred by the per-run/per-article limit"
         }
       ],
-      "lastCheckedAt": "2026-11-14T19:54:03+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-14T19:54:03+00:00",
-      "attempts": 102
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 103
     },
     "https://www.security-next.com/171012": {
       "newsSource": "https://www.security-next.com/171012",
@@ -10956,10 +10972,10 @@
       "title": "「侵入経路塞いだが、バックドアから……」不正アクセス105時間の攻防、分単位で報告　防災メールのアルカディア",
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-14T19:54:03+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-14T19:54:03+00:00",
-      "attempts": 106
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 107
     },
     "https://www.itmedia.co.jp/news/article/2610/20/2000002410/": {
       "newsSource": "https://www.itmedia.co.jp/news/article/2610/20/2000002410/",
@@ -11019,7 +11035,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-15T06:02:49+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": "2026-10-26T09:58:12+00:00",
       "attempts": 44
@@ -11036,10 +11052,10 @@
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
-      "lastCheckedAt": "2026-11-14T19:54:03+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-14T19:54:03+00:00",
-      "attempts": 101
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 102
     },
     "https://www.itmedia.co.jp/mobile/articles/2610/19/news093.html": {
       "newsSource": "https://www.itmedia.co.jp/mobile/articles/2610/19/news093.html",
@@ -11154,34 +11170,26 @@
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
       "pending": [
         {
-          "url": "https://www2.sagawa-exp.co.jp/information/detail/430/",
+          "url": "https://www.yotsukaido-shakyo.or.jp/info.php?id=941",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.shudo-u.ac.jp/gakuen/information/mh85jl0000000021.html",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+          "url": "https://files.japanpost.jp/assets/34d9d11432734cfaa759e78fe395b688/c6b030844cf0412ab0d48f8bae7b3a75/20260929_01_01.pdf",
+          "reason": "ValueError: PDF metadata needs review: publisher=False, date=False, title=True"
         },
         {
-          "url": "https://www.g-plan.net/news/details/20260930.html",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
-        },
-        {
-          "url": "https://www.city.osaka.lg.jp/hodoshiryo/kodomo/0000688056.html",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
-        },
-        {
-          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-webauth-xr8beuuU",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+          "url": "https://support-qa.eplus.jp/hc/ja/articles/62711500727961",
+          "reason": "HTTPError: HTTP Error 403: Forbidden"
         },
         {
           "url": "https://innovatopia.jp/cyber-security/cyber-security-news/119067/",
           "reason": "Remaining official links deferred by the per-run/per-article limit"
         }
       ],
-      "lastCheckedAt": "2026-11-14T19:54:03+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-14T19:54:03+00:00",
-      "attempts": 105
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 106
     },
     "https://innovatopia.jp/cyber-security/cyber-security-news/119066/": {
       "newsSource": "https://innovatopia.jp/cyber-security/cyber-security-news/119066/",
@@ -11191,23 +11199,23 @@
       "firstSeenAt": "2026-10-20T13:30:18+00:00",
       "pending": [
         {
-          "url": "https://www.ryomo.co.jp/news/202609_02.html",
+          "url": "https://www.jpcert.or.jp/at/2026/at260022.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.jpcert.or.jp/at/2026/at260023.html",
+          "url": "https://ski-mg.jp/wp-content/uploads/2026/08/%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E6%B4%A9%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B.pdf",
+          "reason": "HTTPError: HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.yonex.co.jp/news/2026/4022.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://unkomuseum.com/news/5244/",
+          "url": "https://www.whiteessence.com/news/news/20261005/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.charm.co.jp/honten/info/notice/20260901.html",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
-        },
-        {
-          "url": "https://akatake.co.jp/news/2026/4531/",
+          "url": "https://happinet-phantom.com/satoko/news/13/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -11215,10 +11223,10 @@
           "reason": "Remaining official links deferred by the per-run/per-article limit"
         }
       ],
-      "lastCheckedAt": "2026-11-14T19:54:03+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-14T19:54:03+00:00",
-      "attempts": 105
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 106
     },
     "https://innovatopia.jp/cyber-security/cyber-security-news/119065/": {
       "newsSource": "https://innovatopia.jp/cyber-security/cyber-security-news/119065/",
@@ -12395,16 +12403,11 @@
       "published": "2025-01-31",
       "title": "算数教室の案内メールで誤送信、個人情報流出 - 薩摩川内市",
       "firstSeenAt": "2026-10-20T16:47:20+00:00",
-      "pending": [
-        {
-          "url": "https://www.security-next.com/166720",
-          "reason": "Remaining official links deferred by the per-run/per-article limit"
-        }
-      ],
-      "lastCheckedAt": "2026-11-15T06:02:49+00:00",
+      "pending": [],
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T20:57:52+00:00",
-      "attempts": 6
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 7
     },
     "https://www.security-next.com/166664": {
       "newsSource": "https://www.security-next.com/166664",
@@ -12412,16 +12415,11 @@
       "published": "2025-01-29",
       "title": "高校の修学旅行中に個人情報含む資料を紛失 - 神戸市",
       "firstSeenAt": "2026-10-20T16:47:20+00:00",
-      "pending": [
-        {
-          "url": "https://www.security-next.com/166664",
-          "reason": "Remaining official links deferred by the per-run/per-article limit"
-        }
-      ],
-      "lastCheckedAt": "2026-11-15T06:02:49+00:00",
+      "pending": [],
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T20:57:52+00:00",
-      "attempts": 6
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 7
     },
     "https://www.security-next.com/165762": {
       "newsSource": "https://www.security-next.com/165762",
@@ -12902,16 +12900,11 @@
       "published": "2025-01-29",
       "title": "進路希望調査が流出、教員向けURLを誤送信 - 近大学付属福岡",
       "firstSeenAt": "2026-10-20T19:46:49+00:00",
-      "pending": [
-        {
-          "url": "https://www.security-next.com/166604",
-          "reason": "Remaining official links deferred by the per-run/per-article limit"
-        }
-      ],
-      "lastCheckedAt": "2026-11-15T06:02:49+00:00",
+      "pending": [],
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T20:57:52+00:00",
-      "attempts": 6
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 7
     },
     "https://www.security-next.com/166612": {
       "newsSource": "https://www.security-next.com/166612",
@@ -12921,14 +12914,14 @@
       "firstSeenAt": "2026-10-20T19:46:49+00:00",
       "pending": [
         {
-          "url": "https://www.security-next.com/166612",
-          "reason": "Remaining official links deferred by the per-run/per-article limit"
+          "url": "https://www.pref.niigata.lg.jp/site/kankyo/kankyomail-rouei.html",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
-      "lastCheckedAt": "2026-11-15T06:02:49+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T20:57:52+00:00",
-      "attempts": 6
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 7
     },
     "https://www.security-next.com/166584": {
       "newsSource": "https://www.security-next.com/166584",
@@ -12942,10 +12935,10 @@
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
-      "lastCheckedAt": "2026-11-10T20:57:52+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T20:57:52+00:00",
-      "attempts": 6
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 7
     },
     "https://www.security-next.com/166533": {
       "newsSource": "https://www.security-next.com/166533",
@@ -12954,10 +12947,10 @@
       "title": "商談会の案内メールを誤送信、メアド流出 - 山形県",
       "firstSeenAt": "2026-10-20T19:46:49+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-10T20:57:52+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T20:57:52+00:00",
-      "attempts": 6
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 7
     },
     "https://www.security-next.com/166571": {
       "newsSource": "https://www.security-next.com/166571",
@@ -12971,10 +12964,10 @@
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
-      "lastCheckedAt": "2026-11-10T20:57:52+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T20:57:52+00:00",
-      "attempts": 6
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 7
     },
     "https://www.security-next.com/166420": {
       "newsSource": "https://www.security-next.com/166420",
@@ -12988,10 +12981,10 @@
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
-      "lastCheckedAt": "2026-11-10T20:57:52+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T20:57:52+00:00",
-      "attempts": 6
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 7
     },
     "https://www.security-next.com/166352": {
       "newsSource": "https://www.security-next.com/166352",
@@ -13000,10 +12993,10 @@
       "title": "メルアカに不正アクセス、スパム踏み台に - ティービーアイ",
       "firstSeenAt": "2026-10-20T20:48:50+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-10T20:57:52+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T20:57:52+00:00",
-      "attempts": 6
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 7
     },
     "https://www.security-next.com/166372": {
       "newsSource": "https://www.security-next.com/166372",
@@ -13012,10 +13005,10 @@
       "title": "快活フロンティアにサイバー攻撃 - 個人情報流出の可能性",
       "firstSeenAt": "2026-10-20T20:48:50+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-10T20:57:52+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T20:57:52+00:00",
-      "attempts": 6
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 7
     },
     "https://www.security-next.com/166258": {
       "newsSource": "https://www.security-next.com/166258",
@@ -13024,10 +13017,10 @@
       "title": "小学校でサポート詐欺被害、「情報流出なし」と結論 - 浦添市",
       "firstSeenAt": "2026-10-20T20:48:50+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-10T20:57:52+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T20:57:52+00:00",
-      "attempts": 6
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 7
     },
     "https://www.security-next.com/166285": {
       "newsSource": "https://www.security-next.com/166285",
@@ -13036,10 +13029,10 @@
       "title": "海外子会社にサイバー攻撃、情報流出の可能性 - 西尾レントオール",
       "firstSeenAt": "2026-10-20T20:48:50+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-10T20:57:52+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T20:57:52+00:00",
-      "attempts": 6
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 7
     },
     "https://www.security-next.com/166256": {
       "newsSource": "https://www.security-next.com/166256",
@@ -13048,10 +13041,10 @@
       "title": "ランサム攻撃で個人情報が流出したおそれ - 井関農機グループ会社",
       "firstSeenAt": "2026-10-20T20:48:50+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-10T21:53:55+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T21:53:55+00:00",
-      "attempts": 6
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 7
     },
     "https://www.security-next.com/166262": {
       "newsSource": "https://www.security-next.com/166262",
@@ -13060,10 +13053,10 @@
       "title": "小学校で個人情報含む書類を一時紛失 - 尾道市",
       "firstSeenAt": "2026-10-20T20:48:50+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-10T21:53:55+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-10T21:53:55+00:00",
-      "attempts": 6
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 7
     },
     "https://www.security-next.com/166260": {
       "newsSource": "https://www.security-next.com/166260",
@@ -14121,10 +14114,10 @@
           "reason": "ValueError: PDF metadata needs review: publisher=False, date=True, title=True"
         }
       ],
-      "lastCheckedAt": "2026-11-14T19:54:03+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-14T19:54:03+00:00",
-      "attempts": 99
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 100
     },
     "https://www.security-next.com/164643": {
       "newsSource": "https://www.security-next.com/164643",
@@ -18356,18 +18349,18 @@
       "firstSeenAt": "2026-10-22T01:47:44+00:00",
       "pending": [
         {
-          "url": "https://www.osaka-u.ac.jp/ja/news/topics/2026/10/21004",
+          "url": "https://jpn.nec.com/news/info/20261020.html",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://jpn.nec.com/news/info/20261020.html",
+          "url": "https://www.osaka-u.ac.jp/ja/news/topics/2026/10/21004",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
-      "lastCheckedAt": "2026-11-14T19:54:03+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-14T19:54:03+00:00",
-      "attempts": 91
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 92
     },
     "https://www.security-next.com/155818": {
       "newsSource": "https://www.security-next.com/155818",
@@ -18580,10 +18573,10 @@
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
-      "lastCheckedAt": "2026-11-14T19:54:03+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-14T19:54:03+00:00",
-      "attempts": 90
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 91
     },
     "https://www.security-next.com/155553": {
       "newsSource": "https://www.security-next.com/155553",
@@ -18699,7 +18692,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T19:54:03+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -18716,7 +18709,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T19:54:03+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -18733,7 +18726,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T19:54:03+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -19578,10 +19571,10 @@
       "title": "カプコン、1177万件漏えい　不正アクセスで",
       "firstSeenAt": "2026-10-22T08:53:24+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-14T19:54:03+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-14T19:54:03+00:00",
-      "attempts": 89
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 90
     },
     "https://www.security-next.com/153433": {
       "newsSource": "https://www.security-next.com/153433",
@@ -21081,7 +21074,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-15T06:02:49+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": "2026-10-26T08:58:14+00:00",
       "attempts": 20
@@ -21248,7 +21241,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-15T06:02:49+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": "2026-10-26T08:02:53+00:00",
       "attempts": 2
@@ -21384,7 +21377,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T19:54:03+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -21401,7 +21394,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T19:54:03+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -21418,7 +21411,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T19:54:03+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -21435,7 +21428,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T19:54:03+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -21452,7 +21445,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T19:54:03+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -22112,7 +22105,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T19:54:03+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -22129,7 +22122,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T19:54:03+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -22678,7 +22671,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -22695,7 +22688,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -22729,7 +22722,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -22746,7 +22739,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 1
@@ -22763,7 +22756,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -22919,10 +22912,10 @@
           "reason": "ValueError: PDF metadata needs review: publisher=True, date=False, title=True"
         }
       ],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-14T20:51:57+00:00",
-      "attempts": 45
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 46
     },
     "https://internet.watch.impress.co.jp/docs/news/2152679.html": {
       "newsSource": "https://internet.watch.impress.co.jp/docs/news/2152679.html",
@@ -23093,7 +23086,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -23106,23 +23099,19 @@
       "firstSeenAt": "2026-10-31T02:07:30+00:00",
       "pending": [
         {
-          "url": "https://www.ppc.go.jp/files/pdf/260916_shiryou-2.pdf",
-          "reason": "ValueError: PDF metadata needs review: publisher=False, date=False, title=True"
-        },
-        {
-          "url": "https://www.ppc.go.jp/files/pdf/260902_shiryou-3-2.pdf",
-          "reason": "ValueError: PDF metadata needs review: publisher=False, date=False, title=True"
-        },
-        {
-          "url": "https://www.kantei.go.jp/jp/105/actions/202610/26kaigi_cyber.html",
+          "url": "https://www.ppc.go.jp/news/careful_information/261007_alert?ref=topnews",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.ipa.go.jp/security/10threats/10threats2026.html",
+          "url": "https://www.ppc.go.jp/legal/rouei?ref=toppanel",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://www.ppc.go.jp/aboutus/minutes/2026/20261028/",
+          "url": "https://www.ppc.go.jp/personalinfo/legal/leakAction?ref=toppanel",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
+        {
+          "url": "https://www.ppc.go.jp/legal/?ref=topslide",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
@@ -23130,10 +23119,10 @@
           "reason": "Remaining official links deferred by the per-run/per-article limit"
         }
       ],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-14T20:51:57+00:00",
-      "attempts": 42
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 43
     },
     "https://innovatopia.jp/cyber-security/cyber-security-news/119572/": {
       "newsSource": "https://innovatopia.jp/cyber-security/cyber-security-news/119572/",
@@ -23181,30 +23170,26 @@
       "firstSeenAt": "2026-10-31T23:45:30+00:00",
       "pending": [
         {
-          "url": "https://www.saga-s.co.jp/articles/-/1820568",
+          "url": "https://www.lifenet-seimei.co.jp/shared/pdf/202610-30-news.pdf",
+          "reason": "HTTPError: HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.nttdata.com/global/ja/news/release/2026/103101/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
         {
-          "url": "https://news.web.nhk/newsweb/na/nd-20261031de68967",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
-        },
-        {
-          "url": "https://www.mofa.go.jp/mofaj/press/release/pressit_000001_04395.html",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
-        },
-        {
-          "url": "https://www.saga-u.ac.jp/koho/press/2026103041765",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+          "url": "https://www.nomuraholdings.com/jp/news/topics/20261031.html",
+          "reason": "HTTPError: HTTP Error 403: Forbidden"
         },
         {
           "url": "https://innovatopia.jp/cyber-security/cyber-security-news/119603/",
           "reason": "Remaining official links deferred by the per-run/per-article limit"
         }
       ],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-14T20:51:57+00:00",
-      "attempts": 39
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 40
     },
     "https://innovatopia.jp/cyber-security/cyber-security-news/119597/": {
       "newsSource": "https://innovatopia.jp/cyber-security/cyber-security-news/119597/",
@@ -23214,6 +23199,18 @@
       "firstSeenAt": "2026-10-31T23:45:30+00:00",
       "pending": [
         {
+          "url": "https://www.ppc.go.jp/files/pdf/261028_sankoushiryou-2.pdf",
+          "reason": "ValueError: PDF metadata needs review: publisher=False, date=False, title=False"
+        },
+        {
+          "url": "https://travel.rakuten.co.jp/info/announce/20261026.html",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
+        {
+          "url": "https://www.club-tourism.co.jp/jpn/news/2026/1031/",
+          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
+        },
+        {
           "url": "https://www.club-tourism.co.jp/jpn/",
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         },
@@ -23222,26 +23219,14 @@
           "reason": "ValueError: PDF metadata needs review: publisher=False, date=True, title=True"
         },
         {
-          "url": "https://www.ppc.go.jp/personalinfo/legal/leakAction/",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
-        },
-        {
-          "url": "https://www.ipa.go.jp/security/anshin/attention/2026/mgdayori20261026.html",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
-        },
-        {
-          "url": "https://www.jiji.com/jc/article?k=2026103100452&g=soc&m=rss",
-          "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
-        },
-        {
           "url": "https://innovatopia.jp/cyber-security/cyber-security-news/119597/",
           "reason": "Remaining official links deferred by the per-run/per-article limit"
         }
       ],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-14T20:51:57+00:00",
-      "attempts": 38
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 39
     },
     "https://internet.watch.impress.co.jp/docs/news/2152904.html": {
       "newsSource": "https://internet.watch.impress.co.jp/docs/news/2152904.html",
@@ -23554,10 +23539,10 @@
       "title": "アットコスメ、会員約300万人分の情報漏えい　不正アクセスで",
       "firstSeenAt": "2026-11-02T06:18:43+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-14T20:51:57+00:00",
-      "attempts": 34
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 35
     },
     "https://internet.watch.impress.co.jp/docs/news/2153174.html": {
       "newsSource": "https://internet.watch.impress.co.jp/docs/news/2153174.html",
@@ -23878,7 +23863,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -23895,7 +23880,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -23912,7 +23897,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -23929,7 +23914,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -23946,7 +23931,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -23963,7 +23948,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -23980,7 +23965,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -25503,10 +25488,10 @@
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-14T20:51:57+00:00",
-      "attempts": 14
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 15
     },
     "https://www.itmedia.co.jp/news/article/2611/09/2000003000/": {
       "newsSource": "https://www.itmedia.co.jp/news/article/2611/09/2000003000/",
@@ -25792,7 +25777,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -25809,7 +25794,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -25826,7 +25811,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -25843,7 +25828,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -25860,7 +25845,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -25877,7 +25862,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -25894,7 +25879,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -25911,7 +25896,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -25928,7 +25913,7 @@
           "reason": "No direct official announcement link found"
         }
       ],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": false,
       "lastOfficialAttemptAt": null,
       "attempts": 0
@@ -26036,10 +26021,10 @@
       "title": "システム侵害で顧客情報流出の可能性 - ニトリグループ",
       "firstSeenAt": "2026-11-10T10:06:44+00:00",
       "pending": [],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-14T20:51:57+00:00",
-      "attempts": 11
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 12
     },
     "https://internet.watch.impress.co.jp/docs/news/2155310.html": {
       "newsSource": "https://internet.watch.impress.co.jp/docs/news/2155310.html",
@@ -26971,10 +26956,10 @@
           "reason": "ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed"
         }
       ],
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "hasDirectLinks": true,
-      "lastOfficialAttemptAt": "2026-11-14T20:51:57+00:00",
-      "attempts": 5
+      "lastOfficialAttemptAt": "2026-11-15T07:21:00+00:00",
+      "attempts": 6
     },
     "https://www.itmedia.co.jp/news/article/2611/13/2000003197/": {
       "newsSource": "https://www.itmedia.co.jp/news/article/2611/13/2000003197/",
@@ -27345,7 +27330,7 @@
         "https://www.itmedia.co.jp/enterprise/articles/2610/20/news061.html"
       ],
       "firstSeenAt": "2026-10-16T23:19:33+00:00",
-      "lastCheckedAt": "2026-11-15T06:02:49+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "bodyHash": "e5c3e01d1a2980ae9836d66260eb48c01fd4fbf986991b8e20fad805a9fb8673",
       "format": "html"
     },
@@ -27515,7 +27500,7 @@
         "https://innovatopia.jp/cyber-security/cyber-security-news/119067/"
       ],
       "firstSeenAt": "2026-10-16T23:40:35+00:00",
-      "lastCheckedAt": "2026-11-06T04:06:23+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "bodyHash": "121befc7c85d76c64e349430801489a6fb233a819230beae8ab4cafbdac20494",
       "format": "pdf"
     },
@@ -28233,7 +28218,7 @@
         "https://innovatopia.jp/cyber-security/cyber-security-news/119035/"
       ],
       "firstSeenAt": "2026-10-18T23:37:26+00:00",
-      "lastCheckedAt": "2026-11-14T19:54:03+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "bodyHash": "c92fd6e97e0b23171ae6a46ded3362efef4ac887264643882c66e58c0c3cb4d2",
       "format": "html"
     },
@@ -29085,7 +29070,7 @@
         "https://innovatopia.jp/cyber-security/cyber-security-news/119068/"
       ],
       "firstSeenAt": "2026-10-21T10:01:00+00:00",
-      "lastCheckedAt": "2026-11-15T06:02:49+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "bodyHash": "82d84c5c6cf99e2423ad54191130ce489da028f09e35a1c8914f229e180ec372",
       "format": "pdf"
     },
@@ -29243,7 +29228,7 @@
         "https://www.itmedia.co.jp/news/article/2610/20/2000002426/"
       ],
       "firstSeenAt": "2026-10-22T07:02:33+00:00",
-      "lastCheckedAt": "2026-11-14T19:54:03+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "bodyHash": "90208475175232d4dc518a381aca30fa2e585c0b0f265ce8c974717806aa6a57",
       "format": "pdf"
     },
@@ -29256,7 +29241,7 @@
         "https://www.itmedia.co.jp/news/article/2610/22/2000002523/"
       ],
       "firstSeenAt": "2026-10-22T08:53:24+00:00",
-      "lastCheckedAt": "2026-11-14T19:54:03+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "bodyHash": "3b3230244fae526d777c19798bd540e8ea79c8ac88b73565760f1cfc1ed5f6ec",
       "format": "pdf"
     },
@@ -29925,7 +29910,7 @@
         "https://innovatopia.jp/cyber-security/cyber-security-news/119603/"
       ],
       "firstSeenAt": "2026-10-31T23:45:30+00:00",
-      "lastCheckedAt": "2026-11-13T01:24:33+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "bodyHash": "9a445efde1c08239981bc3f0894839148322f28c9885cce62bdb65286fa15d55",
       "format": "pdf"
     },
@@ -29977,7 +29962,7 @@
         "https://innovatopia.jp/cyber-security/cyber-security-news/119603/"
       ],
       "firstSeenAt": "2026-11-01T07:14:54+00:00",
-      "lastCheckedAt": "2026-11-13T12:08:29+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "bodyHash": "fc1c5822a2bd5e83252fa2a0f7c1e80826f2f38f4602a6788c35688c5ab704cb",
       "format": "html"
     },
@@ -30057,7 +30042,7 @@
         "https://www.itmedia.co.jp/news/article/2611/02/2000002795/"
       ],
       "firstSeenAt": "2026-11-02T06:18:43+00:00",
-      "lastCheckedAt": "2026-11-14T20:51:57+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "bodyHash": "70d0d385d548552b83000394a3cc85ae5d5481097aee3eed292015b535fc792d",
       "format": "html"
     },
@@ -30535,7 +30520,7 @@
         "https://www.security-next.com/192572"
       ],
       "firstSeenAt": "2026-11-09T11:10:18+00:00",
-      "lastCheckedAt": "2026-11-15T04:06:12+00:00",
+      "lastCheckedAt": "2026-11-15T07:21:00+00:00",
       "bodyHash": "29f2725393f0dc06bf3902d6b925491da0d13a5a2fc0cf8b769c96e0d386ca96",
       "format": "pdf"
     },
@@ -30971,7 +30956,7 @@
           "https://www.security-next.com/date/2026/11/page/3",
           "https://www.security-next.com/date/2026/11/page/4"
         ],
-        "lastSuccessAt": "2026-11-15T06:02:49+00:00"
+        "lastSuccessAt": "2026-11-15T07:21:00+00:00"
       },
       "2026-10": {
         "base": "https://www.security-next.com/date/2026/10",
