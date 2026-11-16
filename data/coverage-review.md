@@ -1,15 +1,15 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-16T02:11:38+00:00
+確認日時: 2026-11-16T09:48:59+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
 - 掲載済み: 8件
 - 同一事案の別記事: 2件
 - 掲載対象外: 9件
-- 取得失敗: 81件
-- 公式発表の発見待ち: 457件
-- 内容確認が必要: 458件
+- 取得失敗: 87件
+- 公式発表の発見待ち: 453件
+- 内容確認が必要: 462件
 - 未処理: 0件
 - 再確認が必要: 16件
 
@@ -94,6 +94,66 @@
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
 - 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/16/56785.html>
+
+### EC管理システムの「GoQSystem」に不正アクセス、1694社・約498万件の注文情報が漏えい　
+
+公式発表の発見待ち / 報道・公表日: 2026-11-16
+
+<https://internet.watch.impress.co.jp/docs/news/2156617.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://internet.watch.impress.co.jp/docs/news/2156617.html>
+
+### スパコン「富岳」に不正アクセス　理研が明らかに
+
+内容確認が必要 / 報道・公表日: 2026-11-16
+
+<https://www.itmedia.co.jp/news/article/2611/16/2000003224/>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.r-ccs.riken.jp/fugaku/>
+
+### マネックス証券、免許証画像やマイナカード表面など1592件漏えいか　口座開設システムに不正アクセス
+
+内容確認が必要 / 報道・公表日: 2026-11-16
+
+<https://www.itmedia.co.jp/news/article/2611/16/2000003222/>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://info.monex.co.jp/press/pdf/press2026_11_13_monex_pr.pdf%EF%BC%88PDF%EF%BC%89>
+
+### 「艦これアーケード」「オンゲキ」など一部再開　不正アクセスで停止のセガ系システムが試験復旧
+
+内容確認が必要 / 報道・公表日: 2026-11-16
+
+<https://www.itmedia.co.jp/news/article/2611/16/2000003220/>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://my-aime.net/news/detail?newsId=296>
+
+### 当社サービス「Cacoo」における不正アクセスの発生について（第一報）
+
+内容確認が必要 / 報道・公表日: 2026-11-16
+
+<https://www.release.tdnet.info/inbs/140120261116581044.pdf>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: PDF metadata needs review: publisher=True, date=False, title=True / <https://www.release.tdnet.info/inbs/140120261116581044.pdf>
+
+### 当社サービス「Cacoo」における不正アクセスの「Backlog」その他の当社サービスへの影響について（影響なし・通常どおりご利用可能）
+
+内容確認が必要 / 報道・公表日: 2026-11-16
+
+<https://www.release.tdnet.info/inbs/140120261116581049.pdf>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: PDF metadata needs review: publisher=True, date=False, title=True / <https://www.release.tdnet.info/inbs/140120261116581049.pdf>
 
 ### \[ITmedia Mobile\] NTTドコモで不正アクセスと5G SA通信障害が発生――「複数システムが有機的に連動する際の仕組みを悪用」とはなんなのか
 
@@ -422,10 +482,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1109_01>
 - 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1030_01>
 - 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1104_02>
 - 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1106_01>
+- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1109_01>
 
 ### セキュリティの司令塔、韓国金融保安院がハッキング攻撃受け個人情報650件流出
 
@@ -987,8 +1047,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://kingprinters.com/news/2026/oshirase_20261109>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://kingprinters.com/news/2026/oshirase_20260925>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://kingprinters.com/news/2026/oshirase_20261109>
 
 ### 【解説】プレステージ・コアソリューションに不正アクセス、ロードサービスの情報最大約550万件（重複含む）持ち出し
 
@@ -998,8 +1058,6 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jaccs.co.jp/information/emerge/page_01196.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.porsche.com/japan/jp/legal/notice/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119858/>
 
 ### ニトリ、不正アクセスにより個人・法人会員の情報最大3762万件が流出の可能性　
@@ -1178,13 +1236,13 @@
 
 ### バンダイロジパルに不正アクセス、「一番くじONLINE」の配送情報が漏えいした可能性
 
-公式発表の発見待ち / 報道・公表日: 2026-11-06
+取得失敗 / 報道・公表日: 2026-11-06
 
 <https://scan.netsecurity.ne.jp/article/2026/11/06/56685.html>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/06/56685.html>
+- 取得結果: HTTPError: HTTP Error 502: Gateway Error / <https://scan.netsecurity.ne.jp/article/2026/11/06/56685.html>
 
 ### ドコモ通信障害、約14時間で復旧　原因は「交換機の輻輳」、不正アクセスの形跡なし
 
@@ -1214,10 +1272,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.docomo.ne.jp/info/notice/page/261105_03_m.html>
 - 取得結果: ValueError: PDF metadata needs review: publisher=True, date=False, title=True / <https://www.smbc.co.jp/news/pdf/j20261105_02.pdf>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.himeji.lg.jp/shisei/0000034645.html>
-- 取得結果: UnicodeEncodeError: 'ascii' codec can't encode characters in position 5-19: ordinal not in range(128) / <https://yudetaro.jp/%E3%83%90%E3%83%BC%E3%82%B9%E3%83%87%E3%83%BC%E3%82%AF%E3%83%A9%E3%83%96%E7%B5%82%E4%BA%86%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.yakiniku-king.jp/news/6877/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119744/>
 
 ### e-Tax、不正アクセスでプログラムの一部が流出　国税庁「納税者情報の漏えいなし」
@@ -1228,11 +1284,11 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.e-tax.nta.go.jp/topics/2026/topics_20261104_mentenansu.htm>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.e-tax.nta.go.jp/topics/2024/topics_hushinmail.htm>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2505.htm>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.antiphishing.jp/news/alert/etaxmal_20260930.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jiji.com/jc/article?k=2026110500500&g=soc>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://shirube.zaikyo.or.jp/article/2026/11/05/10357533.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119740/>
 
 ### ゲーセンに真っ暗な画面ずらり……セガ系システムの障害が長期化、復旧めど立たず　原因は不正アクセス
@@ -1848,16 +1904,17 @@
 
 ### 無印良品の情報流出、連携終了後も残ったカード番号109万件が問う「手放す設計」
 
-内容確認が必要 / 報道・公表日: 2026-11-04
+取得失敗 / 報道・公表日: 2026-11-04
 
 <https://innovatopia.jp/cyber-security/cyber-security-news/119729/>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://www.sbbit.jp/article/cont1/187966>
+- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1104_02>
+- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.muji.com/jp/mujicard/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.saisoncard.co.jp/customer-support/information/20261104/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/news/careful_information/261007_alert?ref=topnews>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/legal/rouei?ref=toppanel>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119729/>
 
 ### 「既知の脆弱性を対策すれば、AIが大きな脅威とは言いがたい」「個人情報漏えいの被害は何年も続く」、森井名誉教授が語るサイバー攻撃の現状　GMOへの攻撃は「直接顧客の個人情報を人質に取るランサムウェアの新形態」
@@ -1902,13 +1959,13 @@
 
 ### 「楽天トラベル」海外ホテル予約サイトの一部ページと多言語予約サイトに不正アクセス
 
-公式発表の発見待ち / 報道・公表日: 2026-11-02
+取得失敗 / 報道・公表日: 2026-11-02
 
 <https://scan.netsecurity.ne.jp/article/2026/11/02/56646.html>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/02/56646.html>
+- 取得結果: HTTPError: HTTP Error 502: Gateway Error / <https://scan.netsecurity.ne.jp/article/2026/11/02/56646.html>
 
 ### ユミルリンクのメール配信サービスの一部サーバシステムに不正アクセス、延べ5,162万8,280件の情報が流出
 
@@ -4239,23 +4296,23 @@
 
 ### 佐川急便「お荷物問い合わせサービス」に不正アクセス 第4報
 
-公式発表の発見待ち / 報道・公表日: 2026-10-19
+取得失敗 / 報道・公表日: 2026-10-19
 
 <https://scan.netsecurity.ne.jp/article/2026/10/19/56499.html>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/10/19/56499.html>
+- 取得結果: HTTPError: HTTP Error 502: Gateway Error / <https://scan.netsecurity.ne.jp/article/2026/10/19/56499.html>
 
 ### バーガーキング公式アプリに不正アクセス、約1,118万件の会員情報が漏えい
 
-公式発表の発見待ち / 報道・公表日: 2026-10-19
+取得失敗 / 報道・公表日: 2026-10-19
 
 <https://scan.netsecurity.ne.jp/article/2026/10/19/56498.html>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/10/19/56498.html>
+- 取得結果: HTTPError: HTTP Error 502: Gateway Error / <https://scan.netsecurity.ne.jp/article/2026/10/19/56498.html>
 
 ### GMOリサーチ&AI 運営のアンケートサイト「infoQ」に不正アクセス、89万4,082件の個人情報外部持ち出しを確認
 
@@ -4309,13 +4366,13 @@
 
 ### 加古川市の職員メール配信システムを運用する事業者に不正アクセス、「防災ネットかこがわ」への影響はない
 
-公式発表の発見待ち / 報道・公表日: 2026-10-19
+取得失敗 / 報道・公表日: 2026-10-19
 
 <https://scan.netsecurity.ne.jp/article/2026/10/19/56491.html>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/10/19/56491.html>
+- 取得結果: HTTPError: HTTP Error 502: Gateway Error / <https://scan.netsecurity.ne.jp/article/2026/10/19/56491.html>
 
 ### 内閣官房国家サイバー統括室、不正アクセスによる漏えい等の事案を踏まえた対応について発表
 
