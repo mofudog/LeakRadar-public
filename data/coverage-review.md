@@ -1,6 +1,6 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-17T03:55:48+00:00
+確認日時: 2026-11-17T13:29:39+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
@@ -8,8 +8,8 @@
 - 同一事案の別記事: 2件
 - 掲載対象外: 9件
 - 取得失敗: 87件
-- 公式発表の発見待ち: 462件
-- 内容確認が必要: 467件
+- 公式発表の発見待ち: 464件
+- 内容確認が必要: 472件
 - 未処理: 0件
 - 再確認が必要: 16件
 
@@ -134,6 +134,82 @@
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
 - 取得結果: ValueError: PDF metadata needs review: publisher=True, date=False, title=True / <https://www.keisei.co.jp/cms/files/keisei/MASTER/0110/TpXAnIV6.pdf>
+
+### 楽天証券に不正アクセス、最大約1125万口座のログインIDなどが漏えいの可能性　氏名・住所・金融資産などの情報最大約447万口座分も
+
+公式発表の発見待ち / 報道・公表日: 2026-11-17
+
+<https://internet.watch.impress.co.jp/docs/news/2157218.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://internet.watch.impress.co.jp/docs/news/2157218.html>
+
+### 楽天証券に不正アクセス、最大1125万口座のIDなど漏えいか　「テスト環境」の一部情報が流出のおそれ
+
+内容確認が必要 / 報道・公表日: 2026-11-17
+
+<https://www.itmedia.co.jp/news/article/2611/17/2000003275/>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: ValueError: Article encoding could not be read reliably / <https://www.rakuten-sec.co.jp/web/info/info20261117-02.html>
+
+### \[ITmedia ビジネスオンライン\] 楽天証券、最大1125万口座の情報漏えいか　447万口座は「年収」「資産情報」も対象
+
+内容確認が必要 / 報道・公表日: 2026-11-17
+
+<https://www.itmedia.co.jp/business/articles/2611/17/news072.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://zoo-inc.com/media/securities-company-ranking/>
+
+### 東京都、水道利用者個人情報871件含むHDD紛失　一部に口座番号も　10月に同様事案
+
+公式発表の発見待ち / 報道・公表日: 2026-11-17
+
+<https://www.itmedia.co.jp/news/article/2611/17/2000003270/>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://www.itmedia.co.jp/news/article/2611/17/2000003270/>
+
+### \[ITmedia PC USER\] 理化学研究所のスパコン「富岳」運用系に不正アクセス　情報漏えいの恐れ
+
+内容確認が必要 / 報道・公表日: 2026-11-17
+
+<https://www.itmedia.co.jp/pcuser/articles/2611/17/news064.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://fugaku100kei.jp/fugaku/about>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.riken.jp/pr/news/2026/20260619_1/index.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.riken.jp/pr/news/2026/20261116_2/index.html>
+
+### モリサワや「mineo」など会員情報漏えい　マーケツール「KARTE」不正アクセス、外部サービス連携用シークレットキーなども
+
+内容確認が必要 / 報道・公表日: 2026-11-17
+
+<https://www.itmedia.co.jp/news/article/2611/17/2000003257/>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.hankyu-hotel.com/hotel/hs/hanshin/topics/2026/GPDetailPage>
+- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://www.itmedia.co.jp/news/article/2611/17/2000003257/>
+
+### スパコン「富岳」に不正アクセス、理研が公表　最大4,597名の情報と外部接続の鍵が対象
+
+内容確認が必要 / 報道・公表日: 2026-11-17
+
+<https://innovatopia.jp/cyber-security/cyber-security-news/120068/>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.riken.jp/pr/news/2026/20261116_2/index.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.r-ccs.riken.jp/fugaku/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://news.web.nhk/newsweb/na/nd-20261117de76883>
+- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/120068/>
 
 ### アクサ損害保険「MyAXA」に不正アクセス、約59万7千件の顧客情報が漏えいした可能性
 
@@ -1228,8 +1304,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1109_01>
 - 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1106_01>
+- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1109_01>
 
 ### \[ITmedia ビジネスオンライン\] ニトリ、最大3762万件の情報流出か　「ニトリネット」注文データなど不正アクセスの可能性
 
