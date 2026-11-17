@@ -1,11 +1,11 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-16T20:31:31+00:00",
+  "lastAttemptAt": "2026-11-17T03:55:48+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-16T20:31:31+00:00",
-  "successfulFetches": 467,
-  "failedFetches": 45,
-  "changedReviewedSources": 79,
+  "lastPartialSuccessAt": "2026-11-17T03:55:48+00:00",
+  "successfulFetches": 466,
+  "failedFetches": 46,
+  "changedReviewedSources": 81,
   "automaticAnnouncements": 313,
   "watchedDocumentCount": 458,
   "watchedIndexCount": 52,
@@ -168,6 +168,10 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "url": "https://www.fancl.jp/news/",
+      "error": "HTTP Error 504: Gateway Time-out"
+    },
+    {
       "url": "https://www.kenes.jp/press/",
       "error": "HTTP Error 403: Forbidden"
     },
@@ -197,16 +201,16 @@
   "cloudRun": true,
   "retentionStart": "2023-11-17",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-16T20:31:31+00:00",
+    "lastAttemptAt": "2026-11-17T03:55:48+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
-    "newsCandidates": 1740,
+    "newsCandidates": 1752,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 82,
+    "officialFetches": 33,
     "confirmedOfficialAnnouncements": 377,
-    "pendingNewsArticles": 1022,
+    "pendingNewsArticles": 1034,
     "skippedReviewedArticles": 24,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -249,7 +253,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-16T20:34:24+00:00",
+      "lastAttemptAt": "2026-11-17T03:57:50+00:00",
       "listPagesChecked": 6,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -257,7 +261,7 @@
     }
   },
   "automaticSummaries": {
-    "ready": 72,
+    "ready": 73,
     "partial": 175,
     "pending": 107,
     "fetchFailed": 24
@@ -266,18 +270,18 @@
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
-    "requestsLast24Hours": 20,
+    "requestsLast24Hours": 15,
     "cachedSources": 145,
     "acceptedSources": 0,
     "noMatchingSources": 1,
     "failedSources": 4,
-    "deferredSources": 98,
+    "deferredSources": 101,
     "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 4,
+    "fetches": 6,
     "linkedDocuments": 12,
     "matchedAlternatives": 0,
     "pending": 4,
@@ -292,14 +296,14 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "needs_source_lookup": 452,
+    "needs_source_lookup": 462,
     "reopened": 16,
     "fetch_failed": 87,
     "covered": 8,
-    "needs_review": 465,
+    "needs_review": 467,
     "duplicate": 2
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 1020,
+  "unresolvedNewsCandidates": 1032,
   "deferredNewsCandidates": 0
 }

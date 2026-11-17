@@ -1,6 +1,6 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-16T20:31:31+00:00
+確認日時: 2026-11-17T03:55:48+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
@@ -8,12 +8,132 @@
 - 同一事案の別記事: 2件
 - 掲載対象外: 9件
 - 取得失敗: 87件
-- 公式発表の発見待ち: 452件
-- 内容確認が必要: 465件
+- 公式発表の発見待ち: 462件
+- 内容確認が必要: 467件
 - 未処理: 0件
 - 再確認が必要: 16件
 
 ## 確認待ち
+
+### エディオンECサイトに不正アクセス、不正なプログラムが組み込まれる改ざんが新たに判明
+
+公式発表の発見待ち / 報道・公表日: 2026-11-17
+
+<https://scan.netsecurity.ne.jp/article/2026/11/17/56806.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/17/56806.html>
+
+### よーじやの会員情報管理システムに不正アクセス、店舗・オンラインショップ・アプリに登録のあった顧客の個人情報が漏えい
+
+公式発表の発見待ち / 報道・公表日: 2026-11-17
+
+<https://scan.netsecurity.ne.jp/article/2026/11/17/56805.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/17/56805.html>
+
+### 「teket」に不正アクセス
+
+公式発表の発見待ち / 報道・公表日: 2026-11-17
+
+<https://scan.netsecurity.ne.jp/article/2026/11/17/56804.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/17/56804.html>
+
+### 機関投資家向けIR情報提供サービス「機関Navi」に不正アクセス
+
+公式発表の発見待ち / 報道・公表日: 2026-11-17
+
+<https://scan.netsecurity.ne.jp/article/2026/11/17/56803.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/17/56803.html>
+
+### Cuenoteへの不正アクセス、インプレスのメールマガジン「DIGITAL X News」の会員情報 約5万8,000件が漏えい
+
+公式発表の発見待ち / 報道・公表日: 2026-11-17
+
+<https://scan.netsecurity.ne.jp/article/2026/11/17/56802.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/17/56802.html>
+
+### 住民記録システム移行作業でテストデータを誤送信しマイナンバーカード失効
+
+公式発表の発見待ち / 報道・公表日: 2026-11-17
+
+<https://scan.netsecurity.ne.jp/article/2026/11/17/56801.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/17/56801.html>
+
+### NewsPicksに管理ツールの脆弱性を突いた不正アクセス
+
+公式発表の発見待ち / 報道・公表日: 2026-11-17
+
+<https://scan.netsecurity.ne.jp/article/2026/11/17/56800.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/17/56800.html>
+
+### 医療関係者向け情報提供ウェブサイト「Pharma DIGITAL」にサイバー攻撃、医療従事者55万8,000名の個人情報が漏えいした可能性
+
+公式発表の発見待ち / 報道・公表日: 2026-11-17
+
+<https://scan.netsecurity.ne.jp/article/2026/11/17/56799.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/17/56799.html>
+
+### 理研のスパコン「富岳」運用システムに不正アクセス、「理究」を含む利用者の個人情報漏えいの可能性　利用者が保存していた認証情報の悪用も確認
+
+公式発表の発見待ち / 報道・公表日: 2026-11-17
+
+<https://internet.watch.impress.co.jp/docs/news/2156895.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://internet.watch.impress.co.jp/docs/news/2156895.html>
+
+### 大阪公立大学、委託先であるNECの個人情報漏えいについて発表、機密性の高い個人情報を削除せず保持　
+
+公式発表の発見待ち / 報道・公表日: 2026-11-17
+
+<https://internet.watch.impress.co.jp/docs/news/2156755.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://internet.watch.impress.co.jp/docs/news/2156755.html>
+
+### スパコン「富岳」不正アクセスで運用停止　研究データや外部接続用SSH鍵など流出の可能性　他システムへの接続試行も確認
+
+内容確認が必要 / 報道・公表日: 2026-11-17
+
+<https://www.itmedia.co.jp/news/article/2611/17/2000003253/>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.riken.jp/pr/news/2026/20261116_2/index.html>
+
+### 「京成スカイライナー」予約システム不正アクセス、最大約337万件の顧客情報漏えいか
+
+内容確認が必要 / 報道・公表日: 2026-11-17
+
+<https://www.itmedia.co.jp/news/article/2611/17/2000003250/>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: ValueError: PDF metadata needs review: publisher=True, date=False, title=True / <https://www.keisei.co.jp/cms/files/keisei/MASTER/0110/TpXAnIV6.pdf>
 
 ### アクサ損害保険「MyAXA」に不正アクセス、約59万7千件の顧客情報が漏えいした可能性
 
@@ -3368,8 +3488,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.mos.jp/topics/20261023_1/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nikkei.com/article/DGXZQOUC238H90T21C26A0000000/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://news.web.nhk/newsweb/na/nd-20261023de64388>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119412/>
 
 ### 警視庁が個人情報漏えいに関する対策・啓発冊子を公開、都民向けと事業者向け　

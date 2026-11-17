@@ -179,20 +179,20 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/4YBQ3JACTocGVgQmIVkSHe/bed9ff0b11db690e1217e0329c484104/20261015_Public_J.pdf",
-      "attemptedAt": "2026-11-14T18:58:26+00:00",
+      "attemptedAt": "2026-11-17T03:55:48+00:00",
       "state": "failed",
-      "error": "ungrounded_output",
-      "retryAfter": 1794769106.0
+      "error": "irrelevant_output",
+      "retryAfter": 1794974148.0
     },
     "aaf9c8b7523bb89a68be72c56c180ed163341122dea98ee9fb15880b06f00c04": {
       "hash": "eaf2549aa9d544b7c67d8eb0bb299f65986797e0d0852ce1a463f5c4d26da44c",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://data.swcms.net/file/h2o-retailing/ja/news/auto_20261019552921/pdfFile.pdf",
-      "attemptedAt": "2026-11-14T18:58:26+00:00",
+      "attemptedAt": "2026-11-17T03:55:48+00:00",
       "state": "failed",
       "error": "irrelevant_output",
-      "retryAfter": 1794769106.0
+      "retryAfter": 1794974148.0
     },
     "9b9733363c259bbd51a8cb1c20f8086db64ad74e0224ca3f503a21e2c7567cad": {
       "hash": "e5c07ba0842aeecc57f135bdca332f151066cce7efec314275196ff2c6c141a1",
@@ -2307,14 +2307,14 @@
       "retryAfter": 1794848080.0
     },
     "cbd24c258afb364639941a670e9e1484d89a83f83a9fc29027fd1eee8c54b3bc": {
-      "hash": "5dd8dfd0bdc543739aa0b7f88579eeb9c1ef16993d7e59b927508b082e52dafa",
+      "hash": "fdab339ecb9014d9b5beac6fa048eea4946b2fb8c08a512aed81dbb0a517e768",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.tsr-net.co.jp/data/detail/1203305_1527.html",
-      "attemptedAt": "2026-11-14T17:48:53+00:00",
+      "attemptedAt": "2026-11-17T03:55:48+00:00",
       "state": "failed",
-      "error": "irrelevant_output",
-      "retryAfter": 1794764933.0
+      "error": "api_http_503",
+      "retryAfter": 1794974148.0
     },
     "b84205a23c754bdbeeffd7ffba37c7e6736dbfd649461ad5693c422fe53179a8": {
       "hash": "465b89fbbf1f4da88016d0f7f1fa030a6117ceaaf89f7b19edea1d116754d028",
@@ -2331,10 +2331,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/4YBQ3JACTocGVgQmIVkSHe/c7865f094fe436292d7c81e1116a9c7f/20261015_Public_J.pdf",
-      "attemptedAt": "2026-11-14T18:58:26+00:00",
+      "attemptedAt": "2026-11-17T03:55:48+00:00",
       "state": "failed",
-      "error": "ungrounded_output",
-      "retryAfter": 1794769106.0
+      "error": "api_request_failed",
+      "retryAfter": 1794974148.0
     },
     "98f3653f8449d642458ec7f154c3f006f87180800a7c3f61989214ed457e679f": {
       "hash": "7c288ba0cfc40c394ee172cc00581a56bdb40a7cd098d40efbf8b76a26706add",
@@ -3132,13 +3132,22 @@
       "passages": []
     },
     "21576788f6759371183690d950c75fc4b281be260a47c0848b0e984aff5bd320": {
-      "hash": "7151a605bbd3ad2d3d0f4426a56702cb164f168c3e80126a648b87188b052deb",
+      "hash": "174d6f9cf6745b95fca3aecaa105a5ad91dee514cd65ac510d2fda70d95595d6",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://at-link.net/information/%E3%82%A2%E3%83%83%E3%83%88%E3%83%AA%E3%83%B3%E3%82%AF%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E8%AA%BF%E6%9F%BB%E7%8A%B6%E6%B3%81/",
-      "attemptedAt": "2026-11-11T09:09:09+00:00",
+      "attemptedAt": "2026-11-17T03:55:48+00:00",
       "state": "success",
-      "passages": []
+      "passages": [
+        {
+          "kind": "audience",
+          "quote": "対象医療機関のご利用者様で、アットリンクアプリ・WEB予約をご利用の方"
+        },
+        {
+          "kind": "items",
+          "quote": "氏名、フリガナ、誕生月日 メールアドレス(登録された方のみ) アットリンクアプリ・WEB予約のログインID、パスワード"
+        }
+      ]
     },
     "ef662704304da55478eaf2eea4363ad24c8bb7d805f01cdf26e8069fada89296": {
       "hash": "863a1c2eb445254fc1058a0cadef87c8a020115b7bb6c30d0c502360c42180c6",
@@ -3309,16 +3318,6 @@
     }
   },
   "requestTimes": [
-    1794779500.0,
-    1794779500.0,
-    1794779500.0,
-    1794779500.0,
-    1794779500.0,
-    1794795098.0,
-    1794795098.0,
-    1794795098.0,
-    1794795098.0,
-    1794795098.0,
     1794822539.0,
     1794822539.0,
     1794822539.0,
@@ -3328,6 +3327,11 @@
     1794861091.0,
     1794861091.0,
     1794861091.0,
-    1794861091.0
+    1794861091.0,
+    1794887748.0,
+    1794887748.0,
+    1794887748.0,
+    1794887748.0,
+    1794887748.0
   ]
 }
