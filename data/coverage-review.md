@@ -1,17 +1,17 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-19T03:32:10+00:00
+確認日時: 2026-11-19T13:17:37+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
-- 掲載済み: 8件
-- 同一事案の別記事: 2件
+- 掲載済み: 9件
+- 同一事案の別記事: 3件
 - 掲載対象外: 9件
-- 取得失敗: 92件
-- 公式発表の発見待ち: 483件
-- 内容確認が必要: 478件
+- 取得失敗: 94件
+- 公式発表の発見待ち: 482件
+- 内容確認が必要: 476件
 - 未処理: 0件
-- 再確認が必要: 16件
+- 再確認が必要: 14件
 
 ## 確認待ち
 
@@ -1018,10 +1018,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1030_01>
 - 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1104_02>
 - 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1106_01>
 - 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1109_01>
+- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1030_01>
 
 ### 宝くじ公式サイト、会員の当落情報まで第三者が閲覧の可能性　リスト型攻撃か
 
@@ -1750,13 +1750,13 @@
 
 ### JETROが利用する国際ビジネスマッチングサイトに不正アクセス
 
-公式発表の発見待ち / 報道・公表日: 2026-11-06
+取得失敗 / 報道・公表日: 2026-11-06
 
 <https://scan.netsecurity.ne.jp/article/2026/11/06/56689.html>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/06/56689.html>
+- 取得結果: HTTPError: HTTP Error 502: Gateway Error / <https://scan.netsecurity.ne.jp/article/2026/11/06/56689.html>
 
 ### 2026年は438万件のカード情報が漏えい ～ MM総研
 
@@ -2703,13 +2703,13 @@
 
 ### ECサイトに不正アクセス、会員情報流出 - フィギュアメーカー
 
-内容確認が必要 / 報道・公表日: 2026-11-02
+取得失敗 / 報道・公表日: 2026-11-02
 
 <https://www.security-next.com/191996>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.goodsmile.com/>
+- 取得結果: HTTPError: HTTP Error 503: OK / <https://www.goodsmile.com/>
 
 ### ノジマオンラインに不正アクセス、会員情報約700万件が漏えい　カード情報は非保持で対象外
 
@@ -4263,28 +4263,17 @@
 
 ### カプコン「CAPCOM ID」不正アクセス｜196件はパスワードを書き換えられた
 
-取得失敗 / 報道・公表日: 2026-10-22
+内容確認が必要 / 報道・公表日: 2026-10-22
 
 <https://innovatopia.jp/cyber-security/cyber-security-news/119314/>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://www.capcom.co.jp/ir/news/html/261022.html>
-- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://www.capcom.co.jp/ir/english/news/html/e261022.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://cid.capcom.com/en/guide/game/regist/>
-- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://www.capcom.co.jp/ir/sustainability/security.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.zkai.co.jp/post-120678/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/news/careful_information/261007_alert?ref=topnews>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/legal/rouei?ref=toppanel>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/personalinfo/legal/leakAction?ref=toppanel>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/legal/?ref=topslide>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119314/>
-
-### リクルートの中古車情報サービスで個人情報など流出か
-
-取得失敗 / 報道・公表日: 2026-10-22
-
-<https://www.security-next.com/191773>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://www.recruit.co.jp/>
 
 ### 日本経済新聞社への不正アクセス、日経ナショナル ジオグラフィックサービス利用者の情報も漏えいした可能性
 
@@ -4766,8 +4755,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=True, title=False / <https://pdf.irpocket.com/C8333/xoA3/SFxs/PO3f/llgp.pdf>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://lovehenoko.org/%e3%80%90%e9%87%8d%e8%a6%81%e3%80%91%e5%bd%93%e5%8d%94%e8%ad%b0%e4%bc%9a%e3%83%a1%e3%83%bc%e3%83%ab%e3%82%a2%e3%83%89%e3%83%ac%e3%82%b9%e3%82%92%e6%82%aa%e7%94%a8%e3%81%97%e3%81%9f%e3%80%8c%e3%81%aa/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.hachioji.ed.jp/information/information-junr/5111/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nichirei.co.jp/news/2026/524.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119065/>
 
 ### 【随時更新】費用をかけてもすぐ備える｜不正アクセスの緊急対応・診断・監視の料金
@@ -4778,25 +4767,25 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.kel.co.jp/service/kzss/kel_incident_rescue_service.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.crowdstrike.com/ja-jp/services/incident-response/>
-- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://www.gsx.co.jp/services/emergency.html>
-- 取得結果: URLError: <urlopen error \[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issue / <https://www.cybereason.co.jp/products/incident-response-service/>
+- 取得結果: HTTPError: HTTP Error 404: Page not found / <https://www.hitachi-systems.com/secure/incident/index.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.securewave.co.jp/service/incident-response>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ibm.com/jp-ja/services/security/incident-response>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.pwc.com/jp/ja/services/digital-trust/cyber-security-engineering/incident-response.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.deloitte.com/jp/ja/services/consulting/services/cyber-defense-resilience.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119058/>
 
 ### 【随時更新】不正アクセスに備える無償の相談・診断一覧｜「どこまで無料か」を比べる
 
-内容確認が必要 / 報道・公表日: 2026-10-20
+取得失敗 / 報道・公表日: 2026-10-20
 
 <https://innovatopia.jp/cyber-security/cyber-security-news/119057/>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.securesky-tech.com/2026/10/14/9506/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jnsa.org/emergency_response/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.sompocybersecurity.com/service/incident_support_desk.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.isskk.co.jp/emergency/index.php>
-- 取得結果: ValueError: Announcement date does not match the news time window / <https://www.ssk-kan.co.jp/digital-forensics>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.techmatrix.co.jp/product/tirs/index.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://digitaldata-forensics.com/column/resources/paper09/>
+- 取得結果: HTTPError: HTTP Error 500: Internal Server Error / <https://digitaldata-forensics.com/column/resources/paper10/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://digitaldata-forensics.com/column/resources/paper11/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119057/>
 
 ### 【解説】相次ぐ不正アクセスの攻撃元にAIツール「ARTEX」、入口は公開アプリの解析　NICT・IPAも対応
@@ -4807,10 +4796,11 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.japanarts.co.jp/news/p10043/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://corp.raksul.com/news/press/261016raksul_studio/>
-- 取得結果: HTTPError: HTTP Error 404: Not Found / <https://www.tokyo-np.co.jp/article/521732>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.sanyonews.jp/article/2004992>
+- 取得結果: HTTPError: HTTP Error 404: Not Found / <https://news.web.nhk/newsweb/na/nd-20261015de59825>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jiji.com/jc/article?k=2026101900575&g=soc>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://newsdig.tbs.co.jp/articles/rcc/3012339?display=1>
+- 取得結果: HTTPError: HTTP Error 404: Not Found / <https://www.fnn.jp/articles/-/1133318>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://gmo-cybersecurity.com/blog/20261019/>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119091/>
 
 ### NEC委託先にサイバー攻撃 - 顧客システムで障害、個人情報流出
@@ -5267,16 +5257,6 @@
 
 - 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/10/16/56477.html>
 
-### 日経新聞社、クラウドサービスへの不正アクセスで約183万件の個人情報漏えい　
-
-再確認が必要 / 報道・公表日: 2026-10-16
-
-<https://internet.watch.impress.co.jp/docs/news/2148878.html>
-
-記事の見出し・日付または確認済み資料の状態が変わったため、過去の判断を適用していません。
-
-- 取得結果: No direct official announcement link found / <https://internet.watch.impress.co.jp/docs/news/2148878.html>
-
 ### ヤマト運輸、「クロネコ代金後払いサービス」不正アクセスで約530万件の個人情報漏えい　
 
 再確認が必要 / 報道・公表日: 2026-10-16
@@ -5316,16 +5296,6 @@
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
 - 取得結果: No direct official announcement link found / <https://www.itmedia.co.jp/news/article/2610/16/2000002341/>
-
-### 日経新聞、不正アクセスで183万件の個人情報流出　開発用クラウドの認証情報盗まれ
-
-再確認が必要 / 報道・公表日: 2026-10-16
-
-<https://www.itmedia.co.jp/news/article/2610/16/2000002337/>
-
-記事の見出し・日付または確認済み資料の状態が変わったため、過去の判断を適用していません。
-
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nikkei.com/article/DGXZQOUD159VX0V11C26A0000000/>
 
 ### \[ITmedia ビジネスオンライン\] 医療情報サイト「エムスリー」で個人情報漏えい　製薬企業向け「MR君」に不正アクセス
 
@@ -5665,6 +5635,16 @@
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
 - 取得結果: HTTP Error 404: Not Found / <https://www.release.tdnet.info/inbs/140120261009548299.pdf>
+
+### 不正アクセス発生および情報漏えいに関するお知らせ
+
+内容確認が必要 / 報道・公表日: 2026-10-09
+
+<https://www.release.tdnet.info/inbs/140120261006546597.pdf>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: HTTP Error 404: Not Found / <https://www.release.tdnet.info/inbs/140120261006546597.pdf>
 
 ### 医療関係者向け情報サイトで会員情報流出の可能性 - 旭化成グループ会社
 
@@ -9233,13 +9213,13 @@
 
 ### キューヘンのランサム被害、個人情報約37.4万件が流出か
 
-内容確認が必要 / 報道・公表日: 2024-06-14
+取得失敗 / 報道・公表日: 2024-06-14
 
 <https://www.security-next.com/158445>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.kyuden.co.jp/press/2026/h261110-1.html>
+- 取得結果: TimeoutError: The read operation timed out / <https://www.kyuden.co.jp/>
 
 ### JetBrains製IDE向け「GitHubプラグイン」に脆弱性 - トークン漏洩のおそれ
 
@@ -9280,17 +9260,6 @@
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.osaka.lg.jp/ictsenryakushitsu/page/0000509799.html>
-
-### 高校教諭が生徒の個人情報含む教務手帳を一時紛失 - 東京都
-
-内容確認が必要 / 報道・公表日: 2024-06-06
-
-<https://www.security-next.com/157982>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111005>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111101>
 
 ### アンケートメールを誤送信、氏名やメアド流出 - 鉾田市
 
@@ -11043,6 +11012,9 @@
 - 掲載対象外 / IPA、不正アクセスによる漏えい等の事案を踏まえ速やかに実施すべき対策を公表 / IPAの対策・注意喚起を紹介する記事であり、個別の漏えい事案ではありません。
   - 元記事: <https://scan.netsecurity.ne.jp/article/2026/10/16/56474.html>
   - 根拠: <https://scan.netsecurity.ne.jp/article/2026/10/16/56474.html>
+- 掲載済み / 日経新聞社、クラウドサービスへの不正アクセスで約183万件の個人情報漏えい　 / 対象事案の公式発表と確認済み要約を照合。掲載レコードに案内し、この記事を別の未掲載事故として数えません。
+  - 元記事: <https://internet.watch.impress.co.jp/docs/news/2148878.html>
+  - 根拠: <https://www.nikkei.co.jp/nikkeiinfo/news/information/1561.html>
 - 掲載対象外 / IPAが「不正アクセス特別相談窓口」設置、不正アクセス被害やその可能性を相談できる　 / IPAの相談窓口開設を紹介する記事であり、個別の漏えい事案ではありません。
   - 元記事: <https://internet.watch.impress.co.jp/docs/news/2148798.html>
   - 根拠: <https://internet.watch.impress.co.jp/docs/news/2148798.html>
@@ -11079,6 +11051,9 @@
 - 掲載対象外 / \[ITmedia ビジネスオンライン\] 「不正アクセスを受けたかも」IPAが相談窓口を開設　初動対応をサポート、受けられる支援は？ / IPAの相談窓口開設を紹介する記事であり、IPA自身の漏えい事案ではありません。
   - 元記事: <https://www.itmedia.co.jp/business/articles/2610/16/news109.html>
   - 根拠: <https://www.itmedia.co.jp/business/articles/2610/16/news109.html>
+- 同一事案の別記事 / 日経新聞、不正アクセスで183万件の個人情報流出　開発用クラウドの認証情報盗まれ / 対象事案の公式発表と確認済み要約を照合。掲載レコードに案内し、この記事を別の未掲載事故として数えません。
+  - 元記事: <https://www.itmedia.co.jp/news/article/2610/16/2000002337/>
+  - 根拠: <https://www.nikkei.co.jp/nikkeiinfo/news/information/1561.html>
 - 掲載済み / バーガーキング、約1118万件漏えい　公式アプリ会員システムに不正アクセス / 対象事案の公式発表と確認済み要約を照合。掲載レコードに案内し、この記事を別の未掲載事故として数えません。
   - 元記事: <https://www.itmedia.co.jp/news/article/2610/15/2000002306/>
   - 根拠: <https://www.burgerking.co.jp/images/notice/2026/10/15/d4d114ca-ebd7-4f3d-94ef-c4ea7a84a139.pdf>
