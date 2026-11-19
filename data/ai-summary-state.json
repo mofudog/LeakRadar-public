@@ -334,16 +334,20 @@
       "retryAfter": 1794786487.0
     },
     "88cbb9f2e32f9c17c330052c76200865d6a6c7921e3bde29e2b5bc84eee0f924": {
-      "hash": "33ca8eb99ea6d8edc44206ce3578bd3963020f3f537c2027e596ca7ffb8da2ec",
+      "hash": "20d0a0a3794860ee2eb10b6623139c8c1c69df4700a6189ad23f92a91370dde4",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://studio.design/ja/whats-new/unauthorized-access-2026-10",
-      "attemptedAt": "2026-11-06T13:27:00+00:00",
+      "attemptedAt": "2026-11-19T03:32:10+00:00",
       "state": "success",
       "passages": [
         {
           "kind": "audience",
           "quote": "現時点の調査では、Studioにご登録いただいているすべてのお客様について、以下の情報が外部に流出した可能性があります。対象の件数は、精査のうえ続報でお知らせいたします。"
+        },
+        {
+          "kind": "items",
+          "quote": "Studioアカウントの情報(ユーザー名、メールアドレス、ハッシュ化されたパスワードなど) お客様がStudio上で管理されているデータ(デザインエディタ・CMSの内容、フォームに送信された内容、Google reCAPTCHA v3の設定情報、Webhook通知のURL)"
         }
       ]
     },
@@ -1558,10 +1562,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261015/20261015551164.pdf",
-      "attemptedAt": "2026-11-14T22:50:07+00:00",
+      "attemptedAt": "2026-11-19T03:32:10+00:00",
       "state": "failed",
       "error": "irrelevant_output",
-      "retryAfter": 1794783007.0
+      "retryAfter": 1795145530.0
     },
     "3f70403cb778cd97ea72b0f2daa4140921e990b2d4e5ad573a94c78647789d8e": {
       "hash": "fabdc21e06f470cc0d13414cce16c41a61dd0b013e4d6b4ca7e1963208fa6b0b",
@@ -2183,10 +2187,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://corp.benefit-one.co.jp/company/news/news/2026/20261028/20261028.pdf",
-      "attemptedAt": "2026-11-14T22:50:07+00:00",
+      "attemptedAt": "2026-11-19T03:32:10+00:00",
       "state": "failed",
       "error": "irrelevant_count",
-      "retryAfter": 1794783007.0
+      "retryAfter": 1795145530.0
     },
     "5a71bbd784c3e418dca28090874a68ebc73a7b13fa01cf5a2f1747dbca4ad1ff": {
       "hash": "d28b984198b3c56ff868f4ce22689446283e915a9ebedf6eca70a96ec000b859",
@@ -3435,14 +3439,33 @@
       "state": "failed",
       "error": "ungrounded_output",
       "retryAfter": 1795097006.0
+    },
+    "de7d8908aa64c47bb21566a0b3e9eae9cc771e6e38fb3248451e6fb6eb126bd2": {
+      "hash": "038f92db417af8a489fb58af83c7aae3f2e7c7a4101e662edbb8a8803e106b36",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://www.release.tdnet.info/inbs/140120261119583259.pdf",
+      "attemptedAt": "2026-11-19T03:32:10+00:00",
+      "state": "success",
+      "passages": [
+        {
+          "kind": "audience",
+          "quote": "1. 2026年10月 22日付でお知らせした、「漏洩した可能性のあるメール配信先と情報」 (メール配信先) ・インターネット受発注システム「DIOS」にメールアドレスを登録されているお取引先様 ・2026年 デイトナ 森町・静岡 茶ミーティングご出展社様"
+        }
+      ]
+    },
+    "b1aefd731a1ce1c220fe65def3a7075e7d4547328481e00e3b30980d623c4618": {
+      "hash": "27c2955a5786719311a2daf2cede01d008026840e4440eb5a7b62beb10834ba3",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://www.release.tdnet.info/inbs/140120261119583325.pdf",
+      "attemptedAt": "2026-11-19T03:32:10+00:00",
+      "state": "failed",
+      "error": "ungrounded_output",
+      "retryAfter": 1795145530.0
     }
   },
   "requestTimes": [
-    1794954380.0,
-    1794954380.0,
-    1794954380.0,
-    1794954380.0,
-    1794954380.0,
     1794975947.0,
     1794975947.0,
     1794975947.0,
@@ -3457,6 +3480,11 @@
     1795039145.0,
     1795039145.0,
     1795039145.0,
-    1795039145.0
+    1795039145.0,
+    1795059130.0,
+    1795059130.0,
+    1795059130.0,
+    1795059130.0,
+    1795059130.0
   ]
 }
