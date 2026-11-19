@@ -1,6 +1,6 @@
 # 公式資料の取得・再確認
 
-最終実行：2026-11-19T13:17:37+00:00
+最終実行：2026-11-19T21:39:03+00:00
 
 候補リンクは同じ事故と確認済みではありません。候補の件数は未掲載事故数ではありません。
 自動差し替えは、直接リンクされた公式PDF、同じ公式サイトの見出し・公表日が一致する資料、または事前確認した同一発表の公式掲載先に限定します。
@@ -8,124 +8,112 @@
 ## アルカディア
 
 * 状態：公式資料を確認し、要約の根拠に採用
-* この資料の確認日時：2026-11-19T13:17:37+00:00
+* この資料の確認日時：2026-11-19T21:39:03+00:00
 * 元の出典：https://raiden.site.ktaiwork.jp/archives/4597
 * 要約に使った公式資料：https://raiden.site.ktaiwork.jp/wp-content/uploads/sites/2/2026/10/【説明資料】不正アクセスによる個⼈情報漏えいの可能性に関して20261023.pdf
 
 ## アフラック生命保険
 
 * 状態：公式資料を確認し、要約の根拠に採用
-* この資料の確認日時：2026-11-19T13:17:37+00:00
+* この資料の確認日時：2026-11-19T21:39:03+00:00
 * 元の出典：https://www.aflac.co.jp/info/yorisou_faq.html
 * 要約に使った公式資料：https://www.aflac.co.jp/static/corp/profile/news/2026/2026073100.pdf
 
 ## ホテリエ
 
 * 状態：公式資料を確認し、要約の根拠に採用
-* この資料の確認日時：2026-11-19T13:17:37+00:00
+* この資料の確認日時：2026-11-19T21:39:03+00:00
 * 元の出典：https://hotel.inc/news/information/20261013_01/
 * 要約に使った公式資料：https://hotel.inc/wp-content/uploads/2026/10/20261007_apology_ja.pdf
 
 ## 佐嘉平川屋
 
 * 状態：公式資料を確認し、要約の根拠に採用
-* この資料の確認日時：2026-11-19T13:17:37+00:00
+* この資料の確認日時：2026-11-19T21:39:03+00:00
 * 元の出典：https://www.saga-hirakawaya.jp/security-notice/
 * 要約に使った公式資料：https://www.saga-hirakawaya.jp/documents/pdf/202606-public-notice.pdf
 
 ## サクラ工業株式会社
 
 * 状態：公式資料を確認し、要約の根拠に採用
-* この資料の確認日時：2026-11-19T13:17:37+00:00
+* この資料の確認日時：2026-11-19T21:39:03+00:00
 * 元の出典：https://www.sakura-kogyo.co.jp/%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e7%ad%89%e3%81%ae%e6%bc%8f%e3%81%88%e3%81%84%e3%81%ae%e3%81%8a%e3%81%9d%e3%82%8c/
 * 要約に使った公式資料：https://www.sakura-kogyo.co.jp/wp-content/uploads/2026/03/公表文1.pdf
 
 ## 株式会社トレードワークス
 
 * 状態：公式資料を確認し、要約の根拠に採用
-* この資料の確認日時：2026-11-19T13:17:37+00:00
+* この資料の確認日時：2026-11-19T21:39:03+00:00
 * 元の出典：https://www.iwaicosmo.co.jp/news/2026/10161410.html
 * 要約に使った公式資料：https://www.iwaicosmo.co.jp/news/pdf/64f680003862eee42041a9663f2f12f970716818.pdf
 
 ## 東北電力フロンティア株式会社
 
 * 状態：公式資料を確認し、要約の根拠に採用
-* この資料の確認日時：2026-11-19T13:17:37+00:00
+* この資料の確認日時：2026-11-19T21:39:03+00:00
 * 元の出典：https://www.tohoku-frontier.co.jp/news/1947/
 * 要約に使った公式資料：https://www.tohoku-frontier.co.jp/cms/wp-content/uploads/261017_news1.pdf
 
 ## 株式会社メディア4u
 
 * 状態：公式資料を確認し、要約の根拠に採用
-* この資料の確認日時：2026-11-19T13:17:37+00:00
+* この資料の確認日時：2026-11-19T21:39:03+00:00
 * 元の出典：https://www.media4u.co.jp/news/3351
 * 要約に使った公式資料：https://ssl4.eir-parts.net/doc/4193/tdnet/2851745/00.pdf
 
 ## 損保ジャパン
 
 * 状態：公式資料を確認し、要約の根拠に採用
-* この資料の確認日時：2026-11-19T13:17:37+00:00
+* この資料の確認日時：2026-11-19T21:39:03+00:00
 * 元の出典：https://www.sompo-japan.co.jp/announce/2025/202504_01/
 * 要約に使った公式資料：https://www.sompo-japan.co.jp/-/media/SJNK/files/news/2025/20250613_2.pdf?la=ja-JP
 
 ## 株式会社ラクスライトクラウド
 
 * 状態：公式資料を確認し、要約の根拠に採用
-* この資料の確認日時：2026-11-19T13:17:37+00:00
+* この資料の確認日時：2026-11-19T21:39:03+00:00
 * 元の出典：https://www.tohoku-frontier.co.jp/news/1960/
 * 要約に使った公式資料：https://www.tohoku-frontier.co.jp/cms/wp-content/uploads/261022_news.pdf
 
 ## キッセイ薬品工業株式会社
 
 * 状態：公式資料を確認し、要約の根拠に採用
-* この資料の確認日時：2026-11-19T13:17:37+00:00
+* この資料の確認日時：2026-11-19T21:39:03+00:00
 * 元の出典：https://www.kissei.co.jp/news/2026/20261009-5205.html
 * 要約に使った公式資料：https://www.kissei.co.jp/news/uploaded/8799a42c0104c787a0519f1fabd3b2a5.pdf
 
 ## アイリスオーヤマ
 
 * 状態：公式資料を確認し、要約の根拠に採用
-* この資料の確認日時：2026-11-19T13:17:37+00:00
+* この資料の確認日時：2026-11-19T21:39:03+00:00
 * 元の出典：https://www.irisohyama.co.jp/news/2026/?date=1105
 * 要約に使った公式資料：https://www.irisohyama.co.jp/news/2026/1105.pdf
 
-## 京都サンガF.C.
-
-* 状態：資料の照合・確認が必要
-* この資料の確認日時：2026-11-19T13:17:37+00:00
-* 元の出典：https://sanga-fc.jp/news/detail/21401
-
 ## 株式会社イノベーション
 
 * 状態：資料の照合・確認が必要
-* この資料の確認日時：2026-11-19T13:17:37+00:00
-* 元の出典：https://www.innovation.co.jp/2026/06/%e9%80%80%e4%bc%9a%e6%b8%88%e3%81%bf%e4%bc%9a%e5%93%a1%e6%a7%98%e3%81%b8%e3%81%ae%e3%83%a1%e3%83%bc%e3%83%ab%e8%aa%a4%e9%80%81%e4%bf%a1%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e3%81%8a%e8%a9%ab%e3%81%b3/
-
-## 株式会社リクルート
-
-* 状態：公式資料を確認し、要約の根拠に採用
-* この資料の確認日時：2026-11-19T13:17:37+00:00
-* 元の出典：https://www.recruit.co.jp/newsroom/pressrelease/2026/1021_149447.html
-* 要約に使った公式資料：https://www.recruit.co.jp/wp-content/uploads/2026/10/20261021_eZ84iR_01.pdf
-
-## リゾートトラスト
-
-* 状態：資料の照合・確認が必要
-* この資料の確認日時：2026-11-19T13:17:37+00:00
-* 元の出典：https://www.resorttrust.co.jp/topics/20261016/3397/
-* 要確認の公式候補：https://www.resorttrust.co.jp/ir/cms/wp-content/uploads/Notice-Concerning-Revision-of-Earnings-and-Dividend-Forecast_20261113JP.pdf（リンク先本文を取得できませんでした）
-
-## 株式会社イノベーション
-
-* 状態：資料の照合・確認が必要
-* この資料の確認日時：2026-10-21T15:50:09+00:00
+* この資料の確認日時：2026-11-19T21:39:03+00:00
 * 元の出典：https://www.innovation.co.jp/2026/08/%e3%80%8egithub%e3%80%8f%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e7%99%ba%e7%94%9f%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%e3%81%a8/
 
 ## 株式会社イノベーション
 
 * 状態：資料の照合・確認が必要
-* この資料の確認日時：2026-10-21T16:48:25+00:00
+* この資料の確認日時：2026-11-19T21:39:03+00:00
 * 元の出典：https://www.innovation.co.jp/2026/08/github%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E8%A9%B3%E7%B4%B0%E8%AA%BF%E6%9F%BB%E3%81%AE%E5%AE%8C%E4%BA%86%E3%81%8A%E3%82%88/
+
+##  ZonExpert株式会社
+
+* 状態：資料の照合・確認が必要
+* この資料の確認日時：2026-11-19T21:39:03+00:00
+* 元の出典：https://www.zonexpert.co.jp/news/298/
+* 要確認の公式候補：https://www.zonexpert.co.jp/wp/wp-content/uploads/2026/09/store-information.pdf（リンク先本文を取得できませんでした）
+
+## リゾートトラスト
+
+* 状態：資料の照合・確認が必要
+* この資料の確認日時：2026-11-19T21:39:03+00:00
+* 元の出典：https://www.resorttrust.co.jp/topics/20261016/3397/
+* 要確認の公式候補：https://www.resorttrust.co.jp/ir/cms/wp-content/uploads/Notice-Concerning-Revision-of-Earnings-and-Dividend-Forecast_20261113JP.pdf（リンク先本文を取得できませんでした）
 
 ## 株式会社イノベーション
 
@@ -304,10 +292,22 @@
 * この資料の確認日時：2026-11-19T03:32:10+00:00
 * 元の出典：https://2nd-rtl.com/news/82023
 
-##  ZonExpert株式会社
+## ソニーネットワークコミュニケーションズ株式会社
 
 * 状態：資料の照合・確認が必要
 * この資料の確認日時：2026-11-19T03:32:10+00:00
-* 元の出典：https://www.zonexpert.co.jp/news/298/
-* 要確認の公式候補：https://www.zonexpert.co.jp/wp/wp-content/uploads/2026/09/store-information.pdf（リンク先本文を取得できませんでした）
+* 元の出典：https://www.sonynetwork.co.jp/corporation/release/2026/v5e5u00000000zwj-att/20261027.pdf
+
+## 株式会社イノベーション
+
+* 状態：資料の照合・確認が必要
+* この資料の確認日時：2026-11-19T13:17:37+00:00
+* 元の出典：https://www.innovation.co.jp/2026/06/%e9%80%80%e4%bc%9a%e6%b8%88%e3%81%bf%e4%bc%9a%e5%93%a1%e6%a7%98%e3%81%b8%e3%81%ae%e3%83%a1%e3%83%bc%e3%83%ab%e8%aa%a4%e9%80%81%e4%bf%a1%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e3%81%8a%e8%a9%ab%e3%81%b3/
+
+## 株式会社リクルート
+
+* 状態：公式資料を確認し、要約の根拠に採用
+* この資料の確認日時：2026-11-19T13:17:37+00:00
+* 元の出典：https://www.recruit.co.jp/newsroom/pressrelease/2026/1021_149447.html
+* 要約に使った公式資料：https://www.recruit.co.jp/wp-content/uploads/2026/10/20261021_eZ84iR_01.pdf
 

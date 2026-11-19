@@ -1,20 +1,16 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-19T13:17:37+00:00",
+  "lastAttemptAt": "2026-11-19T21:39:03+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-19T13:17:37+00:00",
+  "lastPartialSuccessAt": "2026-11-19T21:39:03+00:00",
   "successfulFetches": 472,
   "failedFetches": 60,
-  "changedReviewedSources": 82,
+  "changedReviewedSources": 83,
   "automaticAnnouncements": 331,
-  "watchedDocumentCount": 477,
+  "watchedDocumentCount": 478,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
-    {
-      "url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56689.html",
-      "error": "HTTPError: HTTP Error 502: Gateway Error"
-    },
     {
       "url": "https://www.lashinbang.com/info/26357/",
       "error": "HTTP Error 403: Forbidden"
@@ -56,10 +52,6 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
-      "url": "https://sanga-fc.jp/news/detail/21401",
-      "error": "Only public HTTPS sources are allowed"
-    },
-    {
       "url": "https://revisio.co.jp/news/qlqXjTs7",
       "error": "Source body could not be read"
     },
@@ -73,7 +65,7 @@
     },
     {
       "url": "https://www.hands-holdings.co.jp/news/news20260825/",
-      "error": "HTTP Error 403: Forbidden"
+      "error": "HTTP Error 503: Service Temporarily Unavailable"
     },
     {
       "url": "https://support-qa.eplus.jp/hc/ja/articles/62711500727961-%E5%BC%8A%E7%A4%BE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AE%E7%99%BA-%E3%81%8A%E3%82%88%E3%81%B3%E5%80%8B-%E6%83%85%E5%A0%B1-%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
@@ -184,16 +176,28 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "url": "https://www.sonynetwork.co.jp/corporation/release/2026/v5e5u00000000zwj-att/20261027.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
       "url": "https://tixplus.jp/information/",
       "error": "Source body could not be read"
+    },
+    {
+      "url": "https://www.recruit.co.jp/newsroom/pressrelease/2026/1021_149447.html",
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://www.smbc-cf.com/news/data/2026/11/news_20261105_1.pdf",
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "url": "https://www.recruit.co.jp/wp-content/uploads/2026/10/20261021_eZ84iR_01.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
       "url": "https://corp.eplus.jp/press-release/1824/",
-      "error": "HTTP Error 503: Service Unavailable"
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://www.nikkei.co.jp/",
@@ -228,10 +232,6 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "https://sanga-fc.jp/news",
-      "error": "Only public HTTPS sources are allowed"
-    },
-    {
       "url": "https://revisio.co.jp/news",
       "error": "Source body could not be read"
     },
@@ -255,19 +255,19 @@
   "fullyComprehensive": false,
   "summaryReviewedAt": "2026-10-25",
   "cloudRun": true,
-  "retentionStart": "2023-11-19",
+  "retentionStart": "2023-11-20",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-19T13:17:37+00:00",
+    "lastAttemptAt": "2026-11-19T21:39:03+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
-    "newsCandidates": 1790,
-    "newsArticlesChecked": 69,
+    "newsCandidates": 1792,
+    "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 71,
+    "officialFetches": 83,
     "confirmedOfficialAnnouncements": 397,
-    "pendingNewsArticles": 1065,
-    "skippedReviewedArticles": 24,
+    "pendingNewsArticles": 1063,
+    "skippedReviewedArticles": 26,
     "archiveCursors": {
       "Security NEXT 月別記事": [
         "2026-10",
@@ -309,8 +309,8 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-19T13:20:05+00:00",
-      "listPagesChecked": 5,
+      "lastAttemptAt": "2026-11-19T21:41:53+00:00",
+      "listPagesChecked": 4,
       "documentsChecked": 20,
       "pendingListPages": 0,
       "pendingDocuments": 22
@@ -318,9 +318,9 @@
   },
   "automaticSummaries": {
     "ready": 76,
-    "partial": 183,
-    "pending": 113,
-    "fetchFailed": 33
+    "partial": 182,
+    "pending": 115,
+    "fetchFailed": 34
   },
   "aiSummary": {
     "status": "active",
@@ -329,18 +329,18 @@
     "requestsLast24Hours": 20,
     "cachedSources": 146,
     "acceptedSources": 0,
-    "noMatchingSources": 1,
-    "failedSources": 4,
+    "noMatchingSources": 0,
+    "failedSources": 5,
     "deferredSources": 100,
-    "lastError": "api_http_503",
+    "lastError": "irrelevant_count",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 6,
-    "linkedDocuments": 13,
+    "fetches": 4,
+    "linkedDocuments": 12,
     "matchedAlternatives": 0,
-    "pending": 3,
+    "pending": 4,
     "failed": 2,
     "report": "data/source-recovery-report.md",
     "ocr": {
@@ -352,14 +352,14 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "needs_source_lookup": 482,
+    "needs_source_lookup": 484,
     "reopened": 14,
     "covered": 9,
-    "fetch_failed": 94,
-    "needs_review": 476,
+    "fetch_failed": 93,
+    "needs_review": 473,
     "duplicate": 3
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 1066,
+  "unresolvedNewsCandidates": 1064,
   "deferredNewsCandidates": 0
 }
