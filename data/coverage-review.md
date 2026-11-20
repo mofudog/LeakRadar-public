@@ -1,6 +1,6 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-20T03:20:34+00:00
+確認日時: 2026-11-20T12:57:16+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
@@ -8,8 +8,8 @@
 - 同一事案の別記事: 3件
 - 掲載対象外: 9件
 - 取得失敗: 94件
-- 公式発表の発見待ち: 497件
-- 内容確認が必要: 472件
+- 公式発表の発見待ち: 499件
+- 内容確認が必要: 477件
 - 未処理: 0件
 - 再確認が必要: 14件
 
@@ -154,6 +154,77 @@
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
 - 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://sbc-holdings.com/ja/news/605>
+
+### デジタル庁、GSSのファイル共有サービスで会議資料などのファイルが漏えいした可能性を発表　
+
+公式発表の発見待ち / 報道・公表日: 2026-11-20
+
+<https://internet.watch.impress.co.jp/docs/news/2158375.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://internet.watch.impress.co.jp/docs/news/2158375.html>
+
+### プレイド、「KARTE」不正アクセスの調査結果を公表、2027年1月中旬の段階的な再開を目指す　契約が終了した企業の情報も漏えいの対象に
+
+公式発表の発見待ち / 報道・公表日: 2026-11-20
+
+<https://internet.watch.impress.co.jp/docs/news/2158284.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://internet.watch.impress.co.jp/docs/news/2158284.html>
+
+### デジ庁、政府機関向けファイル共有サービスで漏えいか　7月末から第三者がアクセス
+
+内容確認が必要 / 報道・公表日: 2026-11-20
+
+<https://www.itmedia.co.jp/news/article/2611/20/2000003381/>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.digital.go.jp/press/a966ee61-478c-4194-8f13-f97599fae986>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.digital.go.jp/news/2026-0911-01>
+
+### \[ITmedia ビジネスオンライン\] 政府システムで「個人情報」漏えいか　7月から“非正規のアクセス”――デジタル庁の説明は？
+
+内容確認が必要 / 報道・公表日: 2026-11-20
+
+<https://www.itmedia.co.jp/business/articles/2611/20/news065.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.digital.go.jp/press/a966ee61-478c-4194-8f13-f97599fae986>
+
+### ハンコヤドットコム、カード番号やセキュリティコード8220件漏えいか　決済画面改ざんされる
+
+内容確認が必要 / 報道・公表日: 2026-11-20
+
+<https://www.itmedia.co.jp/news/article/2611/20/2000003367/>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.hankoya.org/contents/press/20261119.html>
+
+### 「KARTE」への不正アクセスに関する調査結果およびサービス再開の見通しのお知らせ
+
+内容確認が必要 / 報道・公表日: 2026-11-20
+
+<https://www.release.tdnet.info/inbs/140120261119583758.pdf>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: PDF metadata needs review: publisher=True, date=False, title=False / <https://www.release.tdnet.info/inbs/140120261119583758.pdf>
+
+### 当社サービス「Cacoo」の再開の目処および不正アクセスに関する現在の状況について（第三報）
+
+内容確認が必要 / 報道・公表日: 2026-11-20
+
+<https://www.release.tdnet.info/inbs/140120261120584334.pdf>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: PDF metadata needs review: publisher=True, date=False, title=True / <https://www.release.tdnet.info/inbs/140120261120584334.pdf>
 
 ### サイバーセキュリティクラウドの開発環境に不正アクセス、GitHubに保存されていた個人情報が漏えいした可能性
 
@@ -674,9 +745,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nikkei.com/article/DGXZQOSG162TT0W6A111C2000000/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.r-ccs.riken.jp/outreach/topics/20261113-1/index.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.riken.jp/pr/news/2025/20250822_1/index.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.riken.jp/pr/news/2026/20261116_2/index.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.r-ccs.riken.jp/fugaku/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://news.web.nhk/newsweb/na/nd-20261117de76883>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/120068/>
 
 ### 不正アクセス・情報漏えいの記録｜2026年11月
@@ -4030,8 +4102,9 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://news.web.nhk/newsweb/na/nd-20261023de64388>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.mos.jp/topics/20261023_1/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nikkei.com/article/DGXZQOUC238H90T21C26A0000000/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.valuedesign.jp/news/info/20261023>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119412/>
 
 ### 警視庁が個人情報漏えいに関する対策・啓発冊子を公開、都民向けと事業者向け　
