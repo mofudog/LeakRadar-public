@@ -1,15 +1,15 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-20T12:57:16+00:00
+確認日時: 2026-11-20T21:08:53+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
 - 掲載済み: 9件
 - 同一事案の別記事: 3件
 - 掲載対象外: 9件
-- 取得失敗: 94件
-- 公式発表の発見待ち: 499件
-- 内容確認が必要: 477件
+- 取得失敗: 97件
+- 公式発表の発見待ち: 498件
+- 内容確認が必要: 476件
 - 未処理: 0件
 - 再確認が必要: 14件
 
@@ -205,6 +205,27 @@
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.hankoya.org/contents/press/20261119.html>
+
+### 通販サイト内に不正ファイル、個人情報流出の可能性 - ソフト99
+
+内容確認が必要 / 報道・公表日: 2026-11-20
+
+<https://www.security-next.com/192805>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.soft99.co.jp/important/detail/261110/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.soft99.co.jp/important/detail/261117/>
+
+### リフォーム管理システムに不正アクセス - ヤマダデンキ
+
+取得失敗 / 報道・公表日: 2026-11-20
+
+<https://www.security-next.com/192867>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: URLError: <urlopen error timed out> / <https://www.yamada-denki.jp/>
 
 ### 「KARTE」への不正アクセスに関する調査結果およびサービス再開の見通しのお知らせ
 
@@ -722,9 +743,9 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.riken.jp/pr/news/2026/20261116_2/index.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://fugaku100kei.jp/fugaku/about>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.riken.jp/pr/news/2026/20260619_1/index.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.riken.jp/pr/news/2026/20261116_2/index.html>
 
 ### モリサワや「mineo」など会員情報漏えい　マーケツール「KARTE」不正アクセス、外部サービス連携用シークレットキーなども
 
@@ -753,16 +774,13 @@
 
 ### 不正アクセス・情報漏えいの記録｜2026年11月
 
-内容確認が必要 / 報道・公表日: 2026-11-17
+取得失敗 / 報道・公表日: 2026-11-17
 
 <https://innovatopia.jp/cyber-security/cyber-security-news/119986/>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.shimotsuke.lg.jp/0017/info-0000010791-3.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.town.takanezawa.tochigi.jp/information/2026-1103-0845-77.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.coop-gifu.jp/news/index.php?no=20261103163320>
-- 取得結果: ValueError: PDF metadata needs review: publisher=True, date=False, title=True / <https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/somu/2026/1103denshishinsei.files/0001_20261103.pdf>
+- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://www.ms-ad-hd.com/ja/news_group/20261106_mitsui_direct/main/0/link/20261106_mitsuidirect.pdf>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119986/>
 
 ### アクサ損害保険「MyAXA」に不正アクセス、約59万7千件の顧客情報が漏えいした可能性
@@ -954,10 +972,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.m2ri.jp/release/detail.html?id=745>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/security/anshin/attention/2026/mgdayori20261026.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/security/chocotto/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://jp.daisonet.com/products/4549131894844>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.m2ri.jp/release/detail.html?id=745>
 
 ### おわびメール1通で、後は自己責任？　個人情報漏えい時代に欠けた「3つの仕組み」
 
@@ -1430,13 +1448,13 @@
 
 ### エディオン、クレカ番号＋セキュリティコードも一部漏えいか　決済処理に不正プログラム、エラーログにも記録
 
-内容確認が必要 / 報道・公表日: 2026-11-11
+取得失敗 / 報道・公表日: 2026-11-11
 
 <https://www.itmedia.co.jp/news/article/2611/11/2000003091/>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=True, title=True / <https://www.edion.co.jp/system/files/news-release/pdf/ja/2026-11/20261109_pr_1_1.pdf>
+- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://www.edion.co.jp/system/files/news-release/pdf/ja/2026-11/20261109_pr_1_1.pdf>
 
 ### 内閣府、メルマガ利用者のメアド6万件超漏えい　氏名なども流出の可能性　アララ不正アクセスで
 
@@ -1858,8 +1876,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1106_01>
 - 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1109_01>
+- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1106_01>
 
 ### \[ITmedia ビジネスオンライン\] ニトリ、最大3762万件の情報流出か　「ニトリネット」注文データなど不正アクセスの可能性
 
@@ -11177,16 +11195,6 @@
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
 - 取得結果: No direct official announcement link found / <https://www.security-next.com/151309>
-
-### イベント参加者宛のアンケートメールで誤送信 - 千葉市
-
-公式発表の発見待ち / 報道・公表日: 2023-11-20
-
-<https://www.security-next.com/151261>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: No direct official announcement link found / <https://www.security-next.com/151261>
 
 ## 判断を記録した候補
 
