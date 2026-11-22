@@ -5,7 +5,7 @@ from pathlib import Path
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
-PUBLIC = {'index.html', 'help.html', 'about.html', 'app.js', 'style.css',
+PUBLIC = {'index.html', 'help.html', 'about.html', 'app.js', 'analytics.js', 'style.css',
           'icon.svg', 'incidents.json', 'service-names.json', 'update-status.json',
           'robots.txt', 'sitemap.xml', '_headers', '.nojekyll'}
 PATTERNS = [r'-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----',
