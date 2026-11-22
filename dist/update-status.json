@@ -1,11 +1,11 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-22T06:53:52+00:00",
+  "lastAttemptAt": "2026-11-22T15:21:42+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-22T06:53:52+00:00",
-  "successfulFetches": 495,
-  "failedFetches": 49,
-  "changedReviewedSources": 88,
+  "lastPartialSuccessAt": "2026-11-22T15:21:42+00:00",
+  "successfulFetches": 491,
+  "failedFetches": 53,
+  "changedReviewedSources": 87,
   "automaticAnnouncements": 342,
   "watchedDocumentCount": 490,
   "watchedIndexCount": 52,
@@ -56,6 +56,14 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
+      "url": "https://www.release.tdnet.info/inbs/140120261013549728.pdf",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261013549964.pdf",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
       "url": "https://www.release.tdnet.info/inbs/140120261006546597.pdf",
       "error": "HTTP Error 404: Not Found"
     },
@@ -69,6 +77,14 @@
     },
     {
       "url": "https://www.release.tdnet.info/inbs/140120261009548929.pdf",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261013549468.pdf",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261013549865.pdf",
       "error": "HTTP Error 404: Not Found"
     },
     {
@@ -211,18 +227,18 @@
   "fullyComprehensive": false,
   "summaryReviewedAt": "2026-10-25",
   "cloudRun": true,
-  "retentionStart": "2023-11-22",
+  "retentionStart": "2023-11-23",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-22T06:53:52+00:00",
+    "lastAttemptAt": "2026-11-22T15:21:42+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
-    "newsCandidates": 1812,
+    "newsCandidates": 1810,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 40,
+    "officialFetches": 48,
     "confirmedOfficialAnnouncements": 408,
-    "pendingNewsArticles": 1081,
+    "pendingNewsArticles": 1079,
     "skippedReviewedArticles": 26,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -265,35 +281,35 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-22T06:55:54+00:00",
-      "listPagesChecked": 4,
+      "lastAttemptAt": "2026-11-22T15:23:41+00:00",
+      "listPagesChecked": 2,
       "documentsChecked": 20,
       "pendingListPages": 0,
-      "pendingDocuments": 24
+      "pendingDocuments": 25
     }
   },
   "automaticSummaries": {
-    "ready": 81,
-    "partial": 188,
-    "pending": 114,
-    "fetchFailed": 27
+    "ready": 79,
+    "partial": 186,
+    "pending": 118,
+    "fetchFailed": 31
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
     "requestsLast24Hours": 30,
-    "cachedSources": 151,
+    "cachedSources": 148,
     "acceptedSources": 0,
     "noMatchingSources": 0,
     "failedSources": 5,
     "deferredSources": 93,
-    "lastError": "irrelevant_count",
+    "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
   "sourceRecovery": {
-    "fetches": 4,
+    "fetches": 6,
     "linkedDocuments": 13,
     "matchedAlternatives": 0,
     "pending": 4,
@@ -308,14 +324,14 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "needs_source_lookup": 497,
+    "needs_source_lookup": 495,
     "reopened": 14,
     "covered": 9,
     "fetch_failed": 93,
-    "needs_review": 480,
+    "needs_review": 481,
     "duplicate": 3
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 1084,
+  "unresolvedNewsCandidates": 1083,
   "deferredNewsCandidates": 0
 }
