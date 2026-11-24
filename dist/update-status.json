@@ -1,13 +1,13 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-23T12:51:39+00:00",
+  "lastAttemptAt": "2026-11-24T00:54:58+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-23T12:51:39+00:00",
-  "successfulFetches": 491,
-  "failedFetches": 53,
-  "changedReviewedSources": 88,
-  "automaticAnnouncements": 342,
-  "watchedDocumentCount": 490,
+  "lastPartialSuccessAt": "2026-11-24T00:54:58+00:00",
+  "successfulFetches": 486,
+  "failedFetches": 59,
+  "changedReviewedSources": 87,
+  "automaticAnnouncements": 343,
+  "watchedDocumentCount": 491,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
@@ -36,6 +36,10 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
+      "url": "https://www.release.tdnet.info/inbs/140120261014550839.pdf",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
       "url": "https://revisio.co.jp/news/qlqXjTs7",
       "error": "Source body could not be read"
     },
@@ -61,6 +65,22 @@
     },
     {
       "url": "https://www.release.tdnet.info/inbs/140120261013549964.pdf",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261015551040.pdf",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261015551164.pdf",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261015551574.pdf",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261015551741.pdf",
       "error": "HTTP Error 404: Not Found"
     },
     {
@@ -134,6 +154,10 @@
     {
       "url": "https://www.sklg.co.jp/news/%e5%bd%93%e7%a4%be%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%e3%81%a8/",
       "error": "Source body could not be read"
+    },
+    {
+      "url": "https://e-tenki.co.jp/news/reserve-system-incident/",
+      "error": "<urlopen error _ssl.c:1063: The handshake operation timed out>"
     },
     {
       "url": "https://www.kyushu-fg-sec.co.jp/article/data/info/files/a9f275749841d4f9ea6c35fa1b62a90f0b990bb0.pdf",
@@ -227,18 +251,18 @@
   "fullyComprehensive": false,
   "summaryReviewedAt": "2026-10-25",
   "cloudRun": true,
-  "retentionStart": "2023-11-23",
+  "retentionStart": "2023-11-24",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-23T12:51:39+00:00",
+    "lastAttemptAt": "2026-11-24T00:54:58+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
-    "newsCandidates": 1810,
+    "newsCandidates": 1822,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 38,
-    "confirmedOfficialAnnouncements": 408,
-    "pendingNewsArticles": 1078,
+    "officialFetches": 45,
+    "confirmedOfficialAnnouncements": 409,
+    "pendingNewsArticles": 1090,
     "skippedReviewedArticles": 26,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -281,30 +305,30 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-23T12:53:31+00:00",
+      "lastAttemptAt": "2026-11-24T00:56:40+00:00",
       "listPagesChecked": 2,
       "documentsChecked": 20,
       "pendingListPages": 0,
-      "pendingDocuments": 27
+      "pendingDocuments": 28
     }
   },
   "automaticSummaries": {
-    "ready": 79,
-    "partial": 186,
-    "pending": 118,
-    "fetchFailed": 31
+    "ready": 77,
+    "partial": 183,
+    "pending": 124,
+    "fetchFailed": 36
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
-    "requestsLast24Hours": 20,
-    "cachedSources": 148,
+    "requestsLast24Hours": 15,
+    "cachedSources": 146,
     "acceptedSources": 0,
     "noMatchingSources": 0,
     "failedSources": 5,
-    "deferredSources": 104,
-    "lastError": "irrelevant_count",
+    "deferredSources": 108,
+    "lastError": "api_http_503",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
@@ -324,14 +348,14 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "needs_source_lookup": 495,
+    "needs_source_lookup": 506,
     "reopened": 14,
     "covered": 9,
-    "fetch_failed": 93,
-    "needs_review": 482,
+    "fetch_failed": 94,
+    "needs_review": 483,
     "duplicate": 3
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 1084,
+  "unresolvedNewsCandidates": 1097,
   "deferredNewsCandidates": 0
 }

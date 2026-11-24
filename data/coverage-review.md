@@ -1,19 +1,140 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-23T12:51:39+00:00
+確認日時: 2026-11-24T00:54:58+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
 - 掲載済み: 9件
 - 同一事案の別記事: 3件
 - 掲載対象外: 9件
-- 取得失敗: 93件
-- 公式発表の発見待ち: 495件
-- 内容確認が必要: 482件
+- 取得失敗: 94件
+- 公式発表の発見待ち: 506件
+- 内容確認が必要: 483件
 - 未処理: 0件
 - 再確認が必要: 14件
 
 ## 確認待ち
+
+### マネックス証券の口座開設システムに不正アクセス、本人確認書類画像データが漏えいした可能性
+
+公式発表の発見待ち / 報道・公表日: 2026-11-24
+
+<https://scan.netsecurity.ne.jp/article/2026/11/24/56881.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/24/56881.html>
+
+### スカイライナー座席予約システムに不正アクセス、最大約337万件の顧客情報が取得された可能性
+
+公式発表の発見待ち / 報道・公表日: 2026-11-24
+
+<https://scan.netsecurity.ne.jp/article/2026/11/24/56880.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/24/56880.html>
+
+### アットホーム提供の不動産会社向け業務管理サービス「賃貸管理システム」に不正アクセス
+
+公式発表の発見待ち / 報道・公表日: 2026-11-24
+
+<https://scan.netsecurity.ne.jp/article/2026/11/24/56879.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/24/56879.html>
+
+### 電通デジタル「TONARIWA」に不正アクセス、導入企業 2 社で個人情報漏えい
+
+公式発表の発見待ち / 報道・公表日: 2026-11-24
+
+<https://scan.netsecurity.ne.jp/article/2026/11/24/56878.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/24/56878.html>
+
+### 電通デジタル「TONARIWA」に不正アクセス、パーソルキャリアが保持していた情報が漏えいした可能性
+
+公式発表の発見待ち / 報道・公表日: 2026-11-24
+
+<https://scan.netsecurity.ne.jp/article/2026/11/24/56877.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/24/56877.html>
+
+### ロート製薬のシステムに不正アクセス、クレジットカード番号含む通話音声データが漏えい
+
+公式発表の発見待ち / 報道・公表日: 2026-11-24
+
+<https://scan.netsecurity.ne.jp/article/2026/11/24/56876.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/24/56876.html>
+
+### 保険代理店に提供システム「FWD navi」に不正アクセス、最大9,000件の契約情報が閲覧可能な状態に
+
+公式発表の発見待ち / 報道・公表日: 2026-11-24
+
+<https://scan.netsecurity.ne.jp/article/2026/11/24/56875.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/24/56875.html>
+
+### ニトリホールディングスに不正アクセス、最大3,762万件の個人情報が漏えい
+
+公式発表の発見待ち / 報道・公表日: 2026-11-24
+
+<https://scan.netsecurity.ne.jp/article/2026/11/24/56874.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/24/56874.html>
+
+### スキマバイトアプリ「シェアフル」の社内管理システムに不正アクセス、最大約750万件の個人情報が流出した可能性
+
+公式発表の発見待ち / 報道・公表日: 2026-11-24
+
+<https://scan.netsecurity.ne.jp/article/2026/11/24/56873.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/24/56873.html>
+
+### 債権回収事業者に不正アクセス、地銀の個人情報漏えい
+
+公式発表の発見待ち / 報道・公表日: 2026-11-24
+
+<https://scan.netsecurity.ne.jp/article/2026/11/24/56871.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/24/56871.html>
+
+### 楽天証券に不正アクセス、最大約1125万口座のログインIDなどが漏えいした可能性についての記事などに注目が集まる【アクセスランキング】
+
+公式発表の発見待ち / 報道・公表日: 2026-11-24
+
+<https://internet.watch.impress.co.jp/docs/news/ranking/2158564.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://internet.watch.impress.co.jp/docs/news/ranking/2158564.html>
+
+### \[ITmedia エンタープライズ\] 解約して1年以上の筆者にも届いた漏えい通知　「資産を持っている」「通院している」がひも付く日
+
+取得失敗 / 報道・公表日: 2026-11-24
+
+<https://www.itmedia.co.jp/enterprise/articles/2611/24/news022.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: ValueError: Article encoding could not be read reliably / <https://www.rakuten-sec.co.jp/web/info/info20261117-02.html>
+- 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://sbc-holdings.com/ja/news/605>
 
 ### Payどん委託先のインフキュリオンに不正アクセス、個人情報251,172件が漏えい　全サービス停止
 
@@ -1271,10 +1392,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1106_01>
 - 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1109_01>
 - 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1030_01>
 - 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1104_02>
+- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1106_01>
 
 ### 宝くじ公式サイト、会員の当落情報まで第三者が閲覧の可能性　リスト型攻撃か
 
@@ -2174,8 +2295,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://security-portal.cyber.go.jp/curriculum/torikumi/jnsa_rikaidocheck.html>
 - 取得結果: ValueError: PDF metadata needs review: publisher=False, date=False, title=True / <https://www.jnsa.org/dl/annual/20261106.pdf>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://security-portal.cyber.go.jp/curriculum/torikumi/jnsa_rikaidocheck.html>
 
 ### \[ITmedia ビジネスオンライン\] KDDI松田社長、決算会見で2つの「お詫び」　メアド1223万件超漏えい、モンゴルの火災について何を語った？
 
@@ -2342,8 +2463,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.docomo.ne.jp/info/notice/page/261105_02_m.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.docomo.ne.jp/info/notice/page/261022_00_m.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.docomo.ne.jp/info/notice/page/261105_02_m.html>
 
 ### 「e-Tax」再開　安全性確認、納税者の情報漏えいなし
 
@@ -2583,7 +2704,6 @@
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.consumer.go.jp/pio?id=pio_consult_guidance_top>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.fsa.go.jp/opinion/>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.j-credit.or.jp/customer/consult/consult.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/security/anshin/about.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://scan.netsecurity.ne.jp/article/2026/11/04/56652.html>
 
 ### GMOペイメント、決済支援システムで「不正なユーザーによる行為」　「Vプリカ」69件漏えい、3件はセキュリティコードも
@@ -3201,11 +3321,11 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.watch.impress.co.jp/docs/news/2152347.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://paymentnavi.com/?p=173665>
 - 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://support.goodsmile.com/hc/ja/articles/63718007508761>
 - 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://support.goodsmile.com/hc/ja/articles/63547468806297>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.j-credit.or.jp/information/statistics/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.j-credit.or.jp/security/document/index.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119555/>
 
 ### ヤクルト本社、個人情報約4万件漏えい　公式サイトへの不正アクセスで
@@ -3633,9 +3753,9 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://travel.faq.rakuten.net/detail/000031574>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/news/careful_information/261007_alert?ref=topnews>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/legal/rouei?ref=toppanel>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/personalinfo/legal/leakAction?ref=toppanel>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119509/>
 
 ### So-netに不正アクセス、会員情報258万件が漏えい　plala（Sコース）も対象、メールのパスワードは5.4万件
@@ -5686,6 +5806,16 @@
 - 取得結果: HTTPError: HTTP Error 404: Not Found / <https://jr-central.co.jp/news/release/_pdf/000046058.pdf>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nissui.co.jp/news/20261014.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/118902/>
+
+### 連結子会社における不正アクセスの発生及び個人情報漏洩に関するお知らせ
+
+内容確認が必要 / 報道・公表日: 2026-10-15
+
+<https://www.release.tdnet.info/inbs/140120261015551574.pdf>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: HTTP Error 404: Not Found / <https://www.release.tdnet.info/inbs/140120261015551574.pdf>
 
 ### ConoHa WING byGMO に不正アクセス、不正プログラムを設置
 
