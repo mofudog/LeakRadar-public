@@ -1,6 +1,6 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-24T00:54:58+00:00
+確認日時: 2026-11-24T10:58:22+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
@@ -8,8 +8,8 @@
 - 同一事案の別記事: 3件
 - 掲載対象外: 9件
 - 取得失敗: 94件
-- 公式発表の発見待ち: 506件
-- 内容確認が必要: 483件
+- 公式発表の発見待ち: 507件
+- 内容確認が必要: 487件
 - 未処理: 0件
 - 再確認が必要: 14件
 
@@ -135,6 +135,36 @@
 
 - 取得結果: ValueError: Article encoding could not be read reliably / <https://www.rakuten-sec.co.jp/web/info/info20261117-02.html>
 - 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://sbc-holdings.com/ja/news/605>
+
+### インフォキュリオンの電子決済プラットフォーム「Wallet Station」に不正アクセス、最大約25万件の個人情報が流出　鹿児島銀行の「Payどん」で流出、サービス停止中
+
+公式発表の発見待ち / 報道・公表日: 2026-11-24
+
+<https://internet.watch.impress.co.jp/docs/news/2158658.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://internet.watch.impress.co.jp/docs/news/2158658.html>
+
+### 無印良品、不正アクセスで株主優待が“紙に逆戻り”　電子クーポンにはいつ戻る？　広報に聞いた
+
+内容確認が必要 / 報道・公表日: 2026-11-24
+
+<https://www.itmedia.co.jp/news/article/2611/24/2000003419/>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ipa.go.jp/security/todokede/crack-virus/ransomware_lessons_learned.html>
+
+### 当社子会社が運用するinfoCMSへの不正アクセスおよびお客様Webサイトの一時停止に関するお知らせ（第1報）
+
+内容確認が必要 / 報道・公表日: 2026-11-24
+
+<https://www.release.tdnet.info/inbs/140120261124584682.pdf>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: PDF metadata needs review: publisher=True, date=True, title=False / <https://www.release.tdnet.info/inbs/140120261124584682.pdf>
 
 ### Payどん委託先のインフキュリオンに不正アクセス、個人情報251,172件が漏えい　全サービス停止
 
@@ -1119,8 +1149,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.first.org/blog/20260615-vulnerability-forecast-update>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.cas.go.jp/jp/seisaku/cybersecurity_kakuryokaigi/index.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.first.org/blog/20260615-vulnerability-forecast-update>
 
 ### \[ITmedia ビジネスオンライン\] なぜゾーホーは「広告を載せない」のか？　情報漏えいを防ぐ「独自の設計」、AI研究責任者に聞く
 
@@ -1130,8 +1160,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.lab-kadokawa.com/release/detail.php?id=0395>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r08/html/nd121140.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.lab-kadokawa.com/release/detail.php?id=0395>
 
 ### オンライン麻雀に不正アクセス 会員情報流出 ～ 寄せられた激励メッセージに謝意 メールはスタッフ全員が目を通し必ず返信
 
@@ -1251,8 +1281,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Source exceeds discovery size limit / <https://internet.gmo/pdf/presen/gmointernet_fy2026q3_j_presentation.pdf>
 - 取得結果: ValueError: Encrypted/large PDF requires editorial review / <https://internet.gmo/pdf/presen/gmointernet_fy2026q3_j_financial_report.pdf>
+- 取得結果: ValueError: Source exceeds discovery size limit / <https://internet.gmo/pdf/presen/gmointernet_fy2026q3_j_presentation.pdf>
 
 ### マネックス証券の口座開設システムに不正アクセス、最大約113万件のメールアドレス・1592件の本人確認書類画像が漏えいのおそれ　
 
@@ -1415,10 +1445,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1106_01>
 - 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1109_01>
 - 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1030_01>
 - 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1104_02>
+- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1106_01>
 
 ### セキュリティの司令塔、韓国金融保安院がハッキング攻撃受け個人情報650件流出
 
@@ -1824,9 +1854,9 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.kentei.ne.jp/51816>
-- 取得結果: ValueError: Encrypted/large PDF requires editorial review / <https://www.cyber.go.jp/pdf/press/261105_taiou.pdf>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/personalinfo/legal/leakAction/>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://news.web.nhk/newsweb/na/nd-20261110de73779>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.niigata-nippo.co.jp/articles/-/940199>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.jcci.or.jp/news/news/2026/1110170000.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119902/>
 
 ### 消防庁「安否情報システム」に不正アクセス、影響範囲調査のためにサービスを停止消防庁の「安否情報システム」に不正アクセス、影響範囲調査のためサービス停止
@@ -1977,8 +2007,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://kingprinters.com/news/2026/oshirase_20260925>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://kingprinters.com/news/2026/oshirase_20261109>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://kingprinters.com/news/2026/oshirase_20260925>
 
 ### 【解説】プレステージ・コアソリューションに不正アクセス、ロードサービスの情報最大約550万件（重複含む）持ち出し
 
@@ -1988,11 +2018,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://laws.e-gov.go.jp/law/415AC0000000057>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://k-tai.watch.impress.co.jp/docs/news/2154147.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.logi-today.com/1018986>
-- 取得結果: HTTPError: HTTP Error 406: Not Acceptable / <https://www.prestigein.com/Portals/0/pdf/NEWS/news_20261102_01.pdf>
+- 取得結果: HTTPError: HTTP Error 406: Not Acceptable / <https://www.prestigein.com/Portals/0/pdf/NEWS/news_20261106_01.pdf>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.mitsui-direct.co.jp/information/20261102.html>
 - 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119858/>
 
 ### ニトリ、不正アクセスにより個人・法人会員の情報最大3762万件が流出の可能性　
@@ -5817,6 +5844,26 @@
 
 - 取得結果: HTTP Error 404: Not Found / <https://www.release.tdnet.info/inbs/140120261015551574.pdf>
 
+### イエローハットにおける不正アクセスによる個人情報漏えいに関する【第二報】
+
+内容確認が必要 / 報道・公表日: 2026-10-15
+
+<https://www.release.tdnet.info/inbs/140120261015551164.pdf>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: HTTP Error 404: Not Found / <https://www.release.tdnet.info/inbs/140120261015551164.pdf>
+
+### 当社ECサイトへの第三者からの不正アクセスによる情報漏洩に関するお知らせ
+
+内容確認が必要 / 報道・公表日: 2026-10-15
+
+<https://www.release.tdnet.info/inbs/140120261015551741.pdf>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: HTTP Error 404: Not Found / <https://www.release.tdnet.info/inbs/140120261015551741.pdf>
+
 ### ConoHa WING byGMO に不正アクセス、不正プログラムを設置
 
 公式発表の発見待ち / 報道・公表日: 2026-10-14
@@ -5923,6 +5970,16 @@
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
 - 取得結果: HTTP Error 404: Not Found / <https://www.release.tdnet.info/inbs/140120261013549964.pdf>
+
+### 当社連結子会社におけるシステム障害発生に関するお知らせ（第２報）及びサイバー攻撃による個人情報漏えいの可能性に関するお詫びとお知らせ
+
+内容確認が必要 / 報道・公表日: 2026-10-13
+
+<https://www.release.tdnet.info/inbs/140120261013549728.pdf>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: HTTP Error 404: Not Found / <https://www.release.tdnet.info/inbs/140120261013549728.pdf>
 
 ### 不正アクセスによる個人情報漏えいに関するお詫びとお知らせ(第2報)
 
@@ -6374,16 +6431,6 @@
 
 - 取得結果: HTTP Error 404: Not Found / <https://www.release.tdnet.info/inbs/140120260917537753.pdf>
 
-### クリエイティブ業界向け求人サービス「CINRA JOB」に不正アクセス
-
-内容確認が必要 / 報道・公表日: 2026-09-16
-
-<https://www.security-next.com/189866>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.cinra.co.jp/news/20261021>
-
 ### 生徒寮でサポート詐欺、入寮者の個人情報が流出か - 宮崎県
 
 内容確認が必要 / 報道・公表日: 2026-09-14
@@ -6392,7 +6439,7 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.pref.miyazaki.lg.jp/noseikikaku/press/2026/11/20261105122858.html>
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.pref.miyazaki.lg.jp/noseikikaku/press/2026/11/20261113162208.html>
 
 ### 情報基盤から学生や教職員の個人情報が流出した可能性 - 東京科学大
 
