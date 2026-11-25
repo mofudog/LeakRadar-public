@@ -2720,22 +2720,14 @@
       "retryAfter": 1795231234.0
     },
     "945150c0d0202aa1737275a8242dc147da582a099799407b5114bca6629bd983": {
-      "hash": "bccde90259ff2c663c17c8c148bccc98f78ffb5ab4af2a7df3bcf29fc70c4add",
+      "hash": "bb4ca9963f32c805481f761ab5c0f3cb0fc88c7de838205a5602754922a536f1",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.tkc.jp/news/2026/20261102_2/",
-      "attemptedAt": "2026-11-05T16:18:37+00:00",
-      "state": "success",
-      "passages": [
-        {
-          "kind": "items",
-          "quote": "メール配信業務を委託するアララ株式会社の「アララメッセージ」が第三者による不正アクセスを受け、メールアドレスや氏名等の情報が外部に漏えいしたとの報告を受けました。"
-        },
-        {
-          "kind": "scale",
-          "quote": "漏えい対象に、当社のシステムを利用するお客さまのメールアドレスが最大223万812件含まれていることが判明しました。"
-        }
-      ]
+      "attemptedAt": "2026-11-25T15:38:58+00:00",
+      "state": "failed",
+      "error": "api_http_503",
+      "retryAfter": 1795707538.0
     },
     "c064f98d2ae56c2ae691635d607d57bf2b2bb1492d8846b818c3a296a4036e22": {
       "hash": "08544c8a72aa7b3d9a16e5a02601d21466e38f0793d239a6fbd2662280fdfa84",
@@ -2785,22 +2777,14 @@
       "retryAfter": 1795447302.0
     },
     "9fa1d6cf1ed974d00988f842e7937462767a27c5186505aa48c7c2885f405d20": {
-      "hash": "239aef719f35f2c2e6d98d5f8d8755462b2ee935ff9fb47dbd11137baa3090e6",
+      "hash": "f24a10bf6461f493e211a4cfa89058d7f85219c65dcbe955d7e328d3bc8f0c0d",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.tkc.jp/news/2026/20261104/",
-      "attemptedAt": "2026-11-06T01:25:12+00:00",
-      "state": "success",
-      "passages": [
-        {
-          "kind": "items",
-          "quote": "その後のアララ株式会社の調査により、漏えいしたのはメールアドレスのみであり、メール本文、マイナンバー、市町村への申請情報等のその他の情報は漏えいしていないことが確認されました。"
-        },
-        {
-          "kind": "scale",
-          "quote": "株式会社TKCがメール配信業務を委託するアララ株式会社の「アララメッセージ」が第三者による不正アクセスを受けたことにより、同社から当社のシステムを利用するお客さまのメールアドレスが最大223万812件外部に漏えいしたとの報告を受けています。"
-        }
-      ]
+      "attemptedAt": "2026-11-25T15:38:58+00:00",
+      "state": "failed",
+      "error": "api_http_503",
+      "retryAfter": 1795707538.0
     },
     "82ef2a75cbc352eab97c781e3c87871fa5563ac4a226c5ff83257d80505b7680": {
       "hash": "b51a884ff4d645c2c3a35665a81616100f035da87c437745ef1efdf9b3f0d832",
@@ -3606,14 +3590,37 @@
           "quote": "漏えいした可能性がある情報は以下の通りです。 ・Payどんユーザの会員情報(氏名、生年月日、電話番号、性別、メールアドレス、パスワード) ・決済手段(口座情報、ポイント残高、地域振興券ポイント残高) ・取引履歴(取引日時、店舗名、取引金額)"
         }
       ]
+    },
+    "a7f789da2516095a9d36a4e7f31475efdf0253888137f72c7715417e89e6e469": {
+      "hash": "be314ba69eb066116704662809c981f6ad9b24dfeff3df7ebf868ec93dfdabed",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://www.release.tdnet.info/inbs/140120261124585501.pdf",
+      "attemptedAt": "2026-11-25T15:38:58+00:00",
+      "state": "failed",
+      "error": "api_http_503",
+      "retryAfter": 1795707538.0
+    },
+    "29e90c0bc28e5b8dec030e41f28f3880aa2d5c3550a76f24c4c57a1e98ace243": {
+      "hash": "8eb1a7ad929339928d6cddbf09d1e2b9b221a64946f024a3701ccbe860fc74ec",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://www.release.tdnet.info/inbs/140120261125585727.pdf",
+      "attemptedAt": "2026-11-25T15:38:58+00:00",
+      "state": "success",
+      "passages": []
+    },
+    "cb2fa318ad5b5349e5d7815339fa71563bfc37c6a7806e314fd835d93083a6d3": {
+      "hash": "06cd3f76e68a4353b90ee67897ce3738aa4673060e8e597eee21515a62af9e15",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://www.release.tdnet.info/inbs/140120261125586210.pdf",
+      "attemptedAt": "2026-11-25T15:38:58+00:00",
+      "state": "success",
+      "passages": []
     }
   },
   "requestTimes": [
-    1795517902.0,
-    1795517902.0,
-    1795517902.0,
-    1795517902.0,
-    1795517902.0,
     1795554918.0,
     1795554918.0,
     1795554918.0,
@@ -3623,6 +3630,11 @@
     1795580315.0,
     1795580315.0,
     1795580315.0,
-    1795580315.0
+    1795580315.0,
+    1795621138.0,
+    1795621138.0,
+    1795621138.0,
+    1795621138.0,
+    1795621138.0
   ]
 }
