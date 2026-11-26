@@ -175,10 +175,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/4YBQ3JACTocGVgQmIVkSHe/bed9ff0b11db690e1217e0329c484104/20261015_Public_J.pdf",
-      "attemptedAt": "2026-11-17T03:55:48+00:00",
+      "attemptedAt": "2026-11-26T19:38:21+00:00",
       "state": "failed",
       "error": "irrelevant_output",
-      "retryAfter": 1794974148.0
+      "retryAfter": 1795808301.0
     },
     "aaf9c8b7523bb89a68be72c56c180ed163341122dea98ee9fb15880b06f00c04": {
       "hash": "eaf2549aa9d544b7c67d8eb0bb299f65986797e0d0852ce1a463f5c4d26da44c",
@@ -756,11 +756,11 @@
       ]
     },
     "7092598e030367766a73e6151409e0419ef337fe77da2cb961df3695a52a2aba": {
-      "hash": "ac160c4b44de067997c9ee5cb3208f73b66cb8f67ad3824fd4935abf7a841fb8",
+      "hash": "e0005173456a9df6a44ffdb2550645cdeb0f29c5b08403e2c5b938f229b21be1",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.nikkei.co.jp/nikkeiinfo/news/information/1554.html",
-      "attemptedAt": "2026-10-21T21:48:33+00:00",
+      "attemptedAt": "2026-11-26T19:38:21+00:00",
       "state": "success",
       "passages": []
     },
@@ -2330,10 +2330,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/4YBQ3JACTocGVgQmIVkSHe/c7865f094fe436292d7c81e1116a9c7f/20261015_Public_J.pdf",
-      "attemptedAt": "2026-11-17T03:55:48+00:00",
+      "attemptedAt": "2026-11-26T19:38:21+00:00",
       "state": "failed",
-      "error": "api_request_failed",
-      "retryAfter": 1794974148.0
+      "error": "irrelevant_output",
+      "retryAfter": 1795808301.0
     },
     "98f3653f8449d642458ec7f154c3f006f87180800a7c3f61989214ed457e679f": {
       "hash": "80e64c5c953657dbc619972b5a6062390bd5532cb4dde25589a8b7618384cb2a",
@@ -3115,22 +3115,14 @@
       "passages": []
     },
     "21576788f6759371183690d950c75fc4b281be260a47c0848b0e984aff5bd320": {
-      "hash": "174d6f9cf6745b95fca3aecaa105a5ad91dee514cd65ac510d2fda70d95595d6",
+      "hash": "72338637e8e4010e7230169a2b4e270bfc55e6d60532f3add9b50a616414ac60",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://at-link.net/information/%E3%82%A2%E3%83%83%E3%83%88%E3%83%AA%E3%83%B3%E3%82%AF%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E8%AA%BF%E6%9F%BB%E7%8A%B6%E6%B3%81/",
-      "attemptedAt": "2026-11-17T03:55:48+00:00",
-      "state": "success",
-      "passages": [
-        {
-          "kind": "audience",
-          "quote": "対象医療機関のご利用者様で、アットリンクアプリ・WEB予約をご利用の方"
-        },
-        {
-          "kind": "items",
-          "quote": "氏名、フリガナ、誕生月日 メールアドレス(登録された方のみ) アットリンクアプリ・WEB予約のログインID、パスワード"
-        }
-      ]
+      "attemptedAt": "2026-11-26T19:38:21+00:00",
+      "state": "failed",
+      "error": "ungrounded_output",
+      "retryAfter": 1795808301.0
     },
     "ef662704304da55478eaf2eea4363ad24c8bb7d805f01cdf26e8069fada89296": {
       "hash": "863a1c2eb445254fc1058a0cadef87c8a020115b7bb6c30d0c502360c42180c6",
@@ -3634,14 +3626,23 @@
       "state": "failed",
       "error": "ungrounded_output",
       "retryAfter": 1795772019.0
+    },
+    "1cd5b3b526d96b8d53dda3fa8082dfa9d6cc31ef9a1d448ef88171e0122693f9": {
+      "hash": "ea65ac453ad3d52719f9c012bee5c047f13f7a0f3a85ecc7d8be5563ae17d1b0",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://www.release.tdnet.info/inbs/140120261126587182.pdf",
+      "attemptedAt": "2026-11-26T19:38:21+00:00",
+      "state": "success",
+      "passages": [
+        {
+          "kind": "items",
+          "quote": "流出したおそれがある情報には、氏名や連絡先、Web サイトの会員登録情報、お問い合わせフォームへ の入力情報、パスワードを含むアカウント情報・認証情報等が含まれます。対象となる情報の種類や範 囲は Web サイトごとに異なります。"
+        }
+      ]
     }
   },
   "requestTimes": [
-    1795621138.0,
-    1795621138.0,
-    1795621138.0,
-    1795621138.0,
-    1795621138.0,
     1795652610.0,
     1795652610.0,
     1795652610.0,
@@ -3651,6 +3652,11 @@
     1795685619.0,
     1795685619.0,
     1795685619.0,
-    1795685619.0
+    1795685619.0,
+    1795721901.0,
+    1795721901.0,
+    1795721901.0,
+    1795721901.0,
+    1795721901.0
   ]
 }
