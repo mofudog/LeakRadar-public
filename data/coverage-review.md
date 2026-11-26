@@ -1,6 +1,6 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-25T15:38:58+00:00
+確認日時: 2026-11-26T00:23:30+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
@@ -8,12 +8,92 @@
 - 同一事案の別記事: 3件
 - 掲載対象外: 9件
 - 取得失敗: 99件
-- 公式発表の発見待ち: 517件
-- 内容確認が必要: 499件
+- 公式発表の発見待ち: 524件
+- 内容確認が必要: 501件
 - 未処理: 0件
 - 再確認が必要: 14件
 
 ## 確認待ち
+
+### 窃取した認証情報を用いたアカウント乗っ取りも ～「KARTE」不正アクセス調査結果
+
+公式発表の発見待ち / 報道・公表日: 2026-11-26
+
+<https://scan.netsecurity.ne.jp/article/2026/11/26/56908.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/26/56908.html>
+
+### 「KARTE」への不正アクセス、ZOZOの顧客情報も漏えい
+
+公式発表の発見待ち / 報道・公表日: 2026-11-26
+
+<https://scan.netsecurity.ne.jp/article/2026/11/26/56907.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/26/56907.html>
+
+### 「KARTE」への不正アクセス、「コミックシーモア」・「MangaPlaza」の顧客情報が流出
+
+公式発表の発見待ち / 報道・公表日: 2026-11-26
+
+<https://scan.netsecurity.ne.jp/article/2026/11/26/56906.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/26/56906.html>
+
+### 「KARTE」への不正アクセス、「JINSオンラインショップ」等で会員登録を行った最大 約1,829万件の個人情報が漏えいした可能性
+
+公式発表の発見待ち / 報道・公表日: 2026-11-26
+
+<https://scan.netsecurity.ne.jp/article/2026/11/26/56905.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/26/56905.html>
+
+### 「KARTE」への不正アクセス、ZAP ID登録者 最大約432万件のメールアドレスが漏えいした可能性
+
+公式発表の発見待ち / 報道・公表日: 2026-11-26
+
+<https://scan.netsecurity.ne.jp/article/2026/11/26/56904.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/26/56904.html>
+
+### LiPLUSホールディングスが利用する架電システム「Telforce」に不正アクセス、約28万件の電話番号等が漏えいした可能性
+
+公式発表の発見待ち / 報道・公表日: 2026-11-26
+
+<https://scan.netsecurity.ne.jp/article/2026/11/26/56903.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/26/56903.html>
+
+### ビックカメラグループが委託するアララ提供のメール配信システムに不正アクセス、1,520万4,757件の顧客情報漏えいを確認
+
+公式発表の発見待ち / 報道・公表日: 2026-11-26
+
+<https://scan.netsecurity.ne.jp/article/2026/11/26/56902.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/26/56902.html>
+
+### M&A検討資料など最大数千社分漏えいか　ミロク情報子会社に不正アクセス　役職員の認証情報取得される
+
+内容確認が必要 / 報道・公表日: 2026-11-26
+
+<https://www.itmedia.co.jp/news/article/2611/26/2000003467/>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://mmap.co.jp/news/news_20261124/>
 
 ### 九州電力送配電に不正アクセス、使用電力量や発電電力量が漏えいした可能性
 
@@ -3217,8 +3297,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Article encoding could not be read reliably / <https://www.rakuten-sec.co.jp/web/info/info20261031-01.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.nttdata.com/global/ja/news/release/2026/103101/>
+- 取得結果: ValueError: Article encoding could not be read reliably / <https://www.rakuten-sec.co.jp/web/info/info20261031-01.html>
 
 ### ペイクラウドHD、「アララ メッセージ」への不正アクセスで約7700万件のメールアドレスが流出　ラクスライトクラウド「ブラストメール」でも。法人向けメール配信サービスの不正アクセス続く
 
@@ -6852,6 +6932,16 @@
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
 - 取得結果: ValueError: Cross-domain redirect requires review / <https://www.asahi-kasei.co.jp/>
+
+### クラフトビール通販サイトで個人情報流出の可能性
+
+内容確認が必要 / 報道・公表日: 2026-08-21
+
+<https://www.security-next.com/189118>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.haradacorp.co.jp/news/detail.php?id=378>
 
 ### トークン漏洩で開発環境が侵害、内部に個人情報 - イノベーション
 
