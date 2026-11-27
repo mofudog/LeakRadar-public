@@ -3310,34 +3310,42 @@
       ]
     },
     "14d7321939ff0f629c9ec7f5b96bc8a89c7f34292f9887b40d21c4673ec344d5": {
-      "hash": "b5c2c204438d52b76412dd336935b80d12d8455cd6de824c5acfa36ab5487555",
+      "hash": "97fc1f3b23543c9ec1c1f9133c2959e4721b5937f48984efa3296b8ec4fa967f",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://plaid.co.jp/news/20261116/",
-      "attemptedAt": "2026-11-17T13:29:39+00:00",
+      "attemptedAt": "2026-11-27T21:59:12+00:00",
       "state": "failed",
       "error": "irrelevant_count",
-      "retryAfter": 1795008579.0
+      "retryAfter": 1795903152.0
     },
     "f69e1a454a053c9254346e29de5b04d0c520e774f995cd98b157fb0a47ccfc11": {
       "hash": "e3c24243bfb3eb6988a6d0d79456c8f49200329d28913cd04855cb1737b5a0a9",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.rakuten-sec.co.jp/web/company/newsrelease/pdf/press2026111702.pdf",
-      "attemptedAt": "2026-11-17T13:29:39+00:00",
+      "attemptedAt": "2026-11-27T21:59:12+00:00",
       "state": "failed",
-      "error": "api_http_503",
-      "retryAfter": 1795008579.0
+      "error": "ungrounded_output",
+      "retryAfter": 1795903152.0
     },
     "0b486760c5e96090dc38dc31d9e7f48ecd3156b0e2a7cd4aa3981a3377abea1c": {
       "hash": "dce2612c9e30393d861dd6e543193a3da79e35aa7534ed952b45e9c65914c4cb",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.release.tdnet.info/inbs/140120261117582082.pdf",
-      "attemptedAt": "2026-11-17T13:29:39+00:00",
-      "state": "failed",
-      "error": "ungrounded_output",
-      "retryAfter": 1795008579.0
+      "attemptedAt": "2026-11-27T21:59:12+00:00",
+      "state": "success",
+      "passages": [
+        {
+          "kind": "items",
+          "quote": "漏えいした情報の項目:注文情報(注文者様・お届け先の氏名、住所、電話番号、メールアド レス、ご注文内容) GoQSystemではクレジットカード情報を保有していないため、今回漏えいした 個人情報にクレジットカード情報は含まれておりません。"
+        },
+        {
+          "kind": "scale",
+          "quote": "対象注文件数 :3,728 件(楽天 2,594 件、Yahoo!ショッピング 1,082 件、公式ショップ 52 件) ・対象人数:3,813 人"
+        }
+      ]
     },
     "56b0da6ce7cfb4b18f9dc2e581f9c099f2c7fe64221733810a8c8aecc8e8cf06": {
       "hash": "d5baeb9d85f83e8a7439114b242b0e001ea7d23d3e18bcac57914eaf92554cf8",
@@ -3722,14 +3730,28 @@
       "state": "failed",
       "error": "irrelevant_output",
       "retryAfter": 1795868828.0
+    },
+    "adc53b1abd2e43ab010086cba1228753949958d62557375c7ca7473764fbe834": {
+      "hash": "160160a7820364868f1dfe1dfb6ce6b4b035e97f145f6e300ab86e7cd3fb8e29",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://www.release.tdnet.info/inbs/140120261127587952.pdf",
+      "attemptedAt": "2026-11-27T21:59:12+00:00",
+      "state": "failed",
+      "error": "irrelevant_count",
+      "retryAfter": 1795903152.0
+    },
+    "83b5da6fbb95e754d969e2ce377e182bfe20d95ed514e3e08c0532b6c2ff1154": {
+      "hash": "62953d7454971f95b79d78ac38eab00544ce49e963881ae55460ad43f0250d90",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://www.stripe-intl.com/news/2026/1120-01/",
+      "attemptedAt": "2026-11-27T21:59:12+00:00",
+      "state": "success",
+      "passages": []
     }
   },
   "requestTimes": [
-    1795721901.0,
-    1795721901.0,
-    1795721901.0,
-    1795721901.0,
-    1795721901.0,
     1795747936.0,
     1795747936.0,
     1795747936.0,
@@ -3739,6 +3761,11 @@
     1795782428.0,
     1795782428.0,
     1795782428.0,
-    1795782428.0
+    1795782428.0,
+    1795816752.0,
+    1795816752.0,
+    1795816752.0,
+    1795816752.0,
+    1795816752.0
   ]
 }

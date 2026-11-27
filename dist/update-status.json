@@ -1,10 +1,10 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-27T12:27:08+00:00",
+  "lastAttemptAt": "2026-11-27T21:59:12+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-27T12:27:08+00:00",
-  "successfulFetches": 511,
-  "failedFetches": 62,
+  "lastPartialSuccessAt": "2026-11-27T21:59:12+00:00",
+  "successfulFetches": 506,
+  "failedFetches": 67,
   "changedReviewedSources": 100,
   "automaticAnnouncements": 366,
   "watchedDocumentCount": 519,
@@ -164,6 +164,26 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "url": "https://www.release.tdnet.info/inbs/140120261019552813.pdf",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261019553073.pdf",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261019553091.pdf",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261019553109.pdf",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261019553141.pdf",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
       "url": "https://wisewise.com/news/20241224_news/",
       "error": "Redirect to an unregistered host"
     },
@@ -263,18 +283,18 @@
   "fullyComprehensive": false,
   "summaryReviewedAt": "2026-10-25",
   "cloudRun": true,
-  "retentionStart": "2023-11-27",
+  "retentionStart": "2023-11-28",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-27T12:27:08+00:00",
+    "lastAttemptAt": "2026-11-27T21:59:12+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
-    "successfulArchivePages": 1,
+    "successfulArchivePages": 2,
     "newsCandidates": 1873,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 96,
+    "officialFetches": 75,
     "confirmedOfficialAnnouncements": 433,
-    "pendingNewsArticles": 1133,
+    "pendingNewsArticles": 1132,
     "skippedReviewedArticles": 26,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -317,30 +337,30 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-27T12:30:04+00:00",
-      "listPagesChecked": 6,
+      "lastAttemptAt": "2026-11-27T22:01:32+00:00",
+      "listPagesChecked": 4,
       "documentsChecked": 20,
       "pendingListPages": 0,
-      "pendingDocuments": 39
+      "pendingDocuments": 40
     }
   },
   "automaticSummaries": {
-    "ready": 80,
-    "partial": 194,
-    "pending": 133,
-    "fetchFailed": 40
+    "ready": 79,
+    "partial": 192,
+    "pending": 136,
+    "fetchFailed": 45
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
     "requestsLast24Hours": 15,
-    "cachedSources": 147,
+    "cachedSources": 145,
     "acceptedSources": 0,
-    "noMatchingSources": 1,
-    "failedSources": 4,
-    "deferredSources": 124,
-    "lastError": "irrelevant_output",
+    "noMatchingSources": 2,
+    "failedSources": 3,
+    "deferredSources": 122,
+    "lastError": "ungrounded_output",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
@@ -360,11 +380,11 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "needs_source_lookup": 533,
+    "needs_source_lookup": 531,
     "reopened": 14,
     "covered": 9,
-    "fetch_failed": 104,
-    "needs_review": 500,
+    "fetch_failed": 103,
+    "needs_review": 503,
     "duplicate": 3
   },
   "reviewBoard": "data/coverage-review.md",
