@@ -185,10 +185,10 @@
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://data.swcms.net/file/h2o-retailing/ja/news/auto_20261019552921/pdfFile.pdf",
-      "attemptedAt": "2026-11-17T03:55:48+00:00",
+      "attemptedAt": "2026-11-27T02:52:16+00:00",
       "state": "failed",
       "error": "irrelevant_output",
-      "retryAfter": 1794974148.0
+      "retryAfter": 1795834336.0
     },
     "9b9733363c259bbd51a8cb1c20f8086db64ad74e0224ca3f503a21e2c7567cad": {
       "hash": "e5c07ba0842aeecc57f135bdca332f151066cce7efec314275196ff2c6c141a1",
@@ -2306,14 +2306,14 @@
       "retryAfter": 1795604302.0
     },
     "cbd24c258afb364639941a670e9e1484d89a83f83a9fc29027fd1eee8c54b3bc": {
-      "hash": "fdab339ecb9014d9b5beac6fa048eea4946b2fb8c08a512aed81dbb0a517e768",
+      "hash": "80cda9473cd378a5d65e28f34a2b767543d367450df50f20e306397affe2cc2f",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://www.tsr-net.co.jp/data/detail/1203305_1527.html",
-      "attemptedAt": "2026-11-17T03:55:48+00:00",
+      "attemptedAt": "2026-11-27T02:52:16+00:00",
       "state": "failed",
-      "error": "api_http_503",
-      "retryAfter": 1794974148.0
+      "error": "irrelevant_output",
+      "retryAfter": 1795834336.0
     },
     "b84205a23c754bdbeeffd7ffba37c7e6736dbfd649461ad5693c422fe53179a8": {
       "hash": "465b89fbbf1f4da88016d0f7f1fa030a6117ceaaf89f7b19edea1d116754d028",
@@ -3292,14 +3292,22 @@
       ]
     },
     "19cde6604ab328eaba826871b26b9e4dbf4564b4e5b3776a5b79405ca5537488": {
-      "hash": "89e3af8836af7b1bbfa184f38256b939704ddaeae6a7a3ef94774995837d887b",
+      "hash": "cad645418c46320081f96472e126a68018f9dde7c872c7e243e055824d73c69e",
       "version": "gemini-excerpts-v1",
       "model": "gemini-3.5-flash-lite",
       "source": "https://bellface.co.jp/news/8195/",
-      "attemptedAt": "2026-11-17T13:29:39+00:00",
-      "state": "failed",
-      "error": "ungrounded_output",
-      "retryAfter": 1795008579.0
+      "attemptedAt": "2026-11-27T02:52:16+00:00",
+      "state": "success",
+      "passages": [
+        {
+          "kind": "audience",
+          "quote": "bellSalesAIをご利用のお客様の氏名、メールアドレス サービス上でのボタンクリック等のイベント情報 対象データ件数 調査中(確定次第、本ページにてお知らせいたします)"
+        },
+        {
+          "kind": "items",
+          "quote": "bellSalesAIをご利用のお客様の氏名、メールアドレス サービス上でのボタンクリック等のイベント情報"
+        }
+      ]
     },
     "14d7321939ff0f629c9ec7f5b96bc8a89c7f34292f9887b40d21c4673ec344d5": {
       "hash": "b5c2c204438d52b76412dd336935b80d12d8455cd6de824c5acfa36ab5487555",
@@ -3640,14 +3648,29 @@
           "quote": "流出したおそれがある情報には、氏名や連絡先、Web サイトの会員登録情報、お問い合わせフォームへ の入力情報、パスワードを含むアカウント情報・認証情報等が含まれます。対象となる情報の種類や範 囲は Web サイトごとに異なります。"
         }
       ]
+    },
+    "6d1a91b67840ce514a8080f5b39523ce960ce197e0fc6552f3fd67990196a127": {
+      "hash": "eb5a8d9d1262c0c8af789794bd4718b0abb4e2397ac0dd3397934db8eff28e02",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://www.flypeach.com/application/files/3617/9568/1472/20261126_INFO_JP.pdf",
+      "attemptedAt": "2026-11-27T02:52:16+00:00",
+      "state": "failed",
+      "error": "irrelevant_output",
+      "retryAfter": 1795834336.0
+    },
+    "b1ae1a86b21f6d3e23f9084333c503b0936ce9e5b68876e791edd5ddb4bcb452": {
+      "hash": "40a30966f5460acd77565ee631e5a30fcdf5aec93b0faff08f543104d4962351",
+      "version": "gemini-excerpts-v1",
+      "model": "gemini-3.5-flash-lite",
+      "source": "https://www.mf-shogyo.co.jp/pdf/info-20261126-95.pdf",
+      "attemptedAt": "2026-11-27T02:52:16+00:00",
+      "state": "failed",
+      "error": "irrelevant_count",
+      "retryAfter": 1795834336.0
     }
   },
   "requestTimes": [
-    1795652610.0,
-    1795652610.0,
-    1795652610.0,
-    1795652610.0,
-    1795652610.0,
     1795685619.0,
     1795685619.0,
     1795685619.0,
@@ -3657,6 +3680,11 @@
     1795721901.0,
     1795721901.0,
     1795721901.0,
-    1795721901.0
+    1795721901.0,
+    1795747936.0,
+    1795747936.0,
+    1795747936.0,
+    1795747936.0,
+    1795747936.0
   ]
 }

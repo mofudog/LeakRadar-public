@@ -1,19 +1,109 @@
 # 収集候補の確認状況
 
-確認日時: 2026-11-26T19:38:21+00:00
+確認日時: 2026-11-27T02:52:16+00:00
 
 記事単位の件数です。未掲載事故数・企業数ではありません。元の候補と理由は削除せず保存します。
 
 - 掲載済み: 9件
 - 同一事案の別記事: 3件
 - 掲載対象外: 9件
-- 取得失敗: 103件
-- 公式発表の発見待ち: 525件
-- 内容確認が必要: 501件
+- 取得失敗: 104件
+- 公式発表の発見待ち: 533件
+- 内容確認が必要: 500件
 - 未処理: 0件
 - 再確認が必要: 14件
 
 ## 確認待ち
+
+### 今日もどこかで情報漏えい 第54回「2026年10月の情報漏えい」教育委員会職員の不正アクセスが発覚した理由
+
+公式発表の発見待ち / 報道・公表日: 2026-11-27
+
+<https://scan.netsecurity.ne.jp/article/2026/11/27/56921.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/27/56921.html>
+
+### 「六花亭オンラインショップ」カード情報漏えい 不正利用 1 件確認 ～ クレカ再発行時の伝え方を案内 見舞金名目の不審な連絡にも注意喚起
+
+公式発表の発見待ち / 報道・公表日: 2026-11-27
+
+<https://scan.netsecurity.ne.jp/article/2026/11/27/56918.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/27/56918.html>
+
+### 不正アクセスで札幌のクリスマス抽選会が中止に
+
+公式発表の発見待ち / 報道・公表日: 2026-11-27
+
+<https://scan.netsecurity.ne.jp/article/2026/11/27/56917.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/27/56917.html>
+
+### 保守用アカウントを利用しシンクライアント環境経由で侵入 ～ エネコム社内ネットワークに不正アクセス
+
+公式発表の発見待ち / 報道・公表日: 2026-11-27
+
+<https://scan.netsecurity.ne.jp/article/2026/11/27/56916.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/27/56916.html>
+
+### デジタル庁のファイル共有サービスに正規外アクセス、一部ファイルが漏えいした可能性
+
+公式発表の発見待ち / 報道・公表日: 2026-11-27
+
+<https://scan.netsecurity.ne.jp/article/2026/11/27/56915.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/27/56915.html>
+
+### NewsPicksへの不正アクセス、BIツール「Metabase」の脆弱性を悪用
+
+公式発表の発見待ち / 報道・公表日: 2026-11-27
+
+<https://scan.netsecurity.ne.jp/article/2026/11/27/56914.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/27/56914.html>
+
+### 「ミツモア」にシステムの脆弱性を悪用した不正アクセス、最大36万6,850件の情報が取得される
+
+公式発表の発見待ち / 報道・公表日: 2026-11-27
+
+<https://scan.netsecurity.ne.jp/article/2026/11/27/56913.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://scan.netsecurity.ne.jp/article/2026/11/27/56913.html>
+
+### \[ITmedia エンタープライズ\] 退会者の免許証がなぜ7年残る？　漏えいが問う“データの持ち方”
+
+公式発表の発見待ち / 報道・公表日: 2026-11-27
+
+<https://www.itmedia.co.jp/enterprise/articles/2611/27/news030.html>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: No direct official announcement link found / <https://www.itmedia.co.jp/enterprise/articles/2611/27/news030.html>
+
+### 文部科学省の入札システムに不正アクセス　最大16万件漏えいか
+
+内容確認が必要 / 報道・公表日: 2026-11-27
+
+<https://www.itmedia.co.jp/news/article/2611/27/2000003508/>
+
+自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
+
+- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.mext.go.jp/a_menu/mext_00012.html>
 
 ### 窃取した認証情報を用いたアカウント乗っ取りも ～「KARTE」不正アクセス調査結果
 
@@ -426,8 +516,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Article encoding could not be read reliably / <https://www.rakuten-sec.co.jp/web/info/info20261117-02.html>
 - 取得結果: HTTPError: HTTP Error 403: Forbidden / <https://sbc-holdings.com/ja/news/605>
+- 取得結果: ValueError: Article encoding could not be read reliably / <https://www.rakuten-sec.co.jp/web/info/info20261117-02.html>
 
 ### インフォキュリオンの電子決済プラットフォーム「Wallet Station」に不正アクセス、最大約25万件の個人情報が流出　鹿児島銀行の「Payどん」で流出、サービス停止中
 
@@ -1745,10 +1835,10 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1109_01>
 - 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1030_01>
 - 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1104_02>
 - 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1106_01>
+- 取得結果: HTTPError: HTTP Error 429: Too Many Requests / <https://www.ryohin-keikaku.jp/news/articles/2026_1109_01>
 
 ### 宝くじ公式サイト、会員の当落情報まで第三者が閲覧の可能性　リスト型攻撃か
 
@@ -2654,8 +2744,8 @@
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=False, title=True / <https://www.jnsa.org/dl/annual/20261106.pdf>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://security-portal.cyber.go.jp/curriculum/torikumi/jnsa_rikaidocheck.html>
+- 取得結果: ValueError: PDF metadata needs review: publisher=False, date=False, title=True / <https://www.jnsa.org/dl/annual/20261106.pdf>
 
 ### \[ITmedia ビジネスオンライン\] KDDI松田社長、決算会見で2つの「お詫び」　メアド1223万件超漏えい、モンゴルの火災について何を語った？
 
@@ -4101,17 +4191,13 @@
 
 ### So-netに不正アクセス、会員情報258万件が漏えい　plala（Sコース）も対象、メールのパスワードは5.4万件
 
-内容確認が必要 / 報道・公表日: 2026-10-28
+取得失敗 / 報道・公表日: 2026-10-28
 
 <https://innovatopia.jp/cyber-security/cyber-security-news/119506/>
 
 自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
 
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.so-net.ne.jp/support/faq/qa202610_01/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.docomo.ne.jp/info/notice/page/261027_05_m.html>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.so-net.ne.jp/mypage/>
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.ppc.go.jp/news/careful_information/261007_alert?ref=topnews>
-- 取得結果: Remaining official links deferred by the per-run/per-article limit / <https://innovatopia.jp/cyber-security/cyber-security-news/119506/>
+- 取得結果: HTTPError: HTTP Error 415: Unsupported Media Type / <https://innovatopia.jp/cyber-security/cyber-security-news/119506/>
 
 ### ヤクルト本社サイト、不正アクセスで停止中　顧客情報への影響は「調査中」
 
@@ -7068,16 +7154,6 @@
 
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.sony.co.jp/Products/felica/business/information/2025001.html>
 - 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://jvn.jp/jp/JVN40509781/>
-
-### 小学校で児童の個人情報含む絵画作品を紛失 - 大阪市
-
-内容確認が必要 / 報道・公表日: 2026-07-17
-
-<https://www.security-next.com/186819>
-
-自動取得の結果による作業分類です。内容確認・掲載不要の判断は完了していません。
-
-- 取得結果: ValueError: Publisher identity, scoped date or first-party announcement could not be confirmed / <https://www.city.osaka.lg.jp/ictsenryakushitsu/page/0000509799.html>
 
 ### 個人情報含むファイルを誤送信、別ファイルと勘違い - 大阪市
 

@@ -1,18 +1,30 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-26T19:38:21+00:00",
+  "lastAttemptAt": "2026-11-27T02:52:16+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-26T19:38:21+00:00",
+  "lastPartialSuccessAt": "2026-11-27T02:52:16+00:00",
   "successfulFetches": 500,
-  "failedFetches": 62,
+  "failedFetches": 66,
   "changedReviewedSources": 96,
-  "automaticAnnouncements": 355,
-  "watchedDocumentCount": 508,
+  "automaticAnnouncements": 357,
+  "watchedDocumentCount": 510,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
     {
+      "url": "https://innovatopia.jp/feed/",
+      "error": "HTTPError: HTTP Error 415: Unsupported Media Type"
+    },
+    {
+      "url": "https://innovatopia.jp/cyber-security/cyber-security-news/119506/",
+      "error": "HTTPError: HTTP Error 415: Unsupported Media Type"
+    },
+    {
       "url": "https://www.lashinbang.com/info/26357/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.mrmax.co.jp/info/incident_20261006/",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -224,6 +236,10 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "url": "https://www.mrmax.co.jp/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
       "url": "https://support.rakuten-drive.com/",
       "error": "HTTP Error 403: Forbidden"
     },
@@ -265,16 +281,16 @@
   "cloudRun": true,
   "retentionStart": "2023-11-27",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-26T19:38:21+00:00",
+    "lastAttemptAt": "2026-11-27T02:52:16+00:00",
     "feedCount": 9,
-    "successfulFeeds": 9,
+    "successfulFeeds": 8,
     "successfulArchivePages": 1,
-    "newsCandidates": 1858,
-    "newsArticlesChecked": 70,
+    "newsCandidates": 1869,
+    "newsArticlesChecked": 69,
     "deferredNewsArticles": 0,
-    "officialFetches": 53,
-    "confirmedOfficialAnnouncements": 422,
-    "pendingNewsArticles": 1125,
+    "officialFetches": 44,
+    "confirmedOfficialAnnouncements": 424,
+    "pendingNewsArticles": 1133,
     "skippedReviewedArticles": 26,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -317,7 +333,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-26T19:40:30+00:00",
+      "lastAttemptAt": "2026-11-27T02:54:07+00:00",
       "listPagesChecked": 4,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -326,19 +342,19 @@
   },
   "automaticSummaries": {
     "ready": 79,
-    "partial": 186,
-    "pending": 131,
-    "fetchFailed": 40
+    "partial": 187,
+    "pending": 132,
+    "fetchFailed": 41
   },
   "aiSummary": {
     "status": "active",
     "model": "gemini-3.5-flash-lite",
     "requestsThisRun": 5,
     "requestsLast24Hours": 15,
-    "cachedSources": 145,
-    "acceptedSources": 1,
+    "cachedSources": 147,
+    "acceptedSources": 0,
     "noMatchingSources": 1,
-    "failedSources": 3,
+    "failedSources": 4,
     "deferredSources": 115,
     "lastError": "irrelevant_output",
     "dailySafetyLimit": 100,
@@ -360,14 +376,14 @@
   "coverageReport": "data/coverage-report.json",
   "candidateTriageCounts": {
     "out_of_scope": 9,
-    "needs_source_lookup": 525,
+    "needs_source_lookup": 533,
     "reopened": 14,
     "covered": 9,
-    "fetch_failed": 103,
-    "needs_review": 501,
+    "fetch_failed": 104,
+    "needs_review": 500,
     "duplicate": 3
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 1143,
+  "unresolvedNewsCandidates": 1151,
   "deferredNewsCandidates": 0
 }
