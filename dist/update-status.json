@@ -1,13 +1,13 @@
 {
   "status": "partial",
-  "lastAttemptAt": "2026-11-28T03:55:18+00:00",
+  "lastAttemptAt": "2026-11-28T13:03:15+00:00",
   "lastSuccessAt": null,
-  "lastPartialSuccessAt": "2026-11-28T03:55:18+00:00",
-  "successfulFetches": 508,
-  "failedFetches": 67,
+  "lastPartialSuccessAt": "2026-11-28T13:03:15+00:00",
+  "successfulFetches": 511,
+  "failedFetches": 69,
   "changedReviewedSources": 100,
-  "automaticAnnouncements": 368,
-  "watchedDocumentCount": 521,
+  "automaticAnnouncements": 373,
+  "watchedDocumentCount": 526,
   "watchedIndexCount": 52,
   "schedule": "毎時（GitHub Actionsの遅延・停止があり得ます）",
   "errors": [
@@ -184,6 +184,10 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
+      "url": "https://www.active-pro.jp/news/4303/",
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
+    },
+    {
       "url": "https://wisewise.com/news/20241224_news/",
       "error": "Redirect to an unregistered host"
     },
@@ -230,6 +234,10 @@
     {
       "url": "https://www.recruit.co.jp/wp-content/uploads/2026/10/20261021_eZ84iR_01.pdf",
       "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.bunbun.co.jp/news/20261113.html",
+      "error": "<urlopen error timed out>"
     },
     {
       "url": "https://www.nikkei.co.jp/",
@@ -285,16 +293,16 @@
   "cloudRun": true,
   "retentionStart": "2023-11-28",
   "newsDiscovery": {
-    "lastAttemptAt": "2026-11-28T03:55:18+00:00",
+    "lastAttemptAt": "2026-11-28T13:03:15+00:00",
     "feedCount": 9,
     "successfulFeeds": 9,
     "successfulArchivePages": 1,
     "newsCandidates": 1875,
     "newsArticlesChecked": 70,
     "deferredNewsArticles": 0,
-    "officialFetches": 48,
-    "confirmedOfficialAnnouncements": 435,
-    "pendingNewsArticles": 1134,
+    "officialFetches": 73,
+    "confirmedOfficialAnnouncements": 440,
+    "pendingNewsArticles": 1133,
     "skippedReviewedArticles": 26,
     "archiveCursors": {
       "Security NEXT 月別記事": [
@@ -337,7 +345,7 @@
       ]
     },
     "tdnet": {
-      "lastAttemptAt": "2026-11-28T03:57:24+00:00",
+      "lastAttemptAt": "2026-11-28T13:06:22+00:00",
       "listPagesChecked": 4,
       "documentsChecked": 20,
       "pendingListPages": 0,
@@ -346,9 +354,9 @@
   },
   "automaticSummaries": {
     "ready": 79,
-    "partial": 194,
-    "pending": 136,
-    "fetchFailed": 45
+    "partial": 197,
+    "pending": 138,
+    "fetchFailed": 47
   },
   "aiSummary": {
     "status": "active",
@@ -356,11 +364,11 @@
     "requestsThisRun": 5,
     "requestsLast24Hours": 15,
     "cachedSources": 147,
-    "acceptedSources": 0,
-    "noMatchingSources": 0,
-    "failedSources": 5,
-    "deferredSources": 121,
-    "lastError": "ungrounded_output",
+    "acceptedSources": 2,
+    "noMatchingSources": 1,
+    "failedSources": 2,
+    "deferredSources": 124,
+    "lastError": "irrelevant_count",
     "dailySafetyLimit": 100,
     "runSafetyLimit": 5
   },
@@ -384,10 +392,10 @@
     "reopened": 14,
     "covered": 9,
     "fetch_failed": 102,
-    "needs_review": 506,
+    "needs_review": 505,
     "duplicate": 3
   },
   "reviewBoard": "data/coverage-review.md",
-  "unresolvedNewsCandidates": 1153,
+  "unresolvedNewsCandidates": 1152,
   "deferredNewsCandidates": 0
 }
